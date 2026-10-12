@@ -4,8 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RigFitRV - RV Clearance, Loop Fit & Toad Logistics Guides</title>
-  <meta name="description" content="Real-world RV logistics, low clearance warnings, and toad maneuverability for campground navigation.">
+  <meta name="description" content="Real-world RV logistics, low clearance warnings, pull-through site specs, and toad maneuverability for campground navigation.">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RigFitRV">
+  <meta property="og:title" content="RigFitRV - Ground-Truth Campground Logistics">
+  <meta property="og:description" content="Real-world RV clearance, loop fit, pull-through site specs, and toad maneuverability for campground navigation.">
+  <meta property="og:url" content="https://rigfitrv.github.io/">
+  <meta property="og:image" content="https://wadingpines.com/wp-content/uploads/2021/03/hero-bg.jpg">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
@@ -19,16 +28,43 @@
 </head>
 <body>
 
-  <!-- Universal Header Call Tag -->
-<div id="header-placeholder"></div>
-<script>
-  fetch('header.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('header-placeholder').innerHTML = data);
-</script>
+  <!-- Universal Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
 
   <div class="container">
     <div class="article-card">
+      
+      <!-- Areas of Expertise Callout Box -->
+      <div style="background-color: #f1f5f9; border-top: 4px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+        <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.25rem; color: #0f172a; text-align: center;">Our Core Ground-Truth Focus</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
+          
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🌲</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Clearance & Routes</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Verified overhead branch clearance, tree canopy warnings, and big-rig-safe approach routes.</p>
+          </div>
+
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🚗</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Toad & Staging</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Practical unhooking locations, front-office bottlenecks, and rear overflow staging areas.</p>
+          </div>
+
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">📐</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Rig-Fit & Site Selection</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Campsite backup angles, pull-through lengths, hill grades, and turnarounds for large rigs.</p>
+          </div>
+
+        </div>
+      </div>
+
       <h1>Travel with Confidence, Not Guesswork</h1>
       <p>Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
 
@@ -36,16 +72,28 @@
 
       <div style="display: grid; gap: 1.5rem; margin-top: 1.5rem;">
         
-        <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px;">
+        <!-- French Creek Card -->
+        <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff;">
+          <img src="https://wb3gck.com/wp-content/uploads/2020/07/french-creek-sp-july-2020.jpg" alt="Camper setup in wooded campsite at French Creek State Park" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;">
           <h3 style="margin-top: 0;">French Creek State Park (PA)</h3>
           <p>Hopewell Big Woods camping in Elverson, PA. Verified breakdown of Loop C big-rig friendliness, inner-loop tree canopy clearance, and toad unhooking areas.</p>
           <a href="french-creek-state-park.html" class="btn">View French Creek Guide →</a>
         </div>
 
-        <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px;">
+        <!-- The Great Divide Card -->
+        <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff;">
+          <img src="https://images.rvezy.com/uploads/campgrounds/e3bddf34-daf7-40cf-87be-de63257ebeec/2ad4bdff.jpeg" alt="Overlooking the lake and grounds at The Great Divide Campground" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;">
           <h3 style="margin-top: 0;">The Great Divide Campground (NJ)</h3>
           <p>Sussex County camping in Newton, NJ. Full specs on pull-through vs wooded sites, steep hill grade warnings, G20–G25 big-rig recommendations, and toad staging lots.</p>
           <a href="the-great-divide-campground.html" class="btn">View Great Divide Guide →</a>
+        </div>
+
+        <!-- Wading Pines Card -->
+        <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff;">
+          <img src="https://wadingpines.com/wp-content/uploads/2021/03/hero-bg.jpg" alt="Pine tree canopy along the Wading River at Wading Pines Camping Resort" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;">
+          <h3 style="margin-top: 0;">Wading Pines Camping Resort (NJ)</h3>
+          <p>Pine Barrens camping along the Wading River in Chatsworth, NJ. Ground-truth guidance on approach routes, overhead pitch pine clearance, 50-amp pull-through pads, and toad staging options.</p>
+          <a href="wading-pines-campground.html" class="btn">View Wading Pines Guide →</a>
         </div>
 
       </div>
@@ -61,13 +109,13 @@
     </div>
   </div>
 
-  <!-- Universal Footer Call Tag -->
-<div id="footer-placeholder"></div>
-<script>
-  fetch('footer.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('footer-placeholder').innerHTML = data);
-</script>
+  <!-- Universal Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
 
 </body>
 </html>
