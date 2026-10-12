@@ -22,17 +22,13 @@
 </head>
 <body>
 
-  <header>
-    <div class="header-container">
-      <div class="logo">
-        <a href="index.html">🚐 RigFitRV</a>
-      </div>
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="submit.html">Submit Intelligence</a>
-      </nav>
-    </div>
-  </header>
+  <!-- Universal Header Call Tag -->
+<div id="header-placeholder"></div>
+<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => document.getElementById('header-placeholder').innerHTML = data);
+</script>
 
   <div class="container">
     <div class="article-card" style="text-align: center; padding: 3rem 1.5rem;">
