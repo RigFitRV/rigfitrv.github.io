@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rigfit.github.io/sitemap.xml
+Sitemap: https://rigfitrv.github.io/sitemap.xml
