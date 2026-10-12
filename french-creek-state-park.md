@@ -18,7 +18,7 @@ Whether you are mapping out a weekend getaway or deciding if your specific Class
 ## 🏕️ Campground Overview & Atmosphere
 French Creek’s campground is heavily wooded, offering a classic Pennsylvania state park ambiance with plenty of shade. While this canopy is wonderful during hot summer afternoons, it creates narrow lanes and tight turning radiuses. The campground is split into distinct loops, meaning your experience will vary drastically depending on which loop your site is assigned to.
 
-![Wooded campsite setup showing the dense canopy and tight side clearances typical of state park loops.](https://roamingnelsons.com/wp-content/uploads/2025/02/fc-our-site-1.jpg)
+![Camper trailer set up on a wooded campsite at French Creek State Park surrounded by dense trees.](https://wb3gck.com/wp-content/uploads/2020/07/french-creek-sp-july-2020.jpg)
 
 ### Loop C: The Best Choice for Larger Rigs and Class Cs
 If you are driving a longer Class C or pulling a car behind you, **Loop C** is your safest bet. Satellite analysis and visitor reports confirm that Loop C features wider pad openings and more generous backup angles. You are much less likely to require multiple multi-point turns just to get aligned with your electric post.
