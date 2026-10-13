@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Great Divide Campground RV Guide - RigFitRV</title>
-  <meta name="description" content="Verified RV clearance, steep hill warnings, toad staging lots, and big-rig site recommendations for The Great Divide Campground in Newton, NJ.">
+  <meta name="description" content="Verified RV clearance, pull-through site specs, steep hill grade warnings, and toad staging logistics for The Great Divide Campground in Newton, NJ.">
   <link rel="stylesheet" href="../style.css">
 
   <!-- Custom Favicons -->
@@ -18,7 +17,7 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="RigFitRV">
   <meta property="og:title" content="The Great Divide Campground RV Guide - RigFitRV">
-  <meta property="og:description" content="Verified RV clearance, steep hill grade warnings, toad staging lots, and big-rig site recommendations for The Great Divide Campground in Newton, NJ.">
+  <meta property="og:description" content="Verified RV clearance, pull-through site specs, steep hill grade warnings, and toad staging logistics for The Great Divide Campground in Newton, NJ.">
   <meta property="og:url" content="https://rigfitrv.github.io/c/the-great-divide-campground.html">
   <meta property="og:image" content="https://images.rvezy.com/uploads/campgrounds/e3bddf34-daf7-40cf-87be-de63257ebeec/2ad4bdff.jpeg">
 
@@ -32,117 +31,61 @@
     gtag('config', 'G-TV8S962CRT');
   </script>
 </head>
-   
-<body>
 
-<!-- Universal Header -->
-<div id="header-placeholder"></div>
-<script>
-  fetch('../header.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('header-placeholder').innerHTML = data);
-</script>
+<body data-campground-id="the-great-divide-campground">
+
+  <!-- Universal Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('../header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
 
   <div class="container">
     <div class="article-card">
 
-      <h1>The Great Divide Campground RV Guide: Rig Clearance, Site Fit & Toad Logistics</h1>
+      <h1 id="camp-title">The Great Divide Campground RV Guide: Rig Clearance, Loop Fit & Toad Maneuverability</h1>
 
-      <table class="campground-info-table">
-  <tr>
-    <td>📍 Physical Address</td>
-    <td>68 Route 519, Newton, NJ 07860</td>
-  </tr>
-  <tr>
-    <td>🌐 GPS Coordinates</td>
-    <td><code>41.0825° N, 74.7708° W</code></td>
-  </tr>
-  <tr>
-    <td>📞 Phone Number</td>
-    <td><a href="tel:9733837462">(973) 383-7462</a></td>
-  </tr>
-  <tr>
-    <td>🔗 Official Website</td>
-    <td><a href="https://campthegreatdivide.com" target="_blank" rel="noopener">Campthegreatdivide.com</a></td>
-  </tr>
-</table>
-
-      <p>Located in rural Sussex County in Newton, New Jersey, <strong>The Great Divide Campground</strong> is a high-energy, family-friendly private campground known for themed weekend events and live concerts. However, navigating the local access roads and tackling internal hill grades with a motorhome or towed vehicle requires specific logistical awareness.</p>
-
-      <p>Here is our verified ground-level breakdown to help you navigate navigation approaches, toad unhooking, terrain incline challenges, and site selection.</p>
+      <!-- Location & Contact Table (Populated dynamically from JSON) -->
+      <table class="campground-info-table" id="camp-info-table"></table>
 
       <hr>
 
       <h2>🚚 The Quick Rig-Fit Scorecard</h2>
-      <div class="scorecard">
-        <ul>
-          <li><strong>Recommended Max Rig Length:</strong> Up to 45 ft (Large Class A sites available)</li>
-          <li><strong>Toad / Towed Vehicle Friendliness:</strong> High (Dedicated staging lot just past the entrance gate)</li>
-          <li><strong>Grade / Terrain Warning:</strong> Steep hill climb required to access campsite loops</li>
-          <li><strong>Best Big-Rig Sites:</strong> Sites G20 through G25 (Recommended for large Class A coaches & motorhomes)</li>
-          <li><strong>Atmosphere:</strong> Very family-friendly and event-focused (not ideal for quiet, secluded trips)</li>
-        </ul>
-      </div>
+      <div class="scorecard" id="camp-scorecard"></div>
 
       <hr>
 
-      <h2>🛣️ Navigation & Approach Route</h2>
-      <p>Standard GPS navigation can take larger rigs down tight local cuts. The verified approach route for motorhomes and towed rigs is:</p>
-      <ul>
-        <li>From <strong>US-206</strong>, take <strong>Springdale Greendell Rd</strong>.</li>
-        <li>Turn onto <strong>Huntsville Rd</strong>, which transitions directly into <strong>Phillips Rd</strong> leading into the campground entrance.</li>
-      </ul>
-
-      <div class="alert-box">
-        <strong>⚠️ Steep Hill Grade Warning:</strong> Accessing all campsite loops inside the park requires climbing a noticeably steep hill after passing the main entrance. Ensure your transmission, tow hitch, and brakes are ready before making the climb, especially if towing heavy.
-      </div>
+      <h2>🏕️ Campground Overview & Atmosphere</h2>
+      <div id="camp-overview"></div>
 
       <hr>
 
-      <h2>🚗 Toad Unhook Strategy</h2>
-      <p>Do not attempt to pull your towed vehicle up the internal hill or through the loop turns while unhooked:</p>
-      <ul>
-        <li>Drop your toad at the <strong>main office parking area located just past the entrance gate</strong>.</li>
-        <li>This area provides ample room and staging space to safely disconnect your tow bar or dolly before attempting the steep internal hill climb and backing into your site pad.</li>
-      </ul>
-
-      <hr>
-
-      <h2>🏕️ Campground Overview & Best Sites</h2>
-
-      <img src="https://images.rvezy.com/uploads/campgrounds/e3bddf34-daf7-40cf-87be-de63257ebeec/2ad4bdff.jpeg" alt="View across the lake toward the grounds at The Great Divide Campground in Newton NJ">
-
-      <h3>Large Rig Recommendations (Class A & Big Class C)</h3>
-      <p>If you are driving a large Class A coach or a long Class C rig, target <strong>Sites G20 through G25</strong>. These sites provide superior pad length, better backup geometry, and cleaner overhead clearance compared to tighter wooded back-in loops.</p>
-
-      <h3>Atmosphere & Weekend Noise Expectation</h3>
-      <p>The Great Divide is famous for its vibrant community atmosphere, hosting <strong>weekend concert events and rotating weekly themes</strong>. While it is exceptional for families and kids, travelers seeking solitude or quiet deep-woods relaxation should plan accordingly, as weekend activity remains lively throughout the day and evening.</p>
-
-      <hr>
-
-      <h2>🗺️ Campground Layout Map</h2>
-      <p>Cross-reference site numbers G20–G25, the front entrance gate unhooking lot, and the main office location on the official map:</p>
-
-      <img src="https://campthegreatdivide.com/wp-content/themes/greatdivide/images/map.png" alt="Official layout map of The Great Divide Campground showing sites G20 through G25, office gate, and roads">
+      <h2>🚗 Toad Unhook & Staging Strategy</h2>
+      <div id="camp-toad-strategy"></div>
 
       <hr>
 
       <h2>💬 RVer Community Intelligence: Help Us Keep This Updated!</h2>
-      <p><em>Have you stayed at The Great Divide Campground recently? Encountered a low branch or have tips for navigating the hill grade?</em></p>
+      <p><em>Have you stayed here recently? Encountered a low branch or have tips for navigating the loops?</em></p>
 
-      <a href="submit.html" class="btn">👉 Submit a Quick Rig-Fit Update</a>
-      <a href="submit.html" class="btn btn-secondary" style="margin-left: 10px;">+ Request / Submit Another Campground</a>
+      <a href="../submit.html" class="btn">👉 Submit a Quick Rig-Fit Update</a>
+      <a href="../submit.html" class="btn btn-secondary" style="margin-left: 10px;">+ Request / Submit Another Campground</a>
 
     </div>
   </div>
 
-<!-- Universal Footer -->
-<div id="footer-placeholder"></div>
-<script>
-  fetch('../footer.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('footer-placeholder').innerHTML = data);
-</script>
+  <!-- Universal Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('../footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- Single-Point Data Loader Script -->
+  <script src="../js/campground.js"></script>
 
 </body>
 </html>
