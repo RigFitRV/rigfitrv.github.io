@@ -40,6 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Populate Toad Unhook Strategy
+      const toadStrategy = document.getElementById('camp-toad-strategy');
+if (toadStrategy && data.toadStrategy) {
+  toadStrategy.innerHTML = `<p>${data.toadStrategy}</p>`;
+}
       const overview = document.getElementById('camp-overview');
 if (overview && data.content) {
   overview.innerHTML = `
