@@ -221,3 +221,47 @@ footer {
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+/* Campground Quick Contact & Location Table */
+.campground-info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.campground-info-table tr {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.campground-info-table tr:last-child {
+  border-bottom: none;
+}
+
+.campground-info-table td {
+  padding: 0.85rem 1.25rem;
+  font-size: 0.95rem;
+  color: #334155;
+  vertical-align: middle;
+}
+
+.campground-info-table td:first-child {
+  font-weight: 600;
+  color: #0f172a;
+  width: 32%;
+  background-color: #f1f5f9;
+}
+
+.campground-info-table a {
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.campground-info-table a:hover {
+  color: #1d4ed8;
+}
