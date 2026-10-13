@@ -17,10 +17,73 @@
   <meta property="og:image" content="https://wadingpines.com/wp-content/uploads/2021/03/hero-bg.jpg">
 
   <!-- Custom Favicons -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+  <!-- Leaflet CSS for Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    /* Homepage Map Styling */
+    #homepage-map {
+      height: 420px;
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      margin: 1rem 0 2rem 0;
+      z-index: 1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    /* Popup Card Layout */
+    .leaflet-popup-content-wrapper {
+      padding: 0.5rem;
+      border-radius: 8px;
+    }
+    .leaflet-popup-content {
+      margin: 8px 12px;
+      width: 300px !important;
+    }
+    .map-popup-card {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .map-popup-thumb {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+      border: 1px solid #cbd5e1;
+    }
+    .map-popup-info {
+      flex: 1;
+    }
+    .map-popup-info h3 {
+      margin: 0 0 4px 0;
+      font-size: 0.95rem;
+      color: #0f172a;
+      line-height: 1.25;
+    }
+    .map-popup-info p {
+      font-size: 0.8rem;
+      color: #475569;
+      margin: 0 0 8px 0;
+      line-height: 1.3;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .map-popup-info .btn {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+    }
+  </style>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
@@ -74,198 +137,22 @@
       <h1>Travel with Confidence, Not Guesswork</h1>
       <p>Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
 
-<h2>Featured Campground Guides</h2>
+      <!-- SECTION 1: INTERACTIVE MAP -->
+      <section style="margin-top: 2rem;">
+        <h2>🗺️ Verified RV Routing Map</h2>
+        <p>Click any map pin to preview clearance data, toad staging strategy, and guide links:</p>
 
-<!-- Dynamic Campground Cards Container -->
-<div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1.5rem;">
-  <!-- Loading Placeholder State -->
-  <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
-</div>
+        <!-- Interactive Map Canvas -->
+        <div id="homepage-map"></div>
+      </section>
 
-<script>
-  // Configuration Setting: Limit number of cards shown on the homepage
-  const MAX_HOMEPAGE_CARDS = 3;
-
-  fetch('data/campgrounds.json')
-    .then(response => {
-      if (!response.ok) throw new Error('Failed to load campground database');
-      return response.json();
-    })
-    .then(campgrounds => {
-      const container = document.getElementById('featured-cards-container');
-
-      // 1. Filter for featured/active campgrounds
-      // 2. Sort by 'addedDate' (newest first) or fallback to array index
-      // 3. Slice to only show the top 3 (MAX_HOMEPAGE_CARDS)
-      const latestCampgrounds = campgrounds
-        .filter(c => c.featured !== false)
-        .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
-        .slice(0, MAX_HOMEPAGE_CARDS);
-
-      if (latestCampgrounds.length === 0) {
-        container.innerHTML = '<p>No campgrounds currently featured.</p>';
-        return;
-      }
-
-     <!-- Leaflet CSS for Map -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-
-<style>
-  /* Homepage Map Styling */
-  #homepage-map {
-    height: 420px;
-    width: 100%;
-    border-radius: 8px;
-    border: 1px solid #e2e8f0;
-    margin: 1rem 0 2rem 0;
-    z-index: 1;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  }
-
-  /* Popup Card Layout */
-  .leaflet-popup-content-wrapper {
-    padding: 0.5rem;
-    border-radius: 8px;
-  }
-  .leaflet-popup-content {
-    margin: 8px 12px;
-    width: 300px !important;
-  }
-  .map-popup-card {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-  }
-  .map-popup-thumb {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 6px;
-    flex-shrink: 0;
-    border: 1px solid #cbd5e1;
-  }
-  .map-popup-info {
-    flex: 1;
-  }
-  .map-popup-info h3 {
-    margin: 0 0 4px 0;
-    font-size: 0.95rem;
-    color: #0f172a;
-    line-height: 1.25;
-  }
-  .map-popup-info p {
-    font-size: 0.8rem;
-    color: #475569;
-    margin: 0 0 8px 0;
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .map-popup-info .btn {
-    display: inline-block;
-    padding: 0.25rem 0.5rem;
-    font-size: 0.75rem;
-  }
-</style>
-
-<!-- SECTION 1: INTERACTIVE MAP -->
-<section>
-  <h2>🗺️ Verified RV Routing Map</h2>
-  <p>Click any map pin to preview clearance data, toad staging strategy, and guide links:</p>
-
-  <!-- Interactive Map Canvas -->
-  <div id="homepage-map"></div>
-</section>
-
-<!-- SECTION 2: FEATURED CARDS CONTAINER -->
-<section>
-  <h2>Featured Campground Guides</h2>
-  <div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1rem;">
-    <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
-  </div>
-</section>
-
-<!-- Leaflet JS Library -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-<!-- Unified Script for Map & Featured Cards -->
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const MAX_HOMEPAGE_CARDS = 3;
-
-    // 1. Initialize Map
-    const map = L.map('homepage-map').setView([40.25, -74.90], 8);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    // 2. Fetch Database once to populate BOTH Map & Cards
-    fetch('data/campgrounds.json')
-      .then(response => {
-        if (!response.ok) throw new Error('Database fetch failed');
-        return response.json();
-      })
-      .then(campgrounds => {
-        
-        // --- A. POPULATE MAP MARKERS ---
-        const mapBounds = [];
-        campgrounds.forEach(c => {
-          if (c.lat && c.lng) {
-            const marker = L.marker([c.lat, c.lng]).addTo(map);
-            const imgPath = c.image || 'favicon-96x96.png';
-            
-            const popupContent = `
-              <div class="map-popup-card">
-                <img src="${imgPath}" alt="${c.name}" class="map-popup-thumb" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
-                <div class="map-popup-info">
-                  <h3>${c.name} (${c.state})</h3>
-                  <p>${c.summary}</p>
-                  <a href="c/${c.id}.html" class="btn">View Full Guide →</a>
-                </div>
-              </div>
-            `;
-            marker.bindPopup(popupContent);
-            mapBounds.push([c.lat, c.lng]);
-          }
-        });
-
-        // Fit map zoom around active campgrounds
-        if (mapBounds.length > 0) {
-          map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 });
-        }
-
-        // --- B. POPULATE FEATURED CARDS ---
-        const cardsContainer = document.getElementById('featured-cards-container');
-        const latestCampgrounds = campgrounds
-          .filter(c => c.featured !== false)
-          .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
-          .slice(0, MAX_HOMEPAGE_CARDS);
-
-        if (latestCampgrounds.length === 0) {
-          cardsContainer.innerHTML = '<p>No campgrounds currently featured.</p>';
-          return;
-        }
-
-        cardsContainer.innerHTML = latestCampgrounds.map(c => `
-          <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
-            <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
-            <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
-            <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
-            <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
-          </div>
-        `).join('');
-      })
-      .catch(error => {
-        console.error('Error loading homepage content:', error);
-        document.getElementById('featured-cards-container').innerHTML = 
-          '<p style="color: #ef4444;">Unable to load campground content right now.</p>';
-      });
-  });
-</script>
+      <!-- SECTION 2: FEATURED CARDS CONTAINER -->
+      <section style="margin-top: 2rem;">
+        <h2>Featured Campground Guides</h2>
+        <div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1rem;">
+          <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
+        </div>
+      </section>
 
       <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 2.5rem; text-align: center;">
         <h2 style="color: #ffffff; margin-top: 0;">Have Ground-Truth Intelligence?</h2>
@@ -284,6 +171,86 @@
     fetch('footer.html')
       .then(response => response.text())
       .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- Leaflet JS Library -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Unified Script for Map & Featured Cards -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const MAX_HOMEPAGE_CARDS = 3;
+
+      // 1. Initialize Map
+      const map = L.map('homepage-map').setView([40.25, -74.90], 8);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      // 2. Fetch Database once to populate BOTH Map & Cards
+      fetch('data/campgrounds.json')
+        .then(response => {
+          if (!response.ok) throw new Error('Database fetch failed');
+          return response.json();
+        })
+        .then(campgrounds => {
+          
+          // --- A. POPULATE MAP MARKERS ---
+          const mapBounds = [];
+          campgrounds.forEach(c => {
+            if (c.lat && c.lng) {
+              const marker = L.marker([c.lat, c.lng]).addTo(map);
+              const imgPath = c.image || 'favicon-96x96.png';
+              
+              const popupContent = `
+                <div class="map-popup-card">
+                  <img src="${imgPath}" alt="${c.name}" class="map-popup-thumb" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
+                  <div class="map-popup-info">
+                    <h3>${c.name} (${c.state})</h3>
+                    <p>${c.summary}</p>
+                    <a href="c/${c.id}.html" class="btn">View Full Guide →</a>
+                  </div>
+                </div>
+              `;
+              marker.bindPopup(popupContent);
+              mapBounds.push([c.lat, c.lng]);
+            }
+          });
+
+          // Fit map zoom around active campgrounds
+          if (mapBounds.length > 0) {
+            map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 });
+          }
+
+          // --- B. POPULATE FEATURED CARDS ---
+          const cardsContainer = document.getElementById('featured-cards-container');
+          const latestCampgrounds = campgrounds
+            .filter(c => c.featured !== false)
+            .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
+            .slice(0, MAX_HOMEPAGE_CARDS);
+
+          if (latestCampgrounds.length === 0) {
+            cardsContainer.innerHTML = '<p>No campgrounds currently featured.</p>';
+            return;
+          }
+
+          cardsContainer.innerHTML = latestCampgrounds.map(c => `
+            <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+              <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
+              <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
+              <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
+              <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
+            </div>
+          `).join('');
+        })
+        .catch(error => {
+          console.error('Error loading homepage content:', error);
+          document.getElementById('featured-cards-container').innerHTML = 
+            '<p style="color: #ef4444;">Unable to load campground content right now.</p>';
+        });
+    });
   </script>
 
 </body>
