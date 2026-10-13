@@ -26,15 +26,55 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
   <style>
-    /* Homepage Map Styling */
+    /* Map Wrapper to House Minimal Top Bar */
+    .map-wrapper {
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 1rem 0 2rem 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      background: #ffffff;
+    }
+
+    /* Minimal Map Header / Filter Bar */
+    .map-filter-bar {
+      background-color: #1e293b; /* Matches universal site header tone */
+      color: #ffffff;
+      padding: 0.5rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .map-filter-bar label {
+      font-weight: 500;
+      color: #cbd5e1;
+    }
+
+    .map-filter-select {
+      background: #0f172a;
+      color: #ffffff;
+      border: 1px solid #475569;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .map-filter-select:hover {
+      border-color: #94a3b8;
+    }
+
+    /* Homepage Map Canvas */
     #homepage-map {
       height: 420px;
       width: 100%;
-      border-radius: 8px;
-      border: 1px solid #e2e8f0;
-      margin: 1rem 0 2rem 0;
       z-index: 1;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      border: none;
     }
 
     /* Popup Card Layout */
@@ -137,13 +177,38 @@
       <h1>Travel with Confidence, Not Guesswork</h1>
       <p>Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
 
-      <!-- SECTION 1: INTERACTIVE MAP -->
+      <!-- SECTION 1: INTERACTIVE MAP WITH EMBEDDED FILTER BAR -->
       <section style="margin-top: 2rem;">
         <h2>🗺️ Verified RV Routing Map</h2>
         <p>Click any map pin to preview clearance data, toad staging strategy, and guide links:</p>
 
-        <!-- Interactive Map Canvas -->
-        <div id="homepage-map"></div>
+        <div class="map-wrapper">
+          <!-- Minimal Top Filter Bar -->
+          <div class="map-filter-bar">
+            <div>
+              <span style="margin-right: 6px;">📍</span><strong>Quick Filter:</strong>
+            </div>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+              <div>
+                <label for="state-select">State:</label>
+                <select id="state-select" class="map-filter-select">
+                  <option value="ALL">All States</option>
+                  <!-- Populated dynamically by JavaScript -->
+                </select>
+              </div>
+              <div>
+                <label for="rig-select">Rig Fit:</label>
+                <select id="rig-select" class="map-filter-select">
+                  <option value="ALL">All Lengths</option>
+                  <option value="BIG">Big-Rig Optimized (40ft+)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Map Canvas -->
+          <div id="homepage-map"></div>
+        </div>
       </section>
 
       <!-- SECTION 2: FEATURED CARDS CONTAINER -->
@@ -176,7 +241,7 @@
   <!-- Leaflet JS Library -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-  <!-- Unified Script for Map & Featured Cards -->
+  <!-- Unified Script for Map, Dynamic Filters & Featured Cards -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const MAX_HOMEPAGE_CARDS = 3;
@@ -189,67 +254,103 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
-      // 2. Fetch Database once to populate BOTH Map & Cards
+      let markersLayer = L.layerGroup().addTo(map);
+      let allCampgrounds = [];
+
+      // 2. Fetch Database once
       fetch('data/campgrounds.json')
         .then(response => {
           if (!response.ok) throw new Error('Database fetch failed');
           return response.json();
         })
         .then(campgrounds => {
+          allCampgrounds = campgrounds;
+
+          // --- AUTOMATICALLY POPULATE STATE DROPDOWN ---
+          const stateSelect = document.getElementById('state-select');
+          const uniqueStates = [...new Set(campgrounds.map(c => c.state))].sort();
           
-          // --- A. POPULATE MAP MARKERS ---
-          const mapBounds = [];
-          campgrounds.forEach(c => {
-            if (c.lat && c.lng) {
-              const marker = L.marker([c.lat, c.lng]).addTo(map);
-              const imgPath = c.image || 'favicon-96x96.png';
-              
-              const popupContent = `
-                <div class="map-popup-card">
-                  <img src="${imgPath}" alt="${c.name}" class="map-popup-thumb" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
-                  <div class="map-popup-info">
-                    <h3>${c.name} (${c.state})</h3>
-                    <p>${c.summary}</p>
-                    <a href="c/${c.id}.html" class="btn">View Full Guide →</a>
-                  </div>
-                </div>
-              `;
-              marker.bindPopup(popupContent);
-              mapBounds.push([c.lat, c.lng]);
-            }
-          });
+          stateSelect.innerHTML = '<option value="ALL">All States</option>' + 
+            uniqueStates.map(state => `<option value="${state}">${state}</option>`).join('');
 
-          // Fit map zoom around active campgrounds
-          if (mapBounds.length > 0) {
-            map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 });
-          }
-
-          // --- B. POPULATE FEATURED CARDS ---
-          const cardsContainer = document.getElementById('featured-cards-container');
-          const latestCampgrounds = campgrounds
-            .filter(c => c.featured !== false)
-            .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
-            .slice(0, MAX_HOMEPAGE_CARDS);
-
-          if (latestCampgrounds.length === 0) {
-            cardsContainer.innerHTML = '<p>No campgrounds currently featured.</p>';
-            return;
-          }
-
-          cardsContainer.innerHTML = latestCampgrounds.map(c => `
-            <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
-              <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
-              <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
-              <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
-              <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
-            </div>
-          `).join('');
+          renderUI(); // Initial render with populated states
         })
         .catch(error => {
           console.error('Error loading homepage content:', error);
           document.getElementById('featured-cards-container').innerHTML = 
             '<p style="color: #ef4444;">Unable to load campground content right now.</p>';
         });
+
+      // 3. Render Function (Handles both Map Markers and Cards based on filters)
+      function renderUI() {
+        const selectedState = document.getElementById('state-select').value;
+        const selectedRig = document.getElementById('rig-select').value;
+
+        // Clear existing map pins
+        markersLayer.clearLayers();
+
+        // Apply filters
+        const filtered = allCampgrounds.filter(c => {
+          if (selectedState !== 'ALL' && c.state !== selectedState) return false;
+          if (selectedRig === 'BIG') {
+            const maxLen = c.scorecard?.maxRigLength || '';
+            if (!maxLen.includes('40') && !maxLen.includes('45') && !maxLen.includes('60')) return false;
+          }
+          return true;
+        });
+
+        // --- A. POPULATE MAP MARKERS ---
+        const mapBounds = [];
+        filtered.forEach(c => {
+          if (c.lat && c.lng) {
+            const marker = L.marker([c.lat, c.lng]);
+            const imgPath = c.image || 'favicon-96x96.png';
+            
+            const popupContent = `
+              <div class="map-popup-card">
+                <img src="${imgPath}" alt="${c.name}" class="map-popup-thumb" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
+                <div class="map-popup-info">
+                  <h3>${c.name} (${c.state})</h3>
+                  <p>${c.summary}</p>
+                  <a href="c/${c.id}.html" class="btn">View Full Guide →</a>
+                </div>
+              </div>
+            `;
+            marker.bindPopup(popupContent);
+            markersLayer.addLayer(marker);
+            mapBounds.push([c.lat, c.lng]);
+          }
+        });
+
+        if (mapBounds.length > 0) {
+          map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 });
+        }
+
+        // --- B. POPULATE FEATURED CARDS ---
+        const cardsContainer = document.getElementById('featured-cards-container');
+        const latestCampgrounds = filtered
+          .filter(c => c.featured !== false)
+          .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
+          .slice(0, MAX_HOMEPAGE_CARDS);
+
+        if (latestCampgrounds.length === 0) {
+          cardsContainer.innerHTML = '<p style="color: #64748b; font-style: italic;">No campgrounds match the selected filter criteria.</p>';
+          return;
+        }
+
+        cardsContainer.innerHTML = latestCampgrounds.map(c => `
+          <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+            <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
+            <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
+            <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
+            <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
+          </div>
+        `).join('');
+      }
+
+      // 4. Attach Event Listeners to Filters
+      document.getElementById('state-select').addEventListener('change', renderUI);
+      document.getElementById('rig-select').addEventListener('change', renderUI);
     });
   </script>
 
