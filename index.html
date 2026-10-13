@@ -42,7 +42,72 @@
       .then(data => document.getElementById('header-placeholder').innerHTML = data);
   </script>
 
-  <!-- Leaflet CSS for Map -->
+  <div class="container">
+    <div class="article-card">
+      
+      <!-- Areas of Expertise Callout Box -->
+      <div style="background-color: #f1f5f9; border-top: 4px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+        <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.25rem; color: #0f172a; text-align: center;">Our Core Ground-Truth Focus</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
+          
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🌲</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Clearance & Routes</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Verified overhead branch clearance, tree canopy warnings, and big-rig-safe approach routes.</p>
+          </div>
+
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🚗</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Toad & Staging</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Practical unhooking locations, front-office bottlenecks, and rear overflow staging areas.</p>
+          </div>
+
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">📐</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Rig-Fit & Site Selection</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Campsite backup angles, pull-through lengths, hill grades, and turnarounds for large rigs.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <h1>Travel with Confidence, Not Guesswork</h1>
+      <p>Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
+
+<h2>Featured Campground Guides</h2>
+
+<!-- Dynamic Campground Cards Container -->
+<div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1.5rem;">
+  <!-- Loading Placeholder State -->
+  <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
+</div>
+
+<script>
+  // Configuration Setting: Limit number of cards shown on the homepage
+  const MAX_HOMEPAGE_CARDS = 3;
+
+  fetch('data/campgrounds.json')
+    .then(response => {
+      if (!response.ok) throw new Error('Failed to load campground database');
+      return response.json();
+    })
+    .then(campgrounds => {
+      const container = document.getElementById('featured-cards-container');
+
+      // 1. Filter for featured/active campgrounds
+      // 2. Sort by 'addedDate' (newest first) or fallback to array index
+      // 3. Slice to only show the top 3 (MAX_HOMEPAGE_CARDS)
+      const latestCampgrounds = campgrounds
+        .filter(c => c.featured !== false)
+        .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
+        .slice(0, MAX_HOMEPAGE_CARDS);
+
+      if (latestCampgrounds.length === 0) {
+        container.innerHTML = '<p>No campgrounds currently featured.</p>';
+        return;
+      }
+
+     <!-- Leaflet CSS for Map -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
 <style>
@@ -200,88 +265,6 @@
           '<p style="color: #ef4444;">Unable to load campground content right now.</p>';
       });
   });
-</script>
-
-  <div class="container">
-    <div class="article-card">
-      
-      <!-- Areas of Expertise Callout Box -->
-      <div style="background-color: #f1f5f9; border-top: 4px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-        <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.25rem; color: #0f172a; text-align: center;">Our Core Ground-Truth Focus</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
-          
-          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
-            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🌲</div>
-            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Clearance & Routes</h3>
-            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Verified overhead branch clearance, tree canopy warnings, and big-rig-safe approach routes.</p>
-          </div>
-
-          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
-            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🚗</div>
-            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Toad & Staging</h3>
-            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Practical unhooking locations, front-office bottlenecks, and rear overflow staging areas.</p>
-          </div>
-
-          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
-            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">📐</div>
-            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Rig-Fit & Site Selection</h3>
-            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Campsite backup angles, pull-through lengths, hill grades, and turnarounds for large rigs.</p>
-          </div>
-
-        </div>
-      </div>
-
-      <h1>Travel with Confidence, Not Guesswork</h1>
-      <p>Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
-
-<h2>Featured Campground Guides</h2>
-
-<!-- Dynamic Campground Cards Container -->
-<div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1.5rem;">
-  <!-- Loading Placeholder State -->
-  <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
-</div>
-
-<script>
-  // Configuration Setting: Limit number of cards shown on the homepage
-  const MAX_HOMEPAGE_CARDS = 3;
-
-  fetch('data/campgrounds.json')
-    .then(response => {
-      if (!response.ok) throw new Error('Failed to load campground database');
-      return response.json();
-    })
-    .then(campgrounds => {
-      const container = document.getElementById('featured-cards-container');
-
-      // 1. Filter for featured/active campgrounds
-      // 2. Sort by 'addedDate' (newest first) or fallback to array index
-      // 3. Slice to only show the top 3 (MAX_HOMEPAGE_CARDS)
-      const latestCampgrounds = campgrounds
-        .filter(c => c.featured !== false)
-        .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
-        .slice(0, MAX_HOMEPAGE_CARDS);
-
-      if (latestCampgrounds.length === 0) {
-        container.innerHTML = '<p>No campgrounds currently featured.</p>';
-        return;
-      }
-
-      // Render the dynamic HTML cards
-      container.innerHTML = latestCampgrounds.map(c => `
-        <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
-          <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;" onerror="this.src='../favicon-96x96.png'; this.style.objectFit='contain';">
-          <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
-          <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
-          <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
-        </div>
-      `).join('');
-    })
-    .catch(error => {
-      console.error('Error loading campground cards:', error);
-      document.getElementById('featured-cards-container').innerHTML = 
-        '<p style="color: #ef4444;">Unable to load campground cards right now. Please check back shortly.</p>';
-    });
 </script>
 
       <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 2.5rem; text-align: center;">
