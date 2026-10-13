@@ -1,0 +1,81 @@
+[
+  {
+    "id": "french-creek-state-park",
+    "name": "French Creek State Park",
+    "state": "PA",
+    "city": "Elverson",
+    "featured": true,
+    "image": "https://wb3gck.com/wp-content/uploads/2020/07/french-creek-sp-july-2020.jpg",
+    "mapImage": "https://irp.cdn-website.com/aae2910b/dms3rep/multi/opt/FRCR_CampgroundMap-640w.png",
+    "address": "843 Park Rd, Elverson, PA 19520",
+    "gps": "40.2106° N, 75.7824° W",
+    "phone": "(610) 582-9680",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/FrenchCreekStatePark",
+    "summary": "Hopewell Big Woods camping in Elverson, PA. Verified breakdown of Loop C big-rig friendliness, inner-loop tree canopy clearance, and toad unhooking areas.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (strict site limitations apply)",
+      "toadFriendliness": "Moderate (unhooking recommended before inner loop entry)",
+      "treeClearance": "Moderate overhead canopy on inner loops (watch roof AC/solar)",
+      "bestBigRigLoops": "Loop C",
+      "bestSmallRigLoops": "Loops A & B"
+    },
+    "toadStrategy": "If you are towing a vehicle, do not drag your toad into the inner loops. Utilize the main registration/dump station parking area to drop your towed vehicle before proceeding back to your loop.",
+    "content": {
+      "overview": "French Creek’s campground is heavily wooded, offering a classic Pennsylvania state park ambiance with plenty of shade. While this canopy is wonderful during hot summer afternoons, it creates narrow lanes and tight turning radiuses.",
+      "loopC": "If you are driving a longer Class C or pulling a car behind you, Loop C is your safest bet. Loop C features wider pad openings and more generous backup angles.",
+      "loopsAB": "Loops A and B skew toward smaller travel trailers, pop-ups, and camper vans. The turnarounds at the loops' edges are tighter."
+    }
+  },
+  {
+    "id": "the-great-divide-campground",
+    "name": "The Great Divide Campground",
+    "state": "NJ",
+    "city": "Newton",
+    "featured": true,
+    "image": "https://images.rvezy.com/uploads/campgrounds/e3bddf34-daf7-40cf-87be-de63257ebeec/2ad4bdff.jpeg",
+    "address": "68 Route 519, Newton, NJ 07860",
+    "gps": "41.0825° N, 74.7708° W",
+    "phone": "(973) 383-7462",
+    "website": "https://campthegreatdivide.com",
+    "summary": "Sussex County camping in Newton, NJ. Full specs on pull-through vs wooded sites, steep hill grade warnings, G20–G25 big-rig recommendations, and toad staging lots.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft",
+      "toadFriendliness": "High (dedicated staging lot near office)",
+      "treeClearance": "Clear on main arterial routes; moderate canopy on back loops",
+      "bestBigRigLoops": "G20 – G25 Pull-Throughs",
+      "bestSmallRigLoops": "Wooded Back-In Loops"
+    },
+    "toadStrategy": "Disconnect at the main staging lot near the office before climbing the interior hill grade into assigned loops.",
+    "content": {
+      "overview": "Located in scenic Sussex County, The Great Divide combines open pull-through sections with wooded perimeter sites.",
+      "loopC": "G-Section features full hookups and 50-amp service with long pad lengths suitable for heavy rigs.",
+      "loopsAB": "Back wooded loops require navigating a brief steep grade."
+    }
+  },
+  {
+    "id": "wading-pines-campground",
+    "name": "Wading Pines Camping Resort",
+    "state": "NJ",
+    "city": "Chatsworth",
+    "featured": true,
+    "image": "wading-pines.jpg",
+    "address": "85 Godfrey Bridge Rd, Chatsworth, NJ 08019",
+    "gps": "39.7118° N, 74.5292° W",
+    "phone": "(609) 726-9001",
+    "website": "https://wadingpines.com",
+    "summary": "Pine Barrens camping along the Wading River in Chatsworth, NJ. Ground-truth guidance on approach routes, overhead pitch pine clearance, 50-amp pull-through pads, and toad staging options.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (select oversized pull-throughs up to 60 ft)",
+      "toadFriendliness": "High (multiple unhooking options)",
+      "treeClearance": "Moderate overhead pine branches along interior sandy lanes",
+      "bestBigRigLoops": "50-amp Pull-Throughs near entrance",
+      "bestSmallRigLoops": "Riverfront Back-Ins"
+    },
+    "toadStrategy": "Unhooking up front can be tight during peak weekend check-ins. Either unhook directly on your pull-through pad or bypass the gate to the rear corner overflow lot.",
+    "content": {
+      "overview": "Located deep in the New Jersey Pine Barrens along the Wading River.",
+      "loopC": "50-amp pull-through sites offer straight pull-in convenience.",
+      "loopsAB": "Inner wooded back-in loops feature soft sandy shoulders requiring leveling blocks."
+    }
+  }
+]
