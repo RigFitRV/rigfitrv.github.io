@@ -35,12 +35,12 @@
    
 <body>
 
-  <!-- Universal Header Call Tag -->
+<!-- Universal Header -->
 <div id="header-placeholder"></div>
 <script>
-  fetch('header.html')
+  fetch('../header.html')
     .then(response => response.text())
-    .then(data => document.getElementById('header-placeholder').innerHTML = data);
+    .then(data => document.getElementById('../header-placeholder').innerHTML = data);
 </script>
 
   <div class="container">
@@ -136,12 +136,12 @@
     </div>
   </div>
 
-  <!-- Universal Footer Call Tag -->
+<!-- Universal Footer -->
 <div id="footer-placeholder"></div>
 <script>
-  fetch('footer.html')
+  fetch('../footer.html')
     .then(response => response.text())
-    .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+    .then(data => document.getElementById('../footer-placeholder').innerHTML = data);
 </script>
 
 </body>
