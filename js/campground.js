@@ -41,28 +41,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Populate Toad Unhook Strategy
       const toadStrategy = document.getElementById('camp-toad-strategy');
-if (toadStrategy && data.toadStrategy) {
-  toadStrategy.innerHTML = `<p>${data.toadStrategy}</p>`;
-}
-      const overview = document.getElementById('camp-overview');
-if (overview && data.content) {
-  overview.innerHTML = `
-    ${data.image ? `<img src="${data.image}" alt="${data.name} Campsite" style="max-height: 380px; object-fit: cover; width: 100%; border-radius: 8px; margin-bottom: 1.5rem;">` : ''}
-    <p>${data.content.overview}</p>
-    
-    <h3>Big-Rig & Loop Guidance</h3>
-    <p>${data.content.loopC}</p>
-    
-    <h3>Tight Turns & Small Unit Loops</h3>
-    <p>${data.content.loopsAB}</p>
+      if (toadStrategy && data.toadStrategy) {
+        toadStrategy.innerHTML = `<p>${data.toadStrategy}</p>`;
+      }
 
-    ${data.mapImage ? `
-      <hr>
-      <h2>🗺️ Official Campground Layout Map</h2>
-      <img src="${data.mapImage}" alt="${data.name} Map" style="width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 1rem;">
-    ` : ''}
-  `;
-}
+      // Populate Overview & Images
+      const overview = document.getElementById('camp-overview');
+      if (overview && data.content) {
+        overview.innerHTML = `
+          ${data.image ? `<img src="${data.image}" alt="${data.name} Campsite" style="max-height: 380px; object-fit: cover; width: 100%; border-radius: 8px; margin-bottom: 1.5rem;">` : ''}
+          <p>${data.content.overview}</p>
+          
+          <h3>Big-Rig & Loop Guidance</h3>
+          <p>${data.content.loopC}</p>
+          
+          <h3>Tight Turns & Small Unit Loops</h3>
+          <p>${data.content.loopsAB}</p>
+
+          ${data.mapImage ? `
+            <hr>
+            <h2>🗺️ Official Campground Layout Map</h2>
+            <img src="${data.mapImage}" alt="${data.name} Map" style="width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 1rem;">
+          ` : ''}
+        `;
+      }
+
+      // INJECT JSON-LD SCHEMA FOR GOOGLE RICH RESULTS
+      injectCampgroundSchema(data);
+
     })
     .catch(err => console.error('Error loading campground data:', err));
 });
@@ -97,6 +103,3 @@ function injectCampgroundSchema(data) {
   script.text = JSON.stringify(schema);
   document.head.appendChild(script);
 }
-
-// Call this function inside your data fetch .then() block:
-// injectCampgroundSchema(currentCampgroundData);
