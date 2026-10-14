@@ -66,3 +66,37 @@ if (overview && data.content) {
     })
     .catch(err => console.error('Error loading campground data:', err));
 });
+
+// Automatically inject JSON-LD Schema for Google Rich Snippets
+function injectCampgroundSchema(data) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Campground",
+    "name": data.name,
+    "description": data.summary,
+    "url": window.location.href,
+    "telephone": data.phone || "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": data.address || "",
+      "addressLocality": data.city || "",
+      "addressRegion": data.state || "",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": data.lat,
+      "longitude": data.lng
+    },
+    "image": data.image ? `https://rigfitrv.com${data.image}` : "",
+    "sameAs": data.website || ""
+  };
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.text = JSON.stringify(schema);
+  document.head.appendChild(script);
+}
+
+// Call this function inside your data fetch .then() block:
+// injectCampgroundSchema(currentCampgroundData);
