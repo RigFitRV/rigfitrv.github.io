@@ -1,23 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core Pages -->
   <url>
-    <loc>https://rigfitrv.github.io/</loc>
+    <loc>https://rigfitrv.com/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://rigfitrv.github.io/C/french-creek-state-park.html</loc>
+    <loc>https://rigfitrv.com/map.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Campground Detail Guides -->
   <url>
-    <loc>https://rigfitrv.github.io/C/the-great-divide-campground.html</loc>
-    <priority>0.8</priority>
+    <loc>https://rigfitrv.com/c/pequea-creek-campground.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://rigfitrv.github.io/C/wading-pines-campground.html</loc>
-    <priority>0.8</priority>
+    <loc>https://rigfitrv.com/c/french-creek-state-park.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://rigfitrv.github.io/submit.html</loc>
-    <priority>0.5</priority>
+    <loc>https://rigfitrv.com/c/parvin-state-park.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
+
+  <url>
+    <loc>https://rigfitrv.com/c/wharton-state-forest.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
