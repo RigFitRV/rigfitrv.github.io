@@ -217,7 +217,7 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
       return { ...park, distanceMiles: Math.round(miles) };
     })
     .sort((a, b) => a.distanceMiles - b.distanceMiles) // Sort closest first
-    .slice(0, 3); // Pick top 3 closest
+    .slice(0, 2); // Pick top 2 closest
 
   if (nearbyList.length === 0) return;
 
