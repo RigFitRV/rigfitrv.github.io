@@ -1,5 +1,52 @@
 [
  {
+    "id": "hickory-run-state-park",
+    "name": "Hickory Run State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "state": "PA",
+    "city": "White Haven",
+    "featured": true,
+    "lat": 41.0238,
+    "lng": -75.6865,
+    "image": "/images/hickory_run_photo.jpg",
+    "mapImage": "/images/hickory_run_map.jpg",
+    "address": "3613 State Route 534, White Haven, PA 18661",
+    "gps": "41.0238° N, 75.6865° W",
+    "phone": "(570) 443-0400",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/HickoryRunStatePark",
+    "summary": "Pocono mountain camping in White Haven, PA. Ground-truth breakdown of narrow SR 534 approach lanes, glacial boulder-lined pad entrances, inner loop tree canopy clearance, and dump station toad unhooking.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strict site limitations; select electric loops accommodate larger setups)",
+      "toadFriendliness": "Moderate (unhook at main registration lot or dump station before entering inner loops)",
+      "treeClearance": "Dense Pocono canopy; watch low-hanging hemlock/pine branches on loop turnarounds",
+      "bestBigRigLoops": "Sites 118–168 (Wider pads & electric hookups)",
+      "bestSmallRigLoops": "Non-Electric Rustic Loops (Narrower lanes & prominent boulder obstacles)"
+    },
+    "approach": {
+      "title": "Pocono Highway & Route Clearance Warning",
+      "text": "Approaching via Interstate 80 to State Route 534 is straightforward, but PA-534 narrows significantly as you enter park boundaries. Watch for soft shoulders, tight curves, and low-hanging tree branches along the approach road leading up to the main contact station."
+    },
+    "toadStrategy": "Large glacial boulders line many of the inner loop road edges and campsite entrances. Unhook your towed vehicle at the main contact station or dump station parking lot before maneuvering into assigned loops to avoid binding tow bars on tight turns.",
+    "recommendedGear": {
+      "title": "Essential Towing & Staging Gear",
+      "productName": "Roadmaster Falcon All-Terrain Tow Bar",
+      "reason": "Features freedom-latch release levers that allow you to easily unhook your toad even when bound at an awkward angle in tight boulder-framed staging areas.",
+      "affiliateUrl": "https://www.amazon.com/dp/B003VAX25C?tag=rigfitrv-20"
+    },
+    "content": {
+      "overview": "Hickory Run State Park lies in the western Poconos, known for its glacial boulder field and dense hemlock forests. Camping here offers classic wilderness seclusion, but navigating rigs among the natural rock outcroppings requires careful line selection.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Wooded Pocono mountain sites often feature unpaved gravel or soil pads with natural root protrusions. Modular interlocking blocks provide a stable pyramid base that won't slip or sink on soft forest ground.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "The modernized electric loop section (Sites 118–168) provides wider pad openings, cleaner backup angles, and fewer boulder obstructions near site entrances.",
+      "loopsAB": "Rustic, non-electric loops feature narrow one-way lanes flanked by mature hardwoods and prominent glacial boulders. Tail swing clearance must be monitored continuously when backing in."
+    }
+  },
+ {
     "id": "watkins-glen-state-park",
     "name": "Watkins Glen State Park",
     "ownertype": "State Park",
