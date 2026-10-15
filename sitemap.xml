@@ -9,13 +9,6 @@
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://rigfitrv.com/map.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <!-- Campground Detail Guides -->
   <url>
     <loc>https://rigfitrv.com/c/pequea-creek-campground.html</loc>
