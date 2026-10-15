@@ -2,6 +2,7 @@
   {
     "id": "pequea-creek-campground",
     "name": "Pequea Creek Campground",
+    "ownertype": "Private Campground",
     "addedDate": "2026-10-13",
     "state": "PA",
     "city": "Pequea",
@@ -32,6 +33,7 @@
   {
     "id": "french-creek-state-park",
     "name": "French Creek State Park",
+    "ownertype": "State Park",
     "addedDate": "2026-10-12",
     "state": "PA",
     "city": "Elverson",
@@ -62,6 +64,7 @@
   {
     "id": "the-great-divide-campground",
     "name": "The Great Divide Campground",
+    "ownertype": "Private Campground",
     "addedDate": "2026-10-13",
     "state": "NJ",
     "city": "Newton",
@@ -92,6 +95,7 @@
   {
     "id": "wading-pines-campground",
     "name": "Wading Pines Camping Resort",
+    "ownertype": "Private Campground",
     "addedDate": "2026-10-11",
     "state": "NJ",
     "city": "Chatsworth",
