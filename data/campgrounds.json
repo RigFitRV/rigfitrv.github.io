@@ -23,11 +23,21 @@
       "bestBigRigLoops": "Sites near the main office and wider hookup sections",
       "bestSmallRigLoops": "Creekfront back-in sites"
     },
+    "approach": {
+      "title": "Critical Approach & Low Clearance Warning",
+      "text": "There is a historic low covered bridge near the standard park entrance that must be avoided by most large RVs and motorhomes. Standard GPS apps will route you straight into this height restriction. Instead, enter via Bridge Valley Rd to Fox Hollow Rd and utilize the jughandle to safely enter the campground.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents low-bridge routing mistakes in Lancaster County by programming your exact rig height, length, and weight before calculating local approach roads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088K42X11?tag=rigfitrv-20"
+      }
+    },
     "toadStrategy": "The main office is located past a large section of campsites, but there is ample room to maneuver and turn around even with a toad vehicle attached.",
     "content": {
       "overview": "Pequea Creek Campground offers a scenic Lancaster County retreat right along the water. However, navigating your motorhome or towing a vehicle here requires strict attention to your approach route to avoid infrastructure hazards.",
       "loopC": "The access road in is tight and bumpy, but it does allow adequate physical width for large RVs as long as you take your time and watch your tail swing.",
-      "loopsAB": "<strong>Critical Routing Warning:</strong> There is a low covered bridge near the standard park entrance that must be avoided by most large RVs and motorhomes. Instead, enter via Bridge Valley Rd to Fox Hollow Rd and utilize the jughandle to safely enter the campground."
+      "loopsAB": "Creekfront and hillside back-in sites vary in width and depth; take care when positioning slides around mature trees."
     }
   },
   {
@@ -54,9 +64,19 @@
       "bestBigRigLoops": "Loop C",
       "bestSmallRigLoops": "Loops A & B"
     },
+    "approach": {
+      "title": "Park Access & Road Conditions",
+      "text": "Main arterial state park roads are well-paved and wide enough for two large units to pass safely. Watch for tight interior loop turns once inside the park boundary."
+    },
     "toadStrategy": "If you are towing a vehicle, do not drag your toad into the inner loops. Utilize the main registration/dump station parking area to drop your towed vehicle before proceeding back to your loop.",
     "content": {
-      "overview": "French Creek’s campground is heavily wooded, offering a classic Pennsylvania state park ambiance with plenty of shade. While this canopy is wonderful during hot summer afternoons, it creates narrow lanes and tight turning radiuses.",
+      "overview": "French Creek’s campground is heavily wooded, offering a classic Pennsylvania state park ambiance with plenty of shade. While this canopy is wonderful during hot summer afternoons, it creates narrow lanes and tight turning radiuses. Inner loop pads can be uneven, making precise side-to-side leveling essential.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Andersen Hitches Camper Leveler",
+        "reason": "State park sites often have sloping gravel and dirt pads. Curved levelers make independent, fine-tuned height adjustments fast and effortless without stacking blocks.",
+        "affiliateUrl": "https://www.amazon.com/dp/B00CCRTTke?tag=rigfitrv-20"
+      },
       "loopC": "If you are driving a longer Class C or pulling a car behind you, Loop C is your safest bet. Loop C features wider pad openings and more generous backup angles.",
       "loopsAB": "Loops A and B skew toward smaller travel trailers, pop-ups, and camper vans. The turnarounds at the loops' edges are tighter."
     }
@@ -85,9 +105,13 @@
       "bestBigRigLoops": "G20 – G25 Pull-Throughs",
       "bestSmallRigLoops": "Wooded Back-In Loops"
     },
+    "approach": {
+      "title": "Highway & Interior Access Grade",
+      "text": "Direct access off Route 519 is smooth and accessible for all rig classes, but climbing the main interior hill grade toward assigned upper loops requires momentum and proper toad staging."
+    },
     "toadStrategy": "Disconnect at the main staging lot near the office before climbing the interior hill grade into assigned loops.",
     "recommendedGear": {
-      "title": "Essential Gear for This Approach",
+      "title": "Essential Towing & Staging Gear",
       "productName": "Blue Ox Tow Bar & Heavy-Duty Drop Hitch",
       "reason": "Disconnecting your toad on an incline under tension risks binding your tow bar. A high-quality setup makes unhooking seamless at the front office staging lot.",
       "affiliateUrl": "https://www.amazon.com/dp/B003L7T33G?tag=rigfitrv-20"
@@ -122,7 +146,17 @@
       "bestBigRigLoops": "50-amp Pull-Throughs near entrance",
       "bestSmallRigLoops": "Riverfront Back-Ins"
     },
+    "approach": {
+      "title": "Pine Barrens Route & Entrance Clearance",
+      "text": "Approaching via Route 563 to Godfrey Bridge Road is clear and flat. Watch for low-hanging pitch pine branches along the sandy entrance lane as you pull up to the gatehouse."
+    },
     "toadStrategy": "Unhooking up front can be tight during peak weekend check-ins. Either unhook directly on your pull-through pad or bypass the gate to the rear corner overflow lot.",
+    "recommendedGear": {
+      "title": "Essential Staging & Stabilization Gear",
+      "productName": "Camco Heavy-Duty RV Wheel Chocks & Leveling Blocks",
+      "reason": "Pine Barrens back-in sites feature soft sandy shoulders and subtle slopes. Having reliable chocks and interlocking blocks prevents shifting when parked on loose ground.",
+      "affiliateUrl": "https://www.amazon.com/dp/B001GBWOL0?tag=rigfitrv-20"
+    },
     "content": {
       "overview": "Located deep in the New Jersey Pine Barrens along the Wading River.",
       "loopC": "50-amp pull-through sites offer straight pull-in convenience.",
