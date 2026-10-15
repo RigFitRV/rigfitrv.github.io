@@ -1,5 +1,52 @@
 [
  {
+    "id": "worthington-state-forest",
+    "name": "Worthington State Forest",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "state": "NJ",
+    "city": "Columbia",
+    "featured": true,
+    "lat": 40.9712,
+    "lng": -75.1218,
+    "image": "/images/worthington_photo.jpg",
+    "mapImage": "/images/worthington_map.jpg",
+    "address": "Old Mine Rd, Columbia, NJ 07832",
+    "gps": "40.9712° N, 75.1218° W",
+    "phone": "(908) 841-9575",
+    "website": "https://dep.nj.gov/njksnk/worthington-state-forest",
+    "summary": "Delaware Water Gap riverfront camping in Columbia, NJ. Ground-truth guidance on navigating narrow Old Mine Road, low-hanging overhead limbs, riverbank sloped gravel pads, and toad staging areas.",
+    "scorecard": {
+      "maxRigLength": "Up to 30 ft (strict physical length limits due to tight approach lanes)",
+      "toadFriendliness": "Low to Moderate (unhook at main office lot before entering Old Mine Rd loops)",
+      "treeClearance": "Low overhead canopy; frequent low-hanging riverbank branches along loop lanes",
+      "bestBigRigLoops": "Main Riverfront Loop (select back-in sites near entrance)",
+      "bestSmallRigLoops": "Upper Wooded Loops (best suited for camper vans, pop-ups, and small Class Cs)"
+    },
+    "approach": {
+      "title": "Old Mine Road & River Clearance Warning",
+      "text": "Access via Old Mine Road off I-80 is narrow, winding, and features rough pavement patches with soft shoulders. Overhead tree limbs hang low over the road in multiple sections, and single-lane pass points require extra vigilance for oncoming traffic when towing.",
+      "recommendedGear": {
+        "title": "Recommended Rugged Routing Gear",
+        "productName": "Garmin Tread Overland Edition GPS",
+        "reason": "Provides custom routing and terrain awareness for narrow, unpaved, or low-canopy secondary state routes like Old Mine Road.",
+        "affiliateUrl": "https://www.amazon.com/dp/B09MN58P7Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Old Mine Road has minimal shoulder width to pull off if you encounter a tight pinch point. Disconnect your towed vehicle at the main park office lot near the entrance gate before driving into assigned loop lanes.",
+    "content": {
+      "overview": "Tucked along the Delaware River in the shadow of Mount Tammany, Worthington State Forest offers a rustic water-gap setting. Sites are primitive (no electric hookups) with sloped gravel and dirt pads right along the riverbank.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Stabilization Gear",
+        "productName": "MaxxHaul Solid Rubber Wheel Chocks & Heavy-Duty Stackers",
+        "reason": "Riverfront gravel pads slope downward toward the water. Solid rubber chocks combined with heavy-duty stackers prevent wheel creep on loose river gravel.",
+        "affiliateUrl": "https://www.amazon.com/dp/B01C539L6E?tag=rigfitrv-20"
+      },
+      "loopC": "Riverfront back-in sites offer the easiest straight-line backing, but watch rear overhangs when positioning tires near the grassy bank edge.",
+      "loopsAB": "Upper wooded loops are narrow with tight turning radiuses framed by mature trees, making them strictly suited for smaller travel trailers, camper vans, and truck campers."
+    }
+  },
+ {
     "id": "hickory-run-state-park",
     "name": "Hickory Run State Park",
     "ownertype": "State Park",
