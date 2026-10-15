@@ -1,4 +1,52 @@
 [
+  
+  {
+    "id": "ricketts-glen-state-park",
+    "name": "Ricketts Glen State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "state": "PA",
+    "city": "Benton",
+    "featured": true,
+    "lat": 41.3323,
+    "lng": -76.2991,
+    "image": "/images/rick_park_photo.jpg",
+    "mapImage": "/images/rick_park_map.jpg",
+    "address": "695 State Route 487, Benton, PA 17814",
+    "gps": "41.3323° N, 76.2991° W",
+    "phone": "(570) 477-5637",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/RickettsGlenStatePark",
+    "summary": "Glacial plateau camping in Benton, PA. Ground-truth guidance on the steep PA-487 Red Rock Mountain climb, non-electric main loops, pull-through electric loop specs, and dump station toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strictly enforced; smaller loops capped at 30 ft)",
+      "toadFriendliness": "Moderate (unhook at main contact station / dump station lot)",
+      "treeClearance": "Dense mountain canopy; watch low-hanging oak/hemlock branches on loop curves",
+      "bestBigRigLoops": "Small Electric Loop (featuring longer pull-through pads)",
+      "bestSmallRigLoops": "Main Big Loop (Rustic / Non-Electric Sites)"
+    },
+    "approach": {
+      "title": "Mountain Grade & Route Clearance Warning",
+      "text": "Entering directly off PA State Route 487 requires tackling Red Rock Mountain—a severe 9% to 10% mountain grade coming from the south. Transmissions and brakes will be heavily tested. Heavy gas coaches and diesel pushers should gear down early and monitor engine temps on the climb.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures you are aware of steep mountain grades like PA-487 and calculates safe engine braking routes based on your total rig weight.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088K42X11?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Do not drag a towed vehicle directly into the dense inner non-electric loop. Drop your toad at the main park contact station or the nearby dump station staging area before proceeding to your site.",
+    "content": {
+      "overview": "Perched on the Allegheny Plateau, Ricketts Glen offers dense mountain woods and lake access. However, site types and hookups are split distinctly between loops, requiring careful site selection depending on your rig class.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Andersen Hitches Camper Leveler",
+        "reason": "Mountain state park gravel pads frequently feature front-to-back slope. Curved levelers make dialing in level on uneven glacial soil quick and precise.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0CCRTTke?tag=rigfitrv-20"
+      },
+      "loopC": "The smaller electric loop features generous pull-through sites designed for larger units, providing much easier backing angles and clearance from mature trees.",
+      "loopsAB": "The larger main loop consists predominantly of non-electric, rustic sites tucked deep under a thick tree canopy. Turning radiuses on the inner curves are tight and best suited for smaller travel trailers, pop-ups, and Class C units."
+    }
+  },
   {
     "id": "pequea-creek-campground",
     "name": "Pequea Creek Campground",
