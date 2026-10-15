@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wading Pines Camping Resort RV Guide - RigFitRV</title>
-  <meta name="description" content="Verified RV clearance, pitch pine canopy warnings, pull-through site specs, and toad unhooking logistics for Wading Pines Camping Resort in Chatsworth, NJ.">
+  <meta name="description" content="Verified RV clearance, pitch pine branch overhangs, 50-amp pull-through specs, and toad unhooking options for Wading Pines Camping Resort in Chatsworth, NJ.">
   <link rel="stylesheet" href="../style.css">
 
   <!-- Custom Favicons -->
@@ -13,29 +13,27 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
 
-  <!-- Open Graph / Social Sharing Meta Tags -->
+  <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="RigFitRV">
   <meta property="og:title" content="Wading Pines Camping Resort RV Guide - RigFitRV">
-  <meta property="og:description" content="Verified RV clearance, pitch pine canopy warnings, pull-through site specs, and toad unhooking logistics for Wading Pines Camping Resort in Chatsworth, NJ.">
-  <meta property="og:url" content="https://rigfitrv.github.io/c/wading-pines-campground.html">
-  <meta property="og:image" content="../wading-pines.jpg">
+  <meta property="og:url" content="https://rigfitrv.com/c/wading-pines-campground.html">
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Google tag -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-TV8S962CRT');
   </script>
 
   <!-- Prevent AI Model Training & Image Scraping -->
-<meta name="robots" content="noai, noimageai">
-<meta name="tdm-reservation" content="1">
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
 </head>
 
+<!-- Body data attribute identifies which database record to pull -->
 <body data-campground-id="wading-pines-campground">
 
   <!-- Universal Header -->
@@ -49,9 +47,9 @@
   <div class="container">
     <div class="article-card">
 
-      <h1 id="camp-title">Wading Pines Camping Resort RV Guide: Rig Clearance, Loop Fit & Toad Maneuverability</h1>
+      <h1 id="camp-title">Wading Pines Camping Resort RV Guide</h1>
 
-      <!-- Location & Contact Table (Populated dynamically from JSON) -->
+      <!-- Populated from JSON -->
       <table class="campground-info-table" id="camp-info-table"></table>
 
       <hr>
@@ -61,21 +59,24 @@
 
       <hr>
 
+      <!-- Approach & Routing Target Container -->
+      <div id="camp-approach-section"></div>
+
+      <hr>
+
       <h2>🏕️ Campground Overview & Atmosphere</h2>
       <div id="camp-overview"></div>
 
       <hr>
 
-      <h2>🚗 Toad Unhook & Staging Strategy</h2>
+      <h2>🚗 Toad Unhook Strategy</h2>
       <div id="camp-toad-strategy"></div>
 
       <hr>
 
       <h2>💬 RVer Community Intelligence: Help Us Keep This Updated!</h2>
       <p><em>Have you stayed here recently? Encountered a low branch or have tips for navigating the loops?</em></p>
-
       <a href="../submit.html" class="btn">👉 Submit a Quick Rig-Fit Update</a>
-      <a href="../submit.html" class="btn btn-secondary" style="margin-left: 10px;">+ Request / Submit Another Campground</a>
 
     </div>
   </div>
@@ -88,8 +89,7 @@
       .then(data => document.getElementById('footer-placeholder').innerHTML = data);
   </script>
 
-  <!-- Single-Point Data Loader Script -->
+  <!-- Single-Point Data Loader -->
   <script src="../js/campground.js"></script>
-
 </body>
 </html>
