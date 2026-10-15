@@ -52,6 +52,7 @@
     .map-filter-bar label {
       font-weight: 500;
       color: #cbd5e1;
+      margin-left: 0.5rem;
     }
 
     .map-filter-select {
@@ -136,8 +137,8 @@
   </script>
 
   <!-- Prevent AI Model Training & Image Scraping -->
-<meta name="robots" content="noai, noimageai">
-<meta name="tdm-reservation" content="1">
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
 </head>
 <body>
 
@@ -184,22 +185,23 @@
       <!-- SECTION 1: INTERACTIVE MAP WITH EMBEDDED FILTER BAR -->
       <section style="margin-top: 2rem;">
         <h2>🗺️ Verified RV Routing Map</h2>
-        <p>Click any map pin to preview clearance data, toad staging strategy, and guide links:</p>
+        <p>Click any map pin to preview clearance data, toad staging strategy, and guide links (<span style="color: #15803d; font-weight: bold;">■ Forest Green</span> = State Park, <span style="color: #2563eb; font-weight: bold;">■ Blue</span> = Private Campground):</p>
 
         <div class="map-wrapper">
           <!-- Minimal Top Filter Bar -->
           <div class="map-filter-bar">
             <div>
-              <span style="margin-right: 6px;">📍</span><strong>Quick Filter:</strong>
+              <span style="margin-right: 6px;">📍</span><strong>Quick Filters:</strong>
             </div>
-            <div style="display: flex; gap: 1rem; align-items: center;">
+            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
               <div>
-                <label for="owner-filter">Filter by Ownership:</label>
-<select id="owner-filter">
-  <option value="all">All Parks</option>
-  <option value="Private Campground">Private Campgrounds</option>
-  <option value="State Park">State Parks</option>
-</select>
+                <label for="owner-filter">Ownership:</label>
+                <select id="owner-filter" class="map-filter-select">
+                  <option value="ALL">All Types</option>
+                  <option value="Private Campground">Private Campgrounds</option>
+                  <option value="State Park">State Parks</option>
+                </select>
+
                 <label for="state-select">State:</label>
                 <select id="state-select" class="map-filter-select">
                   <option value="ALL">All States</option>
@@ -267,6 +269,17 @@
       let markersLayer = L.layerGroup().addTo(map);
       let allCampgrounds = [];
 
+      // Helper function to create custom colored marker pins
+      function createColoredMarkerIcon(colorHex) {
+        return L.divIcon({
+          className: 'custom-map-pin',
+          html: `<div style="background-color: ${colorHex}; width: 24px; height: 24px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.3); border: 2px solid #ffffff;"><div style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; transform: rotate(45deg);"></div></div>`,
+          iconSize: [24, 24],
+          iconAnchor: [12, 24],
+          popupAnchor: [0, -26]
+        });
+      }
+
       // 2. Fetch Database once
       fetch('data/campgrounds.json')
         .then(response => {
@@ -293,6 +306,7 @@
 
       // 3. Render Function (Handles both Map Markers and Cards based on filters)
       function renderUI() {
+        const selectedOwner = document.getElementById('owner-filter').value;
         const selectedState = document.getElementById('state-select').value;
         const selectedRig = document.getElementById('rig-select').value;
 
@@ -301,6 +315,7 @@
 
         // Apply filters
         const filtered = allCampgrounds.filter(c => {
+          if (selectedOwner !== 'ALL' && c.ownertype !== selectedOwner) return false;
           if (selectedState !== 'ALL' && c.state !== selectedState) return false;
           if (selectedRig === 'BIG') {
             const maxLen = c.scorecard?.maxRigLength || '';
@@ -313,7 +328,11 @@
         const mapBounds = [];
         filtered.forEach(c => {
           if (c.lat && c.lng) {
-            const marker = L.marker([c.lat, c.lng]);
+            // Determine pin color: Forest Green (#15803d) for State Parks, Blue (#2563eb) for Private Campgrounds
+            const pinColor = c.ownertype === 'State Park' ? '#15803d' : '#2563eb';
+            const markerIcon = createColoredMarkerIcon(pinColor);
+
+            const marker = L.marker([c.lat, c.lng], { icon: markerIcon });
             const imgPath = c.image || 'favicon-96x96.png';
             
             const popupContent = `
@@ -359,6 +378,7 @@
       }
 
       // 4. Attach Event Listeners to Filters
+      document.getElementById('owner-filter').addEventListener('change', renderUI);
       document.getElementById('state-select').addEventListener('change', renderUI);
       document.getElementById('rig-select').addEventListener('change', renderUI);
     });
