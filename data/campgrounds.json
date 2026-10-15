@@ -1,5 +1,240 @@
 [
  {
+    "id": "rip-van-winkle-campgrounds",
+    "name": "Rip Van Winkle Campgrounds",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "state": "NY",
+    "city": "Saugerties",
+    "featured": true,
+    "lat": 42.0837,
+    "lng": -74.0152,
+    "image": "/images/rip_van_winkle_photo.jpg",
+    "mapImage": "/images/rip_van_winkle_map.jpg",
+    "address": "149 Blue Mountain Rd, Saugerties, NY 12477",
+    "gps": "42.0837° N, 74.0152° W",
+    "phone": "(845) 246-8334",
+    "website": "https://ripvanwinklecampgrounds.com",
+    "summary": "Catskill foothill camping in Saugerties, NY. Critical guidance on Blue Mountain Road approach, terraced mountain incline navigation, tight S-curve loops, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strict site allocation; select upper pull-throughs accommodate larger units)",
+      "toadFriendliness": "Moderate (unhook at main office entry lot before climbing upper hill loops)",
+      "treeClearance": "Dense mature hardwoods; watch low-hanging oak canopy on inner S-curves",
+      "bestBigRigLoops": "Lovers Lane Pull-Throughs & Upper Plateau Sites",
+      "bestSmallRigLoops": "Lower Creekfront Back-In Loops"
+    },
+    "approach": {
+      "title": "Catskill Mountain Route & Grade Warning",
+      "text": "Approaching via NYS Thruway (I-87) Exit 20 to Route 212 leads to Blue Mountain Road. The road narrows as you approach camp with rolling elevation changes. Gear down early when pulling heavy trailers up the main entrance hill.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Calculates safe elevation approaches and avoids low-clearance secondary roads throughout the Catskill Mountain region.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088K42X11?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Disconnect your towed vehicle at the front registration area before heading up the interior hill. Turning radiuses on the upper S-curve loops are tight and can bind tow bars if attempted while attached.",
+    "content": {
+      "overview": "Set across 160 heavily wooded acres in the Catskills, Rip Van Winkle blends natural mountain terrain with private resort amenities. Terraced gravel pads require side-to-side leveling adjustments.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Andersen Hitches Camper Leveler",
+        "reason": "Mountain slope pads require precise drive-on height adjustments. Curved levelers make leveling fast on uneven gravel terraces.",
+        "affiliateUrl": "https://www.amazon.com/dp/B00CCRTTke?tag=rigfitrv-20"
+      },
+      "loopC": "Upper plateau pull-through sites offer generous length and straight-line pull-outs, making them the safest bet for big rigs.",
+      "loopsAB": "Lower wooded back-in loops feature tight turns framed by mature hardwoods and rock outcroppings. Tail-swing clearance must be monitored."
+    }
+  },
+  {
+    "id": "tohickon-family-campground",
+    "name": "Tohickon Family Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "state": "PA",
+    "city": "Quakertown",
+    "featured": true,
+    "lat": 40.4078,
+    "lng": -75.3115,
+    "image": "/images/tohickon_photo.jpg",
+    "mapImage": "/images/tohickon_map.jpg",
+    "address": "8308 Covered Bridge Rd, Quakertown, PA 18951",
+    "gps": "40.4078° N, 75.3115° W",
+    "phone": "(215) 536-7951",
+    "website": "https://tohickoncampground.com",
+    "summary": "Bucks County creekfront camping in Quakertown, PA. Ground-truth breakdown of narrow backroad access, interior bridge weight/width limits, creekfront back-in angles, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 38 ft (strict length caps on creekfront loops)",
+      "toadFriendliness": "Moderate (unhook near office parking lot prior to interior bridge crossing)",
+      "treeClearance": "Dense mature tree canopy along creek lanes; watch low-hanging limbs",
+      "bestBigRigLoops": "Upper Field Pull-Through Sites",
+      "bestSmallRigLoops": "Creekfront Back-In Section"
+    },
+    "approach": {
+      "title": "Bucks County Backroad & Bridge Warning",
+      "text": "Covered Bridge Road and surrounding rural Bucks County routes are narrow with zero shoulder room. Watch for sudden sharp turns and stone bridge abutments. Follow official park approach signs rather than standard phone GPS.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Rand McNally OverDryve Pro II RV GPS",
+        "reason": "Provides custom truck routing around narrow Bucks County backroads while recording dashcam footage on tight rural lanes.",
+        "affiliateUrl": "https://www.amazon.com/dp/B08L5R321M?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Unhooking at the front office staging area is strongly advised before crossing the interior wood-deck bridge into assigned camp loops.",
+    "content": {
+      "overview": "Tohickon Family Campground is nestled along Tohickon Creek, offering shaded sites under giant hardwoods. Sites vary from open upper field pads to secluded creekfront back-ins.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Creekfront dirt and gravel sites feature natural soil slumping near the bank edge. Interlocking blocks build a broad, non-slip base.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Upper field sites feature long, level pull-through configurations with open sky access, making them ideal for large Class A units and 5th wheels.",
+      "loopsAB": "Creekfront back-in loops feature 90-degree backing angles framed by mature tree trunks. Take your time when swinging your tow vehicle's front bumper."
+    }
+  },
+  {
+    "id": "indian-rock-rv-resort",
+    "name": "Indian Rock RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "state": "NJ",
+    "city": "Cream Ridge",
+    "featured": true,
+    "lat": 40.1082,
+    "lng": -74.5021,
+    "image": "/images/indian_rock_photo.jpg",
+    "mapImage": "/images/indian_rock_map.jpg",
+    "address": "920 Province Line Rd, Cream Ridge, NJ 08514",
+    "gps": "40.1082° N, 74.5021° W",
+    "phone": "(609) 259-2900",
+    "website": "https://indianrockrvresort.com",
+    "summary": "Pine Barrens border camping in Cream Ridge, NJ. Guidance on Province Line Road approach, soft sand interior shoulders, low pine branch clearance, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 42 ft",
+      "toadFriendliness": "High (spacious main office unhooking lot)",
+      "treeClearance": "Pine and oak canopy over interior sandy lanes; watch roof AC clearance",
+      "bestBigRigLoops": "Pine Grove Pull-Through Section",
+      "bestSmallRigLoops": "Shaded Back-In Perimeter Sites"
+    },
+    "approach": {
+      "title": "Rural Highway & Entrance Clearance",
+      "text": "Province Line Road off Route 539 provides flat, clear access. The main gate entrance is wide, but watch for low pine branches hanging over the registration lane during summer growth."
+    },
+    "toadStrategy": "Spacious unhooking area directly adjacent to the main office. Drop your toad here before proceeding down interior sandy lanes to avoid binding on sharp loop turns.",
+    "recommendedGear": {
+      "title": "Essential Towing & Staging Gear",
+      "productName": "Roadmaster Falcon All-Terrain Tow Bar",
+      "reason": "Includes quick-release levers that make unhooking effortless even on uneven sandy staging surfaces.",
+      "affiliateUrl": "https://www.amazon.com/dp/B003VAX25C?tag=rigfitrv-20"
+    },
+    "content": {
+      "overview": "Located near Six Flags Great Adventure, Indian Rock features heavily shaded pine forest sites. Soil is sandy with gravel overlay, requiring stable footing for jacks and levelers.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Stabilization Gear",
+        "productName": "Camco Heavy-Duty RV Wheel Chocks & Leveling Blocks",
+        "reason": "Sandy soil can shift under heavy rig jack pressure. Interlocking block stacks distribute weight evenly to prevent sinkage.",
+        "affiliateUrl": "https://www.amazon.com/dp/B001GBWOL0?tag=rigfitrv-20"
+      },
+      "loopC": "Pine Grove pull-through sites provide 50-amp full hookups with wide clearances suitable for large motorhomes and fifth wheels.",
+      "loopsAB": "Back wooded loops feature soft sand shoulders along inner turning radiuses; keep trailer wheels on the firm gravel path."
+    }
+  },
+  {
+    "id": "appalachian-rv-resort",
+    "name": "Appalachian RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "state": "PA",
+    "city": "Shartlesville",
+    "featured": true,
+    "lat": 40.4812,
+    "lng": -76.0823,
+    "image": "/images/appalachian_photo.jpg",
+    "mapImage": "/images/appalachian_map.jpg",
+    "address": "60 Appaloosa Way, Shartlesville, PA 19554",
+    "gps": "40.4812° N, 76.0823° W",
+    "phone": "(610) 488-6319",
+    "website": "https://www.sunoutdoors.com/pennsylvania/appalachian-rv-resort",
+    "summary": "Blue Mountain foothill camping in Shartlesville, PA. Guidance on I-78 exit access, steep interior hill grade climbs, terraced ridge pads, and toad staging lots.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft",
+      "toadFriendliness": "High (dedicated lower staging lot near registration office)",
+      "treeClearance": "Open upper ridge loops; moderate canopy on lower access roads",
+      "bestBigRigLoops": "Upper Ridge Pull-Throughs",
+      "bestSmallRigLoops": "Lower Wooded Back-In Section"
+    },
+    "approach": {
+      "title": "Blue Mountain Incline & Highway Access Warning",
+      "text": "Direct access off I-78 Exit 29 is quick, but the interior resort road ascends Blue Mountain via a steep, sustained hill grade. Ensure engine and transmission temps are monitored when pulling heavy setups up to upper ridge sites.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Helps you anticipate mountain grade ascents off I-78 and plans safe gearing approaches for heavy rigs.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088K42X11?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Always unhook your towed vehicle at the lower office lot before attempting the steep hill climb to the upper loops. Disconnecting under tension on the upper hill incline is hazardous.",
+    "content": {
+      "overview": "Set along the Blue Mountain ridge, Appalachian RV Resort features terraced sites offering scenic valley views. Ridge sites receive full sun while lower sites are tucked into forest shade.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Andersen Hitches Camper Leveler",
+        "reason": "Terraced mountain ridge pads have front-to-back slope. Curved drive-on levelers make leveling fast on mountain gravel.",
+        "affiliateUrl": "https://www.amazon.com/dp/B00CCRTTke?tag=rigfitrv-20"
+      },
+      "loopC": "Upper Ridge pull-throughs feature 50-amp full hookups with open sky, long pad lengths, and easy big-rig maneuverability.",
+      "loopsAB": "Lower wooded loops require navigating tight 90-degree turns along the hillside ascent."
+    }
+  },
+  {
+    "id": "kittatinny-campsites",
+    "name": "Kittatinny Campsites",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "state": "NY",
+    "city": "Barryville",
+    "featured": true,
+    "lat": 41.4782,
+    "lng": -74.9102,
+    "image": "/images/kittatinny_photo.jpg",
+    "mapImage": "/images/kittatinny_map.jpg",
+    "address": "3854 Route 97, Barryville, NY 12719",
+    "gps": "41.4782° N, 74.9102° W",
+    "phone": "(800) 123-4567",
+    "website": "https://kittatinny.com",
+    "summary": "Delaware River Valley camping in Barryville, NY. Ground-truth breakdown of Scenic Route 97 Hawks Nest corridor, riverbank loop clearance, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (strict length restrictions due to riverbank loop turns)",
+      "toadFriendliness": "Moderate (unhook at main river office parking lot)",
+      "treeClearance": "Dense riverbank forest canopy; watch low-hanging sycamore and hemlock branches",
+      "bestBigRigLoops": "Upper River Plateau Back-In Sites",
+      "bestSmallRigLoops": "Lower Riverbank Primitive Loops"
+    },
+    "approach": {
+      "title": "Route 97 River Corridor & Winding Grade Warning",
+      "text": "Approaching along NY State Route 97 (Upper Delaware Scenic Byway) involves winding river curves, narrow rock face cutouts, and sudden grade shifts near the Hawks Nest section. Drive cautiously and monitor lane positioning when towing wide trailers.",
+      "recommendedGear": {
+        "title": "Recommended Rugged Routing Gear",
+        "productName": "Garmin Tread Overland Edition GPS",
+        "reason": "Tracks sharp river valley curves and narrow canyon clearances along NY-97 to prevent unexpected lane pinch points.",
+        "affiliateUrl": "https://www.amazon.com/dp/B09MN58P7Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Drop your towed vehicle at the main office parking area near the zip-line staging building before driving down the narrow gravel lanes to riverfront sites.",
+    "content": {
+      "overview": "Stretching along the Upper Delaware River, Kittatinny Campsites is an outdoor adventure hub featuring riverfront and wooded plateau sites framed by steep river valley ridge lines.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Stabilization Gear",
+        "productName": "MaxxHaul Solid Rubber Wheel Chocks & Heavy-Duty Stackers",
+        "reason": "Riverbank gravel pads slope toward the water edge. Heavy rubber chocks lock tires securely into place on loose river soil.",
+        "affiliateUrl": "https://www.amazon.com/dp/B01C539L6E?tag=rigfitrv-20"
+      },
+      "loopC": "Upper plateau sites feature wider back-in clearance and firmer gravel bases for medium-sized motorhomes and travel trailers.",
+      "loopsAB": "Lower riverfront loops feature narrow single-lane gravel tracks with mature trees lining campsite entryways."
+    }
+  },
+ {
     "id": "worthington-state-forest",
     "name": "Worthington State Forest",
     "ownertype": "State Park",
