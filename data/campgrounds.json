@@ -140,54 +140,7 @@
       "loopsAB": "Interior rows are tightly spaced; drivers with long rigs should exercise caution when extending full-depth slide-outs."
     }
   },
-    {
-    "id": "blue-mountain-campground",
-    "name": "Blue Mountain Campground",
-    "ownertype": "Private Campground",
-    "addedDate": "2026-10-15",
-    "state": "PA",
-    "city": "New Tripoli",
-    "featured": false,
-    "lat": 40.6784,
-    "lng": -75.7531,
-    "image": "/images/blue-mountain_photo.jpg",
-    "mapImage": "/images/blue-mountain_map.jpg",
-    "address": "6872 Blue Mountain Rd, New Tripoli, PA 18066",
-    "gps": "40.6784° N, 75.7531° W",
-    "phone": "(610) 298-2100",
-    "website": "https://www.bluemountaincampground.com",
-    "summary": "Mountain-base campground near the Lehigh Valley offering peaceful mountain scenery, terraced sites, and full hookups.",
-    "scorecard": {
-      "maxRigLength": "Up to 42 ft",
-      "toadFriendliness": "Good (unhooking area near main entrance gate)",
-      "treeClearance": "Good (well-maintained mountain tree clearance on main loop roads)",
-      "bestBigRigLoops": "Upper Ridge Pull-Through Sites",
-      "bestSmallRigLoops": "Lower Creek-side Loops"
-    },
-    "approach": {
-      "title": "Lehigh Valley Mountain Notch Approach Warning",
-      "text": "Approach from I-78 to PA-143 North. Avoid steep back-mountain notch roads coming down off the ridge; stay on designated state highways to avoid 12%+ mountain descent grades.",
-      "recommendedGear": {
-        "title": "Recommended Rig Routing Gear",
-        "productName": "Garmin RV 890 GPS Navigator",
-        "reason": "Prevents routing onto dangerous steep mountain grades in Berks and Lehigh counties.",
-        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
-      }
-    },
-    "toadStrategy": "Unhook at the entrance staging area prior to navigating the steady incline up to the upper pull-thru ridge.",
-    "content": {
-      "overview": "Set against the Appalachian Ridge, Blue Mountain offers large, terraced sites with scenic views and full 50-amp hookups.",
-      "recommendedGear": {
-        "title": "Recommended Campsite Leveling Gear",
-        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
-        "reason": "Essential for terraced mountain sites where side-to-side grade varies significantly across gravel pads.",
-        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
-      },
-      "loopC": "Upper Ridge sites are long pull-thrus designed specifically for longer fifth wheels and Class A motorhomes.",
-      "loopsAB": "Lower creek-side loops feature sharper turns and moderate tree overhangs best suited for travel trailers under 30 feet."
-    }
-  },
- {
+     {
     "id": "rip-van-winkle-campgrounds",
     "name": "Rip Van Winkle Campgrounds",
     "ownertype": "Private Campground",
