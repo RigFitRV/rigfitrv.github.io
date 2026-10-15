@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const infoTable = document.getElementById('camp-info-table');
       if (infoTable) {
         infoTable.innerHTML = `
+          <tr><td>🏷️ Ownership Type</td><td><strong>${data.ownertype || 'Public / State Park'}</strong></td></tr>
           <tr><td>📍 Physical Address</td><td>${data.address}</td></tr>
           <tr><td>🌐 GPS Coordinates</td><td><code>${data.gps}</code></td></tr>
           <tr><td>📞 Phone Number</td><td><a href="tel:${data.phone.replace(/[^0-9]/g, '')}">${data.phone}</a></td></tr>
