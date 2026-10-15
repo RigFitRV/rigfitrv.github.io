@@ -140,54 +140,7 @@
       "loopsAB": "Interior rows are tightly spaced; drivers with long rigs should exercise caution when extending full-depth slide-outs."
     }
   },
-  {
-    "id": "whispering-pines-camping-estates",
-    "name": "Whispering Pines Camping Estates",
-    "ownertype": "Private Campground",
-    "addedDate": "2026-10-15",
-    "state": "NJ",
-    "city": "Cape May Court House",
-    "featured": false,
-    "lat": 39.0832,
-    "lng": -74.8872,
-    "image": "/images/whispering-pines_photo.jpg",
-    "mapImage": "/images/whispering-pines_map.jpg",
-    "address": "58 Indian Trail Rd, Cape May Court House, NJ 08210",
-    "gps": "39.0832° N, 74.8872° W",
-    "phone": "(609) 465-3839",
-    "website": "https://www.whisperingpinesnj.com",
-    "summary": "Wooded South Jersey coastal campground with 50-amp full hookups and easy access to Cape May beaches and boardwalks.",
-    "scorecard": {
-      "maxRigLength": "Up to 40 ft",
-      "toadFriendliness": "Good (staging available in main office parking area)",
-      "treeClearance": "Fair (moderate pine canopy; watch low branches on internal dirt loops)",
-      "bestBigRigLoops": "Main Entrance Pull-Through Row",
-      "bestSmallRigLoops": "Shaded Interior Back-In Loops"
-    },
-    "approach": {
-      "title": "Jersey Shore Parkway & Coastal Access",
-      "text": "Take the Garden State Parkway South to Exit 10/11 towards Cape May Court House. Turn onto Indian Trail Rd (CR-618). Flat coastal roads throughout with zero steep grade hazards.",
-      "recommendedGear": {
-        "title": "Recommended Rig Routing Gear",
-        "productName": "Garmin RV 780 GPS Navigator",
-        "reason": "Helps navigate tight parkway exit lanes and coastal park roads safely.",
-        "affiliateUrl": "https://www.amazon.com/dp/B07PY7S25R?tag=rigfitrv-20"
-      }
-    },
-    "toadStrategy": "Unhook toad in front of the registration office before entering the interior pine loop roads.",
-    "content": {
-      "overview": "A quiet, pine-shaded resort close to Jersey Shore points, providing full 50-amp hookups and sandy-gravel pads.",
-      "recommendedGear": {
-        "title": "Recommended Campsite Leveling Gear",
-        "productName": "SnapPad HiWay Bus Rubber Jack Pads",
-        "reason": "Prevents hydraulic leveling jacks from sinking into soft South Jersey pine sand soil.",
-        "affiliateUrl": "https://www.amazon.com/dp/B01LZX3K4L?tag=rigfitrv-20"
-      },
-      "loopC": "The main pull-thru section provides wide turning clearances for Class A and Class C units with straightforward entry angles.",
-      "loopsAB": "Dense pine loops feature soft sand edges; keep tires on the hard-packed gravel paths to prevent sinkage."
-    }
-  },
-  {
+    {
     "id": "blue-mountain-campground",
     "name": "Blue Mountain Campground",
     "ownertype": "Private Campground",
