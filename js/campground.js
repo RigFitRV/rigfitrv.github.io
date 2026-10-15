@@ -41,9 +41,29 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Populate Toad Unhook Strategy
-      const toadStrategy = document.getElementById('camp-toad-strategy');
-      if (toadStrategy && data.toadStrategy) {
-        toadStrategy.innerHTML = `<p>${data.toadStrategy}</p>`;
+      const toadStrategyEl = document.getElementById('camp-toad-strategy');
+      if (toadStrategyEl && data.toadStrategy) {
+        toadStrategyEl.innerHTML = `<p>${data.toadStrategy}</p>`;
+      }
+
+      // Dynamic Amazon Affiliate Gear Callout Box
+      if (toadStrategyEl && data.recommendedGear) {
+        let gearBox = document.getElementById('camp-gear-recommendation');
+        if (!gearBox) {
+          gearBox = document.createElement('div');
+          gearBox.id = 'camp-gear-recommendation';
+          toadStrategyEl.parentNode.insertBefore(gearBox, toadStrategyEl.nextSibling);
+        }
+
+        gearBox.innerHTML = `
+          <div style="background-color: #f8fafc; border-left: 4px solid #2563eb; padding: 1.25rem; border-radius: 6px; margin: 1.5rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+            <h4 style="margin: 0 0 0.5rem 0; color: #0f172a; font-size: 1.05rem;">⚙️ ${data.recommendedGear.title || 'Essential Gear for This Approach'}</h4>
+            <p style="margin: 0 0 0.75rem 0; font-size: 0.92rem; color: #334155; line-height: 1.5;">
+              <strong>Recommended Setup:</strong> <a href="${data.recommendedGear.affiliateUrl}" target="_blank" rel="nofollow noopener" style="color: #2563eb; font-weight: bold; text-decoration: underline;">${data.recommendedGear.productName}</a> — ${data.recommendedGear.reason}
+            </p>
+            <span style="font-size: 0.78rem; color: #64748b; font-style: italic;">RigFitRV is reader-supported. We may earn an affiliate commission from qualifying purchases made through our links.</span>
+          </div>
+        `;
       }
 
       // Populate Overview & Images
@@ -83,6 +103,9 @@ function injectCampgroundSchema(data) {
     "description": data.summary,
     "url": window.location.href,
     "telephone": data.phone || "",
+    "additionalType": data.ownertype === "State Park" 
+      ? "https://schema.org/GovernmentPermit" 
+      : "https://schema.org/LocalBusiness",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": data.address || "",
