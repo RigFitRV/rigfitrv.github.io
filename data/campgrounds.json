@@ -2,221 +2,236 @@
  {
     "id": "lake-in-wood-camping-resort",
     "name": "Lake in Wood Camping Resort",
-    "city": "Narvon",
-    "state": "PA",
     "ownertype": "Private Campground",
-    "address": "576 Yellow Hill Rd, Narvon, PA 17555",
-    "gps": "40.1292° N, 75.9868° W",
+    "addedDate": "2026-10-15",
+    "state": "PA",
+    "city": "Narvon",
+    "featured": false,
     "lat": 40.1292,
     "lng": -75.9868,
+    "image": "/images/lake-in-wood_photo.jpg",
+    "mapImage": "/images/lake-in-wood_map.jpg",
+    "address": "576 Yellow Hill Rd, Narvon, PA 17555",
+    "gps": "40.1292° N, 75.9868° W",
     "phone": "(717) 445-5525",
     "website": "https://www.sunoutdoors.com/pennsylvania/lake-in-wood-camping-resort",
-    "websiteLabel": "Lake in Wood Camping Resort",
-    "image": "/images/lake-in-wood.jpg",
     "summary": "Independent gnome-themed resort in Lancaster County featuring massive pull-thru sites, full hookups, and smooth big-rig access off PA-23.",
     "scorecard": {
-      "maxRigLength": "45 ft (Big-Rig Friendly)",
-      "toadFriendliness": "Excellent — Unhooking area near front check-in office",
-      "treeClearance": "Good — Main thoroughfares well-trimmed, watch low branches near wooded tent sites",
-      "bestBigRigLoops": "Gnome Knoll & Upper Pull-Thru Sections",
-      "bestSmallRigLoops": "Lower Lake View & Primitive Wooded Sites"
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (unhook near front check-in office parking lot prior to hill loops)",
+      "treeClearance": "Good along main thoroughfares; watch lower branches on shaded tent lanes",
+      "bestBigRigLoops": "Gnome Knoll & Upper Pull-Through Sections",
+      "bestSmallRigLoops": "Lower Lake View & Primitive Wooded Section"
     },
     "approach": {
-      "text": "Approach via PA-23 to Yellow Hill Rd. Avoid secondary rural dirt cut-throughs in Lancaster County as tight covered bridges and low-tonnage rural bridges are present nearby.",
+      "title": "Lancaster County Covered Bridge & Weight Warning",
+      "text": "Approach via PA-23 to Yellow Hill Rd. Avoid secondary rural dirt cut-throughs in Lancaster County as tight covered bridges and low-tonnage bridges are present nearby. Follow state truck routes directly to Yellow Hill Rd.",
       "recommendedGear": {
-        "title": "RV GPS Routing",
-        "productName": "Garmin RV 890 GPS",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Prevents accidental routing into historic low-clearance Lancaster covered bridges."
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental routing into historic low-clearance Lancaster County covered bridges and weight-restricted rural spans.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
       }
     },
     "toadStrategy": "Pull into the main entrance overflow lane before the check-in gate. There is ample room to unhook your toad before entering the upper tiered pull-thru loops.",
     "content": {
       "overview": "Lake in Wood offers a resort-style experience in PA Dutch Country with full 50-amp hookups, gravel pads, and wide main roads suited for Class A motorhomes and heavy fifth wheels.",
-      "loopC": "Gnome Knoll features wide, open pull-thru pads with clear sky access for satellite and zero tight turn radiuses.",
-      "loopsAB": "Lower loops along the lake feature tighter turns and single-lane bridges best suited for units under 30 feet.",
       "recommendedGear": {
-        "title": "Leveling & Stabilization",
+        "title": "Recommended Campsite Leveling Gear",
         "productName": "Camco Curved Leveler Ramps",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Terraced gravel pads on hillside sites may require 2-3 inches of side-to-side leveling."
-      }
+        "reason": "Terraced gravel pads on hillside sites may require 2-3 inches of side-to-side leveling base support.",
+        "affiliateUrl": "https://www.amazon.com/dp/B013VJ62K2?tag=rigfitrv-20"
+      },
+      "loopC": "Gnome Knoll features wide, open pull-thru pads with clear sky access for satellite reception and zero tight turn radiuses.",
+      "loopsAB": "Lower loops along the lake feature tighter turns and single-lane bridges best suited for units under 30 feet."
     }
   },
   {
     "id": "buttonwood-campground",
     "name": "Buttonwood Campground",
-    "city": "Mifflintown",
-    "state": "PA",
     "ownertype": "Private Campground",
-    "address": "1515 Butterfield Ln, Mifflintown, PA 17059",
-    "gps": "40.5701° N, 77.3958° W",
+    "addedDate": "2026-10-15",
+    "state": "PA",
+    "city": "Mifflintown",
+    "featured": false,
     "lat": 40.5701,
     "lng": -77.3958,
+    "image": "/images/buttonwood_photo.jpg",
+    "mapImage": "/images/buttonwood_map.jpg",
+    "address": "1515 Butterfield Ln, Mifflintown, PA 17059",
+    "gps": "40.5701° N, 77.3958° W",
     "phone": "(717) 436-8334",
     "website": "https://www.buttonwoodcampground.com",
-    "websiteLabel": "Buttonwood Campground",
-    "image": "/images/buttonwood.jpg",
-    "summary": "Premier riverfront campground along the Juniata River offering heavy-duty pull-thru pads and full hookups.",
+    "summary": "Premier riverfront campground along the Juniata River offering heavy-duty pull-thru pads, full hookups, and spacious river bank access.",
     "scorecard": {
-      "maxRigLength": "45 ft (Big-Rig Friendly)",
-      "toadFriendliness": "Excellent — Dedicated staging lot by office",
-      "treeClearance": "Moderate — High canopy along main drive, watch riverbank branches",
-      "bestBigRigLoops": "Riverfront Pull-Thrus & Center Island Loops",
-      "bestSmallRigLoops": "Shaded Riverbank Back-In Sites"
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (dedicated staging lot by main office pad)",
+      "treeClearance": "High canopy along main drive; watch riverbank branches when backing",
+      "bestBigRigLoops": "Riverfront Pull-Throughs & Center Island Loops",
+      "bestSmallRigLoops": "Shaded Riverbank Back-In Section"
     },
     "approach": {
-      "text": "Access via US-22/US-322 East or West to Mifflintown exit. The approach via Butterfield Lane is wide and flat, avoiding steep mountain passes.",
+      "title": "US-322 River Valley Approach Guidance",
+      "text": "Access via US-22/US-322 East or West to the Mifflintown exit. The approach via Butterfield Lane is wide and flat, avoiding steep mountain passes and narrow rural overhangs.",
       "recommendedGear": {
-        "title": "RV GPS Navigation",
-        "productName": "Garmin RV 780 GPS",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Verifies safe clearances along US-322 rural exits."
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 780 GPS Navigator",
+        "reason": "Verifies safe exit clearances and truck routes along US-322 rural valley exits.",
+        "affiliateUrl": "https://www.amazon.com/dp/B07PY7S25R?tag=rigfitrv-20"
       }
     },
-    "toadStrategy": "Unhook at the designated staging pad directly adjacent to the main office before heading into riverfront loops.",
+    "toadStrategy": "Unhook at the designated staging pad directly adjacent to the main office before heading into the main riverfront loops.",
     "content": {
       "overview": "Situated on the scenic Juniata River, Buttonwood offers long, level pull-thru sites capable of accommodating the largest diesel pushers and toy haulers.",
-      "loopC": "The central pull-thru rows offer 50-amp full hookups with open turning radii and zero overhead obstruction.",
-      "loopsAB": "Perimeter back-in sites along the river bank offer great water views but require tight 90-degree backing maneuvers.",
       "recommendedGear": {
-        "title": "Wheel Chocks & Stabilization",
-        "productName": "X-Chock Wheel Stabilizers",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Gravel riverbank pads benefit from dual-axle locking chocks to eliminate sway."
-      }
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "BAL 28012 X-Chock Wheel Stabilizers",
+        "reason": "Gravel riverbank pads benefit from dual-axle locking chocks to eliminate sway from soft bank settling.",
+        "affiliateUrl": "https://www.amazon.com/dp/B001UGPEJA?tag=rigfitrv-20"
+      },
+      "loopC": "The central pull-thru rows offer 50-amp full hookups with open turning radii and zero overhead branch obstructions.",
+      "loopsAB": "Perimeter back-in sites along the river bank offer great water views but require tight 90-degree backing maneuvers between trees."
     }
   },
   {
     "id": "liberty-harbor-rv-park",
     "name": "Liberty Harbor RV Park",
-    "city": "Jersey City",
-    "state": "NJ",
     "ownertype": "Private Campground",
-    "address": "11 Marin Blvd, Jersey City, NJ 07302",
-    "gps": "40.7126° N, 74.0401° W",
+    "addedDate": "2026-10-15",
+    "state": "NJ",
+    "city": "Jersey City",
+    "featured": false,
     "lat": 40.7126,
     "lng": -74.0401,
+    "image": "/images/liberty-harbor_photo.jpg",
+    "mapImage": "/images/liberty-harbor_map.jpg",
+    "address": "11 Marin Blvd, Jersey City, NJ 07302",
+    "gps": "40.7126° N, 74.0401° W",
     "phone": "(201) 516-7700",
     "website": "https://www.libertyharborrv.com",
-    "websiteLabel": "Liberty Harbor RV Park",
-    "image": "/images/liberty-harbor.jpg",
     "summary": "Urban RV gateway to NYC featuring paved pads, water/electric hookups, and direct access to Manhattan ferries.",
     "scorecard": {
-      "maxRigLength": "45 ft (Big-Rig Capable)",
-      "toadFriendliness": "Moderate — Tight parking spaces, toad unhooking required prior to site parking",
-      "treeClearance": "Excellent — Zero tree canopy (open asphalt lot format)",
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Moderate (unhooking required at security gate prior to row entry)",
+      "treeClearance": "Excellent (open asphalt lot format with zero tree canopy)",
       "bestBigRigLoops": "Outer Perimeter Paved Sites",
-      "bestSmallRigLoops": "Inner Row Sites"
+      "bestSmallRigLoops": "Inner Row Compact Sites"
     },
     "approach": {
-      "text": "CRITICAL: Do NOT use the Holland Tunnel or lower Manhattan bridges. Approach via NJ Turnpike (I-978 / I-78 East) to Exit 14C. Follow Grand St to Marin Blvd.",
+      "title": "NYC Metro Tunnel & Overpass Hazard Warning",
+      "text": "CRITICAL: Do NOT use the Holland Tunnel, Lincoln Tunnel, or lower Manhattan bridges due to strict propane prohibitions and low clearances. Approach via NJ Turnpike (I-78 East) to Exit 14C. Follow Grand St to Marin Blvd.",
       "recommendedGear": {
-        "title": "Commercial RV GPS",
-        "productName": "Garmin RV 890 GPS",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Crucial for avoiding low urban overpasses and propane-restricted tunnels in the NYC metro area."
+        "title": "Recommended Towing & Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for routing around low urban overpasses and propane-restricted tunnels in the NYC metropolitan area.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
       }
     },
-    "toadStrategy": "Unhook immediately upon passing through the security gate. Compact urban parking layout makes turning with a towed vehicle inside rows difficult.",
+    "toadStrategy": "Unhook immediately upon passing through the security entrance gate. Compact urban parking layout makes turning with a towed vehicle inside rows difficult.",
     "content": {
-      "overview": "Liberty Harbor is a secure, gravel/paved urban RV park located across the Hudson River from NYC, offering 30/50 amp electric and water hookups.",
-      "loopC": "Perimeter sites offer the most straightforward backing angles for rigs 38ft+.",
-      "loopsAB": "Interior rows are tightly spaced; drivers with long rigs should exercise caution when slide-outs are fully extended.",
+      "overview": "Liberty Harbor is a secure, paved urban RV park located across the Hudson River from NYC, offering 30/50 amp electric and water hookups.",
       "recommendedGear": {
-        "title": "Heavy-Duty Towing Systems",
-        "productName": "Blue Ox Alpha 2 Tow Bar",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Reliable quick-disconnect tow bar for rapid unhooking in high-traffic urban staging areas."
-      }
+        "title": "Recommended Towing Gear",
+        "productName": "Blue Ox BX7365 Alpha 2 Tow Bar",
+        "reason": "Reliable quick-disconnect tow bar system for rapid unhooking in high-traffic urban staging lanes.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0024E6278?tag=rigfitrv-20"
+      },
+      "loopC": "Perimeter sites offer the most straightforward backing angles and easiest swing-out clearance for long Class A rigs.",
+      "loopsAB": "Interior rows are tightly spaced; drivers with long rigs should exercise caution when extending full-depth slide-outs."
     }
   },
   {
     "id": "whispering-pines-camping-estates",
     "name": "Whispering Pines Camping Estates",
-    "city": "Cape May Court House",
-    "state": "NJ",
     "ownertype": "Private Campground",
-    "address": "58 Indian Trail Rd, Cape May Court House, NJ 08210",
-    "gps": "39.0832° N, 74.8872° W",
+    "addedDate": "2026-10-15",
+    "state": "NJ",
+    "city": "Cape May Court House",
+    "featured": false,
     "lat": 39.0832,
     "lng": -74.8872,
+    "image": "/images/whispering-pines_photo.jpg",
+    "mapImage": "/images/whispering-pines_map.jpg",
+    "address": "58 Indian Trail Rd, Cape May Court House, NJ 08210",
+    "gps": "39.0832° N, 74.8872° W",
     "phone": "(609) 465-3839",
     "website": "https://www.whisperingpinesnj.com",
-    "websiteLabel": "Whispering Pines Camping Estates",
-    "image": "/images/whispering-pines.jpg",
-    "summary": "Wooded South Jersey coastal campground with 50-amp full hookups and easy access to Cape May beaches.",
+    "summary": "Wooded South Jersey coastal campground with 50-amp full hookups and easy access to Cape May beaches and boardwalks.",
     "scorecard": {
-      "maxRigLength": "40 ft",
-      "toadFriendliness": "Good — Staging available in main office parking area",
-      "treeClearance": "Fair — Moderate pine canopy; watch for low branches on internal dirt loops",
-      "bestBigRigLoops": "Main Entrance Pull-Thru Row",
+      "maxRigLength": "Up to 40 ft",
+      "toadFriendliness": "Good (staging available in main office parking area)",
+      "treeClearance": "Fair (moderate pine canopy; watch low branches on internal dirt loops)",
+      "bestBigRigLoops": "Main Entrance Pull-Through Row",
       "bestSmallRigLoops": "Shaded Interior Back-In Loops"
     },
     "approach": {
-      "text": "Take the Garden State Parkway South to Exit 10/11 towards Cape May Court House. Turn onto Indian Trail Rd (CR-618). Flat coastal roads throughout.",
+      "title": "Jersey Shore Parkway & Coastal Access",
+      "text": "Take the Garden State Parkway South to Exit 10/11 towards Cape May Court House. Turn onto Indian Trail Rd (CR-618). Flat coastal roads throughout with zero steep grade hazards.",
       "recommendedGear": {
-        "title": "RV GPS Navigation",
-        "productName": "Garmin RV 780 GPS",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Helps navigate tight parkway exit lanes and coastal park roads safely."
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 780 GPS Navigator",
+        "reason": "Helps navigate tight parkway exit lanes and coastal park roads safely.",
+        "affiliateUrl": "https://www.amazon.com/dp/B07PY7S25R?tag=rigfitrv-20"
       }
     },
-    "toadStrategy": "Unhook toad in front of the registration office before entering the main pine loop roads.",
+    "toadStrategy": "Unhook toad in front of the registration office before entering the interior pine loop roads.",
     "content": {
       "overview": "A quiet, pine-shaded resort close to Jersey Shore points, providing full 50-amp hookups and sandy-gravel pads.",
-      "loopC": "The main pull-thru section provides wide turning clearances for Class A and Class C units.",
-      "loopsAB": "Dense pine loops feature soft sand edges; keep tires on the hard-packed gravel paths to prevent sinkage.",
       "recommendedGear": {
-        "title": "Leveling Jack Pads",
-        "productName": "SnapPad Rubber Jack Pads",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Prevents hydraulic jacks from sinking into sandy South Jersey soil."
-      }
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "SnapPad HiWay Bus Rubber Jack Pads",
+        "reason": "Prevents hydraulic leveling jacks from sinking into soft South Jersey pine sand soil.",
+        "affiliateUrl": "https://www.amazon.com/dp/B01LZX3K4L?tag=rigfitrv-20"
+      },
+      "loopC": "The main pull-thru section provides wide turning clearances for Class A and Class C units with straightforward entry angles.",
+      "loopsAB": "Dense pine loops feature soft sand edges; keep tires on the hard-packed gravel paths to prevent sinkage."
     }
   },
   {
     "id": "blue-mountain-campground",
     "name": "Blue Mountain Campground",
-    "city": "New Tripoli",
-    "state": "PA",
     "ownertype": "Private Campground",
-    "address": "6872 Blue Mountain Rd, New Tripoli, PA 18066",
-    "gps": "40.6784° N, 75.7531° W",
+    "addedDate": "2026-10-15",
+    "state": "PA",
+    "city": "New Tripoli",
+    "featured": false,
     "lat": 40.6784,
     "lng": -75.7531,
+    "image": "/images/blue-mountain_photo.jpg",
+    "mapImage": "/images/blue-mountain_map.jpg",
+    "address": "6872 Blue Mountain Rd, New Tripoli, PA 18066",
+    "gps": "40.6784° N, 75.7531° W",
     "phone": "(610) 298-2100",
     "website": "https://www.bluemountaincampground.com",
-    "websiteLabel": "Blue Mountain Campground",
-    "image": "/images/blue-mountain.jpg",
-    "summary": "Mountain-base campground near the Lehigh Valley offering peaceful mountain scenery and spacious gravel pads.",
+    "summary": "Mountain-base campground near the Lehigh Valley offering peaceful mountain scenery, terraced sites, and full hookups.",
     "scorecard": {
-      "maxRigLength": "42 ft",
-      "toadFriendliness": "Good — Unhooking area near entry gate",
-      "treeClearance": "Good — Well-maintained mountain tree clearance on main loop roads",
-      "bestBigRigLoops": "Upper Ridge Pull-Thrus",
-      "bestSmallRigLoops": "Lower Creek-side Sites"
+      "maxRigLength": "Up to 42 ft",
+      "toadFriendliness": "Good (unhooking area near main entrance gate)",
+      "treeClearance": "Good (well-maintained mountain tree clearance on main loop roads)",
+      "bestBigRigLoops": "Upper Ridge Pull-Through Sites",
+      "bestSmallRigLoops": "Lower Creek-side Loops"
     },
     "approach": {
-      "text": "Approach from I-78 to PA-143 North. Avoid steep back-mountain notch roads coming down off the ridge; stay on designated state highways.",
+      "title": "Lehigh Valley Mountain Notch Approach Warning",
+      "text": "Approach from I-78 to PA-143 North. Avoid steep back-mountain notch roads coming down off the ridge; stay on designated state highways to avoid 12%+ mountain descent grades.",
       "recommendedGear": {
-        "title": "RV GPS Navigation",
-        "productName": "Garmin RV 890 GPS",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Prevents routing onto 12%+ mountain grades in Berks and Lehigh counties."
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents routing onto dangerous steep mountain grades in Berks and Lehigh counties.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
       }
     },
     "toadStrategy": "Unhook at the entrance staging area prior to navigating the steady incline up to the upper pull-thru ridge.",
     "content": {
       "overview": "Set against the Appalachian Ridge, Blue Mountain offers large, terraced sites with scenic views and full 50-amp hookups.",
-      "loopC": "Upper Ridge sites are long pull-thrus designed specifically for longer fifth wheels and motorhomes.",
-      "loopsAB": "Lower creek-side loops feature sharper turns and moderate tree overhangs.",
       "recommendedGear": {
-        "title": "Leveling Blocks",
-        "productName": "Tri-Lynx Leveling Blocks",
-        "affiliateUrl": "https://amazon.com",
-        "reason": "Essential for terraced mountain sites where side-to-side grade varies."
-      }
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Essential for terraced mountain sites where side-to-side grade varies significantly across gravel pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Upper Ridge sites are long pull-thrus designed specifically for longer fifth wheels and Class A motorhomes.",
+      "loopsAB": "Lower creek-side loops feature sharper turns and moderate tree overhangs best suited for travel trailers under 30 feet."
     }
   },
  {
