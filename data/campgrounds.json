@@ -1,5 +1,4 @@
 [
-  
   {
     "id": "ricketts-glen-state-park",
     "name": "Ricketts Glen State Park",
@@ -199,15 +198,14 @@
       "text": "Approaching via Route 563 to Godfrey Bridge Road is clear and flat. Watch for low-hanging pitch pine branches along the sandy entrance lane as you pull up to the gatehouse."
     },
     "toadStrategy": "Unhooking up front can be tight during peak weekend check-ins. Either unhook directly on your pull-through pad or bypass the gate to the rear corner overflow lot.",
-    
-    },
     "content": {
       "overview": "Located deep in the New Jersey Pine Barrens along the Wading River.",
       "recommendedGear": {
-      "title": "Essential Staging & Stabilization Gear",
-      "productName": "Camco Heavy-Duty RV Wheel Chocks & Leveling Blocks",
-      "reason": "Pine Barrens back-in sites feature soft sandy shoulders and subtle slopes. Having reliable chocks and interlocking blocks prevents shifting when parked on loose ground.",
-      "affiliateUrl": "https://www.amazon.com/dp/B001GBWOL0?tag=rigfitrv-20"
+        "title": "Essential Staging & Stabilization Gear",
+        "productName": "Camco Heavy-Duty RV Wheel Chocks & Leveling Blocks",
+        "reason": "Pine Barrens back-in sites feature soft sandy shoulders and subtle slopes. Having reliable chocks and interlocking blocks prevents shifting when parked on loose ground.",
+        "affiliateUrl": "https://www.amazon.com/dp/B001GBWOL0?tag=rigfitrv-20"
+      },
       "loopC": "50-amp pull-through sites offer straight pull-in convenience.",
       "loopsAB": "Inner wooded back-in loops feature soft sandy shoulders requiring leveling blocks."
     }
