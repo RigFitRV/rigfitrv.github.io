@@ -1,4 +1,51 @@
 [
+ {
+    "id": "watkins-glen-state-park",
+    "name": "Watkins Glen State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "state": "NY",
+    "city": "Watkins Glen",
+    "featured": true,
+    "lat": 42.3764,
+    "lng": -76.8725,
+    "image": "/images/watkins_glen_photo.jpg",
+    "mapImage": "/images/watkins_glen_map.jpg",
+    "address": "3530 Route 419, Watkins Glen, NY 14891",
+    "gps": "42.3764° N, 76.8725° W",
+    "phone": "(607) 535-4511",
+    "website": "https://parks.ny.gov/parks/watkinsglen",
+    "summary": "Finger Lakes gorge camping in Watkins Glen, NY. Guidance on the steep village incline, tight outer loop turns, strict campsite length limits, and main registration lot unhooking.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strictly enforced on specific loops)",
+      "toadFriendliness": "Moderate (unhook at the upper main registration lot near Route 419)",
+      "treeClearance": "Dense mature oak/hemlock canopy on inner loops; watch low roof clearance",
+      "bestBigRigLoops": "Six Nations Loop (Loop C - wider pads & electric hookups)",
+      "bestSmallRigLoops": "Mohawk & Seneca Loops (Rustic / Tighter Turning Radiuses)"
+    },
+    "approach": {
+      "title": "Finger Lakes Grade & Route Clearance Warning",
+      "text": "Approaching from downtown Watkins Glen via NY-14 or Route 419 involves a steady, steep climb out of the gorge valley. Drivers towing heavy rigs should gear down early. Be mindful of sudden weekend tourist traffic congesting the village approach lanes near the lower gorge entrance.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Calculates safe hill approaches and avoids tight secondary road detours around Seneca Lake based on your rig dimensions.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088K42X11?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Do not pull towed vehicles through the narrow inner loop turnarounds. Unhook your toad at the upper main park office / registration parking lot before heading down into your designated loop.",
+    "content": {
+      "overview": "Situated directly above the famous Seneca Lake gorge, Watkins Glen State Park offers heavily shaded, hardwood-covered sites. The terrain is undulating, and gravel pads frequently slope away from the loop roads.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Andersen Hitches Camper Leveler",
+        "reason": "Uneven glacial soils and sloped state park gravel pads make curved drive-on levelers essential for dialing in side-to-side height quickly.",
+        "affiliateUrl": "https://www.amazon.com/dp/B00CCRTTke?tag=rigfitrv-20"
+      },
+      "loopC": "Six Nations Loop is the primary choice for larger RVs, featuring electric hookups, longer back-in depths, and slightly wider turning radiuses along the main loop lane.",
+      "loopsAB": "Mohawk, Seneca, and Cayuga loops skew toward small travel trailers, pop-ups, and camper vans. Inner loop corners feature tight tree alignments and sharp backing angles."
+    }
+  },
   {
     "id": "ricketts-glen-state-park",
     "name": "Ricketts Glen State Park",
