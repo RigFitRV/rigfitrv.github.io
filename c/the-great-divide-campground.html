@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Great Divide Campground RV Guide - RigFitRV</title>
-  <meta name="description" content="Verified RV clearance, pull-through site specs, steep hill grade warnings, and toad staging logistics for The Great Divide Campground in Newton, NJ.">
+  <meta name="description" content="Verified RV clearance, steep hill grade warnings, big-rig pull-through guidance, and toad staging logistics for The Great Divide Campground in Newton, NJ.">
   <link rel="stylesheet" href="../style.css">
 
   <!-- Custom Favicons -->
@@ -13,29 +13,27 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
 
-  <!-- Open Graph / Social Sharing Meta Tags -->
+  <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="RigFitRV">
   <meta property="og:title" content="The Great Divide Campground RV Guide - RigFitRV">
-  <meta property="og:description" content="Verified RV clearance, pull-through site specs, steep hill grade warnings, and toad staging logistics for The Great Divide Campground in Newton, NJ.">
-  <meta property="og:url" content="https://rigfitrv.github.io/c/the-great-divide-campground.html">
-  <meta property="og:image" content="https://images.rvezy.com/uploads/campgrounds/e3bddf34-daf7-40cf-87be-de63257ebeec/2ad4bdff.jpeg">
+  <meta property="og:url" content="https://rigfitrv.com/c/the-great-divide-campground.html">
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Google tag -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-TV8S962CRT');
   </script>
 
   <!-- Prevent AI Model Training & Image Scraping -->
-<meta name="robots" content="noai, noimageai">
-<meta name="tdm-reservation" content="1">
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
 </head>
 
+<!-- Body data attribute identifies which database record to pull -->
 <body data-campground-id="the-great-divide-campground">
 
   <!-- Universal Header -->
@@ -49,9 +47,9 @@
   <div class="container">
     <div class="article-card">
 
-      <h1 id="camp-title">The Great Divide Campground RV Guide: Rig Clearance, Loop Fit & Toad Maneuverability</h1>
+      <h1 id="camp-title">The Great Divide Campground RV Guide</h1>
 
-      <!-- Location & Contact Table (Populated dynamically from JSON) -->
+      <!-- Populated from JSON -->
       <table class="campground-info-table" id="camp-info-table"></table>
 
       <hr>
@@ -61,21 +59,24 @@
 
       <hr>
 
+      <!-- Approach & Routing Target Container -->
+      <div id="camp-approach-section"></div>
+
+      <hr>
+
       <h2>🏕️ Campground Overview & Atmosphere</h2>
       <div id="camp-overview"></div>
 
       <hr>
 
-      <h2>🚗 Toad Unhook & Staging Strategy</h2>
+      <h2>🚗 Toad Unhook Strategy</h2>
       <div id="camp-toad-strategy"></div>
 
       <hr>
 
       <h2>💬 RVer Community Intelligence: Help Us Keep This Updated!</h2>
       <p><em>Have you stayed here recently? Encountered a low branch or have tips for navigating the loops?</em></p>
-
       <a href="../submit.html" class="btn">👉 Submit a Quick Rig-Fit Update</a>
-      <a href="../submit.html" class="btn btn-secondary" style="margin-left: 10px;">+ Request / Submit Another Campground</a>
 
     </div>
   </div>
@@ -88,8 +89,7 @@
       .then(data => document.getElementById('footer-placeholder').innerHTML = data);
   </script>
 
-  <!-- Single-Point Data Loader Script -->
+  <!-- Single-Point Data Loader -->
   <script src="../js/campground.js"></script>
-
 </body>
 </html>
