@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // Populate Approach & Routing Section (GPS Ads)
+      // 1. Populate Approach & Routing Section (GPS Ads)
       const approachSection = document.getElementById('camp-approach-section');
       if (approachSection && data.approach) {
         let approachGearHtml = '';
@@ -67,12 +67,14 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // Populate Toad Unhook Strategy Section (Towing/Staging Ads)
+      // 2. Populate Toad Unhook Strategy Section (Towing/Tow Bar/Hitch Ads ONLY)
       const toadStrategyEl = document.getElementById('camp-toad-strategy');
       if (toadStrategyEl && data.toadStrategy) {
         let toadGearHtml = '';
-        // Check if recommendedGear is tied to the toad/staging section
-        if (data.recommendedGear && (data.toadStrategy.includes('staging') || data.recommendedGear.title.includes('Towing') || data.recommendedGear.title.includes('Staging') || data.recommendedGear.title.includes('Gear for This Approach'))) {
+        if (data.recommendedGear && 
+           (data.recommendedGear.title.toLowerCase().includes('towing') || 
+            data.recommendedGear.title.toLowerCase().includes('tow bar') || 
+            data.recommendedGear.title.toLowerCase().includes('hitch'))) {
           toadGearHtml = createAffiliateBox(data.recommendedGear);
         }
         toadStrategyEl.innerHTML = `
@@ -81,13 +83,21 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // Populate Overview, Campsite Details & Leveling Ads
+      // 3. Populate Overview & Campsite Details (Leveling Blocks & Wheel Chocks Ads)
       const overview = document.getElementById('camp-overview');
       if (overview && data.content) {
         let overviewGearHtml = '';
-        // Check if recommendedGear is tied to campsite/leveling gear
-        if (data.content.recommendedGear) {
-          overviewGearHtml = createAffiliateBox(data.content.recommendedGear);
+        
+        // Priority to specific content recommendedGear OR general recommendedGear if it's leveling/chock gear
+        const overviewGear = data.content.recommendedGear || 
+          (data.recommendedGear && 
+           (data.recommendedGear.title.toLowerCase().includes('leveling') || 
+            data.recommendedGear.title.toLowerCase().includes('chock') || 
+            data.recommendedGear.title.toLowerCase().includes('stabilization')) 
+           ? data.recommendedGear : null);
+
+        if (overviewGear) {
+          overviewGearHtml = createAffiliateBox(overviewGear);
         }
 
         overview.innerHTML = `
