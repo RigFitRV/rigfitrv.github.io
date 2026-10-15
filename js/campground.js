@@ -159,3 +159,77 @@ function injectCampgroundSchema(data) {
   script.text = JSON.stringify(schema);
   document.head.appendChild(script);
 }
+
+/**
+ * Calculates straight-line distance in miles between two coordinates (Haversine Formula)
+ */
+function getDistanceInMiles(lat1, lon1, lat2, lon2) {
+  const R = 3958.8; // Radius of Earth in miles
+  const dLat = (lat2 - lat1) * (Math.PI / 180);
+  const dLon = (lon2 - lon1) * (Math.PI / 180);
+  
+  const a = 
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) * 
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+
+/**
+ * Renders the 3 physically closest campgrounds with "miles away" badges
+ * @param {Object} currentCampground - The currently displayed park object
+ * @param {Array} allCampgrounds - Full list of campgrounds from campgrounds.json
+ */
+function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
+  const container = document.getElementById('related-campgrounds');
+  const grid = document.getElementById('related-cards-grid');
+
+  if (!container || !grid || !currentCampground.latitude || !currentCampground.longitude) return;
+
+  // 1. Exclude current park & calculate distance for all remaining parks
+  const nearbyList = allCampgrounds
+    .filter(park => park.id !== currentCampground.id && park.latitude && park.longitude)
+    .map(park => {
+      const miles = getDistanceInMiles(
+        currentCampground.latitude,
+        currentCampground.longitude,
+        park.latitude,
+        park.longitude
+      );
+      return { ...park, distanceMiles: Math.round(miles) };
+    })
+    .sort((a, b) => a.distanceMiles - b.distanceMiles) // Sort closest first
+    .slice(0, 3); // Pick top 3 closest
+
+  if (nearbyList.length === 0) return;
+
+  // 2. Build HTML cards with distance badge
+  grid.innerHTML = nearbyList.map(park => `
+    <div class="campground-card">
+      <div class="card-badge distance-badge">${park.distanceMiles} miles away</div>
+      <img src="${park.image || '/images/placeholder.jpg'}" alt="${park.name}" class="card-image" loading="lazy">
+      <div class="card-content">
+        <h3 class="card-title">${park.name}</h3>
+        <p class="card-location"><i class="fas fa-map-marker-alt"></i> ${park.city}, ${park.state}</p>
+        <div class="card-meta">
+          <span><strong>Max Length:</strong> ${park.scorecard?.maxRigLength || 'See Guide'}</span>
+        </div>
+        <a href="/c/${park.id}.html" class="btn btn-outline">View Rig-Fit Guide</a>
+      </div>
+    </div>
+  `).join('');
+
+  // 3. Reveal section
+  container.classList.remove('hidden');
+}
+
+// EXAMPLE INITIALIZATION inside your fetch block:
+// fetch('/data/campgrounds.json')
+//   .then(res => res.json())
+//   .then(data => {
+//     const currentPark = data.find(p => p.id === currentParkId);
+//     renderCampgroundDetails(currentPark);
+//     renderRelatedCampgrounds(currentPark, data);
+//   });
