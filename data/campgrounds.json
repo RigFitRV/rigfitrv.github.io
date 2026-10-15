@@ -72,7 +72,7 @@
     },
     "approach": {
       "title": "Bucks County Backroad & Bridge Warning",
-      "text": "Covered Bridge Road and surrounding rural Bucks County routes are narrow with zero shoulder room. Watch for sudden sharp turns and stone bridge abutments. Follow official park approach signs rather than standard phone GPS.",
+      "text": "Covered Bridge Road and surrounding rural Bucks County routes are narrow with zero shoulder room. Watch for sudden sharp turns and stone bridge abutments. Follow official park approach signs rather than standard phone GPS. Rigs over 12 feet tall must bypass Thatcher Rd and take Rt. 563 to Sterner Mill Rd to avoid a low bridge clearance.",
       "recommendedGear": {
         "title": "Recommended Rig Routing Gear",
         "productName": "Rand McNally OverDryve Pro II RV GPS",
@@ -152,7 +152,7 @@
     "lng": -76.0823,
     "image": "/images/appalachian_photo.jpg",
     "mapImage": "/images/appalachian_map.jpg",
-    "address": "60 Appaloosa Way, Shartlesville, PA 19554",
+    "address": "60 Motel Drive, Shartlesville, PA 19554",
     "gps": "40.4812° N, 76.0823° W",
     "phone": "(610) 488-6319",
     "website": "https://www.sunoutdoors.com/pennsylvania/appalachian-rv-resort",
@@ -201,7 +201,7 @@
     "mapImage": "/images/kittatinny_map.jpg",
     "address": "3854 Route 97, Barryville, NY 12719",
     "gps": "41.4782° N, 74.9102° W",
-    "phone": "(800) 123-4567",
+    "phone": "(845) 682-3539",
     "website": "https://kittatinny.com",
     "summary": "Delaware River Valley camping in Barryville, NY. Ground-truth breakdown of Scenic Route 97 Hawks Nest corridor, riverbank loop clearance, and toad staging.",
     "scorecard": {
