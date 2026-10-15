@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (infoTable) {
         infoTable.innerHTML = `
           <tr><td>🏷️ Ownership Type</td><td><strong>${data.ownertype || 'Public / State Park'}</strong></td></tr>
-          <tr><td>📍 Physical Address</td><td>${data.address}</td></tr>
-          <tr><td>🌐 GPS Coordinates</td><td><code>${data.gps}</code></td></tr>
-          <tr><td>📞 Phone Number</td><td><a href="tel:${data.phone.replace(/[^0-9]/g, '')}">${data.phone}</a></td></tr>
-          <tr><td>🔗 Official Website</td><td><a href="${data.website}" target="_blank" rel="noopener">${data.websiteLabel || data.name}</a></td></tr>
+          <tr><td>📍 Physical Address</td><td>${data.address || ''}</td></tr>
+          <tr><td>🌐 GPS Coordinates</td><td><code>${data.gps || ''}</code></td></tr>
+          <tr><td>📞 Phone Number</td><td><a href="tel:${(data.phone || '').replace(/[^0-9]/g, '')}">${data.phone || ''}</a></td></tr>
+          <tr><td>🔗 Official Website</td><td><a href="${data.website || '#'}" target="_blank" rel="noopener">${data.websiteLabel || data.name}</a></td></tr>
         `;
       }
 
@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
       if (scorecard && data.scorecard) {
         scorecard.innerHTML = `
           <ul>
-            <li><strong>Recommended Max Rig Length:</strong> ${data.scorecard.maxRigLength}</li>
-            <li><strong>Toad / Towed Vehicle Friendliness:</strong> ${data.scorecard.toadFriendliness}</li>
-            <li><strong>Tree Clearance Warning:</strong> ${data.scorecard.treeClearance}</li>
-            <li><strong>Best Loops for Big Rigs:</strong> ${data.scorecard.bestBigRigLoops}</li>
-            <li><strong>Best Loops for Smaller Units:</strong> ${data.scorecard.bestSmallRigLoops}</li>
+            <li><strong>Recommended Max Rig Length:</strong> ${data.scorecard.maxRigLength || 'N/A'}</li>
+            <li><strong>Toad / Towed Vehicle Friendliness:</strong> ${data.scorecard.toadFriendliness || 'N/A'}</li>
+            <li><strong>Tree Clearance Warning:</strong> ${data.scorecard.treeClearance || 'N/A'}</li>
+            <li><strong>Best Loops for Big Rigs:</strong> ${data.scorecard.bestBigRigLoops || 'N/A'}</li>
+            <li><strong>Best Loops for Smaller Units:</strong> ${data.scorecard.bestSmallRigLoops || 'N/A'}</li>
           </ul>
         `;
       }
@@ -88,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (overview && data.content) {
         let overviewGearHtml = '';
         
-        // Priority to specific content recommendedGear OR general recommendedGear if it's leveling/chock gear
         const overviewGear = data.content.recommendedGear || 
           (data.recommendedGear && 
            (data.recommendedGear.title.toLowerCase().includes('leveling') || 
@@ -102,14 +101,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         overview.innerHTML = `
           ${data.image ? `<img src="${data.image}" alt="${data.name} Campsite" style="max-height: 380px; object-fit: cover; width: 100%; border-radius: 8px; margin-bottom: 1.5rem;">` : ''}
-          <p>${data.content.overview}</p>
+          <p>${data.content.overview || ''}</p>
           ${overviewGearHtml}
           
           <h3>Big-Rig & Loop Guidance</h3>
-          <p>${data.content.loopC}</p>
+          <p>${data.content.loopC || ''}</p>
           
           <h3>Tight Turns & Small Unit Loops</h3>
-          <p>${data.content.loopsAB}</p>
+          <p>${data.content.loopsAB || ''}</p>
 
           ${data.mapImage ? `
             <hr>
@@ -122,17 +121,23 @@ document.addEventListener('DOMContentLoaded', () => {
       // INJECT JSON-LD SCHEMA FOR GOOGLE RICH RESULTS
       injectCampgroundSchema(data);
 
+      // RENDER NEARBY CAMPGROUND CARDS (Distance-based)
+      renderRelatedCampgrounds(data, campgrounds);
+
     })
     .catch(err => console.error('Error loading campground data:', err));
 });
 
 // Automatically inject JSON-LD Schema for Google Rich Snippets
 function injectCampgroundSchema(data) {
+  const lat = parseFloat(data.lat || data.latitude);
+  const lng = parseFloat(data.lng || data.longitude);
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "Campground",
     "name": data.name,
-    "description": data.summary,
+    "description": data.summary || "",
     "url": window.location.href,
     "telephone": data.phone || "",
     "additionalType": data.ownertype === "State Park" 
@@ -147,8 +152,8 @@ function injectCampgroundSchema(data) {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": data.lat,
-      "longitude": data.lng
+      "latitude": isNaN(lat) ? "" : lat,
+      "longitude": isNaN(lng) ? "" : lng
     },
     "image": data.image ? `https://rigfitrv.com${data.image}` : "",
     "sameAs": data.website || ""
@@ -186,18 +191,29 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
   const container = document.getElementById('related-campgrounds');
   const grid = document.getElementById('related-cards-grid');
 
-  if (!container || !grid || !currentCampground.latitude || !currentCampground.longitude) return;
+  if (!container || !grid) return;
+
+  // Extract latitude & longitude safely (supports lat/lng OR latitude/longitude, string or number)
+  const currentLat = parseFloat(currentCampground.lat || currentCampground.latitude);
+  const currentLng = parseFloat(currentCampground.lng || currentCampground.longitude);
+
+  if (isNaN(currentLat) || isNaN(currentLng)) {
+    console.warn('Current campground missing valid coordinates for distance calculation');
+    return;
+  }
 
   // 1. Exclude current park & calculate distance for all remaining parks
   const nearbyList = allCampgrounds
-    .filter(park => park.id !== currentCampground.id && park.latitude && park.longitude)
+    .filter(park => {
+      if (park.id === currentCampground.id) return false;
+      const pLat = parseFloat(park.lat || park.latitude);
+      const pLng = parseFloat(park.lng || park.longitude);
+      return !isNaN(pLat) && !isNaN(pLng);
+    })
     .map(park => {
-      const miles = getDistanceInMiles(
-        currentCampground.latitude,
-        currentCampground.longitude,
-        park.latitude,
-        park.longitude
-      );
+      const pLat = parseFloat(park.lat || park.latitude);
+      const pLng = parseFloat(park.lng || park.longitude);
+      const miles = getDistanceInMiles(currentLat, currentLng, pLat, pLng);
       return { ...park, distanceMiles: Math.round(miles) };
     })
     .sort((a, b) => a.distanceMiles - b.distanceMiles) // Sort closest first
@@ -212,7 +228,7 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
       <img src="${park.image || '/images/placeholder.jpg'}" alt="${park.name}" class="card-image" loading="lazy">
       <div class="card-content">
         <h3 class="card-title">${park.name}</h3>
-        <p class="card-location"><i class="fas fa-map-marker-alt"></i> ${park.city}, ${park.state}</p>
+        <p class="card-location"><i class="fas fa-map-marker-alt"></i> ${park.city || ''}, ${park.state || ''}</p>
         <div class="card-meta">
           <span><strong>Max Length:</strong> ${park.scorecard?.maxRigLength || 'See Guide'}</span>
         </div>
@@ -224,12 +240,3 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
   // 3. Reveal section
   container.classList.remove('hidden');
 }
-
-// EXAMPLE INITIALIZATION inside your fetch block:
-// fetch('/data/campgrounds.json')
-//   .then(res => res.json())
-//   .then(data => {
-//     const currentPark = data.find(p => p.id === currentParkId);
-//     renderCampgroundDetails(currentPark);
-//     renderRelatedCampgrounds(currentPark, data);
-//   });
