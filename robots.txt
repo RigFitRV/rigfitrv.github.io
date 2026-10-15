@@ -39,4 +39,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://rigfitrv.github.io/sitemap.xml
+Sitemap: https://rigfitrv.com/sitemap.xml
