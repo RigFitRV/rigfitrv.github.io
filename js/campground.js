@@ -40,38 +40,60 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // Populate Toad Unhook Strategy
-      const toadStrategyEl = document.getElementById('camp-toad-strategy');
-      if (toadStrategyEl && data.toadStrategy) {
-        toadStrategyEl.innerHTML = `<p>${data.toadStrategy}</p>`;
-      }
-
-      // Dynamic Amazon Affiliate Gear Callout Box
-      if (toadStrategyEl && data.recommendedGear) {
-        let gearBox = document.getElementById('camp-gear-recommendation');
-        if (!gearBox) {
-          gearBox = document.createElement('div');
-          gearBox.id = 'camp-gear-recommendation';
-          toadStrategyEl.parentNode.insertBefore(gearBox, toadStrategyEl.nextSibling);
-        }
-
-        gearBox.innerHTML = `
-          <div style="background-color: #f8fafc; border-left: 4px solid #2563eb; padding: 1.25rem; border-radius: 6px; margin: 1.5rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
-            <h4 style="margin: 0 0 0.5rem 0; color: #0f172a; font-size: 1.05rem;">⚙️ ${data.recommendedGear.title || 'Essential Gear for This Approach'}</h4>
-            <p style="margin: 0 0 0.75rem 0; font-size: 0.92rem; color: #334155; line-height: 1.5;">
-              <strong>Recommended Setup:</strong> <a href="${data.recommendedGear.affiliateUrl}" target="_blank" rel="nofollow noopener" style="color: #2563eb; font-weight: bold; text-decoration: underline;">${data.recommendedGear.productName}</a> — ${data.recommendedGear.reason}
+      // Reusable Affiliate Box Generator Helper
+      function createAffiliateBox(gear) {
+        return `
+          <div style="background-color: #f8fafc; border-left: 4px solid #2563eb; padding: 1.25rem; border-radius: 6px; margin: 1.25rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+            <h4 style="margin: 0 0 0.5rem 0; color: #0f172a; font-size: 1.01rem;">⚙️ ${gear.title || 'Recommended Gear'}</h4>
+            <p style="margin: 0 0 0.75rem 0; font-size: 0.9rem; color: #334155; line-height: 1.5;">
+              <strong>Recommended Setup:</strong> <a href="${gear.affiliateUrl}" target="_blank" rel="nofollow noopener" style="color: #2563eb; font-weight: bold; text-decoration: underline;">${gear.productName}</a> — ${gear.reason}
             </p>
             <span style="font-size: 0.78rem; color: #64748b; font-style: italic;">RigFitRV is reader-supported. We may earn an affiliate commission from qualifying purchases made through our links.</span>
           </div>
         `;
       }
 
-      // Populate Overview & Images
+      // Populate Approach & Routing Section (GPS Ads)
+      const approachSection = document.getElementById('camp-approach-section');
+      if (approachSection && data.approach) {
+        let approachGearHtml = '';
+        if (data.approach.recommendedGear) {
+          approachGearHtml = createAffiliateBox(data.approach.recommendedGear);
+        }
+        approachSection.innerHTML = `
+          <h2>🚧 Approach & Routing Warning</h2>
+          <p>${data.approach.text}</p>
+          ${approachGearHtml}
+        `;
+      }
+
+      // Populate Toad Unhook Strategy Section (Towing/Staging Ads)
+      const toadStrategyEl = document.getElementById('camp-toad-strategy');
+      if (toadStrategyEl && data.toadStrategy) {
+        let toadGearHtml = '';
+        // Check if recommendedGear is tied to the toad/staging section
+        if (data.recommendedGear && (data.toadStrategy.includes('staging') || data.recommendedGear.title.includes('Towing') || data.recommendedGear.title.includes('Staging') || data.recommendedGear.title.includes('Gear for This Approach'))) {
+          toadGearHtml = createAffiliateBox(data.recommendedGear);
+        }
+        toadStrategyEl.innerHTML = `
+          <p>${data.toadStrategy}</p>
+          ${toadGearHtml}
+        `;
+      }
+
+      // Populate Overview, Campsite Details & Leveling Ads
       const overview = document.getElementById('camp-overview');
       if (overview && data.content) {
+        let overviewGearHtml = '';
+        // Check if recommendedGear is tied to campsite/leveling gear
+        if (data.content.recommendedGear) {
+          overviewGearHtml = createAffiliateBox(data.content.recommendedGear);
+        }
+
         overview.innerHTML = `
           ${data.image ? `<img src="${data.image}" alt="${data.name} Campsite" style="max-height: 380px; object-fit: cover; width: 100%; border-radius: 8px; margin-bottom: 1.5rem;">` : ''}
           <p>${data.content.overview}</p>
+          ${overviewGearHtml}
           
           <h3>Big-Rig & Loop Guidance</h3>
           <p>${data.content.loopC}</p>
