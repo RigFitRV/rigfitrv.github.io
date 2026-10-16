@@ -1,5 +1,52 @@
 [
  {
+    "id": "gettysburg-campground",
+    "name": "Gettysburg Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.8188,
+    "lng": -77.2842,
+    "image": "/images/gettysburg.jpg",
+    "mapImage": "/images/gettysburg_map.jpg",
+    "address": "2030 Fairfield Rd, Gettysburg, PA 17325",
+    "gps": "39.8188° N, 77.2842° W",
+    "phone": "(717) 334-3304",
+    "website": "https://www.gettysburgcampground.com",
+    "summary": "Premier family campground along Marsh Creek west of historic Gettysburg. Ground-truth breakdown of PA-116 approach navigation, downtown roundabout warnings, and pull-thru pad fit.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (wide registration lane and staging area prior to loop entry)",
+      "treeClearance": "Good along main avenues; watch lower branches on creekfront shaded lanes",
+      "bestBigRigLoops": "Center Pull-Through Rows (50 Amp Full Hookup)",
+      "bestSmallRigLoops": "Marsh Creek Back-In Section"
+    },
+    "approach": {
+      "title": "PA-116 Approach & Historic Gettysburg Roundabout Warning",
+      "text": "Approach via PA-116 (Fairfield Rd) directly from the west. If approaching from the east, use US-30 bypass to avoid tight historic turns and low-hanging tree branches around Lincoln Square in downtown Gettysburg. PA-116 provides wide shoulders and smooth access.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures clean routing around historic downtown Gettysburg roundabouts and low-clearance side streets.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Use the wide arrival lane in front of the main registration office to unhook your towed vehicle before proceeding to internal loops.",
+    "content": {
+      "overview": "Gettysburg Campground provides excellent proximity to the Gettysburg National Military Park with wide gravel roads, full hookups, and mature shade trees along Marsh Creek.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Great for fine-tuning side-to-side level on long gravel pull-through pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Center pull-through rows feature long, flat gravel pads designed to easily handle 40ft+ Class A coaches and heavy fifth wheels.",
+      "loopsAB": "Marsh Creek back-in loops provide shaded perimeter sites ideal for travel trailers and smaller Class C units."
+    }
+  },
+ {
     "id": "driftstone-campground",
     "name": "Driftstone Campground",
     "ownertype": "Private Campground",
