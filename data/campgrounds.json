@@ -1,5 +1,52 @@
 [
  {
+    "id": "western-village-rv-park",
+    "name": "Western Village RV Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "state": "PA",
+    "city": "Carlisle",
+    "featured": true,
+    "lat": 40.2075,
+    "lng": -77.1601,
+    "image": "/images/western_village_rv_park.jpg",
+    "mapImage": "/images/western_village_rv_park_map.jpg",
+    "address": "200 Lincoln Way, Carlisle, PA 17015",
+    "gps": "40.2075° N, 77.1601° W",
+    "phone": "(717) 243-1124",
+    "website": "https://www.westernvillagervpark.com",
+    "summary": "Convenient I-81/I-76 transit hub park in Carlisle, PA. Essential ground-truth routing warning regarding the residential neighborhood approach and turn-in logistics.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Good (unhooking staging lane near front registration office)",
+      "treeClearance": "Excellent along main internal avenues; watch residential street tree overhangs on approach",
+      "bestBigRigLoops": "Pull-Through Row (50 Amp Full Hookup)",
+      "bestSmallRigLoops": "Perimeter Back-In Section"
+    },
+    "approach": {
+      "title": "Residential Neighborhood Approach Warning",
+      "text": "CRITICAL ROUTING NOTE: Access to the park entrance requires navigating through a quiet, narrow residential neighborhood (Lincoln Way / Sunset Dr). Keep speeds low, watch for parked cars along the curb, and take wide turns at residential street intersections. Approach directly from I-81 Exit 47 or Exit 45 via PA-34 to avoids tight town square maneuvers.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Provides custom truck and RV navigation around tight residential corner radiuses in Carlisle.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Unhook your towed vehicle in the registration office arrival lane before turning into assigned campsite rows, especially during busy check-in hours.",
+    "content": {
+      "overview": "Western Village RV Park offers level gravel pads, full 50-amp hookups, and extremely convenient highway access near the junction of I-81 and the PA Turnpike.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for fine-tuning side-to-side alignment on long gravel pull-through pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "The main pull-through rows feature long, flat gravel pads with open sky clearance, making satellite setup easy for big rigs.",
+      "loopsAB": "Perimeter back-in sites offer shaded grassy lawns suitable for travel trailers and smaller motorhomes."
+    }
+  },
+ {
     "id": "gettysburg-campground",
     "name": "Gettysburg Campground",
     "ownertype": "Private Campground",
