@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>State Campground Directory - RigFitRV</title>
+  <meta name="description" content="Browse verified big-rig RV campground guides by state on RigFitRV.">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Custom Favicons -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+  <!-- Prevent AI Model Training & Image Scraping -->
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
+</head>
+<body>
+
+  <!-- Universal Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <div class="container" style="padding-top: 40px; padding-bottom: 60px;">
+    <h1 id="state-title">Campground Guides</h1>
+    <p id="state-subtitle" class="section-subtitle">Loading state directory...</p>
+    
+    <div id="state-results-grid" class="cards-grid" style="margin-top: 30px;">
+      <!-- Dynamic results render here -->
+    </div>
+  </div>
+
+  <!-- Universal Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- State Directory Loader Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const stateParam = (urlParams.get('st') || 'PA').toUpperCase();
+      
+      const stateNames = {
+        'PA': 'Pennsylvania',
+        'NJ': 'New Jersey',
+        'NY': 'New York'
+      };
+      
+      const fullStateName = stateNames[stateParam] || stateParam;
+      document.getElementById('state-title').textContent = `${fullStateName} RV Campground Guides`;
+      
+      try {
+        const response = await fetch('data/campgrounds.json');
+        const campgrounds = await response.json();
+        
+        const filtered = campgrounds.filter(camp => camp.state.toUpperCase() === stateParam);
+
+        document.getElementById('state-subtitle').textContent = `Showing ${filtered.length} verified big-rig guide${filtered.length === 1 ? '' : 's'} in ${fullStateName}`;
+        
+        const grid = document.getElementById('state-results-grid');
+        if (filtered.length === 0) {
+          grid.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; padding: 40px 0;">No campground guides currently available for ${fullStateName}. Check back soon as we expand our coverage!</p>`;
+          return;
+        }
+
+        grid.innerHTML = filtered.map(camp => `
+          <div class="card">
+            <img src="${camp.image}" alt="${camp.name}" onerror="this.src='images/placeholder.jpg'">
+            <div class="card-content">
+              <h3>${camp.name}</h3>
+              <p class="location">${camp.city}, ${camp.state} • ${camp.ownertype}</p>
+              <p class="summary">${camp.summary}</p>
+              <a href="c/${camp.id}.html" class="btn">View Rig-Fit Guide</a>
+            </div>
+          </div>
+        `).join('');
+        
+      } catch (err) {
+        console.error('Error loading state guides:', err);
+        document.getElementById('state-subtitle').textContent = 'Error loading state directory. Please try again later.';
+      }
+    });
+  </script>
+</body>
+</html>
