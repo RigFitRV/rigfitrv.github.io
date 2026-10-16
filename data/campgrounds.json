@@ -1,5 +1,52 @@
 [
  {
+    "id": "driftstone-campground",
+    "name": "Driftstone Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "state": "PA",
+    "city": "Mt Bethel",
+    "featured": false,
+    "lat": 40.8711,
+    "lng": -75.1215,
+    "image": "/images/driftstone.jpg",
+    "mapImage": "/images/driftstone_map.jpg",
+    "address": "275 River Rd, Mt Bethel, PA 18343",
+    "gps": "40.8711° N, 75.1215° W",
+    "phone": "(570) 897-6859",
+    "website": "https://www.driftstone.com",
+    "summary": "Premier riverfront campground on the Delaware River in Mt. Bethel, PA. Essential ground-truth routing warnings avoiding the 8-ton Belvidere bridge and River Road hairpin turns.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft",
+      "toadFriendliness": "Good (unhooking staging lane near main office and gatehouse)",
+      "treeClearance": "Good along main avenues; watch lower branches on inner riverside lanes",
+      "bestBigRigLoops": "Upper Field Pull-Through Section",
+      "bestSmallRigLoops": "Lower Delaware Riverfront Back-In Section"
+    },
+    "approach": {
+      "title": "Official Route Advisory: Belvidere Bridge & River Road Warnings",
+      "text": "CRITICAL TRAVEL WARNING: Standard GPS directions may route motorhomes and trailers incorrectly. You MUST avoid the bridge across the Delaware River between Belvidere, NJ and Riverton, PA (5 miles south of Driftstone)—it has a strict 8-ton weight limit, is extremely narrow, and is completely unsuitable for RVs or trailers. Additionally, watch for a sharp hairpin turn on River Road 4 miles south of Driftstone. Follow official directions via driftstone.com/directions.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 780 GPS Navigator",
+        "reason": "Provides custom commercial RV routing to bypass low-weight bridges and hazardous local hairpin turns.",
+        "affiliateUrl": "https://www.amazon.com/dp/B07PY7S25R?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office entrance staging lane before crossing the inner gate to unhook your towed vehicle safely.",
+    "content": {
+      "overview": "Driftstone Campground offers broad Delaware River frontage with well-maintained gravel pads, mature shade trees, and 50-amp electrical hookups in the scenic Delaware Water Gap region.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Camco Curved Leveler Ramps",
+        "reason": "Helps quickly level rigs on gentle riverbank gravel slopes.",
+        "affiliateUrl": "https://www.amazon.com/dp/B013VJ62K2?tag=rigfitrv-20"
+      },
+      "loopC": "Upper pull-through loops feature long gravel pads with an easy swing radius for motorhomes and fifth wheels.",
+      "loopsAB": "Riverfront back-in sites offer scenic views across the Delaware River into New Jersey, requiring standard 90-degree backing maneuvers."
+    }
+  },
+ {
     "id": "lake-in-wood-camping-resort",
     "name": "Lake in Wood Camping Resort",
     "ownertype": "Private Campground",
