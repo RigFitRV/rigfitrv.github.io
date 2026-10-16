@@ -1,5 +1,52 @@
 [
  {
+    "id": "trailhead-campground",
+    "name": "Trailhead Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "state": "PA",
+    "city": "Coal Township",
+    "featured": true,
+    "lat": 40.7812,
+    "lng": -76.5415,
+    "image": "/images/trailhead.jpg",
+    "mapImage": null,
+    "address": "100 AOAA Trailhead Rd, Coal Township, PA 17866",
+    "gps": "40.7812° N, 76.5415° W",
+    "phone": "(570) 648-2622",
+    "website": "https://www.aoaatrails.com",
+    "summary": "Dedicated off-road park campground near AOAA in Coal Township, PA. Ground-truth approach warnings for steep mountain hairpin climbs vs. tight city street maneuvers through historic Shamokin.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Toy Hauler & Heavy Trailer Friendly)",
+      "toadFriendliness": "Excellent (dedicated off-road staging areas and wide rig parking)",
+      "treeClearance": "Excellent open-sky clearance in main loops; watch low urban tree branches through Shamokin",
+      "bestBigRigLoops": "Main RV Staging & Campsite Row",
+      "bestSmallRigLoops": "Perimeter Back-In Section"
+    },
+    "approach": {
+      "title": "Dual Approach Route Warning: Steep Hairpin vs. Shamokin City Streets",
+      "text": "CRITICAL ROUTING WARNING: Approaching from the south involves a steep mountain climb featuring a sharp hairpin turn—maintain momentum and check trailer brake bias before climbing. Approaching from the north/west forces big rigs through historic Shamokin, PA, which features narrow, densely packed city streets, tight 90-degree intersections, and low street trees. Heavy toy haulers and long rigs should exercise extreme caution.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for setting custom rig dimensions and weight limits when navigating tight mountain grades and historic Coal Region town roads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Use the main off-road vehicle staging lot near the office to unhook tow rigs, trailers, or off-road vehicles before parking in designated sites.",
+    "content": {
+      "overview": "Trailhead Campground caters to off-road enthusiasts and haulers visiting the Anthracite Outdoor Adventure Area (AOAA), offering wide, oversized gravel pads designed for large rigs, toy haulers, and utility trailers.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Camco Heavy Duty Curved Leveler Ramps",
+        "reason": "Provides fast, sturdy leveling on coarse mountain gravel pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B013VJ62K2?tag=rigfitrv-20"
+      },
+      "loopC": "The main RV rows feature expansive, deep pull-through and back-in gravel pads with wide turn radiuses built specifically for long truck-and-trailer combinations.",
+      "loopsAB": "Perimeter sites offer open-sky views with plenty of space to park side-by-sides, ATVs, and tow vehicles alongside your rig."
+    }
+  },
+ {
     "id": "western-village-rv-park",
     "name": "Western Village RV Park",
     "ownertype": "Private Campground",
