@@ -1,5 +1,52 @@
 [
  {
+    "id": "jim-thorpe-camping-resort",
+    "name": "Jim Thorpe Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "state": "PA",
+    "city": "Jim Thorpe",
+    "featured": true,
+    "lat": 40.8536,
+    "lng": -75.7760,
+    "image": "/images/jim_thorpe_resort.jpg",
+    "mapImage": null,
+    "address": "129 Lentz Trail, Jim Thorpe, PA 18229",
+    "gps": "40.8536° N, 75.7760° W",
+    "phone": "(570) 325-2644",
+    "website": "https://www.jimthorpecamping.com",
+    "summary": "Popular Pocono Mountains campground near Jim Thorpe, PA. Ground-truth routing alert warning big rigs and trailers away from the steep climb and impossible turn on Flagstaff Road.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Moderate Maneuvering Required)",
+      "toadFriendliness": "Good (staging areas available near registration)",
+      "treeClearance": "Moderate; watch lower canopy branches along mountain approach roads and inner loops",
+      "bestBigRigLoops": "Main Hillside Pull-Through Sites",
+      "bestSmallRigLoops": "Lower Creek-Bordered Back-In Sites"
+    },
+    "approach": {
+      "title": "Critical Routing Warning: Avoid Flagstaff Road Climb",
+      "text": "CRITICAL NAVIGATIONAL HAZARD: Standard GPS units and poor website directions frequently route RVers over Flagstaff Road. This route features an extreme, grueling mountain climb followed by a severe, nearly impossible hairpin turn at the bottom that is completely unsuitable for motorhomes, fifth wheels, and trailers. Consult a dedicated RV GPS and plan an alternate approach avoiding Flagstaff Road.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for overriding hazardous mountain shortcut routes like Flagstaff Road and guiding large rigs safely.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Use the arrival staging area near the office to unhook your towed vehicle before maneuvering into tight hillside loop turns.",
+    "content": {
+      "overview": "Jim Thorpe Camping Resort offers wooded mountain campsites, a camp pool, and a border stream near the historic borough of Jim Thorpe, though internal road grades require careful navigation.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Crucial for leveling on sloping hillside gravel sites.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Main hillside rows provide electrical and water hookups with moderate pull-through access for mid-sized rigs.",
+      "loopsAB": "Lower creek-adjacent back-in sites offer shaded tent and small-trailer camping right along the mountain stream."
+    }
+  },
+ {
     "id": "trailhead-campground",
     "name": "Trailhead Campground",
     "ownertype": "Private Campground",
