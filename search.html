@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Campgrounds - RigFitRV</title>
+  <meta name="description" content="Search verified RV campground clearance guides, approach warnings, and big-rig ratings on RigFitRV.">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Custom Favicons -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+  <!-- Prevent AI Model Training & Image Scraping -->
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
+</head>
+<body>
+
+  <!-- Universal Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <div class="container" style="padding-top: 40px; padding-bottom: 60px;">
+    <h1 id="search-title">Search Results</h1>
+    <p id="search-subtitle" class="section-subtitle">Loading search results...</p>
+    
+    <div id="search-results-grid" class="cards-grid" style="margin-top: 30px;">
+      <!-- Dynamic results render here -->
+    </div>
+  </div>
+
+  <!-- Universal Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- Search Results Loader Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const query = (urlParams.get('q') || '').toLowerCase().trim();
+      
+      document.getElementById('search-title').textContent = query ? `Search: "${query}"` : `All Campground Guides`;
+      
+      try {
+        const response = await fetch('data/campgrounds.json');
+        const campgrounds = await response.json();
+        
+        const filtered = campgrounds.filter(camp => {
+          if (!query) return true;
+          return (
+            camp.name.toLowerCase().includes(query) ||
+            camp.city.toLowerCase().includes(query) ||
+            camp.state.toLowerCase().includes(query) ||
+            camp.summary.toLowerCase().includes(query)
+          );
+        });
+
+        document.getElementById('search-subtitle').textContent = `Found ${filtered.length} verified guide${filtered.length === 1 ? '' : 's'}`;
+        
+        const grid = document.getElementById('search-results-grid');
+        if (filtered.length === 0) {
+          grid.innerHTML = '<p style="grid-column: 1 / -1; text-align: center; padding: 40px 0;">No campgrounds matched your search. Try searching by city, state, or campground name.</p>';
+          return;
+        }
+
+        grid.innerHTML = filtered.map(camp => `
+          <div class="card">
+            <img src="${camp.image}" alt="${camp.name}" onerror="this.src='images/placeholder.jpg'">
+            <div class="card-content">
+              <h3>${camp.name}</h3>
+              <p class="location">${camp.city}, ${camp.state} • ${camp.ownertype}</p>
+              <p class="summary">${camp.summary}</p>
+              <a href="c/${camp.id}.html" class="btn">View Rig-Fit Guide</a>
+            </div>
+          </div>
+        `).join('');
+        
+      } catch (err) {
+        console.error('Error loading search results:', err);
+        document.getElementById('search-subtitle').textContent = 'Error loading search results. Please try again later.';
+      }
+    });
+  </script>
+</body>
+</html>
