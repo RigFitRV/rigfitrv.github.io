@@ -31,37 +31,39 @@
       border: 1px solid #cbd5e1;
       border-radius: 8px;
       overflow: hidden;
-      margin: 1rem 0 2rem 0;
+      margin: 0.5rem 0 2rem 0;
       box-shadow: 0 1px 3px rgba(0,0,0,0.05);
       background: #ffffff;
     }
 
-    /* Minimal Map Header / Filter Bar */
+    /* Single-Line Compact Filter Bar */
     .map-filter-bar {
-      background-color: #1e293b; /* Matches universal site header tone */
+      background-color: #1e293b;
       color: #ffffff;
-      padding: 0.5rem 1rem;
+      padding: 0.35rem 0.75rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 0.85rem;
-      flex-wrap: wrap;
+      font-size: 0.8rem;
+      flex-wrap: nowrap;
       gap: 0.5rem;
+      overflow-x: auto;
     }
 
     .map-filter-bar label {
       font-weight: 500;
       color: #cbd5e1;
-      margin-left: 0.5rem;
+      margin-left: 0.25rem;
+      white-space: nowrap;
     }
 
     .map-filter-select {
       background: #0f172a;
       color: #ffffff;
       border: 1px solid #475569;
-      padding: 0.25rem 0.5rem;
+      padding: 0.2rem 0.4rem;
       border-radius: 4px;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       outline: none;
       cursor: pointer;
     }
@@ -152,9 +154,65 @@
 
   <div class="container">
     <div class="article-card">
-      
-      <!-- Areas of Expertise Callout Box -->
-      <div style="background-color: #f1f5f9; border-top: 4px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+
+      <!-- SECTION 1: INTERACTIVE MAP (IN FOCUS ON LOAD) -->
+      <section style="margin-top: 0;">
+        <p style="font-size: 0.85rem; color: #64748b; margin: 0 0 0.4rem 0;">Click pins to preview guides (<span style="color: #15803d;">■ State Park</span>, <span style="color: #2563eb;">■ Private</span>):</p>
+
+        <div class="map-wrapper">
+          <!-- Single-Line Compact Top Filter Bar -->
+          <div class="map-filter-bar">
+            <div style="display: flex; align-items: center; gap: 0.25rem;">
+              <span style="font-size: 0.85rem;">📍</span>
+              <span style="font-size: 0.8rem; color: #cbd5e1; white-space: nowrap;">Filters:</span>
+            </div>
+            <div style="display: flex; gap: 0.75rem; align-items: center; flex-nowrap: nowrap;">
+              <div>
+                <label for="owner-filter">Type:</label>
+                <select id="owner-filter" class="map-filter-select">
+                  <option value="ALL">All Types</option>
+                  <option value="Private Campground">Private</option>
+                  <option value="State Park">State Parks</option>
+                </select>
+              </div>
+              <div>
+                <label for="state-select">State:</label>
+                <select id="state-select" class="map-filter-select">
+                  <option value="ALL">All States</option>
+                  <!-- Populated dynamically by JavaScript -->
+                </select>
+              </div>
+              <div>
+                <label for="rig-select">Rig:</label>
+                <select id="rig-select" class="map-filter-select">
+                  <option value="ALL">All Rigs</option>
+                  <option value="BIG">Big-Rig (40ft+)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Map Canvas -->
+          <div id="homepage-map"></div>
+        </div>
+      </section>
+
+      <!-- WELCOME TEXT (BETWEEN MAP AND FEATURED CARDS) -->
+      <div style="margin: 2rem 0;">
+        <h1 style="font-size: 1.75rem;">Travel with Confidence, Not Guesswork</h1>
+        <p style="margin-bottom: 0;">Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
+      </div>
+
+      <!-- SECTION 2: FEATURED CARDS CONTAINER -->
+      <section style="margin-top: 2rem;">
+        <h2>Recently Added Campground Guides</h2>
+        <div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1rem;">
+          <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
+        </div>
+      </section>
+
+      <!-- CORE GROUND-TRUTH FOCUS BOX (MOVED DOWN) -->
+      <div style="background-color: #f1f5f9; border-top: 4px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-top: 2.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
         <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.25rem; color: #0f172a; text-align: center;">Our Core Ground-Truth Focus</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
           
@@ -179,59 +237,8 @@
         </div>
       </div>
 
-      <h1>Travel with Confidence, Not Guesswork</h1>
-      <p>Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
-
-      <!-- SECTION 1: INTERACTIVE MAP WITH EMBEDDED FILTER BAR -->
-      <section style="margin-top: 2rem;">
-        <h2>🗺️ Verified RV Routing Map</h2>
-        <p>Click any map pin to preview clearance data, toad staging strategy, and guide links (<span style="color: #15803d; font-weight: bold;">■ Forest Green</span> = State Park, <span style="color: #2563eb; font-weight: bold;">■ Blue</span> = Private Campground):</p>
-
-        <div class="map-wrapper">
-          <!-- Minimal Top Filter Bar -->
-          <div class="map-filter-bar">
-            <div>
-              <span style="margin-right: 6px;">📍</span><strong>Quick Filters:</strong>
-            </div>
-            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
-              <div>
-                <label for="owner-filter">Ownership:</label>
-                <select id="owner-filter" class="map-filter-select">
-                  <option value="ALL">All Types</option>
-                  <option value="Private Campground">Private Campgrounds</option>
-                  <option value="State Park">State Parks</option>
-                </select>
-
-                <label for="state-select">State:</label>
-                <select id="state-select" class="map-filter-select">
-                  <option value="ALL">All States</option>
-                  <!-- Populated dynamically by JavaScript -->
-                </select>
-              </div>
-              <div>
-                <label for="rig-select">Rig Fit:</label>
-                <select id="rig-select" class="map-filter-select">
-                  <option value="ALL">All Lengths</option>
-                  <option value="BIG">Big-Rig Optimized (40ft+)</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <!-- Interactive Map Canvas -->
-          <div id="homepage-map"></div>
-        </div>
-      </section>
-
-      <!-- SECTION 2: FEATURED CARDS CONTAINER -->
-      <section style="margin-top: 2rem;">
-        <h2>Recently Added Campground Guides</h2>
-        <div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1rem;">
-          <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
-        </div>
-      </section>
-
-      <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 2.5rem; text-align: center;">
+      <!-- SUBMIT INTELLIGENCE BOX -->
+      <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 1.5rem; text-align: center;">
         <h2 style="color: #ffffff; margin-top: 0;">Have Ground-Truth Intelligence?</h2>
         <p style="color: #cbd5e1;">Don't see a campground listed or have tips on low clearance, toad unhooking, or big-rig sites?</p>
         <div style="margin-top: 1.5rem;">
@@ -328,7 +335,6 @@
         const mapBounds = [];
         filtered.forEach(c => {
           if (c.lat && c.lng) {
-            // Determine pin color: Forest Green (#15803d) for State Parks, Blue (#2563eb) for Private Campgrounds
             const pinColor = c.ownertype === 'State Park' ? '#15803d' : '#2563eb';
             const markerIcon = createColoredMarkerIcon(pinColor);
 
