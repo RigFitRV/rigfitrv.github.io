@@ -1,5 +1,52 @@
 [
  {
+    "id": "aces-high-rv-park",
+    "name": "Aces High RV Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "CT",
+    "city": "East Lyme",
+    "featured": true,
+    "lat": 41.4057,
+    "lng": -72.2251,
+    "image": "aces_high_rv_park.jpg",
+    "mapImage": "aces_high_rv_park_map.jpg",
+    "address": "301 Chesterfield Road, East Lyme, CT 06333",
+    "gps": "41.4057° N, 72.2251° W",
+    "phone": "(860) 739-8858",
+    "website": "https://aceshighrvpark.com",
+    "summary": "Award-winning independent campground near I-95 in East Lyme, CT, featuring spacious pull-through sites, full hookups, and big-rig friendly access.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (wide entry lane and dedicated office registration staging)",
+      "treeClearance": "Good overall; watch overhanging limbs on interior wooded back-in loops",
+      "bestBigRigLoops": "Central Open Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Pond-Side Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Primary Access via I-95",
+      "text": "Best access is via I-95 (Exit 74), proceeding north on CT-161 before connecting onto Chesterfield Road. Chesterfield Road features rolling hills and minor winding sections typical of eastern CT, but has no low clearance hazards and comfortably accommodates long rigs.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for confirming highway clearance and avoiding narrow rural side-street navigation.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the wide main entry lane near the office registration building to unhook your toad before entering the main loop roads.",
+    "content": {
+      "overview": "Aces High RV Park is a highly rated, family-owned campground in East Lyme, CT, providing clean gravel sites, pond views, and easy transit access to the Long Island Sound coast.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for fine-tuning stability on gravel pads across gently sloping interior terrain.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows feature 50-amp full hookups and ample room for multi-axle setups.",
+      "loopsAB": "Perimeter wooded back-in sites offer shade and privacy for mid-size trailers and motorhomes."
+    }
+  },
+ {
     "id": "sun-outdoors-mystic",
     "name": "Sun Outdoors Mystic",
     "ownertype": "Private Campground",
