@@ -1,5 +1,52 @@
 [
  {
+    "id": "odetah-camping-resort",
+    "name": "Odetah Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "CT",
+    "city": "Bozrah",
+    "featured": true,
+    "lat": 41.5457,
+    "lng": -72.1812,
+    "image": "odetah_camping_resort.jpg",
+    "mapImage": null,
+    "address": "35 Bozrah Street Rd, Bozrah, CT 06334",
+    "gps": "41.5457° N, 72.1812° W",
+    "phone": "(860) 887-1930",
+    "website": "https://www.odetah.com",
+    "summary": "Top-tier independent resort in eastern CT set around a spring-fed lake, offering full hookups, wooded hillside sites, and solid highway access via Route 2.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Careful Site Selection Required)",
+      "toadFriendliness": "Good (welcome center registration apron allows unhooking)",
+      "treeClearance": "Moderate; watch lower canopy branches along winding interior hillside loops",
+      "bestBigRigLoops": "Lower Lakeview Pull-Through Rows",
+      "bestSmallRigLoops": "Upper Wooded Hillside Back-In Loops"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Primary Access via Route 2",
+      "text": "Easiest access is via CT Route 2 (Exit 23/24) onto Route 163 and Bozrah Street Road. Local roads feature rolling hills and winding sections. Take wide turns entering the main gateway and watch low-hanging roadside tree canopy.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for guiding motorhomes safely past narrow rural Connecticut connectors.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the designated registration apron near the welcome center to unhook your toad before heading up or down the resort's terraced loop roads.",
+    "content": {
+      "overview": "Odetah Camping Resort is a premier, independent family resort built around a 32-acre private lake, offering exceptional amenities and serene wooded surroundings.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Crucial for adjusting pitch on terraced hillside gravel site pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Lower lake-level pull-through sites provide easiest access for large motorhomes and fifth wheels.",
+      "loopsAB": "Upper terraced hillside loops offer excellent shade and privacy for mid-size trailers."
+    }
+  },
+ {
     "id": "salem-farms-campground",
     "name": "Salem Farms Campground",
     "ownertype": "Private Campground",
