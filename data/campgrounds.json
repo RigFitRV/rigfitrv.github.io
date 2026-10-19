@@ -1,5 +1,52 @@
 [
  {
+    "id": "brookside-campgrounds",
+    "name": "Brookside Campgrounds",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "NY",
+    "city": "Catskill",
+    "featured": true,
+    "lat": 42.2215,
+    "lng": -73.9124,
+    "image": "/images/brookside_campgrounds.jpg",
+    "mapImage": "/images/brookside_campgrounds_map.jpg",
+    "address": "4952 NY-32, Catskill, NY 12414",
+    "gps": "42.2215° N, 73.9124° W",
+    "phone": "(518) 678-9729",
+    "website": "http://www.brooksidecampgrounds.com",
+    "summary": "Family-owned Catskills park situated directly along NY-32, offering full hookup pull-through sites, trout stream access, and convenient proximity to Kaaterskill Falls.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Good (wide entry apron near office for unhooking)",
+      "treeClearance": "Good; well-maintained along main entrance roads, watch lower branches on perimeter creek-side sites",
+      "bestBigRigLoops": "Main Level Pull-Through Rows",
+      "bestSmallRigLoops": "Creek-Bordered Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Direct NY-32 Access",
+      "text": "Accessible directly via NY Route 32 in Catskill, NY. NY-32 provides a wide, smooth approach avoiding extreme mountain passes or severe hairpins, making it suitable for big rigs and towed setups.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for tracking regional highway bridge clearances and avoiding narrow Catskill side-street turns.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office staging apron upon entry to unhook your towed vehicle before proceeding into the internal camping loops.",
+    "content": {
+      "overview": "Brookside Campgrounds is an established, independent family-owned resort providing full hookups, stream fishing along Kiskatom Brook, and easy basecamp access to the northern Catskills.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for fine-tuning stability on natural gravel and grass site pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Main level pull-through rows accommodate multi-axle trailers and big rigs with easy 50-amp full hookup connections.",
+      "loopsAB": "Shaded back-in sites along the brook offer peaceful, natural settings for mid-sized rigs and pop-ups."
+    }
+  },
+ {
     "id": "odetah-camping-resort",
     "name": "Odetah Camping Resort",
     "ownertype": "Private Campground",
