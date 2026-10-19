@@ -1,5 +1,52 @@
 [
  {
+    "id": "whip-o-will-campground",
+    "name": "Whip-O-Will Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "NY",
+    "city": "Purling",
+    "featured": true,
+    "lat": 42.2789,
+    "lng": -74.0531,
+    "image": "/images/whip_o_will_campground.jpg",
+    "mapImage": "/images/whip_o_will_campground_map.jpg",
+    "address": "644 County Road 31, Purling, NY 12470",
+    "gps": "42.2789° N, 74.0531° W",
+    "phone": "(518) 622-3023",
+    "website": "https://www.whip-o-will.com",
+    "summary": "Classic family-owned Catskills resort in Purling, NY, featuring a private 7-acre lake, trout stream access, and wooded RV sites.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Sites)",
+      "toadFriendliness": "Good (office entry parking area provides unhooking space)",
+      "treeClearance": "Moderate; watch lower canopy branches along mature wooded interior mountain loops",
+      "bestBigRigLoops": "Main Lake-Adjacent Pull-Through Sites",
+      "bestSmallRigLoops": "Upper Wooded Hillside Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: County Road 31 Access",
+      "text": "Access via County Road 31 (Hearts Content Road) in Purling, NY. Local foothill connectors feature gentle rolling grades and narrower rural shoulders. Big rigs navigate successfully, but watch for overhanging tree branches along the immediate approach.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for guiding motorhomes safely past winding local Greene County roads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office parking area upon arrival to unhook your towed vehicle before maneuvering into the wooded interior loops.",
+    "content": {
+      "overview": "Whip-O-Will Campground is a traditional independent family resort nestled in the northern Catskills, featuring a 7-acre private fishing lake and shaded mountain campsites.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Necessary for achieving a stable setup on sloped gravel and dirt pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Main pull-through rows offer convenient access and electrical/water hookups for mid-sized rigs.",
+      "loopsAB": "Shaded back-in sites closer to the private lake offer quiet, natural camping environments."
+    }
+  },
+ {
     "id": "brookside-campgrounds",
     "name": "Brookside Campgrounds",
     "ownertype": "Private Campground",
