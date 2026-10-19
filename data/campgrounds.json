@@ -1,5 +1,52 @@
 [
  {
+    "id": "roscoe-campsite-park",
+    "name": "Roscoe Campsite Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "NY",
+    "city": "Roscoe",
+    "featured": true,
+    "lat": 41.9354,
+    "lng": -74.9152,
+    "image": "/images/roscoe_campsite_park.jpg",
+    "mapImage": null,
+    "address": "2179 Old Route 17, Roscoe, NY 12776",
+    "gps": "41.9354° N, 74.9152° W",
+    "phone": "(607) 498-5264",
+    "website": "https://roscoecampsite.com",
+    "summary": "Independent riverfront park set along the Beaverkill River in Roscoe, NY, featuring big-rig pull-through sites, 50-amp full hookups, and direct access to world-class trout fishing.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (wide registration loop and office staging)",
+      "treeClearance": "Good overall; well-trimmed along main entry drives",
+      "bestBigRigLoops": "Central Riverfront Pull-Through Rows",
+      "bestSmallRigLoops": "Perimeter Beaverkill River Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Easy Access off Route 17 / I-86",
+      "text": "Access via Route 17 (Future I-86) taking the Roscoe exit onto Old Route 17. The approach road runs parallel to the river and provides a smooth, flat route free of low bridges or tight mountain switchbacks.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures accurate highway exit routing when approaching the Catskills corridor.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Stage in the wide registration area near the entrance office to unhook your towed vehicle before maneuvering into the waterfront loops.",
+    "content": {
+      "overview": "Roscoe Campsite Park is a premier independent campground nestled along the banks of the Beaverkill River in Sullivan County, offering top-notch fly fishing and peaceful mountain scenery.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for fine-tuning pad stability near natural riverfront campsites.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows feature 50-amp full hookups with plenty of room for long motorhomes and fifth wheels.",
+      "loopsAB": "Riverfront back-in sites offer unmatched views and direct stream access for anglers."
+    }
+  },
+ {
     "id": "whip-o-will-campground",
     "name": "Whip-O-Will Campground",
     "ownertype": "Private Campground",
