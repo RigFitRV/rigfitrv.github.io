@@ -1,5 +1,52 @@
 [
  {
+    "id": "phoenicia-black-bear-campground",
+    "name": "Phoenicia Black Bear Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "NY",
+    "city": "Phoenicia",
+    "featured": true,
+    "lat": 42.0829,
+    "lng": -74.3108,
+    "image": "/images/phoenicia_black_bear_campground.jpg",
+    "mapImage": null,
+    "address": "17 Bridge St, Phoenicia, NY 12464",
+    "gps": "42.0829° N, 74.3108° W",
+    "phone": "(845) 688-7405",
+    "website": "http://phoeniciablackbearcampground.com",
+    "summary": "Independent creekside park along Esopus Creek in the heart of the high-peaks Catskills, offering water/electric sites, trout fishing, and easy access via Route 28.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Sites)",
+      "toadFriendliness": "Good (office entry apron provides space for unhooking)",
+      "treeClearance": "Moderate; watch lower canopy branches along mature creek-side trees",
+      "bestBigRigLoops": "Main Entrance Level Rows",
+      "bestSmallRigLoops": "Esopus Creek Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Route 28 West to Bridge Street",
+      "text": "Access via NY-28 West from I-87 Exit 19 (Kingston). Take the Phoenicia exit ramp onto Bridge Street and cross the bridge. Take a wide right turn off the bridge into the campground entrance.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental routing down narrow mountain town side roads in Ulster County.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Stop at the registration office area right after crossing Bridge Street to unhook your towed vehicle before pulling into your creekside site.",
+    "content": {
+      "overview": "Phoenicia Black Bear Campground is a scenic, independent park situated directly along Esopus Creek, offering prime access to mountain hiking, tubing, and trout fishing.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Essential for establishing level stability on natural gravel and grass creek-bank pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Main level sites near the entrance accommodate mid-to-large trailers and motorhomes with water and electric hookups.",
+      "loopsAB": "Creek-side back-in sites offer outstanding mountain views and direct stream access."
+    }
+  },
+ {
     "id": "roscoe-campsite-park",
     "name": "Roscoe Campsite Park",
     "ownertype": "Private Campground",
