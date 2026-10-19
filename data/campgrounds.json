@@ -1,5 +1,52 @@
 [
  {
+    "id": "sun-outdoors-mystic",
+    "name": "Sun Outdoors Mystic",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "CT",
+    "city": "Old Mystic",
+    "featured": true,
+    "lat": 41.3855,
+    "lng": -71.9560,
+    "image": "sun_outdoors_mystic.jpg",
+    "mapImage": "sun_outdoors_mystic_map.jpg",
+    "address": "45 Camp Ground Rd, Old Mystic, CT 06372",
+    "gps": "41.3855° N, 71.9560° W",
+    "phone": "(860) 536-4214",
+    "website": "https://www.sunoutdoors.com/connecticut/sun-outdoors-mystic",
+    "summary": "Premier coastal RV resort located off major transit corridors near Mystic Seaport, featuring modern gravel sites, full hookups, and large-rig accessibility.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Good (wide entry apron and check-in registration loop)",
+      "treeClearance": "Well-maintained along main resort roads; watch local residential approach routes",
+      "bestBigRigLoops": "Pull-through sites with full hookups",
+      "bestSmallRigLoops": "Back-in perimeter and interior resort sites"
+    },
+    "approach": {
+      "title": "Route Advisory: Stick to CT-27 and Designated Corridors",
+      "text": "Easiest access is via I-95 (Exit 90) onto CT-27 North toward Old Mystic, then onto Camp Ground Road. Avoid cutting through historic local backroads or residential connector roads in Old Mystic, which may feature narrower lanes or low-hanging tree branches.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for overriding hazardous local backroad shortcuts and guiding large rigs safely.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Utilize the wider entry apron near the main clubhouse and registration loop to check in and stage before proceeding into internal camping loops.",
+    "content": {
+      "overview": "Sun Outdoors Mystic is a premier coastal resort located in Old Mystic, Connecticut, offering modern amenities, level gravel sites, and convenient access to the Mystic coastline.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Great for achieving a stable, perfectly level setup on gravel pad sites.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Pull-through rows provide easy in-and-out access for big rigs and multi-axle trailers.",
+      "loopsAB": "Back-in perimeter sites offer quiet shaded environments closer to resort amenities."
+    }
+  },
+ {
     "id": "jim-thorpe-camping-resort",
     "name": "Jim Thorpe Camping Resort",
     "ownertype": "Private Campground",
