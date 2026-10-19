@@ -1,5 +1,52 @@
 [
  {
+    "id": "salem-farms-campground",
+    "name": "Salem Farms Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "state": "CT",
+    "city": "Salem",
+    "featured": true,
+    "lat": 41.4960,
+    "lng": -72.3147,
+    "image": "salem_farms_campground.jpg",
+    "mapImage": "salem_farms_campground_map.jpg",
+    "address": "39 Alexander Rd, Salem, CT 06420",
+    "gps": "41.4960° N, 72.3147° W",
+    "phone": "(860) 859-2320",
+    "website": "https://www.salemfarmscampground.com",
+    "summary": "Family-owned independent park in rural New London County, CT, offering spacious 40x50 ft sites, full hookups, and peaceful wooded grounds.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Spacious Sites)",
+      "toadFriendliness": "Good (office entry parking area provides unhooking space)",
+      "treeClearance": "Moderate; watch lower canopy branches along mature wooded interior loops",
+      "bestBigRigLoops": "Main Transit Pull-Through Sites",
+      "bestSmallRigLoops": "Inner Wooded Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Stick to Primary State Corridors",
+      "text": "Access via Rt-82 or Rt-85 before connecting onto Alexander Road. Stay on primary state routes when navigating rural New London County rather than following unverified GPS shortcuts down narrow township side roads.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental routing onto narrow rural dirt or seasonal lanes in New London County.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Stage near the main office registration area upon arrival to unhook your towed vehicle prior to making turns into the wooded loops.",
+    "content": {
+      "overview": "Salem Farms Campground is an established, independent family-owned park offering spacious sites surrounded by rolling country farmland and shade trees.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Ideal for fine-tuning setup on natural gravel and grass site pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Transit pull-through sites offer generous clearance for multi-axle trailers and motorhomes.",
+      "loopsAB": "Shaded back-in sites offer quiet, private settings surrounded by mature forest trees."
+    }
+  },
+ {
     "id": "aces-high-rv-park",
     "name": "Aces High RV Park",
     "ownertype": "Private Campground",
