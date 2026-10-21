@@ -1,5 +1,52 @@
 [
  {
+    "id": "pomona-rv-park",
+    "name": "Pomona RV Park & Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "state": "NJ",
+    "city": "Pomona",
+    "featured": true,
+    "lat": 39.4678,
+    "lng": -74.5684,
+    "image": "/images/pomona_rv_park.jpg",
+    "mapImage": "/images/pomona_rv_park_map.jpg",
+    "address": "536 S Pomona Rd, Pomona, NJ 08240",
+    "gps": "39.4678° N, 74.5684° W",
+    "phone": "(609) 965-2123",
+    "website": "https://pomonarvpark.com",
+    "summary": "Independent family campground located at 536 S Pomona Rd in Pomona, NJ, featuring 5-way hookups (water, electric, sewer, cable, and Wi-Fi), cement pads, and a heated pool just minutes from Atlantic City.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable with pull-thru sites)",
+      "toadFriendliness": "Good (spacious entrance apron and check-in office staging)",
+      "treeClearance": "Good; well-maintained canopy along South Pomona Road and interior lanes",
+      "bestBigRigLoops": "Central Pull-Through Rows with Cement Pads",
+      "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 30 to South Pomona Road",
+      "text": "Accessed directly via US Route 30 (White Horse Pike) turning onto South Pomona Road, or from the Garden State Parkway / Atlantic City Expressway corridor via local arterial connectors. South Pomona Road provides a wide, smooth approach with clear overhead clearance for large motorhomes and fifth wheels.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures precise routing to the correct South Pomona Road entrance and avoids tight local residential shortcuts.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office check-in area right off South Pomona Road to unhook your towed vehicle before maneuvering into your assigned site.",
+    "content": {
+      "overview": "Pomona RV Park & Campground is a clean, well-maintained independent park situated in the heart of Atlantic County, offering full hookups, cement pads, and a heated swimming pool.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Great for fine-tuning pad stability across natural and cement pad site configurations.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows feature 50-amp service, full hookups, and wide turn radiuses designed specifically for big rigs.",
+      "loopsAB": "Shaded back-in sites offer a peaceful camping atmosphere with picnic tables and fire rings."
+    }
+  },
+ {
     "id": "bakers-acres-campground",
     "name": "Baker's Acres Campground",
     "ownertype": "Private Campground",
