@@ -1,5 +1,52 @@
 [
  {
+    "id": "old-cedar-campground",
+    "name": "Old Cedar Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "state": "NJ",
+    "city": "Monroeville",
+    "featured": true,
+    "lat": 39.6864,
+    "lng": -75.1481,
+    "image": "/images/old_cedar_campground.jpg",
+    "mapImage": "/images/old_cedar_campground_map.jpg",
+    "address": "274 Richwood Rd, Monroeville, NJ 08343",
+    "gps": "39.6864° N, 75.1481° W",
+    "phone": "(856) 358-4881",
+    "website": "https://oldcedarcampground.com",
+    "summary": "Unique family-owned working farm and campground in rural South Jersey, featuring 168 spacious sites, 30/50 amp pull-throughs, fishing lakes, swimming pool, and farm animals.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Good (broad entrance apron and farm lane check-in staging)",
+      "treeClearance": "Good overall; open country roads and well-maintained farm canopy",
+      "bestBigRigLoops": "Central Pull-Through Rows",
+      "bestSmallRigLoops": "Lakeside Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Route 55 / Route 40 to Richwood Road",
+      "text": "Accessed via Route 55 (Exit 48) taking Ellis Mill Rd to Richwood Rd, or from US Route 40 via Woodstown. Rural Salem County arteries are broad, flat, and offer excellent overhead clearance for all RV classes.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures accurate regional routing along wide county highways without accidental detours onto narrow rural farm lanes.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office staging driveway near the entrance farm store to unhook your towed vehicle before maneuvering into your assigned site.",
+    "content": {
+      "overview": "Old Cedar Campground combines a peaceful country atmosphere with a working farm experience, offering catch-and-release fishing lakes, hayrides, and convenient proximity to Cowtown Rodeo and regional wineries.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for establishing level stability across grass and gravel farm pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through sites feature 30/50 amp full hookups with generous spacing and easy access for long motorhomes.",
+      "loopsAB": "Scenic back-in sites along the lakes feature natural shade and quiet countryside views."
+    }
+  },
+ {
     "id": "pomona-rv-park",
     "name": "Pomona RV Park & Campground",
     "ownertype": "Private Campground",
