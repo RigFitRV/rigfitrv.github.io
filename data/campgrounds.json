@@ -1,5 +1,52 @@
 [
  {
+    "id": "bakers-acres-campground",
+    "name": "Baker's Acres Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "state": "NJ",
+    "city": "Barnegat",
+    "featured": true,
+    "lat": 39.7523,
+    "lng": -74.2612,
+    "image": "/images/bakers_acres_campground.jpg",
+    "mapImage": "/images/bakers_acres_campground_map.jpg",
+    "address": "230 Willets Ave, Barnegat, NJ 08005",
+    "gps": "39.7523° N, 74.2612° W",
+    "phone": "(609) 698-8511",
+    "website": "https://www.bakersacres.com",
+    "summary": "Classic family-owned Pinelands campground in Ocean County featuring over 300 shaded RV sites, full hookups, swimming pools, and convenient proximity to Long Beach Island.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (broad check-in driveway and office registration area)",
+      "treeClearance": "Moderate; mature Pinelands canopy, take wide turns through interior wooded loops",
+      "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Perimeter Pine-Shaded Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway Exit 67 to Willets Ave",
+      "text": "Accessed via Garden State Parkway Exit 67 (Barnegat), taking West Bay Ave (County Route 554) west to Willets Ave. Paved regional roads with clear overhead clearance, suitable for class A, C, and towable rigs.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures accurate parkway exit navigation and avoids weight-restricted municipal back roads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Park in the broad check-in area near the main store and office upon arrival to unhook your towed vehicle before proceeding into the interior camping loops.",
+    "content": {
+      "overview": "Baker's Acres Campground offers a relaxing Pinelands escape nestled in Ocean County, providing a quiet woodland atmosphere within a short drive of Barnegat Bay and LBI beaches.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Essential for securing pad stability on natural gravel and dirt Pinelands sites.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Main pull-through sites feature 30/50 amp electric and full hookups, offering straightforward access for mid-to-large rigs.",
+      "loopsAB": "Deeply shaded back-in sites under tall pitch pines provide natural privacy for smaller travel trailers and camper vans."
+    }
+  },
+ {
     "id": "pleasant-valley-family-campground",
     "name": "Pleasant Valley Family Campground",
     "ownertype": "Private Campground",
