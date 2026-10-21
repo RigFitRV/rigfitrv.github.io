@@ -1,5 +1,52 @@
 [
  {
+    "id": "pleasant-valley-family-campground",
+    "name": "Pleasant Valley Family Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "state": "NJ",
+    "city": "Estell Manor",
+    "featured": true,
+    "lat": 39.3879,
+    "lng": -74.7471,
+    "image": "/images/pleasant_valley_family_campground.jpg",
+    "mapImage": "/images/pleasant_valley_family_campground_map.jpg",
+    "address": "60 S River Rd, Estell Manor, NJ 08319",
+    "gps": "39.3879° N, 74.7471° W",
+    "phone": "(609) 625-1238",
+    "website": "https://pleasantvalleycamping.com",
+    "summary": "Family-owned and operated for over 50 years in Atlantic County, offering 250 spacious, shaded Pinelands RV sites with full hookups, cable TV, Wi-Fi, and convenient access to Jersey Shore beaches.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Good (spacious entry office loop and registration driveway)",
+      "treeClearance": "Moderate; mature pine canopy, maintain visual checks along upper woodland branch clearance",
+      "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Inner Shaded Woodland Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NJ Route 50 to South River Road",
+      "text": "Accessed directly via NJ Route 50 onto South River Road (County Route 637). Flat Pinelands two-lane highways offer gentle turns and clear overhead clearance suitable for motorhomes and towed rigs.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental detours onto narrow Pinelands dirt roads and back routes.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office registration driveway upon arrival to unhook your towed vehicle before proceeding into the wooded interior loops.",
+    "content": {
+      "overview": "Pleasant Valley Family Campground is an established, independent family resort set in the South Jersey Pinelands, located just 20 minutes from Ocean City and Atlantic City beaches.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for establishing level stability on natural gravel and sand Pinelands pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Main pull-through sites feature 30/50 amp full hookups with easy entry/exit turning radiuses for big rigs.",
+      "loopsAB": "Quiet back-in sites under the pine canopy offer natural shade and peaceful surroundings."
+    }
+  },
+ {
     "id": "ocean-view-resort-campground",
     "name": "Ocean View Resort Campground",
     "ownertype": "Private Campground",
