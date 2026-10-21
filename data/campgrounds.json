@@ -1,5 +1,52 @@
 [
  {
+    "id": "ocean-view-resort-campground",
+    "name": "Ocean View Resort Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "state": "NJ",
+    "city": "Ocean View",
+    "featured": true,
+    "lat": 39.1787,
+    "lng": -74.7305,
+    "image": "/images/ocean_view_resort_campground.jpg",
+    "mapImage": "/images/ocean_view_resort_campground_map.jpg",
+    "address": "2555 Route 9, Ocean View, NJ 08230",
+    "gps": "39.1787° N, 74.7305° W",
+    "phone": "(609) 624-1675",
+    "website": "https://www.ovresort.com",
+    "summary": "New Jersey's largest privately-owned campground, spanning 180 wooded acres near the Jersey Shore with big-rig pull-through sites, paved internal roads, and full hookups.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (wide registration apron and check-in staging lanes off Route 9)",
+      "treeClearance": "Good; fully paved roads and well-maintained canopy clearance",
+      "bestBigRigLoops": "Central Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway Exit 17 to Route 9",
+      "text": "Easily accessed from Garden State Parkway Exit 17 via Sea Isle Blvd (County Rd 625) West to US Route 9 North, or directly off Route 9. Wide, major regional arteries designed for heavy summer shore traffic and large motorhomes.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Provides reliable routing around coastal bridge clearances and summer shore traffic bottlenecks.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Use the wide registration apron and check-in staging lanes right off Route 9 to unhook your towed vehicle before proceeding into the resort loops.",
+    "content": {
+      "overview": "Ocean View Resort Campground is a premier independent, family-operated park set on 180 shaded acres in Cape May County, offering top-tier amenities and smooth, paved internal roads.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for fine-tuning pad stability on natural and paved site variations.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows accommodate multi-axle trailers and large motorhomes with 50-amp full hookups and easy turn radiuses.",
+      "loopsAB": "Shaded perimeter woodland back-in sites offer a more secluded camping experience while remaining close to resort facilities."
+    }
+  },
+ {
     "id": "phoenicia-black-bear-campground",
     "name": "Phoenicia Black Bear Campground",
     "ownertype": "Private Campground",
