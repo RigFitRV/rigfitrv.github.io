@@ -2,9 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const pageId = document.body.getAttribute('data-campground-id');
   if (!pageId) return;
 
-  fetch('../data/campgrounds.json')
-    .then(response => response.json())
-    .then(campgrounds => {
+  // Fetch both campgrounds and the central products catalog simultaneously
+  Promise.all([
+    fetch('../data/campgrounds.json').then(res => res.json()),
+    fetch('../data/products.json').then(res => res.json())
+  ])
+    .then(([campgrounds, productsCatalog]) => {
       const data = campgrounds.find(c => c.id === pageId);
       if (!data) return;
 
@@ -53,12 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // 1. Populate Approach & Routing Section (GPS Ads)
+      // 1. Populate Approach & Routing Section
       const approachSection = document.getElementById('camp-approach-section');
       if (approachSection && data.approach) {
         let approachGearHtml = '';
-        if (data.approach.recommendedGear) {
-          approachGearHtml = createAffiliateBox(data.approach.recommendedGear);
+        // Look up gear from products catalog using gearKey (supports legacy embedded gear object as a fallback)
+        const gearKey = data.approach.gearKey;
+        const gearData = gearKey ? productsCatalog[gearKey] : data.approach.recommendedGear;
+
+        if (gearData) {
+          approachGearHtml = createAffiliateBox(gearData);
         }
         approachSection.innerHTML = `
           <h2>🚧 Approach & Routing Warning</h2>
@@ -67,33 +74,30 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // 2. Populate Toad Unhook Strategy Section (Towing/Tow Bar/Hitch Ads ONLY)
+      // 2. Populate Toad Unhook Strategy Section
       const toadStrategyEl = document.getElementById('camp-toad-strategy');
       if (toadStrategyEl && data.toadStrategy) {
         let toadGearHtml = '';
-        if (data.recommendedGear && 
-           (data.recommendedGear.title.toLowerCase().includes('towing') || 
-            data.recommendedGear.title.toLowerCase().includes('tow bar') || 
-            data.recommendedGear.title.toLowerCase().includes('hitch'))) {
-          toadGearHtml = createAffiliateBox(data.recommendedGear);
+        const gearKey = data.toadStrategy.gearKey || data.gearKey;
+        const gearData = gearKey ? productsCatalog[gearKey] : null;
+
+        if (gearData) {
+          toadGearHtml = createAffiliateBox(gearData);
         }
         toadStrategyEl.innerHTML = `
-          <p>${data.toadStrategy}</p>
+          <p>${data.toadStrategy.text || data.toadStrategy}</p>
           ${toadGearHtml}
         `;
       }
 
-      // 3. Populate Overview & Campsite Details (Leveling Blocks & Wheel Chocks Ads)
+      // 3. Populate Overview & Campsite Details
       const overview = document.getElementById('camp-overview');
       if (overview && data.content) {
         let overviewGearHtml = '';
         
-        const overviewGear = data.content.recommendedGear || 
-          (data.recommendedGear && 
-           (data.recommendedGear.title.toLowerCase().includes('leveling') || 
-            data.recommendedGear.title.toLowerCase().includes('chock') || 
-            data.recommendedGear.title.toLowerCase().includes('stabilization')) 
-           ? data.recommendedGear : null);
+        // Look up gear from products catalog using content.gearKey (with fallback to legacy properties)
+        const gearKey = data.content.gearKey;
+        const overviewGear = gearKey ? productsCatalog[gearKey] : (data.content.recommendedGear || null);
 
         if (overviewGear) {
           overviewGearHtml = createAffiliateBox(overviewGear);
@@ -125,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
       renderRelatedCampgrounds(data, campgrounds);
 
     })
-    .catch(err => console.error('Error loading campground data:', err));
+    .catch(err => console.error('Error loading campground or product data:', err));
 });
 
 // Automatically inject JSON-LD Schema for Google Rich Snippets
@@ -193,7 +197,6 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
 
   if (!container || !grid) return;
 
-  // Extract latitude & longitude safely (supports lat/lng OR latitude/longitude, string or number)
   const currentLat = parseFloat(currentCampground.lat || currentCampground.latitude);
   const currentLng = parseFloat(currentCampground.lng || currentCampground.longitude);
 
@@ -202,7 +205,6 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
     return;
   }
 
-  // 1. Exclude current park & calculate distance for all remaining parks
   const nearbyList = allCampgrounds
     .filter(park => {
       if (park.id === currentCampground.id) return false;
@@ -216,12 +218,11 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
       const miles = getDistanceInMiles(currentLat, currentLng, pLat, pLng);
       return { ...park, distanceMiles: Math.round(miles) };
     })
-    .sort((a, b) => a.distanceMiles - b.distanceMiles) // Sort closest first
-    .slice(0, 2); // Pick top 2 closest
+    .sort((a, b) => a.distanceMiles - b.distanceMiles)
+    .slice(0, 2);
 
   if (nearbyList.length === 0) return;
 
-  // 2. Build HTML cards with distance badge
   grid.innerHTML = nearbyList.map(park => `
     <div class="campground-card">
       <div class="card-badge distance-badge">${park.distanceMiles} miles away</div>
@@ -237,6 +238,5 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
     </div>
   `).join('');
 
-  // 3. Reveal section
   container.classList.remove('hidden');
 }
