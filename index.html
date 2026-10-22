@@ -342,7 +342,11 @@
         const mapBounds = [];
         filtered.forEach(c => {
           if (c.lat && c.lng) {
-            const pinColor = c.ownertype === 'State Park' ? '#15803d' : '#2563eb';
+            // Assign pin colors based on ownership type
+            const pinColor = c.ownertype === 'State Park' 
+              ? '#15803d' 
+              : (c.ownertype === 'National Park Service' ? '#e76f51' : '#2563eb');
+            
             const markerIcon = createColoredMarkerIcon(pinColor);
 
             const marker = L.marker([c.lat, c.lng], { icon: markerIcon });
