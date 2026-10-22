@@ -1,0 +1,20 @@
+{
+  "garmin-rv-890": {
+    "title": "Recommended Rig Routing Gear",
+    "productName": "Garmin RV 890 GPS Navigator",
+    "reason": "Essential for overhead clearance routing and avoiding low-bridge restrictions in tight regional loops.",
+    "affiliateUrl": "https://www.amazon.com/dp/B0B5FLR49L?tag=rigfitrv-20"
+  },
+  "tri-lynx-blocks": {
+    "title": "Recommended Campsite Leveling Gear",
+    "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+    "reason": "Modular, durable stacking blocks crucial for uneven, wooded South/North Jersey campsites.",
+    "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+  },
+  "heavy-duty-surge-protector": {
+    "title": "Recommended Electrical Protection",
+    "productName": "Progressive Industries EMS-PT30X",
+    "reason": "Protects your 30-amp RV electrical system from campground power spikes and miswired pedestals.",
+    "affiliateUrl": "https://www.amazon.com/dp/B003VWXZOU?tag=rigfitrv-20"
+  }
+}
