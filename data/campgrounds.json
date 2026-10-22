@@ -1,5 +1,52 @@
 [
  {
+    "id": "triple-brook-camping-resort",
+    "name": "TripleBrook RV & Camping Resort",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Blairstown",
+    "featured": true,
+    "lat": 40.9121,
+    "lng": -75.0191,
+    "image": "/images/triple_brook_camping_resort.jpg",
+    "mapImage": "/images/triple_brook_camping_resort_map.jpg",
+    "address": "58 Honey Run Rd, Blairstown, NJ 07825",
+    "gps": "40.9121° N, 75.0191° W",
+    "phone": "(908) 459-4079",
+    "website": "https://triplebrook.com",
+    "summary": "Premier 80-acre family resort set on rolling hills in Warren County near the Delaware Water Gap, featuring over 200 sites, big-rig 50-amp pull-throughs, two pools, a hot tub, and a working farm.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (broad entrance registration loop off Honey Run Road)",
+      "treeClearance": "Good; wide interior roads with well-trimmed canopy",
+      "bestBigRigLoops": "Central Open Hillside Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Brookside Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Route 80 to Route 46 to Honey Run Road",
+      "text": "Accessed via Route 80 taking Route 46 South, making a left turn onto Knowlton Road, then a right turn onto Nightingale Road (use caution here when maneuvering large rigs), followed by a left turn onto Honey Run Road. Stay alert on Nightingale Road due to narrower lane widths.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental detours onto historic narrow weight-restricted bridges near downtown Hope.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the broad registration staging loop at the main office off Honey Run Road to unhook your towed vehicle before maneuvering into the camping loops.",
+    "content": {
+      "overview": "TripleBrook RV & Camping Resort combines modern resort-style amenities with quiet Skylands mountain countryside, offering swimming pools, adult whirlpool spa, sports courts, and quick access to the Delaware Water Gap.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for securing optimal stability on rolling hillside grass and gravel pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central hillside pull-through sites feature 50-amp power, full hookups, and ample clearance for big-rig motorhomes and large fifth wheels.",
+      "loopsAB": "Shaded perimeter back-in sites along the wooded brook offer natural privacy and relaxing water sounds."
+    }
+  },
+ {
     "id": "panther-lake-camping-resort",
     "name": "Panther Lake Camping Resort",
     "ownertype": "Private Resort",
