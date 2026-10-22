@@ -1,5 +1,52 @@
 [
  {
+    "id": "sea-pirate-campground",
+    "name": "Sea Pirate Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "West Creek",
+    "featured": true,
+    "lat": 39.6301,
+    "lng": -74.3096,
+    "image": "/images/sea_pirate_campground.jpg",
+    "mapImage": "/images/sea_pirate_campground_map.jpg",
+    "address": "148 US-9, West Creek, NJ 08092",
+    "gps": "39.6301° N, 74.3096° W",
+    "phone": "(609) 296-7400",
+    "website": "https://sea-pirate.com/",
+    "summary": "Family-owned coastal campground serving as the premier Long Beach Island (LBI) gateway, located just 8 miles from LBI beaches and offering 30/50-amp full hookups, pool, crabbing, and kayak access.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (broad check-in staging apron off US-9)",
+      "treeClearance": "Good; wide main entrance and well-trimmed pine canopy",
+      "bestBigRigLoops": "Central Open Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway to US Route 9",
+      "text": "Accessed via Garden State Parkway Exit 63 to NJ Route 72 East, connecting to US Route 9 South, or via GSP Exit 50 onto US Route 9 North. Flat, open Ocean County arterial route with clear overhead canopy.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures smooth routing around Parkway interchanges and coastal bridge approaches.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the designated check-in staging area off US Route 9 at the main office to unhook your towed vehicle before proceeding into the camping loops.",
+    "content": {
+      "overview": "Sea Pirate Campground offers an ideal basecamp for exploring Long Beach Island and Little Egg Harbor, combining classic family camping amenities with easy access to saltwater crabbing, fishing, and ocean beaches.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Crucial for securing level pad balance on natural gravel and sand pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows accommodate mid-to-large motorhomes and towables with 30/50 amp full hookups.",
+      "loopsAB": "Shaded back-in sites along the wooded perimeter offer privacy under mature pine tree cover."
+    }
+  },
+ {
     "id": "river-beach-rv-resort",
     "name": "River Beach RV Resort",
     "ownertype": "Private Campground",
