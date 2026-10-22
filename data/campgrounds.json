@@ -1,5 +1,52 @@
 [
  {
+    "id": "harmony-ridge-campground",
+    "name": "Harmony Ridge Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Branchville",
+    "featured": true,
+    "lat": 41.1925,
+    "lng": -74.7479,
+    "image": "/images/harmony_ridge_campground.jpg",
+    "mapImage": "/images/harmony_ridge_campground_map.jpg",
+    "address": "23 Risdon Drive, Branchville, NJ 07826",
+    "gps": "41.1925° N, 74.7479° W",
+    "phone": "(973) 948-4941",
+    "website": "http://www.harmonyridgecampground.com",
+    "summary": "Family-owned and operated for decades, nestled in the peaceful mountains of Sussex County near Culvers Lake, offering 30/50 amp sites, wooded back-ins, and classic outdoor family recreation.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (office check-in area on Risdon Drive offers unhooking space)",
+      "treeClearance": "Moderate; mature mountain canopy, watch overhead branches along interior valley turns",
+      "bestBigRigLoops": "Main Level Entrance Rows",
+      "bestSmallRigLoops": "Upper Wooded Ridge Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 206 North to Mattison Reservoir Avenue",
+      "text": "Accessed via US Route 206 North to mile marker 118 in Frankford/Branchville. Turn right onto Ridge Road, turn left onto Mattison Road, right onto Mattison Reservoir Avenue for 1 mile, then left onto Risdon Drive. Roads are paved, but require steady speeds and cautious turns in big rigs.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental routing down narrow or unpaved mountain back roads in Sussex County.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office staging driveway along Risdon Drive to unhook your towed vehicle before maneuvering into the upper or lower camping loops.",
+    "content": {
+      "overview": "Harmony Ridge Campground is a traditional family campground set in the Kittatinny Mountain region of Northern New Jersey, offering deep forest privacy, a swimming pool, and easy access to Appalachian Trail hiking.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Crucial for compensating for subtle mountain grade elevation changes across gravel and dirt pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Lower entrance sites provide full hookups with 30/50 amp power and wider turning radiuses for mid-to-large travel trailers.",
+      "loopsAB": "Upper ridge back-in sites are nestled under dense hardwood tree cover, offering scenic wilderness views."
+    }
+  },
+ {
     "id": "old-cedar-campground",
     "name": "Old Cedar Campground",
     "ownertype": "Private Campground",
