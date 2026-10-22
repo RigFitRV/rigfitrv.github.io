@@ -1,5 +1,52 @@
 [
  {
+    "id": "janes-island-state-park",
+    "name": "Janes Island State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-22",
+    "state": "MD",
+    "city": "Crisfield",
+    "featured": true,
+    "lat": 38.0108,
+    "lng": -75.8478,
+    "image": "/images/janes_island_state_park.jpg",
+    "mapImage": "/images/janes_island_state_park_map.jpg",
+    "address": "26280 Alfred J. Lawson Dr, Crisfield, MD 21817",
+    "gps": "38.0108° N, 75.8478° W",
+    "phone": "(410) 968-1565",
+    "website": "https://dnr.maryland.gov/publiclands/pages/eastern/janesisland.aspx",
+    "summary": "Stunning Lower Eastern Shore state park on Tangier Sound featuring 104 shaded campsites, 30-amp electric loops, boat launch, and over 30 miles of world-renowned salt marsh water trails.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Loop Pads)",
+      "toadFriendliness": "Good (paved parking lot near park office and boat launch)",
+      "treeClearance": "Moderate; shaded marshland loops with low-hanging branches on select back-ins",
+      "bestBigRigLoops": "Loop C (Electric Sites with Wider Pad Turns)",
+      "bestSmallRigLoops": "Loops A & B (Shaded Marsh-Adjacent Sites)"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 13 to MD Route 413 South",
+      "text": "Accessed via US Route 13 to MD Route 413 South toward Crisfield for 11 miles, turning right onto Plantation Road, then right onto Alfred J. Lawson Drive. Smooth state highway followed by a quiet park approach.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Provides reliable guidance along lower Eastern Shore state peninsulas and rural connectors.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the paved parking area near the park office and boat launch upon arrival to unhook your towed vehicle before entering the tree-lined campground loops.",
+    "content": {
+      "overview": "Janes Island State Park offers a serene wilderness retreat surrounded by Chesapeake Bay salt marshes, renowned for world-class kayaking, bird watching, and peaceful coastal camping.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Essential for leveling rigs on packed earth and shell pads in coastal marsh environments.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Loop C offers electric hookups with more forgiving pad angles for larger travel trailers and mid-size motorhomes.",
+      "loopsAB": "Loops A and B provide deeply shaded, intimate sites immersed in the natural coastal marshlands."
+    }
+  },
+ {
     "id": "sun-outdoors-ocean-city",
     "name": "Sun Outdoors Ocean City",
     "ownertype": "Private Resort",
