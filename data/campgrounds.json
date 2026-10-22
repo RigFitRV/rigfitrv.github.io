@@ -1,5 +1,52 @@
 [
  {
+    "id": "assateague-state-park",
+    "name": "Assateague State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-22",
+    "state": "MD",
+    "city": "Berlin",
+    "featured": true,
+    "lat": 38.2375,
+    "lng": -75.1372,
+    "image": "/images/assateague_state_park.jpg",
+    "mapImage": "/images/assateague_state_park_map.jpg",
+    "address": "7307 Stephen Decatur Hwy, Berlin, MD 21811",
+    "gps": "38.2375° N, 75.1372° W",
+    "phone": "(410) 641-2120",
+    "website": "https://dnr.maryland.gov/publiclands/pages/eastern/assateague.aspx",
+    "summary": "Maryland's only oceanfront state park situated on Assateague barrier island, offering dune-adjacent ocean camping, 30-amp electric loops, dump station, and iconic wild horses steps from the Atlantic surf.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Asphalt Pad Sites)",
+      "toadFriendliness": "Good (spacious ranger station staging lot past Verrazano Bridge)",
+      "treeClearance": "Excellent; open coastal dune terrain with zero low-hanging tree branches",
+      "bestBigRigLoops": "G Loop and I Loop (30-Amp Electric Hookups)",
+      "bestSmallRigLoops": "A through E Loops (Dry / Primitive Oceanfront Sites)"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 50 to MD Route 611 Causeway Bridge",
+      "text": "Accessed via US Route 50 East taking MD Route 611 South (Stephen Decatur Highway) directly across the Verrazano Bridge causeway onto Assateague Island. Wide paved 2-lane causeway with clear overhead clearance; watch for coastal crosswinds on the bridge.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures accurate routing across barrier island causeways and state highway connectors.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the broad ranger station parking area right after crossing the causeway bridge to unhook your towed vehicle before heading down the oceanfront loop roads.",
+    "content": {
+      "overview": "Assateague State Park offers true beachfront barrier island camping where ocean waves sound steps from your rig, wild horses roam along the dune lines, and pristine Atlantic ocean access sits right outside your door.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Essential for stabilizing jacks on asphalt pads adjacent to soft barrier island sand.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "G Loop and I Loop offer 30-amp electric hookups on level asphalt pads, ideal for motorhomes and travel trailers seeking oceanfront proximity with power.",
+      "loopsAB": "Dry camping loops feature direct dune boardwalk access for off-grid coastal camping."
+    }
+  },
+ {
     "id": "seashore-campsites-rv-resort",
     "name": "Sun Retreats Seashore",
     "ownertype": "Private Resort",
