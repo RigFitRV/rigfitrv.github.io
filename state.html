@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>State Campground Directory - RigFitRV</title>
-  <meta name="description" content="Browse verified big-rig RV campground guides by state on RigFitRV.">
+  <title id="page-head-title">State Campground Directory - RigFitRV</title>
+  <meta id="page-head-desc" name="description" content="Browse verified big-rig RV campground guides by state on RigFitRV.">
   <link rel="stylesheet" href="style.css">
 
   <!-- Custom Favicons -->
@@ -16,6 +16,106 @@
   <!-- Prevent AI Model Training & Image Scraping -->
   <meta name="robots" content="noai, noimageai">
   <meta name="tdm-reservation" content="1">
+
+  <style>
+    /* Filter Pills Styling */
+    .filter-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0 30px 0;
+    }
+    .filter-pill {
+      background-color: #f1f5f9;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .filter-pill:hover, .filter-pill.active {
+      background-color: #0f172a;
+      color: #ffffff;
+      border-color: #0f172a;
+    }
+    /* State Overview Card */
+    .state-intro-box {
+      background-color: #f8fafc;
+      border-left: 4px solid #2563eb;
+      padding: 1.25rem 1.5rem;
+      border-radius: 6px;
+      margin-top: 15px;
+      color: #334155;
+      line-height: 1.6;
+    }
+    /* Amazon Affiliate Ad Banner Box */
+    .affiliate-ad-box {
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    .affiliate-ad-img {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
+      flex-shrink: 0;
+      background: #f8fafc;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #f1f5f9;
+    }
+    .affiliate-ad-content {
+      flex: 1;
+      min-width: 260px;
+    }
+    .affiliate-badge {
+      display: inline-block;
+      background-color: #fef3c7;
+      color: #92400e;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .affiliate-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0 0 6px 0;
+    }
+    .affiliate-desc {
+      font-size: 0.95rem;
+      color: #475569;
+      margin: 0 0 12px 0;
+      line-height: 1.5;
+    }
+    .btn-amazon {
+      display: inline-block;
+      background-color: #ff9900;
+      color: #111111;
+      font-weight: 700;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+    .btn-amazon:hover {
+      background-color: #e68a00;
+    }
+  </style>
 </head>
 <body>
 
@@ -31,18 +131,40 @@
     <h1 id="state-title">Campground Guides</h1>
     <p id="state-subtitle" class="section-subtitle">Loading state directory...</p>
     
-    <div id="state-results-grid" class="cards-grid" style="margin-top: 30px;">
+    <!-- Dynamic Regional SEO Introductory Text -->
+    <div id="state-intro" class="state-intro-box" style="display: none;"></div>
+
+    <!-- Quick-Filter Pills -->
+    <div class="filter-container">
+      <button class="filter-pill active" onclick="filterCampgrounds('all', this)">All Campgrounds</button>
+      <button class="filter-pill" onclick="filterCampgrounds('bigrig', this)">🚚 Big-Rig Friendly (40ft+)</button>
+      <button class="filter-pill" onclick="filterCampgrounds('statepark', this)">🌲 State Parks</button>
+      <button class="filter-pill" onclick="filterCampgrounds('private', this)">🏊 Private Resorts</button>
+    </div>
+    
+    <div id="state-results-grid" class="cards-grid">
       <!-- Dynamic results render here -->
     </div>
 
-    <!-- Submission Call-to-Action Box -->
-      <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 2.5rem; text-align: center;">
-        <h2 style="color: #ffffff; margin-top: 0;">Have Ground-Truth Intelligence?</h2>
-        <p style="color: #cbd5e1;">Don't see a campground listed or have tips on low clearance, toad unhooking, or big-rig sites?</p>
-        <div style="margin-top: 1.5rem;">
-          <a href="submit.html" class="btn">+ Submit a New Campground</a>
-        </div>
+    <!-- Amazon Affiliate Featured Product Ad Banner -->
+    <div class="affiliate-ad-box">
+      <img src="https://m.media-amazon.com/images/I/71wE8aIqTfL._AC_SL1500_.jpg" alt="Garmin RV 890 GPS Navigator" class="affiliate-ad-img" onerror="this.src='images/placeholder.jpg'">
+      <div class="affiliate-ad-content">
+        <span class="affiliate-badge">Recommended Gear</span>
+        <h2 class="affiliate-title">Garmin RV 890 GPS Navigator</h2>
+        <p class="affiliate-desc">Never hit a low bridge or narrow mountain hairpin blindly. Custom route planning inputs your RV’s height, width, length, and weight to navigate steep grades and restricted park roads safely.</p>
+        <a href="https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20" target="_blank" rel="noopener sponsored" class="btn-amazon">Check Price on Amazon ↗</a>
       </div>
+    </div>
+
+    <!-- Submission Call-to-Action Box -->
+    <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 2.5rem; text-align: center;">
+      <h2 style="color: #ffffff; margin-top: 0;">Have Ground-Truth Intelligence?</h2>
+      <p style="color: #cbd5e1;">Don't see a campground listed or have tips on low clearance, toad unhooking, or big-rig sites?</p>
+      <div style="margin-top: 1.5rem;">
+        <a href="submit.html" class="btn">+ Submit a New Campground</a>
+      </div>
+    </div>
   </div>
 
   <!-- Universal Footer -->
@@ -55,52 +177,123 @@
 
   <!-- State Directory Loader Script -->
   <script>
+    let currentCampgrounds = [];
+
+    const stateMetadata = {
+      'PA': {
+        name: 'Pennsylvania',
+        title: 'Pennsylvania RV Camping & Big-Rig Guides | RigFitRV',
+        metaDesc: 'Explore verified PA RV campground guides. Detailed route clearance on SR 534, Pocono mountain state parks, electric loop options, and toad staging strategies.',
+        intro: 'Explore verified RV and big-rig camping guides across Pennsylvania, from the Pocono Mountains and Lancaster County to Gettysburg and the Delaware Water Gap. Browse our curated collection of private RV resorts and scenic state parks (such as Hickory Run and Trailhead) featuring verified clearance warnings, pad lengths, and toad unhooking strategies.'
+      },
+      'NJ': {
+        name: 'New Jersey',
+        title: 'New Jersey RV Camping & Big-Rig Guides | RigFitRV',
+        metaDesc: 'Discover top New Jersey RV campgrounds. Verified guides for Cape May resorts, Pine Barrens wilderness sites, and Jersey Shore big-rig pull-throughs.',
+        intro: 'Find top-rated RV resorts and campgrounds across New Jersey, from Jersey Shore beach gateways in Cape May and Ocean County to Pine Barrens retreats and Skylands mountain escapes. Access real-world driver tips on low-clearance parkway overpasses, tight coastal turns, and full hookup availability.'
+      },
+      'NY': {
+        name: 'New York',
+        title: 'New York RV Camping & Big-Rig Guides | RigFitRV',
+        metaDesc: 'Complete New York RV campground directory. Low-clearance bridge alerts, Catskill and Adirondack state park guides, and big-rig campsite availability.',
+        intro: 'Discover top RV campgrounds and wilderness sites across New York, covering the high-peaks Catskills, Hudson Valley, Adirondacks, and Niagara region. Use our verified guides for commercial vehicle parkway restrictions, low-clearance bridge routing, big-rig pull-through availability, and creekside hookups.'
+      },
+      'CT': {
+        name: 'Connecticut',
+        title: 'Connecticut RV Camping & Big-Rig Guides | RigFitRV',
+        metaDesc: 'Verified Connecticut RV camping guides. Navigate coastal Sound campgrounds, Berkshire foothills, and narrow historic New England access roads safely.',
+        intro: 'Plan your Connecticut RV getaway with ground-truth guides spanning Long Island Sound coastal resorts to quiet Berkshire foothill campgrounds. Learn essential routing around historic low-arch stone bridges, narrow town green turnarounds, and maximum pad capacities across the Constitution State.'
+      },
+      'MD': {
+        name: 'Maryland',
+        title: 'Maryland RV Camping & Big-Rig Guides | RigFitRV',
+        metaDesc: 'Maryland RV campground directory. Bayshore resort guides, Assateague Island oceanfront camping, and big-rig staging information.',
+        intro: 'Plan your Maryland RV trip with verified guides covering Ocean City bayside resorts, Assateague Island oceanfront camping, and Catoctin Mountain state parks. Check big-rig accessibility, coastal wind mitigation, and dedicated toad unhook staging areas before you hit the road.'
+      }
+    };
+
     document.addEventListener('DOMContentLoaded', async () => {
       const urlParams = new URLSearchParams(window.location.search);
       const stateParam = (urlParams.get('st') || 'PA').toUpperCase();
       
-      const stateNames = {
-        'CT': 'Connecticut',
-        'MD': 'Maryland',
-        'PA': 'Pennsylvania',
-        'NJ': 'New Jersey',
-        'NY': 'New York'
+      const meta = stateMetadata[stateParam] || {
+        name: stateParam,
+        title: `${stateParam} RV Campground Guides | RigFitRV`,
+        metaDesc: `Browse verified big-rig RV campground guides for ${stateParam} on RigFitRV.`,
+        intro: `Browse verified RV campground guides and ground-truth routing warnings for ${stateParam}.`
       };
+
+      // Set Page Title and Meta Description
+      document.title = meta.title;
+      document.getElementById('page-head-desc').setAttribute('content', meta.metaDesc);
+      document.getElementById('state-title').textContent = `${meta.name} RV Campground Guides`;
       
-      const fullStateName = stateNames[stateParam] || stateParam;
-      document.getElementById('state-title').textContent = `${fullStateName} RV Campground Guides`;
-      
+      // Inject SEO Intro Box
+      const introBox = document.getElementById('state-intro');
+      introBox.textContent = meta.intro;
+      introBox.style.display = 'block';
+
       try {
         const response = await fetch('data/campgrounds.json');
         const campgrounds = await response.json();
         
-        const filtered = campgrounds.filter(camp => camp.state.toUpperCase() === stateParam);
+        currentCampgrounds = campgrounds.filter(camp => camp.state.toUpperCase() === stateParam);
 
-        document.getElementById('state-subtitle').textContent = `Showing ${filtered.length} verified big-rig guide${filtered.length === 1 ? '' : 's'} in ${fullStateName}`;
+        document.getElementById('state-subtitle').textContent = `Showing ${currentCampgrounds.length} verified big-rig guide${currentCampgrounds.length === 1 ? '' : 's'} in ${meta.name}`;
         
-        const grid = document.getElementById('state-results-grid');
-        if (filtered.length === 0) {
-          grid.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; padding: 40px 0;">No campground guides currently available for ${fullStateName}. Check back soon as we expand our coverage!</p>`;
-          return;
-        }
-
-        grid.innerHTML = filtered.map(camp => `
-          <div class="card">
-            <img src="${camp.image}" alt="${camp.name}" onerror="this.src='images/placeholder.jpg'">
-            <div class="card-content">
-              <h3>${camp.name}</h3>
-              <p class="location">${camp.city}, ${camp.state} • ${camp.ownertype}</p>
-              <p class="summary">${camp.summary}</p>
-              <a href="c/${camp.id}.html" class="btn">View Rig-Fit Guide</a>
-            </div>
-          </div>
-        `).join('');
+        renderCards(currentCampgrounds, meta.name);
         
       } catch (err) {
         console.error('Error loading state guides:', err);
         document.getElementById('state-subtitle').textContent = 'Error loading state directory. Please try again later.';
       }
     });
+
+    function renderCards(list, stateName) {
+      const grid = document.getElementById('state-results-grid');
+      if (list.length === 0) {
+        grid.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; padding: 40px 0;">No campground guides matching this filter currently available for ${stateName}. Check back soon as we expand our coverage!</p>`;
+        return;
+      }
+
+      grid.innerHTML = list.map(camp => `
+        <div class="card">
+          <img src="${camp.image}" alt="${camp.name}" onerror="this.src='images/placeholder.jpg'">
+          <div class="card-content">
+            <h3>${camp.name}</h3>
+            <p class="location">${camp.city}, ${camp.state} • ${camp.ownertype}</p>
+            <p class="summary">${camp.summary}</p>
+            <a href="c/${camp.id}.html" class="btn">View Rig-Fit Guide</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterCampgrounds(type, btnElement) {
+      // Update active button state
+      document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+      btnElement.classList.add('active');
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const stateParam = (urlParams.get('st') || 'PA').toUpperCase();
+      const stateName = (stateMetadata[stateParam] && stateMetadata[stateParam].name) || stateParam;
+
+      if (type === 'all') {
+        renderCards(currentCampgrounds, stateName);
+      } else if (type === 'bigrig') {
+        const filtered = currentCampgrounds.filter(c => {
+          const maxLen = (c.scorecard && c.scorecard.maxRigLength) || '';
+          return maxLen.includes('40') || maxLen.includes('45') || maxLen.includes('50') || maxLen.toLowerCase().includes('big rig') || maxLen.toLowerCase().includes('toy hauler');
+        });
+        renderCards(filtered, stateName);
+      } else if (type === 'statepark') {
+        const filtered = currentCampgrounds.filter(c => c.ownertype && c.ownertype.toLowerCase().includes('state park'));
+        renderCards(filtered, stateName);
+      } else if (type === 'private') {
+        const filtered = currentCampgrounds.filter(c => c.ownertype && (c.ownertype.toLowerCase().includes('private') || c.ownertype.toLowerCase().includes('resort')));
+        renderCards(filtered, stateName);
+      }
+    }
   </script>
 </body>
 </html>
