@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panther Lake Camping Resort Guide - RigFitRV</title>
+  <meta name="description" content="Verified RV clearance, US Route 206 approach route guidance, and campground insights for Panther Lake Camping Resort in Andover, NJ.">
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- Custom Favicons -->
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="RigFitRV">
+  <meta property="og:title" content="Panther Lake Camping Resort Guide - RigFitRV">
+  <meta property="og:url" content="https://rigfitrv.com/c/panther-lake-camping-resort.html">
+
+  <!-- Google tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TV8S962CRT');
+  </script>
+
+  <!-- Prevent AI Model Training & Image Scraping -->
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
+</head>
+
+<body data-campground-id="panther-lake-camping-resort">
+
+  <!-- Universal Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('../header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <div class="container">
+    <div class="article-card">
+
+      <h1 id="camp-title">Panther Lake Camping Resort Guide</h1>
+
+      <!-- Populated from JSON -->
+      <table class="campground-info-table" id="camp-info-table"></table>
+
+      <hr>
+
+      <h2>🚚 The Quick Rig-Fit Scorecard</h2>
+      <div class="scorecard" id="camp-scorecard"></div>
+
+      <hr>
+
+      <!-- Approach & Routing Target Container -->
+      <div id="camp-approach-section"></div>
+
+      <hr>
+
+      <h2>🏕️ Campground Overview & Atmosphere</h2>
+      <div id="camp-overview"></div>
+
+      <hr>
+
+      <h2>🚗 Toad Unhook Strategy</h2>
+      <div id="camp-toad-strategy"></div>
+
+      <hr>
+
+      <h2>💬 RVer Community Intelligence: Help Us Keep This Updated!</h2>
+      <p><em>Have you stayed here recently? Encountered a low branch or have tips for navigating the loops?</em></p>
+      <a href="../submit.html" class="btn">👉 Submit a Quick Rig-Fit Update</a>
+
+    </div><!-- End of article-card -->
+
+    <!-- Nearby Campgrounds Section -->
+    <section id="related-campgrounds" class="related-section hidden">
+      <h2 class="section-title">Nearby Rig-Fit Guides</h2>
+      <p class="section-subtitle">Other verified campgrounds closest to this location</p>
+      <div id="related-cards-grid" class="cards-grid">
+        <!-- Dynamic distance-sorted cards render here -->
+      </div>
+    </section>
+
+  </div><!-- End of main container -->
+
+  <!-- Universal Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('../footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- Single-Point Data Loader -->
+  <script src="../js/campground.js"></script>
+</body>
+</html>
