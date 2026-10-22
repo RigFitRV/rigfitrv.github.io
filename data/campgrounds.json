@@ -1,5 +1,52 @@
 [
  {
+    "id": "mountainview-campground",
+    "name": "Mountainview Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Milford",
+    "featured": true,
+    "lat": 40.5735,
+    "lng": -75.1278,
+    "image": "/images/mountainview_campground.jpg",
+    "mapImage": "/images/mountainview_campground_map.jpg",
+    "address": "135 Goritz Rd, Milford, NJ 08848",
+    "gps": "40.5735° N, 75.1278° W",
+    "phone": "(908) 996-2953",
+    "website": "https://mtviewcamp.com",
+    "summary": "Family-owned since 1953 on 150 acres of Hunterdon County farmland along the Musconetcong Mountains, offering spacious 50/30 amp sites, pull-thrus, and tranquil rustic camping 5 miles from the Delaware River.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Thru Sites)",
+      "toadFriendliness": "Good (paved office driveway off Goritz Road provides unhooking space)",
+      "treeClearance": "Good; open farmland terrain mixed with shaded wooded perimeter sites",
+      "bestBigRigLoops": "Central Farmland Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-78 Exit 12 to Route 614 to Sweet Hollow Road",
+      "text": "Accessed via Interstate 78 Exit 12 taking Route 614 (Little York-Pattenburg Road) south, turning onto Sweet Hollow Road, and proceeding directly onto Goritz Road. Flat, open Hunterdon County farmland roads with clear overhead clearance for fifth wheels and motorhomes.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental detours onto narrow Delaware River canal bridges or weight-restricted township roads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Stay slightly right on the paved office approach off Goritz Road to unhook your towed vehicle before following the farm lanes to your site.",
+    "content": {
+      "overview": "Mountainview Campground offers a peaceful, rustic getaway set on 150 acres of rolling Hunterdon County hills, featuring open skies, a swimming pond, and quick access to Delaware River kayaking.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Ideal for stabilizing rigs on natural grass and gravel farmland terrain.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central farmland pull-through sites accommodate fifth wheels and motorhomes with 30/50 amp electric and pump-out availability.",
+      "loopsAB": "Shaded woodland back-in sites offer natural seclusion and scenic views of the Musconetcong Mountain ridge."
+    }
+  },
+ {
     "id": "harmony-ridge-campground",
     "name": "Harmony Ridge Campground",
     "ownertype": "Private Campground",
