@@ -1,5 +1,52 @@
 [
  {
+    "id": "cherry-hill-park",
+    "name": "Cherry Hill Park",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "state": "MD",
+    "city": "College Park",
+    "featured": true,
+    "lat": 39.0251,
+    "lng": -76.9403,
+    "image": "/images/cherry_hill_park.jpg",
+    "mapImage": "/images/cherry_hill_park_map.jpg",
+    "address": "9800 Cherry Hill Rd, College Park, MD 20740",
+    "gps": "39.0251° N, 76.9403° W",
+    "phone": "(301) 937-7116",
+    "website": "https://www.cherryhillpark.com",
+    "summary": "Premier, luxury full-hookup RV resort serving the Washington, D.C. metropolitan area, featuring big-rig pull-throughs, direct D.C. transit shuttle, pools, splash park, and year-round operation.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (wide registration apron immediately past main security gates)",
+      "treeClearance": "Good; wide paved interior avenues and well-maintained loop clearance",
+      "bestBigRigLoops": "Yellowstone Place (600s) & Bryce Canyon (1700s)",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Capital Beltway (I-495/95) to Cherry Hill Road",
+      "text": "Accessed via Interstate 495/95 Exit 25 for US Route 1 South, making an immediate right onto Cherry Hill Road and driving 1 mile to the resort entrance on the left. Wide suburban multi-lane highway corridor.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents complex multi-lane navigation errors in the busy D.C. metropolitan beltway traffic.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the designated check-in and registration area just past the main entry gate to safely unhook your towed vehicle before proceeding to your assigned loop.",
+    "content": {
+      "overview": "Cherry Hill Park stands as the gold standard for visiting the nation's capital in an RV, combining world-class resort amenities, on-site transit shuttles straight to the Metro, and top-tier big-rig pull-through sites.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Great for fine-tuning pad levelness on paved and gravel resort pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "The Yellowstone and Bryce Canyon loops feature wide 50-amp full-hookup pull-through pads tailored specifically for large motorhomes and coaches.",
+      "loopsAB": "Shaded perimeter back-ins offer quiet separation while remaining an easy walk to resort amenities."
+    }
+  },
+ {
     "id": "assateague-state-park",
     "name": "Assateague State Park",
     "ownertype": "State Park",
