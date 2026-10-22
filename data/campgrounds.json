@@ -1,5 +1,52 @@
 [
  {
+    "id": "owens-creek-campground",
+    "name": "Owens Creek Campground",
+    "ownertype": "National Park Service",
+    "addedDate": "2026-10-22",
+    "state": "MD",
+    "city": "Thurmont",
+    "featured": true,
+    "lat": 39.6604,
+    "lng": -77.4819,
+    "image": "/images/owens_creek_campground.jpg",
+    "mapImage": null,
+    "address": "15882 Foxville Deerfield Rd, Sabillasville, MD 21780",
+    "gps": "39.6604° N, 77.4819° W",
+    "phone": "(301) 663-9388",
+    "website": "https://www.nps.gov/cato/index.htm",
+    "summary": "Forested National Park Service dry-camping campground nestled in the Catoctin Mountain foothills near Thurmont, featuring 51 wooded sites tailored for small-to-medium RVs and travel trailers up to 30 ft.",
+    "scorecard": {
+      "maxRigLength": "Up to 30 ft Maximum (Compact Mountain Sites)",
+      "toadFriendliness": "Moderate (unhook prior to turning onto Foxville-Deerfield Road)",
+      "treeClearance": "Tight canopy; low-hanging branches and winding mountain curves",
+      "bestBigRigLoops": "Not suitable for big rigs (Max length 30 ft)",
+      "bestSmallRigLoops": "Outer Loop Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 15 to MD Route 77 West",
+      "text": "Accessed via US Route 15 in Thurmont, taking MD Route 77 West into Catoctin Mountain Park, turning right onto Foxville-Deerfield Road, and following 1 mile to the campground. Winding mountain road with heavy tree canopy.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Crucial for verifying length and height clearances on narrow mountain park roads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Unhook your towed vehicle or trailer setup before turning off MD-77 onto Foxville-Deerfield Road, as mountain approach loops have very limited turnaround space.",
+    "content": {
+      "overview": "Owens Creek Campground offers a rustic mountain dry-camping experience in Catoctin Mountain Park, immersing campers in deep hardwood forests with immediate access to scenic hiking trails.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Essential for establishing stable pad levelness on sloped mountain gravel sites.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Standard back-in sites accommodate travel trailers and small motorhomes up to 30 ft without electrical hookups.",
+      "loopsAB": "Compact loop layouts offer heavy shade and private forest surroundings ideal for tenters and small class B/C units."
+    }
+  },
+ {
     "id": "janes-island-state-park",
     "name": "Janes Island State Park",
     "ownertype": "State Park",
