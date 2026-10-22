@@ -1,5 +1,52 @@
 [
  {
+    "id": "river-beach-rv-resort",
+    "name": "River Beach RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Mays Landing",
+    "featured": true,
+    "lat": 39.4136,
+    "lng": -74.7152,
+    "image": "/images/river_beach_rv_resort.jpg",
+    "mapImage": null,
+    "address": "4678 Somers Point Rd, Mays Landing, NJ 08330",
+    "gps": "39.4136° N, 74.7152° W",
+    "phone": "(609) 625-8611",
+    "website": "https://www.zemanrv.com/resorts/river-beach-rv-resort",
+    "summary": "Waterfront RV resort situated along the banks of the Great Egg Harbor River near Atlantic City and Ocean City, featuring private sandy beach access, 80-slip marina, boat ramp, kayak launches, and full hookups.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (spacious front office entrance apron off Somers Point Road)",
+      "treeClearance": "Good; wide, flat coastal arterial access with well-maintained driveway canopy",
+      "bestBigRigLoops": "Central Main Entrance Rows",
+      "bestSmallRigLoops": "Riverfront Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Atlantic City Expressway to NJ Route 50 to CR-559",
+      "text": "Accessed via Atlantic City Expressway Exit 12 taking NJ Route 50 South through Mays Landing, turning onto Somers Point Road (CR-559). Smooth, flat Atlantic County highways provide wide turning clearance for towables and motorhomes.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures accurate arterial routing across South Jersey bay connector routes.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main office entrance staging loop off Somers Point Road to unhook your towed vehicle before maneuvering into the riverfront loops.",
+    "content": {
+      "overview": "River Beach RV Resort combines a waterfront boating and fishing lifestyle with close proximity to Jersey Shore beaches, offering a private marina, wave runner ports, swimming pool, and direct river access.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for securing solid pad balance on sandy riverbank soil.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central rows feature 30/50 amp full hookups with open sky access and easy pull-through capability for mid-size motorhomes.",
+      "loopsAB": "Riverfront back-in sites sit directly along the Great Egg Harbor River, offering dock access and scenic water views."
+    }
+  },
+ {
     "id": "ocean-city-campground",
     "name": "Ocean City Campground & Beach Cabins",
     "ownertype": "Private Campground",
