@@ -1,5 +1,52 @@
 [
  {
+    "id": "seashore-campsites-rv-resort",
+    "name": "Sun Retreats Seashore",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Cape May",
+    "featured": true,
+    "lat": 38.9837,
+    "lng": -74.9076,
+    "image": "/images/seashore_campsites_rv_resort.jpg",
+    "mapImage": "/images/seashore_campsites_rv_resort_map.jpg",
+    "address": "720 Seashore Rd, Cape May, NJ 08204",
+    "gps": "38.9837° N, 74.9076° W",
+    "phone": "(609) 884-4010",
+    "website": "https://www.sunoutdoors.com/new-jersey/sun-retreats-seashore",
+    "summary": "Expansive 685-site resort minutes from Cape May beaches, featuring a filtered lake with sandy swimming beach, big-rig 50-amp full hookup sites, heated pool, mini-golf, and extensive family activities.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (multi-lane check-in staging area off Seashore Road)",
+      "treeClearance": "Good; wide main arterial loops and high canopy clearance",
+      "bestBigRigLoops": "Central Lakeview Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway to Route 109 to Seashore Road",
+      "text": "Accessed via Garden State Parkway South to NJ Route 109 South, connecting via Sandman Boulevard (CR-552) to Seashore Road (CR-626). Broad, flat coastal approach roads offer seamless clearance for large motorhomes and fifth wheels.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents accidental detours into historic downtown Cape May streets with low-hanging tree branches.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the designated multi-lane registration apron off Seashore Road to unhook your towed vehicle before following the main loops to your site.",
+    "content": {
+      "overview": "Sun Retreats Seashore offers a full-scale resort experience 5 minutes from Cape May Point and Victorian Cape May, pairing a private swimming lake and sandy beach with big-rig pull-through convenience.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Great for fine-tuning pad stability across sandy and gravel lakeside terrain.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows accommodate full-size Class A motorhomes and fifth wheels with 50-amp power and full hookups.",
+      "loopsAB": "Shaded back-in sites along the wooded perimeter offer quiet coastal seclusion under mature tree cover."
+    }
+  },
+ {
     "id": "sea-pirate-campground",
     "name": "Sea Pirate Campground",
     "ownertype": "Private Campground",
