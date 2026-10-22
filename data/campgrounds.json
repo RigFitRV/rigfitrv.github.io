@@ -1,5 +1,52 @@
 [
  {
+    "id": "dingmans-campground",
+    "name": "Dingmans Campground",
+    "ownertype": "National Park Service",
+    "addedDate": "2026-10-22",
+    "state": "PA",
+    "city": "Dingmans Ferry",
+    "featured": true,
+    "lat": 41.2108,
+    "lng": -74.8717,
+    "image": "/images/dingmans_campground.jpg",
+    "mapImage": null,
+    "address": "1006 Route 209, Dingmans Ferry, PA 18328",
+    "gps": "41.2108° N, 74.8717° W",
+    "phone": "(570) 828-1551",
+    "website": "https://www.dingmanscampground.com",
+    "summary": "Forested National Park Service riverside campground located within the Delaware Water Gap National Recreation Area, featuring 35 RV-ready sites with 20/30/50-amp hookups and a pure digital-detox vibe.",
+    "scorecard": {
+      "maxRigLength": "Up to 50 ft (Select Forest RV Sites)",
+      "toadFriendliness": "Good (entrance off Route 209 leads to spacious registration pull-offs)",
+      "treeClearance": "Moderate; mature old-growth forest canopy overhead",
+      "bestBigRigLoops": "20/30/50-Amp Forest RV Rows",
+      "bestSmallRigLoops": "River Forest Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-80 to PA Route 209 North (⚠️ Bridge Warning)",
+      "text": "Accessed via I-80 Exit 309 for PA-209 North, following north for 23 miles to the entrance on the right. WARNING: Avoid crossing the Dingmans Toll Bridge from NJ on Route 206, as it features a strict 11-foot height limit impassable for large RVs.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Essential for routing around low-clearance bridges and navigating PA-209 corridors.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Use the entrance check-in apron directly off Route 209 to safely unhook your towed vehicle before proceeding into the wooded campground loops.",
+    "content": {
+      "overview": "Dingmans Campground spans 65 acres of rustic old-growth forest along the Delaware River inside the Delaware Water Gap National Recreation Area, offering peaceful riverside camping and an authentic digital detox (noted cell service dead zone).",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Indispensable for balancing your rig on natural earth and gravel forest pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Forest RV sites offer 20/30/50-amp electrical service, water hookups, and pad lengths accommodating coaches up to 50 ft.",
+      "loopsAB": "Forested boondock and tent sites provide secluded natural shade within a short walk of the Delaware River banks."
+    }
+  },
+ {
     "id": "owens-creek-campground",
     "name": "Owens Creek Campground",
     "ownertype": "National Park Service",
