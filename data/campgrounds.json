@@ -1,5 +1,52 @@
 [
  {
+    "id": "panther-lake-camping-resort",
+    "name": "Panther Lake Camping Resort",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Andover",
+    "featured": true,
+    "lat": 40.9634,
+    "lng": -74.7387,
+    "image": "/images/panther_lake_camping_resort.jpg",
+    "mapImage": "/images/panther_lake_camping_resort_map.jpg",
+    "address": "6 Panther Lake Rd, Andover, NJ 0821",
+    "gps": "40.9634° N, 74.7387° W",
+    "phone": "(973) 347-4440",
+    "website": "https://pantherlakecampingresort.com",
+    "summary": "Full-service 160-acre RV resort in Sussex County surrounding a private 45-acre lake, offering big-rig pull-through sites with 50-amp full hookups, swimming pool, boat rentals, and family amenities.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (wide main office registration lanes off Route 206)",
+      "treeClearance": "Good; wide, paved main loops with clear overhead canopy",
+      "bestBigRigLoops": "Central Lakeview Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Lakefront Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 206 to Panther Lake Road",
+      "text": "Accessed directly off US Route 206 in Andover Township via Panther Lake Road. US Route 206 is a broad commercial corridor providing seamless clearance for motorhomes and large towed rigs.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Provides reliable highway navigation around North Jersey mountain traffic bottlenecks.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the designated check-in staging lanes right off Panther Lake Road to unhook your towed vehicle before pulling into the resort loops.",
+    "content": {
+      "overview": "Panther Lake Camping Resort is a classic North Jersey lakeside destination offering extensive water recreation, sandy beach areas, fishing, and full-service RV amenities just 50 miles from NYC.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Great for establishing rock-solid pad balance on gravel and paved lakeside sites.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows accommodate full-sized fifth wheels and Class A rigs with 50-amp power, full hookups, and wide turns.",
+      "loopsAB": "Perimeter back-in sites under mature woodland canopy offer direct access and views of Panther Lake."
+    }
+  },
+ {
     "id": "paradise-valley-homestead",
     "name": "Paradise Valley Homestead",
     "ownertype": "Private Homestead",
