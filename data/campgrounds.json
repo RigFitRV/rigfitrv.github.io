@@ -1,5 +1,52 @@
 [
  {
+    "id": "paradise-valley-homestead",
+    "name": "Paradise Valley Homestead",
+    "ownertype": "Private Homestead",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Oak Ridge",
+    "featured": true,
+    "lat": 41.0453,
+    "lng": -74.5028,
+    "image": "/images/paradise_valley_homestead.jpg",
+    "mapImage": null,
+    "address": "Oak Ridge, NJ 07438",
+    "gps": "41.0453° N, 74.5028° W",
+    "phone": "(973) 697-3800",
+    "website": "https://www.hipcamp.com/en-US/land/new-jersey-paradise-valley-homestead-lz9h9kpj",
+    "summary": "Independent 33-acre woodland property surrounded by protected state land in Northwest NJ, offering quiet field sites for camper vans and rigs under 30 ft, hiking trails, and a natural waterfall.",
+    "scorecard": {
+      "maxRigLength": "Strictly 30 ft Max (Sites 1-4 Field Sites)",
+      "toadFriendliness": "Moderate (mowed field entrance area provides pull-in space)",
+      "treeClearance": "Fair; last 2 miles are dirt road, keep speed low and watch overhead branches",
+      "bestBigRigLoops": "Not Big-Rig Capable (Rigs under 30 ft only)",
+      "bestSmallRigLoops": "Sites 1-4 (Mowed Level Fields)"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NJ Route 23 to Dirt Access Road",
+      "text": "Accessed off NJ Route 23 in Oak Ridge. Route 23 is a paved state highway, but the final 2 miles transition onto a dirt forest road. Maintain steady 10-15 mph speeds and watch for minor gravel rutting.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Keeps you on major state highways until the exact dirt turn-off point in Passaic/Sussex County.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Small camper vans and trailers under 30 ft can pull straight into Sites 1-4 in the lower mowed field; unhook towed vehicles at the field entrance if maneuvering into shaded tree spots.",
+    "content": {
+      "overview": "Paradise Valley Homestead offers a rustic, off-grid woodland camping experience set on 33 acres surrounded by watershed land, featuring walking trails, a waterfall ravine, and complete solitude.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Essential for establishing level stability on mowed grass and natural earth field pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Sites 1 through 4 are located in the mowed, fairly level front fields, designed specifically for small travel trailers, camper vans, and small Class C motorhomes under 30 ft.",
+      "loopsAB": "Sites 5 through 10 are situated deeper into the woods and mountain slope, reserved exclusively for tent camping and 4WD high-clearance vehicles."
+    }
+  },
+ {
     "id": "mountainview-campground",
     "name": "Mountainview Campground",
     "ownertype": "Private Campground",
