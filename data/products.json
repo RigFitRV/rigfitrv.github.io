@@ -1,7 +1,7 @@
 {
   "garmin-rv-890": {
     "title": "Recommended Rig Routing Gear",
-    "productName": "Garmin RV 890 GPS Navigator",
+    "productName": "Garmin RV 895 GPS Navigator",
     "reason": "Essential for overhead clearance routing and avoiding low-bridge restrictions in tight regional loops.",
     "affiliateUrl": "https://link.amazon/B0deSwFQR"
   },
@@ -10,6 +10,18 @@
     "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
     "reason": "Modular, durable stacking blocks crucial for uneven, wooded South/North Jersey campsites.",
     "affiliateUrl": "https://link.amazon/B0c9CFhIj"
+  },
+  "andersen-levelers": {
+    "title": "Recommended Rapid Leveling System",
+    "productName": "Andersen Camper Leveler Kit",
+    "reason": "Provides precise drive-on drive-off leveling in seconds without stack-and-guess block stacking.",
+    "affiliateUrl": "https://link.amazon/B0dfWdgzN"
+  },
+  "camco-curved-leveler": {
+    "title": "Recommended Curved Leveler & Chock",
+    "productName": "Camco Curved Camper/RV Leveler & Wheel Chock",
+    "reason": "Offers smooth drive-on leveling up to 4 inches while anchoring wheels firmly in place.",
+    "affiliateUrl": "https://link.amazon/B0cqZSzRf"
   },
   "heavy-duty-surge-protector": {
     "title": "Recommended Electrical Protection",
