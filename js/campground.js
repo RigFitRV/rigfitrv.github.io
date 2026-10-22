@@ -43,13 +43,17 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // Reusable Affiliate Box Generator Helper
-      function createAffiliateBox(gear) {
+      // Reusable Affiliate Box Generator Helper (combines catalog product info with campground-specific reason)
+      function createAffiliateBox(recommendedGearObj) {
+        if (!recommendedGearObj || !recommendedGearObj.gearKey) return '';
+        const catalogItem = productsCatalog[recommendedGearObj.gearKey];
+        if (!catalogItem) return '';
+
         return `
           <div style="background-color: #f8fafc; border-left: 4px solid #2563eb; padding: 1.25rem; border-radius: 6px; margin: 1.25rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
-            <h4 style="margin: 0 0 0.5rem 0; color: #0f172a; font-size: 1.01rem;">⚙️ ${gear.title || 'Recommended Gear'}</h4>
+            <h4 style="margin: 0 0 0.5rem 0; color: #0f172a; font-size: 1.01rem;">⚙️ ${catalogItem.title || 'Recommended Gear'}</h4>
             <p style="margin: 0 0 0.75rem 0; font-size: 0.9rem; color: #334155; line-height: 1.5;">
-              <strong>Recommended Setup:</strong> <a href="${gear.affiliateUrl}" target="_blank" rel="nofollow noopener" style="color: #2563eb; font-weight: bold; text-decoration: underline;">${gear.productName}</a> — ${gear.reason}
+              <strong>Recommended Setup:</strong> <a href="${catalogItem.affiliateUrl}" target="_blank" rel="nofollow noopener" style="color: #2563eb; font-weight: bold; text-decoration: underline;">${catalogItem.productName}</a> — ${recommendedGearObj.reason}
             </p>
             <span style="font-size: 0.78rem; color: #64748b; font-style: italic;">RigFitRV is reader-supported. We may earn an affiliate commission from qualifying purchases made through our links.</span>
           </div>
@@ -59,14 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // 1. Populate Approach & Routing Section
       const approachSection = document.getElementById('camp-approach-section');
       if (approachSection && data.approach) {
-        let approachGearHtml = '';
-        // Look up gear from products catalog using gearKey (supports legacy embedded gear object as a fallback)
-        const gearKey = data.approach.gearKey;
-        const gearData = gearKey ? productsCatalog[gearKey] : data.approach.recommendedGear;
-
-        if (gearData) {
-          approachGearHtml = createAffiliateBox(gearData);
-        }
+        const approachGearHtml = createAffiliateBox(data.approach.recommendedGear);
         approachSection.innerHTML = `
           <h2>🚧 Approach & Routing Warning</h2>
           <p>${data.approach.text}</p>
@@ -77,15 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
       // 2. Populate Toad Unhook Strategy Section
       const toadStrategyEl = document.getElementById('camp-toad-strategy');
       if (toadStrategyEl && data.toadStrategy) {
-        let toadGearHtml = '';
-        const gearKey = data.toadStrategy.gearKey || data.gearKey;
-        const gearData = gearKey ? productsCatalog[gearKey] : null;
-
-        if (gearData) {
-          toadGearHtml = createAffiliateBox(gearData);
-        }
+        const toadText = typeof data.toadStrategy === 'object' ? data.toadStrategy.text : data.toadStrategy;
+        const toadGearHtml = typeof data.toadStrategy === 'object' ? createAffiliateBox(data.toadStrategy.recommendedGear) : '';
         toadStrategyEl.innerHTML = `
-          <p>${data.toadStrategy.text || data.toadStrategy}</p>
+          <p>${toadText}</p>
           ${toadGearHtml}
         `;
       }
@@ -93,15 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // 3. Populate Overview & Campsite Details
       const overview = document.getElementById('camp-overview');
       if (overview && data.content) {
-        let overviewGearHtml = '';
-        
-        // Look up gear from products catalog using content.gearKey (with fallback to legacy properties)
-        const gearKey = data.content.gearKey;
-        const overviewGear = gearKey ? productsCatalog[gearKey] : (data.content.recommendedGear || null);
-
-        if (overviewGear) {
-          overviewGearHtml = createAffiliateBox(overviewGear);
-        }
+        const overviewGearHtml = createAffiliateBox(data.content.recommendedGear);
 
         overview.innerHTML = `
           ${data.image ? `<img src="${data.image}" alt="${data.name} Campsite" style="max-height: 380px; object-fit: cover; width: 100%; border-radius: 8px; margin-bottom: 1.5rem;">` : ''}
