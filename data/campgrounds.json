@@ -1,5 +1,52 @@
 [
  {
+    "id": "sun-outdoors-frontier-town",
+    "name": "Sun Outdoors Frontier Town",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "state": "MD",
+    "city": "Berlin",
+    "featured": true,
+    "lat": 38.2918,
+    "lng": -75.1504,
+    "image": "/images/sun_outdoors_frontier_town.jpg",
+    "mapImage": "/images/sun_outdoors_frontier_town_map.jpg",
+    "address": "8428 Stephen Decatur Hwy, Berlin, MD 21811",
+    "gps": "38.2918° N, 75.1504° W",
+    "phone": "(410) 641-0880",
+    "website": "https://www.sunoutdoors.com/maryland/sun-outdoors-frontier-town",
+    "summary": "Massive Wild West-themed coastal resort located on Sinepuxent Bay near Ocean City and Assateague Island, featuring an on-site water park, 75-slip marina, and big-rig 50-amp full hookups.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (spacious multi-lane check-in registration plaza off MD-611)",
+      "treeClearance": "Good; wide main avenues and well-trimmed resort canopy",
+      "bestBigRigLoops": "Central Bayview Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 50 to MD Route 611 South",
+      "text": "Accessed via US Route 50 East to MD Route 611 South (Stephen Decatur Highway), proceeding 4 miles south to the resort on the left. Smooth 2-lane state highway with wide lanes and full overhead clearance.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Prevents missed highway turns on the US-50 to MD-611 coastal corridor.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the designated multi-lane check-in plaza right off MD Route 611 to safely unhook your towed vehicle before proceeding to your site row.",
+    "content": {
+      "overview": "Sun Outdoors Frontier Town delivers a premier resort experience combining a Wild West theme park, water park, and marina with top-tier big-rig accessibility just minutes from Assateague and Ocean City beaches.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Useful for securing solid pad balance on sandy coastal resort terrain.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Central pull-through rows accommodate full-size Class A motorhomes and fifth wheels with 50-amp power and full hookups.",
+      "loopsAB": "Shaded back-in sites along the perimeter offer quiet separation under mature tree cover."
+    }
+  },
+ {
     "id": "cherry-hill-park",
     "name": "Cherry Hill Park",
     "ownertype": "Private Resort",
