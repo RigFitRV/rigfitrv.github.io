@@ -1,51 +1,50 @@
 [
  {
-    "id": "camp-gateway-floyd-bennett-field",
-    "name": "Camp Gateway (Floyd Bennett Field)",
-    "ownertype": "National Park Service",
-    "addedDate": "2026-10-22",
-    "state": "NY",
-    "city": "Brooklyn",
-    "featured": true,
-    "lat": 40.5948,
-    "lng": -73.8842,
-    "image": "/images/camp_gateway_floyd_bennett_field.jpg",
-    "mapImage": null,
-    "address": "50 Aviation Rd, Brooklyn, NY 11234",
-    "gps": "40.5948° N, 73.8842° W",
-    "phone": "(718) 338-3799",
-    "website": "https://www.recreation.gov/camping/campgrounds/233309",
-    "summary": "National Park Service urban campground located at Floyd Bennett Field in Brooklyn (Gateway National Recreation Area), offering dry RV camping, dump station, and direct access to NYC public transit.",
-    "scorecard": {
-      "maxRigLength": "Up to 40 ft (Non-Electric RV Sites)",
-      "toadFriendliness": "Good (spacious park entry lanes past Ryan Visitor Center)",
-      "treeClearance": "Open grassland and historic aviation tarmac setting with minimal low branches",
-      "bestBigRigLoops": "Floyd Bennett RV Non-Electric Rows",
-      "bestSmallRigLoops": "Compact Tarmac Pull-In Pads"
-    },
-    "approach": {
-      "title": "Approach & Routing Guidance: Expressway Routes to Flatbush Avenue (⚠️ Parkway Ban)",
-      "text": "Accessed via expressway routes (such as I-278 / BQE) to Flatbush Avenue South, proceeding 10 miles south to Floyd Bennett Field just before the Gil Hodges Bridge. WARNING: Commercial vehicles and RVs are strictly prohibited on the Belt Parkway due to low overpasses.",
-      "recommendedGear": {
-        "title": "Recommended Rig Routing Gear",
-        "productName": "Garmin RV 890 GPS Navigator",
-        "reason": "Vital for bypassing prohibited parkways and low-clearance bridges throughout New York City.",
-        "affiliateUrl": "https://link.amazon/B0deSwFQR"
-      }
-    },
-    "toadStrategy": "Utilize the wide interior roadways past the Ryan Visitor Center within Floyd Bennett Field to safely unhook your towed vehicle before entering the campground loop.",
-    "content": {
-      "overview": "Camp Gateway at Floyd Bennett Field provides a unique urban camping experience within Gateway National Recreation Area, combining historic aviation grounds on Jamaica Bay with easy public transit access into Manhattan.",
-      "recommendedGear": {
-        "title": "Recommended Campsite Leveling Gear",
-        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
-        "reason": "Essential for establishing pad stability on historic concrete and gravel airfield surfaces.",
-        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
-      },
-      "loopC": "RV non-electric sites accommodate travel trailers and motorhomes up to 40 ft with generator hours permitted and an on-site dump station.",
-      "loopsAB": "Open layout loops provide spacious staging areas surrounded by coastal grasslands and historic hangars."
+  "id": "camp-gateway-floyd-bennett-field",
+  "name": "Camp Gateway (Floyd Bennett Field)",
+  "ownertype": "National Park Service",
+  "addedDate": "2026-10-22",
+  "state": "NY",
+  "city": "Brooklyn",
+  "featured": true,
+  "lat": 40.5948,
+  "lng": -73.8842,
+  "image": "/images/camp_gateway_floyd_bennett_field.jpg",
+  "mapImage": null,
+  "address": "50 Aviation Rd, Brooklyn, NY 11234",
+  "gps": "40.5948° N, 73.8842° W",
+  "phone": "(718) 338-3799",
+  "website": "https://www.recreation.gov/camping/campgrounds/233309",
+  "summary": "National Park Service urban campground located at Floyd Bennett Field in Brooklyn (Gateway National Recreation Area), offering dry RV camping, dump station, and direct access to NYC public transit.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Non-Electric RV Sites)",
+    "toadFriendliness": "Good (spacious park entry lanes past Ryan Visitor Center)",
+    "treeClearance": "Open grassland and historic aviation tarmac setting with minimal low branches",
+    "bestBigRigLoops": "Floyd Bennett RV Non-Electric Rows",
+    "bestSmallRigLoops": "Compact Tarmac Pull-In Pads"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Expressway Routes to Flatbush Avenue (⚠️ Parkway Ban)",
+    "text": "Accessed via expressway routes (such as I-278 / BQE) to Flatbush Avenue South, proceeding 10 miles south to Floyd Bennett Field just before the Gil Hodges Bridge. WARNING: Commercial vehicles and RVs are strictly prohibited on the Belt Parkway due to low overpasses.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Vital for bypassing prohibited parkways and low-clearance bridges throughout New York City."
     }
   },
+  "toadStrategy": {
+    "text": "Utilize the wide interior roadways past the Ryan Visitor Center within Floyd Bennett Field to safely unhook your towed vehicle before entering the campground loop.",
+    "recommendedGear": null
+  },
+  "content": {
+    "overview": "Camp Gateway at Floyd Bennett Field provides a unique urban camping experience within Gateway National Recreation Area, combining historic aviation grounds on Jamaica Bay with easy public transit access into Manhattan.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Essential for establishing pad stability on historic concrete and gravel airfield surfaces."
+    },
+    "loopC": "RV non-electric sites accommodate travel trailers and motorhomes up to 40 ft with generator hours permitted and an on-site dump station.",
+    "loopsAB": "Open layout loops provide spacious staging areas surrounded by coastal grasslands and historic hangars."
+  }
+},
  {
     "id": "dingmans-campground",
     "name": "Dingmans Campground",
