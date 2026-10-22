@@ -1,5 +1,52 @@
 [
  {
+    "id": "ocean-city-campground",
+    "name": "Ocean City Campground & Beach Cabins",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "state": "NJ",
+    "city": "Ocean View",
+    "featured": true,
+    "lat": 39.2281,
+    "lng": -74.6934,
+    "image": "/images/ocean_city_campground.jpg",
+    "mapImage": "/images/ocean_city_campground_map.jpg",
+    "address": "245 NJ-50, Ocean View, NJ 08230",
+    "gps": "39.2281° N, 74.6934° W",
+    "phone": "(609) 390-3649",
+    "website": "https://www.oceancitycampground.com",
+    "summary": "Premier family-owned coastal resort in Cape May County located just minutes from Ocean City beaches and boardwalk, featuring full hookups, heated pool, splash pad, free mini-golf, and dog park.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (wide check-in driveway loop off NJ-50)",
+      "treeClearance": "Moderate; mature coastal canopy, watch inner loop turnarounds",
+      "bestBigRigLoops": "Front Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway to NJ Route 50",
+      "text": "Accessed via Garden State Parkway Exit 20 or Exit 25 onto NJ Route 50. NJ-50 is a wide, flat state corridor providing seamless clearance for motorhomes and travel trailers heading into Upper Township.",
+      "recommendedGear": {
+        "title": "Recommended Rig Routing Gear",
+        "productName": "Garmin RV 890 GPS Navigator",
+        "reason": "Ensures accurate Parkway exit routing and avoids tight local beach-town causeways.",
+        "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+      }
+    },
+    "toadStrategy": "Pull into the main registration driveway loop directly off NJ Route 50 to unhook your towed vehicle before pulling into the interior site rows.",
+    "content": {
+      "overview": "Ocean City Campground offers a clean, activity-filled basecamp just 5 miles from Ocean City's 8-mile beach and 2.5-mile boardwalk, combining top family amenities with shore convenience.",
+      "recommendedGear": {
+        "title": "Recommended Campsite Leveling Gear",
+        "productName": "Tri-Lynx 00015 Interlocking Leveling Blocks",
+        "reason": "Ideal for fine-tuning pad levelness on gravel and sandy soil pads.",
+        "affiliateUrl": "https://www.amazon.com/dp/B0028PJ10K?tag=rigfitrv-20"
+      },
+      "loopC": "Main entrance sites feature 30/50 amp power and full hookups, offering easy pull-through access for mid-to-large motorhomes.",
+      "loopsAB": "Shaded back-in sites offer natural pine shade and quiet family surroundings near the pool and amenities."
+    }
+  },
+ {
     "id": "triple-brook-camping-resort",
     "name": "TripleBrook RV & Camping Resort",
     "ownertype": "Private Resort",
