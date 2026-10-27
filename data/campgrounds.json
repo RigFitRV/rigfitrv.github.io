@@ -1,5 +1,54 @@
 [
  {
+  "id": "spacious-skies-woodland-hills",
+  "name": "Spacious Skies Woodland Hills",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-27",
+  "state": "NY",
+  "city": "Austerlitz",
+  "featured": true,
+  "lat": 42.3162,
+  "lng": -73.4735,
+  "image": "/images/spacious_skies_woodland_hills.jpg",
+  "mapImage": "/images/spacious_skies_woodland_hills_map.jpg",
+  "address": "386 Fog Hill Rd, Austerlitz, NY 12017",
+  "gps": "42.3162° N, 73.4735° W",
+  "phone": "(518) 392-3557",
+  "website": "https://spaciousskiescampgrounds.com/woodland-hills/",
+  "summary": "Tranquil Taconic Foothills park offering spacious big rig camping NY pull-throughs, 50-amp full hookups, and smooth access roads near the Berkshires border.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Pull-Through & Executive Sites)",
+    "toadFriendliness": "Excellent (wide entrance staging area off main access road)",
+    "treeClearance": "Well-maintained high canopy along main loops with selective branch trimming",
+    "bestBigRigLoops": "Executive 50-Amp Full-Hookup Pull-Through Section",
+    "bestSmallRigLoops": "Shaded Hillside Back-In Rows"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: I-90 Berkshires Spur to NY-22",
+    "text": "Accessed via I-90 (NYS Thruway Berkshire Spur) Exit B2 onto NY-22 South toward Austerlitz, turning onto Fog Hill Road. Wide arterial state routes provide clear sightlines and easy turns for 40+ ft rigs.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for tracking grade warnings and selecting wide toll lanes on the I-90 Berkshires approach."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the open gravel staging area near the park entrance office to safely unhook dinghy vehicles before entering the upper campsite rows.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides wide-angle visibility when unhooking or maneuvering dinghy vehicles in sloped staging areas."
+    }
+  },
+  "content": {
+    "overview": "Spacious Skies Woodland Hills delivers an exceptionally scenic big rig camping NY getaway nestled in the Hudson Valley / Berkshire foothills, featuring level full-hookup pull-throughs, reliable 50-amp power, and clean resort facilities.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Necessary for fine-tuning lateral levelling on sloped Taconic hillside campsite pads."
+    },
+    "loopC": "Upper pull-through loops accommodate multi-slide motorhomes and large fifth wheels with ample room for tow vehicles.",
+    "loopsAB": "Lower wooded back-in loops provide quiet private settings suited for mid-sized travel trailers and smaller Class C units."
+  }
+},
+ {
   "id": "saratoga-rv-park",
   "name": "Saratoga RV Park",
   "ownertype": "Private Campground",
