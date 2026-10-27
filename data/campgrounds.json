@@ -1,5 +1,54 @@
 [
  {
+  "id": "saratoga-rv-park",
+  "name": "Saratoga RV Park",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-27",
+  "state": "NY",
+  "city": "Gansevoort",
+  "featured": true,
+  "lat": 43.1965,
+  "lng": -73.6582,
+  "image": "/images/saratoga_rv_park.jpg",
+  "mapImage": "/images/saratoga_rv_park_map.jpg",
+  "address": "4894 NY-50, Gansevoort, NY 12831",
+  "gps": "43.1965° N, 73.6582° W",
+  "phone": "(518) 798-1913",
+  "website": "https://www.saratogarvpark.com",
+  "summary": "Premier Saratoga County destination featuring paved pull-through sites, 50-amp hookups, and top-tier big rig camping NY access near Saratoga Springs and I-87.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Paved & Level Pull-Through Sites)",
+    "toadFriendliness": "Excellent (dedicated wide staging area near office & clear interior loops)",
+    "treeClearance": "Well-maintained high-canopy pine/hardwood branches along main loops",
+    "bestBigRigLoops": "Full-Hookup Pull-Through Section (50-Amp)",
+    "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: I-87 Exit 15 to Route 50 North",
+    "text": "Accessed directly off I-87 (Adirondack Northway) Exit 15, proceeding north on NY-50 for 6 miles. Route 50 provides a wide, multi-lane roadway with gentle turns suitable for 40+ ft motorhomes and fifth wheels.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for steering clear of low bridge clearances on historic Saratoga County backroads when exiting I-87."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated unhook area alongside the main office registration loop to disconnect your dinghy vehicle before making turns into campsite rows.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helpful for keeping eyes on towed vehicle alignment when maneuvering into tight registration staging rows during busy weekend check-ins."
+    }
+  },
+  "content": {
+    "overview": "Saratoga RV Park offers an outstanding big rig camping NY location equipped with 301 total sites, full 50-amp utility pedestals, level pull-throughs, and quick access to Saratoga Race Course and Lake George.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protect high-draw Class A and fifth-wheel electrical systems against summer grid surges during peak Saratoga race season capacity."
+    },
+    "loopC": "Pull-through rows are built specifically for big rigs, featuring paved pads and wide turning radiuses that make parking stress-free.",
+    "loopsAB": "Perimeter back-in sites offer shaded grassy lawns surrounded by tall pine trees, perfect for travel trailers and smaller motorhomes."
+  }
+},
+ {
   "id": "tall-pines-campground",
   "name": "Tall Pines Campground & River Adventures",
   "ownertype": "Private Campground",
