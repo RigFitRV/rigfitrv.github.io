@@ -224,3 +224,12 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
 
   container.classList.remove('hidden');
 }
+
+// Ensure Canonical Link points cleanly to HTTPS canonical URL
+let canonicalLink = document.querySelector("link[rel='canonical']");
+if (!canonicalLink) {
+  canonicalLink = document.createElement('link');
+  canonicalLink.setAttribute('rel', 'canonical');
+  document.head.appendChild(canonicalLink);
+}
+canonicalLink.setAttribute('href', `https://rigfitrv.com/c/${pageId}.html`);
