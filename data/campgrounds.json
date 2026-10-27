@@ -1,5 +1,51 @@
 [
  {
+  "id": "tall-pines-campground",
+  "name": "Tall Pines Campground & River Adventures",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-27",
+  "state": "NY",
+  "city": "Bainbridge",
+  "featured": true,
+  "lat": 42.3128,
+  "lng": -75.4628,
+  "image": "/images/tall_pines_campground.jpg",
+  "mapImage": "/images/tall_pines_campground_map.jpg",
+  "address": "100 Tall Pines Ln, Bainbridge, NY 13733",
+  "gps": "42.3128° N, 75.4628° W",
+  "phone": "(607) 563-8271",
+  "website": "https://tallpinescampgroundny.com/",
+  "summary": "Scenic Unadilla Riverfront resort offering premium big rig camping NY supersites, 50-amp full hookups, canoeing, and spacious pull-throughs in the Central Catskills region.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Riverfront Pull-Through Supersites)",
+    "toadFriendliness": "Excellent (wide open riverfront staging area and clear turning loops)",
+    "treeClearance": "Trimmed high-canopy pine stands throughout main big-rig loops",
+    "bestBigRigLoops": "Unadilla Riverfront Supersites (50-Amp Full Hookup)",
+    "bestSmallRigLoops": "Upper Meadow & Wooded Tent/Pop-Up Rows"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: I-88 Exit 8 to Route 8 / County Road 35",
+    "text": "Accessed via I-88 Exit 8 (Bainbridge), taking NY-8 North toward Sidney/Masonville and turning onto County Road 35 to Tall Pines Lane. Navigating the Interstate corridor provides wide turning lanes for Class A motorhomes and heavy fifth wheels.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for steering clear of rural weight-restricted bridges and low-clearance agricultural overpasses throughout the I-88 / Susquehanna Valley corridor."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the wide gravel staging lane across from the main lodge to unhook your towed vehicle before proceeding down to the riverfront pull-through loops.",
+    "recommendedGear": null
+  },
+  "content": {
+    "overview": "Tall Pines Campground & River Adventures provides a tranquil big rig camping NY destination along the Unadilla River, featuring spacious full-hookup sites, clean level pads, direct river access, and family recreation near Bainbridge.",
+    "recommendedGear": {
+      "gearKey": "brass-water-pressure-regulator",
+      "reason": "Crucial for protecting PEX plumbing lines against seasonal municipal and well-water pressure spikes at riverfront utility pedestals."
+    },
+    "loopC": "Riverfront supersites feature wide 50-amp pull-throughs easily accommodating 40+ ft motorhomes with triple slides while keeping tow vehicles parked on-site.",
+    "loopsAB": "Upper meadow and shaded back-in sites offer comfortable grassy surroundings ideal for mid-sized travel trailers and pop-up campers."
+  }
+},
+ {
   "id": "skyline-rv-resort",
   "name": "Skyline RV Resort",
   "ownertype": "Private Campground",
