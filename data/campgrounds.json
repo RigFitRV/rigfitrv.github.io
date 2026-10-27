@@ -1,5 +1,51 @@
 [
  {
+  "id": "skyline-rv-resort",
+  "name": "Skyline RV Resort",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-27",
+  "state": "NY",
+  "city": "Darien Center",
+  "featured": true,
+  "lat": 42.9011,
+  "lng": -78.3842,
+  "image": "/images/skyline_rv_resort.jpg",
+  "mapImage": "/images/skyline_rv_resort_map.jpg",
+  "address": "10933 Alexander Rd, Darien Center, NY 14040",
+  "gps": "42.9011° N, 78.3842° W",
+  "phone": "(585) 591-2021",
+  "website": "https://www.skylinervresort.com",
+  "summary": "Top-rated Western New York destination offering premier big rig camping NY sites with wide pull-throughs, 50-amp full hookups, and spacious paved access roads near Darien Lake.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Wide Pull-Through Sites)",
+    "toadFriendliness": "Excellent (wide entry staging lanes and open interior loops)",
+    "treeClearance": "High, well-trimmed canopy along all main big rig access roads",
+    "bestBigRigLoops": "Pull-Through Executive Rows",
+    "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: NYS Thruway (I-90) to Route 77 / Route 20",
+    "text": "Accessed via I-90 (NYS Thruway) Exit 48A (Pembroke) onto NY-77 South, proceeding 10 miles south through Darien Center to Alexander Road (NY-98). Multi-lane state routes provide wide turning radiuses for Class A motorhomes and heavy fifth wheels.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides wide-angle rear visibility when maneuvering large setups into deep pull-through sites during peak arrival hours."
+    }
+  },
+  "toadStrategy": {
+    "text": "The wide entry driveway past the main office offers ample room to pull off and disconnect towed vehicles before heading into the interior campsite loops.",
+    "recommendedGear": null
+  },
+  "content": {
+    "overview": "Skyline RV Resort delivers an exceptional big rig camping NY experience in Western New York, featuring large, level gravel-and-paved pads, full 50-amp utility pedestals, and excellent resort amenities near Six Flags Darien Lake.",
+    "recommendedGear": {
+      "gearKey": "x-chock-wheel-stabilizers",
+      "reason": "Crucial for eliminating tandem axle rocking and frame bounce on wide gravel pull-through pads."
+    },
+    "loopC": "Executive pull-through rows accommodate rigs up to 45 ft with multiple slides extended while leaving plenty of room for parked tow vehicles.",
+    "loopsAB": "Shaded back-in loops provide private wooded surroundings suitable for mid-sized travel trailers and smaller Class C units."
+  }
+},
+ {
 "id": "lake-george-rv-park",
 "name": "Lake George RV Park",
 "ownertype": "Private Campground",
