@@ -1,5 +1,51 @@
 [
  {
+  "id": "salt-rock-state-campground",
+  "name": "Salt Rock State Campground",
+  "ownertype": "State Park",
+  "addedDate": "2026-10-28",
+  "state": "CT",
+  "city": "Baltic",
+  "featured": true,
+  "lat": 41.643666,
+  "lng": -72.089258,
+  "image": "/images/salt_rock_state_campground.jpg",
+  "mapImage": "/images/salt_rock_state_campground_map.jpg",
+  "address": "173 Scotland Rd, Baltic, CT 06330",
+  "gps": "41.6437° N, 72.0893° W",
+  "phone": "(860) 822-0884",
+  "website": "https://portal.ct.gov/DEEP/State-Parks/Campgrounds/Salt-Rock-State-Campground",
+  "summary": "Tranquil riverfront state park along the Shetucket River offering electric hookups, shaded back-in sites, and scenic bozrah ct camping access in rural Eastern Connecticut.",
+  "scorecard": {
+    "maxRigLength": "Up to 35 ft (Quiet Riverfront Back-In Sites)",
+    "toadFriendliness": "Good (entrance parking area available for unhooking)",
+    "treeClearance": "Wooded canopy along Shetucket River corridor; moderate clearance required",
+    "bestBigRigLoops": "Main Access Loop (Water/Electric Sites)",
+    "bestSmallRigLoops": "Riverfront Tent & Pop-Up Rows"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: CT-97 / Scotland Road Access",
+    "text": "Accessed via CT-97 onto Scotland Road (CT-97) in Baltic along the Shetucket River valley. Approach routes feature wide, paved state two-lane roads with clear overhead clearances for mid-sized RVs.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for routing along rural CT river roads and avoiding low-clearance rural bridges."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the unhook area in the main entrance parking area near the contact station before navigating into the campground loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps monitor rear clearance when unhooking in the park's entrance staging space."
+    }
+  },
+  "content": {
+    "overview": "Salt Rock State Campground delivers a peaceful bozrah ct camping setting surrounded by rolling farmland and river views, offering basic electric hookups, outdoor pool, fishing, and hiking trails.",
+    "recommendedGear": null,
+    "loopC": "Main campground loop offers 50 water/electric sites with level gravel pads best suited for travel trailers and Class C motorhomes up to 35 feet.",
+    "loopsAB": "Lower riverside rows provide shaded back-in spots with direct access to fishing banks along the Shetucket River."
+  }
+},
+ {
   "id": "hopeville-pond-state-park",
   "name": "Hopeville Pond State Park",
   "ownertype": "State Park",
