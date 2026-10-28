@@ -1,5 +1,51 @@
 [
  {
+  "id": "strawberry-park-rv-resort",
+  "name": "Strawberry Park RV Resort",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-28",
+  "state": "CT",
+  "city": "Preston",
+  "featured": true,
+  "lat": 41.536785,
+  "lng": -71.954977,
+  "image": "/images/strawberry_park_rv_resort.jpg",
+  "mapImage": "/images/strawberry_park_rv_resort_map.jpg",
+  "address": "Strawberry Park Pavillion, 42 Pierce Rd, Preston, CT 06365",
+  "gps": "41.5368° N, 71.9550° W",
+  "phone": "(860) 886-1944",
+  "website": "https://www.strawberrypark.net",
+  "summary": "Premier Southeastern Connecticut resort offering wide pull-through sites, 50-amp full hookups, and top-tier bozrah ct camping access near Mystic Seaport and local attractions.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Executive Pull-Through Sites)",
+    "toadFriendliness": "Excellent (wide entry staging loop near registration office)",
+    "treeClearance": "High, trimmed pine/hardwood canopy along primary big-rig access roads",
+    "bestBigRigLoops": "Executive Pull-Through Rows (50-Amp Full Hookup)",
+    "bestSmallRigLoops": "Upper Wooded Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: I-395 to CT-165 / Pierce Rd",
+    "text": "Accessed via I-395 to CT-165 East toward Preston, turning onto Pierce Road. Main state routes feature smooth access and clear sightlines for 40+ ft Class A motorhomes and heavy fifth wheels.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for navigating narrow Connecticut rural routes and avoiding low-clearance historic underpasses off I-395."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated unhook area past the main office registration gate before pulling into the interior campsite loops.",
+    "recommendedGear": null
+  },
+  "content": {
+    "overview": "Strawberry Park RV Resort delivers an outstanding bozrah ct camping experience in Southeastern Connecticut, featuring level gravel pads, full 50-amp utility pedestals, heated pools, and family amenities.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects high-draw Class A and fifth-wheel electrical systems against summer grid spikes during peak weekend resort usage."
+    },
+    "loopC": "Executive pull-through rows accommodate rigs up to 45 ft with multiple slides extended while leaving ample room for tow vehicle parking.",
+    "loopsAB": "Shaded back-in loops offer secluded wooded surrounds ideal for mid-sized travel trailers and smaller Class C units."
+  }
+},
+ {
   "id": "spacious-skies-woodland-hills",
   "name": "Spacious Skies Woodland Hills",
   "ownertype": "Private Campground",
