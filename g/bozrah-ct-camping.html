@@ -174,46 +174,54 @@
   <!-- Script to dynamically load product recommendations from /data/products.json -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
+      // Keys matching exact entries in your products.json
       const targetProductKeys = [
         'heavy-duty-surge-protector',
-        'water-pressure-regulator',
-        'cell-signal-booster'
+        'brass-water-pressure-regulator',
+        'zero-g-rv-water-hose'
       ];
 
-      fetch('/data/products.json')
-        .then(res => {
-          if (!res.ok) throw new Error('HTTP ' + res.status);
-          return res.json();
-        })
+      const fetchJson = (url) => fetch(url).then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      });
+
+      fetchJson('/data/products.json')
+        .catch(() => fetchJson('../data/products.json'))
+        .catch(() => fetchJson('/products.json'))
         .then(products => {
           const grid = document.getElementById('recommended-gear-grid');
           
-          // Match array or object schema in products.json
-          const productList = Array.isArray(products) ? products : Object.values(products);
-          const matched = productList.filter(p => targetProductKeys.includes(p.key || p.id));
+          // Map dictionary keys directly
+          const matched = targetProductKeys
+            .filter(key => products[key])
+            .map(key => ({ key, ...products[key] }));
 
           if (!matched || matched.length === 0) {
-            grid.innerHTML = '';
+            grid.innerHTML = '<p style="color: #64748b; font-size: 0.9rem;">No matching product recommendations found.</p>';
             return;
           }
 
-          grid.innerHTML = matched.map(item => `
-            <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <span style="font-size: 0.7rem; font-weight: bold; color: #d97706; text-transform: uppercase; letter-spacing: 0.05em;">Recommended Regional Gear</span>
-                <h4 style="margin: 0.3rem 0 0.5rem 0; font-size: 1rem; color: #1e293b;">${item.title || item.name}</h4>
-                <p style="font-size: 0.85rem; color: #475569; line-height: 1.4; margin-bottom: 1rem;">${item.description || item.reason || 'Essential utility protection for Southeastern CT camping.'}</p>
+          grid.innerHTML = matched.map(item => {
+            const badge = item.title || 'Recommended Regional Gear';
+            const name = item.productName || item.title || 'RV Utility Gear';
+            const link = item.affiliateUrl || '#';
+
+            return `
+              <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                  <span style="font-size: 0.7rem; font-weight: bold; color: #d97706; text-transform: uppercase; letter-spacing: 0.05em;">${badge}</span>
+                  <h4 style="margin: 0.3rem 0 0.5rem 0; font-size: 1rem; color: #1e293b;">${name}</h4>
+                  <p style="font-size: 0.85rem; color: #475569; line-height: 1.4; margin-bottom: 1rem;">Essential utility protection and campsite setup for Southeastern CT camping.</p>
+                </div>
+                <a href="${link}" target="_blank" rel="noopener sponsored" class="btn" style="display: block; text-align: center; padding: 0.5rem; background: #2563eb; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 0.85rem; font-weight: bold;">Check Price on Amazon ↗</a>
               </div>
-              <a href="${item.affiliateUrl || item.link || '#'}" target="_blank" rel="noopener sponsored" class="btn" style="display: block; text-align: center; padding: 0.5rem; background: #2563eb; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 0.85rem; font-weight: bold;">Check Price on Amazon ↗</a>
-            </div>
-          `).join('');
+            `;
+          }).join('');
         })
         .catch(err => {
           console.error('Error fetching products.json:', err);
-          document.getElementById('recommended-gear-grid').innerHTML = '';
+          document.getElementById('recommended-gear-grid').innerHTML = '<p style="color: #dc2626; font-size: 0.85rem;">Unable to load gear recommendations.</p>';
         });
     });
   </script>
-
-</body>
-</html>
