@@ -68,7 +68,7 @@
   <script>
     // Automatic Card Generation from guides.json
     document.addEventListener('DOMContentLoaded', () => {
-      fetch('guides.json')
+      fetch('data/guides.json')
         .then(response => response.json())
         .then(guides => {
           const grid = document.getElementById('guides-grid');
