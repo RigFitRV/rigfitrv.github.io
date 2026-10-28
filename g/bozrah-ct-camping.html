@@ -129,8 +129,13 @@
         'salt-rock-state-campground'
       ];
 
-      fetch('../campgrounds.json')
-        .then(response => response.json())
+      fetch('/campgrounds.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok: ' + response.statusText);
+          }
+          return response.json();
+        })
         .then(campgrounds => {
           const featured = campgrounds.filter(c => targetIds.includes(c.id));
           const grid = document.getElementById('featured-campgrounds-grid');
