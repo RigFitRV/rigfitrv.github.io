@@ -1,5 +1,51 @@
 [
  {
+  "id": "acorn-acres-campground",
+  "name": "Acorn Acres Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-28",
+  "state": "CT",
+  "city": "Bozrah",
+  "featured": true,
+  "lat": 41.53022,
+  "lng": -72.223873,
+  "image": "/images/acorn_acres_campground.jpg",
+  "mapImage": "/images/acorn_acres_campground_map.jpg",
+  "address": "135 Lake Rd, Bozrah, CT 06334",
+  "gps": "41.5302° N, 72.2239° W",
+  "phone": "(860) 859-1020",
+  "website": "https://acornacrescampsites.com",
+  "summary": "Quiet wooded resort in Bozrah offering level campsites, 50-amp full hookups, fishing pond, and prime bozrah ct camping access near Southeastern CT attractions.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Wooded Back-In & Pull-Through Sites)",
+    "toadFriendliness": "Good (staging lane near registration office)",
+    "treeClearance": "Wooded setting with high oak canopy along main thoroughfares",
+    "bestBigRigLoops": "Lower Pull-Through Section (50-Amp Full Hookup)",
+    "bestSmallRigLoops": "Upper Forest Back-In Rows"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: CT-2 Exit 23 to Lake Road",
+    "text": "Accessed via CT-2 Exit 23 onto CT-163 South, turning onto Lake Road. Local town roads present gentle winding sections suitable for mid-to-large motorhomes and fifth wheels.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for routing around rural town road turnoffs and low-clearance rural bridges."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the unhooking staging area alongside the main office registration loop before pulling into interior campsite rows.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists with rear visibility when unhooking dinghy vehicles in wooded staging lanes."
+    }
+  },
+  "content": {
+    "overview": "Acorn Acres Campground delivers a peaceful bozrah ct camping experience nestled in rural Southeastern Connecticut, featuring shaded full-hookup sites, family activities, and relaxing natural surroundings.",
+    "recommendedGear": null,
+    "loopC": "Pull-through sites feature 50-amp power and level gravel pads with comfortable slide-out clearances.",
+    "loopsAB": "Wooded perimeter back-in rows provide quiet natural shade ideal for travel trailers and pop-up campers."
+  }
+},
+ {
   "id": "hidden-acres-family-campground",
   "name": "Hidden Acres Family Campground",
   "ownertype": "Private Campground",
