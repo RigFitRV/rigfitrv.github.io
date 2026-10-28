@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bozrah-ct-camping",
+    "slug": "bozrah-ct-camping",
+    "title": "Bozrah & Southeastern CT Camping Guide",
+    "subtitle": "Complete Big Rig Navigation, State Parks & RV Resort Guide for Mystic, Bozrah & Griswold",
+    "region": "Southeastern Connecticut",
+    "state": "CT",
+    "image": "/images/guides/bozrah_ct_cover.jpg",
+    "summary": "Everything you need to know about RVing in Bozrah and Southeastern Connecticut—from navigating narrow rural state routes to hand-selected big-rig resorts and quiet state parks near Mystic Seaport.",
+    "featuredCampgroundIds": [
+      "strawberry-park-rv-resort",
+      "hidden-acres-family-campground",
+      "acorn-acres-campground",
+      "hopeville-pond-state-park",
+      "salt-rock-state-campground"
+    ],
+    "publishedDate": "2026-10-28"
+  }
+]
