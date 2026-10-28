@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RigFit Travel Guides - Destination RV Routing & Regional Guides</title>
+  <meta name="description" content="Explore text-dense, local RV travel guides featuring verified road clearances, big rig routing, and hand-selected campgrounds across top regional destinations.">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="canonical" href="https://rigfitrv.com/guides.html">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RigFitRV">
+  <meta property="og:title" content="RigFit Travel Guides - Destination RV Routing & Local Guides">
+  <meta property="og:url" content="https://rigfitrv.com/guides.html">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TV8S962CRT');
+  </script>
+
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
+</head>
+
+<body>
+
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <div class="container">
+    <div class="article-card">
+      <h1>🗺️ RigFit Travel Guides</h1>
+      <p class="lead" style="font-size: 1.15rem; line-height: 1.6; color: #444;">
+        Welcome to RigFit Travel Guides—our collection of hyper-local, text-dense destination guides built specifically for RVers. Unlike broad state overviews, our regional guides target high-intent local destinations like the Finger Lakes, Jersey Shore, Catskills, and Southeastern Connecticut. Every guide combines ground-truth highway routing, low-clearance warnings, and hand-selected campground options tailored for rigs of all sizes.
+      </p>
+    </div>
+
+    <section class="related-section" style="margin-top: 2rem;">
+      <h2 class="section-title">Explore Regional Guides</h2>
+      <p class="section-subtitle">Select a destination below for detailed routing, local insights, and hand-picked campground reviews.</p>
+      
+      <div id="guides-grid" class="cards-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+        <!-- Dynamic guide cards populated via JavaScript -->
+      </div>
+    </section>
+  </div>
+
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <script>
+    // Automatic Card Generation from guides.json
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('guides.json')
+        .then(response => response.json())
+        .then(guides => {
+          const grid = document.getElementById('guides-grid');
+          grid.innerHTML = guides.map(guide => `
+            <div class="card" style="border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; background: #fff;">
+              <img src="${guide.image}" alt="${guide.title}" style="width: 100%; height: 180px; object-fit: cover;" onerror="this.src='/images/placeholder.jpg'">
+              <div style="padding: 1.25rem;">
+                <span style="font-size: 0.8rem; font-weight: bold; color: #0066cc; text-transform: uppercase;">${guide.region}</span>
+                <h3 style="margin: 0.5rem 0; font-size: 1.25rem;">${guide.title}</h3>
+                <p style="font-size: 0.9rem; color: #555; line-height: 1.4; margin-bottom: 1rem;">${guide.summary}</p>
+                <a href="${guide.slug}.html" class="btn" style="display: inline-block; padding: 0.5rem 1rem; background: #0066cc; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">Explore Guide →</a>
+              </div>
+            </div>
+          `).join('');
+        })
+        .catch(err => console.error('Error loading travel guides:', err));
+    });
+  </script>
+
+</body>
+</html>
