@@ -1,5 +1,51 @@
 [
  {
+  "id": "hopeville-pond-state-park",
+  "name": "Hopeville Pond State Park",
+  "ownertype": "State Park",
+  "addedDate": "2026-10-28",
+  "state": "CT",
+  "city": "Griswold",
+  "featured": true,
+  "lat": 41.608332,
+  "lng": -71.92711,
+  "image": "/images/hopeville_pond_state_park.jpg",
+  "mapImage": "/images/hopeville_pond_state_park_map.jpg",
+  "address": "929 Hopeville Rd, Griswold, CT 06351",
+  "gps": "41.6083° N, 71.9271° W",
+  "phone": "(860) 376-2920",
+  "website": "https://portal.ct.gov/DEEP/State-Parks/Parks/Hopeville-Pond-State-Park",
+  "summary": "Scenic state park in Eastern Connecticut offering wooded campsites, swimming, boat launching, and peaceful bozrah ct camping access along Hopeville Pond.",
+  "scorecard": {
+    "maxRigLength": "Up to 35 ft (Wooded Back-In Sites)",
+    "toadFriendliness": "Moderate (unhooking recommended at main entrance dump station area)",
+    "treeClearance": "Shaded pine and oak stands with moderate low-branch canopy awareness needed on inner loops",
+    "bestBigRigLoops": "Main Campground Loop A (Dry/No Hookups, Water Spigots Nearby)",
+    "bestSmallRigLoops": "Loop B & Wooded Perimeter Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: I-395 Exit 86 to Hopeville Road",
+    "text": "Accessed via I-395 Exit 86 onto CT-201 and Hopeville Road. State and local connector roads feature moderate curves and tree-lined stretches suitable for mid-sized RVs and trailers.",
+    "recommendedGear": null
+  },
+  "toadStrategy": {
+    "text": "Utilize the wide turnaround near the park entrance station or dump station area to unhook dinghy vehicles prior to entering the camping loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists when unhooking in tight state park dump station turnaround areas."
+    }
+  },
+  "content": {
+    "overview": "Hopeville Pond State Park offers an authentic state forest bozrah ct camping experience, featuring tranquil waterfront access, hiking trails, fishing, and rustic wooded back-in campsites.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Recommended for protecting onboard electronics if utilizing auxiliary power sources or generator hookups during peak seasons."
+    },
+    "loopC": "Main loop sites provide comfortable gravel pads surrounded by mature pines, best suited for trailers and motorhomes up to 35 feet.",
+    "loopsAB": "Perimeter back-in sites offer natural privacy and quick access to the pond shoreline for kayaking and fishing."
+  }
+},
+ {
   "id": "acorn-acres-campground",
   "name": "Acorn Acres Campground",
   "ownertype": "Private Campground",
