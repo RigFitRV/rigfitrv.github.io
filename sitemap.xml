@@ -4,9 +4,15 @@
   <!-- Core Site Pages & Utilities -->
   <url>
     <loc>https://rigfitrv.com/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/guides.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rigfitrv.com/search.html</loc>
@@ -21,7 +27,75 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Campground Guides (51 Total) -->
+  <!-- Regional Travel Guides -->
+  <url>
+    <loc>https://rigfitrv.com/g/bozrah-ct-camping.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Campground Guides (61 Total)[cite: 1] -->
+  <url>
+    <loc>https://rigfitrv.com/c/salt-rock-state-campground.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/hopeville-pond-state-park.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/acorn-acres-campground.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/hidden-acres-family-campground.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/strawberry-park-rv-resort.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/spacious-skies-woodland-hills.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/saratoga-rv-park.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/tall-pines-campground.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/skyline-rv-resort.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/lake-george-rv-park.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://rigfitrv.com/c/camp-gateway-floyd-bennett-field.html</loc>
     <lastmod>2026-10-22</lastmod>
