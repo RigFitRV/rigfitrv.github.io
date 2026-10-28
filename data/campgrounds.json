@@ -1,5 +1,54 @@
 [
  {
+  "id": "hidden-acres-family-campground",
+  "name": "Hidden Acres Family Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-28",
+  "state": "CT",
+  "city": "Preston",
+  "featured": true,
+  "lat": 41.553132,
+  "lng": -72.014564,
+  "image": "/images/hidden_acres_family_campground.jpg",
+  "mapImage": "/images/hidden_acres_family_campground_map.jpg",
+  "address": "47 River Rd, Preston, CT 06365",
+  "gps": "41.5531° N, 72.0146° W",
+  "phone": "(860) 887-9633",
+  "website": "http://www.hiddenacrescamp.com/",
+  "summary": "Picturesque Quinebaug Riverfront park offering level pull-throughs, 50-amp full hookups, and peaceful bozrah ct camping access near Southeastern CT attractions.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Level Wooded & Open Pull-Through Sites)",
+    "toadFriendliness": "Good (designated unhooking space along main entrance drive)",
+    "treeClearance": "Moderate, mature hardwood canopy requiring careful line-of-sight awareness on interior loops",
+    "bestBigRigLoops": "Lower River Pull-Through Rows (50-Amp Full Hookup)",
+    "bestSmallRigLoops": "Upper Wooded Back-In & Tent Sections"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: CT-12 to River Road",
+    "text": "Accessed via CT-12 onto River Road along the Quinebaug River. The primary approach roads provide clear sightlines for mid-to-large motorhomes and fifth wheels.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Navigates rural CT turnoffs safely while avoiding weight-restricted county bridges."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the unhook area near the main entrance office loop to disconnect dinghy vehicles before navigating interior camp rows.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides tight-angle rear visibility when disconnecting tow vehicles in the narrower office staging lane."
+    }
+  },
+  "content": {
+    "overview": "Hidden Acres Family Campground delivers an authentic, scenic bozrah ct camping retreat featuring riverfront views, spacious full-hookup pads, and quiet family surroundings.",
+    "recommendedGear": {
+      "gearKey": "x-chock-wheel-stabilizers",
+      "reason": "Essential for eliminating tandem-axle motion on gravel riverfront pull-through pads."
+    },
+    "loopC": "Riverfront pull-through sites feature 50-amp utilities with space for dual-slide rigs and tow vehicles.",
+    "loopsAB": "Upper wooded rows offer shaded back-in sites surrounded by natural foliage, ideal for travel trailers."
+  }
+},
+ {
   "id": "strawberry-park-rv-resort",
   "name": "Strawberry Park RV Resort",
   "ownertype": "Private Campground",
