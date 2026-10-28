@@ -66,27 +66,47 @@
   </script>
 
   <script>
-    // Automatic Card Generation from guides.json
-    document.addEventListener('DOMContentLoaded', () => {
-      fetch('data/guides.json')
-        .then(response => response.json())
-        .then(guides => {
-          const grid = document.getElementById('guides-grid');
-          grid.innerHTML = guides.map(guide => `
-            <div class="card" style="border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; background: #fff;">
-              <img src="${guide.image}" alt="${guide.title}" style="width: 100%; height: 180px; object-fit: cover;" onerror="this.src='/images/placeholder.jpg'">
-              <div style="padding: 1.25rem;">
-                <span style="font-size: 0.8rem; font-weight: bold; color: #0066cc; text-transform: uppercase;">${guide.region}</span>
-                <h3 style="margin: 0.5rem 0; font-size: 1.25rem;">${guide.title}</h3>
-                <p style="font-size: 0.9rem; color: #555; line-height: 1.4; margin-bottom: 1rem;">${guide.summary}</p>
-                <a href="g/${guide.slug}.html" class="btn" style="display: inline-block; padding: 0.5rem 1rem; background: #0066cc; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">Explore Guide →</a>
+  document.addEventListener('DOMContentLoaded', () => {
+    fetch('data/guides.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        return response.json();
+      })
+      .then(guides => {
+        const grid = document.getElementById('guides-grid');
+        
+        if (!guides || guides.length === 0) {
+          grid.innerHTML = '<p>No regional travel guides found.</p>';
+          return;
+        }
+
+        grid.innerHTML = guides.map(guide => {
+          // Normalize leading slash for root relative path
+          const imgPath = guide.image.startsWith('/') ? guide.image : '/' + guide.image;
+
+          return `
+            <div class="card" style="border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; background: #fff; display: flex; flex-direction: column;">
+              <img src="${imgPath}" alt="${guide.title}" style="width: 100%; height: 180px; object-fit: cover;" onerror="this.src='/images/placeholder.jpg'; this.onerror=null;">
+              <div style="padding: 1.25rem; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                  <span style="font-size: 0.8rem; font-weight: bold; color: #0066cc; text-transform: uppercase;">${guide.region}</span>
+                  <h3 style="margin: 0.5rem 0; font-size: 1.25rem;">${guide.title}</h3>
+                  <p style="font-size: 0.9rem; color: #555; line-height: 1.4; margin-bottom: 1rem;">${guide.summary}</p>
+                </div>
+                <a href="g/${guide.slug}.html" class="btn" style="display: block; text-align: center; padding: 0.5rem 1rem; background: #0066cc; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">Explore Guide →</a>
               </div>
             </div>
-          `).join('');
-        })
-        .catch(err => console.error('Error loading travel guides:', err));
-    });
-  </script>
+          `;
+        }).join('');
+      })
+      .catch(err => {
+        console.error('Error loading travel guides:', err);
+        document.getElementById('guides-grid').innerHTML = '<p>Unable to load travel guides at this time.</p>';
+      });
+  });
+</script>
 
 </body>
 </html>
