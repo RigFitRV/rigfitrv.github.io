@@ -1,5 +1,54 @@
 [
  {
+  "id": "cayuga-lake-state-park",
+  "name": "Cayuga Lake State Park",
+  "ownertype": "State Park",
+  "addedDate": "2026-10-29",
+  "state": "NY",
+  "city": "Seneca Falls",
+  "featured": true,
+  "lat": 42.896084,
+  "lng": -76.753330,
+  "image": "/images/cayuga_lake_state_park.jpg",
+  "mapImage": "/images/cayuga_lake_state_park_map.jpg",
+  "address": "2678 Lower Lake Rd, Seneca Falls, NY 13148",
+  "gps": "42.8961° N, 76.7533° W",
+  "phone": "(315) 568-5163",
+  "website": "https://parks.ny.gov/parks/cayugalake",
+  "summary": "Picturesque northern Cayuga Lake state park offering shaded campsites, electric hookups, swimming beach, and prime access to Seneca Falls and local wine trails.",
+  "scorecard": {
+    "maxRigLength": "Up to 35 ft (Wooded Back-In & Electric Pads)",
+    "toadFriendliness": "Moderate (unhooking at main entrance contact station)",
+    "treeClearance": "Mature shade trees; moderate canopy clearance required on inner loops",
+    "bestBigRigLoops": "East Camp Electric Loop",
+    "bestSmallRigLoops": "Waterfront-Adjacent Back-In Rows"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: US-20 / NY-89 to Lower Lake Road",
+    "text": "Accessed via US-20 or NY-89 in Seneca Falls, turning onto Lower Lake Road. Flat lake-level roads provide straightforward access for mid-sized RVs and trailers.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Navigates local connector roads safely while avoiding low railway bridges in Seneca Falls."
+    }
+  },
+  "toadStrategy": {
+    "text": "Use the wide contact station apron near the park entrance to unhook towed vehicles prior to entering the camping loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists with rear visibility when unhooking in state park entrance staging areas."
+    }
+  },
+  "content": {
+    "overview": "Cayuga Lake State Park offers classic Finger Lakes water-recreation camping, featuring shaded electric sites, swimming areas, and a central location near historical Seneca Falls.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electronics when utilizing state park electric pedestals during peak summer demand."
+    },
+    "loopC": "East Camp electric loop provides level gravel pads well-suited for travel trailers and motorhomes up to 35 feet.",
+    "loopsAB": "Shaded back-in rows offer natural privacy and quick access to lake swimming beaches."
+  }
+},
+ {
   "id": "sampson-state-park",
   "name": "Sampson State Park",
   "ownertype": "State Park",
