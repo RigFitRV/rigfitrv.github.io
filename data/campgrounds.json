@@ -1,5 +1,54 @@
 [
  {
+  "id": "sampson-state-park",
+  "name": "Sampson State Park",
+  "ownertype": "State Park",
+  "addedDate": "2026-10-29",
+  "state": "NY",
+  "city": "Romulus",
+  "featured": true,
+  "lat": 42.729201,
+  "lng": -76.891461,
+  "image": "/images/sampson_state_park.jpg",
+  "mapImage": null,
+  "address": "6040-6144 NY-96A, Romulus, NY 14541",
+  "gps": "42.7292° N, 76.8915° W",
+  "phone": "(315) 585-6392",
+  "website": "https://parks.ny.gov/parks/sampson",
+  "summary": "Expansive former military training base state park on Seneca Lake featuring the only full-hookup RV sites among Finger Lakes state parks, plus boat launch and lake views.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Full-Hookup Loops)",
+    "toadFriendliness": "Good (wide park entrance and office staging area)",
+    "treeClearance": "Open former military grid layout with moderate shade trees",
+    "bestBigRigLoops": "Full-Hookup Loops with Wide Concrete/Gravel Pads",
+    "bestSmallRigLoops": "Lake-Adjacent Back-In Loops"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: NY-96A Corridor",
+    "text": "Accessed via NY-96A between Geneva and Interlaken. State Route 96A offers smooth pavement and gentle rolling grades, but drivers should be mindful of crosswinds sweeping across Seneca Lake.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for tracking grade and wind warnings along the Seneca Lake wine trail corridor."
+    }
+  },
+  "toadStrategy": {
+    "text": "Wide paved parking lot near the park entrance office and boat launch area allows easy unhooking before heading into the camping loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists with rear visibility when unhooking in state park entrance staging areas."
+    }
+  },
+  "content": {
+    "overview": "Sampson State Park delivers rare full-hookup state park camping directly on Seneca Lake, offering sweeping water views, a massive marina, and rich military history grounds.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Useful for stabilizing leveling jacks across flat former-tarmac and gravel pad loops."
+    },
+    "loopC": "Full-hookup loops feature spacious, open pads designed to accommodate large motorhomes and travel trailers comfortably.",
+    "loopsAB": "Perimeter back-in sites offer quick walking access to the Seneca Lake shoreline."
+  }
+},
+ {
   "id": "watkins-glen-corning-koa",
   "name": "Watkins Glen / Corning KOA Resort",
   "ownertype": "Private Campground",
