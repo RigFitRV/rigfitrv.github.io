@@ -27,20 +27,22 @@
     "title": "Approach & Routing Guidance: State Route 414 Corridor",
     "text": "Directly accessed via State Route 414 just north of Watkins Glen, providing wide multi-lane state highway access suitable for large motorhomes and heavy fifth wheels. Recommended to watch for local route elevation shifts and use an RV GPS to manage corridor transitions.",
     "recommendedGear": {
-      "title": "Recommended Rig Routing Gear",
-      "productName": "Garmin RV 890 GPS Navigator",
-      "reason": "Essential for steering clear of low-clearance rural bridges when navigating around the southern Seneca Lake basin.",
-      "affiliateUrl": "https://link.amazon/B0deSwFQR"
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for steering clear of low-clearance rural bridges when navigating around the southern Seneca Lake basin."
     }
   },
-  "toadStrategy": "Broad registration check-in apron and wide entrance loops directly off the route/KOA Dr allow ample space to unhook towed vehicles prior to entering the interior campsite rows.",
+  "toadStrategy": {
+    "text": "Broad registration check-in apron and wide entrance loops directly off the route/KOA Dr allow ample space to unhook towed vehicles prior to entering the interior campsite rows.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides wide-angle visibility when unhooking in busy resort check-in lanes."
+    }
+  },
   "content": {
     "overview": "Watkins Glen / Corning KOA Resort provides an exceptional Finger Lakes basecamp equipped with full 50/30-amp utility pedestals, level gravel pads, a heated indoor/outdoor pool complex, and top-tier family resort amenities near the Seneca Lake Wine Trail.",
     "recommendedGear": {
-      "title": "Recommended Campsite Electrical Protection",
-      "productName": "Progressive Industries EMS-PT30X Heavy-Duty Surge Protector",
-      "reason": "Protects high-draw Class A and fifth-wheel electrical systems against summer grid voltage drops during peak resort usage.",
-      "affiliateUrl": "https://link.amazon/B0aj4VnrI"
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects high-draw Class A and fifth-wheel electrical systems against summer grid voltage drops during peak resort usage."
     },
     "loopC": "Executive pull-through rows accommodate large coaches with multiple slides while leaving plenty of room for parked tow vehicles.",
     "loopsAB": "Shaded back-in loops offer quiet wooded surrounds ideal for travel trailers."
