@@ -1,5 +1,54 @@
 [
  {
+  "id": "taughannock-falls-state-park",
+  "name": "Taughannock Falls State Park",
+  "ownertype": "State Park",
+  "addedDate": "2026-10-29",
+  "state": "NY",
+  "city": "Trumansburg",
+  "featured": true,
+  "lat": 42.545702,
+  "lng": -76.606939,
+  "image": "/images/taughannock_falls_state_park.jpg",
+  "mapImage": "/images/taughannock_falls_state_park_map.jpg",
+  "address": "16 Taughannock State Park Access Rd, Trumansburg, NY 14886",
+  "gps": "42.5457° N, 76.6069° W",
+  "phone": "(607) 387-6739",
+  "website": "https://parks.ny.gov/parks/taughannockfalls",
+  "summary": "Stunning Cayuga Lake park featuring campsites near the iconic 215-foot waterfall, boat launch, and scenic gorge trails just north of Ithaca.",
+  "scorecard": {
+    "maxRigLength": "Up to 35 ft (Wooded State Park Pads)",
+    "toadFriendliness": "Moderate (unhooking recommended at main park entrance)",
+    "treeClearance": "Heavily wooded gorge corridor canopy requiring careful line-of-sight awareness",
+    "bestBigRigLoops": "Upper Campgrounds Across NY-89 (Electric Sites)",
+    "bestSmallRigLoops": "Lower Lakefront Loop"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: NY-89 Scenic Corridor",
+    "text": "Accessed via NY-89 along the scenic western shore of Cayuga Lake. NY-89 features smooth two-lane pavement with magnificent lake views, but watch for tourist traffic turning into gorge viewpoints.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for tracking grade and curve warnings along the scenic NY-89 corridor."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the wide parking lot areas near the park office or boat launch to disconnect towed vehicles before entering the campground loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists when unhooking in state park parking lots during busy tourist hours."
+    }
+  },
+  "content": {
+    "overview": "Taughannock Falls State Park surrounds visitors with breathtaking natural beauty, anchored by a waterfall 33 feet taller than Niagara, paired with shaded campsites and lake access.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Crucial for leveling on natural earth and gravel pads set into the sloping gorge terrain."
+    },
+    "loopC": "Upper campground sites across NY-89 offer electric hookups and more forgiving pad angles for mid-size trailers and motorhomes.",
+    "loopsAB": "Lower loops provide wooded tent and pop-up camping close to the stream and lake shore."
+  }
+},
+ {
   "id": "cayuga-lake-state-park",
   "name": "Cayuga Lake State Park",
   "ownertype": "State Park",
