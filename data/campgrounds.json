@@ -1,5 +1,52 @@
 [
  {
+  "id": "watkins-glen-corning-koa",
+  "name": "Watkins Glen / Corning KOA Resort",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-29",
+  "state": "NY",
+  "city": "Watkins Glen",
+  "featured": true,
+  "lat": 42.316324,
+  "lng": -76.907662,
+  "image": "/images/watkins_glen_corning_koa.jpg",
+  "mapImage": "/images/watkins_glen_corning_koa_map.jpg",
+  "address": "1710 State Route 414, Watkins Glen, NY 14891",
+  "gps": "42.3163° N, 76.9077° W",
+  "phone": "(607) 535-7404",
+  "website": "https://koa.com/campgrounds/watkins-glen/",
+  "summary": "Premier Finger Lakes destination offering full 50/30-amp hookups, executive pull-throughs, indoor/outdoor pools, and close proximity to Watkins Glen State Park.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Big-Rig Pull-Through Sites)",
+    "toadFriendliness": "Excellent (wide registration apron and entrance staging loop)",
+    "treeClearance": "Well-maintained canopy along main big-rig avenues",
+    "bestBigRigLoops": "Executive 50-Amp Pull-Through Rows",
+    "bestSmallRigLoops": "Wooded Back-In Perimeter Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: State Route 414 Corridor",
+    "text": "Directly accessed via State Route 414 just north of Watkins Glen, providing wide multi-lane state highway access suitable for large motorhomes and heavy fifth wheels. Recommended to watch for local route elevation shifts and use an RV GPS to manage corridor transitions.",
+    "recommendedGear": {
+      "title": "Recommended Rig Routing Gear",
+      "productName": "Garmin RV 890 GPS Navigator",
+      "reason": "Essential for steering clear of low-clearance rural bridges when navigating around the southern Seneca Lake basin.",
+      "affiliateUrl": "https://link.amazon/B0deSwFQR"
+    }
+  },
+  "toadStrategy": "Broad registration check-in apron and wide entrance loops directly off the route/KOA Dr allow ample space to unhook towed vehicles prior to entering the interior campsite rows.",
+  "content": {
+    "overview": "Watkins Glen / Corning KOA Resort provides an exceptional Finger Lakes basecamp equipped with full 50/30-amp utility pedestals, level gravel pads, a heated indoor/outdoor pool complex, and top-tier family resort amenities near the Seneca Lake Wine Trail.",
+    "recommendedGear": {
+      "title": "Recommended Campsite Electrical Protection",
+      "productName": "Progressive Industries EMS-PT30X Heavy-Duty Surge Protector",
+      "reason": "Protects high-draw Class A and fifth-wheel electrical systems against summer grid voltage drops during peak resort usage.",
+      "affiliateUrl": "https://link.amazon/B0aj4VnrI"
+    },
+    "loopC": "Executive pull-through rows accommodate large coaches with multiple slides while leaving plenty of room for parked tow vehicles.",
+    "loopsAB": "Shaded back-in loops offer quiet wooded surrounds ideal for travel trailers."
+  }
+},
+ {
   "id": "salt-rock-state-campground",
   "name": "Salt Rock State Campground",
   "ownertype": "State Park",
