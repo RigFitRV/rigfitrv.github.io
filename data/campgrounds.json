@@ -1,5 +1,54 @@
 [
  {
+  "id": "spring-gulch-campground",
+  "name": "Spring Gulch Campground",
+  "ownertype": "Private RV Resort",
+  "addedDate": "2026-10-30",
+  "state": "PA",
+  "city": "New Holland",
+  "featured": true,
+  "lat": 40.065370,
+  "lng": -76.017271,
+  "image": "/images/spring_gulch_campground.jpg",
+  "mapImage": "/images/spring_gulch_campground_map.jpg",
+  "address": "475 Lynch Rd, New Holland, PA 17557",
+  "gps": "40.0654° N, 76.0173° W",
+  "phone": "+1 (717) 354-3100",
+  "website": "https://www.thousandtrails.com/pennsylvania/spring-gulch-rv-campground/",
+  "summary": "Premier RV resort nestled in the Lancaster County countryside featuring full hookups, large pull-through sites, swimming pools, and a private lake.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Select Long Pull-Through Utility Sites)",
+    "toadFriendliness": "Excellent (spacious registration check-in apron off Lynch Rd)",
+    "treeClearance": "Well-maintained canopy on primary resort roads",
+    "bestBigRigLoops": "Main Resort Pull-Through Rows",
+    "bestSmallRigLoops": "Lakefront & Wooded Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: State Corridors to Lynch Rd",
+    "text": "Accessed via major state connectors (US-322 / PA-897) transitioning directly onto Lynch Rd in eastern Lancaster County. Stick to state-numbered routes until the final approach to avoid narrow farm lane restrictions.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for confirming commercial vehicle routing on rolling Lancaster county roads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the main check-in and registration staging area off Lynch Road to unhook your towed vehicle before proceeding into the resort camping loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides full rear visibility when staging and disconnecting your toad."
+    }
+  },
+  "content": {
+    "overview": "Spring Gulch Campground provides an upscale outdoor getaway surrounded by Pennsylvania Dutch farmlands. Features full 30/50-amp utility hookups, swimming pools, mini-golf, and a private recreational lake.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Safeguards onboard electrical systems against voltage drops during peak summer resort capacity."
+    },
+    "loopC": "Main pull-through sites offer wide gravel pads designed for effortless entry and exit for big motorhomes and fifth wheels.",
+    "loopsAB": "Wooded back-in sites offer excellent privacy and natural shade for travel trailers."
+  }
+},
+ {
   "id": "circle-m-thousand-trails",
   "name": "Circle M Thousand Trails",
   "ownertype": "Private RV Resort",
