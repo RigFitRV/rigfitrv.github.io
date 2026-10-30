@@ -27,7 +27,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Regional Travel Guides -->
+  <!-- Regional Travel Guides (3 total) -->
+  <url>
+    <loc>https://rigfitrv.com/g/hudson-valley-catskills-camping.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://rigfitrv.com/g/bozrah-ct-camping.html</loc>
     <lastmod>2026-10-28</lastmod>
@@ -41,7 +47,25 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Campground Guides (67 Total)[cite: 1] -->
+  <!-- Campground Guides (70 Total)[cite: 1] -->
+  <url>
+    <loc>https://rigfitrv.com/c/jellystone-park-gardiner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/blue-mountain-campground.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/mongaup-pond-campground.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://rigfitrv.com/c/watkins-glen-corning-koa.html</loc>
     <lastmod>2026-10-30</lastmod>
