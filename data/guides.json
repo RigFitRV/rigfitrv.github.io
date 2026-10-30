@@ -13,8 +13,8 @@
       "cayuga-lake-state-park",
       "taughannock-falls-state-park",
       "clute-memorial-park",
-      "finger-lakes-rv-resort"
-      "watkins-glen-state-park",
+      "finger-lakes-rv-resort",
+      "watkins-glen-state-park"
     ],
     "publishedDate": "2026-10-30"
   },
@@ -35,5 +35,5 @@
       "salt-rock-state-campground"
     ],
     "publishedDate": "2026-10-28"
-  },
+  }
 ]
