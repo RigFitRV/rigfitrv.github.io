@@ -53,6 +53,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- RV Towing & Routing Logistics Hub Pillar Guide -->
+  <url>
+    <loc>https://rigfitrv.com/g/rv-towing-routing-logistics.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
   <!-- Campground Guides (75 Total)[cite: 1] -->
   <url>
     <loc>https://rigfitrv.com/c/starlite-camping-resort.html</loc>
