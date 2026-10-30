@@ -1,5 +1,54 @@
 [
  {
+  "id": "beacon-hill-camping",
+  "name": "Beacon Hill Camping",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-30",
+  "state": "PA",
+  "city": "Intercourse",
+  "featured": true,
+  "lat": 40.046155,
+  "lng": -76.114183,
+  "image": "/images/beacon_hill_camping.jpg",
+  "mapImage": "/images/beacon_hill_camping_map.jpg",
+  "address": "128 Beacon Hill Rd, Intercourse, PA 17534",
+  "gps": "40.0462° N, 76.1142° W",
+  "phone": "+1 (717) 768-8775",
+  "website": "https://www.beaconhillcamping.com/",
+  "summary": "A small, quiet, rural campground with under 50 total sites located in the heart of Intercourse, offering peaceful farm views, local shopping, and a tranquil atmosphere without a pool.",
+  "scorecard": {
+    "maxRigLength": "Up to 38 ft (Compact Rural Layout)",
+    "toadFriendliness": "Moderate (compact entrance apron; unhook prior to interior sites)",
+    "treeClearance": "Rural farm lane approach with moderate shade canopy",
+    "bestBigRigLoops": "Main Entrance Utility Sites",
+    "bestSmallRigLoops": "Quiet Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: PA-340 & PA-772 to Beacon Hill Rd",
+    "text": "Accessed via state corridors (PA-340 / PA-772) transitioning to Beacon Hill Road in Intercourse. Navigate carefully through the farming village, watching for horse-drawn buggies and agricultural traffic.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for routing larger rigs past agricultural lanes and village intersections in Amish country."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated check-in staging area near the entrance off Beacon Hill Road to unhook your towed vehicle before maneuvering into the compact <50-site layout.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential rear visibility in tight rural campground turnarounds."
+    }
+  },
+  "content": {
+    "overview": "Beacon Hill Camping is a small, quiet, rural campground where guests find recreation in shopping, sightseeing, or just watching the cows come home. Situated in the friendly farming village of Intercourse, it offers a peaceful place to put your feet up and enjoy the views without resort pools or crowds.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects sensitive onboard electronics against rural power fluctuations."
+    },
+    "loopC": "Main utility sites accommodate moderate-length RVs seeking a peaceful rural basecamp.",
+    "loopsAB": "Quiet perimeter sites offer immersive views of surrounding Lancaster farmlands."
+  }
+},
+ {
   "id": "white-oak-campground",
   "name": "White Oak Campground",
   "ownertype": "Private Campground",
