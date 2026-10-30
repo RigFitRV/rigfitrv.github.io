@@ -10,12 +10,11 @@
     "summary": "Expert RV camping guide for the New York Finger Lakes. Verified big-rig clearances, routing strategies, and campground reviews for Seneca and Cayuga Lake loops.",
     "featuredCampgroundIds": [
       "watkins-glen-corning-koa",
-      "sampson-state-park",
-      "watkins-glen-state-park",
       "cayuga-lake-state-park",
       "taughannock-falls-state-park",
       "clute-memorial-park",
       "finger-lakes-rv-resort"
+      "watkins-glen-state-park",
     ],
     "publishedDate": "2026-10-30"
   },
