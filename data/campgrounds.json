@@ -1,5 +1,103 @@
 [
  {
+  "id": "clute-memorial-park",
+  "name": "Clute Memorial Park & Recreation",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-30",
+  "state": "NY",
+  "city": "Watkins Glen",
+  "featured": true,
+  "lat": 42.384303,
+  "lng": -76.860110,
+  "image": "/images/clute_memorial_park.jpg",
+  "mapImage": "/images/clute_memorial_park_map.jpg",
+  "address": "155 S. Clute Park Dr, Watkins Glen, NY 14891",
+  "gps": "42.3843° N, 76.8601° W",
+  "phone": "(607) 535-4438",
+  "website": "https://www.cluteparkcampground.org/",
+  "summary": "Waterfront RV campground located on the southern tip of Seneca Lake in Watkins Glen, offering full hookups, beach access, marina, and walking distance to town.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Waterfront & Back-In RV Sites)",
+    "toadFriendliness": "Good (spacious municipal park entry lanes off S. Clute Park Dr)",
+    "treeClearance": "Open park layout with minimal low canopy obstructions",
+    "bestBigRigLoops": "Lakefront Full-Hookup RV Rows",
+    "bestSmallRigLoops": "Perimeter Grass Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: S. Clute Park Drive Corridor",
+    "text": "Accessed via S. Clute Park Drive directly off NY-414 / Route 14 near the southern tip of Seneca Lake. Wide municipal approach roads provide smooth transitions for large motorhomes and tow-behinds.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for managing local turning radii and routing around downtown Watkins Glen event traffic."
+    }
+  },
+  "toadStrategy": {
+    "text": "Use the wide parking aprons near the park office and boat launch to unhook your towed vehicle before maneuvering into your campsite.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear sightlines when unhooking in municipal park staging zones."
+    }
+  },
+  "content": {
+    "overview": "Clute Memorial Park & Recreation places campers right on the southern shore of Seneca Lake, featuring full 30/50-amp hookups, a splash pad, walking trails, and effortless access to Watkins Glen attractions.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electrical systems against power fluctuations during peak summer waterfront occupancy."
+    },
+    "loopC": "Lakefront full-hookup rows feature level gravel pads designed for easy back-in parking and direct lake views.",
+    "loopsAB": "Grassy inner loops accommodate mid-sized travel trailers and motorhomes close to park amenities."
+  }
+},
+ {
+  "id": "finger-lakes-rv-resort",
+  "name": "Finger Lakes RV Resort",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-30",
+  "state": "NY",
+  "city": "Hector",
+  "featured": true,
+  "lat": 42.500876,
+  "lng": -76.869438,
+  "image": "/images/finger_lakes_rv_resort.jpg",
+  "mapImage": "/images/finger_lakes_rv_resort_map.jpg",
+  "address": "3645 Tichenor Rd, Hector, NY 14841",
+  "gps": "42.5009° N, 76.8694° W",
+  "phone": "(607) 375-7587",
+  "website": "https://www.fingerlakesrvresort.com/",
+  "summary": "Premier private RV resort located on the eastern ridge of Seneca Lake along the wine trail, offering full hookups and extensive big-rig pull-throughs.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Big-Rig Pull-Through Sites)",
+    "toadFriendliness": "Excellent (spacious entrance staging and check-in apron)",
+    "treeClearance": "Well-maintained canopy along primary resort boulevards",
+    "bestBigRigLoops": "Executive Pull-Through Rows",
+    "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Tichenor Road Corridor",
+    "text": "Accessed via regional connectors leading to Tichenor Road on the eastern ridge of Seneca Lake. Drivers of large motorhomes and heavy fifth wheels should maintain awareness on rolling rural grade transitions.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for routing heavy rigs safely along rural Finger Lakes ridge roads while avoiding low-clearance constraints."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the wide registration apron directly off Tichenor Road to unhook your towed vehicle before proceeding into the resort loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Ensures wide-angle visibility when unhooking in busy resort check-in lanes."
+    }
+  },
+  "content": {
+    "overview": "Finger Lakes RV Resort serves as an ideal luxury basecamp right in the heart of the Seneca Lake Wine Trail, featuring full 50-amp utility pedestals, level gravel pads, and premium resort amenities.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Guards sensitive onboard RV electrical systems against voltage sags during peak resort operating weekends."
+    },
+    "loopC": "Executive pull-through rows accommodate large motorhomes with multiple slide-outs while leaving ample room for towed vehicles.",
+    "loopsAB": "Wooded back-in loops provide shaded privacy for travel trailers and smaller rigs."
+  }
+},
+ {
   "id": "taughannock-falls-state-park",
   "name": "Taughannock Falls State Park",
   "ownertype": "State Park",
