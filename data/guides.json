@@ -1,5 +1,24 @@
 [
   {
+  "id": "hudson-valley-catskills-camping",
+  "slug": "hudson-valley-catskills-camping",
+  "title": "Hudson Valley & Catskills RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
+  "subtitle": "Complete Big Rig Navigation, State Parks & RV Resort Guide",
+  "region": "Hudson Valley & Catskills",
+  "state": "NY",
+  "image": "/images/jellystone_park_gardiner.jpg",
+  "summary": "Expert RV camping guide for the Hudson Valley and Catskills region. Verified big-rig clearances, highway routing strategies, and audited campground reviews.",
+  "featuredCampgroundIds": [
+    "jellystone-park-gardiner",
+    "blue-mountain-campground",
+    "mongaup-pond-campground",
+    "spacious-skies-woodland-hills",
+    "whip-o-will-campground",
+    "roscoe-campsite-park"
+  ],
+  "publishedDate": "2026-10-30"
+},
+  {
     "id": "finger-lakes-ny-camping",
     "slug": "finger-lakes-ny-camping",
     "title": "Finger Lakes RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
