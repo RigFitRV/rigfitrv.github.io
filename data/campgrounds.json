@@ -1,5 +1,54 @@
 [
  {
+  "id": "mongaup-pond-campground",
+  "name": "Mongaup Pond Campground",
+  "ownertype": "State Park",
+  "addedDate": "2026-10-30",
+  "state": "NY",
+  "city": "Livingston Manor",
+  "featured": true,
+  "lat": 41.957185,
+  "lng": -74.691229,
+  "image": "/images/mongaup_pond_campground.jpg",
+  "mapImage": "/images/mongaup_pond_campground_map.jpg",
+  "address": "231 Mongaup Pond Rd, Livingston Manor, NY 12758",
+  "gps": "41.9572° N, 74.6912° W",
+  "phone": "(845) 439-4233",
+  "website": "https://dec.ny.gov/places/mongaup-pond-campground-and-day-use-area",
+  "summary": "Largest public campground in Catskill Park surrounding a 120-acre pristine lake, offering dry wilderness camping, dense forest canopy, and direct access to major hiking trails.",
+  "scorecard": {
+    "maxRigLength": "Up to 35 ft (Tight Tree Canopy & Tight Loop Turnarounds)",
+    "toadFriendliness": "Moderate (unhook at day-use registration area before loop entrance)",
+    "treeClearance": "Low/Tight (dense Catskill hardwoods; check overhead clearances carefully)",
+    "bestBigRigLoops": "Outer Perimeter Loop Sites near Main Entrance Road",
+    "bestSmallRigLoops": "Lakefront & Shaded Interior Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: NY-17 Exit 96 to DeBruce Road & Mongaup Road",
+    "text": "Accessed via NY-17 (I-86) Exit 96 at Livingston Manor, following Old Route 17 to DeBruce Road (CR-81 / CR-82) heading east, then turning north onto Mongaup Road / Mongaup Pond Road directly to the park gate. Roads become narrow and winding as you enter forest preserve land.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for warning of tight mountain road turns and avoiding non-truck routes in Sullivan County."
+    }
+  },
+  "toadStrategy": {
+    "text": "Disconnect your toad at the contact station or day-use parking area near the entrance booth prior to navigating the narrow, heavily wooded internal loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential visibility when maneuvering tight tree-lined turns in dry camping loops."
+    }
+  },
+  "content": {
+    "overview": "Mongaup Pond Campground offers an authentic Catskill forest preserve setting centered around a 120-acre lake. Facilities include dry camping sites, a swimming beach, canoe rentals, and hiking trailheads.",
+    "recommendedGear": {
+      "gearKey": "portable-power-station",
+      "reason": "Essential for maintaining house battery power while dry camping at NYS DEC non-hookup sites."
+    },
+    "loopC": "Select outer loop sites feature wider gravel pads capable of accommodating mid-sized Class A and Class C motorhomes up to 35 feet.",
+    "loopsAB": "Denser interior and waterfront loops are best suited for camper vans, popup trailers, and smaller travel trailers due to low branches and sharp turns."
+  }
+},
+ {
   "id": "blue-mountain-campground",
   "name": "Blue Mountain Campground",
   "ownertype": "Private Campground",
