@@ -1,5 +1,54 @@
 [
  {
+  "id": "blue-mountain-campground",
+  "name": "Blue Mountain Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-30",
+  "state": "NY",
+  "city": "Saugerties",
+  "featured": true,
+  "lat": 42.142111,
+  "lng": -74.002222,
+  "image": "/images/blue_mountain_campground.jpg",
+  "mapImage": "/images/blue_mountain_campground_map.jpg",
+  "address": "3783 NY-32, Saugerties, NY 12477",
+  "gps": "42°08'31.6\"N 74°00'08.0\"W",
+  "phone": "(845) 246-7564",
+  "website": "https://www.bluemountaincampground.com/",
+  "summary": "Heavily wooded Catskill foothills campground offering peaceful sites, electric/water hookups, and convenient access to Saugerties and Woodstock attractions via NY-32.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Pull-Through & Back-In Sites)",
+    "toadFriendliness": "Good (spacious front entrance apron off NY-32)",
+    "treeClearance": "Moderate (wooded canopy; navigate primary interior roads carefully)",
+    "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+    "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Direct NY-32 Corridor Access",
+    "text": "Accessed directly off NY-32 via I-87 (NY State Thruway) Exit 20 in Saugerties. Taking NY-32 provides a wide, state-maintained corridor that keeps rigs clear of tight rural town bypasses.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures accurate lane positioning when transitioning from I-87 Exit 20 onto NY-32 North."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the wide registration apron directly off NY-32 to unhook your towed vehicle before pulling into the wooded campsite loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential rear visibility while unhooking on the gravel entry apron."
+    }
+  },
+  "content": {
+    "overview": "Blue Mountain Campground delivers a classic Catskills camping experience surrounded by mature trees, level gravel pads, and full hookups within minutes of Hudson Valley town centers.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Monitors electrical line stability across shaded, wooded power pedestals."
+    },
+    "loopC": "Main entrance pull-through sites handle mid-to-large travel trailers and Class A motorhomes with easy turning radii.",
+    "loopsAB": "Quiet back-in sites offer excellent shade and privacy for smaller rigs and camper vans."
+  }
+},
+ {
   "id": "jellystone-park-gardiner",
   "name": "Jellystone Park Gardiner",
   "ownertype": "Private Campground",
