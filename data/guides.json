@@ -1,5 +1,21 @@
 [
   {
+  "slug": "lancaster-amish-country-camping",
+  "title": "Lancaster County & Amish Country RV Travel & Camping Guide",
+  "region": "Lancaster County, PA",
+  "state": "PA",
+  "description": "Verified big-rig routing, clearance warnings, and campground guides across Pennsylvania Dutch Country.",
+  "image": "/images/lancaster_amish_country_camping.jpg",
+  "campgrounds": [
+    "lake-in-wood-camping-resort",
+    "starlite-camping-resort",
+    "circle-m-thousand-trails",
+    "spring-gulch-campground",
+    "white-oak-campground",
+    "beacon-hill-camping"
+  ]
+},
+  {
   "id": "hudson-valley-catskills-camping",
   "slug": "hudson-valley-catskills-camping",
   "title": "Hudson Valley & Catskills RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
