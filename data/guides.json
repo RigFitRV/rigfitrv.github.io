@@ -1,5 +1,14 @@
 [
   {
+  "slug": "rv-towing-routing-logistics",
+  "title": "RV Towing, Weight Math & Heavy Rig Routing Logistics Hub",
+  "region": "National Technical Logistics",
+  "state": "US",
+  "description": "Comprehensive engineering and routing guide covering weight ratings, payload math, hitch dynamics, auxiliary braking, and low-clearance avoidance for big rigs.",
+  "image": "/images/rv_towing_logistics_hub.jpg",
+  "campgrounds": []
+},
+  {
   "slug": "lancaster-amish-country-camping",
   "title": "Lancaster County & Amish Country RV Travel & Camping Guide",
   "region": "Lancaster County, PA",
