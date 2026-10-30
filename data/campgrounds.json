@@ -1,5 +1,54 @@
 [
  {
+  "id": "circle-m-thousand-trails",
+  "name": "Circle M Thousand Trails",
+  "ownertype": "Private RV Resort",
+  "addedDate": "2026-10-30",
+  "state": "PA",
+  "city": "Lancaster",
+  "featured": true,
+  "lat": 40.001275,
+  "lng": -76.325920,
+  "image": "/images/circle_m_thousand_trails.jpg",
+  "mapImage": "/images/circle_m_thousand_trails_map.jpg",
+  "address": "2111 Millersville Rd, Lancaster, PA 17603",
+  "gps": "40.0013° N, 76.3259° W",
+  "phone": "+1 (717) 872-4651",
+  "website": "https://www.thousandtrails.com/pennsylvania/circle-m-camping-resort/",
+  "summary": "Sprawling RV resort located along the Conestoga River in Lancaster, featuring extensive resort amenities, full hookups, and large pull-through sites built for big rigs.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft+ (Dedicated Big-Rig Pull-Through Loops)",
+    "toadFriendliness": "Excellent (wide resort entrance aprons and check-in staging)",
+    "treeClearance": "Well-maintained canopy along primary resort boulevards",
+    "bestBigRigLoops": "Main Resort Utility Rows",
+    "bestSmallRigLoops": "Riverfront Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: PA-999 South to PA-741 West",
+    "text": "Accessed via PA-999 South, turning left onto PA-741 West. The campground entrance will be clearly marked on the left. This route utilizes well-paved state secondary corridors designed for commercial and resort traffic.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures precise turn-by-turn guidance through suburban Lancaster intersections."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull straight into the expansive main entrance check-in lanes off PA-741 to safely unhook your towed vehicle prior to navigating the resort loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides full visibility when disconnecting your toad in the staging area."
+    }
+  },
+  "content": {
+    "overview": "Circle M Thousand Trails delivers an active resort experience right in the heart of Lancaster County. Amenities include indoor and outdoor pools, mini-golf, sports courts, and riverfront access.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects sensitive onboard RV electronics against power fluctuations during peak summer resort usage."
+    },
+    "loopC": "Main pull-through sites provide effortless setup for Class A motorhomes and long fifth wheels with multiple slide-outs.",
+    "loopsAB": "Riverfront back-in sites offer scenic views and a more traditional wooded camping atmosphere."
+  }
+},
+ {
   "id": "starlite-camping-resort",
   "name": "Starlite Camping Resort",
   "ownertype": "Private Campground",
