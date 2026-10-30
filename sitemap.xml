@@ -34,8 +34,50 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://rigfitrv.com/g/finger-lakes-ny-camping.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-  <!-- Campground Guides (61 Total)[cite: 1] -->
+  <!-- Campground Guides (67 Total)[cite: 1] -->
+  <url>
+    <loc>https://rigfitrv.com/c/watkins-glen-corning-koa.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/sampson-state-park.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/cayuga-lake-state-park.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/taughannock-falls-state-park.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/clute-memorial-park.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/finger-lakes-rv-resort.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://rigfitrv.com/c/salt-rock-state-campground.html</loc>
     <lastmod>2026-10-28</lastmod>
