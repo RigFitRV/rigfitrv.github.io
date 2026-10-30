@@ -1,5 +1,25 @@
 [
   {
+    "id": "finger-lakes-ny-camping",
+    "slug": "finger-lakes-ny-camping",
+    "title": "Finger Lakes RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
+    "subtitle": "Complete Big Rig Navigation, State Parks & Wine Trail RV Resort Guide for Seneca and Cayuga Lakes",
+    "region": "New York Finger Lakes",
+    "state": "NY",
+    "image": "/images/watkins_glen_corning_koa.jpg",
+    "summary": "Expert RV camping guide for the New York Finger Lakes. Verified big-rig clearances, routing strategies, and campground reviews for Seneca and Cayuga Lake loops.",
+    "featuredCampgroundIds": [
+      "watkins-glen-corning-koa",
+      "sampson-state-park",
+      "watkins-glen-state-park",
+      "cayuga-lake-state-park",
+      "taughannock-falls-state-park",
+      "clute-memorial-park",
+      "finger-lakes-rv-resort"
+    ],
+    "publishedDate": "2026-10-30"
+  },
+  {
     "id": "bozrah-ct-camping",
     "slug": "bozrah-ct-camping",
     "title": "Bozrah & Southeastern CT Camping Guide",
