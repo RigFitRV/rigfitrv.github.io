@@ -1,5 +1,54 @@
 [
  {
+  "id": "white-oak-campground",
+  "name": "White Oak Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-30",
+  "state": "PA",
+  "city": "Quarryville",
+  "featured": true,
+  "lat": 39.944091,
+  "lng": -76.138632,
+  "image": "/images/white_oak_campground.jpg",
+  "mapImage": "/images/white_oak_campground_map.jpg",
+  "address": "3156 White Oak Rd, Quarryville, PA 17566",
+  "gps": "39.9441° N, 76.1386° W",
+  "phone": "+1 (717) 687-6207",
+  "website": "https://whiteoakcampground.com/",
+  "summary": "Family-oriented campground set in the rolling hills of southern Lancaster County featuring shaded sites, full hookups, swimming pools, and a fishing pond.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "Good (registration apron off White Oak Rd for staging)",
+    "treeClearance": "Moderate tree canopy along rural approach and shaded loops",
+    "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+    "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Southern Lancaster Rural Corridors",
+    "text": "Accessed via regional southern Lancaster routes connecting to White Oak Road in Quarryville. Rural secondary roads feature rolling topography; big rigs should maintain state-numbered corridors until the final approach.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for navigating rural township roads and confirming weight/clearance limits in southern Lancaster."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the main check-in staging area off White Oak Road to unhook your towed vehicle before proceeding into the wooded campground loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when maneuvering and disconnecting your toad."
+    }
+  },
+  "content": {
+    "overview": "White Oak Campground offers a peaceful, family-friendly camping atmosphere tucked into the rolling hills of southern Lancaster County. Features full utility hookups, swimming pools, and recreational ponds.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electrical systems against voltage sags during peak summer usage."
+    },
+    "loopC": "Primary pull-through sites provide easier access for larger travel trailers and motorhomes.",
+    "loopsAB": "Shaded back-in sites offer excellent privacy and a rustic woodland feel."
+  }
+},
+ {
   "id": "spring-gulch-campground",
   "name": "Spring Gulch Campground",
   "ownertype": "Private RV Resort",
