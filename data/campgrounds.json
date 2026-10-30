@@ -1,5 +1,54 @@
 [
  {
+  "id": "jellystone-park-gardiner",
+  "name": "Jellystone Park Gardiner",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-30",
+  "state": "NY",
+  "city": "Gardiner",
+  "featured": true,
+  "lat": 41.682582,
+  "lng": -74.165398,
+  "image": "/images/jellystone_park_gardiner.jpg",
+  "mapImage": "/images/jellystone_park_gardiner_map.jpg",
+  "address": "50 Bevier Rd, Gardiner, NY 12525",
+  "gps": "41.6826° N, 74.1654° W",
+  "phone": "(845) 255-5193",
+  "website": "https://www.sunoutdoors.com/new-york/jellystone-park-gardiner",
+  "summary": "Top-tier big-rig friendly resort situated along the Wallkill River in the Hudson Valley, featuring full 50-amp hookups, water park amenities, and easy access to the Shawangunk Mountains.",
+  "scorecard": {
+    "maxRigLength": "Up to 60 ft (Red Carpet Pull-Through RV Sites)",
+    "toadFriendliness": "Excellent (spacious check-in apron and registration parking)",
+    "treeClearance": "Well-maintained canopy along primary resort boulevards",
+    "bestBigRigLoops": "Red Carpet Utility Pull-Through Rows",
+    "bestSmallRigLoops": "River-Adjacent Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: I-87 Exit 18 to Route 32 South & Bevier Road",
+    "text": "Accessed via I-87 (NY State Thruway) Exit 18, heading south on Route 32 (S. Manheim Blvd) to Route 44/55 West (right turn), then turning left onto Albany Post Road South, and left onto Bevier Road. This route provides wide, state-maintained turning paths suitable for large Class A motorhomes and heavy fifth wheels.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for managing state highway transitions and avoiding low local connector constraints in Ulster County."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull directly into the spacious registration apron off Bevier Road to unhook your towed vehicle before proceeding into the resort loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides wide-angle rear visibility when unhooking in busy resort check-in lanes."
+    }
+  },
+  "content": {
+    "overview": "Jellystone Park Gardiner serves as an elite Hudson Valley basecamp offering full 50-amp hookups, level gravel pads, water park attractions, and stunning views of the Shawangunk Ridge.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electrical systems against voltage sags during peak summer resort occupancy."
+    },
+    "loopC": "Red Carpet pull-through rows accommodate large motorhomes up to 60 ft with multiple slide-outs while leaving ample room for towed vehicles.",
+    "loopsAB": "Shaded back-in loops provide natural privacy closer to the Wallkill River corridor."
+  }
+},
+ {
   "id": "clute-memorial-park",
   "name": "Clute Memorial Park & Recreation",
   "ownertype": "Private Campground",
