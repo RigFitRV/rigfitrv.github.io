@@ -1,5 +1,54 @@
 [
  {
+  "id": "starlite-camping-resort",
+  "name": "Starlite Camping Resort",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-10-30",
+  "state": "PA",
+  "city": "Stevens",
+  "featured": true,
+  "lat": 40.2533,
+  "lng": -76.2384,
+  "image": "/images/starlite_camping_resort.jpg",
+  "mapImage": "/images/starlite_camping_resort_map.jpg",
+  "address": "1500 Furnace Hill Rd, Stevens, PA 17578",
+  "gps": "40.2533° N, 76.2384° W",
+  "phone": "+1 (717) 733-9655",
+  "website": "https://starlitecampingresort.com/",
+  "summary": "Popular family campground in northern Lancaster County offering full hookups, large pull-through sites, swimming pools, and scenic Pennsylvania Dutch country views.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Select Long Pull-Through Utility Sites)",
+    "toadFriendliness": "Excellent (generous registration apron and check-in staging lanes)",
+    "treeClearance": "Well-maintained canopy along main campground arteries",
+    "bestBigRigLoops": "Upper Plateau Pull-Through Rows",
+    "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: US-322 to Hopeland Rd & Furnace Hill Rd",
+    "text": "Accessed via US-322, taking Hopeland Rd north to Kleinfeltersville Rd, transitioning onto Forest Hill Rd, and final approach via Furnace Hill Rd in northern Lancaster County. This state-highway and rural connector route maintains comfortable widths for big rigs.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for navigating rural PA township turns and confirming overhead clearance."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull straight into the wide main check-in and registration area off Furnace Hill Road to unhook your towed vehicle before entering the internal camping loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides wide-angle rear visibility when staging and unhooking your toad."
+    }
+  },
+  "content": {
+    "overview": "Starlite Camping Resort provides a relaxing family getaway in northern Lancaster County. Featuring spacious gravel pads, full 30/50-amp utility connections, and active resort amenities.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Safeguards onboard electrical systems against voltage fluctuations during high-demand summer weekends."
+    },
+    "loopC": "Upper plateau pull-through sites provide effortless entry and exit for multi-axle motorhomes and long fifth wheels.",
+    "loopsAB": "Lower shaded back-in sites offer excellent privacy for smaller travel trailers and camper vans."
+  }
+},
+ {
   "id": "mongaup-pond-campground",
   "name": "Mongaup Pond Campground",
   "ownertype": "State Park",
