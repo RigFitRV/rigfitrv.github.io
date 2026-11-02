@@ -1,5 +1,24 @@
 [
   {
+  "id": "south-jersey-shore-camping",
+  "title": "South Jersey Shore & Pinelands RV Camping Guide",
+  "region": "South Jersey",
+  "state": "NJ",
+  "url": "/g/south-jersey-shore-camping.html",
+  "image": "/images/south_jersey_shore_camping.jpg",
+  "summary": "Verified clearance data, GSP routing guidance, and rig-fit scorecards for coastal Cape May, Ocean City, and Pinelands RV resorts.",
+  "campgrounds": [
+    "beachcomber-camping-resort",
+    "pine-haven-camping-resort",
+    "big-timber-lake-rv-camping-resort",
+    "belhaven-lake-rv-resort",
+    "holly-shores-camping-resort",
+    "sun-retreats-seashore",
+    "ocean-view-resort-campground",
+    "ocean-city-campground"
+  ]
+},
+  {
   "slug": "rv-towing-routing-logistics",
   "title": "RV Towing, Weight Math & Heavy Rig Routing Logistics Hub",
   "region": "National Technical Logistics",
