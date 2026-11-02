@@ -1,5 +1,54 @@
 [
  {
+  "id": "holly-shores-camping-resort",
+  "name": "Sun Outdoors Cape May",
+  "ownertype": "Sun Outdoors / Private RV Resort",
+  "addedDate": "2026-11-02",
+  "state": "NJ",
+  "city": "Cape May",
+  "featured": true,
+  "lat": 39.001626,
+  "lng": -74.890105,
+  "image": "/images/holly_shores_camping_resort.jpg",
+  "mapImage": "/images/holly_shores_camping_resort_map.jpg",
+  "address": "491 US-9, Cape May, NJ 08204",
+  "gps": "39.0016° N, 74.8901° W",
+  "phone": "+1 (609) 886-1234",
+  "website": "https://www.sunoutdoors.com/new-jersey/sun-outdoors-cape-may",
+  "summary": "A high-amenity Sun Outdoors resort located between Cape May and Wildwood featuring shaded full-hookup sites, heated pools, splash pad, and dog park facilities.",
+  "scorecard": {
+    "maxRigLength": "Up to 42 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (spacious main entrance registration lane off US-9)",
+    "treeClearance": "Mature shade canopy; main interior avenues trimmed for high-profile rigs",
+    "bestBigRigLoops": "Main Pull-Through Avenue Sites",
+    "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: US-9 Corridor Access",
+    "text": "Accessed via Garden State Parkway Exit 4 West onto Route 47, turning onto US-9 South directly to the resort. Stay on US-9 to guarantee clean height clearances and avoid narrow municipal turns.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures direct state route navigation without residential low-clearance shortcuts."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated check-in lanes right off US-9 South to unhook your towed vehicle before proceeding into interior site loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides vital rear coverage when maneuvering into shaded resort sites."
+    }
+  },
+  "content": {
+    "overview": "Sun Outdoors Cape May (formerly Holly Shores Camping Resort) is a premier coastal destination situated between Cape May and Wildwood beaches. Offering full 30/50-amp utility hookups, paved and gravel pads, heated swimming pool, splash pad, and kayak rentals, it provides an outstanding basecamp for exploring the shore.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects sensitive onboard electronics against coastal power fluctuations."
+    },
+    "loopC": "Main pull-through sites feature generous length and convenient hookup layouts for large motorhomes and fifth wheels.",
+    "loopsAB": "Wooded back-in sites offer excellent shade and a relaxed atmosphere under mature trees."
+  }
+},
+ {
   "id": "belhaven-lake-rv-resort",
   "name": "Belhaven Lake RV Resort",
   "ownertype": "Private RV Resort",
