@@ -1,5 +1,54 @@
 [
  {
+  "id": "beachcomber-camping-resort",
+  "name": "Beachcomber Camping Resort",
+  "ownertype": "Private RV Resort",
+  "addedDate": "2026-11-02",
+  "state": "NJ",
+  "city": "Cape May",
+  "featured": true,
+  "lat": 39.003517,
+  "lng": -74.890985,
+  "image": "/images/beachcomber_camping_resort.jpg",
+  "mapImage": "/images/beachcomber_camping_resort_map.jpg",
+  "address": "462 Seashore Rd, Cape May, NJ 08204",
+  "gps": "39.0035° N, 74.8910° W",
+  "phone": "+1 (609) 886-6035",
+  "website": "https://beachcombercamp.com/",
+  "summary": "A premier coastal RV resort in Cape May featuring heavily wooded sites, freshwater lakes, and top-tier family amenities just minutes from the Atlantic beaches.",
+  "scorecard": {
+    "maxRigLength": "Up to 42 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (spacious entrance check-in apron)",
+    "treeClearance": "Coastal pine canopy; watch for overhead branches on interior turns",
+    "bestBigRigLoops": "Main Entrance & Lakeview Pull-Through Loops",
+    "bestSmallRigLoops": "Wooded Back-In Perimeter Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Garden State Parkway Exit 4 West",
+    "text": "From the Garden State Parkway, take Exit 4 West, turn left onto Cape May County Route 626 South (Railroad Ave), which seamlessly becomes Seashore Road straight to the resort entrance.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures precise routing off GSP exits avoiding tight coastal shortcuts."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated registration apron off Seashore Road to safely unhook your towed vehicle before proceeding into the resort's wooded loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear visibility when navigating shaded coastal resort turns."
+    }
+  },
+  "content": {
+    "overview": "Beachcomber Camping Resort is a premier vacation destination set amidst southern New Jersey's coastal pines. Offering freshwater lakes, sandy beaches, and full-hookup RV sites, it provides an ideal basecamp for exploring historic Cape May and the Wildwood shore points.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects sensitive RV electronics against coastal power fluctuations."
+    },
+    "loopC": "Main pull-through sites offer easy hookups and quick access to resort amenities for larger motorhomes and fifth wheels.",
+    "loopsAB": "Wooded back-in sites offer natural shade and privacy nestled among coastal pines."
+  }
+},
+ {
   "id": "beacon-hill-camping",
   "name": "Beacon Hill Camping",
   "ownertype": "Private Campground",
