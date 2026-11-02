@@ -27,7 +27,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Regional Travel Guides (4 total) -->
+  <!-- Regional Travel Guides (5 total) -->
+  <url>
+  <loc>https://rigfitrv.com/g/south-jersey-shore-camping.html</loc>
+  <lastmod>2026-11-02</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
   <url>
     <loc>https://rigfitrv.com/g/lancaster-amish-country-camping.html</loc>
     <lastmod>2026-10-30</lastmod>
@@ -61,7 +67,37 @@
     <priority>0.9</priority>
   </url>
   
-  <!-- Campground Guides (75 Total)[cite: 1] -->
+  <!-- Campground Guides (80 Total)[cite: 1] -->
+  <url>
+    <loc>https://rigfitrv.com/c/beachcomber-camping-resort.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/pine-haven-camping-resort.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/big-timber-lake-rv-camping-resort.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/belhaven-lake-rv-resort.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rigfitrv.com/c/holly-shores-camping-resort.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://rigfitrv.com/c/starlite-camping-resort.html</loc>
     <lastmod>2026-10-30</lastmod>
