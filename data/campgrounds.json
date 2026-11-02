@@ -1,5 +1,54 @@
 [
  {
+  "id": "big-timber-lake-rv-camping-resort",
+  "name": "Sun Retreats Avalon",
+  "ownertype": "Sun Outdoors / Private RV Resort",
+  "addedDate": "2026-11-02",
+  "state": "NJ",
+  "city": "Cape May Court House",
+  "featured": true,
+  "lat": 39.125852,
+  "lng": -74.811015,
+  "image": "/images/big_timber_lake_rv_camping_resort.jpg",
+  "mapImage": "/images/big_timber_lake_rv_camping_resort_map.jpg",
+  "address": "116 Swainton Goshen Rd, Cape May Court House, NJ 08210",
+  "gps": "39.1259° N, 74.8110° W",
+  "phone": "+1 (609) 465-4456",
+  "website": "https://www.sunoutdoors.com/new-jersey/sun-retreats-avalon",
+  "summary": "A premier Sun Outdoors resort in Cape May Court House featuring spacious RV sites, catch-and-release fishing lakes, and quick access to Avalon and Sea Isle City beaches.",
+  "scorecard": {
+    "maxRigLength": "Up to 42 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (spacious main entrance staging area)",
+    "treeClearance": "Pine canopy with good clearance on primary thoroughfares",
+    "bestBigRigLoops": "Main Lakeview Pull-Through Loops",
+    "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: GSP Exit 13 Corridor",
+    "text": "From the Garden State Parkway, take Exit 13 onto Route 9 South, then turn onto Swainton Goshen Road directly toward the main resort entrance.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides reliable navigation off GSP exits onto county connectors."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated registration staging area near the main office off Swainton Goshen Road to safely unhook your towed vehicle before heading into site loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists with clear rear monitoring during wooded site positioning."
+    }
+  },
+  "content": {
+    "overview": "Sun Retreats Avalon (formerly Big Timber Lake) is a high-amenity RV resort set along New Jersey's coastal pine belt. Featuring full 30/50-amp utility hookups, clean gravel pads, a resort swimming pool, and lake activities, it offers an outstanding coastal getaway near South Jersey shore points.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects sensitive onboard RV electronics from coastal electrical fluctuations."
+    },
+    "loopC": "Primary pull-through sites provide generous length and simple hookup access for larger fifth wheels and motorhomes.",
+    "loopsAB": "Wooded back-in sites offer natural shade and a relaxed atmosphere among coastal pines."
+  }
+},
+ {
   "id": "pine-haven-camping-resort",
   "name": "Pine Haven Camping Resort",
   "ownertype": "Thousand Trails / Sun Outdoors Resort",
