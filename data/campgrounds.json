@@ -1,5 +1,54 @@
 [
  {
+  "id": "belhaven-lake-rv-resort",
+  "name": "Belhaven Lake RV Resort",
+  "ownertype": "Private RV Resort",
+  "addedDate": "2026-11-02",
+  "state": "NJ",
+  "city": "Egg Harbor City",
+  "featured": true,
+  "lat": 39.617889,
+  "lng": -74.593979,
+  "image": "/images/belhaven_lake_rv_resort.jpg",
+  "mapImage": "/images/belhaven_lake_rv_resort_map.jpg",
+  "address": "1227 County Rd 542, Egg Harbor City, NJ 08215",
+  "gps": "39.6179° N, 74.5940° W",
+  "phone": "+1 (609) 965-2827",
+  "website": "https://www.belhavencampground.com/",
+  "summary": "A peaceful Pinelands lakefront resort near Batsto State Park offering 300 wooded sites, full 30/50-amp hookups, kayak rentals, and direct lake access.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (spacious front entrance check-in apron off CR-542)",
+    "treeClearance": "Pine Barrens canopy; maintain center positioning on rural county approach",
+    "bestBigRigLoops": "Main Entrance & Lakefront Pull-Through Sites",
+    "bestSmallRigLoops": "Shaded Wooded Back-In Perimeter Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: County Route 542 Corridor",
+    "text": "Accessed via County Route 542 (CR-542) from GSP Exit 50/52 or Route 30/206 via Hammonton. Stay centered on county lanes to maintain optimal clearance under rural pine branches.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for navigating rural Pinelands routes and low canopy corridors."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the main registration check-in apron off County Road 542 to safely unhook your towed vehicle before proceeding into interior wooded loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential rear visibility in shaded Pine Barrens campsite loops."
+    }
+  },
+  "content": {
+    "overview": "Belhaven Lake RV Resort is a scenic 30-acre lakefront retreat nestled in the South Jersey Pine Barrens near Batsto Village. Offering full-hookup campsites, swimming pool amenities, canoeing, and quiet nature trails, it provides a secluded wilderness atmosphere close to regional shore corridors.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard RV electrical systems from rural utility sags."
+    },
+    "loopC": "Main lakefront pull-through sites accommodate larger rigs with convenient access to resort amenities.",
+    "loopsAB": "Deep wooded sites offer pine shade and exceptional privacy."
+  }
+},
+ {
   "id": "big-timber-lake-rv-camping-resort",
   "name": "Sun Retreats Avalon",
   "ownertype": "Sun Outdoors / Private RV Resort",
