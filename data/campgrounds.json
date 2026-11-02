@@ -1,5 +1,54 @@
 [
  {
+  "id": "pine-haven-camping-resort",
+  "name": "Pine Haven Camping Resort",
+  "ownertype": "Thousand Trails / Sun Outdoors Resort",
+  "addedDate": "2026-11-02",
+  "state": "NJ",
+  "city": "Cape May Court House",
+  "featured": true,
+  "lat": 39.168431,
+  "lng": -74.742618,
+  "image": "/images/pine_haven_camping_resort.jpg",
+  "mapImage": "/images/pine_haven_camping_resort_map.jpg",
+  "address": "2339 US-9 North, Cape May Court House, NJ 08210",
+  "gps": "39.1684° N, 74.7426° W",
+  "phone": "+1 (609) 624-3437",
+  "website": "https://thousandtrails.com/new-jersey/pine-haven-camping-resort/",
+  "summary": "A family-friendly Thousand Trails coastal resort nestled in southern New Jersey's pine forests, offering full-hookup RV sites and easy access to Ocean City and Stone Harbor.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (spacious entrance check-in apron off US-9)",
+    "treeClearance": "Mature pine canopy; watch for low overhead branches on interior loops",
+    "bestBigRigLoops": "Main Entrance & Utility Pull-Through Sites",
+    "bestSmallRigLoops": "Shaded Pine Back-In Perimeter Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: US-9 Corridor Access",
+    "text": "Directly accessible via US Route 9 North in Cape May Court House. Maintain position on major state corridors to avoid narrow coastal shortcuts and low residential tree lines.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for navigating coastal NJ corridors and major highway turnoffs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the spacious check-in staging area off US-9 North to safely unhook your towed vehicle before maneuvering into the shaded pine resort loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential rear visibility in wooded campground back-in sites."
+    }
+  },
+  "content": {
+    "overview": "Pine Haven Camping Resort is a premier Thousand Trails property nestled among southern New Jersey's pine forests. Providing full 30/50-amp utility hookups, family recreational amenities, and a quiet wooded atmosphere, it serves as an ideal basecamp just minutes from the Jersey Shore beaches.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects sensitive RV onboard electronics against coastal power fluctuations."
+    },
+    "loopC": "Main utility sites accommodate larger motorhomes and fifth wheels seeking easy navigation and stable hookups.",
+    "loopsAB": "Deep wooded sites offer serene natural shade and privacy nestled among the pine canopy."
+  }
+},
+ {
   "id": "beachcomber-camping-resort",
   "name": "Beachcomber Camping Resort",
   "ownertype": "Private RV Resort",
