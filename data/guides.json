@@ -1,67 +1,79 @@
 [
   {
-  "id": "south-jersey-shore-camping",
-  "title": "South Jersey Shore & Pinelands RV Camping Guide",
-  "region": "South Jersey",
-  "state": "NJ",
-  "url": "/g/south-jersey-shore-camping.html",
-  "image": "/images/south_jersey_shore_camping.jpg",
-  "summary": "Verified clearance data, GSP routing guidance, and rig-fit scorecards for coastal Cape May, Ocean City, and Pinelands RV resorts.",
-  "campgrounds": [
-    "beachcomber-camping-resort",
-    "pine-haven-camping-resort",
-    "big-timber-lake-rv-camping-resort",
-    "belhaven-lake-rv-resort",
-    "holly-shores-camping-resort",
-    "sun-retreats-seashore",
-    "ocean-view-resort-campground",
-    "ocean-city-campground"
-  ]
-},
+    "id": "south-jersey-shore-camping",
+    "slug": "south-jersey-shore-camping",
+    "title": "South Jersey Shore & Pinelands RV Camping Guide",
+    "subtitle": "Complete Big Rig Clearance & Routing Guide for Cape May, Ocean City & the Pinelands",
+    "region": "South Jersey",
+    "state": "NJ",
+    "image": "/images/south_jersey_shore_camping.jpg",
+    "summary": "Verified clearance data, GSP routing guidance, and rig-fit scorecards for coastal Cape May, Ocean City, and Pinelands RV resorts.",
+    "description": "Verified clearance data, GSP routing guidance, and rig-fit scorecards for coastal Cape May, Ocean City, and Pinelands RV resorts.",
+    "featuredCampgroundIds": [
+      "beachcomber-camping-resort",
+      "pine-haven-camping-resort",
+      "big-timber-lake-rv-camping-resort",
+      "belhaven-lake-rv-resort",
+      "holly-shores-camping-resort",
+      "sun-retreats-seashore",
+      "ocean-view-resort-campground",
+      "ocean-city-campground"
+    ],
+    "publishedDate": "2026-11-02"
+  },
   {
-  "slug": "rv-towing-routing-logistics",
-  "title": "RV Towing, Weight Math & Heavy Rig Routing Logistics Hub",
-  "region": "National Technical Logistics",
-  "state": "US",
-  "description": "Comprehensive engineering and routing guide covering weight ratings, payload math, hitch dynamics, auxiliary braking, and low-clearance avoidance for big rigs.",
-  "image": "/images/rv_towing_logistics_hub.jpg",
-  "campgrounds": []
-},
+    "id": "rv-towing-routing-logistics",
+    "slug": "rv-towing-routing-logistics",
+    "title": "RV Towing, Weight Math & Heavy Rig Routing Logistics Hub",
+    "subtitle": "Engineering & Weight Logistics Guide for Heavy Rigs",
+    "region": "National Technical Logistics",
+    "state": "US",
+    "image": "/images/rv_towing_logistics_hub.jpg",
+    "summary": "Comprehensive engineering and routing guide covering weight ratings, payload math, hitch dynamics, auxiliary braking, and low-clearance avoidance for big rigs.",
+    "description": "Comprehensive engineering and routing guide covering weight ratings, payload math, hitch dynamics, auxiliary braking, and low-clearance avoidance for big rigs.",
+    "featuredCampgroundIds": [],
+    "publishedDate": "2026-11-01"
+  },
   {
-  "slug": "lancaster-amish-country-camping",
-  "title": "Lancaster County & Amish Country RV Travel & Camping Guide",
-  "region": "Lancaster County, PA",
-  "state": "PA",
-  "description": "Verified big-rig routing, clearance warnings, and campground guides across Pennsylvania Dutch Country.",
-  "image": "/images/beacon_hill_camping.jpg",
-  "campgrounds": [
-    "lake-in-wood-camping-resort",
-    "starlite-camping-resort",
-    "circle-m-thousand-trails",
-    "spring-gulch-campground",
-    "white-oak-campground",
-    "beacon-hill-camping"
-  ]
-},
+    "id": "lancaster-amish-country-camping",
+    "slug": "lancaster-amish-country-camping",
+    "title": "Lancaster County & Amish Country RV Travel & Camping Guide",
+    "subtitle": "Verified Big-Rig Routing & Campground Guides for Pennsylvania Dutch Country",
+    "region": "Lancaster County, PA",
+    "state": "PA",
+    "image": "/images/beacon_hill_camping.jpg",
+    "summary": "Verified big-rig routing, clearance warnings, and campground guides across Pennsylvania Dutch Country.",
+    "description": "Verified big-rig routing, clearance warnings, and campground guides across Pennsylvania Dutch Country.",
+    "featuredCampgroundIds": [
+      "lake-in-wood-camping-resort",
+      "starlite-camping-resort",
+      "circle-m-thousand-trails",
+      "spring-gulch-campground",
+      "white-oak-campground",
+      "beacon-hill-camping"
+    ],
+    "publishedDate": "2026-11-01"
+  },
   {
-  "id": "hudson-valley-catskills-camping",
-  "slug": "hudson-valley-catskills-camping",
-  "title": "Hudson Valley & Catskills RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
-  "subtitle": "Complete Big Rig Navigation, State Parks & RV Resort Guide",
-  "region": "Hudson Valley & Catskills",
-  "state": "NY",
-  "image": "/images/jellystone_park_gardiner.jpg",
-  "summary": "Expert RV camping guide for the Hudson Valley and Catskills region. Verified big-rig clearances, highway routing strategies, and audited campground reviews.",
-  "featuredCampgroundIds": [
-    "jellystone-park-gardiner",
-    "blue-mountain-campground",
-    "mongaup-pond-campground",
-    "spacious-skies-woodland-hills",
-    "whip-o-will-campground",
-    "roscoe-campsite-park"
-  ],
-  "publishedDate": "2026-10-30"
-},
+    "id": "hudson-valley-catskills-camping",
+    "slug": "hudson-valley-catskills-camping",
+    "title": "Hudson Valley & Catskills RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
+    "subtitle": "Complete Big Rig Navigation, State Parks & RV Resort Guide",
+    "region": "Hudson Valley & Catskills",
+    "state": "NY",
+    "image": "/images/jellystone_park_gardiner.jpg",
+    "summary": "Expert RV camping guide for the Hudson Valley and Catskills region. Verified big-rig clearances, highway routing strategies, and audited campground reviews.",
+    "description": "Expert RV camping guide for the Hudson Valley and Catskills region. Verified big-rig clearances, highway routing strategies, and audited campground reviews.",
+    "featuredCampgroundIds": [
+      "jellystone-park-gardiner",
+      "blue-mountain-campground",
+      "mongaup-pond-campground",
+      "spacious-skies-woodland-hills",
+      "whip-o-will-campground",
+      "roscoe-campsite-park"
+    ],
+    "publishedDate": "2026-10-30"
+  },
   {
     "id": "finger-lakes-ny-camping",
     "slug": "finger-lakes-ny-camping",
@@ -71,6 +83,7 @@
     "state": "NY",
     "image": "/images/watkins_glen_corning_koa.jpg",
     "summary": "Expert RV camping guide for the New York Finger Lakes. Verified big-rig clearances, routing strategies, and campground reviews for Seneca and Cayuga Lake loops.",
+    "description": "Expert RV camping guide for the New York Finger Lakes. Verified big-rig clearances, routing strategies, and campground reviews for Seneca and Cayuga Lake loops.",
     "featuredCampgroundIds": [
       "watkins-glen-corning-koa",
       "cayuga-lake-state-park",
@@ -90,6 +103,7 @@
     "state": "CT",
     "image": "/images/guides/bozrah_ct_cover.jpg",
     "summary": "Everything you need to know about RVing in Bozrah and Southeastern Connecticut—from navigating narrow rural state routes to hand-selected big-rig resorts and quiet state parks near Mystic Seaport.",
+    "description": "Everything you need to know about RVing in Bozrah and Southeastern Connecticut—from navigating narrow rural state routes to hand-selected big-rig resorts and quiet state parks near Mystic Seaport.",
     "featuredCampgroundIds": [
       "strawberry-park-rv-resort",
       "hidden-acres-family-campground",
