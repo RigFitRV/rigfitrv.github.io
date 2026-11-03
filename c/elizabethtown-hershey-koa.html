@@ -52,7 +52,6 @@
 
       <hr>
 
-      <h2>🛣️ Approach & Routing Guidance</h2>
       <div id="camp-approach-section"></div>
 
       <hr>
@@ -88,85 +87,6 @@
       .then(data => document.getElementById('footer-placeholder').innerHTML = data);
   </script>
 
-  <!-- Self-Contained Resilient Data Injector -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const targetId = document.body.getAttribute('data-campground-id');
-      
-      const fetchJson = (url) => fetch(url).then(res => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      });
-
-      fetchJson('/data/campgrounds.json')
-        .catch(() => fetchJson('../data/campgrounds.json'))
-        .catch(() => fetchJson('/campgrounds.json'))
-        .then(campgrounds => {
-          const camp = campgrounds.find(c => c.id === targetId);
-          if (!camp) {
-            console.error(`Campground ID "${targetId}" not found in campgrounds.json`);
-            return;
-          }
-
-          let displayOwner = 'Private Campground';
-          if (camp.ownertype === 'State Park' || camp.ownertype === 'National Park Service') {
-            displayOwner = camp.ownertype;
-          }
-
-          document.getElementById('camp-title').textContent = `${camp.name} Guide`;
-
-          const infoTable = document.getElementById('camp-info-table');
-          if (infoTable) {
-            infoTable.innerHTML = `
-              <tr><th>Type</th><td>${displayOwner}</td></tr>
-              <tr><th>Location</th><td>${camp.address}</td></tr>
-              <tr><th>Coordinates</th><td>${camp.gps}</td></tr>
-              <tr><th>Phone</th><td>${camp.phone}</td></tr>
-              <tr><th>Website</th><td><a href="${camp.website}" target="_blank" rel="noopener">Official Resort Website ↗</a></td></tr>
-            `;
-          }
-
-          const scorecard = document.getElementById('camp-scorecard');
-          if (scorecard && camp.scorecard) {
-            scorecard.innerHTML = `
-              <ul>
-                <li><strong>Max Rig Length:</strong> ${camp.scorecard.maxRigLength}</li>
-                <li><strong>Toad Friendliness:</strong> ${camp.scorecard.toadFriendliness}</li>
-                <li><strong>Tree Clearance:</strong> ${camp.scorecard.treeClearance}</li>
-                <li><strong>Best Big-Rig Loops:</strong> ${camp.scorecard.bestBigRigLoops}</li>
-                <li><strong>Best Small-Rig Loops:</strong> ${camp.scorecard.bestSmallRigLoops}</li>
-              </ul>
-            `;
-          }
-
-          const approachSection = document.getElementById('camp-approach-section');
-          if (approachSection && camp.approach) {
-            approachSection.innerHTML = `
-              <h3>${camp.approach.title}</h3>
-              <p>${camp.approach.text}</p>
-            `;
-          }
-
-          const overviewSection = document.getElementById('camp-overview');
-          if (overviewSection && camp.content) {
-            overviewSection.innerHTML = `
-              <p>${camp.content.overview}</p>
-              <p><strong>Pull-Through & Big Rig Sites:</strong> ${camp.content.loopC}</p>
-              <p><strong>Back-In & Wooded Sites:</strong> ${camp.content.loopsAB}</p>
-            `;
-          }
-
-          const toadSection = document.getElementById('camp-toad-strategy');
-          if (toadSection && camp.toadStrategy) {
-            toadSection.innerHTML = `
-              <p>${camp.toadStrategy.text}</p>
-            `;
-          }
-        })
-        .catch(err => {
-          console.error('Error fetching or rendering campground data:', err);
-        });
-    });
-  </script>
+  <script src="../js/campground.js"></script>
 </body>
 </html>
