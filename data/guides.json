@@ -1,5 +1,24 @@
 [
   {
+  "id": "hershey-brandywine-pa-camping",
+  "slug": "hershey-brandywine-pa-camping",
+  "title": "Hershey & Brandywine PA RV Camping & Navigation Guide",
+  "subtitle": "Complete Big Rig Clearance & Routing Guide for Hershey, Harrisburg & Brandywine Valley",
+  "region": "Hershey & Brandywine",
+  "state": "PA",
+  "image": "/images/hershey_brandywine_pa_camping.jpg",
+  "summary": "Verified clearance data, arterial routing guidance, and rig-fit scorecards for Hershey, Harrisburg, and Brandywine Valley RV resorts.",
+  "description": "Verified clearance data, arterial routing guidance, and rig-fit scorecards for Hershey, Harrisburg, and Brandywine Valley RV resorts.",
+  "featuredCampgroundIds": [
+    "thousand-trails-hershey",
+    "harrisburg-east-campground",
+    "elizabethtown-hershey-koa",
+    "pinch-pond-campground",
+    "hershey-park-camping-resort"
+  ],
+  "publishedDate": "2026-11-03"
+},
+  {
     "id": "south-jersey-shore-camping",
     "slug": "south-jersey-shore-camping",
     "title": "South Jersey Shore & Pinelands RV Camping Guide",
