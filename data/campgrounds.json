@@ -1,5 +1,54 @@
 [
  {
+  "id": "pinch-pond-campground",
+  "name": "Pinch Pond Family Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-03",
+  "state": "PA",
+  "city": "Manheim",
+  "featured": true,
+  "lat": 40.229668,
+  "lng": -76.452358,
+  "image": "/images/pinch_pond_campground.jpg",
+  "mapImage": "/images/pinch_pond_campground_map.jpg",
+  "address": "3075 Pinch Rd, Manheim, PA 17545",
+  "gps": "40.2297° N, 76.4524° W",
+  "phone": "+1 (717) 665-7640",
+  "website": "https://pinchpond.com/",
+  "summary": "A heavily shaded, quiet family campground at the foot of South Mountain featuring full hookup pull-through sites, outdoor pool, fishing pond, and peaceful forest surroundings near Hershey.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (office registration lane off Pinch Road)",
+    "treeClearance": "Dense natural shade canopy; main avenues trimmed for standard high-profile rigs",
+    "bestBigRigLoops": "Lower Pull-Through Avenue Sites",
+    "bestSmallRigLoops": "Upper Wooded Terraced Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Pinch Road Access",
+    "text": "Accessed via PA-72 taking Pinch Road directly to the main entrance. Staying on PA-72 connectors avoids unverified township cuts and low-hanging branches near Mt. Gretna.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures direct arterial routing along state connectors and avoids rural bridge restrictions."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated check-in registration lane near the main office off Pinch Road to safely unhook your toad before negotiating interior campsite turns.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential visibility when backing into heavily wooded sites."
+    }
+  },
+  "content": {
+    "overview": "Pinch Pond Family Campground provides a shaded retreat situated between Lancaster and Hershey. Features 30/50-amp utility hookups, swimming pool, fishing pond, camp store, and peaceful natural surroundings.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard RV electronics from regional power spikes during peak summer demand."
+    },
+    "loopC": "Main pull-through avenues accommodate standard motorhomes and travel trailers with easy utility hookup access.",
+    "loopsAB": "Wooded perimeter back-in sites offer maximum shade and privacy."
+  }
+},
+ {
   "id": "elizabethtown-hershey-koa",
   "name": "Elizabethtown / Hershey KOA Holiday",
   "ownertype": "Private Campground",
