@@ -1,5 +1,54 @@
 [
  {
+  "id": "hershey-park-camping-resort",
+  "name": "Hershey Park Camping Resort",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-03",
+  "state": "PA",
+  "city": "Hummelstown",
+  "featured": true,
+  "lat": 40.271774,
+  "lng": -76.693300,
+  "image": "/images/hershey_park_camping_resort.jpg",
+  "mapImage": "/images/hershey_park_camping_resort_map.jpg",
+  "address": "1200 Sweet St, Hummelstown, PA 17036",
+  "gps": "40.2718° N, 76.6933° W",
+  "phone": "+1 (888) 710-0917",
+  "website": "https://www.hersheyparkcampingresort.com/",
+  "summary": "The official 55-acre resort campground of Hersheypark situated along Swatara Creek, featuring full 30/50-amp hookups, preferred park entry pricing, shuttle services, and family amenities.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Select Full Hookup Pull-Through Sites)",
+    "toadFriendliness": "High (multi-lane check-in staging area adjacent to main lodge off Sweet St)",
+    "treeClearance": "Main avenues trimmed for high-profile rigs; mature shade canopy in creek loops",
+    "bestBigRigLoops": "Main Avenue Full-Hookup Pull-Through Sites",
+    "bestSmallRigLoops": "Swatara Creek Water & Electric Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Sweet Street & US-322 Corridor Access",
+    "text": "Accessed via US-322 taking the Hockersville Road exit, proceeding onto Sweet Street directly to the main resort entrance. Sweet Street offers clean overhead clearances and easy arterial access.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures direct arterial routing and avoids regional secondary road height hazards."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated multi-lane check-in staging area adjacent to the main registration lodge off Sweet Street to safely unhook your toad before maneuvering into interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential blind-spot visibility when maneuvering into multi-row campground loops."
+    }
+  },
+  "content": {
+    "overview": "Hershey Park Camping Resort spans 55 acres along Swatara Creek, offering full 30/50-amp hookups, two swimming pools, country store, creek fishing, and direct shuttle transportation to Hersheypark.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard RV electronics from regional power grid fluctuations during peak resort season."
+    },
+    "loopC": "Main pull-through avenues accommodate large Class A motorhomes and multi-axle fifth wheels with clear utility alignments.",
+    "loopsAB": "Creekfront and shaded back-in loops provide relaxed surroundings under mature tree canopy."
+  }
+},
+ {
   "id": "pinch-pond-campground",
   "name": "Pinch Pond Family Campground",
   "ownertype": "Private Campground",
