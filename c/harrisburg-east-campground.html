@@ -82,4 +82,11 @@
 
   <div id="footer-placeholder"></div>
   <script>
-    fetch('../footer.
+    fetch('../footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <script src="../js/campground.js"></script>
+</body>
+</html>
