@@ -1,5 +1,54 @@
 [
  {
+  "id": "elizabethtown-hershey-koa",
+  "name": "Elizabethtown / Hershey KOA Holiday",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-03",
+  "state": "PA",
+  "city": "Elizabethtown",
+  "featured": true,
+  "lat": 40.142067,
+  "lng": -76.656579,
+  "image": "/images/elizabethtown_hershey_koa.jpg",
+  "mapImage": "",
+  "address": "1980 Turnpike Rd, Elizabethtown, PA 17022",
+  "gps": "40.1421° N, 76.6566° W",
+  "phone": "+1 (717) 367-7718",
+  "website": "https://koa.com/campgrounds/elizabethtown/",
+  "summary": "A full-featured KOA Holiday in rural Lancaster/Lebanon farm country featuring full 50-amp pull-through sites, swimming pool, mini-golf, and convenient access to Hershey attractions.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Deluxe Patio & Pull-Through Sites)",
+    "toadFriendliness": "High (multi-lane check-in apron off Turnpike Road)",
+    "treeClearance": "Open agricultural corridor; interior trees maintained for big-rig turns",
+    "bestBigRigLoops": "Main Pull-Through Avenue Sites",
+    "bestSmallRigLoops": "Back-In Perimeter Tent & RV Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Turnpike Road Corridor Access",
+    "text": "Accessed via PA-283 onto Turnpike Road directly to the resort entrance. Turnpike Road is wide and well-maintained for commercial and agricultural transport, avoiding narrow township turns.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides reliable guidance along state connectors while avoiding minor township restrictions."
+    }
+  },
+  "toadStrategy": {
+    "text": "Utilize the wide registration driveway and staging apron right in front of the main KOA store off Turnpike Road to unhook your towed vehicle before proceeding into the gravel loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Ensures clear blind-spot visibility when maneuvering into multi-row campground loops."
+    }
+  },
+  "content": {
+    "overview": "Elizabethtown / Hershey KOA Holiday offers a family-friendly camping experience surrounded by Lancaster and Lebanon County farmlands. Featuring full 30/50-amp hookups, paved and gravel patios, swimming pool, pedal carts, KampK9 dog park, and seasonal shuttle options.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Guards sensitive onboard electronics against summer grid power fluctuations."
+    },
+    "loopC": "Main pull-through sites offer generous lengths and easy hookup alignments for large Class A motorhomes and multi-axle fifth wheels.",
+    "loopsAB": "Perimeter and shaded back-in sites provide a relaxing atmosphere under mature shade trees."
+  }
+},
+ {
   "id": "harrisburg-east-campground",
   "name": "Harrisburg East Campground and Storage",
   "ownertype": "Private Campground",
