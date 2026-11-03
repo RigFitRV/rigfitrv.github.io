@@ -1,5 +1,18 @@
 [
   {
+  "id": "rv-electrical-power-management",
+  "slug": "rv-electrical-power-management",
+  "title": "RV Electrical & Power Management Guide",
+  "subtitle": "Comprehensive Technical Guide to 30A vs 50A Systems, Voltage Drops & EMS Surge Protection",
+  "region": "Technical Pillars",
+  "state": "US",
+  "image": "/images/rv_electrical_power_management.jpg",
+  "summary": "Technical guide to 30A vs 50A shore power, voltage drop mitigation, surge protection, and safe adapter usage.",
+  "description": "Technical guide to 30A vs 50A shore power, voltage drop mitigation, surge protection, and safe adapter usage.",
+  "featuredCampgroundIds": [],
+  "publishedDate": "2026-11-03"
+},
+  {
   "id": "hershey-brandywine-pa-camping",
   "slug": "hershey-brandywine-pa-camping",
   "title": "Hershey & Brandywine PA RV Camping & Navigation Guide",
