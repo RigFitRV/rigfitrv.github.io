@@ -1,5 +1,54 @@
 [
  {
+  "id": "hershey-rv-resort",
+  "name": "Thousand Trails Hershey",
+  "ownertype": "Thousand Trails / Private RV Resort",
+  "addedDate": "2026-11-03",
+  "state": "PA",
+  "city": "Lebanon",
+  "featured": true,
+  "lat": 40.267895,
+  "lng": -76.520276,
+  "image": "/images/hershey_rv_resort.jpg",
+  "mapImage": "/images/hershey_rv_resort_map.jpg",
+  "address": "493 S Mt Pleasant Rd, Lebanon, PA 17042",
+  "gps": "40.2679° N, 76.5203° W",
+  "phone": "+1 (717) 867-3967",
+  "website": "https://thousandtrails.com/pennsylvania/hershey-rv-camping-resort",
+  "summary": "A heavily shaded Thousand Trails preserve near Hersheypark featuring terraced big-rig sites, full hookups, swimming pools, mini-golf, and convenient access to regional attractions.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Select Terraced Pull-Through Sites)",
+    "toadFriendliness": "High (dedicated staging lanes at gatehouse check-in)",
+    "treeClearance": "Mature oak/pine canopy; main loops well-maintained for high-profile rigs",
+    "bestBigRigLoops": "Lower Lakeview Pull-Through Section",
+    "bestSmallRigLoops": "Upper Wooded Terraced Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: PA Turnpike Exit 266 Corridor",
+    "text": "From the PA Turnpike (I-76), take Exit 266 onto PA-72 North toward Lebanon, transition onto US-322 West, then follow PA-117 North onto South Mt. Pleasant Road directly to the resort gate. Avoid unverified rural township shortcuts around Mt. Gretna.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for navigating rural PA state routes and avoiding low historical bridges."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated multi-lane staging area near the main entrance gatehouse off South Mt. Pleasant Road to disconnect your toad before ascending into the terraced site loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists with blind-spot monitoring on winding, terraced campground roads."
+    }
+  },
+  "content": {
+    "overview": "Thousand Trails Hershey spans over 200 wooded acres in Lebanon County, just a short drive from Hersheypark and PA Dutch country. The resort provides full 30/50-amp utility hookups, clean gravel pads, outdoor pools, fishing pond access, and family activities.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Essential for shielding electronics from summer park utility sags."
+    },
+    "loopC": "Lower section pull-through sites offer easy maneuverability and wide turning radii for Class A motorhomes and long fifth wheels.",
+    "loopsAB": "Upper terraced sites offer private, wooded surroundings with natural shade."
+  }
+},
+ {
   "id": "holly-shores-camping-resort",
   "name": "Sun Outdoors Cape May",
   "ownertype": "Sun Outdoors / Private RV Resort",
