@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hershey & Brandywine PA RV Camping & Navigation Guide - RigFitRV</title>
+  <meta name="description" content="Verified RV clearance, arterial routing, and big-rig campground guides for Hershey, Harrisburg, and the Brandywine Valley region of Pennsylvania.">
+  <link rel="stylesheet" href="../style.css">
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="RigFitRV">
+  <meta property="og:title" content="Hershey & Brandywine PA RV Camping & Navigation Guide - RigFitRV">
+  <meta property="og:url" content="https://rigfitrv.com/g/hershey-brandywine-pa-camping.html">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TV8S962CRT');
+  </script>
+
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
+</head>
+
+<body data-region-id="hershey-brandywine-pa">
+
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('../header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <div class="container">
+    <div class="article-card">
+
+      <h1 id="hub-title">Hershey & Brandywine PA RV Camping & Navigation Guide</h1>
+      <p class="lead" id="hub-subtitle">Verified clearance data, arterial access corridors, and big-rig suitability for Hershey, Harrisburg, and Brandywine Valley RV parks.</p>
+
+      <hr>
+
+      <h2>🛣️ Regional Approach & Big-Rig Highway Corridors</h2>
+      <div id="hub-overview-content">
+        <p>Navigating the Hershey, Harrisburg, and Brandywine Valley region requires balancing heavy tourist arterial corridors with historic, narrow township lanes. Major access routes such as <strong>I-83, US-322, PA-283, and the PA Turnpike (I-76)</strong> provide wide lanes and high-clearance bridges for long fifth wheels and Class A motorhomes. Key state connectors like <strong>PA-741 and Sweet Street</strong> offer straightforward transit to top resort properties without confronting low-clearance residential overpasses.</p>
+      </div>
+
+      <hr>
+
+      <h2>🏕️ Verified Regional Campgrounds</h2>
+      <div id="regional-cards-grid" class="cards-grid">
+        <!-- Dynamically populated via guides.json -->
+      </div>
+
+      <hr>
+
+      <h2>💬 RVer Community Intelligence</h2>
+      <p><em>Encountered a recent low-hanging branch, unannounced road construction, or altered staging lanes in the Hershey area? Help keep our database 100% verified!</em></p>
+      <a href="../submit.html" class="btn">👉 Submit a Quick Rig-Fit Update</a>
+
+    </div>
+  </div>
+
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('../footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- Self-Contained Resilient Hub Fetcher -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const regionId = document.body.getAttribute('data-region-id');
+
+      const fetchJson = (url) => fetch(url).then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      });
+
+      fetchJson('/data/guides.json')
+        .catch(() => fetchJson('../data/guides.json'))
+        .catch(() => fetchJson('/guides.json'))
+        .then(data => {
+          const regionData = data.regions ? data.regions.find(r => r.id === regionId) : null;
+          const grid = document.getElementById('regional-cards-grid');
+
+          if (!regionData || !regionData.campgrounds || regionData.campgrounds.length === 0) {
+            if (grid) grid.innerHTML = '<p>No verified campgrounds loaded for this region yet.</p>';
+            return;
+          }
+
+          if (grid) {
+            grid.innerHTML = regionData.campgrounds.map(camp => `
+              <div class="card">
+                <h3>${camp.name}</h3>
+                <p><strong>Location:</strong> ${camp.city}, PA</p>
+                <p><strong>Owner Type:</strong> ${camp.ownertype}</p>
+                <p>${camp.summary}</p>
+                <a href="../c/${camp.id}.html" class="btn-secondary">View Full Rig-Fit Guide →</a>
+              </div>
+            `).join('');
+          }
+        })
+        .catch(err => {
+          console.error('Error fetching regional guides:', err);
+        });
+    });
+  </script>
+</body>
+</html>
