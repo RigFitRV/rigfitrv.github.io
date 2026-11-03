@@ -1,5 +1,54 @@
 [
  {
+  "id": "harrisburg-east-campground",
+  "name": "Harrisburg East Campground and Storage",
+  "ownertype": "Private RV Campground",
+  "addedDate": "2026-11-03",
+  "state": "PA",
+  "city": "Harrisburg",
+  "featured": true,
+  "lat": 40.232258,
+  "lng": -76.799007,
+  "image": "/images/harrisburg_east_campground.jpg",
+  "mapImage": "/images/harrisburg_east_campground_map.jpg",
+  "address": "1134 Highspire Rd, Harrisburg, PA 17111",
+  "gps": "40.2323° N, 76.7990° W",
+  "phone": "+1 (717) 939-4331",
+  "website": "http://www.hbgeastcampground.com/",
+  "summary": "A convenient urban-adjacent RV park off PA-283 and I-83 featuring shaded pull-through sites, full hookups, swimming pool, and quick access to Harrisburg and Hershey.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (spacious office staging area off Highspire Rd)",
+    "treeClearance": "Mature shade canopy; main avenues trimmed for standard high-profile rigs",
+    "bestBigRigLoops": "Main Pull-Through Avenue Sites",
+    "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: PA-283 Corridor Access",
+    "text": "Accessed via PA-283 taking the Highspire exit onto Highspire Road directly to the resort entrance. Staying on state connectors avoids narrow township turns and low residential clearances.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures direct arterial routing and avoids regional secondary road height hazards."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the designated office registration staging area right off Highspire Road to safely unhook your toad before heading into interior campsite loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides vital visibility when backing into shaded tree-lined sites."
+    }
+  },
+  "content": {
+    "overview": "Harrisburg East Campground and Storage offers a shaded, quiet haven situated conveniently between downtown Harrisburg and Hersheypark. Featuring full 30/50-amp utility hookups, swimming pool, laundry facilities, and secure outdoor storage options.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard RV electronics from regional power grid fluctuations."
+    },
+    "loopC": "Main pull-through avenues accommodate larger motorhomes and travel trailers with easy utility hookup alignment.",
+    "loopsAB": "Perimeter back-in sites provide shaded surroundings and excellent privacy."
+  }
+},
+ {
   "id": "hershey-rv-resort",
   "name": "Thousand Trails Hershey",
   "ownertype": "Thousand Trails / Private RV Resort",
