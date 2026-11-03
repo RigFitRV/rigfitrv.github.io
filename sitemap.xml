@@ -67,6 +67,12 @@
 
   <!-- RV Towing & Routing Logistics Hub Pillar Guide -->
   <url>
+    <loc>https://rigfitrv.com/g/rv-electrical-power-management.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://rigfitrv.com/g/rv-towing-routing-logistics.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
