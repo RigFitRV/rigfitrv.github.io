@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RV Electrical & Power Management Technical Hub - RigFitRV</title>
+  <meta name="description" content="Master RV shore power, 30-amp vs 50-amp configurations, voltage drop mitigation, surge protection, and EMS monitoring for safe campground operation.">
+  <link rel="stylesheet" href="../style.css">
+
+  <link rel="canonical" href="https://rigfitrv.com/g/rv-electrical-power-management.html">
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="RigFitRV">
+  <meta property="og:title" content="RV Electrical & Power Management Technical Hub - RigFitRV">
+  <meta property="og:description" content="Technical guide to 30A vs 50A RV electrical systems, pedestal voltage drop, surge protection, and electrical safety on the road.">
+  <meta property="og:image" content="https://rigfitrv.com/images/rv_electrical_power_management.jpg">
+  <meta property="og:url" content="https://rigfitrv.com/g/rv-electrical-power-management.html">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TV8S962CRT');
+  </script>
+
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
+</head>
+
+<body>
+
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('../header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <div class="container">
+    <div class="article-card">
+
+      <div style="margin-bottom: 1.5rem;">
+        <span style="font-size: 0.8rem; font-weight: bold; color: #0066cc; text-transform: uppercase; letter-spacing: 0.05em;">Technical Pillar Guide • RV Systems & Infrastructure</span>
+        <h1 style="margin: 0.4rem 0 0.75rem 0; font-size: 2rem; color: #222; line-height: 1.2;">RV Electrical & Power Management Guide</h1>
+        <p style="font-size: 1.1rem; color: #555; line-height: 1.5; margin: 0;">
+          A comprehensive technical teardown of 30-amp vs 50-amp shore power, pedestal troubleshooting, EMS surge protection, voltage drop calculation, and safe adapter usage for rigs of all sizes.
+        </p>
+      </div>
+
+      <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+
+      <h2>⚡ 30-Amp vs. 50-Amp Shore Power: Understanding the Math</h2>
+      <p>The most common misconception in RV power management is that 50-amp service provides only 66% more capacity than 30-amp service. In reality, a 50-amp system supplies more than <strong>three times the total available wattage</strong> of a 30-amp system.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem;">
+        <thead>
+          <tr style="background-color: #f1f5f9; border-bottom: 2px solid #cbd5e1; text-align: left;">
+            <th style="padding: 0.75rem; border: 1px solid #cbd5e1;">Specification</th>
+            <th style="padding: 0.75rem; border: 1px solid #cbd5e1;">30-Amp Service (TT-30R)</th>
+            <th style="padding: 0.75rem; border: 1px solid #cbd5e1;">50-Amp Service (14-50R)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>Configuration</strong></td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;">120V Single-Leg (3 prongs)</td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;">120V/240V Dual-Leg (4 prongs)</td>
+          </tr>
+          <tr style="background-color: #f8fafc;">
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>Total Current Capacity</strong></td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;">30 Amps total</td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;">50 Amps per leg (100 Amps total)</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>Max Available Power</strong></td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>3,600 Watts</strong> (120V × 30A)</td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>12,000 Watts</strong> (120V × 50A × 2)</td>
+          </tr>
+          <tr style="background-color: #f8fafc;">
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>Typical Load Limit</strong></td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;">1 Air Conditioner + light loads</td>
+            <td style="padding: 0.75rem; border: 1px solid #e2e8f0;">2–3 Air Conditioners + full residential appliances</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h2>🔥 Summer Grid Overloads & Voltage Drop Protection</h2>
+      <p>During peak summer months, regional campgrounds with high occupancy experience severe voltage drops as dozens of rigs run multiple air conditioners simultaneously. Nominal 120V utility power can plunge below 104V under heavy grid strain.</p>
+
+      <h3>Why Low Voltage Kills RV Equipment</h3>
+      <p>When supply voltage drops, electric motors (such as A/C compressors and microwave magnetrons) draw more amperage to maintain rated power output. This increase in current generates excessive heat in motor windings, leading to premature component failure or tripped breakers.</p>
+
+      <ul>
+        <li><strong>Safe Operational Range:</strong> 108V AC to 132V AC</li>
+        <li><strong>Critical Hazard Threshold:</strong> Sustained drops below 104V AC</li>
+        <li><strong>Mitigation Strategy:</strong> Deploy an Energy Management System (EMS) hardwired or portable unit that automatically disconnects power when voltage drops outside safe parameters.</li>
+      </ul>
+
+      <blockquote>
+        <strong>Pro Electrical Tip:</strong> Always turn off the pedestal circuit breaker <em>before</em> plugging in or unplugging your shore cord. Connecting under load creates an electrical arc that pits and burns the pedestal receptacle and your plug blades over time, increasing contact resistance.
+      </blockquote>
+
+      <hr>
+
+      <h2>🔌 Safe Adapter Usage & Dogbone Protocols</h2>
+      <p>Adapting between 50A, 30A, and standard 15A/20A household outlets is common, but requires strict power budgeting to prevent nuisance trips or overheating adapters.</p>
+
+      <ul>
+        <li><strong>50A Rig to 30A Pedestal (Dogbone Adapter):</strong> Safely steps down connection physical sizing, but restricts your rig to 3,600 total watts. You must manage loads manually—running 2 rooftop A/C units simultaneously will immediately trip the 30A pedestal breaker.</li>
+        <li><strong>30A Rig to 50A Pedestal:</strong> Safe to run. Your rig's main 30A breaker remains the primary protection point, ensuring your internal wiring receives no more than 30 amps.</li>
+        <li><strong>15A/20A Household Outlets (Trickle Shore Power):</strong> Suitable only for battery maintenance, residential fridge pre-cooling, and minor 12V system battery charging. Avoid long extension cords with light wire gauge; use heavy-duty 10 AWG or 12 AWG extension cords for runs under 50 feet.</li>
+      </ul>
+
+      <hr>
+
+      <h2>🛠️ Essential Electrical Protection Gear</h2>
+      <p>Protecting your onboard electrical investment against open neutrals, reverse polarity, high/low voltage spikes, and physical surge damage requires dedicated monitoring gear:</p>
+
+      <div id="recommended-gear-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; margin-bottom: 2rem;">
+        <p>Loading essential electrical protection recommendations...</p>
+      </div>
+
+      <hr>
+
+      <h2>💬 Help Us Keep Technical Pillar Guides Updated!</h2>
+      <p><em>Have you encountered specific campground power grid issues or pedestal anomalies during your travels?</em></p>
+      <a href="../submit.html" class="btn">👉 Submit a Technical Field Update</a>
+
+    </div>
+  </div>
+
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('../footer.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- Dynamic Product Recommendation Fetcher -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const targetProductKeys = [
+        'heavy-duty-surge-protector'
+      ];
+
+      const fetchJson = (url) => fetch(url).then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      });
+
+      fetchJson('/data/products.json')
+        .catch(() => fetchJson('../data/products.json'))
+        .catch(() => fetchJson('/products.json'))
+        .then(products => {
+          const grid = document.getElementById('recommended-gear-grid');
+          
+          const matched = targetProductKeys
+            .filter(key => products[key])
+            .map(key => ({ key, ...products[key] }));
+
+          if (!matched || matched.length === 0) {
+            grid.innerHTML = '<p style="color: #64748b; font-size: 0.9rem;">No matching product recommendations found.</p>';
+            return;
+          }
+
+          grid.innerHTML = matched.map(item => {
+            const badge = item.title || 'Essential Protection Gear';
+            const name = item.productName || item.title || 'RV EMS Surge Protector';
+            const link = item.affiliateUrl || '#';
+
+            return `
+              <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                  <span style="font-size: 0.7rem; font-weight: bold; color: #d97706; text-transform: uppercase; letter-spacing: 0.05em;">${badge}</span>
+                  <h4 style="margin: 0.3rem 0 0.5rem 0; font-size: 1rem; color: #1e293b;">${name}</h4>
+                  <p style="font-size: 0.85rem; color: #475569; line-height: 1.4; margin-bottom: 1rem;">Full EMS protection against open neutral, reverse polarity, and low-voltage grid sags.</p>
+                </div>
+                <a href="${link}" target="_blank" rel="noopener sponsored" class="btn" style="display: block; text-align: center; padding: 0.5rem; background: #2563eb; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 0.85rem; font-weight: bold;">Check Price on Amazon ↗</a>
+              </div>
+            `;
+          }).join('');
+        })
+        .catch(err => {
+          console.error('Error fetching products.json:', err);
+          document.getElementById('recommended-gear-grid').innerHTML = '<p style="color: #dc2626; font-size: 0.85rem;">Unable to load gear recommendations.</p>';
+        });
+    });
+  </script>
+</body>
+</html>
