@@ -2,7 +2,7 @@
  {
   "id": "harrisburg-east-campground",
   "name": "Harrisburg East Campground and Storage",
-  "ownertype": "Private RV Campground",
+  "ownertype": "Private Campground",
   "addedDate": "2026-11-03",
   "state": "PA",
   "city": "Harrisburg",
@@ -51,7 +51,7 @@
  {
   "id": "hershey-rv-resort",
   "name": "Thousand Trails Hershey",
-  "ownertype": "Thousand Trails / Private RV Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-11-03",
   "state": "PA",
   "city": "Lebanon",
@@ -100,7 +100,7 @@
  {
   "id": "holly-shores-camping-resort",
   "name": "Sun Outdoors Cape May",
-  "ownertype": "Sun Outdoors / Private RV Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-11-02",
   "state": "NJ",
   "city": "Cape May",
@@ -149,7 +149,7 @@
  {
   "id": "belhaven-lake-rv-resort",
   "name": "Belhaven Lake RV Resort",
-  "ownertype": "Private RV Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-11-02",
   "state": "NJ",
   "city": "Egg Harbor City",
@@ -198,7 +198,7 @@
  {
   "id": "big-timber-lake-rv-camping-resort",
   "name": "Sun Retreats Avalon",
-  "ownertype": "Sun Outdoors / Private RV Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-11-02",
   "state": "NJ",
   "city": "Cape May Court House",
@@ -247,7 +247,7 @@
  {
   "id": "pine-haven-camping-resort",
   "name": "Pine Haven Camping Resort",
-  "ownertype": "Thousand Trails / Sun Outdoors Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-11-02",
   "state": "NJ",
   "city": "Cape May Court House",
@@ -296,7 +296,7 @@
  {
   "id": "beachcomber-camping-resort",
   "name": "Beachcomber Camping Resort",
-  "ownertype": "Private RV Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-11-02",
   "state": "NJ",
   "city": "Cape May",
@@ -443,7 +443,7 @@
  {
   "id": "spring-gulch-campground",
   "name": "Spring Gulch Campground",
-  "ownertype": "Private RV Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-10-30",
   "state": "PA",
   "city": "New Holland",
@@ -492,7 +492,7 @@
  {
   "id": "circle-m-thousand-trails",
   "name": "Circle M Thousand Trails",
-  "ownertype": "Private RV Resort",
+  "ownertype": "Private Campground",
   "addedDate": "2026-10-30",
   "state": "PA",
   "city": "Lancaster",
