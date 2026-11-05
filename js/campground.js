@@ -248,3 +248,36 @@ if (approachSection) {
   `;
   approachSection.appendChild(techLinkBlock);
 }
+
+// Dynamic Technical Pillar Callout Injector
+document.addEventListener('DOMContentLoaded', () => {
+  const approachContainer = document.getElementById('camp-approach-section') || document.getElementById('camp-scorecard');
+  
+  if (approachContainer && !document.getElementById('tech-pillar-callout-box')) {
+    const techBox = document.createElement('div');
+    techBox.id = 'tech-pillar-callout-box';
+    techBox.style.cssText = 'margin: 1.5rem 0; padding: 1.25rem; background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #0066cc; border-radius: 6px;';
+    
+    techBox.innerHTML = `
+      <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b; display: flex; align-items: center; gap: 0.5rem;">
+        🛠️ Verified Rig-Fit Utility & Systems Check
+      </h3>
+      <p style="font-size: 0.9rem; color: #475569; margin: 0.4rem 0 0.8rem 0; line-height: 1.4;">
+        Ensure your rig is prepped for regional access roads, electrical grid demands, and water connections before arrival:
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.85rem; font-weight: bold;">
+        <a href="../g/rv-towing-routing.html" style="color: #0066cc; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
+          🚛 Clearance & Towing Guide →
+        </a>
+        <a href="../g/rv-electrical-power-management.html" style="color: #d97706; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
+          ⚡ Power & Surge Protection →
+        </a>
+        <a href="../g/rv-water-plumbing-management.html" style="color: #059669; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
+          💧 Water Pressure & Plumbing →
+        </a>
+      </div>
+    `;
+    
+    approachContainer.parentNode.insertBefore(techBox, approachContainer.nextSibling);
+  }
+});
