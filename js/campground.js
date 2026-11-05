@@ -2,6 +2,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const pageId = document.body.getAttribute('data-campground-id');
   if (!pageId) return;
 
+  // Ensure Canonical Link points cleanly to HTTPS canonical URL
+  let canonicalLink = document.querySelector("link[rel='canonical']");
+  if (!canonicalLink) {
+    canonicalLink = document.createElement('link');
+    canonicalLink.setAttribute('rel', 'canonical');
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.setAttribute('href', `https://rigfitrv.com/c/${pageId}.html`);
+
   // Fetch both campgrounds and the central products catalog simultaneously
   Promise.all([
     fetch('../data/campgrounds.json').then(res => res.json()),
@@ -43,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // Reusable Affiliate Box Generator Helper (combines catalog product info with campground-specific reason)
+      // Reusable Affiliate Box Generator Helper
       function createAffiliateBox(recommendedGearObj) {
         if (!recommendedGearObj || !recommendedGearObj.gearKey) return '';
         const catalogItem = productsCatalog[recommendedGearObj.gearKey];
@@ -60,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // 1. Populate Approach & Routing Section
+      // 1. Populate Approach & Routing Section & Inject Technical Pillar Callout
       const approachSection = document.getElementById('camp-approach-section');
       if (approachSection && data.approach) {
         const approachGearHtml = createAffiliateBox(data.approach.recommendedGear);
@@ -69,6 +78,31 @@ document.addEventListener('DOMContentLoaded', () => {
           <p>${data.approach.text}</p>
           ${approachGearHtml}
         `;
+
+        // Inject Technical Pillar Callout directly into approach section after render
+        const techBox = document.createElement('div');
+        techBox.id = 'tech-pillar-callout-box';
+        techBox.style.cssText = 'margin: 1.5rem 0; padding: 1.25rem; background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #0066cc; border-radius: 6px;';
+        techBox.innerHTML = `
+          <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b; display: flex; align-items: center; gap: 0.5rem;">
+            🛠️ Verified Rig-Fit Utility & Systems Check
+          </h3>
+          <p style="font-size: 0.9rem; color: #475569; margin: 0.4rem 0 0.8rem 0; line-height: 1.4;">
+            Ensure your rig is prepped for regional access roads, electrical grid demands, and water connections before arrival:
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.85rem; font-weight: bold;">
+            <a href="../g/rv-towing-routing.html" style="color: #0066cc; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
+              🚛 Clearance & Towing Guide →
+            </a>
+            <a href="../g/rv-electrical-power-management.html" style="color: #d97706; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
+              ⚡ Power & Surge Protection →
+            </a>
+            <a href="../g/rv-water-plumbing-management.html" style="color: #059669; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
+              💧 Water Pressure & Plumbing →
+            </a>
+          </div>
+        `;
+        approachSection.appendChild(techBox);
       }
 
       // 2. Populate Toad Unhook Strategy Section
@@ -171,9 +205,7 @@ function getDistanceInMiles(lat1, lon1, lat2, lon2) {
 }
 
 /**
- * Renders the 3 physically closest campgrounds with "miles away" badges
- * @param {Object} currentCampground - The currently displayed park object
- * @param {Array} allCampgrounds - Full list of campgrounds from campgrounds.json
+ * Renders the 2 physically closest campgrounds with "miles away" badges
  */
 function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
   const container = document.getElementById('related-campgrounds');
@@ -224,60 +256,3 @@ function renderRelatedCampgrounds(currentCampground, allCampgrounds) {
 
   container.classList.remove('hidden');
 }
-
-// Ensure Canonical Link points cleanly to HTTPS canonical URL
-let canonicalLink = document.querySelector("link[rel='canonical']");
-if (!canonicalLink) {
-  canonicalLink = document.createElement('link');
-  canonicalLink.setAttribute('rel', 'canonical');
-  document.head.appendChild(canonicalLink);
-}
-canonicalLink.setAttribute('href', `https://rigfitrv.com/c/${pageId}.html`);
-
-// Append technical pillar cross-links directly into the approach container
-const approachSection = document.getElementById('camp-approach-section');
-if (approachSection) {
-  const techLinkBlock = document.createElement('div');
-  techLinkBlock.className = 'tech-pillar-callout';
-  techLinkBlock.style.cssText = 'margin-top: 1rem; padding: 0.75rem; background: #f1f5f9; border-left: 4px solid #0066cc; border-radius: 0 4px 4px 0; font-size: 0.9rem;';
-  techLinkBlock.innerHTML = `
-    <strong>Planning Your Setup?</strong> Check our technical deep dives for 
-    <a href="../g/rv-towing-routing.html" style="color: #0066cc; font-weight: bold;">Towing Clearance</a>, 
-    <a href="../g/rv-electrical-power-management.html" style="color: #0066cc; font-weight: bold;">Electrical EMS Protection</a>, and 
-    <a href="../g/rv-water-plumbing-management.html" style="color: #0066cc; font-weight: bold;">Water Pressure Regulation</a>.
-  `;
-  approachSection.appendChild(techLinkBlock);
-}
-
-// Dynamic Technical Pillar Callout Injector
-document.addEventListener('DOMContentLoaded', () => {
-  const approachContainer = document.getElementById('camp-approach-section') || document.getElementById('camp-scorecard');
-  
-  if (approachContainer && !document.getElementById('tech-pillar-callout-box')) {
-    const techBox = document.createElement('div');
-    techBox.id = 'tech-pillar-callout-box';
-    techBox.style.cssText = 'margin: 1.5rem 0; padding: 1.25rem; background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #0066cc; border-radius: 6px;';
-    
-    techBox.innerHTML = `
-      <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b; display: flex; align-items: center; gap: 0.5rem;">
-        🛠️ Verified Rig-Fit Utility & Systems Check
-      </h3>
-      <p style="font-size: 0.9rem; color: #475569; margin: 0.4rem 0 0.8rem 0; line-height: 1.4;">
-        Ensure your rig is prepped for regional access roads, electrical grid demands, and water connections before arrival:
-      </p>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.85rem; font-weight: bold;">
-        <a href="../g/rv-towing-routing.html" style="color: #0066cc; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
-          🚛 Clearance & Towing Guide →
-        </a>
-        <a href="../g/rv-electrical-power-management.html" style="color: #d97706; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
-          ⚡ Power & Surge Protection →
-        </a>
-        <a href="../g/rv-water-plumbing-management.html" style="color: #059669; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
-          💧 Water Pressure & Plumbing →
-        </a>
-      </div>
-    `;
-    
-    approachContainer.parentNode.insertBefore(techBox, approachContainer.nextSibling);
-  }
-});
