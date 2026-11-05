@@ -1,5 +1,53 @@
 [
- 
+ {
+  "id": "pocono-vacation-park",
+  "name": "Pocono Vacation Park",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-05",
+  "state": "PA",
+  "city": "Stroudsburg",
+  "featured": true,
+  "lat": 40.979124,
+  "lng": -75.250632,
+  "image": "/images/pocono_vacation_park.jpg",
+  "mapImage": "/images/pocono_vacation_park_map.jpg",
+  "address": "110 Arnie Way, Stroudsburg, PA 18360",
+  "gps": "40.9791° N, 75.2506° W",
+  "phone": "+1 (570) 424-2587",
+  "website": "https://poconovacationpark.com/",
+  "summary": "A year-round Pocono mountain resort located just off the US-209/I-80 corridor, featuring full 30/50-amp hookup sites, outdoor pool, rec hall, and convenient proximity to regional shopping and attractions.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Select Pull-Through Sites)",
+    "toadFriendliness": "High (spacious office staging area off Arnie Way for unhooking)",
+    "treeClearance": "Main roadways clear; exercise standard caution on secondary loops",
+    "bestBigRigLoops": "Central Pull-Through Avenue Sites",
+    "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: US-209 / I-80 Corridor Access",
+    "text": "Accessed via I-80 taking Exit 302 to US-209 South / PA-33 South, connecting directly to Arnie Way. Arterial routing via US-209 avoids low-clearance municipal underpasses.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides reliable highway routing and warns of sharp roadway grade transitions in the Poconos."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the wide registration staging area off Arnie Way to unhook your towed vehicle before proceeding into the campsite loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Ensures precise visibility when backing into perimeter back-in campsites."
+    }
+  },
+  "content": {
+    "overview": "Pocono Vacation Park provides a convenient mountain camping base with full 30/50-amp utility hookups, swimming pool, recreation hall, and easy highway access to Delaware Water Gap recreation areas.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects against seasonal power fluctuations during peak vacation periods."
+    },
+    "loopC": "Central pull-through avenues accommodate large Class A motorhomes and fifth wheels with level gravel pads.",
+    "loopsAB": "Perimeter back-in sites offer natural shade and quiet mountain surroundings."
+  }
+},
  {
   "id": "kittatinny-river-beach",
   "name": "Kittatinny Canoes & Campground / River Beach",
