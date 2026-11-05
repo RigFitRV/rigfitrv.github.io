@@ -1,5 +1,54 @@
 [
  {
+  "id": "delaware-water-gap-koa",
+  "name": "Delaware Water Gap KOA Holiday",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-05",
+  "state": "PA",
+  "city": "East Stroudsburg",
+  "featured": true,
+  "lat": 41.049384,
+  "lng": -75.079351,
+  "image": "/images/delaware_water_gap_koa.jpg",
+  "mapImage": "/images/delaware_water_gap_koa_map.jpg",
+  "address": "227 Hollow Rd, East Stroudsburg, PA 18302",
+  "gps": "41.0494° N, 75.0794° W",
+  "phone": "+1 (570) 223-8000",
+  "website": "https://koa.com/campgrounds/delaware-water-gap/",
+  "summary": "A premier family resort located minutes from the Delaware Water Gap National Recreation Area, offering full 30/50-amp hookups, pull-through sites, swimming pool, and easy Appalachian Trail access.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Select Deluxe Pull-Through Sites)",
+    "toadFriendliness": "High (dedicated staging lanes off Hollow Road near main registration office)",
+    "treeClearance": "Main avenues well-trimmed for high-profile fifth wheels and motorhomes",
+    "bestBigRigLoops": "Main Patio Pull-Through Avenue Sites",
+    "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: Hollow Road Access",
+    "text": "Accessed via I-80 taking Exit 309 onto PA-447 North to US-209 North, turning onto Hollow Road directly to the resort entrance. Staying on US-209 bypasses tight borough lanes near the river.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Ensures direct arterial routing along state connectors and avoids rural bridge restrictions."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the wide staging lane at the main lodge/office off Hollow Road to unhook your toad before entering interior campsite loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential visibility when backing into terraced back-in loops."
+    }
+  },
+  "content": {
+    "overview": "Delaware Water Gap KOA Holiday provides a full-featured resort experience near the Delaware River. Features 30/50-amp full hookups, swimming pool, mini-golf, dog park, and rapid arterial access to regional hiking.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard RV electronics from regional power fluctuations during peak summer occupancy."
+    },
+    "loopC": "Main pull-through avenues accommodate large Class A motorhomes and fifth wheels with level concrete/gravel pads.",
+    "loopsAB": "Perimeter back-in sites offer natural shade and serene forest views."
+  }
+},
+ {
   "id": "hershey-park-camping-resort",
   "name": "Hershey Park Camping Resort",
   "ownertype": "Private Campground",
