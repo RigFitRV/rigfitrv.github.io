@@ -1,5 +1,18 @@
 [
   {
+  "id": "rv-water-plumbing-management",
+  "slug": "rv-water-plumbing-management",
+  "title": "RV Water & Plumbing Management Guide",
+  "subtitle": "Technical Guide to Water Pressure Regulation, PEX Lines, Filtration & Pump Systems",
+  "region": "Technical Pillars",
+  "state": "US",
+  "image": "/images/rv_water_plumbing_management.jpg",
+  "summary": "Technical guide to RV water pressure regulation, PEX piping thresholds, inline filtration, and fresh water pump maintenance.",
+  "description": "Technical guide to RV water pressure regulation, PEX piping thresholds, inline filtration, and fresh water pump maintenance.",
+  "featuredCampgroundIds": [],
+  "publishedDate": "2026-11-05"
+},
+  {
   "id": "delaware-water-gap-camping",
   "slug": "delaware-water-gap-camping",
   "title": "Delaware Water Gap PA & NJ Camping & RV Travel Guide",
