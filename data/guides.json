@@ -1,5 +1,27 @@
 [
   {
+  "id": "delaware-water-gap-camping",
+  "slug": "delaware-water-gap-camping",
+  "title": "Delaware Water Gap PA & NJ Camping & RV Travel Guide",
+  "subtitle": "Big-Rig Routing, I-80 & US-209 Clearance Audits, and Hand-Selected Campgrounds Across PA & NJ",
+  "region": "Delaware Water Gap",
+  "state": "PA/NJ",
+  "image": "/images/delaware_water_gap_camping.jpg",
+  "summary": "Local RV routing, mountain grade warnings, clearance audits, and top verified campgrounds in the Delaware Water Gap National Recreation Area and Pocono border region.",
+  "description": "Local RV routing, mountain grade warnings, clearance audits, and top verified campgrounds in the Delaware Water Gap National Recreation Area and Pocono border region.",
+  "featuredCampgroundIds": [
+    "driftstone-campground",
+    "triplebrook-rv-resort",
+    "dingmans-campground",
+    "harmony-ridge-campground",
+    "worthington-state-forest",
+    "delaware-water-gap-koa",
+    "kittatinny-river-beach",
+    "pocono-vacation-park"
+  ],
+  "publishedDate": "2026-11-05"
+},
+  {
   "id": "rv-electrical-power-management",
   "slug": "rv-electrical-power-management",
   "title": "RV Electrical & Power Management Guide",
