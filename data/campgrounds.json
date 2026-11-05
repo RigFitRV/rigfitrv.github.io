@@ -1,5 +1,54 @@
 [
  {
+  "id": "kittatinny-river-beach",
+  "name": "Kittatinny Canoes & Campground / River Beach",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-05",
+  "state": "PA",
+  "city": "Milford",
+  "featured": true,
+  "lat": 41.343073,
+  "lng": -74.761408,
+  "image": "/images/kittatinny_river_beach.jpg",
+  "mapImage": "/images/kittatinny_river_beach_map.jpg",
+  "address": "378 US-209, Milford, PA 18337",
+  "gps": "41.3431° N, 74.7614° W",
+  "phone": "+1 (845) 682-3539",
+  "website": "https://kittatinny.com/camping/river-beach-campground",
+  "summary": "A premier waterfront outpost situated on the Delaware River near Milford, featuring electric and water sites, direct river access for rafting and kayaking, and scenic cliffside views.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select Riverfront Electric/Water Sites)",
+    "toadFriendliness": "Moderate (unhook at main registration lot off US-209 before descending lower river loops)",
+    "treeClearance": "Moderate overhead clearance; maintain center lane positioning on access slopes",
+    "bestBigRigLoops": "Upper Level Electric Pull-Through Sites",
+    "bestSmallRigLoops": "Lower Riverbank Water & Electric Back-In Sites"
+  },
+  "approach": {
+    "title": "Approach & Routing Guidance: US-209 Delaware River Corridor Access",
+    "text": "Accessed via I-84 taking Exit 46 onto US-6 East/US-209 South directly into Milford, proceeding south along US-209. US-209 is a federal parkway with clear overhead clearances, though non-commercial RVs must maintain controlled speeds around tight river bends.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides direct arterial highway routing and warns of sharp river corridor grade transitions."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the main upper office parking lot off US-209 to register and unhook your towed vehicle before maneuvering down into the lower riverfront campsite loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Assists with tight line-of-sight backing into shaded riverbank campsites."
+    }
+  },
+  "content": {
+    "overview": "Kittatinny River Beach offers an outdoor recreation resort setting along the Upper Delaware River. Provides electric/water hookups, direct river launching for canoes, rafts, and kayaks, dual-level camping loops, and immediate access to regional hiking.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electronics from rural power grid fluctuations during peak weekend occupancy."
+    },
+    "loopC": "Upper level campsite loops feature wider turning radii suitable for mid-to-large motorhomes and travel trailers.",
+    "loopsAB": "Lower riverfront back-in loops sit directly on the riverbank under a mature hardwood canopy."
+  }
+},
+ {
   "id": "delaware-water-gap-koa",
   "name": "Delaware Water Gap KOA Holiday",
   "ownertype": "Private Campground",
