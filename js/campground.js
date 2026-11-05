@@ -233,3 +233,18 @@ if (!canonicalLink) {
   document.head.appendChild(canonicalLink);
 }
 canonicalLink.setAttribute('href', `https://rigfitrv.com/c/${pageId}.html`);
+
+// Append technical pillar cross-links directly into the approach container
+const approachSection = document.getElementById('camp-approach-section');
+if (approachSection) {
+  const techLinkBlock = document.createElement('div');
+  techLinkBlock.className = 'tech-pillar-callout';
+  techLinkBlock.style.cssText = 'margin-top: 1rem; padding: 0.75rem; background: #f1f5f9; border-left: 4px solid #0066cc; border-radius: 0 4px 4px 0; font-size: 0.9rem;';
+  techLinkBlock.innerHTML = `
+    <strong>Planning Your Setup?</strong> Check our technical deep dives for 
+    <a href="../g/rv-towing-routing.html" style="color: #0066cc; font-weight: bold;">Towing Clearance</a>, 
+    <a href="../g/rv-electrical-power-management.html" style="color: #0066cc; font-weight: bold;">Electrical EMS Protection</a>, and 
+    <a href="../g/rv-water-plumbing-management.html" style="color: #0066cc; font-weight: bold;">Water Pressure Regulation</a>.
+  `;
+  approachSection.appendChild(techLinkBlock);
+}
