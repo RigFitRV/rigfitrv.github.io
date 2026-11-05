@@ -79,26 +79,29 @@ document.addEventListener('DOMContentLoaded', () => {
           ${approachGearHtml}
         `;
 
-        // Inject Technical Pillar Callout directly into approach section after render
+       // Inject Technical Pillar Callout directly into approach section after render
         const techBox = document.createElement('div');
         techBox.id = 'tech-pillar-callout-box';
-        techBox.style.cssText = 'margin: 1.5rem 0; padding: 1.25rem; background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #0066cc; border-radius: 6px;';
+        techBox.style.cssText = 'margin: 1.5rem 0; padding: 1.25rem; background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #0284c7; border-radius: 6px;';
         techBox.innerHTML = `
-          <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b; display: flex; align-items: center; gap: 0.5rem;">
+          <h3 style="margin-top: 0; font-size: 1.1rem; color: #0f172a; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
             🛠️ Verified Rig-Fit Utility & Systems Check
           </h3>
-          <p style="font-size: 0.9rem; color: #475569; margin: 0.4rem 0 0.8rem 0; line-height: 1.4;">
+          <p style="font-size: 0.9rem; color: #475569; margin: 0 0 1rem 0; line-height: 1.4;">
             Ensure your rig is prepped for regional access roads, electrical grid demands, and water connections before arrival:
           </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.85rem; font-weight: bold;">
-            <a href="../g/rv-towing-routing.html" style="color: #0066cc; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
-              🚛 Clearance & Towing Guide →
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.75rem;">
+            <a href="../g/rv-towing-routing.html" style="text-decoration: none; background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; padding: 0.65rem 0.75rem; border-radius: 6px; font-size: 0.85rem; font-weight: bold; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+              <span>🚛 Clearance & Towing</span>
+              <span>→</span>
             </a>
-            <a href="../g/rv-electrical-power-management.html" style="color: #d97706; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
-              ⚡ Power & Surge Protection →
+            <a href="../g/rv-electrical-power-management.html" style="text-decoration: none; background: #fffbeb; border: 1px solid #fde68a; color: #b45309; padding: 0.65rem 0.75rem; border-radius: 6px; font-size: 0.85rem; font-weight: bold; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+              <span>⚡ Power & Surge</span>
+              <span>→</span>
             </a>
-            <a href="../g/rv-water-plumbing-management.html" style="color: #059669; text-decoration: none; background: #ffffff; border: 1px solid #cbd5e1; padding: 0.4rem 0.75rem; border-radius: 4px;">
-              💧 Water Pressure & Plumbing →
+            <a href="../g/rv-water-plumbing-management.html" style="text-decoration: none; background: #ecfdf5; border: 1px solid #a7f3d0; color: #047857; padding: 0.65rem 0.75rem; border-radius: 6px; font-size: 0.85rem; font-weight: bold; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+              <span>💧 Water & Pressure</span>
+              <span>→</span>
             </a>
           </div>
         `;
