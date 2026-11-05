@@ -27,7 +27,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Regional Travel Guides (6 total) -->
+  <!-- Regional Travel Guides (7 total) -->
+  <url>
+    <loc>https://rigfitrv.com/g/delaware-water-gap-camping.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://rigfitrv.com/g/hershey-brandywine-pa-camping.html</loc>
     <lastmod>2026-11-03</lastmod>
