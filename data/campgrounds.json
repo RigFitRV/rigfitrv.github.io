@@ -1,5 +1,54 @@
 [
  {
+  "id": "pocomoke-river-state-park-shad-landing",
+  "name": "Pocomoke River State Park - Shad Landing",
+  "ownertype": "State Park",
+  "addedDate": "2026-11-06",
+  "featured": true,
+  "address": "3461 Worcester Hwy, Snow Hill, MD 21863",
+  "city": "Snow Hill",
+  "state": "MD",
+  "lat": 38.129440,
+  "lng": -75.440830,
+  "gps": "38.129440, -75.440830",
+  "phone": "+14106322566",
+  "website": "https://dnr.maryland.gov/publiclands/pages/eastern/pocomokeriver.aspx",
+  "websiteLabel": "Pocomoke River State Park Website",
+  "image": "/images/pocomoke-river-state-park-shad-landing.jpg",
+  "mapImage": null,
+  "summary": "Verified RV clearance, routing guidance, and campground insights for Pocomoke River State Park - Shad Landing in Snow Hill, Maryland.",
+  "scorecard": {
+    "maxRigLength": "40 feet",
+    "toadFriendliness": "Moderate; unhooking at marina or check-in area recommended",
+    "treeClearance": "High overhanging branch warning throughout wooded loops",
+    "bestBigRigLoops": "Blue Heron & Robin’s Nest Electric Loops",
+    "bestSmallRigLoops": "Non-Electric Cypress & Waterfowl Loops"
+  },
+  "approach": {
+    "text": "Approaching via US-113 (Worcester Highway), access roads are clear and well-paved. The main entrance turning lane provides good sightlines, but watch for low-hanging branches as you transition onto internal park roads.",
+    "recommendedGear": {
+      "gearKey": "tire_pressure_monitoring_system",
+      "reason": "Monitors tire heat and pressure under sustained highway driving along US-113."
+    }
+  },
+  "content": {
+    "overview": "Pocomoke River State Park (Shad Landing) is nestled along the cypress-lined banks of the Pocomoke River. Featuring 170+ shaded campsites, electric hookups, a swimming pool, boat launch, and kayak rentals, it offers deep nature immersion near the Maryland coast.",
+    "recommendedGear": {
+      "gearKey": "heavy_duty_surge_protector",
+      "reason": "Protects your onboard electronics against electrical variations on state park grid connections."
+    },
+    "loopC": "Electric loops (Blue Heron and Robin's Nest) offer 30-amp power and back-in pads handling units up to 40 feet, though careful backing maneuvers around pine trees are required.",
+    "loopsAB": "Non-electric shaded interior loops feature tighter radius turns, lower overhead tree canopies, and are best suited for pop-ups, camper vans, and smaller travel trailers."
+  },
+  "toadStrategy": {
+    "text": "The main camp store and marina parking staging areas provide clear space to unhook towed vehicles before navigating tight wooded loop roads.",
+    "recommendedGear": {
+      "gearKey": "tow_bar_cover",
+      "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+    }
+  }
+},
+ {
   "id": "island-resort-campground",
   "name": "Island Resort Campground",
   "ownertype": "Private Campground",
