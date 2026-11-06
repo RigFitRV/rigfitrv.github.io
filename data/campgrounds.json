@@ -2277,7 +2277,7 @@
     "lat": 38.2375,
     "lng": -75.1372,
     "image": "/images/assateague_state_park.jpg",
-    "mapImage": "/images/assateague_state_park_map.jpg",
+    "mapImage": null,
     "address": "7307 Stephen Decatur Hwy, Berlin, MD 21811",
     "gps": "38.2375° N, 75.1372° W",
     "phone": "(410) 641-2120",
