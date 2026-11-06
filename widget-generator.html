@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embed Campground Scorecard Widget - RigFitRV</title>
+  <meta name="description" content="Generate a free embeddable RigFitRV clearance scorecard widget for your campground website.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TV8S962CRT');
+  </script>
+  <meta name="robots" content="noai, noimageai">
+</head>
+
+<body>
+
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('header.html')
+      .then(res => res.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  </script>
+
+  <div class="container" style="max-width: 800px; margin: 2rem auto; padding: 0 1rem;">
+    <div class="article-card" style="background: #ffffff; padding: 2rem; border-radius: 8px; border: 1px solid #cbd5e1;">
+      
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <span style="font-size: 0.8rem; font-weight: bold; color: #9333ea; text-transform: uppercase; letter-spacing: 0.05em;">Partner Program • Free Website Widget</span>
+        <h1 id="generator-title" style="margin: 0.4rem 0 0.5rem 0; font-size: 1.8rem; color: #0f172a;">RigFitRV Scorecard Widget Generator</h1>
+        <p style="color: #475569; font-size: 1rem; margin: 0;">
+          Boost camper confidence on your booking page by embedding your verified big-rig clearance and loop ratings.
+        </p>
+      </div>
+
+      <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 1.5rem 0;">
+
+      <!-- Live Widget Preview Area -->
+      <div style="margin-bottom: 2rem;">
+        <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.75rem;">👁️ Live Widget Preview:</h3>
+        <div id="widget-preview-container" style="border: 2px dashed #cbd5e1; padding: 1.5rem; border-radius: 8px; background: #f8fafc;">
+          <p style="color: #64748b; text-align: center; margin: 0;">Loading widget preview...</p>
+        </div>
+      </div>
+
+      <!-- Copy & Paste Code Box -->
+      <div style="margin-bottom: 1.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+          <h3 style="font-size: 1.1rem; color: #1e293b; margin: 0;">📋 Copy & Paste Code Snippet:</h3>
+          <button id="copy-btn" onclick="copyWidgetCode()" style="background: #2563eb; color: #fff; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.85rem; font-weight: bold; cursor: pointer;">
+            Copy Code to Clipboard
+          </button>
+        </div>
+        <textarea id="code-snippet-box" readonly style="width: 100%; height: 120px; font-family: monospace; font-size: 0.85rem; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #f1f5f9; resize: none;"></textarea>
+      </div>
+
+      <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 1rem; font-size: 0.9rem; color: #1e40af; line-height: 1.4;">
+        <strong>How it works:</strong> Paste this HTML snippet anywhere on your campground website (such as your rates or directions page). It displays live clearance data and provides a permanent, high-value backlink to your full guide on RigFitRV.
+      </div>
+
+    </div>
+  </div>
+
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('footer.html')
+      .then(res => res.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+
+  <!-- Widget Generator Logic Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const campId = urlParams.get('id');
+
+      if (!campId) {
+        document.getElementById('widget-preview-container').innerHTML = `
+          <p style="color: #dc2626; text-align: center; margin: 0;">No campground specified. Please visit a campground guide and click "Get the RigFitRV Scorecard Widget".</p>
+        `;
+        document.getElementById('code-snippet-box.value = ''');
+        return;
+      }
+
+      fetch('data/campgrounds.json')
+        .then(res => res.json())
+        .then(campgrounds => {
+          const camp = campgrounds.find(c => c.id === campId);
+          if (!camp) {
+            document.getElementById('widget-preview-container').innerHTML = '<p style="color: #dc2626; text-align: center;">Campground not found.</p>';
+            return;
+          }
+
+          document.getElementById('generator-title').textContent = `Embed Scorecard: ${camp.name}`;
+
+          // Generate HTML snippet for the widget
+          const widgetHtml = `<div class="rigfit-scorecard-widget" style="border: 1px solid #cbd5e1; border-radius: 8px; padding: 1.25rem; background: #ffffff; font-family: sans-serif; max-width: 320px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">
+    <strong style="font-size: 0.95rem; color: #0f172a;">🏕️ ${camp.name}</strong>
+    <span style="font-size: 0.7rem; background: #eff6ff; color: #1d4ed8; padding: 0.2rem 0.4rem; border-radius: 4px; font-weight: bold;">Verified Rig-Fit</span>
+  </div>
+  <ul style="margin: 0 0 1rem 0; padding-left: 1.2rem; font-size: 0.85rem; color: #334155; line-height: 1.5;">
+    <li><strong>Max Rig Length:</strong> ${camp.scorecard?.maxRigLength || 'N/A'}</li>
+    <li><strong>Toad Friendliness:</strong> ${camp.scorecard?.toadFriendliness || 'N/A'}</li>
+    <li><strong>Tree Clearance:</strong> ${camp.scorecard?.treeClearance || 'N/A'}</li>
+  </ul>
+  <a href="https://rigfitrv.com/c/${camp.id}.html" target="_blank" rel="noopener" style="display: block; text-align: center; background: #2563eb; color: #ffffff; padding: 0.5rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">View Full Rig-Fit Guide ↗</a>
+</div>`;
+
+          // Render live preview
+          document.getElementById('widget-preview-container').innerHTML = widgetHtml;
+
+          // Populate textarea box
+          document.getElementById('code-snippet-box').value = widgetHtml;
+        })
+        .catch(err => {
+          console.error('Error loading campground data:', err);
+          document.getElementById('widget-preview-container').innerHTML = '<p style="color: #dc2626; text-align: center;">Error loading widget generator data.</p>';
+        });
+    });
+
+    function copyWidgetCode() {
+      const textBox = document.getElementById('code-snippet-box');
+      textBox.select();
+      textBox.setSelectionRange(0, 99999); // For mobile devices
+      navigator.clipboard.writeText(textBox.value).then(() => {
+        const btn = document.getElementById('copy-btn');
+        btn.textContent = 'Copied Successfully! ✓';
+        btn.style.backgroundColor = '#059669';
+        setTimeout(() => {
+          btn.textContent = 'Copy Code to Clipboard';
+          btn.style.backgroundColor = '#2563eb';
+        }, 2500);
+      });
+    }
+  </script>
+</body>
+</html>
