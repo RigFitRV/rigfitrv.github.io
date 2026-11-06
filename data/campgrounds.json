@@ -1,5 +1,50 @@
 [
  {
+  "id": "fort-whaley-rv-resort",
+  "name": "Fort Whaley RV Resort & Campground",
+  "ownertype": "Private Campground",
+  "address": "11224 Dale Rd, Whaleyville, MD 21872",
+  "city": "Whaleyville",
+  "state": "MD",
+  "gps": "38.383991, -75.311697",
+  "phone": "+14106419785",
+  "website": "https://www.sunoutdoors.com/maryland/sun-outdoors-ocean-city-gateway",
+  "websiteLabel": "Sun Outdoors Ocean City Gateway (Fort Whaley) Website",
+  "image": "/images/fort-whaley-rv-resort.jpg",
+  "mapImage": "/images/fort-whaley-rv-resort-map.jpg",
+  "summary": "Verified RV clearance, routing guidance, and campground insights for Fort Whaley RV Resort & Campground in Whaleyville, Maryland.",
+  "scorecard": {
+    "maxRigLength": "45 feet",
+    "toadFriendliness": "Excellent on main entry lanes and pull-through pads",
+    "treeClearance": "Moderate overhanging branches on older wooded back-in loops",
+    "bestBigRigLoops": "Outer Pull-Through & Premium Hookup Sites",
+    "bestSmallRigLoops": "Wooded Back-In Canopy Loops"
+  },
+  "approach": {
+    "text": "Approaching from Route 50 and Dale Road, access roads are fully paved and wide enough for large Class A motorhomes and big fifth wheels. Watch for occasional slow-moving agricultural traffic along local rural connectors.",
+    "recommendedGear": {
+      "gearKey": "tire_pressure_monitoring_system",
+      "reason": "Monitors tire heat and pressure under sustained highway and secondary coastal road driving."
+    }
+  },
+  "content": {
+    "overview": "Fort Whaley RV Resort offers a peaceful, heavily wooded retreat situated just a short drive from the Ocean City and Assateague beaches. It features spacious full-hookup sites, a water park, mini-golf, and exceptional resort amenities.",
+    "recommendedGear": {
+      "gearKey": "heavy_duty_surge_protector",
+      "reason": "Protects your onboard electronics against power fluctuations during peak summer electrical demand."
+    },
+    "loopC": "Main pull-through lanes and premium sites feature wide turning radii, making them ideal for big rigs up to 45 feet without unhooking immediately.",
+    "loopsAB": "Older shaded back-in loops feature tight turns and a dense pine canopy. High-profile rigs should exercise caution regarding low-hanging branches."
+  },
+  "toadStrategy": {
+    "text": "The main check-in and wide pull-through staging areas provide plenty of room to disconnect your towed vehicle safely before navigating to back-in sites.",
+    "recommendedGear": {
+      "gearKey": "tow_bar_cover",
+      "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+    }
+  }
+},
+ {
   "id": "pocono-vacation-park",
   "name": "Pocono Vacation Park",
   "ownertype": "Private Campground",
