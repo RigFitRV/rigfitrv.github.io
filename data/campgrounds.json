@@ -1,5 +1,54 @@
 [
  {
+  "id": "pocomoke-river-state-park-milburn-landing",
+  "name": "Pocomoke River State Park - Milburn Landing",
+  "ownertype": "State Park",
+  "addedDate": "2026-11-06",
+  "featured": true,
+  "address": "3036 Nassawango Rd, Pocomoke City, MD 21851",
+  "city": "Pocomoke City",
+  "state": "MD",
+  "lat": 38.133178,
+  "lng": -75.498234,
+  "gps": "38.133178, -75.498234",
+  "phone": "+14106322566",
+  "website": "https://dnr.maryland.gov/publiclands/pages/eastern/pocomokeriver.aspx",
+  "websiteLabel": "Pocomoke River State Park Website",
+  "image": "/images/pocomoke-river-state-park-milburn-landing.jpg",
+  "mapImage": null,
+  "summary": "Verified RV clearance, routing guidance, and campground insights for Pocomoke River State Park - Milburn Landing in Pocomoke City, Maryland.",
+  "scorecard": {
+    "maxRigLength": "35 feet",
+    "toadFriendliness": "Moderate; unhooking at entry area recommended before loop navigation",
+    "treeClearance": "High overhanging branch warning throughout wooded loops",
+    "bestBigRigLoops": "Main Electric Loop Outer Back-In Pads",
+    "bestSmallRigLoops": "River-Adjacent Non-Electric Loops"
+  },
+  "approach": {
+    "text": "Approaching via Nassawango Road from local rural connectors, access roads feature a rustic, tree-lined asphalt layout. Watch for narrow shoulders and low-hanging tree branches when turning into the main park entrance.",
+    "recommendedGear": {
+      "gearKey": "tire_pressure_monitoring_system",
+      "reason": "Monitors tire heat and pressure under sustained secondary road driving."
+    }
+  },
+  "content": {
+    "overview": "Milburn Landing is the quieter sister property to Shad Landing, situated on the upper reaches of the Pocomoke River. It features shaded campsites, hiking trails, boat access, and an intimate wilderness atmosphere.",
+    "recommendedGear": {
+      "gearKey": "heavy_duty_surge_protector",
+      "reason": "Protects your onboard electronics against power fluctuations on park electrical pedestals."
+    },
+    "loopC": "The main electric loop offers back-in pads accommodating rigs up to 35 feet, though tight corner turning radii require careful maneuvering around mature pines.",
+    "loopsAB": "Non-electric river loops provide a rustic camping experience best suited for tent campers, camper vans, and smaller travel trailers."
+  },
+  "toadStrategy": {
+    "text": "The main entrance parking apron provides convenient staging space to drop towed vehicles or bikes before navigating into the tight tree canopy of the camping loops.",
+    "recommendedGear": {
+      "gearKey": "tow_bar_cover",
+      "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+    }
+  }
+}
+ {
   "id": "pocomoke-river-state-park-shad-landing",
   "name": "Pocomoke River State Park - Shad Landing",
   "ownertype": "State Park",
