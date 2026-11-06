@@ -1,5 +1,54 @@
 [
  {
+  "id": "island-resort-campground",
+  "name": "Island Resort Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-06",
+  "featured": true,
+  "address": "9537 Croppers Island Rd, Newark, MD 21841",
+  "city": "Newark",
+  "state": "MD",
+  "lat": 38.253827,
+  "lng": -75.241615,
+  "gps": "38.253827, -75.241615",
+  "phone": "+14106419838",
+  "website": "http://www.islandresort.org/",
+  "websiteLabel": "Island Resort Campground Website",
+  "image": "/images/island-resort-campground.jpg",
+  "mapImage": "/images/island-resort-campground-map.jpg",
+  "summary": "Verified RV clearance, routing guidance, and campground insights for Island Resort Campground in Newark, Maryland.",
+  "scorecard": {
+    "maxRigLength": "45 feet",
+    "toadFriendliness": "Excellent on wide 49' x 85' site footprints",
+    "treeClearance": "Low overhanging branches; open sky along lakefront sites",
+    "bestBigRigLoops": "Lakefront Ring & Central Pull-Through Sites",
+    "bestSmallRigLoops": "Off-Lake Interior Back-In Sites"
+  },
+  "approach": {
+    "text": "Approaching via Route 113 to SR 374 and Croppers Island Road, access routes are well-paved rural highways. Exercise standard care on two-lane rural connectors when passing oncoming wide loads or farm machinery.",
+    "recommendedGear": {
+      "gearKey": "tire_pressure_monitoring_system",
+      "reason": "Monitors tire heat and pressure under sustained highway and secondary coastal road driving."
+    }
+  },
+  "content": {
+    "overview": "Island Resort Campground is a tranquil, family-owned waterfront park situated around two lakes near Ocean City and Assateague Island. Featuring large 49' x 85' full-hookup sites, 50-amp power, and catch-and-release fishing, it offers a peaceful coastal retreat.",
+    "recommendedGear": {
+      "gearKey": "heavy_duty_surge_protector",
+      "reason": "Protects your onboard electronics against power fluctuations during peak summer electrical demand."
+    },
+    "loopC": "Lakefront pull-throughs and waterfront perimeter sites offer clear overhead clearance and generous 85-foot site lengths suitable for big rigs up to 45 feet.",
+    "loopsAB": "Off-lake interior back-in sites provide level, wide pads (49' x 85') with full 20/30/50 amp hookups suitable for mid-sized travel trailers and smaller rigs."
+  },
+  "toadStrategy": {
+    "text": "Generous pad depths mean unhooking a towed vehicle can be done cleanly right at your site without blocking main campground thoroughfares.",
+    "recommendedGear": {
+      "gearKey": "tow_bar_cover",
+      "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+    }
+  }
+},
+ {
   "id": "fort-whaley-rv-resort",
   "name": "Fort Whaley RV Resort & Campground",
   "ownertype": "Private Campground",
