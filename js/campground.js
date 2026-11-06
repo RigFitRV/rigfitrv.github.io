@@ -53,6 +53,23 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
+      // RENDER "CLAIM YOUR SCORECARD" WIDGET PROMO LINK
+      const parentCard = document.querySelector('.article-card');
+      if (parentCard) {
+        const widgetPromo = document.createElement('div');
+        widgetPromo.style.cssText = 'margin: 2rem 0; padding: 1.25rem; background-color: #fdf4ff; border: 1px solid #f0abfc; border-radius: 8px; text-align: center;';
+        widgetPromo.innerHTML = `
+          <h4 style="margin: 0 0 0.5rem 0; color: #86198f; font-size: 1.05rem;">🏕️ Own or Manage This Campground?</h4>
+          <p style="font-size: 0.9rem; color: #4a5568; margin: 0 0 0.75rem 0;">
+            Display your official RigFitRV clearance scorecard and loop ratings directly on your own website!
+          </p>
+          <a href="../widget-generator.html?id=${pageId}" class="btn" style="display: inline-block; background: #9333ea; color: #ffffff; padding: 0.6rem 1.25rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: bold;">
+            Get the RigFitRV Scorecard Widget for Your Website →
+          </a>
+        `;
+        parentCard.appendChild(widgetPromo);
+      }
+
       // Reusable Affiliate Box Generator Helper
       function createAffiliateBox(recommendedGearObj) {
         if (!recommendedGearObj || !recommendedGearObj.gearKey) return '';
