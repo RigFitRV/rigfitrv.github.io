@@ -1068,7 +1068,7 @@
     }
   },
   "content": {
-    "overview": "Mongaup Pond Campground offers an authentic Catskill forest preserve setting centered around a 120-acre lake. Facilities include dry camping sites, a swimming beach, canoe rentals, and hiking trailheads.",
+    "overview": "Mongaup Pond Campground offers an authentic Catskill forest preserve setting centered around a 120-acre lake. Facilities include dry camping sites, a swimming beach, canoe rentals, and hiking s.",
     "recommendedGear": {
       "gearKey": "portable-power-station",
       "reason": "Essential for maintaining house battery power while dry camping at NYS DEC non-hookup sites."
@@ -3409,9 +3409,9 @@
     "image": "/images/trailhead.jpg",
     "mapImage": null,
     "address": "100 AOAA Trailhead Rd, Coal Township, PA 17866",
-    "gps": "40.7812° N, 76.5415° W",
+    "gps": "40.7654° N, 76.5410° W",
     "phone": "(570) 648-2622",
-    "website": "https://www.aoaatrails.com",
+    "website": "https://www.trailheadcampground.com/",
     "summary": "Dedicated off-road park campground near AOAA in Coal Township, PA. Ground-truth approach warnings for steep mountain hairpin climbs vs. tight city street maneuvers through historic Shamokin.",
     "scorecard": {
       "maxRigLength": "Up to 45 ft+ (Toy Hauler & Heavy Trailer Friendly)",
@@ -3424,6 +3424,7 @@
       "title": "Dual Approach Route Warning: Steep Hairpin vs. Shamokin City Streets",
       "text": "CRITICAL ROUTING WARNING: Approaching from the south involves a steep mountain climb featuring a sharp hairpin turn—maintain momentum and check trailer brake bias before climbing. Approaching from the north/west forces big rigs through historic Shamokin, PA, which features narrow, densely packed city streets, tight 90-degree intersections, and low street trees. Heavy toy haulers and long rigs should exercise extreme caution.",
       "recommendedGear": {
+        "gearKey": "garmin-rv-890",
         "title": "Recommended Rig Routing Gear",
         "productName": "Garmin RV 890 GPS Navigator",
         "reason": "Essential for setting custom rig dimensions and weight limits when navigating tight mountain grades and historic Coal Region town roads.",
@@ -3434,15 +3435,16 @@
     "content": {
       "overview": "Trailhead Campground in Coal Township, PA, serves as the premier basecamp for off-road enthusiasts visiting the Anthracite Outdoor Adventure Area (AOAA). Designed specifically for toy haulers, heavy trailers, and big rigs, our guide outlines critical mountain route warnings...",
       "recommendedGear": {
-        "title": "Recommended Campsite Leveling Gear",
-        "productName": "Camco Heavy Duty Curved Leveler Ramps",
-        "reason": "Provides fast, sturdy leveling on coarse mountain gravel pads.",
-        "affiliateUrl": "https://link.amazon/B0cqZSzRf"
+        "gearKey": "heavy-duty-surge-protector",
+        "title": "Recommended Power Protection",
+        "productName": "Progressive Industries RV Surge Protector (30/50 Amp)",
+        "reason": "Protects sensitive onboard appliances against voltage fluctuations during high-draw cooling periods.",
+        "affiliateUrl": "https://link.amazon/B0aj4VnrI"
       },
       "loopC": "The main RV rows feature expansive, deep pull-through and back-in gravel pads with wide turn radiuses built specifically for long truck-and-trailer combinations.",
       "loopsAB": "Perimeter sites offer open-sky views with plenty of space to park side-by-sides, ATVs, and tow vehicles alongside your rig."
     }
-  },
+},
  {
     "id": "western-village-rv-park",
     "name": "Western Village RV Park",
