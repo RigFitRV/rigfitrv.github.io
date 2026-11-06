@@ -11,12 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   canonicalLink.setAttribute('href', `https://rigfitrv.com/c/${pageId}.html`);
 
-  // Fetch both campgrounds and the central products catalog simultaneously
+  // Fetch campgrounds, products catalog, and guides registry simultaneously
   Promise.all([
     fetch('../data/campgrounds.json').then(res => res.json()),
-    fetch('../data/products.json').then(res => res.json())
+    fetch('../data/products.json').then(res => res.json()),
+    fetch('../data/guides.json').then(res => res.json()).catch(() => [])
   ])
-    .then(([campgrounds, productsCatalog]) => {
+    .then(([campgrounds, productsCatalog, guidesList]) => {
       const data = campgrounds.find(c => c.id === pageId);
       if (!data) return;
 
@@ -141,6 +142,39 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${data.mapImage}" alt="${data.name} Map" style="width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 1rem;">
           ` : ''}
         `;
+      }
+
+      // DYNAMICALLY FIND & RENDER GUIDES FEATURING THIS CAMPGROUND
+      if (guidesList && guidesList.length > 0) {
+        const featuredGuides = guidesList.filter(guide => 
+          guide.featuredCampgroundIds && guide.featuredCampgroundIds.includes(pageId)
+        );
+
+        if (featuredGuides.length > 0) {
+          const parentCard = document.querySelector('.article-card');
+          if (parentCard) {
+            const guideSection = document.createElement('div');
+            guideSection.style.cssText = 'margin: 2rem 0; padding: 1.25rem; background-color: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px;';
+            
+            guideSection.innerHTML = `
+              <h3 style="margin-top: 0; font-size: 1.1rem; color: #0369a1; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                🗺️ Featured in Regional Travel Guides
+              </h3>
+              <p style="font-size: 0.9rem; color: #334155; margin: 0 0 1rem 0; line-height: 1.4;">
+                This campground is featured in our curated regional travel and routing guides:
+              </p>
+              <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                ${featuredGuides.map(guide => `
+                  <a href="../g/${guide.slug}.html" style="text-decoration: none; background: #ffffff; border: 1px solid #e0f2fe; color: #0284c7; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.9rem; font-weight: bold; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 2px rgba(0,0,0,0.02); transition: background 0.2s;">
+                    <span>📍 ${guide.title}</span>
+                    <span style="font-size: 0.8rem; color: #64748b;">View Regional Guide →</span>
+                  </a>
+                `).join('')}
+              </div>
+            `;
+            parentCard.appendChild(guideSection);
+          }
+        }
       }
 
       // INJECT JSON-LD SCHEMA FOR GOOGLE RICH RESULTS
