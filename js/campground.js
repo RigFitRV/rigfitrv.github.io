@@ -139,41 +139,44 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
-      // 4. DYNAMICALLY FIND & RENDER GUIDES FEATURING THIS CAMPGROUND
+      // 4. UNIFIED BOTTOM FOOTER CONTAINER (Guides & Widget Promo grouped cleanly)
       const parentCard = document.querySelector('.article-card');
-      if (parentCard && guidesList && guidesList.length > 0) {
-        const featuredGuides = guidesList.filter(guide => 
-          guide.featuredCampgroundIds && guide.featuredCampgroundIds.includes(pageId)
-        );
-
-        if (featuredGuides.length > 0) {
-          const guideSection = document.createElement('div');
-          guideSection.style.cssText = 'margin: 1.5rem 0; padding: 1.15rem; background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #0ea5e9; border-radius: 6px;';
-          
-          guideSection.innerHTML = `
-            <h3 style="margin-top: 0; font-size: 1.05rem; color: #0f172a; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
-              🗺️ Featured in Regional Travel Guides
-            </h3>
-            <p style="font-size: 0.88rem; color: #475569; margin: 0 0 0.85rem 0; line-height: 1.4;">
-              This campground is featured in our curated regional travel and routing guides:
-            </p>
-            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-              ${featuredGuides.map(guide => `
-                <a href="../g/${guide.slug}.html" style="text-decoration: none; background: #ffffff; border: 1px solid #e2e8f0; color: #0284c7; padding: 0.65rem 0.85rem; border-radius: 6px; font-size: 0.88rem; font-weight: bold; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s;">
-                  <span>📍 ${guide.title}</span>
-                  <span style="font-size: 0.78rem; color: #64748b;">View Guide →</span>
-                </a>
-              `).join('')}
-            </div>
-          `;
-          parentCard.appendChild(guideSection);
-        }
-      }
-
-      // 5. RENDER "CLAIM YOUR SCORECARD" WIDGET PROMO (Clean, unified slate & purple border styling)
       if (parentCard) {
+        const bottomContainer = document.createElement('div');
+        bottomContainer.style.cssText = 'margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;';
+
+        // Regional Travel Guides Sub-Block
+        if (guidesList && guidesList.length > 0) {
+          const featuredGuides = guidesList.filter(guide => 
+            guide.featuredCampgroundIds && guide.featuredCampgroundIds.includes(pageId)
+          );
+
+          if (featuredGuides.length > 0) {
+            const guideBox = document.createElement('div');
+            guideBox.style.cssText = 'padding: 1.15rem; background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #0ea5e9; border-radius: 6px;';
+            guideBox.innerHTML = `
+              <h3 style="margin-top: 0; font-size: 1.05rem; color: #0f172a; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
+                🗺️ Featured in Regional Travel Guides
+              </h3>
+              <p style="font-size: 0.88rem; color: #475569; margin: 0 0 0.85rem 0; line-height: 1.4;">
+                This campground is featured in our curated regional travel and routing guides:
+              </p>
+              <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                ${featuredGuides.map(guide => `
+                  <a href="../g/${guide.slug}.html" style="text-decoration: none; background: #ffffff; border: 1px solid #e2e8f0; color: #0284c7; padding: 0.65rem 0.85rem; border-radius: 6px; font-size: 0.88rem; font-weight: bold; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s;">
+                    <span>📍 ${guide.title}</span>
+                    <span style="font-size: 0.78rem; color: #64748b;">View Guide →</span>
+                  </a>
+                `).join('')}
+              </div>
+            `;
+            bottomContainer.appendChild(guideBox);
+          }
+        }
+
+        // Widget Generator Promo Sub-Block
         const widgetPromo = document.createElement('div');
-        widgetPromo.style.cssText = 'margin: 1.5rem 0; padding: 1.25rem; background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #9333ea; border-radius: 6px; text-align: left; display: flex; flex-direction: column; gap: 0.75rem;';
+        widgetPromo.style.cssText = 'padding: 1.25rem; background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #9333ea; border-radius: 6px; display: flex; flex-direction: column; gap: 0.75rem;';
         widgetPromo.innerHTML = `
           <div>
             <h4 style="margin: 0 0 0.25rem 0; color: #0f172a; font-size: 1.05rem; display: flex; align-items: center; gap: 0.5rem;">
@@ -189,7 +192,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </a>
           </div>
         `;
-        parentCard.appendChild(widgetPromo);
+        bottomContainer.appendChild(widgetPromo);
+
+        parentCard.appendChild(bottomContainer);
       }
 
       // INJECT JSON-LD SCHEMA FOR GOOGLE RICH RESULTS
