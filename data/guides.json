@@ -1,5 +1,23 @@
 [
   {
+  "id": "south-maryland-waterfront-camping",
+  "slug": "south-maryland-waterfront-camping",
+  "title": "Ocean City & Assateague MD RV Camping Guide: Best Waterfront Parks & Routing",
+  "subtitle": "Complete Coastal Big Rig Navigation, Oceanfront State Parks & Bayfront RV Resorts",
+  "region": "Ocean City & Assateague Waterfront",
+  "state": "MD",
+  "image": "/images/ocean-city-md-rv-guide.jpg",
+  "summary": "Verified RV clearance, highway routing strategies, and campground audits for Ocean City, Assateague Island, Berlin, and Newark, Maryland.",
+  "featuredCampgroundIds": [
+    "fort-whaley-rv-resort",
+    "assateague-state-park",
+    "sun-outdoors-ocean-city",
+    "sun-outdoors-frontier-town",
+    "island-resort-campground"
+  ],
+  "publishedDate": "2026-11-06"
+},
+  {
   "id": "rv-water-plumbing-management",
   "slug": "rv-water-plumbing-management",
   "title": "RV Water & Plumbing Management Guide",
