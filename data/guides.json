@@ -1,5 +1,24 @@
 [
   {
+    "id": "chesapeake-bay-maryland-camping",
+    "slug": "chesapeake-bay-maryland-camping",
+    "title": "Chesapeake Bay & Maryland Waterfront RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
+    "subtitle": "Complete Big Rig Navigation, Coastal State Parks & Eastern Shore Waterfront Resorts",
+    "region": "Maryland Chesapeake Bay",
+    "state": "MD",
+    "lat": 38.5892,
+    "lng": -76.4037,
+    "image": "/images/chesapeake-bay-camping.jpg",
+    "summary": "Expert RV camping guide for Maryland's Chesapeake Bay and Eastern Shore. Verified big-rig clearances, coastal routing strategies, and waterfront campground reviews.",
+    "featuredCampgroundIds": [
+      "point-lookout-state-park",
+      "elk-neck-state-park",
+      "bay-shore-campground-rock-hall",
+      "janes-island-state-park"
+    ],
+    "publishedDate": "2026-11-09"
+  },
+  {
   "id": "south-maryland-waterfront-camping",
   "slug": "south-maryland-waterfront-camping",
   "title": "Ocean City & Assateague MD RV Camping Guide: Best Waterfront Parks & Routing",
