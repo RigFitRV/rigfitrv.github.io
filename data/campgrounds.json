@@ -27,14 +27,14 @@
   "approach": {
     "text": "Approaching via Route 273 and Turkey Point Road (MD-272) south of North East, MD, then turning onto Campground Rd. Roads are paved and two-lane, but expect rolling hills and tightening tree lines as you near the park boundary.",
     "recommendedGear": {
-      "gearKey": "dash_cam",
+      "gearKey": "rv-dash-cam-backup-camera",
       "reason": "Provides security and clarity on narrow, tree-lined coastal access roads."
     }
   },
   "content": {
     "overview": "Elk Neck spans over 2,000 acres featuring sandy beaches, clay cliffs, marshlands, and the historic Turkey Point Lighthouse. Its multiple camping loops offer varied layouts ranging from rustic tent areas to full-hookup big-rig sites.",
     "recommendedGear": {
-      "gearKey": "heavy_duty_surge_protector",
+      "gearKey": "heavy-duty-surge-protector",
       "reason": "Protects sensitive onboard electronics against voltage sags on busy state park loops."
     },
     "loopNortheast": "The Northeast Loop is the premier choice for large motorhomes and fifth wheels, offering 28 full-hookup sites with wide pads.",
@@ -43,7 +43,7 @@
   "toadStrategy": {
     "text": "The main campground registration area along Campground Rd features a wide paved turnout area ideal for pulling over to unhook towed vehicles before heading into your assigned loop.",
     "recommendedGear": {
-      "gearKey": "tow_bar_cover",
+      "gearKey": "blue-ox-tow-bar",
       "reason": "Keeps road spray and grit out of your tow bar joints during transit."
     }
   }
@@ -76,14 +76,14 @@
   "approach": {
     "text": "Approaching via Route 5 South down the St. Mary's peninsula, the highway is wide and well-paved. Watch for sudden coastal crosswinds near the causeway and bridge approaches leading into the park.",
     "recommendedGear": {
-      "gearKey": "tire_pressure_monitoring_system",
+      "gearKey": "rv-tpms-system",
       "reason": "Monitors tire temps during long stretches of coastal highway driving."
     }
   },
   "content": {
     "overview": "Point Lookout offers historic grounds, a Civil War museum, and stunning waterfront camping where the Potomac River meets the Chesapeake Bay. Five separate camping loops provide electric and water options.",
     "recommendedGear": {
-      "gearKey": "heavy_duty_surge_protector",
+      "gearKey": "heavy-duty-surge-protector",
       "reason": "Essential protection against shore power fluctuations at state park pedestals."
     },
     "loopC": "The electric loops feature spacious back-in pads that comfortably handle rigs up to 40 feet with easy access to modern bathhouses.",
@@ -92,7 +92,7 @@
   "toadStrategy": {
     "text": "The main park entrance road provides wide turnout shoulders to pause and unhook towed vehicles before proceeding into the specific camping loops.",
     "recommendedGear": {
-      "gearKey": "tow_bar_cover",
+      "gearKey": "blue-ox-tow-bar",
       "reason": "Protects your tow bar components from salt air and coastal road grime."
     }
   }
@@ -125,14 +125,14 @@
   "approach": {
     "text": "Approaching via Nassawango Road from local rural connectors, access roads feature a rustic, tree-lined asphalt layout. Watch for narrow shoulders and low-hanging tree branches when turning into the main park entrance.",
     "recommendedGear": {
-      "gearKey": "tire_pressure_monitoring_system",
+      "gearKey": "rv-tpms-system",
       "reason": "Monitors tire heat and pressure under sustained secondary road driving."
     }
   },
   "content": {
     "overview": "Milburn Landing is the quieter sister property to Shad Landing, situated on the upper reaches of the Pocomoke River. It features shaded campsites, hiking trails, boat access, and an intimate wilderness atmosphere.",
     "recommendedGear": {
-      "gearKey": "heavy_duty_surge_protector",
+      "gearKey": "heavy-duty-surge-protector",
       "reason": "Protects your onboard electronics against power fluctuations on park electrical pedestals."
     },
     "loopC": "The main electric loop offers back-in pads accommodating rigs up to 35 feet, though tight corner turning radii require careful maneuvering around mature pines.",
@@ -141,7 +141,7 @@
   "toadStrategy": {
     "text": "The main entrance parking apron provides convenient staging space to drop towed vehicles or bikes before navigating into the tight tree canopy of the camping loops.",
     "recommendedGear": {
-      "gearKey": "tow_bar_cover",
+      "gearKey": "blue-ox-tow-bar",
       "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
     }
   }
@@ -174,14 +174,14 @@
   "approach": {
     "text": "Approaching via US-113 (Worcester Highway), access roads are clear and well-paved. The main entrance turning lane provides good sightlines, but watch for low-hanging branches as you transition onto internal park roads.",
     "recommendedGear": {
-      "gearKey": "tire_pressure_monitoring_system",
+      "gearKey": "rv-tpms-system",
       "reason": "Monitors tire heat and pressure under sustained highway driving along US-113."
     }
   },
   "content": {
     "overview": "Pocomoke River State Park (Shad Landing) is nestled along the cypress-lined banks of the Pocomoke River. Featuring 170+ shaded campsites, electric hookups, a swimming pool, boat launch, and kayak rentals, it offers deep nature immersion near the Maryland coast.",
     "recommendedGear": {
-      "gearKey": "heavy_duty_surge_protector",
+      "gearKey": "heavy-duty-surge-protector",
       "reason": "Protects your onboard electronics against electrical variations on state park grid connections."
     },
     "loopC": "Electric loops (Blue Heron and Robin's Nest) offer 30-amp power and back-in pads handling units up to 40 feet, though careful backing maneuvers around pine trees are required.",
@@ -190,7 +190,7 @@
   "toadStrategy": {
     "text": "The main camp store and marina parking staging areas provide clear space to unhook towed vehicles before navigating tight wooded loop roads.",
     "recommendedGear": {
-      "gearKey": "tow_bar_cover",
+      "gearKey": "blue-ox-tow-bar",
       "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
     }
   }
@@ -223,14 +223,14 @@
   "approach": {
     "text": "Approaching via Route 113 to SR 374 and Croppers Island Road, access routes are well-paved rural highways. Exercise standard care on two-lane rural connectors when passing oncoming wide loads or farm machinery.",
     "recommendedGear": {
-      "gearKey": "tire_pressure_monitoring_system",
+      "gearKey": "rv-tpms-system",
       "reason": "Monitors tire heat and pressure under sustained highway and secondary coastal road driving."
     }
   },
   "content": {
     "overview": "Island Resort Campground is a tranquil, family-owned waterfront park situated around two lakes near Ocean City and Assateague Island. Featuring large 49' x 85' full-hookup sites, 50-amp power, and catch-and-release fishing, it offers a peaceful coastal retreat.",
     "recommendedGear": {
-      "gearKey": "heavy_duty_surge_protector",
+      "gearKey": "heavy-duty-surge-protector",
       "reason": "Protects your onboard electronics against power fluctuations during peak summer electrical demand."
     },
     "loopC": "Lakefront pull-throughs and waterfront perimeter sites offer clear overhead clearance and generous 85-foot site lengths suitable for big rigs up to 45 feet.",
@@ -239,7 +239,7 @@
   "toadStrategy": {
     "text": "Generous pad depths mean unhooking a towed vehicle can be done cleanly right at your site without blocking main campground thoroughfares.",
     "recommendedGear": {
-      "gearKey": "tow_bar_cover",
+      "gearKey": "blue-ox-tow-bar",
       "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
     }
   }
@@ -272,14 +272,14 @@
   "approach": {
     "text": "Approaching from Route 50 and Dale Road, access roads are fully paved and wide enough for large Class A motorhomes and big fifth wheels. Watch for occasional slow-moving agricultural traffic along local rural connectors.",
     "recommendedGear": {
-      "gearKey": "tire_pressure_monitoring_system",
+      "gearKey": "rv-tpms-system",
       "reason": "Monitors tire heat and pressure under sustained highway and secondary coastal road driving."
     }
   },
   "content": {
     "overview": "Fort Whaley RV Resort offers a peaceful, heavily wooded retreat situated just a short drive from the Ocean City and Assateague beaches. It features spacious full-hookup sites, a water park, mini-golf, and exceptional resort amenities.",
     "recommendedGear": {
-      "gearKey": "heavy_duty_surge_protector",
+      "gearKey": "heavy-duty-surge-protector",
       "reason": "Protects your onboard electronics against power fluctuations during peak summer electrical demand."
     },
     "loopC": "Main pull-through lanes and premium sites feature wide turning radii, making them ideal for big rigs up to 45 feet without unhooking immediately.",
@@ -288,7 +288,7 @@
   "toadStrategy": {
     "text": "The main check-in and wide pull-through staging areas provide plenty of room to disconnect your towed vehicle safely before navigating to back-in sites.",
     "recommendedGear": {
-      "gearKey": "tow_bar_cover",
+      "gearKey": "blue-ox-tow-bar",
       "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
     }
   }
