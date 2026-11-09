@@ -1,5 +1,53 @@
 [
- 
+ {
+  "id": "point-lookout-state-park",
+  "name": "Point Lookout State Park",
+  "ownertype": "State Park",
+  "addedDate": "2026-11-09",
+  "featured": true,
+  "address": "11175 Point Lookout Rd, Scotland, MD 20687",
+  "city": "Scotland",
+  "state": "MD",
+  "lat": 38.0644,
+  "lng": -76.3357,
+  "gps": "38.0644, -76.3357",
+  "phone": "+13018725688",
+  "website": "https://dnr.maryland.gov/publiclands/pages/southern/pointlookout.aspx",
+  "websiteLabel": "Point Lookout State Park Website",
+  "image": "/images/point-lookout-state-park.jpg",
+  "mapImage": null,
+  "summary": "Verified RV clearance, coastal routing guidance, and campground insights for Point Lookout State Park situated at the confluence of the Chesapeake Bay and Potomac River.",
+  "scorecard": {
+    "maxRigLength": "40 feet",
+    "toadFriendliness": "Good; wide access roads with straightforward staging areas",
+    "treeClearance": "Moderate coastal canopy; watch for low branches on older loop entries",
+    "bestBigRigLoops": "Central Electric Loops",
+    "bestSmallRigLoops": "Lake Conoy Water-Edge Loops"
+  },
+  "approach": {
+    "text": "Approaching via Route 5 South down the St. Mary's peninsula, the highway is wide and well-paved. Watch for sudden coastal crosswinds near the causeway and bridge approaches leading into the park.",
+    "recommendedGear": {
+      "gearKey": "tire_pressure_monitoring_system",
+      "reason": "Monitors tire temps during long stretches of coastal highway driving."
+    }
+  },
+  "content": {
+    "overview": "Point Lookout offers historic grounds, a Civil War museum, and stunning waterfront camping where the Potomac River meets the Chesapeake Bay. Five separate camping loops provide electric and water options.",
+    "recommendedGear": {
+      "gearKey": "heavy_duty_surge_protector",
+      "reason": "Essential protection against shore power fluctuations at state park pedestals."
+    },
+    "loopC": "The electric loops feature spacious back-in pads that comfortably handle rigs up to 40 feet with easy access to modern bathhouses.",
+    "loopsAB": "Lake Conoy loops offer scenic water-edge vistas, best suited for smaller travel trailers, camper vans, and pop-ups."
+  },
+  "toadStrategy": {
+    "text": "The main park entrance road provides wide turnout shoulders to pause and unhook towed vehicles before proceeding into the specific camping loops.",
+    "recommendedGear": {
+      "gearKey": "tow_bar_cover",
+      "reason": "Protects your tow bar components from salt air and coastal road grime."
+    }
+  }
+},
  {
   "id": "pocomoke-river-state-park-milburn-landing",
   "name": "Pocomoke River State Park - Milburn Landing",
