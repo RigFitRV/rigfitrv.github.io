@@ -37,8 +37,8 @@
       "gearKey": "heavy-duty-surge-protector",
       "reason": "Safeguards electrical systems against fluctuations on 30/50 amp pedestals."
     },
-    "loopWaterfront": "The premier waterfront sites sit right against the bay shore, providing unobstructed views and easy access to cooling coastal breezes.",
-    "loopPullThrough": "The interior layout features large pull-through sites equipped with 30 and 50 amp service, making setup straightforward for big rigs."
+    "loopC": "The premier waterfront sites sit right against the bay shore, providing unobstructed views and easy access to cooling coastal breezes.",
+    "loopsAB": "The interior layout features large pull-through sites equipped with 30 and 50 amp service, making setup straightforward for big rigs."
   },
   "toadStrategy": {
     "text": "The main entrance area provides wide maneuvering space near the office, allowing you to unhook your towed vehicle comfortably before rolling into your site.",
@@ -86,8 +86,8 @@
       "gearKey": "heavy-duty-surge-protector",
       "reason": "Protects sensitive onboard electronics against voltage sags on busy state park loops."
     },
-    "loopNortheast": "The Northeast Loop is the premier choice for large motorhomes and fifth wheels, offering 28 full-hookup sites with wide pads.",
-    "loopChester": "The Chester Loop provides 19 electric-only sites with convenient access to modern bathhouses and trailheads."
+    "loopC": "The Northeast Loop is the premier choice for large motorhomes and fifth wheels, offering 28 full-hookup sites with wide pads.",
+    "loopsAB": "The Chester Loop provides 19 electric-only sites with convenient access to modern bathhouses and trailheads."
   },
   "toadStrategy": {
     "text": "The main campground registration area along Campground Rd features a wide paved turnout area ideal for pulling over to unhook towed vehicles before heading into your assigned loop.",
