@@ -1,5 +1,54 @@
 [
  {
+  "id": "bay-shore-campground-rock-hall",
+  "name": "Bay Shore Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-09",
+  "featured": true,
+  "address": "4228 Eastern Neck Rd, Rock Hall, MD 21661",
+  "city": "Rock Hall",
+  "state": "MD",
+  "lat": 39.094564,
+  "lng": -76.231480,
+  "gps": "39.094564, -76.231480",
+  "phone": "+14106397485",
+  "website": "https://bayshorecamping.com/",
+  "websiteLabel": "Bay Shore Campground Official Website",
+  "image": "/images/bay-shore-campground.jpg",
+  "mapImage": "/images/bay-shore-campground-map.jpg",
+  "summary": "Verified big-rig clearance, waterfront routing guidance, and campground insights for Bay Shore Campground located directly on the Chesapeake Bay in Rock Hall, Maryland.",
+  "scorecard": {
+    "maxRigLength": "45 feet",
+    "toadFriendliness": "Good; wide internal campground roads with large pull-through sites",
+    "treeClearance": "Minimal canopy near the shoreline; open coastal layout",
+    "bestBigRigLoops": "Main Pull-Through Rows",
+    "bestSmallRigLoops": "Waterfront View Sites"
+  },
+  "approach": {
+    "text": "Approaching via Route 213 to MD-20 West straight into Rock Hall, then following Eastern Neck Road south toward the refuge. The roads are well-paved, two-lane rural state highways with smooth transitions.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides reliable routing customized for large rigs traveling through Maryland's Eastern Shore."
+    }
+  },
+  "content": {
+    "overview": "Spanning 60 acres directly on the Chesapeake Bay, Bay Shore Campground offers stunning sunset views, a peaceful atmosphere, fishing ponds, a boat ramp, and proximity to the Eastern Neck National Wildlife Refuge.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Safeguards electrical systems against fluctuations on 30/50 amp pedestals."
+    },
+    "loopWaterfront": "The premier waterfront sites sit right against the bay shore, providing unobstructed views and easy access to cooling coastal breezes.",
+    "loopPullThrough": "The interior layout features large pull-through sites equipped with 30 and 50 amp service, making setup straightforward for big rigs."
+  },
+  "toadStrategy": {
+    "text": "The main entrance area provides wide maneuvering space near the office, allowing you to unhook your towed vehicle comfortably before rolling into your site.",
+    "recommendedGear": {
+      "gearKey": "blue-ox-tow-bar",
+      "reason": "Ensures reliable, heavy-duty flat towing connection throughout your trip down the peninsula."
+    }
+  }
+},
+ {
   "id": "elk-neck-state-park",
   "name": "Elk Neck State Park",
   "ownertype": "State Park",
