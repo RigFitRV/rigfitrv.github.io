@@ -1,5 +1,54 @@
 [
  {
+  "id": "elk-neck-state-park",
+  "name": "Elk Neck State Park",
+  "ownertype": "State Park",
+  "addedDate": "2026-11-09",
+  "featured": true,
+  "address": "95 Campground Rd, North East, MD 21901",
+  "city": "North East",
+  "state": "MD",
+  "lat": 39.479960,
+  "lng": -75.981978,
+  "gps": "39.479960, -75.981978",
+  "phone": "+14102875333",
+  "website": "https://dnr.maryland.gov/publiclands/pages/central/elkneck.aspx",
+  "websiteLabel": "Elk Neck State Park Website",
+  "image": "/images/elk-neck-state-park.jpg",
+  "mapImage": null,
+  "summary": "Verified big-rig clearance, routing guidance, and campground insights for Elk Neck State Park situated on the scenic peninsula between the Chesapeake Bay and the Elk River.",
+  "scorecard": {
+    "maxRigLength": "50 feet",
+    "toadFriendliness": "Good; wide arterial park roads with accessible registration turnout space",
+    "treeClearance": "Moderate-heavy hardwood canopy; watch for overhead branches on interior loops",
+    "bestBigRigLoops": "Northeast Camping Loop",
+    "bestSmallRigLoops": "Turkey Point & Roger Clark Loops"
+  },
+  "approach": {
+    "text": "Approaching via Route 273 and Turkey Point Road (MD-272) south of North East, MD, then turning onto Campground Rd. Roads are paved and two-lane, but expect rolling hills and tightening tree lines as you near the park boundary.",
+    "recommendedGear": {
+      "gearKey": "dash_cam",
+      "reason": "Provides security and clarity on narrow, tree-lined coastal access roads."
+    }
+  },
+  "content": {
+    "overview": "Elk Neck spans over 2,000 acres featuring sandy beaches, clay cliffs, marshlands, and the historic Turkey Point Lighthouse. Its multiple camping loops offer varied layouts ranging from rustic tent areas to full-hookup big-rig sites.",
+    "recommendedGear": {
+      "gearKey": "heavy_duty_surge_protector",
+      "reason": "Protects sensitive onboard electronics against voltage sags on busy state park loops."
+    },
+    "loopNortheast": "The Northeast Loop is the premier choice for large motorhomes and fifth wheels, offering 28 full-hookup sites with wide pads.",
+    "loopChester": "The Chester Loop provides 19 electric-only sites with convenient access to modern bathhouses and trailheads."
+  },
+  "toadStrategy": {
+    "text": "The main campground registration area along Campground Rd features a wide paved turnout area ideal for pulling over to unhook towed vehicles before heading into your assigned loop.",
+    "recommendedGear": {
+      "gearKey": "tow_bar_cover",
+      "reason": "Keeps road spray and grit out of your tow bar joints during transit."
+    }
+  }
+},
+ {
   "id": "point-lookout-state-park",
   "name": "Point Lookout State Park",
   "ownertype": "State Park",
