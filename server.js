@@ -11,6 +11,8 @@ const PORT = 3000;
 const ADMIN_USER = 'admin';
 const ADMIN_PASS = 'RigFitAdmin2026!';
 
+app.use('/data', express.static(path.join(__dirname, 'data')));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(session({
