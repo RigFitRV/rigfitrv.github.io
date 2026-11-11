@@ -1,5 +1,53 @@
 [
  {
+  "id": "stonybrook-rv-resort",
+  "name": "StonyBrook RV Resort",
+  "ownertype": "Private RV Resort",
+  "addedDate": "2026-11-11",
+  "featured": true,
+  "address": "1435 Germans Rd, Lehighton, PA 18235",
+  "city": "Lehighton",
+  "state": "PA",
+  "lat": 40.752666,
+  "lng": -75.751388,
+  "gps": "40.752666, -75.751388",
+  "phone": "+15703864088",
+  "website": "https://www.stonybrookrvresort.com",
+  "websiteLabel": "StonyBrook RV Resort Official Website",
+  "image": "/images/stonybrook-rv-resort.jpg",
+  "mapImage": "/images/stonybrook-rv-resort-map.jpg",
+  "summary": "Verified big-rig navigation, PA-895 approach routing, and site insights for StonyBrook RV Resort located off Germans Road in Lehighton, Pennsylvania.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (Spacious pull-through full-hookup sites available)",
+    "toadFriendliness": "Good; smooth internal resort roads with convenient check-in apron space",
+    "treeClearance": "Moderate canopy along older shaded back-in rows; clear overhead clearance on main pull-through loops",
+    "bestBigRigLoops": "Main Pull-Through Full Hookup Section",
+    "bestSmallRigLoops": "Streamside & Wooded Back-in Sites"
+  },
+  "approach": {
+    "title": "PA-895 to Germans Road Approach Warning",
+    "text": "Approach via PA Route 895 turning directly onto Germans Road. This path maintains wide lanes and manageable turns, avoiding narrow local residential cut-throughs in Carbon County.",
+    "recommendedGear": {
+      "title": "Recommended Rig Routing Gear",
+      "productName": "Garmin RV 890 GPS Navigator",
+      "reason": "Provides custom height and weight warnings for navigating Carbon County secondary roads.",
+      "affiliateUrl": "https://www.amazon.com/dp/B088KRNJ9Z?tag=rigfitrv-20"
+    }
+  },
+  "toadStrategy": "The main registration entrance off Germans Road offers wide pull-over space to easily unhook towed vehicles prior to navigating internal campground loops.",
+  "content": {
+    "overview": "Nestled near the foothills of the Poconos, StonyBrook RV Resort features spacious full-hookup sites, seasonal recreational amenities, and convenient access to Lehighton and Jim Thorpe attractions.",
+    "recommendedGear": {
+      "title": "Recommended Utility Protection Gear",
+      "productName": "Progressive Industries Surge Protector",
+      "reason": "Protects sensitive onboard RV electronics against voltage fluctuations during high-demand summer weekends.",
+      "affiliateUrl": "https://www.amazon.com/dp/B003AL23M6?tag=rigfitrv-20"
+    },
+    "pullThroughSection": "Main pull-through sites provide 30/50 amp electrical service, full water/sewer hookups, and ample clearance for big-rig slide-outs.",
+    "woodedSection": "Shaded back-in sites offer natural privacy and quiet surrounding woods for smaller travel trailers and camper vans."
+  }
+},
+ {
   "id": "bay-shore-campground-rock-hall",
   "name": "Bay Shore Campground",
   "ownertype": "Private Campground",
