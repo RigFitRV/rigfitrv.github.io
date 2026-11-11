@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RigFitRV Campground Generator Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: #f1f5f9; padding: 2rem;">
+  <div class="container" style="max-width: 800px;">
+    <div class="article-card">
+      <h1>⚡ RigFitRV Admin Generator</h1>
+      <p>Input new campground details below. Submitting will automatically update <code>campgrounds.json</code> and generate the leaf HTML file.</p>
+      
+      <form id="campground-form" style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1.5rem;">
+        
+        <!-- Basic Info -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">Campground Name</label>
+            <input type="text" id="name" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="e.g. StonyBrook RV Resort">
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">URL Slug (id)</label>
+            <input type="text" id="id" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="e.g. stonybrook-rv-resort">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">City</label>
+            <input type="text" id="city" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="Lehighton">
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">State (ST)</label>
+            <input type="text" id="state" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="PA">
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">Ownership Type</label>
+            <select id="ownertype" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; background: #fff;">
+              <option value="Private Campground">Private Campground</option>
+              <option value="State Park">State Park</option>
+              <option value="National Park Service">National Park Service</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Coordinates & Contact -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">Latitude</label>
+            <input type="number" step="0.000001" id="lat" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="40.752666">
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">Longitude</label>
+            <input type="number" step="0.000001" id="lng" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="-75.751388">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">Phone</label>
+            <input type="text" id="phone" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="+15703864088">
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.9rem;">Website URL</label>
+            <input type="url" id="website" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="https://www.website.com">
+          </div>
+        </div>
+
+        <div>
+          <label style="font-weight: bold; font-size: 0.9rem;">Full Address</label>
+          <input type="text" id="address" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="1435 Germans Rd, Lehighton, PA 18235">
+        </div>
+
+        <div>
+          <label style="font-weight: bold; font-size: 0.9rem;">Summary / Description</label>
+          <textarea id="summary" rows="3" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px;" placeholder="Short summary highlighting ground-truth routing, clearances, and features..."></textarea>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 0.5rem 0;">
+        <h3 style="margin: 0; color: #1e293b;">🛠️ Dynamic Gear Key Placements</h3>
+
+        <!-- Approach Gear -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; background: #f8fafc; padding: 1rem; border-radius: 6px; border: 1px solid #e2e8f0;">
+          <div>
+            <label style="font-weight: bold; font-size: 0.85rem; color: #475569;">Approach Recommended Gear</label>
+            <select id="approach-gear" class="gear-dropdown" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; background: #fff; margin-top: 0.25rem;">
+              <option value="">Loading products.json...</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.85rem; color: #475569;">Approach Gear Reason</label>
+            <input type="text" id="approach-gear-reason" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; margin-top: 0.25rem;" placeholder="e.g. Essential for routing heavy rigs safely along rural roads.">
+          </div>
+        </div>
+
+        <!-- Toad Gear -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; background: #f8fafc; padding: 1rem; border-radius: 6px; border: 1px solid #e2e8f0;">
+          <div>
+            <label style="font-weight: bold; font-size: 0.85rem; color: #475569;">Toad Strategy Recommended Gear</label>
+            <select id="toad-gear" class="gear-dropdown" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; background: #fff; margin-top: 0.25rem;">
+              <option value="">Loading products.json...</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.85rem; color: #475569;">Toad Gear Reason</label>
+            <input type="text" id="toad-gear-reason" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; margin-top: 0.25rem;" placeholder="e.g. Ensures wide-angle visibility when unhooking in busy registration lanes.">
+          </div>
+        </div>
+
+        <!-- Content Gear -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; background: #f8fafc; padding: 1rem; border-radius: 6px; border: 1px solid #e2e8f0;">
+          <div>
+            <label style="font-weight: bold; font-size: 0.85rem; color: #475569;">Overview / Campsite Recommended Gear</label>
+            <select id="content-gear" class="gear-dropdown" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; background: #fff; margin-top: 0.25rem;">
+              <option value="">Loading products.json...</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-weight: bold; font-size: 0.85rem; color: #475569;">Content Gear Reason</label>
+            <input type="text" id="content-gear-reason" required style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; margin-top: 0.25rem;" placeholder="e.g. Guards sensitive onboard RV electrical systems against voltage sags.">
+          </div>
+        </div>
+
+        <button type="submit" class="btn" style="padding: 0.75rem; background: #0066cc; color: #fff; font-weight: bold; border: none; border-radius: 4px; cursor: pointer; margin-top: 0.5rem;">🚀 Generate & Commit Campground Files</button>
+      </form>
+
+      <div id="response-message" style="margin-top: 1rem; font-weight: bold;"></div>
+    </div>
+  </div>
+
+  <script>
+    // Fetch products.json and populate all gear dropdowns on page load
+    document.addEventListener('DOMContentLoaded', async () => {
+      const dropdowns = document.querySelectorAll('.gear-dropdown');
+      try {
+        const fetchJson = (url) => fetch(url).then(r => r.ok ? r.json() : Promise.reject());
+        const products = await fetchJson('/data/products.json').catch(() => fetchJson('../data/products.json'));
+        
+        const optionsHtml = Object.keys(products).map(key => {
+          const name = products[key].productName || products[key].title || key;
+          return `<option value="${key}">${name} (${key})</option>`;
+        }).join('');
+
+        dropdowns.forEach(select => {
+          select.innerHTML = '<option value="">-- Select Gear Recommendation --</option>' + optionsHtml;
+        });
+      } catch (err) {
+        console.error('Failed to load products.json:', err);
+        dropdowns.forEach(select => {
+          select.innerHTML = '<option value="">Error loading products.json</option>';
+        });
+      }
+    });
+
+    // Form submission handler matching locked schema
+    document.getElementById('campground-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const latVal = parseFloat(document.getElementById('lat').value);
+      const lngVal = parseFloat(document.getElementById('lng').value);
+      
+      const payload = {
+        id: document.getElementById('id').value,
+        name: document.getElementById('name').value,
+        ownertype: document.getElementById('ownertype').value,
+        addedDate: new Date().toISOString().split('T')[0],
+        state: document.getElementById('state').value,
+        city: document.getElementById('city').value,
+        featured: true,
+        lat: latVal,
+        lng: lngVal,
+        image: `/images/${document.getElementById('id').value}.jpg`,
+        mapImage: `/images/${document.getElementById('id').value}-map.jpg`,
+        address: document.getElementById('address').value,
+        gps: `${latVal.toFixed(4)}° N, ${Math.abs(lngVal).toFixed(4)}° W`,
+        phone: document.getElementById('phone').value,
+        website: document.getElementById('website').value,
+        summary: document.getElementById('summary').value,
+        scorecard: {
+          maxRigLength: "Up to 45 ft (Full-hookup pull-through and back-in sites)",
+          toadFriendliness: "Good; smooth internal access roads",
+          treeClearance: "Moderate canopy along shaded rows",
+          bestBigRigLoops: "Main Pull-Through Section",
+          bestSmallRigLoops: "Wooded Back-In Sites"
+        },
+        approach: {
+          title: "Primary Highway Approach Guidance",
+          text: "Approach via regional connecting corridors maintaining wide turning radii.",
+          recommendedGear: {
+            gearKey: document.getElementById('approach-gear').value,
+            reason: document.getElementById('approach-gear-reason').value
+          }
+        },
+        toadStrategy: {
+          text: "Pull into the registration apron to unhook your towed vehicle before entering resort loops.",
+          recommendedGear: {
+            gearKey: document.getElementById('toad-gear').value,
+            reason: document.getElementById('toad-gear-reason').value
+          }
+        },
+        content: {
+          overview: document.getElementById('summary').value,
+          recommendedGear: {
+            gearKey: document.getElementById('content-gear').value,
+            reason: document.getElementById('content-gear-reason').value
+          },
+          loopC: "Full-hookup sites accommodate larger motorhomes and fifth wheels.",
+          loopsAB: "Wooded back-in loops offer natural privacy for smaller rigs."
+        }
+      };
+
+      const res = await fetch('/api/campgrounds', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      
+      const result = await res.json();
+      const msg = document.getElementById('response-message');
+      msg.style.color = result.success ? '#16a34a' : '#dc2626';
+      msg.innerText = result.message;
+    });
+  </script>
+</body>
+</html>
