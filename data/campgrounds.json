@@ -1,5 +1,54 @@
 [
  {
+  "id": "lizard-creek-campground",
+  "name": "Lizard Creek Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-11",
+  "state": "PA",
+  "city": "Lehighton",
+  "featured": true,
+  "lat": 40.766375,
+  "lng": -75.753459,
+  "image": "/images/lizard-creek-campground.jpg",
+  "mapImage": "/images/lizard-creek-campground-map.jpg",
+  "address": "2489 W Lizard Creek Rd, Lehighton, PA 18235",
+  "gps": "40.7664° N, 75.7535° W",
+  "phone": "+15703862911",
+  "website": "http://www.lizardcreekpa.com/",
+  "summary": "Scenic family-owned campground situated along Lizard Creek in Lehighton, offering shaded valley sites, full hookups, and relaxed Poconos outdoor access.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select full-hookup back-in and pull-through sites)",
+    "toadFriendliness": "Good; smooth rural valley approach with dedicated check-in apron space",
+    "treeClearance": "Moderate canopy along shaded creek loops; clear overhead clearance on main entry lanes",
+    "bestBigRigLoops": "Lower Valley Full-Hookup Sites",
+    "bestSmallRigLoops": "Creekside Wooded Back-in Sites"
+  },
+  "approach": {
+    "title": "Winding Valley Approach via West Lizard Creek Road",
+    "text": "Access via regional connectors leading to West Lizard Creek Road. The valley road features gentle rolling hills and rural curves; maintain awareness of agricultural traffic and narrow bridge clearances along secondary Carbon County routes.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for routing heavy rigs safely along Poconos valley corridors while avoiding low-clearance constraints."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the registration parking area directly off West Lizard Creek Road to unhook your towed vehicle before proceeding into the campground loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Ensures wide-angle visibility when unhooking in busy registration lanes."
+    }
+  },
+  "content": {
+    "overview": "Lizard Creek Campground provides a peaceful, family-oriented retreat nestled in the valley, featuring spacious shaded campsites, fishing access, and convenient proximity to Jim Thorpe outdoor recreation.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Guards sensitive onboard RV electrical systems against voltage sags during peak summer operating weekends."
+    },
+    "loopC": "Full-hookup sites accommodate larger travel trailers and motorhomes with ample slide-out clearance.",
+    "loopsAB": "Creekside and wooded back-in loops offer natural shade and privacy for pop-ups, camper vans, and smaller rigs."
+  }
+},
+ {
   "id": "stonybrook-rv-resort",
   "name": "StonyBrook RV Resort",
   "ownertype": "Private RV Resort",
