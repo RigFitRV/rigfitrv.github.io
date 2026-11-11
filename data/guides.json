@@ -1,5 +1,25 @@
 [
   {
+    "id": "jim-thorpe-pa-camping",
+    "slug": "jim-thorpe-pa",
+    "title": "Jim Thorpe & Pocono Gorge RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
+    "subtitle": "Complete Big Rig Navigation, State Parks & RV Resort Guide",
+    "region": "Jim Thorpe & Pocono Gorge",
+    "state": "PA",
+    "lat": 40.8732,
+    "lng": -75.7328,
+    "image": "/images/jim-thorpe-pa-guide.jpg",
+    "summary": "Expert RV camping guide summary for Jim Thorpe and Pocono Gorge. Verified big-rig clearances, routing strategies, and campground reviews.",
+    "featuredCampgroundIds": [
+      "jim-thorpe-camping-resort",
+      "stonybrook-rv-resort",
+      "lizard-creek-campground",
+      "100-mile-view-camping",
+      "the-woods-campground"
+    ],
+    "publishedDate": "2026-11-11"
+  },
+  {
     "id": "chesapeake-bay-maryland-camping",
     "slug": "chesapeake-bay-maryland-camping",
     "title": "Chesapeake Bay & Maryland Waterfront RV Camping Guide: Best Rig-Friendly Campgrounds & Routes",
