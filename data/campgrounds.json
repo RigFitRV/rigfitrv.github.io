@@ -1,5 +1,54 @@
 [
  {
+  "id": "the-woods-campground",
+  "name": "The Woods Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-11",
+  "state": "PA",
+  "city": "Lehighton",
+  "featured": true,
+  "lat": 40.897715,
+  "lng": -75.604059,
+  "image": "/images/the-woods-campground.jpg",
+  "mapImage": "/images/the-woods-campground-map.jpg",
+  "address": "3500 Forest St, Lehighton, PA 18235",
+  "gps": "40.8977° N, 75.6041° W",
+  "phone": "+16103779577",
+  "website": "https://www.thewoods.camp/",
+  "summary": "Wooded private resort nestled in the Lehighton hills, offering peaceful shaded campsites, resort amenities, and relaxed Poconos seclusion.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (Select full-hookup pull-through and back-in sites)",
+    "toadFriendliness": "Good; paved primary resort roads with adequate check-in staging",
+    "treeClearance": "Heavy canopy along mature wooded loops; watch out for low-hanging branches on back-in sites",
+    "bestBigRigLoops": "Main Resort Pull-Through Section",
+    "bestSmallRigLoops": "Shaded Woodland Back-In Loops"
+  },
+  "approach": {
+    "title": "Rural Forest Road Approach Guidance",
+    "text": "Access via regional routes connecting to Forest Street in Lehighton. Maintain steady speeds and watch for narrow shoulder transitions along forested secondary roads.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Crucial for routing heavy rigs safely along rural Carbon County roads while avoiding low-clearance branches."
+    }
+  },
+  "toadStrategy": {
+    "text": "Towed vehicles should be unhooked on Woods Way or at the check-in pad prior to entering the tree-lined resort loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides essential blind-spot visibility when maneuvering in shaded check-in lanes."
+    }
+  },
+  "content": {
+    "overview": "The Woods Campground is a membership-only, LGBTQIA+, clothing-optional camping resort exclusively for 18+ adults, providing a tranquil forest retreat featuring shaded campsites, modern bathhouses, and a relaxing outdoor atmosphere within easy driving distance of Jim Thorpe's historic downtown.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Guards sensitive onboard RV electrical systems against voltage sags during peak summer operating weekends."
+    },
+    "loopC": "Main pull-through sites provide 30/50 amp electrical service, full water/sewer hookups, and comfortable clearance for mid-to-large rigs.",
+    "loopsAB": "Shaded woodland back-in loops offer natural privacy and quiet surroundings for travel trailers and camper vans."
+  }
+},
+ {
   "id": "100-mile-view-camping",
   "name": "100 Mile View Camping",
   "ownertype": "Private Campground",
