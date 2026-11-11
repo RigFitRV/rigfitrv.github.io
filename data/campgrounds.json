@@ -1,5 +1,54 @@
 [
  {
+  "id": "100-mile-view-camping",
+  "name": "100 Mile View Camping",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-11",
+  "state": "PA",
+  "city": "Jim Thorpe",
+  "featured": true,
+  "lat": 40.855560,
+  "lng": -75.746376,
+  "image": "/images/100-mile-view-camping.jpg",
+  "mapImage": null,
+  "address": "58 Flagstaff Rd, Jim Thorpe, PA 18229",
+  "gps": "40.8556° N, 75.7464° W",
+  "phone": "+16105544951",
+  "website": "https://www.100mileviewcamping.com/",
+  "summary": "Scenic ridge-top campground overlooking the Lehigh Valley, offering panoramic vistas, rustic hookups, and direct access to Flagstaff Mountain viewpoints.",
+  "scorecard": {
+    "maxRigLength": "Up to 35 ft (Compact mountain ridge pads; tight turning radius)",
+    "toadFriendliness": "Moderate; unhook prior to climbing Flagstaff Mountain grade",
+    "treeClearance": "Moderate ridge canopy; watch low branches on approach curves",
+    "bestBigRigLoops": "Ridge-View Electric Pull-In Rows",
+    "bestSmallRigLoops": "Overlook Tent & Camper Van Sites"
+  },
+  "approach": {
+    "title": "Flagstaff Mountain Ridge Ascent Warning",
+    "text": "Approach via Flagstaff Road from Jim Thorpe heights. The route features steep mountain grades and sharp elevation switchbacks; heavy motorhomes and long fifth wheels should maintain low gear and check brake temperatures.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Essential for routing heavy rigs safely up Carbon County mountain ridges without encountering sharp hairpin restrictions."
+    }
+  },
+  "toadStrategy": {
+    "text": "Disconnect your towed vehicle at the lower staging pull-off before making the final steep ridge climb to the campground check-in area.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides critical blind-spot and rear visibility when maneuvering on tight ridge-top pads."
+    }
+  },
+  "content": {
+    "overview": "Perched high above historic Jim Thorpe, 100 Mile View Camping delivers breathtaking valley vistas, crisp mountain air, and peaceful seclusion just minutes from downtown trails and rafting outfitters.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electronics against voltage fluctuations from high-altitude power line exposure."
+    },
+    "loopC": "Ridge-facing electric sites equipped with 30-amp service, ideal for small-to-mid motorhomes and travel trailers.",
+    "loopsAB": "Wooded overlook sites tailored for tent campers, overlanders, and camper vans seeking maximum scenery."
+  }
+},
+ {
   "id": "lizard-creek-campground",
   "name": "Lizard Creek Campground",
   "ownertype": "Private Campground",
