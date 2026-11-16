@@ -13,38 +13,267 @@
   }
 }
 ---
+{% set stateInfo = {
+  "CT": { "name": "Connecticut", "intro": "Plan your Connecticut RV getaway with ground-truth guides spanning Long Island Sound coastal resorts to quiet Berkshire foothill campgrounds. Learn essential routing around historic low-arch stone bridges, narrow town green turnarounds, and maximum pad capacities across the Constitution State." },
+  "MD": { "name": "Maryland", "intro": "Explore ground-truth RV campground guides across Maryland's Chesapeake Bay peninsula, Atlantic coast resorts, and Catoctin Mountain state parks. Verify bridge clearances, sandy pad firmness, and big-rig approach routes before you hitch up." },
+  "NJ": { "name": "New Jersey", "intro": "Navigate New Jersey's Pine Barrens, Delaware Bayshore, and Cape May coastal campgrounds with verified rig length limits, tree canopy clearance notes, and highway approach guidance." },
+  "NY": { "name": "New York", "intro": "Plan your New York RV trip across the Catskills, Hudson Valley, Adirondacks, and Finger Lakes with verified parkway height warnings, steep grade notes, and pull-through pad dimensions." },
+  "PA": { "name": "Pennsylvania", "intro": "Discover big-rig verified campgrounds across Lancaster Amish Country, the Pocono Mountains, Delaware Water Gap, and Central Pennsylvania with detailed mountain grade and turn-radius logistics." }
+} %}
+{% set currentState = stateInfo[stateCode] or { "name": stateCode, "intro": "Verified RV campground clearances, max rig lengths, and approach routing guides across " + stateCode + "." } %}
+{% set stateCamps = campgrounds | byState(stateCode) %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Big-Rig Friendly RV Campgrounds in {{ stateCode }} - RigFitRV</title>
-  <meta name="description" content="Verified RV campground clearances, max rig lengths, and approach routing guides across {{ stateCode }}.">
+  <title>{{ currentState.name }} RV Campground Guides - RigFitRV</title>
+  <meta name="description" content="Showing {{ stateCamps.length }} verified big-rig RV campground guides in {{ currentState.name }}. Check clearances, max rig lengths, and approach routes.">
   <link rel="canonical" href="https://rigfitrv.com/states/{{ stateCode | lower }}.html">
   <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <style>
+    .state-header { text-align: center; margin: 2rem 0 1.25rem; }
+    .state-header h1 { font-size: 2rem; color: #0f172a; margin-bottom: 0.4rem; }
+    .state-subtitle { color: #64748b; font-size: 0.95rem; margin: 0; }
+    .state-intro-box {
+      background: #f8fafc;
+      border-left: 4px solid #2563eb;
+      border-radius: 6px;
+      padding: 1.1rem 1.4rem;
+      color: #334155;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin: 1.25rem 0 1.5rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: 1.75rem;
+    }
+    .filter-pill {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #1e293b;
+      padding: 0.45rem 1rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .filter-pill:hover { border-color: #2563eb; color: #2563eb; }
+    .filter-pill.active {
+      background: #0f172a;
+      border-color: #0f172a;
+      color: #ffffff;
+    }
+    .camp-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    @media (max-width: 900px) { .camp-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .camp-grid { grid-template-columns: 1fr; } }
+    .camp-grid-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .camp-grid-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(15,23,42,0.08);
+    }
+    .camp-grid-thumb {
+      width: 100%;
+      height: 175px;
+      object-fit: cover;
+      background: #e2e8f0;
+      display: block;
+    }
+    .camp-grid-body {
+      padding: 1.15rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .camp-grid-body h2 {
+      font-size: 1.05rem;
+      color: #0f172a;
+      margin: 0 0 0.35rem;
+      line-height: 1.35;
+    }
+    .camp-grid-meta {
+      font-size: 0.8rem;
+      color: #64748b;
+      margin-bottom: 0.75rem;
+    }
+    .camp-grid-summary {
+      font-size: 0.88rem;
+      color: #475569;
+      line-height: 1.5;
+      margin: 0 0 1.15rem;
+      flex: 1;
+    }
+    .camp-grid-btn {
+      display: block;
+      text-align: center;
+      background: #2563eb;
+      color: #ffffff !important;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.88rem;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      transition: background 0.15s ease;
+    }
+    .camp-grid-btn:hover { background: #1d4ed8; }
+    .gear-callout {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    @media (max-width: 640px) { .gear-callout { flex-direction: column; text-align: center; } }
+    .gear-callout img { width: 110px; height: auto; border-radius: 6px; flex-shrink: 0; }
+    .gear-badge {
+      display: inline-block;
+      background: #fef3c7;
+      color: #92400e;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      margin-bottom: 0.35rem;
+    }
+    .gear-callout h3 { margin: 0 0 0.35rem; font-size: 1.05rem; color: #0f172a; }
+    .gear-callout p { margin: 0 0 0.75rem; font-size: 0.88rem; color: #475569; line-height: 1.45; }
+    .gear-btn {
+      display: inline-block;
+      background: #f59e0b;
+      color: #0f172a !important;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .gear-btn:hover { background: #d97706; }
+    .intel-banner {
+      background: #1e293b;
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2.5rem;
+    }
+    .intel-banner h3 { margin: 0 0 0.5rem; font-size: 1.25rem; color: #ffffff; }
+    .intel-banner p { margin: 0 0 1.15rem; color: #cbd5e1; font-size: 0.9rem; }
+    .intel-btn {
+      display: inline-block;
+      background: #2563eb;
+      color: #ffffff !important;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.25rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .intel-btn:hover { background: #1d4ed8; }
+  </style>
 </head>
 <body>
   {% include "header.njk" %}
 
   <div class="container">
-    <div class="article-card">
-      <h1>Big-Rig Friendly RV Campgrounds in {{ stateCode }}</h1>
-      <p>Browse verified RV clearance scorecards, approach routes, and toad unhook guidance for campgrounds in {{ stateCode }}.</p>
-      <hr>
+    <div class="state-header">
+      <h1>{{ currentState.name }} RV Campground Guides</h1>
+      <p class="state-subtitle">Showing {{ stateCamps.length }} verified big-rig guides in {{ currentState.name }}</p>
+    </div>
 
-      {% set stateCamps = campgrounds | byState(stateCode) %}
+    <div class="state-intro-box">
+      {{ currentState.intro }}
+    </div>
+
+    <div class="filter-pills" id="stateFilters">
+      <button type="button" class="filter-pill active" data-filter="all">All Campgrounds</button>
+      <button type="button" class="filter-pill" data-filter="bigrig">Big-Rig Friendly (40ft+)</button>
+      <button type="button" class="filter-pill" data-filter="state">State Parks</button>
+      <button type="button" class="filter-pill" data-filter="private">Private Resorts</button>
+    </div>
+
+    <div class="camp-grid" id="stateCampGrid">
       {% for camp in stateCamps %}
-      <div class="campground-card" style="border-bottom: 1px solid #e2e8f0; padding: 1rem 0;">
-        <h2><a href="/c/{{ camp.id }}.html">{{ camp.name }}</a> &mdash; {{ camp.city }}, {{ camp.state }}</h2>
-        <p><strong>Max Rig Length:</strong> {{ camp.scorecard.maxRigLength }} &bull; <strong>Ownership:</strong> {{ camp.ownertype }}</p>
-        <p>{{ camp.summary }}</p>
-        <a href="/c/{{ camp.id }}.html">Read Full RV Guide &rarr;</a>
-      </div>
+      <article class="camp-grid-card"
+        data-rig="{{ camp.scorecard.maxRigLength }}"
+        data-owner="{{ camp.ownertype | lower }}">
+        <a href="/c/{{ camp.id }}.html">
+          <img class="camp-grid-thumb"
+               src="{{ camp.image or '/images/' + camp.id + '.jpg' }}"
+               alt="{{ camp.name }} in {{ camp.city }}, {{ camp.state }}"
+               onerror="this.src='/images/default-campground.jpg'">
+        </a>
+        <div class="camp-grid-body">
+          <h2>{{ camp.name }}</h2>
+          <div class="camp-grid-meta">{{ camp.city }}, {{ camp.state }} &bull; {{ camp.ownertype }}</div>
+          <p class="camp-grid-summary">{{ camp.summary }}</p>
+          <a href="/c/{{ camp.id }}.html" class="camp-grid-btn">View Rig-Fit Guide</a>
+        </div>
+      </article>
       {% endfor %}
+    </div>
+
+    <div class="gear-callout">
+      <img src="/images/garmin-rv-890.jpg" alt="Garmin RV 890 GPS Navigator" onerror="this.style.display='none'">
+      <div>
+        <span class="gear-badge">RECOMMENDED GEAR</span>
+        <h3>Garmin RV 890 GPS Navigator</h3>
+        <p>Never hit a low bridge or narrow mountain hairpin blindly. Custom route planning inputs your RV's height, width, length, and weight to navigate steep grades and restricted park roads safely.</p>
+        <a href="https://www.amazon.com/dp/B089P2381C?tag=rigfitrv-20" target="_blank" rel="nofollow noopener" class="gear-btn">Check Price on Amazon &nearr;</a>
+      </div>
+    </div>
+
+    <div class="intel-banner">
+      <h3>Have Ground-Truth Intelligence?</h3>
+      <p>Don't see a campground listed or have tips on low clearance, toad unhooking, or big-rig sites?</p>
+      <a href="/submit.html" class="intel-btn">+ Submit a New Campground</a>
     </div>
   </div>
 
   {% include "footer.njk" %}
+
+  <script>
+    document.querySelectorAll('#stateFilters .filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#stateFilters .filter-pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('#stateCampGrid .camp-grid-card').forEach(card => {
+          const rigText = card.dataset.rig || '';
+          const ownerText = card.dataset.owner || '';
+          const maxFt = parseInt((rigText.match(/(\d+)\s*ft/i) || [])[1] || '0', 10);
+          let show = true;
+          if (filter === 'bigrig') show = maxFt >= 40;
+          else if (filter === 'state') show = ownerText.includes('state') || ownerText.includes('national') || ownerText.includes('public');
+          else if (filter === 'private') show = ownerText.includes('private') || ownerText.includes('resort') || ownerText.includes('koa');
+          card.style.display = show ? 'flex' : 'none';
+        });
+      });
+    });
+  </script>
 </body>
 </html>
