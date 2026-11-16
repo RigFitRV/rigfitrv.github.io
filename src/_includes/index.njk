@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RigFitRV - RV Clearance, Loop Fit & Toad Logistics Guides</title>
+  <meta name="description" content="Real-world RV logistics, low clearance warnings, pull-through site specs, and toad maneuverability for campground navigation.">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://rigfitrv.com/">
+
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RigFitRV">
+  <meta property="og:title" content="RigFitRV - Ground-Truth Campground Logistics">
+  <meta property="og:description" content="Real-world RV clearance, loop fit, pull-through site specs, and toad maneuverability for campground navigation.">
+  <meta property="og:url" content="https://rigfitrv.github.io/">
+  <meta property="og:image" content="https://wadingpines.com/wp-content/uploads/2021/03/hero-bg.jpg">
+
+  <!-- Custom Favicons -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+  <!-- Leaflet CSS for Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    /* Map Wrapper to House Minimal Top Bar */
+    .map-wrapper {
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 0.5rem 0 2rem 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      background: #ffffff;
+    }
+
+    /* Single-Line Compact Filter Bar */
+    .map-filter-bar {
+      background-color: #1e293b;
+      color: #ffffff;
+      padding: 0.35rem 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      flex-wrap: nowrap;
+      gap: 0.5rem;
+      overflow-x: auto;
+    }
+
+    .map-filter-bar label {
+      font-weight: 500;
+      color: #cbd5e1;
+      margin-left: 0.25rem;
+      white-space: nowrap;
+    }
+
+    .map-filter-select {
+      background: #0f172a;
+      color: #ffffff;
+      border: 1px solid #475569;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .map-filter-select:hover {
+      border-color: #94a3b8;
+    }
+
+    /* Homepage Map Canvas */
+    #homepage-map {
+      height: 420px;
+      width: 100%;
+      z-index: 1;
+      border: none;
+    }
+
+    /* Popup Card Layout */
+    .leaflet-popup-content-wrapper {
+      padding: 0.5rem;
+      border-radius: 8px;
+    }
+    .leaflet-popup-content {
+      margin: 8px 12px;
+      width: 300px !important;
+    }
+    .map-popup-card {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .map-popup-thumb {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+      border: 1px solid #cbd5e1;
+    }
+    .map-popup-info {
+      flex: 1;
+    }
+    .map-popup-info h3 {
+      margin: 0 0 4px 0;
+      font-size: 0.95rem;
+      color: #0f172a;
+      line-height: 1.25;
+    }
+    .map-popup-info p {
+      font-size: 0.8rem;
+      color: #475569;
+      margin: 0 0 8px 0;
+      line-height: 1.3;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .map-popup-info .btn {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+    }
+  </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TV8S962CRT');
+  </script>
+
+  <!-- Prevent AI Model Training & Image Scraping -->
+  <meta name="robots" content="noai, noimageai">
+  <meta name="tdm-reservation" content="1">
+</head>
+<body>
+
+  {% include "header.njk" %}
+
+  <div class="container">
+    <div class="article-card">
+
+      <!-- SECTION 1: INTERACTIVE MAP (IN FOCUS ON LOAD) -->
+      <section style="margin-top: 0; padding-top: 0;">
+
+        <div class="map-wrapper">
+          <!-- Single-Line Compact Top Filter Bar -->
+          <div class="map-filter-bar">
+            <div style="display: flex; align-items: center; gap: 0.25rem;">
+              <span style="font-size: 0.85rem;">📍</span>
+              <span style="font-size: 0.8rem; color: #cbd5e1; white-space: nowrap; font-weight: 600;">Filters:</span>
+            </div>
+            
+            <div style="display: flex; gap: 0.85rem; align-items: center; flex-wrap: nowrap;">
+              <div class="map-filter-group">
+                <label for="owner-filter">Type:</label>
+                <select id="owner-filter" class="map-filter-select">
+                  <option value="ALL">All Types</option>
+                  <option value="Private Campground">Private</option>
+                  <option value="State Park">State Parks</option>
+                  <option value="National Park Service">National Park Service</option>
+                </select>
+              </div>
+
+              <div class="map-filter-group">
+                <label for="state-select">State:</label>
+                <select id="state-select" class="map-filter-select">
+                  <option value="ALL">All States</option>
+                  <!-- Populated dynamically by JavaScript -->
+                </select>
+              </div>
+
+              <div class="map-filter-group">
+                <label for="rig-select">Rig:</label>
+                <select id="rig-select" class="map-filter-select">
+                  <option value="ALL">All Rigs</option>
+                  <option value="BIG">Big-Rig (40ft+)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Map Canvas -->
+          <div id="homepage-map"></div>
+        </div>
+
+        <!-- Right-Justified Map Legend -->
+        <p style="font-size: 0.85rem; color: #64748b; margin: 0.4rem 0 1.5rem 0; text-align: right;">Click pins to preview guides (<span style="color: #15803d; font-weight: bold;">■ State Park</span>, <span style="color: #2563eb; font-weight: bold;">■ Private</span>, <span style="color: #e76f51; font-weight: bold;">■ National Park</span>)</p>
+
+      </section>
+
+      <!-- WELCOME TEXT (BETWEEN MAP AND FEATURED CARDS) -->
+      <div style="margin: 2rem 0;">
+        <h1 style="font-size: 1.75rem;">Travel with Confidence, Not Guesswork</h1>
+        <p style="margin-bottom: 0;">Welcome to <strong>RigFitRV</strong>. We provide RV owners—specifically motorhomes and rigs towing vehicles—with exact, verified logistical intelligence before arriving at a campground. Stop worrying about unexpected low branch overhangs, impossible tail-swing turnarounds, or tight loop geometries.</p>
+      </div>
+
+      <!-- SECTION 2: FEATURED CARDS CONTAINER -->
+      <section style="margin-top: 2rem;">
+        <h2>Recently Added Campground Guides</h2>
+        <div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1rem;">
+          <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
+        </div>
+      </section>
+
+      <!-- CORE GROUND-TRUTH FOCUS BOX (MOVED DOWN) -->
+      <div style="background-color: #f1f5f9; border-top: 4px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-top: 2.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+        <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.25rem; color: #0f172a; text-align: center;">Our Core Ground-Truth Focus</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
+          
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🌲</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Clearance & Routes</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Verified overhead branch clearance, tree canopy warnings, and big-rig-safe approach routes.</p>
+          </div>
+
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">🚗</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Toad & Staging</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Practical unhooking locations, front-office bottlenecks, and rear overflow staging areas.</p>
+          </div>
+
+          <div style="background: #ffffff; padding: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; text-align: center;">
+            <div style="font-size: 1.8rem; margin-bottom: 0.25rem;">📐</div>
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; color: #1e293b;">Rig-Fit & Site Selection</h3>
+            <p style="margin: 0; font-size: 0.88rem; color: #475569; line-height: 1.4;">Campsite backup angles, pull-through lengths, hill grades, and turnarounds for large rigs.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- SUBMIT INTELLIGENCE BOX -->
+      <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 1.5rem; text-align: center;">
+        <h2 style="color: #ffffff; margin-top: 0;">Have Ground-Truth Intelligence?</h2>
+        <p style="color: #cbd5e1;">Don't see a campground listed or have tips on low clearance, toad unhooking, or big-rig sites?</p>
+        <div style="margin-top: 1.5rem;">
+          <a href="submit.html" class="btn">+ Submit a New Campground</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+{% include "footer.njk" %}
+
+  <!-- Leaflet JS Library -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Unified Script for Map, Dynamic Filters & Featured Cards -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const MAX_HOMEPAGE_CARDS = 3;
+
+      // 1. Initialize Map
+      const map = L.map('homepage-map').setView([40.25, -74.90], 8);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      let markersLayer = L.layerGroup().addTo(map);
+      let allCampgrounds = [];
+
+      // Helper function to create custom colored marker pins
+      function createColoredMarkerIcon(colorHex) {
+        return L.divIcon({
+          className: 'custom-map-pin',
+          html: `<div style="background-color: ${colorHex}; width: 24px; height: 24px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.3); border: 2px solid #ffffff;"><div style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; transform: rotate(45deg);"></div></div>`,
+          iconSize: [24, 24],
+          iconAnchor: [12, 24],
+          popupAnchor: [0, -26]
+        });
+      }
+
+      // 2. Fetch Database once
+      fetch('data/campgrounds.json')
+        .then(response => {
+          if (!response.ok) throw new Error('Database fetch failed');
+          return response.json();
+        })
+        .then(campgrounds => {
+          allCampgrounds = campgrounds;
+
+          // --- AUTOMATICALLY POPULATE STATE DROPDOWN ---
+          const stateSelect = document.getElementById('state-select');
+          const uniqueStates = [...new Set(campgrounds.map(c => c.state))].sort();
+          
+          stateSelect.innerHTML = '<option value="ALL">All States</option>' + 
+            uniqueStates.map(state => `<option value="${state}">${state}</option>`).join('');
+
+          renderUI(); // Initial render with populated states
+        })
+        .catch(error => {
+          console.error('Error loading homepage content:', error);
+          document.getElementById('featured-cards-container').innerHTML = 
+            '<p style="color: #ef4444;">Unable to load campground content right now.</p>';
+        });
+
+      // 3. Render Function (Handles both Map Markers and Cards based on filters)
+      function renderUI() {
+        const selectedOwner = document.getElementById('owner-filter').value;
+        const selectedState = document.getElementById('state-select').value;
+        const selectedRig = document.getElementById('rig-select').value;
+
+        // Clear existing map pins
+        markersLayer.clearLayers();
+
+        // Apply filters
+        const filtered = allCampgrounds.filter(c => {
+          if (selectedOwner !== 'ALL' && c.ownertype !== selectedOwner) return false;
+          if (selectedState !== 'ALL' && c.state !== selectedState) return false;
+          if (selectedRig === 'BIG') {
+            const maxLen = c.scorecard?.maxRigLength || '';
+            if (!maxLen.includes('40') && !maxLen.includes('45') && !maxLen.includes('60')) return false;
+          }
+          return true;
+        });
+
+        // --- A. POPULATE MAP MARKERS ---
+        const mapBounds = [];
+        filtered.forEach(c => {
+          if (c.lat && c.lng) {
+            // Assign pin colors based on ownership type
+            const pinColor = c.ownertype === 'State Park' 
+              ? '#15803d' 
+              : (c.ownertype === 'National Park Service' ? '#e76f51' : '#2563eb');
+            
+            const markerIcon = createColoredMarkerIcon(pinColor);
+
+            const marker = L.marker([c.lat, c.lng], { icon: markerIcon });
+            const imgPath = c.image || 'favicon-96x96.png';
+            
+            const popupContent = `
+              <div class="map-popup-card">
+                <img src="${imgPath}" alt="${c.name}" class="map-popup-thumb" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
+                <div class="map-popup-info">
+                  <h3>${c.name} (${c.state})</h3>
+                  <p>${c.summary}</p>
+                  <a href="c/${c.id}.html" class="btn">View Full Guide →</a>
+                </div>
+              </div>
+            `;
+            marker.bindPopup(popupContent);
+            markersLayer.addLayer(marker);
+            mapBounds.push([c.lat, c.lng]);
+          }
+        });
+
+        if (mapBounds.length > 0) {
+          map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 });
+        }
+
+        // --- B. POPULATE FEATURED CARDS ---
+        const cardsContainer = document.getElementById('featured-cards-container');
+        const latestCampgrounds = filtered
+          .filter(c => c.featured !== false)
+          .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
+          .slice(0, MAX_HOMEPAGE_CARDS);
+
+        if (latestCampgrounds.length === 0) {
+          cardsContainer.innerHTML = '<p style="color: #64748b; font-style: italic;">No campgrounds match the selected filter criteria.</p>';
+          return;
+        }
+
+        cardsContainer.innerHTML = latestCampgrounds.map(c => `
+          <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+            <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
+            <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
+            <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
+            <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
+          </div>
+        `).join('');
+      }
+
+      // 4. Attach Event Listeners to Filters
+      document.getElementById('owner-filter').addEventListener('change', renderUI);
+      document.getElementById('state-select').addEventListener('change', renderUI);
+      document.getElementById('rig-select').addEventListener('change', renderUI);
+    });
+  </script>
+
+</body>
+</html>
