@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("data");
 
-  // Ignore backend server files 
+  // Ignore backend server files
   eleventyConfig.ignores.add("server.js");
   eleventyConfig.ignores.add("sever.js");
 
