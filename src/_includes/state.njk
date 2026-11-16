@@ -1,0 +1,43 @@
+---
+pagination:
+  data: campgrounds
+  size: 1
+  alias: stateCode
+  before: "function(paginationData, fullData) { return [...new Set(paginationData.map(c => c.state).filter(Boolean))].sort(); }"
+permalink: "states/{{ stateCode | lower }}.html"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big-Rig Friendly RV Campgrounds in {{ stateCode }} - RigFitRV</title>
+  <meta name="description" content="Verified RV campground clearances, max rig lengths, and approach routing guides across {{ stateCode }}.">
+  <link rel="canonical" href="https://rigfitrv.com/states/{{ stateCode | lower }}.html">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  {% include "header.njk" %}
+
+  <div class="container">
+    <div class="article-card">
+      <h1>Big-Rig Friendly RV Campgrounds in {{ stateCode }}</h1>
+      <p>Browse verified RV clearance scorecards, approach routes, and toad unhook guidance for campgrounds in {{ stateCode }}.</p>
+      <hr>
+
+      {% set stateCamps = campgrounds | byState(stateCode) %}
+      {% for camp in stateCamps %}
+      <div class="campground-card" style="border-bottom: 1px solid #e2e8f0; padding: 1rem 0;">
+        <h2><a href="/c/{{ camp.id }}.html">{{ camp.name }}</a> &mdash; {{ camp.city }}, {{ camp.state }}</h2>
+        <p><strong>Max Rig Length:</strong> {{ camp.scorecard.maxRigLength }} &bull; <strong>Ownership:</strong> {{ camp.ownertype }}</p>
+        <p>{{ camp.summary }}</p>
+        <a href="/c/{{ camp.id }}.html">Read Full RV Guide &rarr;</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% include "footer.njk" %}
+</body>
+</html>
