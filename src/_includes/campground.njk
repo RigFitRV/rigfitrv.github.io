@@ -1,0 +1,112 @@
+---
+pagination:
+  data: campgrounds
+  size: 1
+  alias: camp
+permalink: "c/{{ camp.id }}.html"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ camp.name }} ({{ camp.city }}, {{ camp.state }}) RV Guide - RigFitRV</title>
+  <meta name="description" content="{{ camp.summary }}">
+  <link rel="canonical" href="https://rigfitrv.com/c/{{ camp.id }}.html">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <!-- Auto-Generated Campground Schema (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Campground",
+    "name": "{{ camp.name }}",
+    "description": "{{ camp.summary }}",
+    "telephone": "{{ camp.phone }}",
+    "url": "{{ camp.website }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ camp.address }}",
+      "addressLocality": "{{ camp.city }}",
+      "addressRegion": "{{ camp.state }}",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": {{ camp.lat }},
+      "longitude": {{ camp.lng }}
+    }
+  }
+  </script>
+</head>
+<body data-campground-id="{{ camp.id }}">
+  {% include "header.njk" %}
+
+  <div class="container">
+    <div class="article-card">
+      <h1>{{ camp.name }} RV Clearance &amp; Routing Guide</h1>
+      <p class="subtitle">{{ camp.city }}, {{ camp.state }} &bull; {{ camp.ownertype }}</p>
+
+      <table class="campground-info-table">
+        <tr><th>Address</th><td>{{ camp.address }}</td></tr>
+        <tr><th>GPS Coordinates</th><td>{{ camp.gps }} ({{ camp.lat }}, {{ camp.lng }})</td></tr>
+        <tr><th>Phone</th><td><a href="tel:{{ camp.phone }}">{{ camp.phone }}</a></td></tr>
+        <tr><th>Official Website</th><td><a href="{{ camp.website }}" target="_blank" rel="noopener">Visit Campground Website</a></td></tr>
+      </table>
+
+      <hr>
+      <h2>🚚 The Quick Rig-Fit Scorecard</h2>
+      <div class="scorecard">
+        <ul>
+          <li><strong>Max Rig Length:</strong> {{ camp.scorecard.maxRigLength }}</li>
+          <li><strong>Toad Friendliness:</strong> {{ camp.scorecard.toadFriendliness }}</li>
+          <li><strong>Tree Clearance:</strong> {{ camp.scorecard.treeClearance }}</li>
+          <li><strong>Best Big-Rig Loops:</strong> {{ camp.scorecard.bestBigRigLoops }}</li>
+          <li><strong>Best Small-Rig Loops:</strong> {{ camp.scorecard.bestSmallRigLoops }}</li>
+        </ul>
+      </div>
+
+      <hr>
+      <h2>🛣️ {{ camp.approach.title }}</h2>
+      <p>{{ camp.approach.text }}</p>
+      {% set approachProduct = products | getProduct(camp.approach.recommendedGear.gearKey) %}
+      {% if approachProduct %}
+      <div class="gear-callout">
+        <strong>Recommended Approach Gear: {{ approachProduct.productName or approachProduct.title }}</strong>
+        <p>{{ camp.approach.recommendedGear.reason }}</p>
+        {% if approachProduct.affiliateLink %}<a href="{{ approachProduct.affiliateLink }}" target="_blank" rel="nofollow noopener" class="btn">Check Price &amp; Specs</a>{% endif %}
+      </div>
+      {% endif %}
+
+      <hr>
+      <h2>🏕️ Campground Overview &amp; Atmosphere</h2>
+      <p>{{ camp.content.overview }}</p>
+      {% if camp.content.loopC %}<p><strong>Big-Rig &amp; Full-Hookup Loops:</strong> {{ camp.content.loopC }}</p>{% endif %}
+      {% if camp.content.loopsAB %}<p><strong>Wooded &amp; Small-Rig Loops:</strong> {{ camp.content.loopsAB }}</p>{% endif %}
+      {% set contentProduct = products | getProduct(camp.content.recommendedGear.gearKey) %}
+      {% if contentProduct %}
+      <div class="gear-callout">
+        <strong>Recommended Campsite Gear: {{ contentProduct.productName or contentProduct.title }}</strong>
+        <p>{{ camp.content.recommendedGear.reason }}</p>
+        {% if contentProduct.affiliateLink %}<a href="{{ contentProduct.affiliateLink }}" target="_blank" rel="nofollow noopener" class="btn">Check Price &amp; Specs</a>{% endif %}
+      </div>
+      {% endif %}
+
+      <hr>
+      <h2>🚗 Toad Unhook Strategy</h2>
+      <p>{{ camp.toadStrategy.text }}</p>
+      {% set toadProduct = products | getProduct(camp.toadStrategy.recommendedGear.gearKey) %}
+      {% if toadProduct %}
+      <div class="gear-callout">
+        <strong>Recommended Towing Gear: {{ toadProduct.productName or toadProduct.title }}</strong>
+        <p>{{ camp.toadStrategy.recommendedGear.reason }}</p>
+        {% if toadProduct.affiliateLink %}<a href="{{ toadProduct.affiliateLink }}" target="_blank" rel="nofollow noopener" class="btn">Check Price &amp; Specs</a>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% include "footer.njk" %}
+</body>
+</html>
