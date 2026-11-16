@@ -3,7 +3,7 @@ pagination:
   data: campgrounds
   size: 1
   alias: stateCode
-  before: "function(paginationData, fullData) { return [...new Set(paginationData.map(c => c.state).filter(Boolean))].sort(); }"
+  before: paginationData => [...new Set(paginationData.map(c => c.state).filter(Boolean))].sort()
 permalink: "states/{{ stateCode | lower }}.html"
 ---
 <!DOCTYPE html>
