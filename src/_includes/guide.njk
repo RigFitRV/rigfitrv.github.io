@@ -1,0 +1,53 @@
+---
+pagination:
+  data: guides
+  size: 1
+  alias: guide
+permalink: "g/{{ guide.slug }}.html"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ guide.title }} - RigFitRV</title>
+  <meta name="description" content="{{ guide.summary }}">
+  <link rel="canonical" href="https://rigfitrv.com/g/{{ guide.slug }}.html">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  {% include "header.njk" %}
+
+  <div class="container">
+    <div class="article-card">
+      <h1>{{ guide.title }}</h1>
+      {% if guide.subtitle %}<p class="subtitle">{{ guide.subtitle }}</p>{% endif %}
+      <p><strong>Region:</strong> {{ guide.region }}, {{ guide.state }} &bull; <strong>Updated:</strong> {{ guide.publishedDate }}</p>
+
+      <hr>
+      <p>{{ guide.summary }}</p>
+
+      {% if guide.featuredCampgroundIds and guide.featuredCampgroundIds.length %}
+      <hr>
+      <h2>🏕️ Verified Rig-Friendly Campgrounds in {{ guide.region }}</h2>
+      <div class="campground-grid">
+        {% for campId in guide.featuredCampgroundIds %}
+          {% set camp = campgrounds | findCampground(campId) %}
+          {% if camp %}
+          <div class="campground-card" style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem;">
+            <h3><a href="/c/{{ camp.id }}.html">{{ camp.name }}</a> ({{ camp.city }}, {{ camp.state }})</h3>
+            <p><strong>Max Rig Length:</strong> {{ camp.scorecard.maxRigLength }} | <strong>Type:</strong> {{ camp.ownertype }}</p>
+            <p>{{ camp.summary }}</p>
+            <a href="/c/{{ camp.id }}.html" class="btn">View Rig-Fit Scorecard &amp; Approach Notes &rarr;</a>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% include "footer.njk" %}
+</body>
+</html>
