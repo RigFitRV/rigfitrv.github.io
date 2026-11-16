@@ -1,0 +1,34 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rigfitrv.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {%- for st in campgrounds | uniqueStates %}
+  <url>
+    <loc>https://rigfitrv.com/states/{{ st | lower }}.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+  {%- for guide in guides %}
+  <url>
+    <loc>https://rigfitrv.com/g/{{ guide.slug }}.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  {%- endfor %}
+  {%- for camp in campgrounds %}
+  <url>
+    <loc>https://rigfitrv.com/c/{{ camp.id }}.html</loc>
+    <lastmod>{{ camp.addedDate }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+</urlset>
