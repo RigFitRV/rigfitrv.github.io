@@ -1,106 +1,291 @@
+---
+permalink: "search.html"
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Campgrounds - RigFitRV</title>
-  <meta name="description" content="Search verified RV campground clearance guides, approach warnings, and big-rig ratings on RigFitRV.">
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Custom Favicons -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-
-  <!-- Prevent AI Model Training & Image Scraping -->
-  <meta name="robots" content="noai, noimageai">
-  <meta name="tdm-reservation" content="1">
+  <title>Search Campgrounds &amp; RV Travel Guides - RigFitRV</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <style>
+    .search-header {
+      margin-bottom: 1.5rem;
+    }
+    .search-header h1 {
+      margin: 0 0 0.4rem;
+      color: #0f172a;
+      font-size: 1.85rem;
+    }
+    .search-count {
+      color: #475569;
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    .search-inline-form {
+      display: flex;
+      gap: 0.6rem;
+      margin: 1.15rem 0 1.75rem;
+    }
+    .search-inline-form input {
+      flex: 1;
+      padding: 0.65rem 0.9rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    .search-inline-form button {
+      background: #2563eb;
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      padding: 0.65rem 1.25rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+    .search-inline-form button:hover {
+      background: #1d4ed8;
+    }
+    .search-section-title {
+      font-size: 1.22rem;
+      color: #0f172a;
+      margin: 1.75rem 0 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    .search-results-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 680px) {
+      .search-results-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .search-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .search-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      background: #e2e8f0;
+    }
+    .search-card-body {
+      padding: 1rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .search-card-kicker {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #0066cc;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .search-card-body h3 {
+      margin: 0.35rem 0 0.45rem;
+      font-size: 1.08rem;
+      color: #0f172a;
+    }
+    .search-card-body p {
+      font-size: 0.85rem;
+      color: #475569;
+      line-height: 1.42;
+      margin: 0 0 1rem;
+    }
+    .search-card-btn {
+      display: block;
+      text-align: center;
+      padding: 0.52rem 0.75rem;
+      background: #2563eb;
+      color: #ffffff !important;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.86rem;
+      font-weight: 600;
+    }
+    .search-card-btn:hover {
+      background: #1d4ed8;
+    }
+    .search-cta-box {
+      background: #1e293b;
+      color: #f8fafc;
+      border-radius: 8px;
+      padding: 1.75rem 1.5rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .search-cta-box h2 {
+      margin: 0 0 0.45rem;
+      color: #ffffff;
+      font-size: 1.3rem;
+    }
+    .search-cta-box p {
+      color: #cbd5e1;
+      font-size: 0.92rem;
+      margin: 0 0 1.15rem;
+    }
+    .search-cta-btn {
+      display: inline-block;
+      background: #2563eb;
+      color: #ffffff !important;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .search-cta-btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
 </head>
 <body>
+  {% include "header.njk" %}
 
-  <!-- Universal Header -->
-  <div id="header-placeholder"></div>
-  <script>
-    fetch('header.html')
-      .then(response => response.text())
-      .then(data => document.getElementById('header-placeholder').innerHTML = data);
-  </script>
-
-  <div class="container" style="padding-top: 40px; padding-bottom: 60px;">
-    <h1 id="search-title">Search Results</h1>
-    <p id="search-subtitle" class="section-subtitle">Loading search results...</p>
-    
-    <div id="search-results-grid" class="cards-grid" style="margin-top: 30px;">
-      <!-- Dynamic results render here -->
-    </div>
-
-<!-- Submission Call-to-Action Box -->
-      <div style="background-color: #1e293b; color: #ffffff; padding: 2rem; border-radius: 8px; margin-top: 2.5rem; text-align: center;">
-        <h2 style="color: #ffffff; margin-top: 0;">Have Ground-Truth Intelligence?</h2>
-        <p style="color: #cbd5e1;">Don't see a campground listed or have tips on low clearance, toad unhooking, or big-rig sites?</p>
-        <div style="margin-top: 1.5rem;">
-          <a href="submit.html" class="btn">+ Submit a New Campground</a>
-        </div>
+  <div class="container">
+    <div class="article-card">
+      <div class="search-header">
+        <h1 id="search-heading">Search RigFitRV</h1>
+        <p class="search-count" id="search-status">Enter a campground name, city, state, or keyword below.</p>
       </div>
-    
+
+      <form class="search-inline-form" action="/search.html" method="get">
+        <input type="text" name="q" id="inline-search-input" placeholder="Search campgrounds, cities, states, or travel guides...">
+        <button type="submit">Search</button>
+      </form>
+
+      <div id="search-results-container"></div>
+
+      <div class="search-cta-box">
+        <h2>Have Ground-Truth Intelligence?</h2>
+        <p>Don't see a campground listed or have tips on low clearance, toad unhooking, or big-rig sites?</p>
+        <a href="/submit.html" class="search-cta-btn">+ Submit a New Campground</a>
+      </div>
+    </div>
   </div>
 
-  <!-- Universal Footer -->
-  <div id="footer-placeholder"></div>
+  {% include "footer.njk" %}
+
   <script>
-    fetch('footer.html')
-      .then(response => response.text())
-      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
-  </script>
+    (function() {
+      const campgrounds = {{ campgrounds | dump | safe }};
+      const guides = {{ guides | dump | safe }};
 
-  <!-- Search Results Loader Script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', async () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const query = (urlParams.get('q') || '').toLowerCase().trim();
-      
-      document.getElementById('search-title').textContent = query ? `Search: "${query}"` : `All Campground Guides`;
-      
-      try {
-        const response = await fetch('data/campgrounds.json');
-        const campgrounds = await response.json();
-        
-        const filtered = campgrounds.filter(camp => {
-          if (!query) return true;
-          return (
-            camp.name.toLowerCase().includes(query) ||
-            camp.city.toLowerCase().includes(query) ||
-            camp.state.toLowerCase().includes(query) ||
-            camp.summary.toLowerCase().includes(query)
-          );
-        });
+      const params = new URLSearchParams(window.location.search);
+      const rawQuery = (params.get("q") || "").trim();
+      const query = rawQuery.toLowerCase();
 
-        document.getElementById('search-subtitle').textContent = `Found ${filtered.length} verified guide${filtered.length === 1 ? '' : 's'}`;
-        
-        const grid = document.getElementById('search-results-grid');
-        if (filtered.length === 0) {
-          grid.innerHTML = '<p style="grid-column: 1 / -1; text-align: center; padding: 40px 0;">No campgrounds matched your search. Try searching by city, state, or campground name.</p>';
-          return;
-        }
+      const headingEl = document.getElementById("search-heading");
+      const statusEl = document.getElementById("search-status");
+      const inputEl = document.getElementById("inline-search-input");
+      const containerEl = document.getElementById("search-results-container");
 
-        grid.innerHTML = filtered.map(camp => `
-          <div class="card">
-            <img src="${camp.image}" alt="${camp.name}" onerror="this.src='images/placeholder.jpg'">
-            <div class="card-content">
-              <h3>${camp.name}</h3>
-              <p class="location">${camp.city}, ${camp.state} • ${camp.ownertype}</p>
-              <p class="summary">${camp.summary}</p>
-              <a href="c/${camp.id}.html" class="btn">View Rig-Fit Guide</a>
-            </div>
-          </div>
-        `).join('');
-        
-      } catch (err) {
-        console.error('Error loading search results:', err);
-        document.getElementById('search-subtitle').textContent = 'Error loading search results. Please try again later.';
+      if (inputEl) inputEl.value = rawQuery;
+
+      if (!query) {
+        headingEl.textContent = "Search Campgrounds & Travel Guides";
+        statusEl.textContent = `Browse all ${campgrounds.length} verified campgrounds and ${guides.length} regional & technical guides.`;
+        return;
       }
-    });
+
+      headingEl.textContent = `Search: "${rawQuery}"`;
+
+      const campMatches = campgrounds.filter(function(c) {
+        const haystack = [
+          c.name,
+          c.city,
+          c.state,
+          c.ownertype,
+          c.summary,
+          c.overview,
+          c.routingWarning,
+          c.scorecard && c.scorecard.maxRigLength,
+          c.scorecard && c.scorecard.bestBigRigLoops
+        ].filter(Boolean).join(" ").toLowerCase();
+        return haystack.includes(query);
+      });
+
+      const guideMatches = guides.filter(function(g) {
+        const haystack = [
+          g.title,
+          g.subtitle,
+          g.region,
+          g.state,
+          g.summary
+        ].filter(Boolean).join(" ").toLowerCase();
+        return haystack.includes(query);
+      });
+
+      const total = campMatches.length + guideMatches.length;
+
+      if (total === 0) {
+        statusEl.textContent = `No campgrounds or guides matched "${rawQuery}". Try searching by state (e.g. PA, NJ, MD, NY, CT) or city.`;
+        return;
+      }
+
+      statusEl.textContent = `Found ${campMatches.length} campground${campMatches.length === 1 ? "" : "s"} and ${guideMatches.length} guide${guideMatches.length === 1 ? "" : "s"} matching "${rawQuery}".`;
+
+      let html = "";
+
+      if (campMatches.length > 0) {
+        html += `<h2 class="search-section-title">🏕️ Matching Campgrounds (${campMatches.length})</h2>`;
+        html += `<div class="search-results-grid">`;
+        html += campMatches.map(function(camp) {
+          return `
+            <div class="search-card">
+              <img src="${camp.image || '/favicon-96x96.png'}" alt="${camp.name}" onerror="this.src='/favicon-96x96.png'; this.style.objectFit='contain';">
+              <div class="search-card-body">
+                <div>
+                  <span class="search-card-kicker">${camp.ownertype || 'Campground'} &bull; ${camp.city}, ${camp.state}</span>
+                  <h3>${camp.name}</h3>
+                  <p>${camp.summary || ''}</p>
+                </div>
+                <a href="/c/${camp.id}.html" class="search-card-btn">View Rig-Fit Guide &rarr;</a>
+              </div>
+            </div>
+          `;
+        }).join("");
+        html += `</div>`;
+      }
+
+      if (guideMatches.length > 0) {
+        html += `<h2 class="search-section-title">🗺️ Matching Travel &amp; Technical Guides (${guideMatches.length})</h2>`;
+        html += `<div class="search-results-grid">`;
+        html += guideMatches.map(function(g) {
+          return `
+            <div class="search-card">
+              <img src="${g.image || '/favicon-96x96.png'}" alt="${g.title}" onerror="this.src='/favicon-96x96.png'; this.style.objectFit='contain';">
+              <div class="search-card-body">
+                <div>
+                  <span class="search-card-kicker">${g.region} (${g.state})</span>
+                  <h3>${g.title}</h3>
+                  <p>${g.summary || ''}</p>
+                </div>
+                <a href="/g/${g.slug || g.id}.html" class="search-card-btn">Read Guide &rarr;</a>
+              </div>
+            </div>
+          `;
+        }).join("");
+        html += `</div>`;
+      }
+
+      containerEl.innerHTML = html;
+    })();
   </script>
 </body>
 </html>
