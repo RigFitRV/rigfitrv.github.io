@@ -27,8 +27,8 @@ header, .site-header {
   color: #ffffff;
   padding: 0.85rem 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
+  position: relative;
+  top: auto;
   z-index: 1000;
 }
 
