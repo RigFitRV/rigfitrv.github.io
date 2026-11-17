@@ -479,7 +479,7 @@ permalink: "c/{{ camp.id }}.html"
           <span>This campground is curated in our regional RV trip &amp; route guides:</span>
         </div>
         {% for guide in matchingGuides %}
-        <a href="/g/{{ guide.id or guide.slug }}.html" class="featured-hub-link">
+        <a href="/g/{{ guide.slug or guide.id }}.html" class="featured-hub-link">
           <span>{{ guide.title }}</span>
           <span class="featured-hub-arrow">Explore Guide &rarr;</span>
         </a>
