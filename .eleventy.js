@@ -40,8 +40,8 @@ module.exports = function(eleventyConfig) {
     return str ? String(str).toLowerCase() : "";
   });
 
-  // Filter campgrounds by Haversine distance (miles)
-  eleventyConfig.addFilter("nearbyCamps", (campgrounds, currentCamp, limit = 2) => {
+  // Filter campgrounds by Haversine distance (whole miles)
+  eleventyConfig.addFilter("nearbyCamps", function(campgrounds, currentCamp, limit = 2) {
     if (!Array.isArray(campgrounds) || !currentCamp || !currentCamp.lat || !currentCamp.lng) {
       return [];
     }
@@ -66,16 +66,8 @@ module.exports = function(eleventyConfig) {
       .slice(0, limit);
   });
 
-  return {
-    dir: {
-      input: "src",
-      includes: "_includes",
-      data: "../data",
-      output: "_site"
-    },
-
-    // Find regional hub guides featuring a specific campground ID
-  eleventyConfig.addFilter("guidesForCamp", (guides, campId) => {
+  // Find regional hub guides featuring a specific campground ID
+  eleventyConfig.addFilter("guidesForCamp", function(guides, campId) {
     if (!Array.isArray(guides) || !campId) return [];
     return guides.filter((g) => {
       const lists = [
@@ -97,6 +89,14 @@ module.exports = function(eleventyConfig) {
       );
     });
   });
+
+  return {
+    dir: {
+      input: "src",
+      includes: "_includes",
+      data: "../data",
+      output: "_site"
+    },
     templateFormats: ["njk", "html", "md"],
     htmlTemplateEngine: "njk"
   };
