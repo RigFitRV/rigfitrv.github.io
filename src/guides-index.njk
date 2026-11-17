@@ -1,0 +1,155 @@
+---
+permalink: "guides.html"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RV Travel Guides, Regional Campgrounds &amp; Technical Pillars - RigFitRV</title>
+  <meta name="description" content="Explore RigFitRV regional camping guides, big-rig routing audits, and technical RV towing, electrical, and plumbing pillar hubs.">
+  <link rel="canonical" href="https://rigfitrv.com/guides.html">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <style>
+    .guides-hub-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .guides-hub-header h1 {
+      margin-bottom: 0.4rem;
+    }
+    .guides-hub-header p {
+      color: #475569;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .guides-section-title {
+      font-size: 1.3rem;
+      color: #0f172a;
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    .guides-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+    }
+    @media (max-width: 680px) {
+      .guides-grid { grid-template-columns: 1fr; }
+    }
+    .guide-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .guide-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      background: #e2e8f0;
+    }
+    .guide-card-body {
+      padding: 1.15rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .guide-region-badge {
+      display: inline-block;
+      align-self: flex-start;
+      background: #eff6ff;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      margin-bottom: 0.5rem;
+    }
+    .guide-card-body h3 {
+      margin: 0 0 0.4rem;
+      font-size: 1.05rem;
+      color: #0f172a;
+      line-height: 1.35;
+    }
+    .guide-card-body p {
+      font-size: 0.86rem;
+      color: #475569;
+      margin: 0 0 1rem;
+      flex: 1;
+    }
+    .guide-card-btn {
+      display: block;
+      text-align: center;
+      background: #2563eb;
+      color: #ffffff !important;
+      font-weight: 600;
+      font-size: 0.86rem;
+      padding: 0.55rem 0.9rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .guide-card-btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  {% include "header.njk" %}
+
+  <div class="container">
+    <div class="article-card">
+      <div class="guides-hub-header">
+        <h1>🗺️ RigFitRV Travel &amp; Technical Guides</h1>
+        <p>Verified big-rig campground audits, regional highway clearance strategies, and essential RV systems engineering guides.</p>
+      </div>
+
+      <h2 class="guides-section-title">🏕️ Regional RV Camping &amp; Route Guides</h2>
+      <div class="guides-grid">
+        {% for guide in guides %}
+          {% if guide.featuredCampgroundIds and guide.featuredCampgroundIds.length > 0 %}
+          <div class="guide-card">
+            {% if guide.image %}
+            <img src="{{ guide.image }}" alt="{{ guide.title }}" onerror="this.style.display='none'">
+            {% endif %}
+            <div class="guide-card-body">
+              <span class="guide-region-badge">{{ guide.region }} ({{ guide.state }})</span>
+              <h3>{{ guide.title }}</h3>
+              <p>{{ guide.summary }}</p>
+              <a href="/g/{{ guide.slug }}.html" class="guide-card-btn">Read Regional Guide ({{ guide.featuredCampgroundIds.length }} Campgrounds) &rarr;</a>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <h2 class="guides-section-title">🛠️ RV Engineering &amp; Technical Pillar Guides</h2>
+      <div class="guides-grid">
+        {% for guide in guides %}
+          {% if not guide.featuredCampgroundIds or guide.featuredCampgroundIds.length == 0 %}
+          <div class="guide-card">
+            {% if guide.image %}
+            <img src="{{ guide.image }}" alt="{{ guide.title }}" onerror="this.style.display='none'">
+            {% endif %}
+            <div class="guide-card-body">
+              <span class="guide-region-badge">{{ guide.region }}</span>
+              <h3>{{ guide.title }}</h3>
+              <p>{{ guide.summary }}</p>
+              <a href="/g/{{ guide.slug }}.html" class="guide-card-btn">Open Technical Guide &rarr;</a>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  {% include "footer.njk" %}
+</body>
+</html>
