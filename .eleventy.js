@@ -35,8 +35,35 @@ module.exports = function(eleventyConfig) {
     return campgrounds.filter(c => c.state === stateCode);
   });
 
+  // Lowercase string helper
   eleventyConfig.addFilter("lower", function(str) {
     return str ? String(str).toLowerCase() : "";
+  });
+
+  // Filter campgrounds by Haversine distance (miles)
+  eleventyConfig.addFilter("nearbyCamps", (campgrounds, currentCamp, limit = 2) => {
+    if (!Array.isArray(campgrounds) || !currentCamp || !currentCamp.lat || !currentCamp.lng) {
+      return [];
+    }
+    const toRad = (deg) => (deg * Math.PI) / 180;
+    const R = 3958.8; // Earth radius in miles
+
+    return campgrounds
+      .filter((c) => c.id !== currentCamp.id && c.lat && c.lng)
+      .map((c) => {
+        const dLat = toRad(c.lat - currentCamp.lat);
+        const dLng = toRad(c.lng - currentCamp.lng);
+        const a =
+          Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+          Math.cos(toRad(currentCamp.lat)) *
+            Math.cos(toRad(c.lat)) *
+            Math.sin(dLng / 2) *
+            Math.sin(dLng / 2);
+        const distanceMiles = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return { ...c, distanceMiles: Math.round(distanceMiles * 10) / 10 };
+      })
+      .sort((a, b) => a.distanceMiles - b.distanceMiles)
+      .slice(0, limit);
   });
 
   return {
