@@ -60,7 +60,7 @@ module.exports = function(eleventyConfig) {
             Math.sin(dLng / 2) *
             Math.sin(dLng / 2);
         const distanceMiles = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        return { ...c, distanceMiles: Math.round(distanceMiles * 10) / 10 };
+        return { ...c, distanceMiles: Math.round(distanceMiles) };
       })
       .sort((a, b) => a.distanceMiles - b.distanceMiles)
       .slice(0, limit);
