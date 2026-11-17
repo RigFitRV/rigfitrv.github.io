@@ -15,36 +15,417 @@ permalink: "g/{{ guide.slug }}.html"
   <link rel="canonical" href="https://rigfitrv.com/g/{{ guide.slug }}.html">
   <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  {% if guide.image %}
+  <meta property="og:image" content="https://rigfitrv.com{{ guide.image }}">
+  {% endif %}
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="RigFitRV">
+  <meta property="og:title" content="{{ guide.title }} - RigFitRV">
+  <meta property="og:description" content="{{ guide.summary }}">
+  <meta property="og:url" content="https://rigfitrv.com/g/{{ guide.slug }}.html">
+
+  <style>
+    .guide-header-block {
+      margin-bottom: 1.5rem;
+    }
+    .guide-eyebrow {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #0066cc;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .guide-header-block h1 {
+      margin: 0.4rem 0 0.75rem 0;
+      font-size: 1.95rem;
+      color: #0f172a;
+      line-height: 1.22;
+    }
+    .guide-lead {
+      font-size: 1.05rem;
+      color: #475569;
+      line-height: 1.55;
+      margin: 0;
+    }
+    .guide-meta-bar {
+      font-size: 0.82rem;
+      color: #64748b;
+      margin-top: 0.65rem;
+    }
+    .article-card h2 {
+      font-size: 1.32rem;
+      color: #0f172a;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .article-card h3 {
+      font-size: 1.08rem;
+      color: #1e293b;
+      margin-top: 1.15rem;
+      margin-bottom: 0.5rem;
+    }
+    .article-card blockquote {
+      background: #f8fafc;
+      border-left: 4px solid #2563eb;
+      margin: 1.25rem 0;
+      padding: 0.9rem 1.1rem;
+      border-radius: 0 6px 6px 0;
+      color: #1e293b;
+      font-size: 0.93rem;
+      line-height: 1.55;
+    }
+
+    /* Technical Tables for Pillar Guides */
+    .guide-table-wrap {
+      overflow-x: auto;
+      margin: 1.25rem 0;
+    }
+    .guide-tech-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+    .guide-tech-table th {
+      background-color: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 0.75rem;
+      text-align: left;
+      color: #0f172a;
+    }
+    .guide-tech-table td {
+      border: 1px solid #e2e8f0;
+      padding: 0.75rem;
+      color: #334155;
+    }
+    .guide-tech-table tbody tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    /* 2-Column Hand-Selected Campground Photo Grid */
+    .featured-campgrounds-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.35rem;
+      margin: 1.25rem 0 2rem;
+    }
+    @media (max-width: 680px) {
+      .featured-campgrounds-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .featured-camp-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .featured-camp-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      background: #e2e8f0;
+    }
+    .featured-camp-body {
+      padding: 1rem 1.1rem 1.15rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .featured-camp-kicker {
+      font-size: 0.73rem;
+      font-weight: 700;
+      color: #0066cc;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .featured-camp-body h3 {
+      margin: 0.35rem 0 0.45rem;
+      font-size: 1.12rem;
+      color: #0f172a;
+      line-height: 1.3;
+    }
+    .featured-camp-body p {
+      font-size: 0.85rem;
+      color: #475569;
+      line-height: 1.45;
+      margin: 0 0 1rem;
+    }
+    .featured-camp-btn {
+      display: block;
+      text-align: center;
+      padding: 0.55rem 0.75rem;
+      background: #2563eb;
+      color: #ffffff !important;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .featured-camp-btn:hover {
+      background: #1d4ed8;
+    }
+
+    /* Recommended Gear Grid (Upgraded Blue Accent Style) */
+    .recommended-gear-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin: 1.25rem 0 0.5rem;
+    }
+    @media (max-width: 680px) {
+      .recommended-gear-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .guide-gear-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #2563eb;
+      border-radius: 8px;
+      padding: 1rem 1.1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .guide-gear-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #d97706;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .guide-gear-card h4 {
+      margin: 0.3rem 0 0.45rem;
+      font-size: 1rem;
+      color: #0f172a;
+    }
+    .guide-gear-card p {
+      font-size: 0.84rem;
+      color: #475569;
+      line-height: 1.42;
+      margin: 0 0 0.9rem;
+    }
+    .guide-gear-btn {
+      display: block;
+      text-align: center;
+      padding: 0.5rem 0.75rem;
+      background: #2563eb;
+      color: #ffffff !important;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .guide-gear-btn:hover {
+      background: #1d4ed8;
+    }
+    .affiliate-note {
+      font-size: 0.74rem;
+      color: #64748b;
+      margin: 0.35rem 0 1.75rem;
+    }
+
+    /* Technical Pillar Callout Box */
+    .pillar-callout-box {
+      background-color: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 1.35rem;
+      margin: 1.75rem 0;
+    }
+    .pillar-callout-box h3 {
+      margin-top: 0;
+      color: #1e293b;
+      font-size: 1.18rem;
+    }
+    .pillar-callout-box > p {
+      color: #475569;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    .pillar-links-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.85rem;
+    }
+    @media (max-width: 680px) {
+      .pillar-links-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .pillar-link-card {
+      text-decoration: none;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 0.85rem;
+      display: block;
+      transition: border-color 0.15s ease;
+    }
+    .pillar-link-card:hover {
+      border-color: #2563eb;
+    }
+    .pillar-link-card span {
+      font-size: 0.74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: block;
+    }
+    .pillar-link-card h4 {
+      margin: 0.25rem 0 0;
+      color: #0f172a;
+      font-size: 0.94rem;
+    }
+
+    /* Compact Horizontal Community Intelligence Box matching Campground Pages */
+    .community-intel-box {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-left: 4px solid #2563eb;
+      border-radius: 8px;
+      padding: 0.95rem 1.15rem;
+      margin-top: 1.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .community-intel-copy strong {
+      display: block;
+      color: #0f172a;
+      font-size: 0.95rem;
+      margin-bottom: 0.2rem;
+    }
+    .community-intel-copy span {
+      color: #475569;
+      font-size: 0.84rem;
+      line-height: 1.4;
+    }
+    .community-intel-btn {
+      background: #2563eb;
+      color: #ffffff !important;
+      font-size: 0.84rem;
+      font-weight: 600;
+      padding: 0.52rem 0.95rem;
+      border-radius: 6px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .community-intel-btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
 </head>
 <body>
   {% include "header.njk" %}
 
   <div class="container">
     <div class="article-card">
-      <h1>{{ guide.title }}</h1>
-      {% if guide.subtitle %}<p class="subtitle">{{ guide.subtitle }}</p>{% endif %}
-      <p><strong>Region:</strong> {{ guide.region }}, {{ guide.state }} &bull; <strong>Updated:</strong> {{ guide.publishedDate }}</p>
 
-      <hr>
-      <p>{{ guide.summary }}</p>
+      <div class="guide-header-block">
+        {% if guide.eyebrow %}
+        <span class="guide-eyebrow">{{ guide.eyebrow }}</span>
+        {% endif %}
+        <h1>{{ guide.title }}</h1>
+        <p class="guide-lead">{{ guide.lead or guide.summary }}</p>
+        <div class="guide-meta-bar">
+          <strong>Region:</strong> {{ guide.region }}{% if guide.state and guide.state != "US" %}, {{ guide.state }}{% endif %} &bull; <strong>Updated:</strong> {{ guide.publishedDate }}
+        </div>
+      </div>
 
-      {% if guide.featuredCampgroundIds and guide.featuredCampgroundIds.length %}
+      <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 1.35rem 0;">
+
+      {% if guide.introHtml %}
+        {{ guide.introHtml | safe }}
+      {% else %}
+        <p>{{ guide.summary }}</p>
+      {% endif %}
+
+      {% if guide.featuredCampgroundIds and guide.featuredCampgroundIds.length > 0 %}
       <hr>
-      <h2>🏕️ Verified Rig-Friendly Campgrounds in {{ guide.region }}</h2>
-      <div class="campground-grid">
+      <h2>🏕️ Hand-Selected Campgrounds in the {{ guide.region }} Cluster</h2>
+      <p>We’ve audited and verified the top campgrounds in this regional cluster:</p>
+
+      <div class="featured-campgrounds-grid">
         {% for campId in guide.featuredCampgroundIds %}
           {% set camp = campgrounds | findCampground(campId) %}
           {% if camp %}
-          <div class="campground-card" style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem;">
-            <h3><a href="/c/{{ camp.id }}.html">{{ camp.name }}</a> ({{ camp.city }}, {{ camp.state }})</h3>
-            <p><strong>Max Rig Length:</strong> {{ camp.scorecard.maxRigLength }} | <strong>Type:</strong> {{ camp.ownertype }}</p>
-            <p>{{ camp.summary }}</p>
-            <a href="/c/{{ camp.id }}.html" class="btn">View Rig-Fit Scorecard &amp; Approach Notes &rarr;</a>
+          <div class="featured-camp-card">
+            <img src="{{ camp.image }}" alt="{{ camp.name }}" onerror="this.src='/favicon-96x96.png'; this.style.objectFit='contain';">
+            <div class="featured-camp-body">
+              <div>
+                <span class="featured-camp-kicker">{{ camp.ownertype }} &bull; {{ camp.city }}, {{ camp.state }}</span>
+                <h3>{{ camp.name }}</h3>
+                <p>{{ camp.summary }}</p>
+              </div>
+              <a href="/c/{{ camp.id }}.html" class="featured-camp-btn">View Rig-Fit Guide &rarr;</a>
+            </div>
           </div>
           {% endif %}
         {% endfor %}
       </div>
       {% endif %}
+
+      {% if guide.utilityHtml %}
+      <hr>
+      {{ guide.utilityHtml | safe }}
+      {% endif %}
+
+      {% if guide.recommendedGearKeys and guide.recommendedGearKeys.length > 0 %}
+      <div class="recommended-gear-grid">
+        {% for key in guide.recommendedGearKeys %}
+          {% set item = products[key] %}
+          {% if item %}
+          <div class="guide-gear-card">
+            <div>
+              <span class="guide-gear-badge">{{ item.title or "Recommended Regional Gear" }}</span>
+              <h4>{{ item.productName or item.title }}</h4>
+              <p>{{ guide.gearNote or "Essential GPS navigation and campsite utility protection." }}</p>
+            </div>
+            <a href="{{ item.affiliateUrl }}" target="_blank" rel="noopener sponsored" class="guide-gear-btn">Check Price on Amazon &#8599;</a>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="affiliate-note"><em>Disclosure: As an Amazon Associate, RigFitRV earns from qualifying purchases at no extra cost to you.</em></p>
+      {% endif %}
+
+      {% if guide.featuredCampgroundIds and guide.featuredCampgroundIds.length > 0 %}
+      <div class="pillar-callout-box">
+        <h3>🛠️ Essential RV Systems &amp; Routing Guides</h3>
+        <p>Before hitting the road to regional campgrounds, ensure your rig's dimensions, electrical demands, and plumbing setups are verified against local infrastructure limits.</p>
+        <div class="pillar-links-grid">
+          <a href="/g/rv-towing-routing-logistics.html" class="pillar-link-card">
+            <span style="color: #2563eb;">Clearances &amp; Routing</span>
+            <h4>Towing &amp; Routing Logistics &rarr;</h4>
+          </a>
+          <a href="/g/rv-electrical-power-management.html" class="pillar-link-card">
+            <span style="color: #d97706;">Power &amp; Voltage Sags</span>
+            <h4>Electrical &amp; Power Guide &rarr;</h4>
+          </a>
+          <a href="/g/rv-water-plumbing-management.html" class="pillar-link-card">
+            <span style="color: #059669;">Pressure &amp; Filtration</span>
+            <h4>Water &amp; Plumbing Hub &rarr;</h4>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="community-intel-box">
+        <div class="community-intel-copy">
+          <strong>💬 Help Us Keep Regional Guides Updated!</strong>
+          <span>{{ guide.updatePrompt or "Encountered a new low-hanging branch, local road detours, or updated site layouts?" }}</span>
+        </div>
+        <a href="/submit.html" class="community-intel-btn">+ Submit a Field Update</a>
+      </div>
+
     </div>
   </div>
 
