@@ -362,11 +362,12 @@ permalink: "c/{{ camp.id }}.html"
       </div>
 
       <div class="owner-claim-box">
-        <h3>🏢 Own or Manage This Campground?</h3>
-        <p>Claim your official RigFitRV listing to verify site dimensions, update seasonal amenities, and highlight big-rig friendly loops.</p>
         <a href="/submit.html?claim={{ camp.id }}" class="btn-purple-sm">Claim &amp; Highlight Your Campground</a>
+        <div class="owner-claim-text">
+          <h3>🏢 Own or Manage This Campground?</h3>
+          <p>Claim your official RigFitRV listing to verify site dimensions, update seasonal amenities, and highlight big-rig friendly loops.</p>
+        </div>
       </div>
-    </div>
 
     {% set closestCamps = campgrounds | nearbyCamps(camp, 2) %}
     {% if closestCamps.length > 0 %}
