@@ -1,5 +1,54 @@
 [
  {
+  "id": "flint-creek-campground",
+  "name": "Flint Creek Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-17",
+  "state": "NY",
+  "city": "Middlesex",
+  "featured": true,
+  "lat": 42.6956,
+  "lng": -77.2275,
+  "image": "/images/flint-creek-campground.jpg",
+  "mapImage": "/images/flint-creek-campground-map.jpg",
+  "address": "1455 Phelps Rd, Middlesex, NY 14507",
+  "gps": "42.6956° N, 77.2275° W",
+  "phone": "+15855543567",
+  "website": "https://flintcreekcampground.com/",
+  "summary": "Quiet Finger Lakes creekside campground in Middlesex, NY with back-in sites up to 44–53 ft in open loops, 30/50-amp hookups, and direct access between Canandaigua and Keuka Lakes.",
+  "scorecard": {
+    "maxRigLength": "Up to 44–53 ft (Deluxe Open Back-In Loops; 26–36 ft on shaded creekside sites)",
+    "toadFriendliness": "Fair; narrow gravel interior roads (5 mph limit) and strict 1-vehicle-per-site rule require parking toads in the main lot",
+    "treeClearance": "Open sky in Deluxe Open loops; mature tree canopy and tighter turning radii along interior wooded and creekside sites",
+    "bestBigRigLoops": "Deluxe Open Back-In Loops",
+    "bestSmallRigLoops": "Shaded Creekside & Interior Wooded Loops"
+  },
+  "approach": {
+    "title": "NY-364 & NY-245 Valley Approach Guidance",
+    "text": "Approach via NY-364 or NY-245 (connecting NY-21 on the west and NY-54 / NY-14 to the east) onto Phelps Road. Avoid GPS shortcuts across steep, narrow Finger Lakes ridge roads when towing heavy trailers.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps heavy rigs on state-numbered valley corridors (NY-364 and NY-245) instead of steep Finger Lakes ridge shortcuts."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook towed vehicles at the main office parking lot upon check-in; only one vehicle per campsite is permitted on interior gravel roads.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when backing into gravel valley sites along narrow internal lanes."
+    }
+  },
+  "content": {
+    "overview": "Nestled along Flint Creek in the western Finger Lakes between Canandaigua Lake and Keuka Lake, Flint Creek Campground offers roughly 115 shaded and open grassy/gravel sites open May 1 through October 31, featuring a swimming pool, creek fishing, camp store, and easy access to Naples and Penn Yan wine trails.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electronics against rural valley voltage fluctuations and provides peace of mind on predominantly 30-amp pedestals."
+    },
+    "loopC": "Deluxe Open back-in sites provide 30/50-amp electrical service, full water/sewer hookups, and generous length clearance up to 44–53 feet.",
+    "loopsAB": "Shaded creekside and interior wooded back-in loops offer quiet valley scenery and 30-amp water/electric hookups ideal for travel trailers and Class C motorhomes."
+  }
+},
+ {
   "id": "the-woods-campground",
   "name": "The Woods Campground",
   "ownertype": "Private Campground",
