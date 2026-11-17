@@ -52,7 +52,7 @@ permalink: "guides.html"
     }
     #regional-guides-map {
       width: 100%;
-      height: 360px;
+      height: 380px;
       z-index: 1;
     }
     .guides-map-caption {
@@ -61,6 +61,61 @@ permalink: "guides.html"
       color: #64748b;
       margin: 0.45rem 0 0;
     }
+
+    /* Expanded Map Popup Card matching Homepage */
+    .custom-pin-icon {
+      background: transparent;
+      border: none;
+    }
+    .leaflet-popup-content {
+      margin: 10px 12px;
+      min-width: 240px;
+      max-width: 270px;
+    }
+    .map-popup-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+    }
+    .map-popup-thumb {
+      width: 100%;
+      height: 115px;
+      object-fit: cover;
+      border-radius: 6px;
+      background: #f1f5f9;
+      display: block;
+    }
+    .map-popup-info h3 {
+      margin: 0 0 0.3rem;
+      font-size: 0.94rem;
+      line-height: 1.3;
+      color: #0f172a;
+    }
+    .map-popup-info p {
+      margin: 0 0 0.65rem;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      color: #475569;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .map-popup-info .btn {
+      display: block;
+      text-align: center;
+      background: #2563eb;
+      color: #ffffff !important;
+      font-weight: 600;
+      font-size: 0.8rem;
+      padding: 0.45rem 0.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .map-popup-info .btn:hover {
+      background: #1d4ed8;
+    }
+
     .guides-section-title {
       font-size: 1.3rem;
       color: #0f172a;
@@ -150,11 +205,11 @@ permalink: "guides.html"
       <div class="guides-map-wrap">
         <div class="guides-map-topbar">
           <span>📍 Interactive Regional Hub Map</span>
-          <span class="badge">Guides · Rig-Fit Hubs</span>
+          <span class="badge">Hover Map to Zoom · Click Pins for Guides</span>
         </div>
         <div id="regional-guides-map"></div>
       </div>
-      <p class="guides-map-caption">Click any regional marker to preview and open its <strong>RigFit Guide</strong>.</p>
+      <p class="guides-map-caption">Hover over the map to zoom with your scroll wheel, or click any pin to open its <strong>RigFit Guide</strong>.</p>
     </div>
 
     <div class="article-card">
@@ -209,7 +264,10 @@ permalink: "guides.html"
           {
             title: {{ guide.title | dump | safe }},
             region: {{ guide.region | dump | safe }},
+            state: {{ guide.state | dump | safe }},
             slug: {{ guide.slug | dump | safe }},
+            image: {{ (guide.image or "/favicon.ico") | dump | safe }},
+            summary: {{ guide.summary | dump | safe }},
             lat: {{ guide.lat }},
             lng: {{ guide.lng }},
             count: {{ guide.featuredCampgroundIds.length if guide.featuredCampgroundIds else 0 }}
@@ -218,35 +276,65 @@ permalink: "guides.html"
         {% endfor %}
       ];
 
+      function createColoredMarkerIcon(color) {
+        const svg = `
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="28" height="42">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 9 12 24 12 24s12-15 12-24C24 5.37 18.63 0 12 0z" fill="${color}" stroke="#ffffff" stroke-width="2"/>
+            <circle cx="12" cy="12" r="4.5" fill="#ffffff"/>
+          </svg>
+        `;
+        return L.divIcon({
+          html: svg,
+          className: "custom-pin-icon",
+          iconSize: [28, 42],
+          iconAnchor: [14, 42],
+          popupAnchor: [0, -38]
+        });
+      }
+
+      const mapEl = document.getElementById("regional-guides-map");
       const map = L.map("regional-guides-map", { scrollWheelZoom: false }).setView([40.3, -75.2], 6);
+
+      // Enable scroll wheel zoom only while mouse is hovering over the map
+      mapEl.addEventListener("mouseenter", function() {
+        map.scrollWheelZoom.enable();
+      });
+      mapEl.addEventListener("mouseleave", function() {
+        map.scrollWheelZoom.disable();
+      });
+
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 18,
         attribution: '&copy; OpenStreetMap contributors'
       }).addTo(map);
 
-      const bounds = [];
-      guideHubs.forEach(function(hub) {
-        const marker = L.circleMarker([hub.lat, hub.lng], {
-          radius: 8,
-          fillColor: "#7e22ce",
-          color: "#ffffff",
-          weight: 2,
-          opacity: 1,
-          fillOpacity: 0.92
-        }).addTo(map);
+      const markersLayer = L.layerGroup().addTo(map);
+      const mapBounds = [];
 
-        marker.bindPopup(
-          '<div style="min-width:190px;">' +
-            '<div style="font-size:11px;font-weight:700;color:#6b21a8;text-transform:uppercase;">' + hub.region + '</div>' +
-            '<div style="font-weight:700;font-size:13px;margin:3px 0 6px;color:#0f172a;">' + hub.title + '</div>' +
-            '<a href="/g/' + hub.slug + '.html" style="display:inline-block;background:#2563eb;color:#fff;font-size:12px;font-weight:600;padding:4px 10px;border-radius:4px;text-decoration:none;">Explore Guide (' + hub.count + ' Parks) &rarr;</a>' +
-          '</div>'
-        );
-        bounds.push([hub.lat, hub.lng]);
+      guideHubs.forEach(function(g) {
+        if (g.lat && g.lng) {
+          const markerIcon = createColoredMarkerIcon("#7e22ce");
+          const marker = L.marker([g.lat, g.lng], { icon: markerIcon });
+          const imgPath = g.image || "/favicon.ico";
+
+          const popupContent = `
+            <div class="map-popup-card">
+              <img src="${imgPath}" alt="${g.title}" class="map-popup-thumb" onerror="this.src='/favicon.ico'; this.style.objectFit='contain';">
+              <div class="map-popup-info">
+                <h3>${g.title}</h3>
+                <p>${g.summary}</p>
+                <a href="/g/${g.slug}.html" class="btn">Explore Guide (${g.count} Parks) &rarr;</a>
+              </div>
+            </div>
+          `;
+          marker.bindPopup(popupContent);
+          markersLayer.addLayer(marker);
+          mapBounds.push([g.lat, g.lng]);
+        }
       });
 
-      if (bounds.length > 0) {
-        map.fitBounds(bounds, { padding: [35, 35] });
+      if (mapBounds.length > 0) {
+        map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 });
       }
     })();
   </script>
