@@ -71,6 +71,7 @@ module.exports = function(eleventyConfig) {
     if (!Array.isArray(guides) || !campId) return [];
     return guides.filter((g) => {
       const lists = [
+        g.featuredCampgroundIds,
         g.featuredCampgrounds,
         g.campgrounds,
         g.campgroundIds,
