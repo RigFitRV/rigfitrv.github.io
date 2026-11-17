@@ -73,6 +73,30 @@ module.exports = function(eleventyConfig) {
       data: "../data",
       output: "_site"
     },
+
+    // Find regional hub guides featuring a specific campground ID
+  eleventyConfig.addFilter("guidesForCamp", (guides, campId) => {
+    if (!Array.isArray(guides) || !campId) return [];
+    return guides.filter((g) => {
+      const lists = [
+        g.featuredCampgrounds,
+        g.campgrounds,
+        g.campgroundIds,
+        g.stops,
+        g.featured
+      ].filter(Array.isArray);
+
+      return lists.some((arr) =>
+        arr.some((item) => {
+          if (typeof item === "string") return item === campId;
+          if (item && typeof item === "object") {
+            return item.id === campId || item.campgroundId === campId || item.slug === campId;
+          }
+          return false;
+        })
+      );
+    });
+  });
     templateFormats: ["njk", "html", "md"],
     htmlTemplateEngine: "njk"
   };
