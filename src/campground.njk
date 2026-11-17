@@ -387,9 +387,9 @@ permalink: "c/{{ camp.id }}.html"
       {% if camp.approach.recommendedGear %}
         {% set approachProduct = products | getProduct(camp.approach.recommendedGear.gearKey) %}
         {% if approachProduct %}
-        {% set prodUrl = approachProduct.url or approachProduct.affiliateLink or approachProduct.link or approachProduct.amazonUrl %}
+        {% set prodUrl = approachProduct.affiliateUrl or approachProduct.url or approachProduct.affiliateLink or approachProduct.link or approachProduct.amazonUrl %}
         <div class="gear-callout">
-          <div class="gear-callout-header">🧭 Recommended RV Navigation</div>
+          <div class="gear-callout-header">🧭 {{ approachProduct.title or "Recommended RV Navigation" }}</div>
           <div class="gear-callout-body">
             <strong>Recommended Gear:</strong>
             {% if prodUrl %}<a href="{{ prodUrl }}" target="_blank" rel="nofollow noopener sponsored">{{ approachProduct.productName or approachProduct.title or approachProduct.name }}</a>{% else %}<strong>{{ approachProduct.productName or approachProduct.title or approachProduct.name }}</strong>{% endif %}
@@ -420,9 +420,9 @@ permalink: "c/{{ camp.id }}.html"
       {% if camp.content.recommendedGear %}
         {% set contentProduct = products | getProduct(camp.content.recommendedGear.gearKey) %}
         {% if contentProduct %}
-        {% set prodUrl = contentProduct.url or contentProduct.affiliateLink or contentProduct.link or contentProduct.amazonUrl %}
+        {% set prodUrl = contentProduct.affiliateUrl or contentProduct.url or contentProduct.affiliateLink or contentProduct.link or contentProduct.amazonUrl %}
         <div class="gear-callout">
-          <div class="gear-callout-header">⚡ Recommended Electrical Protection</div>
+          <div class="gear-callout-header">🛠️ {{ contentProduct.title or "Recommended Campsite Gear" }}</div>
           <div class="gear-callout-body">
             <strong>Recommended Gear:</strong>
             {% if prodUrl %}<a href="{{ prodUrl }}" target="_blank" rel="nofollow noopener sponsored">{{ contentProduct.productName or contentProduct.title or contentProduct.name }}</a>{% else %}<strong>{{ contentProduct.productName or contentProduct.title or contentProduct.name }}</strong>{% endif %}
@@ -449,9 +449,9 @@ permalink: "c/{{ camp.id }}.html"
       {% if camp.toadStrategy.recommendedGear %}
         {% set toadProduct = products | getProduct(camp.toadStrategy.recommendedGear.gearKey) %}
         {% if toadProduct %}
-        {% set prodUrl = toadProduct.url or toadProduct.affiliateLink or toadProduct.link or toadProduct.amazonUrl %}
+        {% set prodUrl = toadProduct.affiliateUrl or toadProduct.url or toadProduct.affiliateLink or toadProduct.link or toadProduct.amazonUrl %}
         <div class="gear-callout">
-          <div class="gear-callout-header">📷 Recommended Towing &amp; Blind-Spot Gear</div>
+          <div class="gear-callout-header">📷 {{ toadProduct.title or "Recommended Towing & Blind-Spot Gear" }}</div>
           <div class="gear-callout-body">
             <strong>Recommended Gear:</strong>
             {% if prodUrl %}<a href="{{ prodUrl }}" target="_blank" rel="nofollow noopener sponsored">{{ toadProduct.productName or toadProduct.title or toadProduct.name }}</a>{% else %}<strong>{{ toadProduct.productName or toadProduct.title or toadProduct.name }}</strong>{% endif %}
@@ -471,16 +471,7 @@ permalink: "c/{{ camp.id }}.html"
         <a href="/submit.html?campground={{ camp.id }}" class="btn-primary-sm">+ Submit a Ground-Truth Update</a>
       </div>
 
-      {% set matchingGuides = [] %}
-      {% if guides %}
-        {% for guide in guides %}
-          {% set campList = guide.featuredCampgrounds or guide.campgrounds or [] %}
-          {% if camp.id in campList %}
-            {% set matchingGuides = (matchingGuides.push(guide), matchingGuides) %}
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-
+      {% set matchingGuides = guides | guidesForCamp(camp.id) %}
       {% if matchingGuides.length > 0 %}
       <div class="featured-hubs-box">
         <div class="featured-hubs-header">
