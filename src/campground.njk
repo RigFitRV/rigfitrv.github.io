@@ -88,6 +88,42 @@ permalink: "c/{{ camp.id }}.html"
       background: #f8fafc;
     }
 
+    /* Recommended Gear Callout Box matching original design */
+    .gear-callout {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #2563eb;
+      border-radius: 6px;
+      padding: 0.9rem 1.15rem;
+      margin: 1.15rem 0;
+    }
+    .gear-callout-header {
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: #0f172a;
+      margin-bottom: 0.35rem;
+    }
+    .gear-callout-body {
+      font-size: 0.86rem;
+      color: #334155;
+      line-height: 1.45;
+      margin-bottom: 0.45rem;
+    }
+    .gear-callout-body a {
+      color: #2563eb;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    .gear-callout-body a:hover {
+      color: #1d4ed8;
+    }
+    .gear-disclosure {
+      font-size: 0.74rem;
+      font-style: italic;
+      color: #64748b;
+      margin: 0;
+    }
+
     /* Compact Utilities & Systems Check with left color strip */
     .systems-check-box {
       background: #f8fafc;
@@ -133,7 +169,7 @@ permalink: "c/{{ camp.id }}.html"
       border-left: 4px solid #2563eb;
       border-radius: 6px;
       padding: 0.85rem 1.15rem;
-      margin: 1.5rem 0 0.9rem;
+      margin: 1.5rem 0 0.85rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -165,6 +201,64 @@ permalink: "c/{{ camp.id }}.html"
       flex-shrink: 0;
     }
     .btn-primary-sm:hover { background: #1d4ed8; }
+
+    /* Compact Featured in Regional Hub Guides box with full-width link */
+    .featured-hubs-box {
+      background: #f0fdfa;
+      border: 1px solid #99f6e4;
+      border-left: 4px solid #0d9488;
+      border-radius: 6px;
+      padding: 0.75rem 1.15rem;
+      margin-bottom: 0.85rem;
+    }
+    .featured-hubs-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .featured-hubs-header h3 {
+      margin: 0;
+      font-size: 0.94rem;
+      color: #115e59;
+    }
+    .featured-hubs-header span {
+      font-size: 0.78rem;
+      color: #0f766e;
+    }
+    .featured-hub-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      box-sizing: border-box;
+      background: #ffffff;
+      border: 1px solid #5eead4;
+      border-radius: 5px;
+      padding: 0.48rem 0.85rem;
+      margin-top: 0.4rem;
+      color: #0f766e !important;
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-decoration: none;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    .featured-hub-link:first-of-type {
+      margin-top: 0;
+    }
+    .featured-hub-link:hover {
+      background: #ccfbf1;
+      border-color: #0d9488;
+      color: #134e4a !important;
+    }
+    .featured-hub-arrow {
+      font-size: 0.8rem;
+      font-weight: 700;
+      white-space: nowrap;
+      margin-left: 0.75rem;
+    }
 
     /* Short horizontal Owner Claim box with button on left, text on right */
     .owner-claim-box {
@@ -290,6 +384,22 @@ permalink: "c/{{ camp.id }}.html"
       <h2>🚧 {{ camp.approach.title or "Approach & Routing Warning" }}</h2>
       <p>{{ camp.approach.text }}</p>
 
+      {% if camp.approach.recommendedGear %}
+        {% set approachProduct = products | getProduct(camp.approach.recommendedGear.gearKey) %}
+        {% if approachProduct %}
+        {% set prodUrl = approachProduct.url or approachProduct.affiliateLink or approachProduct.link or approachProduct.amazonUrl %}
+        <div class="gear-callout">
+          <div class="gear-callout-header">🧭 Recommended RV Navigation</div>
+          <div class="gear-callout-body">
+            <strong>Recommended Gear:</strong>
+            {% if prodUrl %}<a href="{{ prodUrl }}" target="_blank" rel="nofollow noopener sponsored">{{ approachProduct.productName or approachProduct.title or approachProduct.name }}</a>{% else %}<strong>{{ approachProduct.productName or approachProduct.title or approachProduct.name }}</strong>{% endif %}
+            &mdash; {{ camp.approach.recommendedGear.reason }}
+          </div>
+          <p class="gear-disclosure">Note: As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.</p>
+        </div>
+        {% endif %}
+      {% endif %}
+
       <div class="systems-check-box">
         <h3>🛠️ Verified Rig-Fit Utilities &amp; Systems Check</h3>
         <p>Before pulling onto regional highways or into tight back-in loops, verify your RV systems against local site infrastructure:</p>
@@ -300,36 +410,31 @@ permalink: "c/{{ camp.id }}.html"
         </div>
       </div>
 
-      {% if camp.approach.recommendedGear %}
-        {% set approachProduct = products | getProduct(camp.approach.recommendedGear.gearKey) %}
-        {% if approachProduct %}
-        <div class="gear-callout">
-          <strong>Recommended Approach Gear: {{ approachProduct.productName or approachProduct.title }}</strong>
-          <p>{{ camp.approach.recommendedGear.reason }}</p>
-          {% if approachProduct.affiliateLink %}<a href="{{ approachProduct.affiliateLink }}" target="_blank" rel="nofollow noopener" class="btn">Check Price &amp; Specs</a>{% endif %}
-        </div>
-        {% endif %}
-      {% endif %}
-
       <hr>
       <h2>🏕️ Campground Overview &amp; Atmosphere</h2>
       {% if camp.image %}
       <img class="camp-hero-img" src="{{ camp.image }}" alt="{{ camp.name }} campground view in {{ camp.city }}, {{ camp.state }}" onerror="this.style.display='none'">
       {% endif %}
       <p>{{ camp.content.overview }}</p>
-      {% if camp.content.loopC %}<p><strong>Big-Rig &amp; Full-Hookup Loops:</strong> {{ camp.content.loopC }}</p>{% endif %}
-      {% if camp.content.loopsAB %}<p><strong>Wooded &amp; Small-Rig Loops:</strong> {{ camp.content.loopsAB }}</p>{% endif %}
 
       {% if camp.content.recommendedGear %}
         {% set contentProduct = products | getProduct(camp.content.recommendedGear.gearKey) %}
         {% if contentProduct %}
+        {% set prodUrl = contentProduct.url or contentProduct.affiliateLink or contentProduct.link or contentProduct.amazonUrl %}
         <div class="gear-callout">
-          <strong>Recommended Campsite Gear: {{ contentProduct.productName or contentProduct.title }}</strong>
-          <p>{{ camp.content.recommendedGear.reason }}</p>
-          {% if contentProduct.affiliateLink %}<a href="{{ contentProduct.affiliateLink }}" target="_blank" rel="nofollow noopener" class="btn">Check Price &amp; Specs</a>{% endif %}
+          <div class="gear-callout-header">⚡ Recommended Electrical Protection</div>
+          <div class="gear-callout-body">
+            <strong>Recommended Gear:</strong>
+            {% if prodUrl %}<a href="{{ prodUrl }}" target="_blank" rel="nofollow noopener sponsored">{{ contentProduct.productName or contentProduct.title or contentProduct.name }}</a>{% else %}<strong>{{ contentProduct.productName or contentProduct.title or contentProduct.name }}</strong>{% endif %}
+            &mdash; {{ camp.content.recommendedGear.reason }}
+          </div>
+          <p class="gear-disclosure">Note: As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.</p>
         </div>
         {% endif %}
       {% endif %}
+
+      {% if camp.content.loopC %}<p><strong>Big-Rig &amp; Full-Hookup Loops:</strong> {{ camp.content.loopC }}</p>{% endif %}
+      {% if camp.content.loopsAB %}<p><strong>Wooded &amp; Small-Rig Loops:</strong> {{ camp.content.loopsAB }}</p>{% endif %}
 
       {% if camp.mapImage %}
       <hr>
@@ -344,10 +449,15 @@ permalink: "c/{{ camp.id }}.html"
       {% if camp.toadStrategy.recommendedGear %}
         {% set toadProduct = products | getProduct(camp.toadStrategy.recommendedGear.gearKey) %}
         {% if toadProduct %}
+        {% set prodUrl = toadProduct.url or toadProduct.affiliateLink or toadProduct.link or toadProduct.amazonUrl %}
         <div class="gear-callout">
-          <strong>Recommended Towing Gear: {{ toadProduct.productName or toadProduct.title }}</strong>
-          <p>{{ camp.toadStrategy.recommendedGear.reason }}</p>
-          {% if toadProduct.affiliateLink %}<a href="{{ toadProduct.affiliateLink }}" target="_blank" rel="nofollow noopener" class="btn">Check Price &amp; Specs</a>{% endif %}
+          <div class="gear-callout-header">📷 Recommended Towing &amp; Blind-Spot Gear</div>
+          <div class="gear-callout-body">
+            <strong>Recommended Gear:</strong>
+            {% if prodUrl %}<a href="{{ prodUrl }}" target="_blank" rel="nofollow noopener sponsored">{{ toadProduct.productName or toadProduct.title or toadProduct.name }}</a>{% else %}<strong>{{ toadProduct.productName or toadProduct.title or toadProduct.name }}</strong>{% endif %}
+            &mdash; {{ camp.toadStrategy.recommendedGear.reason }}
+          </div>
+          <p class="gear-disclosure">Note: As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.</p>
         </div>
         {% endif %}
       {% endif %}
@@ -361,6 +471,31 @@ permalink: "c/{{ camp.id }}.html"
         <a href="/submit.html?campground={{ camp.id }}" class="btn-primary-sm">+ Submit a Ground-Truth Update</a>
       </div>
 
+      {% set matchingGuides = [] %}
+      {% if guides %}
+        {% for guide in guides %}
+          {% set campList = guide.featuredCampgrounds or guide.campgrounds or [] %}
+          {% if camp.id in campList %}
+            {% set matchingGuides = (matchingGuides.push(guide), matchingGuides) %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if matchingGuides.length > 0 %}
+      <div class="featured-hubs-box">
+        <div class="featured-hubs-header">
+          <h3>🗺️ Featured in Regional Hub Guides</h3>
+          <span>This campground is curated in our regional RV trip &amp; route guides:</span>
+        </div>
+        {% for guide in matchingGuides %}
+        <a href="/g/{{ guide.id or guide.slug }}.html" class="featured-hub-link">
+          <span>{{ guide.title }}</span>
+          <span class="featured-hub-arrow">Explore Guide &rarr;</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
       <div class="owner-claim-box">
         <a href="/submit.html?claim={{ camp.id }}" class="btn-purple-sm">Claim &amp; Highlight Your Campground</a>
         <div class="owner-claim-text">
@@ -368,6 +503,7 @@ permalink: "c/{{ camp.id }}.html"
           <p>Claim your official RigFitRV listing to verify site dimensions, update seasonal amenities, and highlight big-rig friendly loops.</p>
         </div>
       </div>
+    </div>
 
     {% set closestCamps = campgrounds | nearbyCamps(camp, 2) %}
     {% if closestCamps.length > 0 %}
