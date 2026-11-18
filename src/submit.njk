@@ -1,3 +1,6 @@
+---
+permalink: /submit.html
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,44 +8,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Submit Campground Intelligence - RigFitRV</title>
   <meta name="description" content="Submit real-world RV clearance, toad unhooking logistics, or request new campground guides on RigFitRV.">
-  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://rigfitrv.com/submit.html">
+  <link rel="stylesheet" href="/style.css">
 
-  <!-- Custom Favicons -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-TV8S962CRT');
   </script>
+
+  <style>
+    .submit-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .submit-form .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .submit-form label {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #0f172a;
+    }
+    .submit-form input[type="text"],
+    .submit-form input[type="email"],
+    .submit-form select,
+    .submit-form textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.75rem 0.9rem;
+      font-family: inherit;
+      font-size: 1rem;
+      color: #1e293b;
+      background-color: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    }
+    .submit-form input:focus,
+    .submit-form select:focus,
+    .submit-form textarea:focus {
+      outline: none;
+      background-color: #ffffff;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+    .submit-form textarea {
+      min-height: 140px;
+      resize: vertical;
+      line-height: 1.5;
+    }
+    .submit-form .btn {
+      align-self: flex-start;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Universal Header Call Tag -->
-<div id="header-placeholder"></div>
-<script>
-  fetch('header.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('header-placeholder').innerHTML = data);
-</script>
+  {% include "header.njk" %}
 
   <div class="container">
     <div class="article-card">
 
-      <h1>Submit RVer Intelligence & New Campgrounds</h1>
+      <h1>Submit RVer Intelligence &amp; New Campgrounds</h1>
       <p>Help fellow RVers travel with confidence! Submit a ground-truth update for an existing guide or request a new campground to be added to RigFitRV.</p>
 
-      <form action="https://formspree.io/f/your_form_id" method="POST">
+      <form class="submit-form" action="https://formspree.io/f/mjygepzn" method="POST">
         
-        <!-- Redirect to Thank You landing page -->
-        <input type="hidden" name="_next" value="https://rigfitrv.github.io/thank-you.html">
+        <input type="hidden" name="_next" value="https://rigfitrv.com/thank-you.html">
 
         <div class="form-group">
           <label for="submission-type">Submission Type</label>
@@ -53,7 +101,7 @@
         </div>
 
         <div class="form-group">
-          <label for="campground-name">Campground Name & State</label>
+          <label for="campground-name">Campground Name &amp; State</label>
           <input type="text" id="campground-name" name="campground-name" placeholder="e.g. French Creek State Park, PA" required>
         </div>
 
@@ -63,7 +111,7 @@
         </div>
 
         <div class="form-group">
-          <label for="details">Logistical Notes & Intelligence</label>
+          <label for="details">Logistical Notes &amp; Intelligence</label>
           <textarea id="details" name="details" placeholder="Share specific details on tree clearance, low branches, unhooking areas, steep hills, or best sites for big rigs..." required></textarea>
         </div>
 
@@ -79,13 +127,7 @@
     </div>
   </div>
 
-  <!-- Universal Footer Call Tag -->
-<div id="footer-placeholder"></div>
-<script>
-  fetch('footer.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('footer-placeholder').innerHTML = data);
-</script>
+  {% include "footer.njk" %}
 
 </body>
 </html>
