@@ -1,3 +1,6 @@
+---
+permalink: /widget.html
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Embed Campground Scorecard Widget - RigFitRV</title>
   <meta name="description" content="Generate a free embeddable RigFitRV clearance scorecard widget for your campground website.">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="canonical" href="https://rigfitrv.com/widget.html">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
   <script>
@@ -15,122 +19,124 @@
     gtag('js', new Date());
     gtag('config', 'G-TV8S962CRT');
   </script>
-  <meta name="robots" content="noai, noimageai">
 </head>
 
 <body>
 
-  <div id="header-placeholder"></div>
-  <script>
-    fetch('header.html')
-      .then(res => res.text())
-      .then(data => document.getElementById('header-placeholder').innerHTML = data);
-  </script>
+  {% include "header.njk" %}
 
-  <div class="container" style="max-width: 850px; margin: 2rem auto; padding: 0 1rem;">
-    <div class="article-card" style="background: #ffffff; padding: 2rem; border-radius: 8px; border: 1px solid #cbd5e1;">
+  <div class="container">
+    <div class="article-card">
       
-      <div style="text-align: center; margin-bottom: 2rem;">
-        <span style="font-size: 0.8rem; font-weight: bold; color: #9333ea; text-transform: uppercase; letter-spacing: 0.05em;">Partner Program • Free Website Widget</span>
+      <div style="text-align: center; margin-bottom: 1.75rem;">
+        <span style="font-size: 0.8rem; font-weight: bold; color: #2563eb; text-transform: uppercase; letter-spacing: 0.05em;">Partner Program • Free Website Widget</span>
         <h1 id="generator-title" style="margin: 0.4rem 0 0.5rem 0; font-size: 1.8rem; color: #0f172a;">RigFitRV Scorecard Widget Generator</h1>
         <p style="color: #475569; font-size: 1rem; margin: 0;">
           Boost camper confidence on your booking page by embedding your verified big-rig clearance and loop ratings.
         </p>
       </div>
 
-      <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 1.5rem 0;">
+      <hr>
 
-      <!-- Style Selection Tabs -->
+      <!-- Step 1: Campground Selector -->
       <div style="margin-bottom: 1.5rem;">
-        <label style="display: block; font-size: 0.9rem; font-weight: bold; color: #1e293b; margin-bottom: 0.5rem;">Select Widget Style:</label>
+        <label for="campground-selector" style="display: block; font-size: 0.95rem; font-weight: bold; color: #0f172a; margin-bottom: 0.4rem;">1. Select Campground:</label>
+        <select id="campground-selector" onchange="onCampgroundSelect(this.value)" style="width: 100%; padding: 0.7rem 0.9rem; font-size: 1rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; color: #0f172a;">
+          <option value="">-- Choose a Verified Campground --</option>
+        </select>
+      </div>
+
+      <!-- Step 2: Style Selection Tabs -->
+      <div style="margin-bottom: 1.5rem;">
+        <label style="display: block; font-size: 0.95rem; font-weight: bold; color: #0f172a; margin-bottom: 0.5rem;">2. Select Widget Style:</label>
         <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-          <button onclick="switchWidgetStyle('half')" id="tab-half" class="style-tab active-tab" style="flex: 1; padding: 0.6rem; border: 2px solid #2563eb; background: #eff6ff; color: #1d4ed8; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
+          <button type="button" onclick="switchWidgetStyle('half')" id="tab-half" class="style-tab active-tab" style="flex: 1; min-width: 160px; padding: 0.65rem; border: 2px solid #2563eb; background: #eff6ff; color: #1d4ed8; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
             📱 Half-Width Card
           </button>
-          <button onclick="switchWidgetStyle('full')" id="tab-full" class="style-tab" style="flex: 1; padding: 0.6rem; border: 2px solid #cbd5e1; background: #f8fafc; color: #475569; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
+          <button type="button" onclick="switchWidgetStyle('full')" id="tab-full" class="style-tab" style="flex: 1; min-width: 160px; padding: 0.65rem; border: 2px solid #cbd5e1; background: #f8fafc; color: #475569; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
             🖥️ Full-Width Banner
           </button>
-          <button onclick="switchWidgetStyle('micro')" id="tab-micro" class="style-tab" style="flex: 1; padding: 0.6rem; border: 2px solid #cbd5e1; background: #f8fafc; color: #475569; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
+          <button type="button" onclick="switchWidgetStyle('micro')" id="tab-micro" class="style-tab" style="flex: 1; min-width: 160px; padding: 0.65rem; border: 2px solid #cbd5e1; background: #f8fafc; color: #475569; font-weight: bold; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
             📌 Micro Badge
           </button>
         </div>
       </div>
 
-      <!-- Live Widget Preview Area -->
+      <!-- Step 3: Live Widget Preview Area -->
       <div style="margin-bottom: 2rem;">
-        <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.75rem;">👁️ Live Widget Preview:</h3>
-        <div id="widget-preview-container" style="border: 2px dashed #cbd5e1; padding: 1.5rem; border-radius: 8px; background: #f8fafc; display: flex; justify-content: center; align-items: center;">
-          <p style="color: #64748b; text-align: center; margin: 0;">Loading widget preview...</p>
+        <h3 style="font-size: 1.05rem; color: #0f172a; margin-bottom: 0.75rem;">👁️ Live Widget Preview:</h3>
+        <div id="widget-preview-container" style="border: 2px dashed #cbd5e1; padding: 1.5rem; border-radius: 8px; background: #f8fafc; display: flex; justify-content: center; align-items: center; min-height: 120px;">
+          <p style="color: #64748b; text-align: center; margin: 0;">Select a campground above to preview your custom scorecard widget.</p>
         </div>
       </div>
 
-      <!-- Copy & Paste Code Box -->
+      <!-- Step 4: Copy & Paste Code Box -->
       <div style="margin-bottom: 1.5rem;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-          <h3 style="font-size: 1.1rem; color: #1e293b; margin: 0;">📋 Copy & Paste Code Snippet:</h3>
-          <button id="copy-btn" onclick="copyWidgetCode()" style="background: #2563eb; color: #fff; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.85rem; font-weight: bold; cursor: pointer;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h3 style="font-size: 1.05rem; color: #0f172a; margin: 0;">📋 Copy &amp; Paste Code Snippet:</h3>
+          <button type="button" id="copy-btn" onclick="copyWidgetCode()" style="background: #2563eb; color: #fff; border: none; padding: 0.45rem 0.9rem; border-radius: 4px; font-size: 0.85rem; font-weight: bold; cursor: pointer;">
             Copy Code to Clipboard
           </button>
         </div>
-        <textarea id="code-snippet-box" readonly style="width: 100%; height: 130px; font-family: monospace; font-size: 0.85rem; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #f1f5f9; resize: none;"></textarea>
+        <textarea id="code-snippet-box" readonly placeholder="Select a campground above to generate your HTML embed code..." style="width: 100%; box-sizing: border-box; height: 145px; font-family: monospace; font-size: 0.85rem; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #f1f5f9; color: #0f172a; resize: vertical;"></textarea>
       </div>
 
-      <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 1rem; font-size: 0.9rem; color: #1e40af; line-height: 1.4;">
-        <strong>How it works:</strong> Paste this HTML snippet anywhere on your campground website. It displays live clearance data and provides a permanent, high-value backlink to your full guide on RigFitRV.
+      <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 1rem; font-size: 0.9rem; color: #1e40af; line-height: 1.45;">
+        <strong>How it works:</strong> Paste this HTML snippet anywhere on your campground website. It displays live clearance data and provides a permanent link to your full guide on RigFitRV.
       </div>
 
     </div>
   </div>
 
-  <div id="footer-placeholder"></div>
-  <script>
-    fetch('footer.html')
-      .then(res => res.text())
-      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
-  </script>
+  {% include "footer.njk" %}
 
-  <!-- Widget Generator Logic Script -->
   <script>
+    const ALL_CAMPGROUNDS = {{ campgrounds | dump | safe }};
     let currentCampData = null;
     let activeStyle = 'half';
 
     document.addEventListener('DOMContentLoaded', () => {
+      const selector = document.getElementById('campground-selector');
+      const sorted = [...ALL_CAMPGROUNDS].sort((a, b) => a.name.localeCompare(b.name));
+
+      sorted.forEach(camp => {
+        const opt = document.createElement('option');
+        opt.value = camp.id;
+        opt.textContent = `${camp.name} (${camp.city}, ${camp.state})`;
+        selector.appendChild(opt);
+      });
+
       const urlParams = new URLSearchParams(window.location.search);
       const campId = urlParams.get('id');
 
+      if (campId) {
+        selector.value = campId;
+        onCampgroundSelect(campId);
+      }
+    });
+
+    function onCampgroundSelect(campId) {
       if (!campId) {
+        currentCampData = null;
+        document.getElementById('generator-title').textContent = 'RigFitRV Scorecard Widget Generator';
         document.getElementById('widget-preview-container').innerHTML = `
-          <p style="color: #dc2626; text-align: center; margin: 0;">No campground specified. Please visit a campground guide and click "Get the RigFitRV Scorecard Widget".</p>
+          <p style="color: #64748b; text-align: center; margin: 0;">Select a campground above to preview your custom scorecard widget.</p>
         `;
         document.getElementById('code-snippet-box').value = '';
         return;
       }
 
-      const fetchJson = (url) => fetch(url).then(res => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      });
+      const camp = ALL_CAMPGROUNDS.find(c => c.id === campId);
+      if (!camp) return;
 
-      fetchJson('data/campgrounds.json')
-        .catch(() => fetchJson('../data/campgrounds.json'))
-        .catch(() => fetchJson('/data/campgrounds.json'))
-        .then(campgrounds => {
-          const camp = campgrounds.find(c => c.id === campId);
-          if (!camp) {
-            document.getElementById('widget-preview-container').innerHTML = '<p style="color: #dc2626; text-align: center;">Campground not found in directory.</p>';
-            document.getElementById('code-snippet-box').value = '';
-            return;
-          }
+      currentCampData = camp;
+      document.getElementById('generator-title').textContent = `Embed Scorecard: ${camp.name}`;
 
-          currentCampData = camp;
-          document.getElementById('generator-title').textContent = `Embed Scorecard: ${camp.name}`;
-          renderWidget();
-        })
-        .catch(err => {
-          console.error('Error loading campground data for widget:', err);
-          document.getElementById('widget-preview-container').innerHTML = '<p style="color: #dc2626; text-align: center;">Unable to load campground widget data at this time.</p>';
-        });
-    });
+      const newUrl = `${window.location.pathname}?id=${encodeURIComponent(camp.id)}`;
+      window.history.replaceState({}, '', newUrl);
+
+      renderWidget();
+    }
 
     function switchWidgetStyle(style) {
       activeStyle = style;
@@ -159,7 +165,6 @@
       let widgetHtml = '';
 
       if (activeStyle === 'half') {
-        // Variation 1: Half-Width Card
         widgetHtml = `<div class="rigfit-scorecard-widget" style="border: 1px solid #cbd5e1; border-radius: 8px; padding: 1.25rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; max-width: 320px; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
   <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">
     <strong style="font-size: 0.95rem; color: #0f172a;">🏕️ ${camp.name}</strong>
@@ -173,7 +178,6 @@
   <a href="https://rigfitrv.com/c/${camp.id}.html" target="_blank" rel="noopener" style="display: block; text-align: center; background: #2563eb; color: #ffffff; padding: 0.5rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">View Full Rig-Fit Guide ↗</a>
 </div>`;
       } else if (activeStyle === 'full') {
-        // Variation 2: Full-Width Banner
         widgetHtml = `<div class="rigfit-scorecard-widget" style="border: 1px solid #cbd5e1; border-radius: 8px; padding: 1.25rem 1.5rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
   <div>
     <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
@@ -189,7 +193,6 @@
   <a href="https://rigfitrv.com/c/${camp.id}.html" target="_blank" rel="noopener" style="background: #2563eb; color: #ffffff; padding: 0.55rem 1rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; font-weight: bold; white-space: nowrap;">View Full Guide ↗</a>
 </div>`;
       } else if (activeStyle === 'micro') {
-        // Variation 3: Micro Badge
         widgetHtml = `<div class="rigfit-scorecard-widget" style="border: 1px solid #cbd5e1; border-radius: 6px; padding: 0.85rem 1rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; max-width: 240px; width: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
   <div style="font-size: 0.8rem; font-weight: bold; color: #1e293b; margin-bottom: 0.2rem;">🏕️ ${camp.name}</div>
   <div style="font-size: 0.75rem; color: #64748b; margin-bottom: 0.6rem;">Max Rig: <strong>${maxLen}</strong></div>
