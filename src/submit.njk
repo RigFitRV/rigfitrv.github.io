@@ -76,6 +76,19 @@ permalink: /submit.html
       font-weight: 700;
       cursor: pointer;
     }
+    .submit-form .btn:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+    }
+    .form-status-error {
+      display: none;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #b91c1c;
+      padding: 0.85rem 1rem;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
@@ -88,9 +101,10 @@ permalink: /submit.html
       <h1>Submit RVer Intelligence &amp; New Campgrounds</h1>
       <p>Help fellow RVers travel with confidence! Submit a ground-truth update for an existing guide or request a new campground to be added to RigFitRV.</p>
 
-      <form class="submit-form" action="https://formspree.io/f/mjygepzn" method="POST">
+      <form id="rigfit-submit-form" class="submit-form" action="https://formspree.io/f/mjygepzn" method="POST">
         
         <input type="hidden" name="_next" value="https://rigfitrv.com/thank-you.html">
+        <input type="hidden" name="_subject" value="New RigFitRV Intelligence Submission">
 
         <div class="form-group">
           <label for="submission-type">Submission Type</label>
@@ -120,7 +134,9 @@ permalink: /submit.html
           <input type="email" id="email" name="email" placeholder="you@example.com">
         </div>
 
-        <button type="submit" class="btn">Send Submission →</button>
+        <div id="form-error" class="form-status-error"></div>
+
+        <button type="submit" id="submit-btn" class="btn">Send Submission →</button>
 
       </form>
 
@@ -128,6 +144,44 @@ permalink: /submit.html
   </div>
 
   {% include "footer.njk" %}
+
+  <script>
+    const form = document.getElementById('rigfit-submit-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const errorBox = document.getElementById('form-error');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errorBox.style.display = 'none';
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          window.location.href = '/thank-you.html';
+        } else {
+          const data = await response.json().catch(() => ({}));
+          errorBox.textContent = data.errors
+            ? data.errors.map(err => err.message).join(', ')
+            : 'There was a problem submitting your update. Please try again.';
+          errorBox.style.display = 'block';
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Submission →';
+        }
+      } catch (err) {
+        errorBox.textContent = 'Network error sending submission. Please check your connection and try again.';
+        errorBox.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Submission →';
+      }
+    });
+  </script>
 
 </body>
 </html>
