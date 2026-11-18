@@ -108,7 +108,7 @@ permalink: /widget-generator.html
       });
 
       const urlParams = new URLSearchParams(window.location.search);
-      const rawId = urlParams.get('id');
+      const rawId = urlParams.get('claim') || urlParams.get('id');
       if (rawId) {
         const normalizedId = rawId.trim().toLowerCase();
         const match = ALL_CAMPGROUNDS.find(c => c.id.toLowerCase() === normalizedId);
@@ -142,7 +142,7 @@ permalink: /widget-generator.html
       currentCampData = camp;
       document.getElementById('generator-title').textContent = `Embed Scorecard: ${camp.name}`;
 
-      const newUrl = `${window.location.pathname}?id=${encodeURIComponent(camp.id)}`;
+      const newUrl = `${window.location.pathname}?claim=${encodeURIComponent(camp.id)}`;
       window.history.replaceState({}, '', newUrl);
 
       renderWidget();
