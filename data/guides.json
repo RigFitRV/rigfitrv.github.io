@@ -334,6 +334,7 @@
     "summary": "Expert RV camping guide for the New York Finger Lakes. Verified big-rig clearances, routing strategies, and campground reviews for Seneca and Cayuga Lake loops.",
     "description": "Expert RV camping guide for the New York Finger Lakes. Verified big-rig clearances, routing strategies, and campground reviews for Seneca and Cayuga Lake loops.",
     "featuredCampgroundIds": [
+      "flint-creek-campground",
       "watkins-glen-corning-koa",
       "cayuga-lake-state-park",
       "taughannock-falls-state-park",
@@ -376,7 +377,7 @@
     "utilityHtml": "<h2>⚡ Local Infrastructure &amp; Utility Insights</h2><ul><li><strong>Seasonal Power Grid Loads:</strong> During peak July and August summer weekends, regional grid draw can cause slight voltage drops in rural areas. We strongly recommend running a heavy-duty surge protector with auto-disconnect features to protect dual A/C units and residential refrigerators.</li><li><strong>Water Pressure &amp; Filtration:</strong> Many campgrounds in the Thames River watershed draw from deep private wells. Static pressure can spike above 70 PSI early in the morning—use an adjustable water pressure regulator set to 45–50 PSI and a dual-stage inline water filter.</li><li><strong>Cellular Coverage:</strong> Verizon and AT&amp;T deliver solid LTE and 5G coverage along the I-395 and CT-82 corridors, but signal strength drops in deep river valleys near Salt Rock and Hopeville Pond. A cellular signal booster is recommended if working remotely from your rig.</li></ul>",
     "recommendedGearKeys": [
       "heavy-duty-surge-protector",
-      "brass-water-pressure-regulator"
+      "water-pressure-regulator"
     ],
     "gearNote": "Essential utility protection and campsite setup for Southeastern CT camping.",
     "updatePrompt": "Encountered a new low-hanging branch, local road detours, or updated site layouts in the Bozrah area?",
