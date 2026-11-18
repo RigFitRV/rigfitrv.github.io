@@ -1,5 +1,54 @@
 [
  {
+  "id": "lake-george-escape-campground",
+  "name": "Lake George Escape Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-18",
+  "state": "NY",
+  "city": "Diamond Point",
+  "featured": true,
+  "lat": 43.501251,
+  "lng": -73.748118,
+  "image": "/images/lake-george-escape-campground.jpg",
+  "mapImage": null,
+  "address": "175 E Schroon River Rd, Diamond Point, NY 12824",
+  "gps": "43.5013° N, 73.7481° W",
+  "phone": "+15186233207",
+  "website": "https://thousandtrails.com/new-york/lake-george-escape-campground",
+  "summary": "Expansive 178-acre waterfront resort campground set along the Schroon River 5 miles north of Lake George Village, accessible directly from I-87 Exit 23 via Diamond Point Road and East Schroon River Road with 45-foot full-hookup sites, wooded river loops, and resort recreation.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (spacious pull-through and back-in full-hookup sites)",
+    "toadFriendliness": "Good — dedicated check-in staging lanes off E Schroon River Rd; plenty of room to unhook before entering wooded river loops",
+    "treeClearance": "Moderate-High — wide main paved/gravel spine roads with mature Adirondack white pines along riverfront loops",
+    "bestBigRigLoops": "Front Meadow / Main Spine Full-Hookup Pull-Throughs & 50-Amp Sites",
+    "bestSmallRigLoops": "Schroon River Waterfront Loops & Wooded Interior Loops (ideal for Class B/C rigs and sub-32 ft trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Take I-87 (Adirondack Northway) to Exit 23 (Diamond Point / Warrensburg). Turn east onto Diamond Point Road (County Route 35) for 0.6 miles, then turn left onto East Schroon River Road and follow it north for approximately 2.2 miles to the main resort entrance on the left. Using Exit 23 keeps big rigs completely clear of Lake George Village traffic and steep mountain grades on NY-9N.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps routing locked onto I-87 Exit 23 and East Schroon River Rd without diverting onto narrow Adirondack backroads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the multi-lane registration staging area off East Schroon River Road. While select 45-ft pull-throughs can hold both coach and toad, unhooking at check-in is recommended if you are assigned a wooded or riverfront back-in site near the Schroon River bend.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps monitor mature pine trunks, picnic tables, and river-loop turns when backing into shaded sites."
+    }
+  },
+  "content": {
+    "overview": "Major 178-acre seasonal destination resort (open mid-May through mid-October) bordered by the Schroon River and Adirondack forest, featuring 575+ sites (50/30-amp full-hookup, water/electric, and cabins), heated pools, tubing and kayak river launches, miniature golf, wagon rides, camp store, and scheduled trolley service to Lake George Village.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects coach electronics against peak summer air-conditioning load sags across 50/30-amp loops."
+    },
+    "loopC": "Open and semi-wooded 50-amp full-hookup pull-through and long back-in pads accommodate Class A motorhomes and fifth wheels up to 45 feet with strong slide-out clearance.",
+    "loopsAB": "Scenic riverfront and deep-pine back-in sites along the Schroon River; best suited for travel trailers under 35 feet and Class B/C motorhomes."
+  }
+},
+ {
   "id": "king-phillips-campground-resort",
   "name": "King Phillips Campground & Resort",
   "ownertype": "Private Campground",
