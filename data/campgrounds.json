@@ -1,5 +1,54 @@
 [
  {
+  "id": "moose-hillock-camping-resort-ny",
+  "name": "Moose Hillock Camping Resort NY",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-18",
+  "state": "NY",
+  "city": "Fort Ann",
+  "featured": true,
+  "lat": 43.403478,
+  "lng": -73.580735,
+  "image": "/images/moose-hillock-camping-resort-ny.jpg",
+  "mapImage": "/images/moose-hillock-camping-resort-ny-map.jpg",
+  "address": "10366 State Route 149, Fort Ann, NY 12827",
+  "gps": "43.4035° N, 73.5807° W",
+  "phone": "+15187924500",
+  "website": "https://www.moosehillock.com/new-york/",
+  "summary": "Heavily wooded Adirondack family campground located 6.5 miles east of I-87 Exit 20 along wide, commercial-grade NY-149, featuring oversized private gravel sites, full 30/50-amp hookups, and resort pool amenities without downtown Lake George congestion.",
+  "scorecard": {
+    "maxRigLength": "Up to 45+ ft (oversized wooded gravel back-in and pull-through sites)",
+    "toadFriendliness": "Good — oversized sites hold towed vehicles within boundaries; overflow parking near laundry",
+    "treeClearance": "Moderate-High — wide main gravel roads, though dense white pines require low-branch vigilance when backing",
+    "bestBigRigLoops": "Main Entry Corridor & Level Lower-Grade Full-Hookup Sites",
+    "bestSmallRigLoops": "Upper Rolling Wooded Loops (select outer/ridge sites have noticeable slope)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Take I-87 (Adirondack Northway) to Exit 20 (US-9 / NY-149). Turn east onto NY-149 (Fort Ann Road) and follow it straight for approximately 6.5 miles; the main entrance is on the right with a paved check-in apron. NY-149 is a flat, wide, commercial-grade two-lane state highway with generous shoulders and zero low-clearance bridges between I-87 and the campground. Avoid routing north via local town roads off NY-9L or NY-40 through Fort Ann village.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps routing locked onto commercial-grade NY-149 from I-87 Exit 20 and avoids narrow Washington County backroads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull onto the paved entrance staging lane at check-in; while most sites are deep enough to hold both a 40+ ft coach and a towed vehicle within the site boundary, unhooking at check-in or near the laundry overflow lot makes backing into tall-pine sites much cleaner. Parking on road shoulders or banks is strictly prohibited.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Essential for spotting pine trunks and stone fireplaces when backing into deep wooded sites."
+    }
+  },
+  "content": {
+    "overview": "Seasonal Adirondack destination campground (open mid-May through mid-October) centered around its heated tropical lagoon pool ('Aloha Beach'), featuring oversized wooded buffer zones between sites, 20/30/50-amp electric, water, sewer, cable TV, and hard-packed gravel roads and pads. Interior roads are unpaved gravel and generate dust during dry summer stretches, and cellular signal (Verizon/AT&T) is weak (~1–2 bars) under the heavy tree canopy.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects against high-demand summer voltage sags across wooded 50-amp loops."
+    },
+    "loopC": "Deep, wide gravel pads with thick tree-line separation accommodate 40–45+ ft Class A motorhomes and fifth wheels. Request flatter, lower-grade sites when booking (or use the Site Lock option) because several sites in the upper wooded sections (such as the 700-series) have significant slope that can max out hydraulic leveling jacks.",
+    "loopsAB": "Secluded, heavily shaded gravel sites with natural stone fireplaces and 8-foot picnic tables; ideal for travel trailers, Class C motorhomes, and rigs carrying extra leveling blocks."
+  }
+},
+ {
   "id": "flint-creek-campground",
   "name": "Flint Creek Campground",
   "ownertype": "Private Campground",
