@@ -95,10 +95,11 @@ permalink: /widget-generator.html
     let currentCampData = null;
     let activeStyle = 'half';
 
-    document.addEventListener('DOMContentLoaded', () => {
+    function initWidgetGenerator() {
       const selector = document.getElementById('campground-selector');
-      const sorted = [...ALL_CAMPGROUNDS].sort((a, b) => a.name.localeCompare(b.name));
+      if (!selector || !Array.isArray(ALL_CAMPGROUNDS)) return;
 
+      const sorted = [...ALL_CAMPGROUNDS].sort((a, b) => a.name.localeCompare(b.name));
       sorted.forEach(camp => {
         const opt = document.createElement('option');
         opt.value = camp.id;
@@ -107,13 +108,22 @@ permalink: /widget-generator.html
       });
 
       const urlParams = new URLSearchParams(window.location.search);
-      const campId = urlParams.get('id');
-
-      if (campId) {
-        selector.value = campId;
-        onCampgroundSelect(campId);
+      const rawId = urlParams.get('id');
+      if (rawId) {
+        const normalizedId = rawId.trim().toLowerCase();
+        const match = ALL_CAMPGROUNDS.find(c => c.id.toLowerCase() === normalizedId);
+        if (match) {
+          selector.value = match.id;
+          onCampgroundSelect(match.id);
+        }
       }
-    });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initWidgetGenerator);
+    } else {
+      initWidgetGenerator();
+    }
 
     function onCampgroundSelect(campId) {
       if (!campId) {
