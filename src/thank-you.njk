@@ -1,0 +1,75 @@
+---
+permalink: /thank-you.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You - RigFitRV</title>
+  <meta name="description" content="Thank you for contributing to RigFitRV.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Automatic 5-second HTTP Refresh Fallback -->
+  <meta http-equiv="refresh" content="5;url=/index.html">
+
+  <!-- Custom Favicons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV8S962CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TV8S962CRT');
+  </script>
+</head>
+<body>
+
+  {% include "header.njk" %}
+
+  <div class="container">
+    <div class="article-card" style="text-align: center; padding: 3rem 1.5rem;">
+      
+      <div style="font-size: 3rem; margin-bottom: 1rem;">🚐</div>
+      <h1 style="border-bottom: none; padding-bottom: 0;">Thank You for Your Submission!</h1>
+      <p style="color: #475569; font-size: 1.1rem; max-width: 600px; margin: 0 auto 1.5rem auto;">
+        Your ground-truth intelligence helps fellow RVers navigate campgrounds safely and avoid low-clearance surprises.
+      </p>
+
+      <div style="background-color: #f1f5f9; padding: 12px 20px; border-radius: 6px; display: inline-block; color: #334155; font-weight: 600; margin-bottom: 1.5rem;">
+        Redirecting to homepage in <span id="timer">5</span> seconds...
+      </div>
+
+      <div>
+        <a href="/index.html" class="btn">Return to Home Now →</a>
+      </div>
+
+    </div>
+  </div>
+
+  {% include "footer.njk" %}
+
+  <script>
+    let seconds = 5;
+    const timerElement = document.getElementById('timer');
+
+    const countdown = setInterval(() => {
+      seconds--;
+      if (timerElement) {
+        timerElement.textContent = seconds;
+      }
+      if (seconds <= 0) {
+        clearInterval(countdown);
+        window.location.href = "/index.html";
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>
