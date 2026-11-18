@@ -1,5 +1,54 @@
 [
  {
+  "id": "king-phillips-campground-resort",
+  "name": "King Phillips Campground & Resort",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-18",
+  "state": "NY",
+  "city": "Lake George",
+  "featured": true,
+  "lat": 43.395243,
+  "lng": -73.702135,
+  "image": "/images/king-phillips-campground-resort.jpg",
+  "mapImage": "/images/king-phillips-campground-resort-map.jpg",
+  "address": "14 Bloody Pond Rd, Lake George, NY 12845",
+  "gps": "43.3952° N, 73.7021° W",
+  "phone": "+15186683535",
+  "website": "https://modernamericacampgrounds.com/new-york/king-phillips-campground",
+  "summary": "Classic wooded Adirondack family campground located just off US-9 on Bloody Pond Road, 1 mile south of Lake George Village and 1.3 miles north of I-87 Exit 21, offering shaded 30/50-amp full-hookup sites and quick Northway access without village traffic bottlenecks.",
+  "scorecard": {
+    "maxRigLength": "Up to 40–42 ft (select perimeter/main-road full-hookup pull-through and back-in sites)",
+    "toadFriendliness": "Moderate — pull into office registration lane off Bloody Pond Rd; unhook towed vehicles before entering wooded interior loops",
+    "treeClearance": "Moderate — mature Adirondack pines and hemlocks line interior gravel lanes; watch low branches on back-in pads",
+    "bestBigRigLoops": "Front / Perimeter 50-Amp Full-Hookup Sites near Entry & Main Loop",
+    "bestSmallRigLoops": "Interior Wooded Loops (ideal for Class B/C motorhomes, pop-ups, and travel trailers under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Take I-87 (Adirondack Northway) to Exit 21 (NY-9N / US-9, Lake George). Follow NY-9N / US-9 North for approximately 1.2 miles, then turn right onto Bloody Pond Road (14 Bloody Pond Rd) just south of the Lake George Village line. Approaching from Exit 21 puts you directly at the southern gateway of Lake George without forcing a big rig through narrow downtown Canada Street traffic.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps routing locked onto I-87 Exit 21, US-9, and Bloody Pond Rd while avoiding tight residential streets in Lake George Village."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull straight into the registration staging area off Bloody Pond Road upon arrival and unhook towed vehicles before entering the wooded interior loops. Interior roads are compact gravel lanes winding through tall pines, making sharp turns or backing maneuvers with an attached toad challenging.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps spot pine trunks, rock borders, and utility pedestals when backing into shaded sites."
+    }
+  },
+  "content": {
+    "overview": "Seasonal family campground (open mid-May through mid-October) minutes from Lake George Village, Million Dollar Beach, and Fort William Henry, with local trolley stops nearby on US-9. Features wooded sites with 20/30/50-amp electric, water, sewer, cable TV, heated pool, playground, camp store, and laundry facilities.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard appliances against peak summer voltage sags across wooded 30/50-amp loops."
+    },
+    "loopC": "Select full-hookup 50-amp pull-through and deep back-in sites near the main entry corridor accommodate rigs up to 40–42 feet. Specify rig length and slide-outs when booking to secure wider turning geometry.",
+    "loopsAB": "Heavily shaded interior woodland sites beneath mature pines with fire rings and picnic tables; best suited for travel trailers under 32 feet and Class B/C motorhomes."
+  }
+},
+ {
   "id": "lake-george-camping-village",
   "name": "Lake George Camping Village",
   "ownertype": "Private Campground",
