@@ -1,5 +1,54 @@
 [
  {
+  "id": "lake-george-camping-village",
+  "name": "Lake George Camping Village",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-18",
+  "state": "NY",
+  "city": "Lake George",
+  "featured": true,
+  "lat": 43.454364,
+  "lng": -73.732682,
+  "image": "/images/lake-george-camping-village.jpg",
+  "mapImage": "/images/lake-george-camping-village-map.jpg",
+  "address": "43 Finkle Farm Rd, Lake George, NY 12845",
+  "gps": "43.4544° N, 73.7327° W",
+  "phone": "+15186685226",
+  "website": "https://www.lakegeorgecampingvillage.com/",
+  "summary": "Wooded 175-site mountain campground tucked just north of Lake George Village off US-9 and 2.5 miles from I-87 Exit 22, accommodating rigs up to 42 feet with select 50-amp full-hookup sites and shaded forest nooks.",
+  "scorecard": {
+    "maxRigLength": "Up to 42 ft (select full-service 50-amp sites; interior wooded sites suit 25–36 ft rigs)",
+    "toadFriendliness": "Moderate — check-in staging off Finkle Farm Rd; unhook before entering hilly wooded loops",
+    "treeClearance": "Moderate — heavy Adirondack pine/hardwood canopy and rolling hillside terrain",
+    "bestBigRigLoops": "Lower Level 50-Amp Full-Hookup Sites near Entry / Main Corridor",
+    "bestSmallRigLoops": "Upper Wooded Nook Loops (ideal for Class B/C motorhomes and sub-30 ft trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Take I-87 (Adirondack Northway) to Exit 22 (US-9 / NY-9N, Lake George). Follow US-9 North for approximately 1.7 miles past the northern edge of Lake George Village, then turn left onto Finkle Farm Road (43 Finkle Farm Rd). Approaching from Exit 22 completely bypasses the tight, pedestrian-heavy downtown Lake George Village strip on Canada Street (US-9). Avoid approaching via winding NY-9N along the western shoreline from Bolton Landing with large fifth wheels or Class A coaches.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Routes big rigs cleanly to I-87 Exit 22 and keeps trailers off narrow lakeside mountain spurs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Check-in begins at 2:00 PM (pre-paying before arrival is recommended to speed up entry). Pull off Finkle Farm Road into the office staging area and unhook your towed vehicle before climbing into the wooded interior loops, where rolling grades and mature pine trunks make maneuvering a connected toad difficult.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps spot tight pine trees, boulders, and grade drop-offs when backing into wooded hillside pads."
+    }
+  },
+  "content": {
+    "overview": "Seasonal family campground (open early May through mid-October) set in a quiet, heavily wooded Adirondack hillside 3 minutes north of Lake George Village. Features 175 campsites (mix of 50-amp full-hookup RV sites, 30-amp water/electric sites, tent sites, and camping cabins), heated swimming pools, rec hall, pickleball and basketball courts, laundry, and free Wi-Fi.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects onboard electronics against summer grid fluctuations across wooded 30/50-amp pedestals."
+    },
+    "loopC": "Accommodates rigs up to 42 feet on designated 50-amp full-hookup sites with easier turning geometry. Specify exact rig length and slide-out configuration when booking so staff assign a lower-grade, wider-access pad.",
+    "loopsAB": "Classic rustic woodland nooks with heavy tree separation, fire rings, and picnic tables; best suited for travel trailers under 32 feet, Class C motorhomes, and camper vans—bring leveling blocks for rolling terrain."
+  }
+},
+ {
   "id": "moose-hillock-camping-resort-ny",
   "name": "Moose Hillock Camping Resort NY",
   "ownertype": "Private Campground",
