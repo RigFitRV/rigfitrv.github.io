@@ -108,7 +108,14 @@ permalink: /widget-generator.html
       });
 
       const urlParams = new URLSearchParams(window.location.search);
-      const rawId = urlParams.get('claim') || urlParams.get('id');
+      let rawId = urlParams.get('claim') || urlParams.get('id');
+
+      // Fallback: extract campground slug from referring /c/<slug>.html page if ?id= is empty
+      if (!rawId && document.referrer) {
+        const refMatch = document.referrer.match(/\/c\/([^\/?#]+?)(?:\.html)?(?:[?#]|$)/i);
+        if (refMatch) rawId = refMatch[1];
+      }
+
       if (rawId) {
         const normalizedId = rawId.trim().toLowerCase();
         const match = ALL_CAMPGROUNDS.find(c => c.id.toLowerCase() === normalizedId);
