@@ -1,5 +1,54 @@
 [
  {
+    "id": "round-top-campground",
+    "name": "Round Top Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.778088,
+    "lng": -77.236344,
+    "image": "/images/round-top-campground.jpg",
+    "mapImage": null,
+    "address": "180 Knight Rd, Gettysburg, PA 17325",
+    "gps": "39.7781° N, 77.2363° W",
+    "phone": "+17173349565",
+    "website": "https://thousandtrails.com/pennsylvania/round-top-campground",
+    "summary": "Spacious 52-acre family RV resort tucked off Knight Road immediately west of the US-15 / PA-134 interchange south of Gettysburg, featuring paved 50-amp pull-through pads, shaded grass back-in loops, and effortless highway ingress/egress that avoids town traffic.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (paved 50-amp pull-through pads with wide interior turn radii)",
+      "toadFriendliness": "High — dedicated front check-in staging lane off Knight Road with ample room to unhook before entering interior loops",
+      "treeClearance": "Moderate-High — open paved pull-through sections; mature shade trees along interior grass back-in rows",
+      "bestBigRigLoops": "Paved 50-Amp Pull-Through Sites (front/central resort rows)",
+      "bestSmallRigLoops": "Wooded & Grass Back-In Loops (ideal for travel trailers under 35 ft and Class B/C motorhomes)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take US-15 to the PA-134 (Taneytown Road) exit south of Gettysburg. Turn south/west onto PA-134 (away from downtown Gettysburg) for 0.3 miles, then turn right onto Knight Road and follow it 0.8 miles directly to the campground entrance on the right. Using the US-15 / PA-134 southern interchange gives big rigs immediate highway access without navigating downtown Gettysburg circles or narrow battlefield roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto US-15 and PA-134 South to Knight Road rather than diverting onto narrow rural township lanes."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging lane just past the Knight Road entrance. Paved pull-through sites can accommodate a coach and toad, though unhooking at check-in is recommended if you are assigned a grass back-in site or heading out to tour the narrow battlefield avenues.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor mature shade trees, picnic tables, and adjacent rigs when backing into grass sites."
+      }
+    },
+    "content": {
+      "overview": "52-acre seasonal family RV resort (open early April through late October) operated under Thousand Trails / Trails Collection (open to non-members as well). Features 384 sites (paved 50/30-amp pull-throughs, grass water/electric back-ins, and vacation cottages), swimming pool, mini-golf, tennis/basketball courts, camp store, laundry, and quick 5-minute access to Gettysburg National Military Park.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard air conditioners and electronics against peak summer load sags across 30/50-amp pedestals."
+      },
+      "loopC": "Paved 50-amp pull-through sites offer level asphalt pads, clear overhead clearance, and easy pull-out geometry for Class A coaches and fifth wheels up to 45 feet.",
+      "loopsAB": "Grass 30/50-amp back-in sites bordered by mature trees; best suited for travel trailers under 35 feet and Class B/C motorhomes."
+    }
+  },
+ {
     "id": "artillery-ridge-campground",
     "name": "Artillery Ridge Campground",
     "ownertype": "Private Campground",
