@@ -1,5 +1,36 @@
 [
   {
+    "id": "gettysburg-south-central-pa-camping",
+    "slug": "gettysburg-south-central-pa",
+    "eyebrow": "Regional RV Travel Guide • Gettysburg & South-Central PA",
+    "title": "Gettysburg & South-Central PA RV Navigation & Camping Guide",
+    "subtitle": "Big-Rig Battlefield Bypass Routing, South Mountain Grades & Verified RV Resorts",
+    "lead": "Navigate Gettysburg's US-15, US-30, and PA-116 corridors without getting trapped in Lincoln Square traffic circles or restricted National Military Park tour roads.",
+    "region": "Gettysburg & South-Central PA",
+    "state": "PA",
+    "lat": 39.8309,
+    "lng": -77.2311,
+    "image": "/images/gettysburg-south-central-pa-guide.jpg",
+    "summary": "Verified big-rig routing and campground guide for Gettysburg and South-Central Pennsylvania. Covers US-15 and US-30 bypass approaches, South Mountain grade warnings, toad staging strategies, and 6 audited campgrounds.",
+    "featuredCampgroundIds": [
+      "gettysburg-campground",
+      "artillery-ridge-campground",
+      "round-top-campground",
+      "drummer-boy-camping-resort",
+      "granite-hill-camping-resort",
+      "caledonia-state-park"
+    ],
+    "introHtml": "<h2>🌲 Why Gettysburg &amp; South-Central PA is an Elite RV Destination</h2><p>Positioned at the crossroads of US-15, US-30 (the historic Lincoln Highway), and nearby I-81, Gettysburg and the South Mountain foothills offer an unmatched combination of full-hookup destination RV resorts and wooded Appalachian state park camping. Whether you are touring Gettysburg National Military Park in a towed vehicle or staging a 45-foot Class A coach along Adams County's rolling orchards, choosing the right quadrant around town makes all the difference.</p><hr><h2>🚚 Rig Clearance &amp; Heavy Highway Routing Guidance</h2><p>Downtown Gettysburg centers around the tight <strong>Lincoln Square traffic circle</strong>, and Gettysburg National Military Park enforces strict commercial/oversize vehicle restrictions along narrow one-way tour avenues lined with historic stone walls and low tree limbs. Always route your RV to the specific highway quadrant of your campground rather than cutting through town.</p><h3>Key Highway Approaches</h3><ul><li><strong>US-15 South &amp; East Corridors (PA-134 &amp; PA-116):</strong> Use the US-15 / PA-134 (Taneytown Road) interchange for southern and battlefield-adjacent resorts (<em>Artillery Ridge</em> and <em>Round Top</em>), or exit directly onto PA-116 East (Hanover Road) for <em>Drummer Boy Camping Resort</em> without touching downtown streets.</li><li><strong>US-30 West &amp; PA-116 West Corridors:</strong> Approach <em>Gettysburg Campground</em> and <em>Granite Hill Camping Resort</em> from the west via US-30 (Lincoln Highway) and Knoxlyn Road to bypass Lincoln Square completely.</li><li><strong>South Mountain Grade (US-30 West to Fayetteville):</strong> Reaching <em>Caledonia State Park</em> from Gettysburg requires climbing and descending South Mountain on US-30 (sustained 6–7% grades with sweeping curves). Heavy Class A pushers and fifth wheels can take I-81 Exit 16 (Chambersburg) via US-30 East for a gentler valley approach.</li></ul><blockquote><strong>Pro Clearance Tip:</strong> Never follow consumer GPS shortcuts onto Gettysburg National Military Park tour roads (such as Confederate Avenue or Hancock Avenue) while driving your RV or towing a fifth wheel—stage your coach at camp first and tour the battlefield in your toad.</blockquote>",
+    "utilityHtml": "<h2>⚡ Local Infrastructure &amp; Utility Insights</h2><ul><li><strong>Power Grid Loads:</strong> Peak July and August heatwaves across Adams County drive heavy 50-amp air-conditioning demand at large resorts; pack a quality EMS surge protector with low-voltage protection.</li><li><strong>Water Pressure &amp; Filtration:</strong> Private Gettysburg resorts run on high-capacity well or municipal systems with strong baseline pressure (50–65 PSI), while South Mountain state park loops like Caledonia benefit from a sediment pre-filter and pressure regulator.</li><li><strong>Cellular Coverage:</strong> Verizon, AT&amp;T, and T-Mobile deliver strong 5G/LTE speeds along the US-15 and US-30 corridors around Gettysburg, dropping to 1–2 bars inside the forested South Mountain hollow at Caledonia State Park.</li></ul>",
+    "recommendedGearKeys": [
+      "garmin-rv-890",
+      "heavy-duty-surge-protector"
+    ],
+    "gearNote": "Essential RV-specific routing to avoid restricted battlefield roads and EMS power protection for summer peak loads.",
+    "updatePrompt": "Encountered a new low-hanging branch, road construction detour, or updated site layout in the Gettysburg & South-Central PA area?",
+    "publishedDate": "2026-11-19"
+  },
+  {
     "id": "adirondacks-lake-george-camping",
     "slug": "adirondacks-lake-george",
     "eyebrow": "Regional RV Travel Guide • Adirondacks & Lake George",
