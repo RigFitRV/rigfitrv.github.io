@@ -1,5 +1,54 @@
 [
  {
+    "id": "granite-hill-camping-resort",
+    "name": "Granite Hill Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.807027,
+    "lng": -77.333777,
+    "image": "/images/granite-hill-camping-resort.jpg",
+    "mapImage": "/images/granite-hill-camping-resort-map.jpg",
+    "address": "3340 Fairfield Rd, Gettysburg, PA 17325",
+    "gps": "39.8070° N, 77.3338° W",
+    "phone": "+17176428749",
+    "website": "https://www.granitehillcampingresort.com/",
+    "summary": "Scenic 150-acre family campground and Adventure Golf resort located 6 miles west of Gettysburg along PA-116 (Fairfield Road), offering open 50-amp pull-throughs, lakeside and wooded back-in loops, and a rural western approach via US-30 and Knoxlyn Road that bypasses downtown Gettysburg.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open full-hookup 50-amp pull-throughs with level gravel pads)",
+      "toadFriendliness": "High — wide check-in apron and staging pull-off right off PA-116 (Fairfield Road) before entering interior campground roads",
+      "treeClearance": "Moderate-High — open field pull-through sections; mature shade canopy along upper wooded and lakeside back-in loops",
+      "bestBigRigLoops": "Open Field 50-Amp Full-Hookup Pull-Throughs",
+      "bestSmallRigLoops": "Wooded Hillside & Pondside Back-In Loops (ideal for travel trailers under 34 ft and Class B/C motorhomes)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From US-30 (Lincoln Highway) west of Gettysburg, turn south onto Knoxlyn Road for 2.7 miles to PA-116 (Fairfield Road), turn right (west) onto PA-116 for 1.6 miles, and turn into the main resort entrance on the right. Routing via US-30 West and Knoxlyn Road keeps big rigs completely clear of downtown Gettysburg's Lincoln Square traffic circle and narrow battlefield avenues.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Guides big rigs cleanly onto US-30 West and PA-116 while avoiding narrow Adams County backroads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging lane just inside the Fairfield Road entrance upon arrival. Longer 45-ft pull-through sites can accommodate both coach and towed vehicle, while unhooking at check-in is recommended for wooded back-in sites or when exploring Gettysburg National Military Park.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps check rear tree branches and utility hookups when backing into shaded lakeside or wooded sites."
+      }
+    },
+    "content": {
+      "overview": "150-acre seasonal family resort (open mid-April through late October) set amid rolling Adams County countryside 6 miles west of downtown Gettysburg. Features over 300 sites (50/30-amp full-hookup pull-throughs, water/electric wooded sites, and rental cabins), swimming pool, private fishing lake, 18-hole Adventure Golf course, camp store, and weekend bluegrass/family events.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Safeguards onboard air conditioners and electronics from peak summer voltage drops across 30/50-amp pedestals."
+      },
+      "loopC": "Open meadow 50-amp full-hookup pull-throughs offer level gravel pads, clear overhead clearance, and wide turning geometry for Class A coaches and fifth wheels up to 45 feet.",
+      "loopsAB": "Wooded hillside and pondside 30/50-amp back-in sites under mature trees; best suited for travel trailers under 34 feet and Class B/C motorhomes."
+    }
+  },
+ {
     "id": "drummer-boy-camping-resort",
     "name": "Drummer Boy Camping Resort",
     "ownertype": "Private Campground",
