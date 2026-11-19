@@ -1,5 +1,54 @@
 [
  {
+    "id": "drummer-boy-camping-resort",
+    "name": "Drummer Boy Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.83155,
+    "lng": -77.194033,
+    "image": "/images/drummer-boy-camping-resort.jpg",
+    "mapImage": null,
+    "address": "1300 Hanover Rd, Gettysburg, PA 17325",
+    "gps": "39.8316° N, 77.1940° W",
+    "phone": "+18773626736",
+    "website": "https://thousandtrails.com/pennsylvania/drummer-boy-camping-resort",
+    "summary": "Expansive 95-acre RV resort set directly off PA-116 (Hanover Road) just east of US-15, featuring over 450 short-term and seasonal sites with 50-amp full-hookup pull-throughs, mature woodland loops, and direct highway access that keeps big rigs completely out of downtown Gettysburg.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (wide 50-amp full-hookup pull-throughs and long back-in pads)",
+      "toadFriendliness": "High — multi-lane registration pull-off right inside the PA-116 entrance with space to unhook before navigating wooded interior loops",
+      "treeClearance": "Moderate-High — clear entry boulevard and open front pull-through rows; mature oak and pine canopy on wooded back loops",
+      "bestBigRigLoops": "Front & Meadow 50-Amp Full-Hookup Pull-Throughs",
+      "bestSmallRigLoops": "Wooded Back-In Loops & Pondside Rows (ideal for travel trailers under 34 ft and Class B/C motorhomes)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take US-15 to the PA-116 (Hanover Road) exit on the east side of Gettysburg. Head east on PA-116 (away from downtown Gettysburg) for approximately 0.7 miles directly to the main resort entrance on the left. Exiting US-15 directly onto PA-116 East eliminates any need to traverse downtown Gettysburg's Lincoln Square traffic circle or narrow battlefield roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Locks routing onto US-15 and PA-116 East while avoiding residential borough cut-throughs."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the wide check-in lanes off Hanover Road upon arrival. Select 45-ft pull-through sites can hold a coach and towed vehicle, but unhooking at check-in is recommended for wooded back-in sites or when heading out to tour downtown Gettysburg and the National Military Park.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with tight tree clearance and pedestal alignment when backing into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "95-acre seasonal destination RV resort (open early April through late October) operated by Thousand Trails / Trails Collection (open to the general public as well as members). Features 459 sites (50/30-amp full-hookup pull-throughs, water/electric sites, cabins, cottages, and lofts), two swimming pools, catch-and-release fishing pond, camp store, golf cart rentals, and seasonal shuttle service to Gettysburg tours.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach air conditioners and electronics from peak summer voltage fluctuations across 30/50-amp loops."
+      },
+      "loopC": "Open and semi-wooded 50-amp full-hookup pull-through sites accommodate Class A motorhomes and fifth wheels up to 45 feet with generous slide-out room.",
+      "loopsAB": "Shaded woodland back-in sites under mature trees; best suited for travel trailers under 34 feet and Class B/C motorhomes."
+    }
+  },
+ {
     "id": "round-top-campground",
     "name": "Round Top Campground",
     "ownertype": "Private Campground",
