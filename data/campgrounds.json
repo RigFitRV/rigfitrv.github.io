@@ -1,5 +1,54 @@
 [
  {
+    "id": "artillery-ridge-campground",
+    "name": "Artillery Ridge Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.802185,
+    "lng": -77.229229,
+    "image": "/images/artillery-ridge-campground.jpg",
+    "mapImage": "/images/artillery-ridge-campground-map.jpg",
+    "address": "610 Taneytown Rd, Gettysburg, PA 17325",
+    "gps": "39.8022° N, 77.2292° W",
+    "phone": "+17173341288",
+    "website": "https://www.artilleryridge.com/",
+    "summary": "Closest full-hookup RV campground to Gettysburg National Military Park, located 1 mile south of the Visitor Center on PA-134 (Taneytown Road) with 45-foot 50-amp pull-throughs, shaded woodland loops, and direct US-15 access that bypasses downtown traffic circles.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open and semi-shaded 50-amp full-hookup pull-through sites)",
+      "toadFriendliness": "Good — wide entry apron off PA-134 (Taneytown Rd) with front check-in staging lanes before entering interior loops",
+      "treeClearance": "Moderate-High — clear entry and main spine roads; mature hardwood canopy along upper wooded loops",
+      "bestBigRigLoops": "Front / Lower Open 50-Amp Full-Hookup Pull-Throughs",
+      "bestSmallRigLoops": "Upper Wooded Back-In Loops & Pondside Sites (ideal for Class B/C motorhomes and sub-32 ft travel trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take US-15 to the PA-134 (Taneytown Road) exit south of Gettysburg. Turn north onto PA-134 and follow it for approximately 2.3 miles directly to the campground entrance on the right. Using the US-15 southern exit keeps big rigs completely clear of downtown Gettysburg's Lincoln Square traffic circle and narrow Gettysburg National Military Park tour roads (which feature tight stone wall clearances and commercial/oversize vehicle restrictions).",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto US-15 and PA-134 North while preventing GPS shortcuts through restricted Gettysburg National Military Park avenues."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the registration staging lanes off Taneytown Road upon arrival. While 45-ft pull-through sites can accommodate a coach and towed vehicle, unhooking at check-in is strongly recommended if you are booked into a wooded back-in site or plan to drive the narrow, one-way battlefield auto tour loops in your toad.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps spot mature oaks, split-rail fencing, and utility pedestals when maneuvering into shaded back-in sites."
+      }
+    },
+    "content": {
+      "overview": "Historic Gettysburg basecamp (open April through November) bordered by battlefield farmland just south of the National Military Park Visitor Center. Features approximately 165 sites (50/30-amp full-hookup pull-throughs and back-ins, water/electric sites, cabins, and equestrian corrals), swimming pool, fishing pond, camp store, and seasonal shuttle access to battlefield tours.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard appliances against peak summer air-conditioning voltage drops across 50/30-amp loops."
+      },
+      "loopC": "Level gravel 50-amp full-hookup pull-throughs near the front and lower meadow accommodate Class A coaches and fifth wheels up to 45 feet with generous slide-out spacing.",
+      "loopsAB": "Shaded hillside and woodland back-in sites beneath mature oaks; best suited for travel trailers under 32 feet and Class B/C motorhomes."
+    }
+  },
+ {
   "id": "lake-george-escape-campground",
   "name": "Lake George Escape Campground",
   "ownertype": "Private Campground",
