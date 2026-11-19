@@ -1,5 +1,54 @@
 [
  {
+    "id": "canyon-country-campground",
+    "name": "Canyon Country Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.693243,
+    "lng": -77.438319,
+    "image": "/images/canyon-country-campground.jpg",
+    "mapImage": "/images/canyon-country-campground-map.jpg",
+    "address": "130 Wilson Rd, Wellsboro, PA 16901",
+    "gps": "41.6932° N, 77.4383° W",
+    "phone": "+15707243818",
+    "website": "https://www.canyoncountrycampground.com/",
+    "summary": "Quiet, wooded 200+ site family campground 9 miles west of Wellsboro along PA-660, positioned 1.5 miles from the eastern rim of the PA Grand Canyon with 50/30-amp hookups, private barrel saunas, and critical PA-660/PA-362 junction guidance outside Wellsboro.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (select pull-through and wider wooded pads; 35 ft practical sweet spot under hardwood canopy)",
+      "toadFriendliness": "Moderate — staging pull-off near camp store/office off Wilson Road; unhook before entering wooded loops",
+      "treeClearance": "Moderate-Low — mature hemlock and oak canopy throughout; watch low limbs on interior loops",
+      "bestBigRigLoops": "Main Meadow / Lower Hookup Pull-Throughs (30/50-amp)",
+      "bestSmallRigLoops": "Upper Wooded Back-In Loops (ideal for Class B/C motorhomes and travel trailers under 30 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From downtown Wellsboro (US-6 & PA-660), take PA-660 West toward Leonard Harrison State Park. Watch closely about 3 miles outside of Wellsboro: PA-660 makes a sharp left turn while traffic continuing straight joins PA-362. If you miss that sharp left onto PA-660, stay on PA-362 briefly and make a left onto Airport Road to reconnect cleanly back to PA-660 West. Continue on PA-660 West to mile 9, then turn left (southwest) onto Wilson Road for 0.25 miles to the campground entrance. Do not take narrow township shortcuts off US-6 at Ansonia.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts drivers ahead of the sharp PA-660/PA-362 split west of Wellsboro and prevents GPS shortcuts onto narrow Tioga State Forest roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging pull-off near the camp store/office off Wilson Road to unhook before entering shaded wooded loops, then use your toad for the 3-minute drive to Leonard Harrison State Park overlooks and downtown Wellsboro.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor low hemlock branches and tree trunks when backing into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "Seasonal wooded family campground (open April 15 – October 31) with 200+ sites 1.5 miles from the east rim of Pine Creek Gorge (PA Grand Canyon), offering 30/50-amp full-hookup and water/electric RV sites, rental cabins, a camp store, dump station, and private barrel saunas.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural voltage fluctuations across 30/50-amp pedestals."
+      },
+      "loopC": "Main meadow and lower 30/50-amp pull-through and wider hookup pads provide the clearest overhead clearance and easiest turn geometry for coaches and fifth wheels up to 40 feet.",
+      "loopsAB": "Upper wooded back-in loops sit under dense mature hemlock and oak canopy; best suited for Class B/C motorhomes and travel trailers under 30 feet."
+    }
+  },
+ {
     "id": "stony-fork-creek-campground",
     "name": "Stony Fork Creek Campground",
     "ownertype": "Private Campground",
