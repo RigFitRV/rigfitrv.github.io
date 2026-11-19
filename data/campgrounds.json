@@ -1,5 +1,54 @@
 [
  {
+    "id": "caledonia-state-park",
+    "name": "Caledonia State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-19",
+    "state": "PA",
+    "city": "Fayetteville",
+    "featured": true,
+    "lat": 39.9087,
+    "lng": -77.4781,
+    "image": "/images/caledonia-state-park.jpg",
+    "mapImage": null,
+    "address": "101 Pine Grove Rd, Fayetteville, PA 17222",
+    "gps": "39.9087° N, 77.4781° W",
+    "phone": "+17173522161",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/CaledoniaStatePark/Pages/default.aspx",
+    "summary": "Historic 1,125-acre South Mountain state park along US-30 (Lincoln Highway) midway between Gettysburg and Chambersburg, featuring two distinct campgrounds (Hosack Run and Chinquapin Hill) with select full-hookup and electric sites, forested Appalachian foothills loops, and important steep-grade approach considerations over South Mountain.",
+    "scorecard": {
+      "maxRigLength": "Up to 45–60 ft on select full-hookup/electric pads (35 ft practical sweet spot due to mature South Mountain tree canopy and loop turn radii)",
+      "toadFriendliness": "Moderate — check-in pull-off near park office/campground contact stations; unhooking recommended before entering tighter woodland loops",
+      "treeClearance": "Moderate-Low — mature hardwood and hemlock canopy throughout both campgrounds; watch low limbs on non-electric/back-in loops",
+      "bestBigRigLoops": "Hosack Run Full-Hookup & Electric Sites (pet-friendly, wider pad geometry)",
+      "bestSmallRigLoops": "Chinquapin Hill Electric & Non-Electric Loops (note: pets are not permitted in Chinquapin Hill; ideal for Class B/C motorhomes and sub-30 ft trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Located directly at the intersection of US-30 (Lincoln Highway) and PA-233—15 miles west of Gettysburg or 7.3 miles east of I-81 (Exit 16) in Chambersburg. Heavy-Rig Grade Note: Approaching from Gettysburg via US-30 West requires climbing and descending South Mountain (sustained 6–7% grades with sweeping mountain curves). Approaching from I-81 Exit 16 (Chambersburg) via US-30 East offers a much gentler valley approach into the park entrance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts drivers to South Mountain grade percentages along US-30 and prevents GPS shortcuts onto narrow PA-233 mountain forestry roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the contact station / day-use parking pull-off near the US-30 / Pine Grove Road entrance to register and unhook your towed vehicle before climbing into the forested campground loops, where tight turns and mature oaks limit turnaround space.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Essential for spotting low tree limbs, boulder borders, and narrow gravel pad edges in heavily wooded state park loops."
+      }
+    },
+    "content": {
+      "overview": "1,125-acre Pennsylvania DCNR state park nestled in South Mountain between Gettysburg and Chambersburg. Operates seasonally from late March through December across two campgrounds totaling over 160 sites (33 full-hookup sites, 26 electric-only sites, and modern non-electric sites), plus a swimming pool, Appalachian Trail access, trout fishing on Conococheague Creek, and dump stations.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics against voltage drops on older state park electric pedestals."
+      },
+      "loopC": "Hosack Run Campground (50 sites total, including 16 full-hookup and 20 electric sites) is pet-friendly and offers the most accessible pads for larger motorhomes and fifth wheels.",
+      "loopsAB": "Chinquapin Hill Campground (111 sites total, including 17 full-hookup and 6 electric sites) winds through denser South Mountain forest with tighter back-in pads and a strict no-pets policy; best suited for Class B/C rigs and travel trailers under 32 feet."
+    }
+  },
+ {
     "id": "granite-hill-camping-resort",
     "name": "Granite Hill Camping Resort",
     "ownertype": "Private Campground",
