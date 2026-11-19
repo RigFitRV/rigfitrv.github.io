@@ -4877,31 +4877,39 @@
     "mapImage": "/images/gdmap.png",
     "address": "68 Route 519, Newton, NJ 07860",
     "gps": "41.0825° N, 74.7708° W",
-    "phone": "(973) 383-7462",
+    "phone": "+19733837462",
     "website": "https://campthegreatdivide.com",
-    "summary": "Sussex County camping in Newton, NJ. Full specs on pull-through vs wooded sites, steep hill grade warnings, G20–G25 big-rig recommendations, and toad staging lots.",
+    "summary": "Sussex County family campground in Newton, NJ featuring open 50-amp G-Section pull-throughs (G20–G25) for 45-foot rigs, shaded woodland loops, a dedicated front-office toad staging lot, and direct County Route 519 access.",
     "scorecard": {
-      "maxRigLength": "Up to 45 ft",
-      "toadFriendliness": "High (dedicated staging lot near office)",
-      "treeClearance": "Clear on main arterial routes; moderate canopy on back loops",
-      "bestBigRigLoops": "G20 – G25 Pull-Throughs",
-      "bestSmallRigLoops": "Wooded Back-In Loops"
+      "maxRigLength": "Up to 45 ft (G20–G25 open full-hookup pull-throughs)",
+      "toadFriendliness": "High — dedicated staging lot near front office before climbing interior hill grade",
+      "treeClearance": "Clear on County Route 519 & G-Section; moderate canopy on upper wooded back loops",
+      "bestBigRigLoops": "G-Section Pull-Throughs (Sites G20–G25, 50-Amp Full Hookup)",
+      "bestSmallRigLoops": "Upper Wooded Back-In Loops (ideal for Class B/C motorhomes & sub-32 ft trailers)"
     },
     "approach": {
       "title": "Highway & Interior Access Grade",
-      "text": "Direct access off Route 519 is smooth and accessible for all rig classes, but climbing the main interior hill grade toward assigned upper loops requires momentum and proper toad staging."
+      "text": "Direct approach off County Route 519 (from I-80 Exit 25 via US-206 North and CR-519, or from Newton via NJ-94/CR-519) is wide and smooth for all rig classes. Once inside the gate, climbing the main interior hill grade toward assigned upper loops requires steady momentum and prior toad staging.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps big rigs routed cleanly onto US-206 and County Route 519 while avoiding narrow Sussex County backroads and low rural clearances."
+      }
     },
-    "toadStrategy": "Disconnect at the main staging lot near the office before climbing the interior hill grade into assigned loops.",
-    "recommendedGear": {
-      "title": "Essential Towing & Staging Gear",
-      "productName": "Blue Ox Tow Bar & Heavy-Duty Drop Hitch",
-      "reason": "Disconnecting your toad on an incline under tension risks binding your tow bar. A high-quality setup makes unhooking seamless at the front office staging lot.",
-      "affiliateUrl": "https://www.amazon.com/dp/B003L7T33G?tag=rigfitrv-20"
+    "toadStrategy": {
+      "text": "Pull into the dedicated staging lot near the main office immediately upon arrival and disconnect your towed vehicle on level ground before climbing the interior hill grade into assigned loops. Unhooking on an incline under tension risks binding your tow bar.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when staging near the office lot or backing into shaded upper woodland sites."
+      }
     },
     "content": {
-      "overview": "Located in scenic Sussex County, The Great Divide combines open pull-through sections with wooded perimeter sites.",
-      "loopC": "G-Section features full hookups and 50-amp service with long pad lengths suitable for heavy rigs.",
-      "loopsAB": "Back wooded loops require navigating a brief steep grade."
+      "overview": "Set across rolling Sussex County woodlands in Newton, NJ, The Great Divide Campground pairs wide, open big-rig pull-through sections with shaded forest perimeter sites, fishing lakes, pool, camp store, and family recreation minutes from Stokes State Forest and High Point.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard air conditioners and sensitive electronics against peak summer voltage sags on 30/50-amp pedestals."
+      },
+      "loopC": "G-Section (specifically pull-through sites G20–G25) features full hookups, 50-amp service, wide turning geometry, and long level pads suited for Class A motorhomes and fifth wheels up to 45 feet.",
+      "loopsAB": "Back wooded loops wind beneath mature hardwood canopy and require navigating a brief steep interior grade; best suited for travel trailers under 32 feet and Class B/C motorhomes."
     }
   },
   {
