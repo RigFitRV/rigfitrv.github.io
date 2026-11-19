@@ -1,5 +1,54 @@
 [
  {
+    "id": "stony-fork-creek-campground",
+    "name": "Stony Fork Creek Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.640317,
+    "lng": -77.370658,
+    "image": "/images/stony-fork-creek-campground.jpg",
+    "mapImage": "/images/stony-fork-creek-campground-map.jpg",
+    "address": "658 Stony Fork Creek Rd, Wellsboro, PA 16901",
+    "gps": "41.6403° N, 77.3707° W",
+    "phone": "+15707243096",
+    "website": "https://stonyforkcamp.com/",
+    "summary": "Scenic 200+ site family campground nestled in a Tioga County valley 9 miles southwest of Wellsboro near the PA Grand Canyon (Pine Creek Gorge), featuring open and wooded full-hookup RV sites alongside crucial multi-highway approach guidance to avoid steep canyon grades and narrow township mountain roads.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open valley full-hookup sites; 35–40 ft practical sweet spot due to rural valley road approach and interior loop turns)",
+      "toadFriendliness": "Moderate — check-in staging pull-off near the camp office off Stony Fork Creek Road; unhooking at check-in is strongly recommended before navigating tighter wooded loops or heading out to PA Grand Canyon overlooks",
+      "treeClearance": "Moderate — open meadow rows offer clear sky, while creek-side and upper wooded loops sit under mature northern hardwood canopy",
+      "bestBigRigLoops": "Open Meadow Full-Hookup Sites (level gravel/grass pads with clear satellite and slide-out clearance)",
+      "bestSmallRigLoops": "Wooded & Creek-Side Back-In Sites (ideal for Class B/C motorhomes and travel trailers under 32 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From Wellsboro (US-6 & PA-287): Take PA-287 South to PA-660 West (West Avenue), turn left onto Kelsey Street, and follow it south to the village of Stony Fork. Continue 1.1 miles past the Stony Fork store, cross the bridge, bear left at the fork onto Stony Fork Creek Road, and continue 1.3 miles straight ahead to the campground. From the South/Southeast (US-15 & PA-287 North via Morris): Exit US-15 at Liberty onto PA-414 West (12 miles to Morris), take PA-287 North for 5.4 miles, turn left onto Broughton Hollow Road for 3 miles, and turn left onto Stony Fork Road to the campground. Avoid consumer GPS shortcuts through Colton Point / Leonard Harrison State Park canyon roads or unmaintained state forest gravel tracks.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps big rigs locked onto the official Kelsey Street or Broughton Hollow Road approaches and prevents GPS detours onto steep, narrow Tioga State Forest roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging area near the camp store/office immediately upon entering off Stony Fork Creek Road. Unhooking your towed vehicle at check-in is strongly recommended both for easier maneuvering into wooded sites and for visiting Leonard Harrison and Colton Point State Parks along the PA Grand Canyon rim.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor creek-side embankments, mature tree trunks, and utility pedestals when maneuvering into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "Family-run 90+ acre seasonal campground with 200+ sites in the scenic hills southwest of Wellsboro, offering 50/30-amp full-hookup RV sites, water/electric sites, primitive tent sites, cabins, glamping pods, a heated swimming pool, stocked fishing pond, dump station, and pet/horse-friendly accommodations minutes from Pine Creek Gorge (PA Grand Canyon).",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural valley voltage fluctuations across 30/50-amp pedestals."
+      },
+      "loopC": "Open meadow 50/30-amp full-hookup sites provide the widest turn radii, level pads, and overhead clearance for Class A coaches and fifth wheels.",
+      "loopsAB": "Wooded and creek-side back-in sites under mature shade trees; best suited for travel trailers under 32 feet and Class B/C motorhomes."
+    }
+  },
+ {
     "id": "caledonia-state-park",
     "name": "Caledonia State Park",
     "ownertype": "State Park",
