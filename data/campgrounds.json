@@ -1,5 +1,54 @@
 [
  {
+    "id": "pettecote-junction-campground",
+    "name": "Pettecote Junction Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-20",
+    "state": "PA",
+    "city": "Cedar Run",
+    "featured": true,
+    "lat": 41.527428,
+    "lng": -77.446237,
+    "image": "/images/pettecote-junction-campground.jpg",
+    "mapImage": "/images/pettecote-junction-campground-map.jpg",
+    "address": "400 Beach Rd, Cedar Run, PA 17727",
+    "gps": "41.5274° N, 77.4462° W",
+    "phone": "+15703537183",
+    "website": "https://pettecotejunction.com/",
+    "summary": "Scenic valley-floor campground wedged directly between Pine Creek and the 62-mile Pine Creek Rail Trail at the southern mouth of the PA Grand Canyon, offering 50/30-amp full-hookup creek-view sites and flat river-valley routing via PA-414.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open riverfront and central 50-amp full-hookup sites; 40 ft sweet spot)",
+      "toadFriendliness": "High — wide gravel check-in lane off Beach Road with space to drop a toad before backing onto riverfront pads",
+      "treeClearance": "Moderate-High — open valley sky along Pine Creek meadow rows with scattered shade trees",
+      "bestBigRigLoops": "Central & Creek-View 50-Amp Full-Hookup Sites",
+      "bestSmallRigLoops": "Wooded & Rail-Trail Side 30-Amp Sites"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From US-220 / I-180 near Jersey Shore, take PA-44 North to Waterville, then follow PA-414 North 19 miles up the flat Pine Creek valley to Cedar Run. Turn north onto Beulahland Road for 0.25 miles, then right onto Beach Road (150 yards) to the campground. Critical Big-Rig Warning: Approach strictly from the south via PA-414 North; do NOT take steep, winding mountain shortcut roads (such as Leetonia Road or Cedar Run mountain grades) down from US-6 / Ansonia.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps coaches on the gentle, scenic PA-414 river-valley corridor and blocks steep single-lane state forest mountain descents into Cedar Run."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook in the wide gravel staging lane beside the camp store off Beach Road upon arrival; with direct Pine Creek Rail Trail access right on-site, you can bike straight into the canyon without moving your rig.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when backing onto creek-view pads bordered by Pine Creek embankments and shade trees."
+      }
+    },
+    "content": {
+      "overview": "Open April through November, featuring 30/50-amp full-hookup and water/electric RV sites, glamping tents, cabins, camp store, kayak and tube shuttles, bike rentals, and direct frontage on both Pine Creek and the 62-mile Pine Creek Rail Trail.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural valley voltage fluctuations across 30/50-amp pedestals."
+      },
+      "loopC": "Central and creek-view 50-amp full-hookup rows provide open sky for satellite/solar, level gravel pads, and easy backing angles for coaches and fifth wheels up to 45 feet.",
+      "loopsAB": "Wooded and rail-trail side 30-amp sites sit under shade trees along the Pine Creek Rail Trail corridor; ideal for Class B/C motorhomes and travel trailers under 30 feet."
+    }
+  },
+ {
     "id": "hills-creek-state-park",
     "name": "Hills Creek State Park",
     "ownertype": "State Park",
