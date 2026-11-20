@@ -388,7 +388,7 @@
 
         cardsContainer.innerHTML = latestCampgrounds.map(c => {
           const verifiedBadgeHtml = c.ownerVerified
-            ? `<img src="images/owner-verified-badge.png" alt="Owner Verified Campground" style="position: absolute; top: 10px; right: 10px; width: 76px; height: auto; pointer-events: none; drop-shadow(0 2px 4px rgba(0,0,0,0.35));">`
+            ? `<img src="images/owner-verified-badge.svg" alt="Owner Verified Campground" style="position: absolute; top: 10px; right: 10px; width: 76px; height: auto; pointer-events: none; drop-shadow(0 2px 4px rgba(0,0,0,0.35));">`
             : '';
 
           const updatedPillHtml = c.updatedDate
