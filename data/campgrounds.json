@@ -1,5 +1,54 @@
 [
  {
+    "id": "leonard-harrison-state-park",
+    "name": "Leonard Harrison State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-20",
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.6980,
+    "lng": -77.45156,
+    "image": "/images/leonard-harrison-state-park.jpg",
+    "mapImage": "/images/leonard-harrison-state-park-map.jpg",
+    "address": "4797 Route 660, Wellsboro, PA 16901",
+    "gps": "41.6980° N, 77.4516° W",
+    "phone": "+15707243061",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/LeonardHarrisonStatePark/Pages/default.aspx",
+    "summary": "Iconic 585-acre state park perched directly on the eastern rim of Pine Creek Gorge (PA Grand Canyon), featuring a compact 30-site woodland campground (electric and non-electric) best suited for Class B/C motorhomes and travel trailers under 30 feet.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft on select pads (28–30 ft practical sweet spot due to tight woodland loop geometry; not recommended for 40+ ft Class A coaches)",
+      "toadFriendliness": "Low — limited overflow staging at the canyon rim visitor lot; unhook before entering the campground loop",
+      "treeClearance": "Low-Moderate — dense mature hemlock and hardwood canopy with tight overhead branches",
+      "bestBigRigLoops": "Outer Electric Loop Sites (for rigs up to 32–35 ft)",
+      "bestSmallRigLoops": "Interior Woodland Non-Electric Loop (Class B campervans, truck campers, and sub-25 ft teardrops)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From downtown Wellsboro (US-6 & PA-660), take PA-660 West 10 miles directly to the park entrance at the end of the state route. Watch closely about 3 miles outside of Wellsboro where PA-660 takes a sharp left turn while traffic continuing straight joins PA-362; if missed, take a left onto Airport Road from PA-362 to reconnect back to PA-660 West. Big-Rig Warning: PA-660 dead-ends at the canyon rim with tight woodland campground turns—drivers of 35–45 ft Class A coaches or fifth wheels should camp at Stony Fork Creek Campground or Hills Creek State Park and tour Leonard Harrison in a towed vehicle.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts ahead of the sharp PA-660/PA-362 split west of Wellsboro and prevents routing onto unpaved Tioga State Forest roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "If towing behind a mid-size Class C motorhome, stage temporarily in the paved visitor center bus/RV pull-off lane off PA-660 to unhook before entering the tight woodland campground loop.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Essential for watching mature hemlock trunks, boulders, and tight curve angles inside the 30-site woodland loop."
+      }
+    },
+    "content": {
+      "overview": "Seasonal DCNR state park (open April through late fall) perched directly on the east rim of Pine Creek Gorge, offering 30 campsites (select 30/50-amp electric sites and rustic non-electric sites), modern bathhouse, sanitary dump station, visitor center, and direct trailhead access to the Turkey Path and Overlook Trail.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics against voltage drops on wooded state park electric pedestals."
+      },
+      "loopC": "Outer electric loop pads accommodate mid-size Class C motorhomes and travel trailers up to 32–35 feet with 30/50-amp hookups.",
+      "loopsAB": "Interior woodland non-electric loop offers shaded, compact pads ideal for Class B campervans, truck campers, and small teardrops under 25 feet."
+    }
+  },
+ {
     "id": "pa-grand-canyon-resort",
     "name": "PA Grand Canyon Resort",
     "ownertype": "Private Campground",
