@@ -1,5 +1,36 @@
 [
   {
+    "id": "pa-wilds-pa-grand-canyon-camping",
+    "slug": "pa-wilds-pa-grand-canyon",
+    "eyebrow": "Regional RV Travel Guide • PA Wilds & PA Grand Canyon",
+    "title": "PA Wilds & PA Grand Canyon RV Navigation & Camping Guide",
+    "subtitle": "Pine Creek Gorge Rim Routing, US-6 & PA-414 Approaches & Verified Basecamps",
+    "lead": "Navigate Pine Creek Gorge (the Pennsylvania Grand Canyon) without getting trapped on steep Tioga State Forest mountain grades or dead-end canyon rim roads.",
+    "region": "PA Wilds & PA Grand Canyon",
+    "state": "PA",
+    "lat": 41.6980,
+    "lng": -77.4516,
+    "image": "/images/pa-wilds-pa-grand-canyon-guide.jpg",
+    "summary": "Verified big-rig routing and campground guide for Wellsboro, Pine Creek Gorge (PA Grand Canyon), and the eastern PA Wilds. Covers US-6, PA-660, and PA-414 valley approaches, canyon rim rig limits, and 6 audited campgrounds.",
+    "featuredCampgroundIds": [
+      "stony-fork-creek-campground",
+      "canyon-country-campground",
+      "pa-grand-canyon-resort",
+      "leonard-harrison-state-park",
+      "hills-creek-state-park",
+      "pettecote-junction-campground"
+    ],
+    "introHtml": "<h2>🌲 Why the PA Wilds &amp; PA Grand Canyon is an Elite RV Destination</h2><p>Carved 1,450 feet deep across 47 miles of Tioga and Lycoming Counties, <strong>Pine Creek Gorge</strong>—known nationwide as the <strong>Pennsylvania Grand Canyon</strong>—anchors the eastern gateway of the 2-million-acre PA Wilds. Surrounded by gas-lit Victorian Wellsboro, the 62-mile crushed-limestone Pine Creek Rail Trail, and dark-sky state forests, the region rewards RVers who basecamp strategically along either the eastern plateau or the flat southern river valley.</p><hr><h2>🚚 Rig Clearance &amp; Heavy Highway Routing Guidance</h2><p>Because Pine Creek Gorge is a steep-walled canyon bisected by narrow state forest roads, consumer GPS apps routinely attempt to route RVs across unpaved mountain tracks or steep 10%+ grades connecting the canyon rim to the valley floor. Always choose your highway corridor based on your campground's elevation:</p><h3>Key Highway Approaches</h3><ul><li><strong>Eastern Rim &amp; Wellsboro Approach (US-6 to PA-660 West):</strong> The cleanest corridor for <em>PA Grand Canyon Resort</em>, <em>Canyon Country Campground</em>, and <em>Leonard Harrison State Park</em>. Watch closely about 3 miles outside of Wellsboro: <strong>PA-660 takes a sharp left turn</strong> while traffic continuing straight joins <strong>PA-362</strong>. If you miss that sharp left onto PA-660, stay on PA-362 briefly and take a <strong>left onto Airport Road</strong> to reconnect cleanly back to PA-660 West.</li><li><strong>Northern Lakes &amp; I-99 / US-15 Approach (US-6 West to Spillway Rd):</strong> Reaching <em>Hills Creek State Park</em> offers the easiest four-lane highway access in the region via I-99/US-15 at Mansfield and wide US-6 West.</li><li><strong>Stony Fork Valley Approach (PA-660 West / PA-287):</strong> Reaching <em>Stony Fork Creek Campground</em> works smoothly from Wellsboro via PA-660 West to Kelsey Street, or from the south via US-15 to PA-414 West (Morris) and PA-287 North to Broughton Hollow Road.</li><li><strong>Southern Canyon Floor Approach (PA-44 North &amp; PA-414 North via Waterville):</strong> To reach <em>Pettecote Junction Campground</em> in Cedar Run with a big rig, approach strictly from the south along the flat Pine Creek valley floor via <strong>PA-414 North</strong>. Never drop down into Cedar Run from US-6 via steep township mountain roads.</li></ul><blockquote><strong>Pro Clearance Tip:</strong> PA-660 dead-ends at Leonard Harrison State Park on the east rim, while Colton Point State Park on the west rim requires 5 miles of winding, narrow road south of US-6 at Ansonia. If you drive a 35–45 ft Class A coach or fifth wheel, stage at a full-hookup Wellsboro or valley-floor basecamp and tour the overlooks in your toad.</blockquote>",
+    "utilityHtml": "<h2>⚡ Local Infrastructure &amp; Utility Insights</h2><ul><li><strong>Power Grid Loads:</strong> Peak July summer heat and October fall-foliage weekends push rural Tioga and Lycoming County camp grids near capacity—always run an EMS surge protector with low-voltage cutoff.</li><li><strong>Water Pressure &amp; Filtration:</strong> Valley campgrounds rely on mountain well systems with high mineral content; use an inline sediment/carbon filter and brass pressure regulator.</li><li><strong>Cellular Coverage:</strong> Expect solid 5G/LTE service in downtown Wellsboro and along US-6, dropping to zero signal inside the Pine Creek Gorge floor (Cedar Run / PA-414) and deep state forest hollows—download offline maps before arrival.</li></ul>",
+    "recommendedGearKeys": [
+      "garmin-rv-890",
+      "heavy-duty-surge-protector"
+    ],
+    "gearNote": "Essential offline RV-dimension routing for zero-signal canyon corridors and EMS pedestal protection.",
+    "updatePrompt": "Encountered a new low-hanging branch, washout detour, or updated site layout in the Wellsboro / PA Grand Canyon area?",
+    "publishedDate": "2026-11-20"
+  },
+  {
     "id": "gettysburg-south-central-pa-camping",
     "slug": "gettysburg-south-central-pa",
     "eyebrow": "Regional RV Travel Guide • Gettysburg & South-Central PA",
