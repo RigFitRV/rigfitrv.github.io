@@ -1,5 +1,54 @@
 [
  {
+    "id": "hills-creek-state-park",
+    "name": "Hills Creek State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-20",
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.80422,
+    "lng": -77.19086,
+    "image": "/images/hills-creek-state-park.jpg",
+    "mapImage": "/images/hills-creek-state-park-map.jpg",
+    "address": "111 Spillway Rd, Wellsboro, PA 16901",
+    "gps": "41.8042° N, 77.1909° W",
+    "phone": "+15707244246",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/HillsCreekStatePark/Pages/default.aspx",
+    "summary": "407-acre lakeside state park 8 miles northeast of Wellsboro just north of US-6, serving as the most big-rig-friendly state park basecamp in the PA Grand Canyon region with easy I-99 / US-15 and US-6 highway access.",
+    "scorecard": {
+      "maxRigLength": "Up to 45–50 ft on select electric pads (40 ft practical sweet spot)",
+      "toadFriendliness": "High — spacious campground contact station and day-use boat launch pull-offs along Spillway Road",
+      "treeClearance": "Moderate — open-to-partially-shaded lakeside and meadow electric loops with good slide-out clearance",
+      "bestBigRigLoops": "Electric Loop Sites (30/50-amp gravel pads near the lake)",
+      "bestSmallRigLoops": "Upper Wooded Non-Electric Sites (ideal for small trailers and Class B rigs)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-99 / US-15 at Mansfield, take US-6 West for 6.5 miles and turn north onto Hills Creek Lake Road / Spillway Road for 2.5 miles to the park entrance. From downtown Wellsboro, head east on US-6 for 5.5 miles and turn north onto Hills Creek Lake Road / Spillway Road. Avoid narrow secondary township roads between Tioga and Middlebury Center.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Routes heavy coaches via four-lane I-99/US-15 and wide US-6 rather than steep rural mountain roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the spacious campground contact station pull-off on Spillway Road upon check-in to unhook your towed vehicle, making day trips west on US-6 and PA-660 to the PA Grand Canyon effortless.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps watch lakeside tree trunks, utility posts, and pad edges when backing larger coaches into electric sites."
+      }
+    },
+    "content": {
+      "overview": "Open mid-April through mid-October, offering 85+ campsites including 30/50-amp electric sites, modern shower houses, sanitary dump station, a 137-acre lake with kayak and pontoon rentals, and easy 20-minute access to Wellsboro and Pine Creek Gorge.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against voltage drops on busy summer and fall-foliage state park pedestals."
+      },
+      "loopC": "Lakeside and meadow 30/50-amp electric gravel pads provide the longest pad depths, clearest slide-out room, and easiest backing angles for 35–45 ft coaches and fifth wheels.",
+      "loopsAB": "Upper wooded non-electric sites offer quiet shade and privacy best suited for Class B campervans, truck campers, and travel trailers under 28 feet."
+    }
+  },
+ {
     "id": "leonard-harrison-state-park",
     "name": "Leonard Harrison State Park",
     "ownertype": "State Park",
