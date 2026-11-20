@@ -91,6 +91,17 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  // Updated Freshness pill
+  eleventyConfig.addCollection("campgroundsByRecency", function (collectionApi) {
+  const campgrounds = collectionApi.getAll()[0]?.data?.campgrounds || [];
+
+  return [...campgrounds].sort((a, b) => {
+    const dateA = new Date(a.updatedDate || a.addedDate || "1970-01-01");
+    const dateB = new Date(b.updatedDate || b.addedDate || "1970-01-01");
+    return dateB - dateA; // Newest added or updated first
+  });
+});
+
   return {
     dir: {
       input: "src",
