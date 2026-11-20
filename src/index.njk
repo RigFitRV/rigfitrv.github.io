@@ -207,7 +207,7 @@
 
       <!-- SECTION 2: FEATURED CARDS CONTAINER -->
       <section style="margin-top: 2rem;">
-        <h2>Recently Added Campground Guides</h2>
+        <h2>Recently Added &amp; Updated Campground Guides</h2>
         <div id="featured-cards-container" style="display: grid; gap: 1.5rem; margin-top: 1rem;">
           <p style="color: #64748b; font-style: italic;">Loading latest campground guides...</p>
         </div>
@@ -260,6 +260,15 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const MAX_HOMEPAGE_CARDS = 3;
+
+      // Format YYYY-MM-DD into "Nov 2026"
+      function formatShortMonthYear(dateStr) {
+        if (!dateStr) return '';
+        const [year, month] = dateStr.split('-');
+        const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        const mIdx = parseInt(month, 10) - 1;
+        return months[mIdx] ? `${months[mIdx]} ${year}` : dateStr;
+      }
 
       // 1. Initialize Map
       const map = L.map('homepage-map').setView([40.25, -74.90], 8);
@@ -361,11 +370,15 @@
           map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 });
         }
 
-        // --- B. POPULATE FEATURED CARDS ---
+        // --- B. POPULATE FEATURED CARDS (Sorted by updatedDate || addedDate) ---
         const cardsContainer = document.getElementById('featured-cards-container');
         const latestCampgrounds = filtered
           .filter(c => c.featured !== false)
-          .sort((a, b) => new Date(b.addedDate || 0) - new Date(a.addedDate || 0))
+          .sort((a, b) => {
+            const dateA = new Date(a.updatedDate || a.addedDate || 0);
+            const dateB = new Date(b.updatedDate || b.addedDate || 0);
+            return dateB - dateA;
+          })
           .slice(0, MAX_HOMEPAGE_CARDS);
 
         if (latestCampgrounds.length === 0) {
@@ -373,14 +386,28 @@
           return;
         }
 
-        cardsContainer.innerHTML = latestCampgrounds.map(c => `
-          <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
-            <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; margin: 0 0 1rem 0;" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
-            <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
-            <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
-            <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
-          </div>
-        `).join('');
+        cardsContainer.innerHTML = latestCampgrounds.map(c => {
+          const verifiedBadgeHtml = c.ownerVerified
+            ? `<img src="images/owner-verified-badge.png" alt="Owner Verified Campground" style="position: absolute; top: 10px; right: 10px; width: 76px; height: auto; pointer-events: none; drop-shadow(0 2px 4px rgba(0,0,0,0.35));">`
+            : '';
+
+          const updatedPillHtml = c.updatedDate
+            ? `<span style="position: absolute; bottom: 10px; left: 10px; background: rgba(15, 23, 42, 0.88); color: #ffffff; font-size: 0.75rem; font-weight: 600; padding: 3px 8px; border-radius: 4px;">Updated ${formatShortMonthYear(c.updatedDate)}</span>`
+            : '';
+
+          return `
+            <div style="border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 6px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+              <div style="position: relative; margin: 0 0 1rem 0;">
+                <img src="${c.image}" alt="${c.name}" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 6px; display: block;" onerror="this.src='favicon-96x96.png'; this.style.objectFit='contain';">
+                ${verifiedBadgeHtml}
+                ${updatedPillHtml}
+              </div>
+              <h3 style="margin-top: 0; color: #0f172a;">${c.name} (${c.state})</h3>
+              <p style="color: #334155; line-height: 1.5;">${c.summary}</p>
+              <a href="c/${c.id}.html" class="btn">View ${c.name} Guide →</a>
+            </div>
+          `;
+        }).join('');
       }
 
       // 4. Attach Event Listeners to Filters
