@@ -25,6 +25,8 @@ permalink: "c/{{ camp.id }}.html"
     "description": {{ camp.summary | dump | safe }},
     "telephone": {{ camp.phone | dump | safe }},
     "url": {{ camp.website | dump | safe }},
+    {% if camp.addedDate %}"datePublished": {{ camp.addedDate | dump | safe }},{% endif %}
+    {% if camp.updatedDate %}"dateModified": {{ camp.updatedDate | dump | safe }},{% endif %}
     {% if camp.image %}"image": "https://rigfitrv.com{{ camp.image }}",{% endif %}
     "address": {
       "@type": "PostalAddress",
@@ -42,6 +44,40 @@ permalink: "c/{{ camp.id }}.html"
   </script>
 
   <style>
+    /* Owner Verified Trust Banner */
+    .owner-verified-banner {
+      background: #f0fdf4;
+      border: 1px solid #86efac;
+      border-left: 4px solid #16a34a;
+      border-radius: 6px;
+      padding: 0.9rem 1.15rem;
+      margin: 0.85rem 0 1.25rem;
+    }
+    .owner-verified-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-weight: 700;
+      font-size: 0.94rem;
+      color: #15803d;
+    }
+    .owner-verified-date {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #166534;
+      background: #dcfce7;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+    }
+    .owner-tip-quote {
+      margin: 0.55rem 0 0;
+      font-size: 0.88rem;
+      color: #1e293b;
+      line-height: 1.45;
+    }
+
     /* Two-tone details table matching original design */
     .campground-info-table {
       width: 100%;
@@ -73,6 +109,10 @@ permalink: "c/{{ camp.id }}.html"
       color: #334155;
     }
 
+    .camp-hero-wrapper {
+      position: relative;
+      margin: 1rem 0 1.25rem;
+    }
     .camp-hero-img, .camp-map-img {
       width: 100%;
       max-height: 460px;
@@ -81,6 +121,18 @@ permalink: "c/{{ camp.id }}.html"
       margin: 1rem 0 1.25rem;
       border: 1px solid #e2e8f0;
       display: block;
+    }
+    .camp-hero-wrapper .camp-hero-img {
+      margin: 0;
+    }
+    .camp-hero-badge {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 84px;
+      height: auto;
+      pointer-events: none;
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.35));
     }
     .camp-map-img {
       max-height: none;
@@ -360,6 +412,20 @@ permalink: "c/{{ camp.id }}.html"
     <div class="article-card">
       <h1>{{ camp.name }} RV Guide: Rig Clearance, Loop Fit &amp; Toad Maneuverability</h1>
 
+      {% if camp.ownerVerified %}
+      <div class="owner-verified-banner">
+        <div class="owner-verified-header">
+          <span>✔ Owner-Verified Rig Clearance &amp; Approach Profile</span>
+          {% if camp.updatedDate %}
+          <span class="owner-verified-date">Last Verified {{ camp.updatedDate | shortMonthYear }}</span>
+          {% endif %}
+        </div>
+        {% if camp.ownerTip %}
+        <p class="owner-tip-quote"><strong>From the Park Manager:</strong> &ldquo;{{ camp.ownerTip }}&rdquo;</p>
+        {% endif %}
+      </div>
+      {% endif %}
+
       <table class="campground-info-table">
         <tr><th>🏕️ Ownership Type</th><td>{{ camp.ownertype }}</td></tr>
         <tr><th>📍 Physical Address</th><td>{{ camp.address }}</td></tr>
@@ -413,7 +479,12 @@ permalink: "c/{{ camp.id }}.html"
       <hr>
       <h2>🏕️ Campground Overview &amp; Atmosphere</h2>
       {% if camp.image %}
-      <img class="camp-hero-img" src="{{ camp.image }}" alt="{{ camp.name }} campground view in {{ camp.city }}, {{ camp.state }}" onerror="this.style.display='none'">
+      <div class="camp-hero-wrapper">
+        <img class="camp-hero-img" src="{{ camp.image }}" alt="{{ camp.name }} campground view in {{ camp.city }}, {{ camp.state }}" onerror="this.parentElement.style.display='none'">
+        {% if camp.ownerVerified %}
+        <img class="camp-hero-badge" src="/images/owner-verified-badge.png" alt="Owner Verified Campground">
+        {% endif %}
+      </div>
       {% endif %}
       <p>{{ camp.content.overview }}</p>
 
@@ -488,11 +559,19 @@ permalink: "c/{{ camp.id }}.html"
       {% endif %}
 
       <div class="owner-claim-box">
+        {% if camp.ownerVerified %}
+        <a href="/widget-generator.html?id={{ camp.id }}" class="btn-purple-sm">Update Listing &amp; Get Badge</a>
+        <div class="owner-claim-text">
+          <h3>✔ Verified Owner Portal</h3>
+          <p>Keep your seasonal road clearances, loop specs, and park manager tips fresh—or grab your embeddable RigFitRV Verified badge.</p>
+        </div>
+        {% else %}
         <a href="/widget-generator.html?id={{ camp.id }}" class="btn-purple-sm">Claim &amp; Highlight Your Campground</a>
         <div class="owner-claim-text">
           <h3>🏢 Own or Manage This Campground?</h3>
           <p>Claim your official RigFitRV listing to verify site dimensions, update seasonal amenities, and highlight big-rig friendly loops.</p>
         </div>
+        {% endif %}
       </div>
     </div>
 
