@@ -91,23 +91,33 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  // Updated Freshness pill
-  eleventyConfig.addCollection("campgroundsByRecency", function (collectionApi) {
-  const campgrounds = collectionApi.getAll()[0]?.data?.campgrounds || [];
-
-  return [...campgrounds].sort((a, b) => {
-    const dateA = new Date(a.updatedDate || a.addedDate || "1970-01-01");
-    const dateB = new Date(b.updatedDate || b.addedDate || "1970-01-01");
-    return dateB - dateA; // Newest added or updated first
+  // Sort campgrounds by updatedDate (or addedDate fallback), newest first
+  eleventyConfig.addFilter("sortByRecency", function(campgrounds) {
+    if (!Array.isArray(campgrounds)) return [];
+    return [...campgrounds].sort((a, b) => {
+      const dateA = new Date(a.updatedDate || a.addedDate || "1970-01-01");
+      const dateB = new Date(b.updatedDate || b.addedDate || "1970-01-01");
+      return dateB - dateA; // Newest added or updated first
+    });
   });
-});
 
-  eleventyConfig.addFilter("shortMonthYear", function (dateStr) {
-  if (!dateStr) return "";
-  const [year, month] = dateStr.split("-");
-  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  return `${months[parseInt(month, 10) - 1]} ${year}`;
-});
+  // Collection sorted by recency (updatedDate || addedDate)
+  eleventyConfig.addCollection("campgroundsByRecency", function(collectionApi) {
+    const campgrounds = collectionApi.getAll()[0]?.data?.campgrounds || [];
+    return [...campgrounds].sort((a, b) => {
+      const dateA = new Date(a.updatedDate || a.addedDate || "1970-01-01");
+      const dateB = new Date(b.updatedDate || b.addedDate || "1970-01-01");
+      return dateB - dateA;
+    });
+  });
+
+  // Format YYYY-MM-DD as "Nov 2026" for the Updated freshness pill
+  eleventyConfig.addFilter("shortMonthYear", function(dateStr) {
+    if (!dateStr) return "";
+    const [year, month] = dateStr.split("-");
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return `${months[parseInt(month, 10) - 1]} ${year}`;
+  });
 
   return {
     dir: {
