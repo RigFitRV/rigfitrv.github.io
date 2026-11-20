@@ -1,5 +1,54 @@
 [
  {
+    "id": "pa-grand-canyon-resort",
+    "name": "PA Grand Canyon Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-20",
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.692685,
+    "lng": -77.434492,
+    "image": "/images/pa-grand-canyon-resort.jpg",
+    "mapImage": "/images/pa-grand-canyon-resort-map.jpg",
+    "address": "863 Sullivan Rd, Wellsboro, PA 16901",
+    "gps": "41.6927° N, 77.4345° W",
+    "phone": "+15707244774",
+    "website": "https://pagrandcanyonresort.com/",
+    "summary": "Closest private full-hookup campground and lodge to Leonard Harrison State Park (1 mile east of the canyon rim), offering 30/50-amp full-hookup back-in sites, horse-friendly boarding, and an on-site tavern/restaurant.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (back-in full-hookup pads; 34–38 ft sweet spot)",
+      "toadFriendliness": "High — wide gravel motel/restaurant front parking apron allows easy toad unhooking immediately off Sullivan Road",
+      "treeClearance": "Moderate-High — open gravel RV row with select wooded tent/perimeter sites",
+      "bestBigRigLoops": "Main Gravel 50-Amp Full-Hookup Row (Sites 1–10)",
+      "bestSmallRigLoops": "Perimeter Wooded Sites (ideal for Class B/C vans and short trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From downtown Wellsboro (US-6 & PA-660), take PA-660 West toward Leonard Harrison State Park. Watch closely about 3 miles outside of Wellsboro where PA-660 takes a sharp left turn while traffic continuing straight joins PA-362; if missed, take a left onto Airport Road from PA-362 to reconnect back to PA-660 West. Continue on PA-660 West to mile 8.5, turn left onto Sullivan Road (1 mile east of Leonard Harrison State Park), and pull directly into the wide main gravel lot.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts ahead of the sharp PA-660/PA-362 junction west of Wellsboro and keeps coaches off steep Pine Creek valley grades."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the wide gravel parking lot in front of the lodge and tavern off Sullivan Road to drop your towed vehicle before backing onto your 50-amp pad, giving you an easy 2-minute run to the canyon rim.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when backing onto the gravel full-hookup row alongside neighboring coaches."
+      }
+    },
+    "content": {
+      "overview": "Open mid-April through October 30, offering 10 full-hookup 30/50-amp RV sites, horse stalls with pet-friendly policies, free Wi-Fi, modern shower house, dump station, and an on-site restaurant and tavern just 1 mile east of Leonard Harrison State Park.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural voltage drops across 30/50-amp pedestals."
+      },
+      "loopC": "Main gravel 50-amp full-hookup row (Sites 1–10) offers open overhead sky, level gravel pads, and wide backing room off the main lot.",
+      "loopsAB": "Perimeter wooded and primitive sites best suited for Class B campervans, small travel trailers, and tent setups."
+    }
+  },
+ {
     "id": "canyon-country-campground",
     "name": "Canyon Country Campground",
     "ownertype": "Private Campground",
