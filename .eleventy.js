@@ -102,6 +102,13 @@ module.exports = function(eleventyConfig) {
   });
 });
 
+  eleventyConfig.addFilter("shortMonthYear", function (dateStr) {
+  if (!dateStr) return "";
+  const [year, month] = dateStr.split("-");
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${months[parseInt(month, 10) - 1]} ${year}`;
+});
+
   return {
     dir: {
       input: "src",
