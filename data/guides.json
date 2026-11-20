@@ -1,5 +1,34 @@
 [
   {
+  "id": "mid-atlantic-christmas-camping",
+  "slug": "mid-atlantic-christmas",
+  "eyebrow": "Seasonal RV Travel Guide • Mid-Atlantic Holiday Destinations",
+  "title": "Mid-Atlantic Christmas & Winter RV Camping Guide",
+  "subtitle": "Big-Rig Holiday Resorts, Candylane Shuttles & Winterized Full-Hookup Stays",
+  "lead": "Explore the top Mid-Atlantic RV resorts open through December with direct holiday light show shuttles, on-site Christmas parades, and big-rig winter utility access.",
+  "region": "Mid-Atlantic (PA & MD)",
+  "state": "PA",
+  "lat": 40.2718,
+  "lng": -76.6933,
+  "image": "/images/mid-atlantic-christmas-guide.jpg",
+  "summary": "Verified big-rig RV guide to Mid-Atlantic campgrounds hosting Christmas and winter holiday programming, featuring Hershey Park Camping Resort, Elizabethtown / Hershey KOA Holiday, and Cherry Hill Park.",
+  "featuredCampgroundIds": [
+    "hershey-park-camping-resort",
+    "elizabethtown-hershey-koa",
+    "cherry-hill-park"
+  ],
+  "introHtml": "<h2>🎄 Why the Mid-Atlantic Shines for Christmas RV Camping</h2><p>While most Northeast and Mid-Atlantic campgrounds winterize and close by November, a select group of full-service resorts keep their 50-amp pull-through avenues open through December and New Year&apos;s. From Hersheypark Christmas Candylane to Washington, D.C.&apos;s National Christmas Tree, these three verified big-rig destinations combine winter-ready pads with festive on-site programming and effortless attraction access.</p><h3>Featured Holiday Campgrounds &amp; Christmas Activities</h3><ul><li><strong>Hershey Park Camping Resort (Hummelstown, PA):</strong> Open into January with dedicated <em>Hersheypark Christmas Candylane</em> camping packages (mid-November through early January), complimentary front-gate holiday shuttle service, and December <em>S&apos;More Fun</em> site fire-pit packages.</li><li><strong>Elizabethtown / Hershey KOA Holiday (Elizabethtown, PA):</strong> Hosts a packed December calendar in Lancaster/Lebanon farm country, including the <em>Christmas Golf Cart &amp; Bike Parade with Hot Chocolate Social</em> (December 19), <em>Winter Wonderland Weekend</em> (December 26–27), and <em>New Year&apos;s Eve</em> celebrations.</li><li><strong>Cherry Hill Park (College Park, MD):</strong> Operates year-round with a dedicated <em>Snowbird &amp; Cold-Weather Camping</em> program (December 1 – February 28), offering heated indoor hot tub and sauna facilities, clubhouse fireplace lounge, on-site propane/firewood delivery, and direct transit shuttles into Washington, D.C. for Capitol holiday lights.</li></ul><hr><h2>🚚 Winter Rig Clearance &amp; Holiday Corridor Routing</h2><p>December travel across central Pennsylvania and the I-95 corridor requires sticking to primary multi-lane arteries to avoid unplowed rural township roads and low-hanging winter ice loads on secondary branches.</p><h3>Key Highway Approaches</h3><ul><li><strong>Hershey &amp; Elizabethtown Corridor (US-322 &amp; PA-283):</strong> Use US-322 to Hockersville Road and Sweet Street for wide, commercial-grade access into Hershey Park Camping Resort, or take PA-283 directly to Turnpike Road for unobstructed big-rig entry into Elizabethtown / Hershey KOA Holiday.</li><li><strong>Washington, D.C. Metro Approach (I-495/I-95 Exit 25):</strong> Exit the Capital Beltway onto US-1 South and turn immediately right onto Cherry Hill Road for a wide one-mile suburban approach into Cherry Hill Park without navigating downtown D.C. low bridges.</li></ul><blockquote><strong>Pro Clearance Tip:</strong> Winter snow and freezing rain weigh down tree limbs along interior campground loops—stick to the main paved pull-through avenues (such as Cherry Hill&apos;s Yellowstone/Bryce Canyon loops or Hershey&apos;s Main Avenue) for maximum roof and slide-out clearance.</blockquote>",
+  "utilityHtml": "<h2>⚡ Cold-Weather Infrastructure &amp; Winter Utility Insights</h2><ul><li><strong>50-Amp Electric Heating Loads:</strong> Running dual heat pumps or electric space heaters in sub-freezing temperatures pushes 50-amp pedestals near capacity; use a heavy-duty EMS surge protector to guard against winter voltage drops.</li><li><strong>Heated Water Hose &amp; Freeze Protection:</strong> Keep a thermostatically controlled heated fresh-water hose connected and unhook overnight during hard freezes below 25°F to protect park risers and onboard plumbing.</li><li><strong>On-Site Propane &amp; Indoor Amenities:</strong> Cherry Hill Park offers convenient on-site propane and firewood delivery alongside heated bathhouses, while both Hershey-area resorts maintain winterized full-hookup pull-through rows and heated comfort stations.</li></ul>",
+  "recommendedGearKeys": [
+    "garmin-rv-890",
+    "heavy-duty-surge-protector",
+    "rv-dash-cam-backup-camera"
+  ],
+  "gearNote": "Essential winter highway routing, EMS voltage protection for electric heating loads, and tight-loop visibility.",
+  "updatePrompt": "Encountered winter water-riser shutoffs, holiday shuttle schedule changes, or snow-routing detours at Hershey or Cherry Hill Park?",
+  "publishedDate": "2026-11-20"
+},
+  {
     "id": "pa-wilds-pa-grand-canyon-camping",
     "slug": "pa-wilds-pa-grand-canyon",
     "eyebrow": "Regional RV Travel Guide • PA Wilds & PA Grand Canyon",
