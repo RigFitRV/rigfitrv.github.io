@@ -1,5 +1,54 @@
 [
  {
+  "id": "virginias-beach-campground",
+  "name": "Virginia's Beach Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-23",
+  "state": "PA",
+  "city": "North Springfield",
+  "featured": true,
+  "lat": 42.001471,
+  "lng": -80.439183,
+  "image": "/images/virginias-beach-campground.jpg",
+  "mapImage": "/images/virginias-beach-campground-map.jpg",
+  "address": "352 Holliday Rd, North Springfield, PA 16430",
+  "gps": "42.001471° N, 80.439183° W",
+  "phone": "+18149223261",
+  "website": "https://virginiasbeach.com/",
+  "summary": "Classic Lake Erie bluff-top and beachside campground at the northern end of Holliday Rd in North Springfield, PA, offering private beach access, panoramic Lake Erie sunsets, and straightforward access off I-90 Exit 6.",
+  "scorecard": {
+    "maxRigLength": "Up to 40–45 ft (open upper meadow and bluff-top full-hookup sites; beach-level access road is narrow and restricted to smaller rigs/tents)",
+    "toadFriendliness": "Moderate to High — wide gravel entrance off Holliday Rd with open staging room near the registration office to unhook before pulling into lakeside or meadow sites",
+    "treeClearance": "Good — open lake-breeze meadow and bluff-top rows offer unobstructed overhead clearance, with scattered shade trees along older interior rows",
+    "bestBigRigLoops": "Upper Bluff & Open Meadow 30/50-Amp Full-Hookup Rows (35–45 ft rigs)",
+    "bestSmallRigLoops": "Shaded Interior & Lake-View Back-In Sites (ideal for Class C motorhomes, camper vans, and mid-size travel trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (West or East), take Exit 6 onto PA-215 North toward East Springfield for approximately 3.2 miles to PA-5 (West Lake Rd). Turn left onto PA-5 West and continue 2.8 miles to Holliday Rd (just past Raccoon Creek Park), then turn right onto Holliday Rd North for 0.8 miles directly to the campground entrance at the lake. Do not attempt to take a large motorhome or fifth wheel down the steep bluff ramp to the lower beach strip—keep big rigs on the upper bluff/meadow plateau and walk or drive your toad down to the beach.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps navigation locked onto PA-215, PA-5, and Holliday Rd rather than narrow rural township roads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull into the check-in staging lane off Holliday Rd before entering the bluff-top rows; unhook your tow vehicle near the office/store so you can easily run your toad down to the private Lake Erie beach and boat launch.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helpful for backing onto bluff-edge sites while watching rear drop-offs and utility pedestals."
+    }
+  },
+  "content": {
+    "overview": "Perched directly above the Lake Erie shoreline in North Springfield, Virginia's Beach Campground features private sandy/pebble beach access, small-boat launch, 30/50-amp hookups, camp store, and unbeatable sunset views over the water.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Essential protection for coach electronics on exposed lakefront pedestals."
+    },
+    "loopC": "Spacious, level gravel/grass sites in the upper bluff and meadow section with 30/50-amp full hookups and wide turn radii for Class A/C motorhomes and fifth wheels.",
+    "loopsAB": "Tree-lined 30-amp water/electric and full-hookup sites set back from the lake wind—great for Class C motorhomes and travel trailers."
+  }
+},
+ {
   "id": "pine-lane-campground",
   "name": "Pine Lane Campground",
   "ownertype": "Private Campground",
