@@ -1,5 +1,55 @@
 [
  {
+  "id": "saras-campground",
+  "name": "Sara's Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-23",
+  "state": "PA",
+  "city": "Erie",
+  "featured": true,
+  "lat": 42.111406,
+  "lng": -80.155771,
+  "image": "/images/saras-campground.jpg",
+  "mapImage": "/images/saras-campground-map.jpg",
+  "mapImage2": "/images/saras-campground-map-2.jpg",
+  "address": "50 Peninsula Dr, Erie, PA 16505",
+  "gps": "42.1114° N, 80.1558° W",
+  "phone": "+18148334560",
+  "website": "https://www.sarascampground.com/",
+  "summary": "Iconic lakefront campground situated directly at the base of Presque Isle State Park in Erie, PA, offering rare beachfront and bayfront RV sites with tight sandy loops best suited for Class C motorhomes and mid-size rigs.",
+  "scorecard": {
+    "maxRigLength": "Up to 38–40 ft (select full-hookup pull-through and perimeter spots; interior beach loops are tight)",
+    "toadFriendliness": "Low to Moderate — narrow sand/gravel interior lanes and heavy summer beach traffic make unhooking before entering the beachside rows strongly recommended",
+    "treeClearance": "Good — open Lake Erie shoreline breeze and coastal cottonwoods with high canopy, though power/utility lines cross select older rows",
+    "bestBigRigLoops": "Main Entry Full-Hookup & Perimeter Sites near Peninsula Dr (35–40 ft rigs)",
+    "bestSmallRigLoops": "Lakefront Beachside & Bayfront Sand Rows (under 30 ft Class C motorhomes, vans, and compact trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (West or East), take Exit 18 onto PA-832 North (Peninsula Dr) and drive straight north for approximately 5.2 miles through Millcreek Township directly to the base of Presque Isle State Park. Turn left at the entrance immediately before the Presque Isle park gate (adjacent to Sally's Hot Dogs). Avoid cutting through residential Millcreek side streets or taking West 8th St / PA-5 through downtown Erie during peak summer beach hours.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Helps time the turn into the narrow entrance apron off busy Peninsula Dr (PA-832) without missing the gate."
+    }
+  },
+  "toadStrategy": {
+    "text": "Because Peninsula Dr carries heavy Presque Isle beach traffic and interior sand roads are narrow with tight 90-degree turns, unhook your tow vehicle in the staging area near the check-in office before pulling toward the lakefront or bayfront rows.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Crucial for spotting pedestrians, cyclists heading to the Presque Isle trail, and low sand-berm edges while maneuvering."
+    }
+  },
+  "content": {
+    "overview": "Operating since 1924 at the entrance to Presque Isle State Park, Sara's Campground puts RVers steps from Lake Erie beaches, Presque Isle Bay, and the 13-mile paved multi-purpose trail. Sites are first-come/seasonal-heavy with a classic retro beach-town vibe and compact spacing.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Important for guarding against voltage dips on lakefront pedestals during hot July and August afternoons."
+    },
+    "loopC": "Level gravel/hard-packed sites closest to the office with 30/50-amp electric, water, and sewer hookups—recommended for larger Class A/C rigs and fifth wheels.",
+    "loopsAB": "Tightly spaced water/electric sites right on the Lake Erie shore and Presque Isle Bay channel; best suited for Class C rigs under 30 feet, camper vans, and small travel trailers (dump station available on-site)."
+  }
+},
+ {
   "id": "family-affair-campground",
   "name": "Family Affair Campground",
   "ownertype": "Private Campground",
