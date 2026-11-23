@@ -21,7 +21,7 @@
   "PA": { "name": "Pennsylvania", "intro": "Discover big-rig verified campgrounds across Lancaster Amish Country, the Pocono Mountains, Delaware Water Gap, and Central Pennsylvania with detailed mountain grade and turn-radius logistics." }
 } %}
 {% set currentState = stateInfo[stateCode] or { "name": stateCode, "intro": "Verified RV campground clearances, max rig lengths, and approach routing guides across " + stateCode + "." } %}
-{% set stateCamps = campgrounds | byState(stateCode) %}
+{% set stateCamps = campgrounds | byState(stateCode) | sortByRecency %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,6 +70,20 @@
       border-color: #0f172a;
       color: #ffffff;
     }
+    .filter-pill-verified {
+      border-color: #86efac;
+      color: #15803d;
+      background: #f0fdf4;
+    }
+    .filter-pill-verified:hover {
+      border-color: #16a34a;
+      color: #166534;
+    }
+    .filter-pill-verified.active {
+      background: #16a34a;
+      border-color: #16a34a;
+      color: #ffffff;
+    }
     .camp-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -92,12 +106,38 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 16px rgba(15,23,42,0.08);
     }
-    .camp-grid-thumb {
+    .camp-grid-media {
+      position: relative;
+      display: block;
       width: 100%;
       height: 175px;
-      object-fit: cover;
       background: #e2e8f0;
+    }
+    .camp-grid-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
       display: block;
+    }
+    .camp-grid-badge {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 64px;
+      height: auto;
+      pointer-events: none;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+    }
+    .camp-grid-updated {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      background: rgba(15, 23, 42, 0.88);
+      color: #ffffff;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
     }
     .camp-grid-body {
       padding: 1.15rem;
@@ -211,6 +251,7 @@
 
     <div class="filter-pills" id="stateFilters">
       <button type="button" class="filter-pill active" data-filter="all">All Campgrounds</button>
+      <button type="button" class="filter-pill filter-pill-verified" data-filter="verified">✔ Owner Verified</button>
       <button type="button" class="filter-pill" data-filter="bigrig">Big-Rig Friendly (40ft+)</button>
       <button type="button" class="filter-pill" data-filter="state">State Parks</button>
       <button type="button" class="filter-pill" data-filter="private">Private Resorts</button>
@@ -220,12 +261,19 @@
       {% for camp in stateCamps %}
       <article class="camp-grid-card"
         data-rig="{{ camp.scorecard.maxRigLength }}"
-        data-owner="{{ camp.ownertype | lower }}">
-        <a href="/c/{{ camp.id }}.html">
+        data-owner="{{ camp.ownertype | lower }}"
+        data-verified="{{ 'true' if camp.ownerVerified else 'false' }}">
+        <a href="/c/{{ camp.id }}.html" class="camp-grid-media">
           <img class="camp-grid-thumb"
                src="{{ camp.image or '/images/' + camp.id + '.jpg' }}"
                alt="{{ camp.name }} in {{ camp.city }}, {{ camp.state }}"
                onerror="this.src='/images/default-campground.jpg'">
+          {% if camp.ownerVerified %}
+          <img class="camp-grid-badge" src="/images/owner-verified-badge.png" alt="Owner Verified Campground">
+          {% endif %}
+          {% if camp.updatedDate %}
+          <span class="camp-grid-updated">Updated {{ camp.updatedDate | shortMonthYear }}</span>
+          {% endif %}
         </a>
         <div class="camp-grid-body">
           <h2>{{ camp.name }}</h2>
@@ -265,9 +313,11 @@
         document.querySelectorAll('#stateCampGrid .camp-grid-card').forEach(card => {
           const rigText = card.dataset.rig || '';
           const ownerText = card.dataset.owner || '';
+          const isVerified = card.dataset.verified === 'true';
           const maxFt = parseInt((rigText.match(/(\d+)\s*ft/i) || [])[1] || '0', 10);
           let show = true;
-          if (filter === 'bigrig') show = maxFt >= 40;
+          if (filter === 'verified') show = isVerified;
+          else if (filter === 'bigrig') show = maxFt >= 40;
           else if (filter === 'state') show = ownerText.includes('state') || ownerText.includes('national') || ownerText.includes('public');
           else if (filter === 'private') show = ownerText.includes('private') || ownerText.includes('resort') || ownerText.includes('koa');
           card.style.display = show ? 'flex' : 'none';
