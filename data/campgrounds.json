@@ -1,5 +1,57 @@
 [
  {
+  "id": "peaceful-woodlands-family-campground",
+  "name": "Peaceful Woodlands Family Campground",
+  "ownertype": "Private Campground",
+  "ownerVerified": false,
+  "addedDate": "2026-11-23",
+  "updatedDate": null,
+  "ownerTip": null,
+  "state": "PA",
+  "city": "Blakeslee",
+  "featured": true,
+  "lat": 41.0280,
+  "lng": -75.4987,
+  "image": "/images/peaceful-woodlands-family-campground.jpg",
+  "mapImage": "/images/peaceful-woodlands-family-campground-map.jpg",
+  "address": "114 WT Family Blvd, Blakeslee, PA 18610",
+  "gps": "41.0280° N, 75.4987° W",
+  "phone": "+15706469255",
+  "website": "https://www.peacefulwoodlands.com/",
+  "summary": "A wooded 50-acre family campground atop the Pocono Plateau (2,200 ft elevation) right off PA-115 near Pocono Raceway, featuring a small cluster of pull-through sites for rigs up to 38 feet alongside heavily wooded back-in loops.",
+  "scorecard": {
+    "maxRigLength": "Up to 38 ft (7 dedicated pull-throughs for rigs 32–38 ft; call ahead for longer rigs)",
+    "toadFriendliness": "Moderate — unhook near the main entrance/store staging lane before entering narrow wooded interior loops",
+    "treeClearance": "Moderate-to-Tight — natural Pocono hardwood canopy; watch upper corner branches on interior back-in spurs",
+    "bestBigRigLoops": "Dedicated Pull-Through Section (32–38 ft sites near the main entrance road)",
+    "bestSmallRigLoops": "Interior Wooded Back-In Loops & Tent/Cabin Sections (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-80 Exit 284 (Blakeslee), head south on PA-115 South for approximately 5.5 miles directly to WT Family Blvd on the left (watch for campground signage just north of Long Pond Road / Pocono Raceway). From I-476 (PA Turnpike Northeast Extension) Exit 95 (Pocono), take PA-940 East to PA-115 South to avoid narrow secondary township roads with tight tree canopies.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Prevents GPS routing down narrow, low-canopy Pocono township backroads and keeps your approach strictly on PA-115."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull straight into the main entrance drive along WT Family Blvd and stage near the office/camp store parking area before entering the interior wooded loops. Interior roads are gravel/dirt with tight turning radii around mature trees, making unhooking a towed vehicle at your campsite difficult for Class A or Class C motorhomes over 30 feet.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps spot tight tree trunks and low upper branches while maneuvering and backing into wooded Pocono spurs."
+    }
+  },
+  "content": {
+    "overview": "Sitting at roughly 2,200 feet elevation at the base of the Dixon Miller Recreation Area, Peaceful Woodlands preserves its dense Pocono forest setting with 30/50-amp hookups, a seasonal pool, mini-golf, dog park, and proximity to Hickory Run State Park and Jim Thorpe.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics against voltage fluctuations on wooded 30/50-amp campground pedestals."
+    },
+    "loopC": "Seven dedicated pull-through sites accommodate rigs from 32 to 38 feet with easier straight-line approach geometry and wider overhead clearance near the main corridor.",
+    "loopsAB": "Heavily shaded back-in sites nestled among mature oaks and pines; best suited for travel trailers, camper vans, and Class C rigs under 30 feet due to tight turns and low canopy edges."
+  }
+},
+ {
     "id": "pettecote-junction-campground",
     "name": "Pettecote Junction Campground",
     "ownertype": "Private Campground",
