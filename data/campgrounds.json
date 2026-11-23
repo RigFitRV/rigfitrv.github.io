@@ -1,5 +1,54 @@
 [
  {
+  "id": "erie-koa",
+  "name": "Erie KOA Holiday",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-23",
+  "state": "PA",
+  "city": "McKean",
+  "featured": true,
+  "lat": 42.003084,
+  "lng": -80.192271,
+  "image": "/images/erie-koa.jpg",
+  "mapImage": "/images/erie-koa-map.jpg",
+  "address": "6645 W Rd, McKean, PA 16426",
+  "gps": "42.003084° N, 80.192271° W",
+  "phone": "+18144767706",
+  "website": "https://koa.com/campgrounds/erie/",
+  "summary": "Wooded yet big-rig-capable KOA located in McKean, PA just south of I-90 Exits 16 and 18, offering long 50-amp full-hookup pull-throughs, KOA Patio sites, and quick access to Erie and Presque Isle State Park.",
+  "scorecard": {
+    "maxRigLength": "Up to 50–65 ft (long gravel pull-through sites along the main central lanes)",
+    "toadFriendliness": "High — dedicated check-in staging lane and long 50-amp pull-throughs let motorhomes stay hitched or unhook cleanly at their pad",
+    "treeClearance": "Moderate to Good — mature shade trees border interior back-in loops, while primary big-rig pull-through lanes are trimmed for 13'6\" roof clearance",
+    "bestBigRigLoops": "Main Pull-Through & KOA Patio 50-Amp Full-Hookup Rows (40–65 ft rigs)",
+    "bestSmallRigLoops": "Shaded Interior Back-In Water/Electric & Full-Hookup Loops (ideal for sub-30 ft Class C rigs and travel trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Two clean highway options from I-90: (1) Take Exit 16 onto PA-98 South, turn left onto PA-832 East (Sterrettania Rd), then turn right onto W Rd—the campground entrance is on the right. (2) Alternatively, take Exit 18 onto PA-832 South (Sterrettania Rd) and turn left onto W Rd—the campground entrance is on the right. Sticking to these state-route approaches avoids narrow rural township cut-through roads.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps routing locked onto PA-98, PA-832, and W Rd rather than narrow McKean backroads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull straight into the wide registration staging lane off W Rd; if assigned a long pull-through site, stay hitched or unhook right on your gravel pad, or drop your toad in the check-in overflow lane before backing into shaded interior sites.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Useful for watching mature oak/maple trunks and picnic tables when backing into wooded interior loops."
+    }
+  },
+  "content": {
+    "overview": "Nestled in a peaceful wooded setting in McKean just south of I-90, Erie KOA Holiday combines big-rig infrastructure with full family resort amenities including a heated pool, splash pad, KampK9 dog park, jumping pillow, and camp store.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Essential protection for sensitive coach electronics during high summer occupancy."
+    },
+    "loopC": "Wide, level 50-amp full-hookup pull-through pads with generous slide-out width and easy swing clearance for 40+ ft motorhomes and fifth wheels.",
+    "loopsAB": "Tree-lined back-in sites with 30/50-amp hookups and fire rings—great for Class C motorhomes, camper vans, and mid-size travel trailers."
+  }
+},
+ {
   "id": "presque-isle-passage-rv-park",
   "name": "Presque Isle Passage RV Park",
   "ownertype": "RV Resort",
