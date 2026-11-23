@@ -1,5 +1,37 @@
 [
   {
+  "id": "erie-lake-erie-shoreline-camping",
+  "slug": "erie-lake-erie-shoreline",
+  "eyebrow": "Regional RV Travel Guide • Erie & Lake Erie Shoreline",
+  "title": "Erie & Lake Erie Shoreline RV Navigation & Camping Guide",
+  "subtitle": "Complete Big Rig Navigation, Presque Isle Approaches & Lakefront RV Park Guide",
+  "lead": "Navigate Pennsylvania's Lake Erie shoreline from North East to the Ohio border with verified I-90 exit approaches, Presque Isle peninsula rules, and big-rig campground clearance scorecards.",
+  "region": "Erie & Lake Erie Shoreline",
+  "state": "PA",
+  "lat": 42.1292,
+  "lng": -80.0851,
+  "image": "/images/erie-lake-erie-shoreline-guide.jpg",
+  "summary": "Expert RV camping and navigation guide for Erie and the Lake Erie Shoreline in Northwestern Pennsylvania. Verified I-90 highway approaches, Presque Isle State Park trailer rules, and rig-fit audits across 7 local campgrounds.",
+  "featuredCampgroundIds": [
+    "family-affair-campground",
+    "saras-campground",
+    "presque-isle-passage-rv-park",
+    "erie-koa",
+    "follys-end-campground",
+    "pine-lane-campground",
+    "virginias-beach-campground"
+  ],
+  "introHtml": "<h2>🌲 Why Erie &amp; the Lake Erie Shoreline is an Elite RV Destination</h2><p>Stretching 43 miles along Pennsylvania's northwest coast from the New York border at North East to the Ohio line at Springfield, the Erie shoreline pairs sandy Lake Erie beaches and world-class steelhead tributary fishing with flat, wide Interstate 90 highway access. Unlike central Pennsylvania's steep ridge-and-valley grades, the Lake Erie plain offers level cruising—provided you pick the right I-90 exit and avoid tight peninsula and creek-gorge bottlenecks.</p><hr><h2>🚚 Rig Clearance &amp; Heavy Highway Routing Guidance</h2><p><strong>Interstate 90</strong> serves as the main east-west spine across Erie County, running parallel to <strong>US-20 (Ridge Rd)</strong> and <strong>PA-5 (Lake Rd)</strong>. Standard 13'6\" Class A motorhomes and fifth wheels travel cleanly along I-90, US-20, and PA-5, but several lakeside approaches require strict exit discipline.</p><h3>Key Highway Approaches</h3><ul><li><strong>Presque Isle &amp; West Millcreek (I-90 Exit 18 → PA-832 North):</strong> Use PA-832 (Peninsula Dr / Sterrettania Rd) as your primary north-south corridor. Avoid cutting through downtown Erie residential grids or tight bayfront marina streets when towing.</li><li><strong>East Lake Erie Wine Country (I-90 Exit 41 → PA-89 North):</strong> Best direct approach for North East vineyards and eastern shoreline campgrounds without navigating steep lake-bluff township roads.</li><li><strong>West Shoreline &amp; Springfield Bluffs (I-90 Exits 6, 9 &amp; 16):</strong> Use PA-98 (Exit 16), PA-18 (Exit 9), or PA-215 (Exit 6) to reach PA-5 (West Lake Rd). Avoid GPS shortcuts across narrow Elk Creek and Crooked Creek gorge bridges.</li></ul><blockquote><strong>Pro Clearance Tip:</strong> Over-height vehicles and RVs towing trailers are restricted from certain narrow beach loops and low-clearance tree canopies inside Presque Isle State Park—unhook your toad at camp and use Peninsula Dr straight to the main public beach lots.</blockquote>",
+  "utilityHtml": "<h2>⚡ Local Infrastructure &amp; Utility Insights</h2><ul><li><strong>Power Grid Loads:</strong> Most I-90 corridor resorts offer modern 50-amp pedestals, while older lakefront and creekside parks feature 30-amp service that can dip during humid July and August afternoon peaks.</li><li><strong>Water Pressure &amp; Filtration:</strong> Municipal water along the Millcreek/Fairview corridor runs strong (55–70 PSI—use a pressure regulator), whereas rural well-water parks in Springfield and Girard benefit from a sediment pre-filter.</li><li><strong>Cellular Coverage:</strong> Verizon, AT&amp;T, and T-Mobile deliver strong 5G/LTE signals along I-90, US-20, and Presque Isle, with moderate signal dips down inside the wooded Elk Creek valley.</li></ul>",
+  "recommendedGearKeys": [
+    "garmin-rv-890",
+    "heavy-duty-surge-protector"
+  ],
+  "gearNote": "Essential GPS routing and 30/50-amp pedestal protection for Lake Erie shoreline travel.",
+  "updatePrompt": "Encountered a new low-hanging branch, Presque Isle detour, or updated site layout in the Erie & Lake Erie Shoreline area?",
+  "publishedDate": "2026-11-23"
+},
+  {
   "id": "mid-atlantic-christmas-camping",
   "slug": "mid-atlantic-christmas",
   "eyebrow": "Seasonal RV Travel Guide • Mid-Atlantic Holiday Destinations",
