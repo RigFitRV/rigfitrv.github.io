@@ -29,7 +29,7 @@ permalink: /widget-generator.html
     <div class="article-card">
       
       <div style="text-align: center; margin-bottom: 1.75rem;">
-        <span style="font-size: 0.8rem; font-weight: bold; color: #2563eb; text-transform: uppercase; letter-spacing: 0.05em;">Partner Program • Free Website Widget</span>
+        <span style="font-size: 0.8rem; font-weight: bold; color: #2563eb; text-transform: uppercase; letter-spacing: 0.05em;">Partner Program &bull; Free Website Widget</span>
         <h1 id="generator-title" style="margin: 0.4rem 0 0.5rem 0; font-size: 1.8rem; color: #0f172a;">RigFitRV Scorecard Widget Generator</h1>
         <p style="color: #475569; font-size: 1rem; margin: 0;">
           Boost camper confidence on your booking page by embedding your verified big-rig clearance and loop ratings.
@@ -42,8 +42,9 @@ permalink: /widget-generator.html
       <div style="margin-bottom: 1.5rem;">
         <label for="campground-selector" style="display: block; font-size: 0.95rem; font-weight: bold; color: #0f172a; margin-bottom: 0.4rem;">1. Select Campground:</label>
         <select id="campground-selector" onchange="onCampgroundSelect(this.value)" style="width: 100%; padding: 0.7rem 0.9rem; font-size: 1rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; color: #0f172a;">
-          <option value="">-- Choose a Verified Campground --</option>
+          <option value="">-- Choose a Campground --</option>
         </select>
+        <div id="verified-status-banner" style="display: none; margin-top: 0.65rem; padding: 0.6rem 0.9rem; border-radius: 6px; font-size: 0.86rem;"></div>
       </div>
 
       <!-- Step 2: Style Selection Tabs -->
@@ -78,11 +79,11 @@ permalink: /widget-generator.html
             Copy Code to Clipboard
           </button>
         </div>
-        <textarea id="code-snippet-box" readonly placeholder="Select a campground above to generate your HTML embed code..." style="width: 100%; box-sizing: border-box; height: 145px; font-family: monospace; font-size: 0.85rem; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #f1f5f9; color: #0f172a; resize: vertical;"></textarea>
+        <textarea id="code-snippet-box" readonly placeholder="Select a campground above to generate your HTML embed code..." style="width: 100%; box-sizing: border-box; height: 155px; font-family: monospace; font-size: 0.85rem; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #f1f5f9; color: #0f172a; resize: vertical;"></textarea>
       </div>
 
       <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 1rem; font-size: 0.9rem; color: #1e40af; line-height: 1.45;">
-        <strong>How it works:</strong> Paste this HTML snippet anywhere on your campground website. It displays live clearance data and provides a permanent link to your full guide on RigFitRV.
+        <strong>How it works:</strong> Paste this HTML snippet anywhere on your campground website. Owner-Verified campgrounds automatically display the official Owner-Verified Rig-Fit seal and link directly to your full guide on RigFitRV.
       </div>
 
     </div>
@@ -90,8 +91,32 @@ permalink: /widget-generator.html
 
   {% include "footer.njk" %}
 
+  <script id="widget-campgrounds-data" type="application/json">
+    [
+      {% for c in campgrounds %}
+      {
+        "id": {{ c.id | dump | safe }},
+        "name": {{ c.name | dump | safe }},
+        "city": {{ c.city | dump | safe }},
+        "state": {{ c.state | dump | safe }},
+        "ownerVerified": {{ true if c.ownerVerified else false }},
+        "updatedDate": {{ (c.updatedDate or "") | dump | safe }},
+        "maxRigLength": {{ (c.scorecard.maxRigLength if c.scorecard else "See Guide") | dump | safe }},
+        "toadFriendliness": {{ (c.scorecard.toadFriendliness if c.scorecard else "See Guide") | dump | safe }},
+        "treeClearance": {{ (c.scorecard.treeClearance if c.scorecard else "See Guide") | dump | safe }}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  </script>
+
   <script>
-    const ALL_CAMPGROUNDS = {{ campgrounds | dump | safe }};
+    let ALL_CAMPGROUNDS = [];
+    try {
+      ALL_CAMPGROUNDS = JSON.parse(document.getElementById('widget-campgrounds-data').textContent || '[]');
+    } catch (e) {
+      console.error('Failed to parse campgrounds widget data:', e);
+    }
+
     let currentCampData = null;
     let activeStyle = 'half';
 
@@ -103,14 +128,13 @@ permalink: /widget-generator.html
       sorted.forEach(camp => {
         const opt = document.createElement('option');
         opt.value = camp.id;
-        opt.textContent = `${camp.name} (${camp.city}, ${camp.state})`;
+        opt.textContent = `${camp.ownerVerified ? '✔ ' : ''}${camp.name} (${camp.city}, ${camp.state})`;
         selector.appendChild(opt);
       });
 
       const urlParams = new URLSearchParams(window.location.search);
       let rawId = urlParams.get('claim') || urlParams.get('id');
 
-      // Fallback: extract campground slug from referring /c/<slug>.html page if ?id= is empty
       if (!rawId && document.referrer) {
         const refMatch = document.referrer.match(/\/c\/([^\/?#]+?)(?:\.html)?(?:[?#]|$)/i);
         if (refMatch) rawId = refMatch[1];
@@ -133,6 +157,8 @@ permalink: /widget-generator.html
     }
 
     function onCampgroundSelect(campId) {
+      const statusBanner = document.getElementById('verified-status-banner');
+
       if (!campId) {
         currentCampData = null;
         document.getElementById('generator-title').textContent = 'RigFitRV Scorecard Widget Generator';
@@ -140,6 +166,7 @@ permalink: /widget-generator.html
           <p style="color: #64748b; text-align: center; margin: 0;">Select a campground above to preview your custom scorecard widget.</p>
         `;
         document.getElementById('code-snippet-box').value = '';
+        if (statusBanner) statusBanner.style.display = 'none';
         return;
       }
 
@@ -148,6 +175,21 @@ permalink: /widget-generator.html
 
       currentCampData = camp;
       document.getElementById('generator-title').textContent = `Embed Scorecard: ${camp.name}`;
+
+      if (statusBanner) {
+        statusBanner.style.display = 'block';
+        if (camp.ownerVerified) {
+          statusBanner.style.background = '#f0fdf4';
+          statusBanner.style.border = '1px solid #86efac';
+          statusBanner.style.color = '#166534';
+          statusBanner.innerHTML = `<strong>✔ Owner-Verified Campground:</strong> Your official Owner-Verified seal is automatically included in the embed code below.`;
+        } else {
+          statusBanner.style.background = '#f8fafc';
+          statusBanner.style.border = '1px solid #cbd5e1';
+          statusBanner.style.color = '#475569';
+          statusBanner.innerHTML = `Standard RigFitRV Scorecard active. Want the official <strong>Owner-Verified</strong> seal? <a href="/submit.html" style="color: #2563eb; font-weight: 600;">Confirm your specs here</a>.`;
+        }
+      }
 
       const newUrl = `${window.location.pathname}?claim=${encodeURIComponent(camp.id)}`;
       window.history.replaceState({}, '', newUrl);
@@ -175,45 +217,75 @@ permalink: /widget-generator.html
     function renderWidget() {
       if (!currentCampData) return;
       const camp = currentCampData;
-      const maxLen = camp.scorecard?.maxRigLength || 'See Guide';
-      const toad = camp.scorecard?.toadFriendliness || 'See Guide';
-      const tree = camp.scorecard?.treeClearance || 'See Guide';
+      const isVerified = Boolean(camp.ownerVerified);
+      const maxLen = camp.maxRigLength || 'See Guide';
+      const toad = camp.toadFriendliness || 'See Guide';
+      const tree = camp.treeClearance || 'See Guide';
+      const guideUrl = `https://rigfitrv.com/c/${camp.id}.html`;
+      const badgeUrl = 'https://rigfitrv.com/images/owner-verified-badge.svg';
+
+      // Theme tokens: Owner-Verified (emerald seal + green accent) vs Standard (RigFit blue)
+      const cardBorder = isVerified ? '1px solid #86efac; border-top: 4px solid #16a34a' : '1px solid #cbd5e1';
+      const fullBorder = isVerified ? '1px solid #86efac; border-left: 5px solid #16a34a' : '1px solid #cbd5e1';
+      const microBorder = isVerified ? '1px solid #86efac; border-top: 3px solid #16a34a' : '1px solid #cbd5e1';
+      const pillStyle = isVerified
+        ? 'font-size: 0.7rem; background: #dcfce7; color: #166534; padding: 0.2rem 0.45rem; border-radius: 4px; font-weight: bold; white-space: nowrap;'
+        : 'font-size: 0.7rem; background: #eff6ff; color: #1d4ed8; padding: 0.2rem 0.45rem; border-radius: 4px; font-weight: bold; white-space: nowrap;';
+      const pillLabel = isVerified ? '✔ Owner-Verified' : 'RigFitRV Scorecard';
+      const btnBg = isVerified ? '#15803d' : '#2563eb';
 
       let widgetHtml = '';
 
       if (activeStyle === 'half') {
-        widgetHtml = `<div class="rigfit-scorecard-widget" style="border: 1px solid #cbd5e1; border-radius: 8px; padding: 1.25rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; max-width: 320px; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
-  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">
-    <strong style="font-size: 0.95rem; color: #0f172a;">🏕️ ${camp.name}</strong>
-    <span style="font-size: 0.7rem; background: #eff6ff; color: #1d4ed8; padding: 0.2rem 0.4rem; border-radius: 4px; font-weight: bold;">Verified Rig-Fit</span>
+        const sealHtml = isVerified
+          ? `<img src="${badgeUrl}" alt="Owner Verified" style="width: 48px; height: 48px; flex-shrink: 0;" onerror="this.style.display='none'">`
+          : '';
+        widgetHtml = `<div class="rigfit-scorecard-widget" style="${cardBorder}; border-radius: 8px; padding: 1.25rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; max-width: 340px; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; margin-bottom: 0.75rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.6rem;">
+    <div>
+      <strong style="display: block; font-size: 0.96rem; color: #0f172a; margin-bottom: 0.25rem;">🏕️ ${camp.name}</strong>
+      <span style="${pillStyle}">${pillLabel}</span>
+    </div>
+    ${sealHtml}
   </div>
   <ul style="margin: 0 0 1rem 0; padding-left: 1.2rem; font-size: 0.85rem; color: #334155; line-height: 1.5;">
     <li><strong>Max Rig Length:</strong> ${maxLen}</li>
     <li><strong>Toad Friendliness:</strong> ${toad}</li>
     <li><strong>Tree Clearance:</strong> ${tree}</li>
   </ul>
-  <a href="https://rigfitrv.com/c/${camp.id}.html" target="_blank" rel="noopener" style="display: block; text-align: center; background: #2563eb; color: #ffffff; padding: 0.5rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">View Full Rig-Fit Guide ↗</a>
+  <a href="${guideUrl}" target="_blank" rel="noopener" style="display: block; text-align: center; background: ${btnBg}; color: #ffffff; padding: 0.55rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">View Full Rig-Fit Guide ↗</a>
 </div>`;
       } else if (activeStyle === 'full') {
-        widgetHtml = `<div class="rigfit-scorecard-widget" style="border: 1px solid #cbd5e1; border-radius: 8px; padding: 1.25rem 1.5rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
-  <div>
-    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
-      <strong style="font-size: 1.05rem; color: #0f172a;">🏕️ ${camp.name}</strong>
-      <span style="font-size: 0.7rem; background: #eff6ff; color: #1d4ed8; padding: 0.2rem 0.4rem; border-radius: 4px; font-weight: bold;">Verified Rig-Fit</span>
-    </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; font-size: 0.85rem; color: #334155;">
-      <span><strong>Max Length:</strong> ${maxLen}</span>
-      <span><strong>Toad Friendly:</strong> ${toad}</span>
-      <span><strong>Tree Clearance:</strong> ${tree}</span>
+        const sealHtml = isVerified
+          ? `<img src="${badgeUrl}" alt="Owner Verified" style="width: 56px; height: 56px; flex-shrink: 0;" onerror="this.style.display='none'">`
+          : '';
+        widgetHtml = `<div class="rigfit-scorecard-widget" style="${fullBorder}; border-radius: 8px; padding: 1.25rem 1.5rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
+  <div style="display: flex; align-items: center; gap: 0.9rem; flex: 1; min-width: 240px;">
+    ${sealHtml}
+    <div>
+      <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.35rem;">
+        <strong style="font-size: 1.05rem; color: #0f172a;">🏕️ ${camp.name}</strong>
+        <span style="${pillStyle}">${pillLabel}</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 1.1rem; font-size: 0.85rem; color: #334155;">
+        <span><strong>Max Length:</strong> ${maxLen}</span>
+        <span><strong>Toad Friendly:</strong> ${toad}</span>
+        <span><strong>Tree Clearance:</strong> ${tree}</span>
+      </div>
     </div>
   </div>
-  <a href="https://rigfitrv.com/c/${camp.id}.html" target="_blank" rel="noopener" style="background: #2563eb; color: #ffffff; padding: 0.55rem 1rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; font-weight: bold; white-space: nowrap;">View Full Guide ↗</a>
+  <a href="${guideUrl}" target="_blank" rel="noopener" style="background: ${btnBg}; color: #ffffff; padding: 0.55rem 1rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; font-weight: bold; white-space: nowrap;">View Full Guide ↗</a>
 </div>`;
       } else if (activeStyle === 'micro') {
-        widgetHtml = `<div class="rigfit-scorecard-widget" style="border: 1px solid #cbd5e1; border-radius: 6px; padding: 0.85rem 1rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; max-width: 240px; width: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
-  <div style="font-size: 0.8rem; font-weight: bold; color: #1e293b; margin-bottom: 0.2rem;">🏕️ ${camp.name}</div>
-  <div style="font-size: 0.75rem; color: #64748b; margin-bottom: 0.6rem;">Max Rig: <strong>${maxLen}</strong></div>
-  <a href="https://rigfitrv.com/c/${camp.id}.html" target="_blank" rel="noopener" style="display: inline-block; background: #2563eb; color: #ffffff; padding: 0.35rem 0.75rem; border-radius: 4px; text-decoration: none; font-size: 0.75rem; font-weight: bold;">View Rig-Fit Scorecard ↗</a>
+        const sealHtml = isVerified
+          ? `<img src="${badgeUrl}" alt="Owner Verified" style="width: 52px; height: 52px; margin: 0 auto 0.35rem auto; display: block;" onerror="this.style.display='none'">`
+          : '';
+        widgetHtml = `<div class="rigfit-scorecard-widget" style="${microBorder}; border-radius: 6px; padding: 0.9rem 1rem; background: #ffffff; font-family: system-ui, -apple-system, sans-serif; max-width: 250px; width: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+  ${sealHtml}
+  <div style="margin-bottom: 0.35rem;"><span style="${pillStyle}">${pillLabel}</span></div>
+  <div style="font-size: 0.85rem; font-weight: bold; color: #1e293b; margin-bottom: 0.2rem;">🏕️ ${camp.name}</div>
+  <div style="font-size: 0.76rem; color: #64748b; margin-bottom: 0.65rem;">Max Rig: <strong>${maxLen}</strong></div>
+  <a href="${guideUrl}" target="_blank" rel="noopener" style="display: inline-block; background: ${btnBg}; color: #ffffff; padding: 0.38rem 0.8rem; border-radius: 4px; text-decoration: none; font-size: 0.76rem; font-weight: bold;">View Rig-Fit Scorecard ↗</a>
 </div>`;
       }
 
