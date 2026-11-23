@@ -1,5 +1,54 @@
 [
  {
+  "id": "pine-lane-campground",
+  "name": "Pine Lane Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-23",
+  "state": "PA",
+  "city": "East Springfield",
+  "featured": true,
+  "lat": 42.006023,
+  "lng": -80.392813,
+  "image": "/images/pine-lane-campground.jpg",
+  "mapImage": "/images/pine-lane-campground-map.jpg",
+  "address": "11709 W Lake Rd, East Springfield, PA 16411",
+  "gps": "42.006023° N, 80.392813° W",
+  "phone": "+18147744808",
+  "website": "https://www.pinelanecampground.com/",
+  "summary": "Quiet, pine-shaded family campground directly along PA-5 (West Lake Rd) near the Lake Erie bluffs in East Springfield, PA, offering straightforward highway access via I-90 Exit 6 (PA-215 North) or Exit 9 (PA-18 North) and level sites minutes from Erie Bluffs State Park and Raccoon Creek Park.",
+  "scorecard": {
+    "maxRigLength": "Up to 40–45 ft (level gravel pull-throughs and open full-hookup rows; wooded interior pine sites are best under 35 ft)",
+    "toadFriendliness": "High — wide, direct turn-in off PA-5 (West Lake Rd) with ample staging room near the registration office to unhook before entering shaded pine lanes",
+    "treeClearance": "Moderate to Good — mature pine canopy along interior lanes trimmed for standard RV roof clearance, with open sky over central pull-throughs",
+    "bestBigRigLoops": "Main Central Pull-Through & Open Field Full-Hookup Sites (35–45 ft rigs)",
+    "bestSmallRigLoops": "Shaded Pine Grove Back-In Sites (ideal for Class C motorhomes, camper vans, and mid-size travel trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 Westbound (coming from Erie/NY), take Exit 9 onto PA-18 North toward Lake City/Girard, continue north to PA-5 (West Lake Rd), and turn left onto PA-5 West toward East Springfield; the campground entrance is on the right (lake side of PA-5). From I-90 Eastbound (coming from Ohio), take Exit 6 onto PA-215 North toward East Springfield for approximately 3.2 miles to PA-5 (West Lake Rd), then turn right onto PA-5 East; the campground entrance is on the left. Sticking to PA-215 North or PA-18 North to PA-5 keeps large rigs on straight, flat state routes and avoids narrow township creek crossings.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps navigation locked onto PA-215 / PA-18 and PA-5 rather than narrow rural Springfield Township roads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull directly off PA-5 (West Lake Rd) into the wide entrance lane near the registration office; unhook your tow vehicle there if assigned a shaded back-in pine site, or proceed straight onto a central pull-through pad.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helpful for backing neatly between tall pine trunks and utility pedestals."
+    }
+  },
+  "content": {
+    "overview": "Positioned along the scenic Lake Erie shoreline corridor on PA-5 in East Springfield—just west of Erie Bluffs State Park and east of Raccoon Creek County Park—Pine Lane Campground provides a peaceful wooded retreat with 30/50-amp electric, water, sewer, swimming pool, pavilion, and camp store.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Recommended for safeguarding coach electronics on shaded campground pedestals."
+    },
+    "loopC": "Longer, open gravel pads with 30/50-amp full hookups and easy swing clearance for Class A/C motorhomes and fifth wheels.",
+    "loopsAB": "Classic shaded sites tucked under mature pines with 30-amp water/electric (and select full hookups), well-suited for Class C rigs and travel trailers."
+  }
+},
+ {
   "id": "follys-end-campground",
   "name": "Folly's End Campground",
   "ownertype": "Private Campground",
