@@ -1,5 +1,55 @@
 [
  {
+  "id": "follys-end-campground",
+  "name": "Folly's End Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-23",
+  "state": "PA",
+  "city": "Girard",
+  "featured": true,
+  "lat": 41.983527,
+  "lng": -80.233890,
+  "image": "/images/follys-end-campground.jpg",
+  "mapImage": "/images/follys-end-campground-map.jpg",
+  "mapImage2": "/images/follys-end-campground-map-2.jpg",
+  "address": "8600 Avonia Rd, Girard, PA 16417",
+  "gps": "41.983527° N, 80.233890° W",
+  "phone": "+18144745730",
+  "website": "https://www.follysend.com/",
+  "summary": "Scenic creekside campground along Elk Creek and PA-98 (Avonia Rd) south of I-90 Exit 16 in Girard, PA, famed for world-class Lake Erie tributary steelhead fishing and shaded creekside RV sites.",
+  "scorecard": {
+    "maxRigLength": "Up to 38–42 ft (select gravel pull-throughs and open meadow full-hookup sites; creekside wooded spots are tighter)",
+    "toadFriendliness": "Moderate — straightforward turn-in directly off PA-98 (Avonia Rd), though interior creekside roads have tighter turns and mature trees requiring unhooking near the office for longer setups",
+    "treeClearance": "Moderate — heavy mature hemlock/hardwood canopy along Elk Creek valley rows; watch low limbs on creekside back-in loops",
+    "bestBigRigLoops": "Upper Open Field & Main Entrance Pull-Through Sites (35–42 ft rigs)",
+    "bestSmallRigLoops": "Elk Creek Stream-Side & Shaded Valley Rows (ideal for Class C motorhomes under 30 ft, camper vans, and smaller travel trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (West or East), take Exit 16 onto PA-98 South (Avonia Rd) toward Franklin Center/Girard and travel south for approximately 3.2 miles; the campground entrance is on the right (west side of PA-98) along Elk Creek. Stay strictly on PA-98 South from I-90 Exit 16 and avoid GPS shortcuts onto narrow township creek roads (such as Beckman Rd or Tannery Rd) that feature steep valley grades, sharp switchbacks, and narrow bridges.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Prevents GPS rerouting onto narrow Elk Creek gorge backroads with steep grades."
+    }
+  },
+  "toadStrategy": {
+    "text": "Stop in the check-in staging area immediately off PA-98 before descending toward the creekside loops; unhook your tow vehicle near the office/upper field before maneuvering into shaded Elk Creek sites.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Essential for backing safely between mature creekside trees and uneven gravel edges."
+    }
+  },
+  "content": {
+    "overview": "Set in a wooded valley directly along Elk Creek in Girard, Folly's End Campground is a premier basecamp for Lake Erie steelhead anglers and quiet nature-focused RVers, offering 30/50-amp electric, water, sewer, camp store, and direct creek access.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects coach electrical systems on wooded valley pedestals."
+    },
+    "loopC": "More open, level gravel sites in the upper field with 30/50-amp full hookups and easier turn radii for larger Class A/C motorhomes and fifth wheels.",
+    "loopsAB": "Shaded creekside sites with 30-amp water/electric (and select full hookups) steps from Elk Creek fishing holes—best suited for Class C rigs under 30 ft and compact trailers."
+  }
+},
+ {
   "id": "erie-koa",
   "name": "Erie KOA Holiday",
   "ownertype": "Private Campground",
