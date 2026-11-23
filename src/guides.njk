@@ -123,11 +123,37 @@ permalink: "g/{{ guide.slug }}.html"
       flex-direction: column;
       box-shadow: 0 1px 3px rgba(0,0,0,0.04);
     }
-    .featured-camp-card img {
+    .featured-camp-media {
+      position: relative;
       width: 100%;
       height: 170px;
-      object-fit: cover;
       background: #e2e8f0;
+    }
+    .featured-camp-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .featured-camp-badge {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 64px;
+      height: auto;
+      pointer-events: none;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+    }
+    .featured-camp-updated {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      background: rgba(15, 23, 42, 0.88);
+      color: #ffffff;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
     }
     .featured-camp-body {
       padding: 1rem 1.1rem 1.15rem;
@@ -358,7 +384,15 @@ permalink: "g/{{ guide.slug }}.html"
           {% set camp = campgrounds | findCampground(campId) %}
           {% if camp %}
           <div class="featured-camp-card">
-            <img src="{{ camp.image }}" alt="{{ camp.name }}" onerror="this.src='/favicon-96x96.png'; this.style.objectFit='contain';">
+            <div class="featured-camp-media">
+              <img class="featured-camp-thumb" src="{{ camp.image }}" alt="{{ camp.name }}" onerror="this.src='/favicon-96x96.png'; this.style.objectFit='contain';">
+              {% if camp.ownerVerified %}
+              <img class="featured-camp-badge" src="/images/owner-verified-badge.svg" alt="Owner Verified Campground">
+              {% endif %}
+              {% if camp.updatedDate %}
+              <span class="featured-camp-updated">Updated {{ camp.updatedDate | shortMonthYear }}</span>
+              {% endif %}
+            </div>
             <div class="featured-camp-body">
               <div>
                 <span class="featured-camp-kicker">{{ camp.ownertype }} &bull; {{ camp.city }}, {{ camp.state }}</span>
