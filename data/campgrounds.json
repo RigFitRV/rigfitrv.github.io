@@ -1,5 +1,57 @@
 [
  {
+  "id": "family-affair-campground",
+  "name": "Family Affair Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-23",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "PA",
+  "city": "North East",
+  "featured": true,
+  "lat": 42.167834,
+  "lng": -79.776614,
+  "image": "/images/family-affair-campground.jpg",
+  "mapImage": "/images/family-affair-campground-map.jpg",
+  "address": "9640 Findley Lake Rd, North East, PA 16428",
+  "gps": "42.1678° N, 79.7766° W",
+  "phone": "+18147225636",
+  "website": "https://www.familyaffaircampground.com/",
+  "summary": "Rolling 66-acre private campground in northwestern Pennsylvania located between I-90 and I-86 near Lake Erie and Findley Lake, offering 30/50-amp hookups and limited pull-through sites alongside a heavy seasonal community.",
+  "scorecard": {
+    "maxRigLength": "Up to 45–50 ft (limited transient pull-through availability; many overnight sites are tighter)",
+    "toadFriendliness": "Moderate — 4 pull-through sites available; most transient back-in spots require unhooking before backing in",
+    "treeClearance": "Mixed — rolling grassy terrain with both open sites and wooded loops requiring overhead branch awareness",
+    "bestBigRigLoops": "Main pull-through row near the entrance/office (full hookups, 50-amp)",
+    "bestSmallRigLoops": "Wooded partial-hookup and interior back-in sections (better suited for sub-30 ft Class C rigs and travel trailers)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (North), take Exit 41 onto PA-89 South for 0.5 miles to Cole Rd, turn left on Cole Rd to the stop sign, then turn right onto Findley Lake Rd (PA-426 South) for 0.7 miles to the campground entrance (follow the green directional signs). From I-86 / NY-17 (South), take Exit 4 onto NY-426 / PA-426 North (Findley Lake Rd) and continue 3 miles north straight to the campground.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Custom big-rig routing helps avoid narrow rural cut-throughs around Findley Lake and keeps you strictly on PA-89/Cole Rd or PA-426."
+    }
+  },
+  "toadStrategy": {
+    "text": "If assigned one of the 4 pull-through sites, stay hitched if length permits; if assigned an overnight back-in site, pull over along the wide entry lane near the office/campground entrance to drop your tow vehicle before navigating the interior gravel loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Essential for watching tight tree lines and neighboring seasonal rigs when backing into overnight spaces."
+    }
+  },
+  "content": {
+    "overview": "A family-oriented 66-acre park featuring a catch-and-release fishing pond, swimming pool, playground, game room, wooded hiking trails, and weekend planned activities. Note that a large portion of the 121 sites are occupied by seasonal campers, so transient overnight inventory is more compact.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects coach electronics on older 30/50-amp pedestals in shared utility hookup sections."
+    },
+    "loopC": "Features 4 pull-through sites and full water/electric/sewer 50-amp hookups near the front of the property—best choice for 30+ ft motorhomes and fifth wheels.",
+    "loopsAB": "Shaded and grassy interior back-in sites offering 30/50-amp electric and water (with an on-site dump station near the exit for partial-hookup campers)."
+  }
+},
+ {
   "id": "peaceful-woodlands-family-campground",
   "name": "Peaceful Woodlands Family Campground",
   "ownertype": "Private Campground",
