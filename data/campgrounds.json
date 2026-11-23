@@ -1,5 +1,54 @@
 [
  {
+  "id": "presque-isle-passage-rv-park",
+  "name": "Presque Isle Passage RV Park",
+  "ownertype": "RV Resort",
+  "addedDate": "2026-11-23",
+  "state": "PA",
+  "city": "Fairview",
+  "featured": true,
+  "lat": 42.021556,
+  "lng": -80.185973,
+  "image": "/images/presque-isle-passage-rv-park.jpg",
+  "mapImage": "/images/presque-isle-passage-rv-park-map.jpg",
+  "address": "6300 Sterrettania Rd, Fairview, PA 16415",
+  "gps": "42.021556° N, 80.185973° W",
+  "phone": "+18148333272",
+  "website": "http://presqueislepassage.com/",
+  "summary": "Convenient full-hookup RV park located on Sterrettania Rd (PA-832) just 1.5 miles south of I-90 Exit 18 in Fairview, PA, offering level pull-through pads and quick, direct highway access to Presque Isle State Park without downtown Erie congestion.",
+  "scorecard": {
+    "maxRigLength": "Up to 45–60 ft (long, level 50-amp full-hookup pull-through sites built for Class A pushers and large fifth wheels)",
+    "toadFriendliness": "High — easy turn-in directly off PA-832 (Sterrettania Rd) with wide pull-through lanes that let rigs stay hitched overnight or unhook right at their pad",
+    "treeClearance": "Excellent — open, well-maintained resort lanes with high canopy and zero low-hanging interior branches along main rows",
+    "bestBigRigLoops": "Main Central Full-Hookup Pull-Through Rows (40–60 ft rigs)",
+    "bestSmallRigLoops": "Perimeter Back-In & Patio Sites (ideal for Class C motorhomes and travel trailers under 35 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (West or East), take Exit 18 onto PA-832 South (Sterrettania Rd) toward McKean/Fairview and drive south for approximately 1.5 miles; the park entrance is on the right (west side of PA-832). Staying on PA-832 directly from I-90 Exit 18 keeps you on a straight, wide two-lane state route with a clean right-hand turn into the entrance apron, avoiding residential Fairview cut-through roads.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps routing locked onto PA-832 directly from I-90 Exit 18 without diverting onto narrow township side roads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Pull directly off Sterrettania Rd (PA-832) into the wide registration lane; rigs booked in pull-through sites can drive straight onto their pad to unhook (or stay hitched for overnight stops), while back-in guests can unhook near the check-in office before entering interior rows.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helpful for monitoring rear clearance and utility pedestals when backing onto perimeter pads."
+    }
+  },
+  "content": {
+    "overview": "Situated in Fairview just south of I-90 Exit 18 and 10–12 minutes from Presque Isle State Park via PA-832 North, Presque Isle Passage RV Park provides quiet, big-rig-friendly full-hookup camping away from busy Peninsula Dr beach traffic.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects coach electronics on high-draw 50-amp pedestals during peak summer air-conditioning loads."
+    },
+    "loopC": "Extra-long, level 50-amp full-hookup pull-through sites with generous slide-out spacing and easy swing radii for 40+ ft Class A motorhomes and fifth wheels.",
+    "loopsAB": "Level back-in full-hookup sites with 30/50-amp power, great for Class C rigs, camper vans, and mid-size travel trailers."
+  }
+},
+ {
   "id": "saras-campground",
   "name": "Sara's Campground",
   "ownertype": "Private Campground",
