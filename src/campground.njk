@@ -508,12 +508,13 @@ permalink: "c/{{ camp.id }}.html"
       {% if camp.content.loopsAB %}<p><strong>Wooded &amp; Small-Rig Loops:</strong> {{ camp.content.loopsAB }}</p>{% endif %}
 
       {% if camp.mapImage %}
-      {% if camp.mapImage2 %}
-      <hr>
-      <h2>🗺️ Official Campground Layout Map</h2>
-      <img class="camp-map-img" src="{{ camp.mapImage }}" alt="{{ camp.name }} Official Campground Layout Map" onerror="this.parentElement.style.display='none'">
-      <img class="camp-map-img" src="{{ camp.mapImage2 }}" alt="{{ camp.name }} Official Campground Layout Map Page 2" onerror="this.parentElement.style.display='none'">
-      {% endif %}
+  <hr>
+  <h2>🗺️ Official Campground Layout Map</h2>
+  <img class="camp-map-img" src="{{ camp.mapImage }}" alt="{{ camp.name }} Official Campground Layout Map" onerror="this.style.display='none'">
+  {% if camp.mapImage2 %}
+    <img class="camp-map-img" src="{{ camp.mapImage2 }}" alt="{{ camp.name }} Official Campground Layout Map Page 2" style="margin-top: 1rem;" onerror="this.style.display='none'">
+  {% endif %}
+{% endif %}
 
       <hr>
       <h2>🚗 Toad Unhook Strategy</h2>
