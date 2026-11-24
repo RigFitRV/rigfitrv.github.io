@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sandy-pond-campground",
+    "name": "Sandy Pond Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-24",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "MA",
+    "city": "Plymouth",
+    "featured": true,
+    "lat": 41.792953,
+    "lng": -70.602653,
+    "image": "/images/sandy-pond-campground.jpg",
+    "mapImage": "/images/sandy-pond-campground-map.jpg",
+    "address": "834 Bourne Rd, Plymouth, MA 02360",
+    "gps": "41.792953° N, 70.602653° W",
+    "phone": "+1 (508) 759-9336",
+    "website": "https://modernamericacampgrounds.com/massachusetts/sandy-pond-campground",
+    "summary": "Tucked in the pine woods of South Plymouth just 3 miles north of the Cape Cod Canal, Sandy Pond Campground offers over 200 wooded campsites with 20/30/50-amp full hookups and easy MA-3 and US-6 access without crossing the Cape Cod bridges.",
+    "scorecard": {
+      "maxRigLength": "Up to 40+ ft (select 50-amp full-hookup pull-through and open sites; wooded back-in loops vary)",
+      "toadFriendliness": "Moderate — straightforward paved approach off MA-3 and Bourne Road, though internal pine-loop turns tighten near the pond",
+      "treeClearance": "Dense South Plymouth pitch-pine and oak canopy across most loops; verify overhead branch and slide-out clearance on wooded back-in pads",
+      "bestBigRigLoops": "50-Amp Full-Hookup Pull-Through & Main Entrance Field Sites",
+      "bestSmallRigLoops": "Shaded Pond-Side & Wooded 30-Amp Back-In Sites (under 30 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take MA-3 South toward the Sagamore Bridge and Cape Cod Canal, exiting onto US-6 / MA-3A toward Bourne and Plymouth, or approach via I-495 South to MA-25 East and exit before the Bourne Bridge onto Head of the Bay Road / Bourne Road north into South Plymouth to 834 Bourne Rd. Staying on the mainland side of the Cape Cod Canal avoids Sagamore and Bourne Bridge traffic bottlenecks and tight Cape village roads—avoid unpaved Myles Standish State Forest fire roads when towing.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps large rigs on paved state connectors off MA-3 and I-495 while avoiding unpaved Myles Standish forest roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook your towed vehicle in the front check-in and staging area immediately off Bourne Road before entering the wooded interior loops, as mature pine trees and sandy loop corners make backing with a toad attached tight.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps spot low pine branches and narrow tree trunks when backing into shaded South Plymouth sites."
+      }
+    },
+    "content": {
+      "overview": "Family-focused Modern America Campgrounds retreat set around a spring-fed pond 3 miles from the Cape Cod Canal and 15 minutes from historic downtown Plymouth, featuring 200+ sites (20/30/50-amp full hookups, cable, and Wi-Fi), a sandy freshwater beach, swimming, bass fishing, canoe and kayak access, jumping pillow, GaGa ball, recreation hall, and arcade.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects RV electronics against summer coastal and Cape-area peak power demand on 30A/50A pedestals."
+      },
+      "loopC": "Larger 50-amp full-hookup pull-through and wider perimeter sites closer to the main entrance and recreation hall, built for Class A motorhomes, Class Cs, and fifth-wheels needing easier swing clearance.",
+      "loopsAB": "Classic shaded pine-forest back-in sites near Sandy Pond's shoreline and beach; best suited for travel trailers, Class Cs under 30 ft, and pop-ups seeking deep shade and pond access."
+    }
+  }
+]
