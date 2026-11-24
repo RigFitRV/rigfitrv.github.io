@@ -2,13 +2,10 @@
   "name": "rigfitrv",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx @11ty/eleventy"
+    "validate:json": "node -e \"const fs=require('fs'),path=require('path'),dir='src/_data/campgrounds_by_state';fs.readdirSync(dir).filter(f=>f.endsWith('.json')).forEach(f=>{JSON.parse(fs.readFileSync(path.join(dir,f),'utf8'));console.log('Valid:',f);});\"",
+    "build": "npm run validate:json && eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
   }
-},
-"scripts": {
-  "validate:json": "node -e \"const fs=require('fs'),path=require('path'),dir='src/_data/campgrounds_by_state';fs.readdirSync(dir).filter(f=>f.endsWith('.json')).forEach(f=>{JSON.parse(fs.readFileSync(path.join(dir,f),'utf8'));console.log('Valid:',f);});\"",
-  "build": "npm run validate:json && eleventy"
 }
