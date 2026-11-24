@@ -1,0 +1,470 @@
+[
+  {
+    "id": "salt-rock-state-campground",
+    "name": "Salt Rock State Campground",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-28",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Baltic",
+    "featured": true,
+    "lat": 41.643666,
+    "lng": -72.089258,
+    "image": "/images/salt_rock_state_campground.jpg",
+    "mapImage": "/images/salt_rock_state_campground_map.jpg",
+    "address": "173 Scotland Rd, Baltic, CT 06330",
+    "gps": "41.6437° N, 72.0893° W",
+    "phone": "(860) 822-0884",
+    "website": "https://portal.ct.gov/DEEP/State-Parks/Campgrounds/Salt-Rock-State-Campground",
+    "summary": "Tranquil riverfront state park along the Shetucket River offering electric hookups, shaded back-in sites, and scenic bozrah ct camping access in rural Eastern Connecticut.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (Quiet Riverfront Back-In Sites)",
+      "toadFriendliness": "Good (entrance parking area available for unhooking)",
+      "treeClearance": "Wooded canopy along Shetucket River corridor; moderate clearance required",
+      "bestBigRigLoops": "Main Access Loop (Water/Electric Sites)",
+      "bestSmallRigLoops": "Riverfront Tent & Pop-Up Rows"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: CT-97 / Scotland Road Access",
+      "text": "Accessed via CT-97 onto Scotland Road (CT-97) in Baltic along the Shetucket River valley. Approach routes feature wide, paved state two-lane roads with clear overhead clearances for mid-sized RVs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for routing along rural CT river roads and avoiding low-clearance rural bridges."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the unhook area in the main entrance parking area near the contact station before navigating into the campground loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor rear clearance when unhooking in the park's entrance staging space."
+      }
+    },
+    "content": {
+      "overview": "Salt Rock State Campground delivers a peaceful bozrah ct camping setting surrounded by rolling farmland and river views, offering basic electric hookups, outdoor pool, fishing, and hiking trails.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics from voltage drops on older state park electric pedestals."
+      },
+      "loopC": "Main campground loop offers 50 water/electric sites with level gravel pads best suited for travel trailers and Class C motorhomes up to 35 feet.",
+      "loopsAB": "Lower riverside rows provide shaded back-in spots with direct access to fishing banks along the Shetucket River."
+    }
+  },
+  {
+    "id": "hopeville-pond-state-park",
+    "name": "Hopeville Pond State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-28",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Griswold",
+    "featured": true,
+    "lat": 41.608332,
+    "lng": -71.92711,
+    "image": "/images/hopeville_pond_state_park.jpg",
+    "mapImage": "/images/hopeville_pond_state_park_map.jpg",
+    "address": "929 Hopeville Rd, Griswold, CT 06351",
+    "gps": "41.6083° N, 71.9271° W",
+    "phone": "(860) 376-2920",
+    "website": "https://portal.ct.gov/DEEP/State-Parks/Parks/Hopeville-Pond-State-Park",
+    "summary": "Scenic state park in Eastern Connecticut offering wooded campsites, swimming, boat launching, and peaceful bozrah ct camping access along Hopeville Pond.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (Wooded Back-In Sites)",
+      "toadFriendliness": "Moderate (unhooking recommended at main entrance dump station area)",
+      "treeClearance": "Shaded pine and oak stands with moderate low-branch canopy awareness needed on inner loops",
+      "bestBigRigLoops": "Main Campground Loop A (Dry/No Hookups, Water Spigots Nearby)",
+      "bestSmallRigLoops": "Loop B & Wooded Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-395 Exit 86 to Hopeville Road",
+      "text": "Accessed via I-395 Exit 86 onto CT-201 and Hopeville Road. State and local connector roads feature moderate curves and tree-lined stretches suitable for mid-sized RVs and trailers.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides custom RV routing off I-395 onto local eastern Connecticut connector roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the wide turnaround near the park entrance station or dump station area to unhook dinghy vehicles prior to entering the camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists when unhooking in tight state park dump station turnaround areas."
+      }
+    },
+    "content": {
+      "overview": "Hopeville Pond State Park offers an authentic state forest bozrah ct camping experience, featuring tranquil waterfront access, hiking trails, fishing, and rustic wooded back-in campsites.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Recommended for protecting onboard electronics if utilizing auxiliary power sources or generator hookups during peak seasons."
+      },
+      "loopC": "Main loop sites provide comfortable gravel pads surrounded by mature pines, best suited for trailers and motorhomes up to 35 feet.",
+      "loopsAB": "Perimeter back-in sites offer natural privacy and quick access to the pond shoreline for kayaking and fishing."
+    }
+  },
+  {
+    "id": "acorn-acres-campground",
+    "name": "Acorn Acres Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-28",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Bozrah",
+    "featured": true,
+    "lat": 41.53022,
+    "lng": -72.223873,
+    "image": "/images/acorn_acres_campground.jpg",
+    "mapImage": "/images/acorn_acres_campground_map.jpg",
+    "address": "135 Lake Rd, Bozrah, CT 06334",
+    "gps": "41.5302° N, 72.2239° W",
+    "phone": "(860) 859-1020",
+    "website": "https://acornacrescampsites.com",
+    "summary": "Quiet wooded resort in Bozrah offering level campsites, 50-amp full hookups, fishing pond, and prime bozrah ct camping access near Southeastern CT attractions.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Wooded Back-In & Pull-Through Sites)",
+      "toadFriendliness": "Good (staging lane near registration office)",
+      "treeClearance": "Wooded setting with high oak canopy along main thoroughfares",
+      "bestBigRigLoops": "Lower Pull-Through Section (50-Amp Full Hookup)",
+      "bestSmallRigLoops": "Upper Forest Back-In Rows"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: CT-2 Exit 23 to Lake Road",
+      "text": "Accessed via CT-2 Exit 23 onto CT-163 South, turning onto Lake Road. Local town roads present gentle winding sections suitable for mid-to-large motorhomes and fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for routing around rural town road turnoffs and low-clearance rural bridges."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the unhooking staging area alongside the main office registration loop before pulling into interior campsite rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with rear visibility when unhooking dinghy vehicles in wooded staging lanes."
+      }
+    },
+    "content": {
+      "overview": "Acorn Acres Campground delivers a peaceful bozrah ct camping experience nestled in rural Southeastern Connecticut, featuring shaded full-hookup sites, family activities, and relaxing natural surroundings.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Safeguards 50-amp coach electrical systems during peak summer air-conditioning loads."
+      },
+      "loopC": "Pull-through sites feature 50-amp power and level gravel pads with comfortable slide-out clearances.",
+      "loopsAB": "Wooded perimeter back-in rows provide quiet natural shade ideal for travel trailers and pop-up campers."
+    }
+  },
+  {
+    "id": "hidden-acres-family-campground",
+    "name": "Hidden Acres Family Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-28",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Preston",
+    "featured": true,
+    "lat": 41.553132,
+    "lng": -72.014564,
+    "image": "/images/hidden_acres_family_campground.jpg",
+    "mapImage": "/images/hidden_acres_family_campground_map.jpg",
+    "address": "47 River Rd, Preston, CT 06365",
+    "gps": "41.5531° N, 72.0146° W",
+    "phone": "(860) 887-9633",
+    "website": "http://www.hiddenacrescamp.com/",
+    "summary": "Picturesque Quinebaug Riverfront park offering level pull-throughs, 50-amp full hookups, and peaceful bozrah ct camping access near Southeastern CT attractions.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Level Wooded & Open Pull-Through Sites)",
+      "toadFriendliness": "Good (designated unhooking space along main entrance drive)",
+      "treeClearance": "Moderate, mature hardwood canopy requiring careful line-of-sight awareness on interior loops",
+      "bestBigRigLoops": "Lower River Pull-Through Rows (50-Amp Full Hookup)",
+      "bestSmallRigLoops": "Upper Wooded Back-In & Tent Sections"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: CT-12 to River Road",
+      "text": "Accessed via CT-12 onto River Road along the Quinebaug River. The primary approach roads provide clear sightlines for mid-to-large motorhomes and fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Navigates rural CT turnoffs safely while avoiding weight-restricted county bridges."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the unhook area near the main entrance office loop to disconnect dinghy vehicles before navigating interior camp rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides tight-angle rear visibility when disconnecting tow vehicles in the narrower office staging lane."
+      }
+    },
+    "content": {
+      "overview": "Hidden Acres Family Campground delivers an authentic, scenic bozrah ct camping retreat featuring riverfront views, spacious full-hookup pads, and quiet family surroundings.",
+      "recommendedGear": {
+        "gearKey": "x-chock-wheel-stabilizers",
+        "reason": "Essential for eliminating tandem-axle motion on gravel riverfront pull-through pads."
+      },
+      "loopC": "Riverfront pull-through sites feature 50-amp utilities with space for dual-slide rigs and tow vehicles.",
+      "loopsAB": "Upper wooded rows offer shaded back-in sites surrounded by natural foliage, ideal for travel trailers."
+    }
+  },
+  {
+    "id": "strawberry-park-rv-resort",
+    "name": "Strawberry Park RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-28",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Preston",
+    "featured": true,
+    "lat": 41.536785,
+    "lng": -71.954977,
+    "image": "/images/strawberry_park_rv_resort.jpg",
+    "mapImage": "/images/strawberry_park_rv_resort_map.jpg",
+    "address": "Strawberry Park Pavillion, 42 Pierce Rd, Preston, CT 06365",
+    "gps": "41.5368° N, 71.9550° W",
+    "phone": "(860) 886-1944",
+    "website": "https://www.strawberrypark.net",
+    "summary": "Premier Southeastern Connecticut resort offering wide pull-through sites, 50-amp full hookups, and top-tier bozrah ct camping access near Mystic Seaport and local attractions.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Executive Pull-Through Sites)",
+      "toadFriendliness": "Excellent (wide entry staging loop near registration office)",
+      "treeClearance": "High, trimmed pine/hardwood canopy along primary big-rig access roads",
+      "bestBigRigLoops": "Executive Pull-Through Rows (50-Amp Full Hookup)",
+      "bestSmallRigLoops": "Upper Wooded Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-395 to CT-165 / Pierce Rd",
+      "text": "Accessed via I-395 to CT-165 East toward Preston, turning onto Pierce Road. Main state routes feature smooth access and clear sightlines for 40+ ft Class A motorhomes and heavy fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for navigating narrow Connecticut rural routes and avoiding low-clearance historic underpasses off I-395."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated unhook area past the main office registration gate before pulling into the interior campsite loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering around busy resort check-in lanes."
+      }
+    },
+    "content": {
+      "overview": "Strawberry Park RV Resort delivers an outstanding bozrah ct camping experience in Southeastern Connecticut, featuring level gravel pads, full 50-amp utility pedestals, heated pools, and family amenities.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects high-draw Class A and fifth-wheel electrical systems against summer grid spikes during peak weekend resort usage."
+      },
+      "loopC": "Executive pull-through rows accommodate rigs up to 45 ft with multiple slides extended while leaving ample room for tow vehicle parking.",
+      "loopsAB": "Shaded back-in loops offer secluded wooded surrounds ideal for mid-sized travel trailers and smaller Class C units."
+    }
+  },
+  {
+    "id": "odetah-camping-resort",
+    "name": "Odetah Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Bozrah",
+    "featured": true,
+    "lat": 41.5457,
+    "lng": -72.1812,
+    "image": "/images/odetah_camping_resort.jpg",
+    "mapImage": null,
+    "address": "35 Bozrah Street Rd, Bozrah, CT 06334",
+    "gps": "41.5457° N, 72.1812° W",
+    "phone": "(860) 887-1930",
+    "website": "https://www.odetah.com",
+    "summary": "Top-tier independent resort in eastern CT set around a spring-fed lake, offering full hookups, wooded hillside sites, and solid highway access via Route 2.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Careful Site Selection Required)",
+      "toadFriendliness": "Good (welcome center registration apron allows unhooking)",
+      "treeClearance": "Moderate; watch lower canopy branches along winding interior hillside loops",
+      "bestBigRigLoops": "Lower Lakeview Pull-Through Rows",
+      "bestSmallRigLoops": "Upper Wooded Hillside Back-In Loops"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Primary Access via Route 2",
+      "text": "Easiest access is via CT Route 2 (Exit 23/24) onto Route 163 and Bozrah Street Road. Local roads feature rolling hills and winding sections. Take wide turns entering the main gateway and watch low-hanging roadside tree canopy.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for guiding motorhomes safely past narrow rural Connecticut connectors."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated registration apron near the welcome center to unhook your toad before heading up or down the resort's terraced loop roads.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor rear clearance when unhooking on the welcome center apron before navigating terraced loops."
+      }
+    },
+    "content": {
+      "overview": "Odetah Camping Resort is a premier, independent family resort built around a 32-acre private lake, offering exceptional amenities and serene wooded surroundings.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Crucial for adjusting pitch on terraced hillside gravel site pads."
+      },
+      "loopC": "Lower lake-level pull-through sites provide easiest access for large motorhomes and fifth wheels.",
+      "loopsAB": "Upper terraced hillside loops offer excellent shade and privacy for mid-size trailers."
+    }
+  },
+  {
+    "id": "salem-farms-campground",
+    "name": "Salem Farms Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Salem",
+    "featured": true,
+    "lat": 41.4960,
+    "lng": -72.3147,
+    "image": "/images/salem_farms_campground.jpg",
+    "mapImage": "/images/salem_farms_campground_map.jpg",
+    "address": "39 Alexander Rd, Salem, CT 06420",
+    "gps": "41.4960° N, 72.3147° W",
+    "phone": "(860) 859-2320",
+    "website": "https://www.salemfarmscampground.com",
+    "summary": "Family-owned independent park in rural New London County, CT, offering spacious 40x50 ft sites, full hookups, and peaceful wooded grounds.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Spacious Sites)",
+      "toadFriendliness": "Good (office entry parking area provides unhooking space)",
+      "treeClearance": "Moderate; watch lower canopy branches along mature wooded interior loops",
+      "bestBigRigLoops": "Main Transit Pull-Through Sites",
+      "bestSmallRigLoops": "Inner Wooded Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Stick to Primary State Corridors",
+      "text": "Access via Rt-82 or Rt-85 before connecting onto Alexander Road. Stay on primary state routes when navigating rural New London County rather than following unverified GPS shortcuts down narrow township side roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental routing onto narrow rural dirt or seasonal lanes in New London County."
+      }
+    },
+    "toadStrategy": {
+      "text": "Stage near the main office registration area upon arrival to unhook your towed vehicle prior to making turns into the wooded loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Improves rear visibility when unhooking near the office entrance before entering wooded rows."
+      }
+    },
+    "content": {
+      "overview": "Salem Farms Campground is an established, independent family-owned park offering spacious sites surrounded by rolling country farmland and shade trees.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Ideal for fine-tuning setup on natural gravel and grass site pads."
+      },
+      "loopC": "Transit pull-through sites offer generous clearance for multi-axle trailers and motorhomes.",
+      "loopsAB": "Shaded back-in sites offer quiet, private settings surrounded by mature forest trees."
+    }
+  },
+  {
+    "id": "aces-high-rv-park",
+    "name": "Aces High RV Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "East Lyme",
+    "featured": true,
+    "lat": 41.4057,
+    "lng": -72.2251,
+    "image": "/images/aces_high_rv_park.jpg",
+    "mapImage": "/images/aces_high_rv_park_map.jpg",
+    "address": "301 Chesterfield Road, East Lyme, CT 06333",
+    "gps": "41.4057° N, 72.2251° W",
+    "phone": "(860) 739-8858",
+    "website": "https://aceshighrvpark.com",
+    "summary": "Award-winning independent campground near I-95 in East Lyme, CT, featuring spacious pull-through sites, full hookups, and big-rig friendly access.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (wide entry lane and dedicated office registration staging)",
+      "treeClearance": "Good overall; watch overhanging limbs on interior wooded back-in loops",
+      "bestBigRigLoops": "Central Open Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Pond-Side Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Primary Access via I-95",
+      "text": "Best access is via I-95 (Exit 74), proceeding north on CT-161 before connecting onto Chesterfield Road. Chesterfield Road features rolling hills and minor winding sections typical of eastern CT, but has no low clearance hazards and comfortably accommodates long rigs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for confirming highway clearance and avoiding narrow rural side-street navigation."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the wide main entry lane near the office registration building to unhook your toad before entering the main loop roads.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Gives clear rear sightlines when disconnecting a dinghy vehicle in the main entry staging lane."
+      }
+    },
+    "content": {
+      "overview": "Aces High RV Park is a highly rated, family-owned campground in East Lyme, CT, providing clean gravel sites, pond views, and easy transit access to the Long Island Sound coast.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for fine-tuning stability on gravel pads across gently sloping interior terrain."
+      },
+      "loopC": "Central pull-through rows feature 50-amp full hookups and ample room for multi-axle setups.",
+      "loopsAB": "Perimeter wooded back-in sites offer shade and privacy for mid-size trailers and motorhomes."
+    }
+  },
+  {
+    "id": "sun-outdoors-mystic",
+    "name": "Sun Outdoors Mystic",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "CT",
+    "city": "Old Mystic",
+    "featured": true,
+    "lat": 41.3855,
+    "lng": -71.9560,
+    "image": "/images/sun_outdoors_mystic.jpg",
+    "mapImage": "/images/sun_outdoors_mystic_map.jpg",
+    "address": "45 Camp Ground Rd, Old Mystic, CT 06372",
+    "gps": "41.3855° N, 71.9560° W",
+    "phone": "(860) 536-4214",
+    "website": "https://www.sunoutdoors.com/connecticut/sun-outdoors-mystic",
+    "summary": "Premier coastal RV resort located off major transit corridors near Mystic Seaport, featuring modern gravel sites, full hookups, and large-rig accessibility.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Good (wide entry apron and check-in registration loop)",
+      "treeClearance": "Well-maintained along main resort roads; watch local residential approach routes",
+      "bestBigRigLoops": "Pull-through sites with full hookups",
+      "bestSmallRigLoops": "Back-in perimeter and interior resort sites"
+    },
+    "approach": {
+      "title": "Route Advisory: Stick to CT-27 and Designated Corridors",
+      "text": "Easiest access is via I-95 (Exit 90) onto CT-27 North toward Old Mystic, then onto Camp Ground Road. Avoid cutting through historic local backroads or residential connector roads in Old Mystic, which may feature narrower lanes or low-hanging tree branches.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for overriding hazardous local backroad shortcuts and guiding large rigs safely."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the wider entry apron near the main clubhouse and registration loop to check in and stage before proceeding into internal camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with rear clearance awareness while unhooking near the main clubhouse check-in loop."
+      }
+    },
+    "content": {
+      "overview": "Sun Outdoors Mystic is a premier coastal resort located in Old Mystic, Connecticut, offering modern amenities, level gravel sites, and convenient access to the Mystic coastline.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Great for achieving a stable, perfectly level setup on gravel pad sites."
+      },
+      "loopC": "Pull-through rows provide easy in-and-out access for big rigs and multi-axle trailers.",
+      "loopsAB": "Back-in perimeter sites offer quiet shaded environments closer to resort amenities."
+    }
+  }
+]

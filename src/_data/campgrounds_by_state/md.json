@@ -1,0 +1,678 @@
+[
+  {
+    "id": "bay-shore-campground-rock-hall",
+    "name": "Bay Shore Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-09",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "featured": true,
+    "address": "4228 Eastern Neck Rd, Rock Hall, MD 21661",
+    "city": "Rock Hall",
+    "state": "MD",
+    "lat": 39.094564,
+    "lng": -76.231480,
+    "gps": "39.094564, -76.231480",
+    "phone": "+14106397485",
+    "website": "https://bayshorecamping.com/",
+    "websiteLabel": "Bay Shore Campground Official Website",
+    "image": "/images/bay-shore-campground.jpg",
+    "mapImage": "/images/bay-shore-campground-map.jpg",
+    "summary": "Verified big-rig clearance, waterfront routing guidance, and campground insights for Bay Shore Campground located directly on the Chesapeake Bay in Rock Hall, Maryland.",
+    "scorecard": {
+      "maxRigLength": "45 feet",
+      "toadFriendliness": "Good; wide internal campground roads with large pull-through sites",
+      "treeClearance": "Minimal canopy near the shoreline; open coastal layout",
+      "bestBigRigLoops": "Main Pull-Through Rows",
+      "bestSmallRigLoops": "Waterfront View Sites"
+    },
+    "approach": {
+      "text": "Approaching via Route 213 to MD-20 West straight into Rock Hall, then following Eastern Neck Road south toward the refuge. The roads are well-paved, two-lane rural state highways with smooth transitions.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable routing customized for large rigs traveling through Maryland's Eastern Shore."
+      }
+    },
+    "content": {
+      "overview": "Spanning 60 acres directly on the Chesapeake Bay, Bay Shore Campground offers stunning sunset views, a peaceful atmosphere, fishing ponds, a boat ramp, and proximity to the Eastern Neck National Wildlife Refuge.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Safeguards electrical systems against fluctuations on 30/50 amp pedestals."
+      },
+      "loopC": "The premier waterfront sites sit right against the bay shore, providing unobstructed views and easy access to cooling coastal breezes.",
+      "loopsAB": "The interior layout features large pull-through sites equipped with 30 and 50 amp service, making setup straightforward for big rigs."
+    },
+    "toadStrategy": {
+      "text": "The main entrance area provides wide maneuvering space near the office, allowing you to unhook your towed vehicle comfortably before rolling into your site.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Ensures reliable, heavy-duty flat towing connection throughout your trip down the peninsula."
+      }
+    }
+  },
+  {
+    "id": "elk-neck-state-park",
+    "name": "Elk Neck State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-09",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "featured": true,
+    "address": "95 Campground Rd, North East, MD 21901",
+    "city": "North East",
+    "state": "MD",
+    "lat": 39.479960,
+    "lng": -75.981978,
+    "gps": "39.479960, -75.981978",
+    "phone": "+14102875333",
+    "website": "https://dnr.maryland.gov/publiclands/pages/central/elkneck.aspx",
+    "websiteLabel": "Elk Neck State Park Website",
+    "image": "/images/elk-neck-state-park.jpg",
+    "mapImage": null,
+    "summary": "Verified big-rig clearance, routing guidance, and campground insights for Elk Neck State Park situated on the scenic peninsula between the Chesapeake Bay and the Elk River.",
+    "scorecard": {
+      "maxRigLength": "50 feet",
+      "toadFriendliness": "Good; wide arterial park roads with accessible registration turnout space",
+      "treeClearance": "Moderate-heavy hardwood canopy; watch for overhead branches on interior loops",
+      "bestBigRigLoops": "Northeast Camping Loop",
+      "bestSmallRigLoops": "Turkey Point & Roger Clark Loops"
+    },
+    "approach": {
+      "text": "Approaching via Route 273 and Turkey Point Road (MD-272) south of North East, MD, then turning onto Campground Rd. Roads are paved and two-lane, but expect rolling hills and tightening tree lines as you near the park boundary.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides security and clarity on narrow, tree-lined coastal access roads."
+      }
+    },
+    "content": {
+      "overview": "Elk Neck spans over 2,000 acres featuring sandy beaches, clay cliffs, marshlands, and the historic Turkey Point Lighthouse. Its multiple camping loops offer varied layouts ranging from rustic tent areas to full-hookup big-rig sites.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive onboard electronics against voltage sags on busy state park loops."
+      },
+      "loopC": "The Northeast Loop is the premier choice for large motorhomes and fifth wheels, offering 28 full-hookup sites with wide pads.",
+      "loopsAB": "The Chester Loop provides 19 electric-only sites with convenient access to modern bathhouses and trailheads."
+    },
+    "toadStrategy": {
+      "text": "The main campground registration area along Campground Rd features a wide paved turnout area ideal for pulling over to unhook towed vehicles before heading into your assigned loop.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Keeps road spray and grit out of your tow bar joints during transit."
+      }
+    }
+  },
+  {
+    "id": "point-lookout-state-park",
+    "name": "Point Lookout State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-09",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "featured": true,
+    "address": "11175 Point Lookout Rd, Scotland, MD 20687",
+    "city": "Scotland",
+    "state": "MD",
+    "lat": 38.0644,
+    "lng": -76.3357,
+    "gps": "38.0644, -76.3357",
+    "phone": "+13018725688",
+    "website": "https://dnr.maryland.gov/publiclands/pages/southern/pointlookout.aspx",
+    "websiteLabel": "Point Lookout State Park Website",
+    "image": "/images/point-lookout-state-park.jpg",
+    "mapImage": null,
+    "summary": "Verified RV clearance, coastal routing guidance, and campground insights for Point Lookout State Park situated at the confluence of the Chesapeake Bay and Potomac River.",
+    "scorecard": {
+      "maxRigLength": "40 feet",
+      "toadFriendliness": "Good; wide access roads with straightforward staging areas",
+      "treeClearance": "Moderate coastal canopy; watch for low branches on older loop entries",
+      "bestBigRigLoops": "Central Electric Loops",
+      "bestSmallRigLoops": "Lake Conoy Water-Edge Loops"
+    },
+    "approach": {
+      "text": "Approaching via Route 5 South down the St. Mary's peninsula, the highway is wide and well-paved. Watch for sudden coastal crosswinds near the causeway and bridge approaches leading into the park.",
+      "recommendedGear": {
+        "gearKey": "rv-tpms-system",
+        "reason": "Monitors tire temps during long stretches of coastal highway driving."
+      }
+    },
+    "content": {
+      "overview": "Point Lookout offers historic grounds, a Civil War museum, and stunning waterfront camping where the Potomac River meets the Chesapeake Bay. Five separate camping loops provide electric and water options.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Essential protection against shore power fluctuations at state park pedestals."
+      },
+      "loopC": "The electric loops feature spacious back-in pads that comfortably handle rigs up to 40 feet with easy access to modern bathhouses.",
+      "loopsAB": "Lake Conoy loops offer scenic water-edge vistas, best suited for smaller travel trailers, camper vans, and pop-ups."
+    },
+    "toadStrategy": {
+      "text": "The main park entrance road provides wide turnout shoulders to pause and unhook towed vehicles before proceeding into the specific camping loops.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Protects your tow bar components from salt air and coastal road grime."
+      }
+    }
+  },
+  {
+    "id": "pocomoke-river-state-park-milburn-landing",
+    "name": "Pocomoke River State Park - Milburn Landing",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-06",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "featured": true,
+    "address": "3036 Nassawango Rd, Pocomoke City, MD 21851",
+    "city": "Pocomoke City",
+    "state": "MD",
+    "lat": 38.133178,
+    "lng": -75.498234,
+    "gps": "38.133178, -75.498234",
+    "phone": "+14106322566",
+    "website": "https://dnr.maryland.gov/publiclands/pages/eastern/pocomokeriver.aspx",
+    "websiteLabel": "Pocomoke River State Park Website",
+    "image": "/images/pocomoke-river-state-park-milburn-landing.jpg",
+    "mapImage": null,
+    "summary": "Verified RV clearance, routing guidance, and campground insights for Pocomoke River State Park - Milburn Landing in Pocomoke City, Maryland.",
+    "scorecard": {
+      "maxRigLength": "35 feet",
+      "toadFriendliness": "Moderate; unhooking at entry area recommended before loop navigation",
+      "treeClearance": "High overhanging branch warning throughout wooded loops",
+      "bestBigRigLoops": "Main Electric Loop Outer Back-In Pads",
+      "bestSmallRigLoops": "River-Adjacent Non-Electric Loops"
+    },
+    "approach": {
+      "text": "Approaching via Nassawango Road from local rural connectors, access roads feature a rustic, tree-lined asphalt layout. Watch for narrow shoulders and low-hanging tree branches when turning into the main park entrance.",
+      "recommendedGear": {
+        "gearKey": "rv-tpms-system",
+        "reason": "Monitors tire heat and pressure under sustained secondary road driving."
+      }
+    },
+    "content": {
+      "overview": "Milburn Landing is the quieter sister property to Shad Landing, situated on the upper reaches of the Pocomoke River. It features shaded campsites, hiking trails, boat access, and an intimate wilderness atmosphere.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects your onboard electronics against power fluctuations on park electrical pedestals."
+      },
+      "loopC": "The main electric loop offers back-in pads accommodating rigs up to 35 feet, though tight corner turning radii require careful maneuvering around mature pines.",
+      "loopsAB": "Non-electric river loops provide a rustic camping experience best suited for tent campers, camper vans, and smaller travel trailers."
+    },
+    "toadStrategy": {
+      "text": "The main entrance parking apron provides convenient staging space to drop towed vehicles or bikes before navigating into the tight tree canopy of the camping loops.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+      }
+    }
+  },
+  {
+    "id": "pocomoke-river-state-park-shad-landing",
+    "name": "Pocomoke River State Park - Shad Landing",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-06",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "featured": true,
+    "address": "3461 Worcester Hwy, Snow Hill, MD 21863",
+    "city": "Snow Hill",
+    "state": "MD",
+    "lat": 38.129440,
+    "lng": -75.440830,
+    "gps": "38.129440, -75.440830",
+    "phone": "+14106322566",
+    "website": "https://dnr.maryland.gov/publiclands/pages/eastern/pocomokeriver.aspx",
+    "websiteLabel": "Pocomoke River State Park Website",
+    "image": "/images/pocomoke-river-state-park-shad-landing.jpg",
+    "mapImage": null,
+    "summary": "Verified RV clearance, routing guidance, and campground insights for Pocomoke River State Park - Shad Landing in Snow Hill, Maryland.",
+    "scorecard": {
+      "maxRigLength": "40 feet",
+      "toadFriendliness": "Moderate; unhooking at marina or check-in area recommended",
+      "treeClearance": "High overhanging branch warning throughout wooded loops",
+      "bestBigRigLoops": "Blue Heron & Robin’s Nest Electric Loops",
+      "bestSmallRigLoops": "Non-Electric Cypress & Waterfowl Loops"
+    },
+    "approach": {
+      "text": "Approaching via US-113 (Worcester Highway), access roads are clear and well-paved. The main entrance turning lane provides good sightlines, but watch for low-hanging branches as you transition onto internal park roads.",
+      "recommendedGear": {
+        "gearKey": "rv-tpms-system",
+        "reason": "Monitors tire heat and pressure under sustained highway driving along US-113."
+      }
+    },
+    "content": {
+      "overview": "Pocomoke River State Park (Shad Landing) is nestled along the cypress-lined banks of the Pocomoke River. Featuring 170+ shaded campsites, electric hookups, a swimming pool, boat launch, and kayak rentals, it offers deep nature immersion near the Maryland coast.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects your onboard electronics against electrical variations on state park grid connections."
+      },
+      "loopC": "Electric loops (Blue Heron and Robin's Nest) offer 30-amp power and back-in pads handling units up to 40 feet, though careful backing maneuvers around pine trees are required.",
+      "loopsAB": "Non-electric shaded interior loops feature tighter radius turns, lower overhead tree canopies, and are best suited for pop-ups, camper vans, and smaller travel trailers."
+    },
+    "toadStrategy": {
+      "text": "The main camp store and marina parking staging areas provide clear space to unhook towed vehicles before navigating tight wooded loop roads.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+      }
+    }
+  },
+  {
+    "id": "island-resort-campground",
+    "name": "Island Resort Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-06",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "featured": true,
+    "address": "9537 Croppers Island Rd, Newark, MD 21841",
+    "city": "Newark",
+    "state": "MD",
+    "lat": 38.253827,
+    "lng": -75.241615,
+    "gps": "38.253827, -75.241615",
+    "phone": "+14106419838",
+    "website": "http://www.islandresort.org/",
+    "websiteLabel": "Island Resort Campground Website",
+    "image": "/images/island-resort-campground.jpg",
+    "mapImage": "/images/island-resort-campground-map.jpg",
+    "summary": "Verified RV clearance, routing guidance, and campground insights for Island Resort Campground in Newark, Maryland.",
+    "scorecard": {
+      "maxRigLength": "45 feet",
+      "toadFriendliness": "Excellent on wide 49' x 85' site footprints",
+      "treeClearance": "Low overhanging branches; open sky along lakefront sites",
+      "bestBigRigLoops": "Lakefront Ring & Central Pull-Through Sites",
+      "bestSmallRigLoops": "Off-Lake Interior Back-In Sites"
+    },
+    "approach": {
+      "text": "Approaching via Route 113 to SR 374 and Croppers Island Road, access routes are well-paved rural highways. Exercise standard care on two-lane rural connectors when passing oncoming wide loads or farm machinery.",
+      "recommendedGear": {
+        "gearKey": "rv-tpms-system",
+        "reason": "Monitors tire heat and pressure under sustained highway and secondary coastal road driving."
+      }
+    },
+    "content": {
+      "overview": "Island Resort Campground is a tranquil, family-owned waterfront park situated around two lakes near Ocean City and Assateague Island. Featuring large 49' x 85' full-hookup sites, 50-amp power, and catch-and-release fishing, it offers a peaceful coastal retreat.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects your onboard electronics against power fluctuations during peak summer electrical demand."
+      },
+      "loopC": "Lakefront pull-throughs and waterfront perimeter sites offer clear overhead clearance and generous 85-foot site lengths suitable for big rigs up to 45 feet.",
+      "loopsAB": "Off-lake interior back-in sites provide level, wide pads (49' x 85') with full 20/30/50 amp hookups suitable for mid-sized travel trailers and smaller rigs."
+    },
+    "toadStrategy": {
+      "text": "Generous pad depths mean unhooking a towed vehicle can be done cleanly right at your site without blocking main campground thoroughfares.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+      }
+    }
+  },
+  {
+    "id": "fort-whaley-rv-resort",
+    "name": "Fort Whaley RV Resort & Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-06",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "featured": true,
+    "address": "11224 Dale Rd, Whaleyville, MD 21872",
+    "city": "Whaleyville",
+    "state": "MD",
+    "lat": 38.383991,
+    "lng": -75.311697,
+    "gps": "38.383991, -75.311697",
+    "phone": "+14106419785",
+    "website": "https://www.sunoutdoors.com/maryland/sun-outdoors-ocean-city-gateway",
+    "websiteLabel": "Sun Outdoors Ocean City Gateway (Fort Whaley) Website",
+    "image": "/images/fort-whaley-rv-resort.jpg",
+    "mapImage": "/images/fort-whaley-rv-resort-map.jpg",
+    "summary": "Verified RV clearance, routing guidance, and campground insights for Fort Whaley RV Resort & Campground in Whaleyville, Maryland.",
+    "scorecard": {
+      "maxRigLength": "45 feet",
+      "toadFriendliness": "Excellent on main entry lanes and pull-through pads",
+      "treeClearance": "Moderate overhanging branches on older wooded back-in loops",
+      "bestBigRigLoops": "Outer Pull-Through & Premium Hookup Sites",
+      "bestSmallRigLoops": "Wooded Back-In Canopy Loops"
+    },
+    "approach": {
+      "text": "Approaching from Route 50 and Dale Road, access roads are fully paved and wide enough for large Class A motorhomes and big fifth wheels. Watch for occasional slow-moving agricultural traffic along local rural connectors.",
+      "recommendedGear": {
+        "gearKey": "rv-tpms-system",
+        "reason": "Monitors tire heat and pressure under sustained highway and secondary coastal road driving."
+      }
+    },
+    "content": {
+      "overview": "Fort Whaley RV Resort offers a peaceful, heavily wooded retreat situated just a short drive from the Ocean City and Assateague beaches. It features spacious full-hookup sites, a water park, mini-golf, and exceptional resort amenities.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects your onboard electronics against power fluctuations during peak summer electrical demand."
+      },
+      "loopC": "Main pull-through lanes and premium sites feature wide turning radii, making them ideal for big rigs up to 45 feet without unhooking immediately.",
+      "loopsAB": "Older shaded back-in loops feature tight turns and a dense pine canopy. High-profile rigs should exercise caution regarding low-hanging branches."
+    },
+    "toadStrategy": {
+      "text": "The main check-in and wide pull-through staging areas provide plenty of room to disconnect your towed vehicle safely before navigating to back-in sites.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Keeps your tow bar clean and protected from road grit and weather elements."
+      }
+    }
+  },
+  {
+    "id": "owens-creek-campground",
+    "name": "Owens Creek Campground",
+    "ownertype": "National Park Service",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "MD",
+    "city": "Thurmont",
+    "featured": true,
+    "lat": 39.6604,
+    "lng": -77.4819,
+    "image": "/images/owens_creek_campground.jpg",
+    "mapImage": null,
+    "address": "15882 Foxville Deerfield Rd, Sabillasville, MD 21780",
+    "gps": "39.6604° N, 77.4819° W",
+    "phone": "(301) 663-9388",
+    "website": "https://www.nps.gov/cato/index.htm",
+    "summary": "Forested National Park Service dry-camping campground nestled in the Catoctin Mountain foothills near Thurmont, featuring 51 wooded sites tailored for small-to-medium RVs and travel trailers up to 30 ft.",
+    "scorecard": {
+      "maxRigLength": "Up to 30 ft Maximum (Compact Mountain Sites)",
+      "toadFriendliness": "Moderate (unhook prior to turning onto Foxville-Deerfield Road)",
+      "treeClearance": "Tight canopy; low-hanging branches and winding mountain curves",
+      "bestBigRigLoops": "Not suitable for big rigs (Max length 30 ft)",
+      "bestSmallRigLoops": "Outer Loop Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 15 to MD Route 77 West",
+      "text": "Accessed via US Route 15 in Thurmont, taking MD Route 77 West into Catoctin Mountain Park, turning right onto Foxville-Deerfield Road, and following 1 mile to the campground. Winding mountain road with heavy tree canopy.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for verifying length and height clearances on narrow mountain park roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook your towed vehicle or trailer setup before turning off MD-77 onto Foxville-Deerfield Road, as mountain approach loops have very limited turnaround space.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking before entering narrow mountain approach roads."
+      }
+    },
+    "content": {
+      "overview": "Owens Creek Campground offers a rustic mountain dry-camping experience in Catoctin Mountain Park, immersing campers in deep hardwood forests with immediate access to scenic hiking trails.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for establishing stable pad levelness on sloped mountain gravel sites."
+      },
+      "loopC": "Standard back-in sites accommodate travel trailers and small motorhomes up to 30 ft without electrical hookups.",
+      "loopsAB": "Compact loop layouts offer heavy shade and private forest surroundings ideal for tenters and small class B/C units."
+    }
+  },
+  {
+    "id": "janes-island-state-park",
+    "name": "Janes Island State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "MD",
+    "city": "Crisfield",
+    "featured": true,
+    "lat": 38.0108,
+    "lng": -75.8478,
+    "image": "/images/janes_island_state_park.jpg",
+    "mapImage": "/images/janes_island_state_park_map.jpg",
+    "address": "26280 Alfred J. Lawson Dr, Crisfield, MD 21817",
+    "gps": "38.0108° N, 75.8478° W",
+    "phone": "(410) 968-1565",
+    "website": "https://dnr.maryland.gov/publiclands/pages/eastern/janesisland.aspx",
+    "summary": "Stunning Lower Eastern Shore state park on Tangier Sound featuring 104 shaded campsites, 30-amp electric loops, boat launch, and over 30 miles of world-renowned salt marsh water trails.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Loop Pads)",
+      "toadFriendliness": "Good (paved parking lot near park office and boat launch)",
+      "treeClearance": "Moderate; shaded marshland loops with low-hanging branches on select back-ins",
+      "bestBigRigLoops": "Loop C (Electric Sites with Wider Pad Turns)",
+      "bestSmallRigLoops": "Loops A & B (Shaded Marsh-Adjacent Sites)"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 13 to MD Route 413 South",
+      "text": "Accessed via US Route 13 to MD Route 413 South toward Crisfield for 11 miles, turning right onto Plantation Road, then right onto Alfred J. Lawson Drive. Smooth state highway followed by a quiet park approach.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable guidance along lower Eastern Shore state peninsulas and rural connectors."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the paved parking area near the park office and boat launch upon arrival to unhook your towed vehicle before entering the tree-lined campground loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with rear clearance awareness when unhooking near the boat launch staging lot."
+      }
+    },
+    "content": {
+      "overview": "Janes Island State Park offers a serene wilderness retreat surrounded by Chesapeake Bay salt marshes, renowned for world-class kayaking, bird watching, and peaceful coastal camping.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for leveling rigs on packed earth and shell pads in coastal marsh environments."
+      },
+      "loopC": "Loop C offers electric hookups with more forgiving pad angles for larger travel trailers and mid-size motorhomes.",
+      "loopsAB": "Loops A and B provide deeply shaded, intimate sites immersed in the natural coastal marshlands."
+    }
+  },
+  {
+    "id": "sun-outdoors-ocean-city",
+    "name": "Sun Outdoors Ocean City",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "MD",
+    "city": "Berlin",
+    "featured": true,
+    "lat": 38.3049,
+    "lng": -75.1196,
+    "image": "/images/sun_outdoors_ocean_city.jpg",
+    "mapImage": "/images/sun_outdoors_ocean_city_map.jpg",
+    "address": "12550 Eagles Nest Rd, Berlin, MD 21811",
+    "gps": "38.3049° N, 75.1196° W",
+    "phone": "(410) 213-0097",
+    "website": "https://www.sunoutdoors.com/maryland/sun-outdoors-ocean-city",
+    "summary": "Luxury bayside RV resort (formerly Castaways) situated on Sinepuxent Bay facing Assateague Island, featuring full 50-amp concrete pads, private beach, waterfront tiki bar, pools, and beach shuttle.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (spacious check-in plaza right off Eagles Nest Road)",
+      "treeClearance": "Good; wide paved interior avenues and well-trimmed coastal tree canopy",
+      "bestBigRigLoops": "Club Castaways Full Hookup Concrete Pad Rows",
+      "bestSmallRigLoops": "Island Oasis Gravel Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 50 to Eagles Nest Road",
+      "text": "Accessed via US Route 50 East, turning toward airport connectors onto Eagles Nest Road. Paved coastal connector with smooth asphalt and wide lanes suitable for large Class A coaches and motorhomes.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures precise turns along county connector roads leading into the Sinepuxent Bay peninsula."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration check-in plaza directly off Eagles Nest Road to unhook your towed vehicle before proceeding into the bayside loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear sightlines when disconnecting a dinghy vehicle in the check-in plaza."
+      }
+    },
+    "content": {
+      "overview": "Sun Outdoors Ocean City combines premier luxury resort amenities—including a private sandy beach, waterfront tiki bar, and pools—with stunning views across Sinepuxent Bay toward Assateague Island.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Ideal for fine-tuning pad stability across bayside coastal terrain."
+      },
+      "loopC": "Club Castaways concrete pads provide full 50-amp hookups and wide turn radiuses built specifically for big rigs up to 45 ft.",
+      "loopsAB": "Island Oasis gravel back-in sites offer cozy camping proximity to resort docks and amenities."
+    }
+  },
+  {
+    "id": "sun-outdoors-frontier-town",
+    "name": "Sun Outdoors Frontier Town",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "MD",
+    "city": "Berlin",
+    "featured": true,
+    "lat": 38.2918,
+    "lng": -75.1504,
+    "image": "/images/sun_outdoors_frontier_town.jpg",
+    "mapImage": "/images/sun_outdoors_frontier_town_map.jpg",
+    "address": "8428 Stephen Decatur Hwy, Berlin, MD 21811",
+    "gps": "38.2918° N, 75.1504° W",
+    "phone": "(410) 641-0880",
+    "website": "https://www.sunoutdoors.com/maryland/sun-outdoors-frontier-town",
+    "summary": "Massive Wild West-themed coastal resort located on Sinepuxent Bay near Ocean City and Assateague Island, featuring an on-site water park, 75-slip marina, and big-rig 50-amp full hookups.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (spacious multi-lane check-in registration plaza off MD-611)",
+      "treeClearance": "Good; wide main avenues and well-trimmed resort canopy",
+      "bestBigRigLoops": "Central Bayview Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 50 to MD Route 611 South",
+      "text": "Accessed via US Route 50 East to MD Route 611 South (Stephen Decatur Highway), proceeding 4 miles south to the resort on the left. Smooth 2-lane state highway with wide lanes and full overhead clearance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents missed highway turns on the US-50 to MD-611 coastal corridor."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated multi-lane check-in plaza right off MD Route 611 to safely unhook your towed vehicle before proceeding to your site row.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor rear clearance while unhooking in busy multi-lane resort check-in lanes."
+      }
+    },
+    "content": {
+      "overview": "Sun Outdoors Frontier Town delivers a premier resort experience combining a Wild West theme park, water park, and marina with top-tier big-rig accessibility just minutes from Assateague and Ocean City beaches.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for securing solid pad balance on sandy coastal resort terrain."
+      },
+      "loopC": "Central pull-through rows accommodate full-size Class A motorhomes and fifth wheels with 50-amp power and full hookups.",
+      "loopsAB": "Shaded back-in sites along the perimeter offer quiet separation under mature tree cover."
+    }
+  },
+  {
+    "id": "cherry-hill-park",
+    "name": "Cherry Hill Park",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "MD",
+    "city": "College Park",
+    "featured": true,
+    "lat": 39.0251,
+    "lng": -76.9403,
+    "image": "/images/cherry_hill_park.jpg",
+    "mapImage": "/images/cherry_hill_park_map.jpg",
+    "address": "9800 Cherry Hill Rd, College Park, MD 20740",
+    "gps": "39.0251° N, 76.9403° W",
+    "phone": "(301) 937-7116",
+    "website": "https://www.cherryhillpark.com",
+    "summary": "Premier, luxury full-hookup RV resort serving the Washington, D.C. metropolitan area, featuring big-rig pull-throughs, direct D.C. transit shuttle, pools, splash park, and year-round operation.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (wide registration apron immediately past main security gates)",
+      "treeClearance": "Good; wide paved interior avenues and well-maintained loop clearance",
+      "bestBigRigLoops": "Yellowstone Place (600s) & Bryce Canyon (1700s)",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Capital Beltway (I-495/95) to Cherry Hill Road",
+      "text": "Accessed via Interstate 495/95 Exit 25 for US Route 1 South, making an immediate right onto Cherry Hill Road and driving 1 mile to the resort entrance on the left. Wide suburban multi-lane highway corridor.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents complex multi-lane navigation errors in the busy D.C. metropolitan beltway traffic."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated check-in and registration area just past the main entry gate to safely unhook your towed vehicle before proceeding to your assigned loop.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking on the registration apron past the security gate."
+      }
+    },
+    "content": {
+      "overview": "Cherry Hill Park stands as the gold standard for visiting the nation's capital in an RV, combining world-class resort amenities, on-site transit shuttles straight to the Metro, and top-tier big-rig pull-through sites.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Great for fine-tuning pad levelness on paved and gravel resort pads."
+      },
+      "loopC": "The Yellowstone and Bryce Canyon loops feature wide 50-amp full-hookup pull-through pads tailored specifically for large motorhomes and coaches.",
+      "loopsAB": "Shaded perimeter back-ins offer quiet separation while remaining an easy walk to resort amenities."
+    }
+  },
+  {
+    "id": "assateague-state-park",
+    "name": "Assateague State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "MD",
+    "city": "Berlin",
+    "featured": true,
+    "lat": 38.2375,
+    "lng": -75.1372,
+    "image": "/images/assateague_state_park.jpg",
+    "mapImage": null,
+    "address": "7307 Stephen Decatur Hwy, Berlin, MD 21811",
+    "gps": "38.2375° N, 75.1372° W",
+    "phone": "(410) 641-2120",
+    "website": "https://dnr.maryland.gov/publiclands/pages/eastern/assateague.aspx",
+    "summary": "Maryland's only oceanfront state park situated on Assateague barrier island, offering dune-adjacent ocean camping, 30-amp electric loops, dump station, and iconic wild horses steps from the Atlantic surf.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Asphalt Pad Sites)",
+      "toadFriendliness": "Good (spacious ranger station staging lot past Verrazano Bridge)",
+      "treeClearance": "Excellent; open coastal dune terrain with zero low-hanging tree branches",
+      "bestBigRigLoops": "G Loop and I Loop (30-Amp Electric Hookups)",
+      "bestSmallRigLoops": "A through E Loops (Dry / Primitive Oceanfront Sites)"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 50 to MD Route 611 Causeway Bridge",
+      "text": "Accessed via US Route 50 East taking MD Route 611 South (Stephen Decatur Highway) directly across the Verrazano Bridge causeway onto Assateague Island. Wide paved 2-lane causeway with clear overhead clearance; watch for coastal crosswinds on the bridge.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures accurate routing across barrier island causeways and state highway connectors."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the broad ranger station parking area right after crossing the causeway bridge to unhook your towed vehicle before heading down the oceanfront loop roads.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor rear clearance when unhooking in the busy ranger station staging lot."
+      }
+    },
+    "content": {
+      "overview": "Assateague State Park offers true beachfront barrier island camping where ocean waves sound steps from your rig, wild horses roam along the dune lines, and pristine Atlantic ocean access sits right outside your door.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for stabilizing jacks on asphalt pads adjacent to soft barrier island sand."
+      },
+      "loopC": "G Loop and I Loop offer 30-amp electric hookups on level asphalt pads, ideal for motorhomes and travel trailers seeking oceanfront proximity with power.",
+      "loopsAB": "Dry camping loops feature direct dune boardwalk access for off-grid coastal camping."
+    }
+  }
+]

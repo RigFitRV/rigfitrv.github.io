@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "virginias-beach-campground",
+    "name": "Virginia's Beach Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "North Springfield",
+    "featured": true,
+    "lat": 42.001471,
+    "lng": -80.439183,
+    "image": "/images/virginias-beach-campground.jpg",
+    "mapImage": "/images/virginias-beach-campground-map.jpg",
+    "address": "352 Holliday Rd, North Springfield, PA 16430",
+    "gps": "42.001471° N, 80.439183° W",
+    "phone": "+18149223261",
+    "website": "https://virginiasbeach.com/",
+    "summary": "Classic Lake Erie bluff-top and beachside campground at the northern end of Holliday Rd in North Springfield, PA, offering private beach access, panoramic Lake Erie sunsets, and straightforward access off I-90 Exit 6.",
+    "scorecard": {
+      "maxRigLength": "Up to 40–45 ft (open upper meadow and bluff-top full-hookup sites; beach-level access road is narrow and restricted to smaller rigs/tents)",
+      "toadFriendliness": "Moderate to High — wide gravel entrance off Holliday Rd with open staging room near the registration office to unhook before pulling into lakeside or meadow sites",
+      "treeClearance": "Good — open lake-breeze meadow and bluff-top rows offer unobstructed overhead clearance, with scattered shade trees along older interior rows",
+      "bestBigRigLoops": "Upper Bluff & Open Meadow 30/50-Amp Full-Hookup Rows (35–45 ft rigs)",
+      "bestSmallRigLoops": "Shaded Interior & Lake-View Back-In Sites (ideal for Class C motorhomes, camper vans, and mid-size travel trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-90 (West or East), take Exit 6 onto PA-215 North toward East Springfield for approximately 3.2 miles to PA-5 (West Lake Rd). Turn left onto PA-5 West and continue 2.8 miles to Holliday Rd (just past Raccoon Creek Park), then turn right onto Holliday Rd North for 0.8 miles directly to the campground entrance at the lake. Do not attempt to take a large motorhome or fifth wheel down the steep bluff ramp to the lower beach strip—keep big rigs on the upper bluff/meadow plateau and walk or drive your toad down to the beach.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps navigation locked onto PA-215, PA-5, and Holliday Rd rather than narrow rural township roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the check-in staging lane off Holliday Rd before entering the bluff-top rows; unhook your tow vehicle near the office/store so you can easily run your toad down to the private Lake Erie beach and boat launch.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helpful for backing onto bluff-edge sites while watching rear drop-offs and utility pedestals."
+      }
+    },
+    "content": {
+      "overview": "Perched directly above the Lake Erie shoreline in North Springfield, Virginia's Beach Campground features private sandy/pebble beach access, small-boat launch, 30/50-amp hookups, camp store, and unbeatable sunset views over the water.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Essential protection for coach electronics on exposed lakefront pedestals."
+      },
+      "loopC": "Spacious, level gravel/grass sites in the upper bluff and meadow section with 30/50-amp full hookups and wide turn radii for Class A/C motorhomes and fifth wheels.",
+      "loopsAB": "Tree-lined 30-amp water/electric and full-hookup sites set back from the lake wind—great for Class C motorhomes and travel trailers."
+    }
+  },
+  {
+    "id": "pine-lane-campground",
+    "name": "Pine Lane Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "East Springfield",
+    "featured": true,
+    "lat": 42.006023,
+    "lng": -80.392813,
+    "image": "/images/pine-lane-campground.jpg",
+    "mapImage": "/images/pine-lane-campground-map.jpg",
+    "address": "11709 W Lake Rd, East Springfield, PA 16411",
+    "gps": "42.006023° N, 80.392813° W",
+    "phone": "+18147744808",
+    "website": "https://www.pinelanecampground.com/",
+    "summary": "Quiet, pine-shaded family campground directly along PA-5 (West Lake Rd) near the Lake Erie bluffs in East Springfield, PA, offering straightforward highway access via I-90 Exit 6 (PA-215 North) or Exit 9 (PA-18 North) and level sites minutes from Erie Bluffs State Park and Raccoon Creek Park.",
+    "scorecard": {
+      "maxRigLength": "Up to 40–45 ft (level gravel pull-throughs and open full-hookup rows; wooded interior pine sites are best under 35 ft)",
+      "toadFriendliness": "High — wide, direct turn-in off PA-5 (West Lake Rd) with ample staging room near the registration office to unhook before entering shaded pine lanes",
+      "treeClearance": "Moderate to Good — mature pine canopy along interior lanes trimmed for standard RV roof clearance, with open sky over central pull-throughs",
+      "bestBigRigLoops": "Main Central Pull-Through & Open Field Full-Hookup Sites (35–45 ft rigs)",
+      "bestSmallRigLoops": "Shaded Pine Grove Back-In Sites (ideal for Class C motorhomes, camper vans, and mid-size travel trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-90 Westbound (coming from Erie/NY), take Exit 9 onto PA-18 North toward Lake City/Girard, continue north to PA-5 (West Lake Rd), and turn left onto PA-5 West toward East Springfield; the campground entrance is on the right (lake side of PA-5). From I-90 Eastbound (coming from Ohio), take Exit 6 onto PA-215 North toward East Springfield for approximately 3.2 miles to PA-5 (West Lake Rd), then turn right onto PA-5 East; the campground entrance is on the left. Sticking to PA-215 North or PA-18 North to PA-5 keeps large rigs on straight, flat state routes and avoids narrow township creek crossings.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps navigation locked onto PA-215 / PA-18 and PA-5 rather than narrow rural Springfield Township roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull directly off PA-5 (West Lake Rd) into the wide entrance lane near the registration office; unhook your tow vehicle there if assigned a shaded back-in pine site, or proceed straight onto a central pull-through pad.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helpful for backing neatly between tall pine trunks and utility pedestals."
+      }
+    },
+    "content": {
+      "overview": "Positioned along the scenic Lake Erie shoreline corridor on PA-5 in East Springfield—just west of Erie Bluffs State Park and east of Raccoon Creek County Park—Pine Lane Campground provides a peaceful wooded retreat with 30/50-amp electric, water, sewer, swimming pool, pavilion, and camp store.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Recommended for safeguarding coach electronics on shaded campground pedestals."
+      },
+      "loopC": "Longer, open gravel pads with 30/50-amp full hookups and easy swing clearance for Class A/C motorhomes and fifth wheels.",
+      "loopsAB": "Classic shaded sites tucked under mature pines with 30-amp water/electric (and select full hookups), well-suited for Class C rigs and travel trailers."
+    }
+  },
+  {
+    "id": "follys-end-campground",
+    "name": "Folly's End Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Girard",
+    "featured": true,
+    "lat": 41.983527,
+    "lng": -80.23389,
+    "image": "/images/follys-end-campground.jpg",
+    "mapImage": "/images/follys-end-campground-map.jpg",
+    "mapImage2": "/images/follys-end-campground-map-2.jpg",
+    "address": "8600 Avonia Rd, Girard, PA 16417",
+    "gps": "41.983527° N, 80.233890° W",
+    "phone": "+18144745730",
+    "website": "https://www.follysend.com/",
+    "summary": "Scenic creekside campground along Elk Creek and PA-98 (Avonia Rd) south of I-90 Exit 16 in Girard, PA, famed for world-class Lake Erie tributary steelhead fishing and shaded creekside RV sites.",
+    "scorecard": {
+      "maxRigLength": "Up to 38–42 ft (select gravel pull-throughs and open meadow full-hookup sites; creekside wooded spots are tighter)",
+      "toadFriendliness": "Moderate — straightforward turn-in directly off PA-98 (Avonia Rd), though interior creekside roads have tighter turns and mature trees requiring unhooking near the office for longer setups",
+      "treeClearance": "Moderate — heavy mature hemlock/hardwood canopy along Elk Creek valley rows; watch low limbs on creekside back-in loops",
+      "bestBigRigLoops": "Upper Open Field & Main Entrance Pull-Through Sites (35–42 ft rigs)",
+      "bestSmallRigLoops": "Elk Creek Stream-Side & Shaded Valley Rows (ideal for Class C motorhomes under 30 ft, camper vans, and smaller travel trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-90 (West or East), take Exit 16 onto PA-98 South (Avonia Rd) toward Franklin Center/Girard and travel south for approximately 3.2 miles; the campground entrance is on the right (west side of PA-98) along Elk Creek. Stay strictly on PA-98 South from I-90 Exit 16 and avoid GPS shortcuts onto narrow township creek roads (such as Beckman Rd or Tannery Rd) that feature steep valley grades, sharp switchbacks, and narrow bridges.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents GPS rerouting onto narrow Elk Creek gorge backroads with steep grades."
+      }
+    },
+    "toadStrategy": {
+      "text": "Stop in the check-in staging area immediately off PA-98 before descending toward the creekside loops; unhook your tow vehicle near the office/upper field before maneuvering into shaded Elk Creek sites.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Essential for backing safely between mature creekside trees and uneven gravel edges."
+      }
+    },
+    "content": {
+      "overview": "Set in a wooded valley directly along Elk Creek in Girard, Folly's End Campground is a premier basecamp for Lake Erie steelhead anglers and quiet nature-focused RVers, offering 30/50-amp electric, water, sewer, camp store, and direct creek access.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electrical systems on wooded valley pedestals."
+      },
+      "loopC": "More open, level gravel sites in the upper field with 30/50-amp full hookups and easier turn radii for larger Class A/C motorhomes and fifth wheels.",
+      "loopsAB": "Shaded creekside sites with 30-amp water/electric (and select full hookups) steps from Elk Creek fishing holes—best suited for Class C rigs under 30 ft and compact trailers."
+    }
+  },
+  {
+    "id": "erie-koa",
+    "name": "Erie KOA Holiday",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "McKean",
+    "featured": true,
+    "lat": 42.003084,
+    "lng": -80.192271,
+    "image": "/images/erie-koa.jpg",
+    "mapImage": "/images/erie-koa-map.jpg",
+    "address": "6645 W Rd, McKean, PA 16426",
+    "gps": "42.003084° N, 80.192271° W",
+    "phone": "+18144767706",
+    "website": "https://koa.com/campgrounds/erie/",
+    "summary": "Wooded yet big-rig-capable KOA located in McKean, PA just south of I-90 Exits 16 and 18, offering long 50-amp full-hookup pull-throughs, KOA Patio sites, and quick access to Erie and Presque Isle State Park.",
+    "scorecard": {
+      "maxRigLength": "Up to 50–65 ft (long gravel pull-through sites along the main central lanes)",
+      "toadFriendliness": "High — dedicated check-in staging lane and long 50-amp pull-throughs let motorhomes stay hitched or unhook cleanly at their pad",
+      "treeClearance": "Moderate to Good — mature shade trees border interior back-in loops, while primary big-rig pull-through lanes are trimmed for 13'6\" roof clearance",
+      "bestBigRigLoops": "Main Pull-Through & KOA Patio 50-Amp Full-Hookup Rows (40–65 ft rigs)",
+      "bestSmallRigLoops": "Shaded Interior Back-In Water/Electric & Full-Hookup Loops (ideal for sub-30 ft Class C rigs and travel trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Two clean highway options from I-90: (1) Take Exit 16 onto PA-98 South, turn left onto PA-832 East (Sterrettania Rd), then turn right onto W Rd—the campground entrance is on the right. (2) Alternatively, take Exit 18 onto PA-832 South (Sterrettania Rd) and turn left onto W Rd—the campground entrance is on the right. Sticking to these state-route approaches avoids narrow rural township cut-through roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto PA-98, PA-832, and W Rd rather than narrow McKean backroads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the wide registration staging lane off W Rd; if assigned a long pull-through site, stay hitched or unhook right on your gravel pad, or drop your toad in the check-in overflow lane before backing into shaded interior sites.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Useful for watching mature oak/maple trunks and picnic tables when backing into wooded interior loops."
+      }
+    },
+    "content": {
+      "overview": "Nestled in a peaceful wooded setting in McKean just south of I-90, Erie KOA Holiday combines big-rig infrastructure with full family resort amenities including a heated pool, splash pad, KampK9 dog park, jumping pillow, and camp store.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Essential protection for sensitive coach electronics during high summer occupancy."
+      },
+      "loopC": "Wide, level 50-amp full-hookup pull-through pads with generous slide-out width and easy swing clearance for 40+ ft motorhomes and fifth wheels.",
+      "loopsAB": "Tree-lined back-in sites with 30/50-amp hookups and fire rings—great for Class C motorhomes, camper vans, and mid-size travel trailers."
+    }
+  },
+  {
+    "id": "presque-isle-passage-rv-park",
+    "name": "Presque Isle Passage RV Park",
+    "ownertype": "RV Resort",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Fairview",
+    "featured": true,
+    "lat": 42.021556,
+    "lng": -80.185973,
+    "image": "/images/presque-isle-passage-rv-park.jpg",
+    "mapImage": "/images/presque-isle-passage-rv-park-map.jpg",
+    "address": "6300 Sterrettania Rd, Fairview, PA 16415",
+    "gps": "42.021556° N, 80.185973° W",
+    "phone": "+18148333272",
+    "website": "http://presqueislepassage.com/",
+    "summary": "Convenient full-hookup RV park located on Sterrettania Rd (PA-832) just 1.5 miles south of I-90 Exit 18 in Fairview, PA, offering level pull-through pads and quick, direct highway access to Presque Isle State Park without downtown Erie congestion.",
+    "scorecard": {
+      "maxRigLength": "Up to 45–60 ft (long, level 50-amp full-hookup pull-through sites built for Class A pushers and large fifth wheels)",
+      "toadFriendliness": "High — easy turn-in directly off PA-832 (Sterrettania Rd) with wide pull-through lanes that let rigs stay hitched overnight or unhook right at their pad",
+      "treeClearance": "Excellent — open, well-maintained resort lanes with high canopy and zero low-hanging interior branches along main rows",
+      "bestBigRigLoops": "Main Central Full-Hookup Pull-Through Rows (40–60 ft rigs)",
+      "bestSmallRigLoops": "Perimeter Back-In & Patio Sites (ideal for Class C motorhomes and travel trailers under 35 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-90 (West or East), take Exit 18 onto PA-832 South (Sterrettania Rd) toward McKean/Fairview and drive south for approximately 1.5 miles; the park entrance is on the right (west side of PA-832). Staying on PA-832 directly from I-90 Exit 18 keeps you on a straight, wide two-lane state route with a clean right-hand turn into the entrance apron, avoiding residential Fairview cut-through roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto PA-832 directly from I-90 Exit 18 without diverting onto narrow township side roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull directly off Sterrettania Rd (PA-832) into the wide registration lane; rigs booked in pull-through sites can drive straight onto their pad to unhook (or stay hitched for overnight stops), while back-in guests can unhook near the check-in office before entering interior rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helpful for monitoring rear clearance and utility pedestals when backing onto perimeter pads."
+      }
+    },
+    "content": {
+      "overview": "Situated in Fairview just south of I-90 Exit 18 and 10–12 minutes from Presque Isle State Park via PA-832 North, Presque Isle Passage RV Park provides quiet, big-rig-friendly full-hookup camping away from busy Peninsula Dr beach traffic.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics on high-draw 50-amp pedestals during peak summer air-conditioning loads."
+      },
+      "loopC": "Extra-long, level 50-amp full-hookup pull-through sites with generous slide-out spacing and easy swing radii for 40+ ft Class A motorhomes and fifth wheels.",
+      "loopsAB": "Level back-in full-hookup sites with 30/50-amp power, great for Class C rigs, camper vans, and mid-size travel trailers."
+    }
+  },
+  {
+    "id": "saras-campground",
+    "name": "Sara's Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Erie",
+    "featured": true,
+    "lat": 42.112,
+    "lng": -80.1555,
+    "image": "/images/saras-campground.jpg",
+    "mapImage": "/images/saras-campground-map.jpg",
+    "mapImage2": "/images/saras-campground-map-2.jpg",
+    "address": "50 Peninsula Dr, Erie, PA 16505",
+    "gps": "42.1120° N, 80.1555° W",
+    "phone": "+18148334560",
+    "website": "https://www.sarascampground.com/",
+    "summary": "Iconic lakefront campground situated directly at the base of Presque Isle State Park in Erie, PA, offering rare beachfront and bayfront RV sites with tight sandy loops best suited for Class C motorhomes and mid-size rigs.",
+    "scorecard": {
+      "maxRigLength": "Up to 38–40 ft (select full-hookup pull-through and perimeter spots; interior beach loops are tight)",
+      "toadFriendliness": "Low to Moderate — narrow sand/gravel interior lanes and heavy summer beach traffic make unhooking before entering the beachside rows strongly recommended",
+      "treeClearance": "Good — open Lake Erie shoreline breeze and coastal cottonwoods with high canopy, though power/utility lines cross select older rows",
+      "bestBigRigLoops": "Main Entry Full-Hookup & Perimeter Sites near Peninsula Dr (35–40 ft rigs)",
+      "bestSmallRigLoops": "Lakefront Beachside & Bayfront Sand Rows (under 30 ft Class C motorhomes, vans, and compact trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-90 (West or East), take Exit 18 onto PA-832 North (Peninsula Dr) and drive straight north for approximately 5.2 miles through Millcreek Township directly to the base of Presque Isle State Park. Turn left at the entrance immediately before the Presque Isle park gate (adjacent to Sally's Hot Dogs). Avoid cutting through residential Millcreek side streets or taking West 8th St / PA-5 through downtown Erie during peak summer beach hours.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Helps time the turn into the narrow entrance apron off busy Peninsula Dr (PA-832) without missing the gate."
+      }
+    },
+    "toadStrategy": {
+      "text": "Because Peninsula Dr carries heavy Presque Isle beach traffic and interior sand roads are narrow with tight 90-degree turns, unhook your tow vehicle in the staging area near the check-in office before pulling toward the lakefront or bayfront rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Crucial for spotting pedestrians, cyclists heading to the Presque Isle trail, and low sand-berm edges while maneuvering."
+      }
+    },
+    "content": {
+      "overview": "Operating since 1924 at the entrance to Presque Isle State Park, Sara's Campground puts RVers steps from Lake Erie beaches, Presque Isle Bay, and the 13-mile paved multi-purpose trail. Sites are first-come/seasonal-heavy with a classic retro beach-town vibe and compact spacing.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Important for guarding against voltage dips on lakefront pedestals during hot July and August afternoons."
+      },
+      "loopC": "Level gravel/hard-packed sites closest to the office with 30/50-amp electric, water, and sewer hookups—recommended for larger Class A/C rigs and fifth wheels.",
+      "loopsAB": "Tightly spaced water/electric sites right on the Lake Erie shore and Presque Isle Bay channel; best suited for Class C rigs under 30 feet, camper vans, and small travel trailers (dump station available on-site)."
+    }
+  },
+  {
+    "id": "family-affair-campground",
+    "name": "Family Affair Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "North East",
+    "featured": true,
+    "lat": 42.167834,
+    "lng": -79.776614,
+    "image": "/images/family-affair-campground.jpg",
+    "mapImage": "/images/family-affair-campground-map.jpg",
+    "address": "9640 Findley Lake Rd, North East, PA 16428",
+    "gps": "42.1678° N, 79.7766° W",
+    "phone": "+18147225636",
+    "website": "https://www.familyaffaircampground.com/",
+    "summary": "Rolling 66-acre private campground in northwestern Pennsylvania located between I-90 and I-86 near Lake Erie and Findley Lake, offering 30/50-amp hookups and limited pull-through sites alongside a heavy seasonal community.",
+    "scorecard": {
+      "maxRigLength": "Up to 45–50 ft (limited transient pull-through availability; many overnight sites are tighter)",
+      "toadFriendliness": "Moderate — 4 pull-through sites available; most transient back-in spots require unhooking before backing in",
+      "treeClearance": "Mixed — rolling grassy terrain with both open sites and wooded loops requiring overhead branch awareness",
+      "bestBigRigLoops": "Main pull-through row near the entrance/office (full hookups, 50-amp)",
+      "bestSmallRigLoops": "Wooded partial-hookup and interior back-in sections (better suited for sub-30 ft Class C rigs and travel trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-90 (North), take Exit 41 onto PA-89 South for 0.5 miles to Cole Rd, turn left on Cole Rd to the stop sign, then turn right onto Findley Lake Rd (PA-426 South) for 0.7 miles to the campground entrance (follow the green directional signs). From I-86 / NY-17 (South), take Exit 4 onto NY-426 / PA-426 North (Findley Lake Rd) and continue 3 miles north straight to the campground.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Custom big-rig routing helps avoid narrow rural cut-throughs around Findley Lake and keeps you strictly on PA-89/Cole Rd or PA-426."
+      }
+    },
+    "toadStrategy": {
+      "text": "If assigned one of the 4 pull-through sites, stay hitched if length permits; if assigned an overnight back-in site, pull over along the wide entry lane near the office/campground entrance to drop your tow vehicle before navigating the interior gravel loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Essential for watching tight tree lines and neighboring seasonal rigs when backing into overnight spaces."
+      }
+    },
+    "content": {
+      "overview": "A family-oriented 66-acre park featuring a catch-and-release fishing pond, swimming pool, playground, game room, wooded hiking trails, and weekend planned activities. Note that a large portion of the 121 sites are occupied by seasonal campers, so transient overnight inventory is more compact.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics on older 30/50-amp pedestals in shared utility hookup sections."
+      },
+      "loopC": "Features 4 pull-through sites and full water/electric/sewer 50-amp hookups near the front of the property—best choice for 30+ ft motorhomes and fifth wheels.",
+      "loopsAB": "Shaded and grassy interior back-in sites offering 30/50-amp electric and water (with an on-site dump station near the exit for partial-hookup campers)."
+    }
+  },
+  {
+    "id": "peaceful-woodlands-family-campground",
+    "name": "Peaceful Woodlands Family Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-23",
+    "updatedDate": null,
+    "ownerVerified": true,
+    "ownerTip": "Rigs 32–38 ft should request one of our seven pull-through sites when booking and approach strictly via PA-115 to WT Family Blvd—please unhook towed vehicles near the office/store lane before entering the wooded interior loops.",
+    "state": "PA",
+    "city": "Blakeslee",
+    "featured": true,
+    "lat": 41.028,
+    "lng": -75.4987,
+    "image": "/images/peaceful-woodlands-family-campground.jpg",
+    "mapImage": "/images/peaceful-woodlands-family-campground-map.jpg",
+    "address": "114 WT Family Blvd, Blakeslee, PA 18610",
+    "gps": "41.0280° N, 75.4987° W",
+    "phone": "+15706469255",
+    "website": "https://www.peacefulwoodlands.com/",
+    "summary": "A wooded 50-acre family campground atop the Pocono Plateau (2,200 ft elevation) right off PA-115 near Pocono Raceway, featuring a small cluster of pull-through sites for rigs up to 38 feet alongside heavily wooded back-in loops.",
+    "scorecard": {
+      "maxRigLength": "Up to 38 ft (7 dedicated pull-throughs for rigs 32–38 ft; call ahead for longer rigs)",
+      "toadFriendliness": "Moderate — unhook near the main entrance/store staging lane before entering narrow wooded interior loops",
+      "treeClearance": "Moderate-to-Tight — natural Pocono hardwood canopy; watch upper corner branches on interior back-in spurs",
+      "bestBigRigLoops": "Dedicated Pull-Through Section (32–38 ft sites near the main entrance road)",
+      "bestSmallRigLoops": "Interior Wooded Back-In Loops & Tent/Cabin Sections (under 30 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-80 Exit 284 (Blakeslee), head south on PA-115 South for approximately 5.5 miles directly to WT Family Blvd on the left (watch for campground signage just north of Long Pond Road / Pocono Raceway). From I-476 (PA Turnpike Northeast Extension) Exit 95 (Pocono), take PA-940 East to PA-115 South to avoid narrow secondary township roads with tight tree canopies.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents GPS routing down narrow, low-canopy Pocono township backroads and keeps your approach strictly on PA-115."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the main entrance drive along WT Family Blvd and stage near the office/camp store parking area before entering the interior wooded loops. Interior roads are gravel/dirt with tight turning radii around mature trees, making unhooking a towed vehicle at your campsite difficult for Class A or Class C motorhomes over 30 feet.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps spot tight tree trunks and low upper branches while maneuvering and backing into wooded Pocono spurs."
+      }
+    },
+    "content": {
+      "overview": "Sitting at roughly 2,200 feet elevation at the base of the Dixon Miller Recreation Area, Peaceful Woodlands preserves its dense Pocono forest setting with 30/50-amp hookups, a seasonal pool, mini-golf, dog park, and proximity to Hickory Run State Park and Jim Thorpe.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects RV electronics against voltage fluctuations on wooded 30/50-amp campground pedestals."
+      },
+      "loopC": "Seven dedicated pull-through sites accommodate rigs from 32 to 38 feet with easier straight-line approach geometry and wider overhead clearance near the main corridor.",
+      "loopsAB": "Heavily shaded back-in sites nestled among mature oaks and pines; best suited for travel trailers, camper vans, and Class C rigs under 30 feet due to tight turns and low canopy edges."
+    }
+  },
+  {
+    "id": "pettecote-junction-campground",
+    "name": "Pettecote Junction Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-20",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Cedar Run",
+    "featured": true,
+    "lat": 41.527428,
+    "lng": -77.446237,
+    "image": "/images/pettecote-junction-campground.jpg",
+    "mapImage": "/images/pettecote-junction-campground-map.jpg",
+    "address": "400 Beach Rd, Cedar Run, PA 17727",
+    "gps": "41.5274° N, 77.4462° W",
+    "phone": "+15703537183",
+    "website": "https://pettecotejunction.com/",
+    "summary": "Scenic valley-floor campground wedged directly between Pine Creek and the 62-mile Pine Creek Rail Trail at the southern mouth of the PA Grand Canyon, offering 50/30-amp full-hookup creek-view sites and flat river-valley routing via PA-414.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open riverfront and central 50-amp full-hookup sites; 40 ft sweet spot)",
+      "toadFriendliness": "High — wide gravel check-in lane off Beach Road with space to drop a toad before backing onto riverfront pads",
+      "treeClearance": "Moderate-High — open valley sky along Pine Creek meadow rows with scattered shade trees",
+      "bestBigRigLoops": "Central & Creek-View 50-Amp Full-Hookup Sites",
+      "bestSmallRigLoops": "Wooded & Rail-Trail Side 30-Amp Sites"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From US-220 / I-180 near Jersey Shore, take PA-44 North to Waterville, then follow PA-414 North 19 miles up the flat Pine Creek valley to Cedar Run. Turn north onto Beulahland Road for 0.25 miles, then right onto Beach Road (150 yards) to the campground. Critical Big-Rig Warning: Approach strictly from the south via PA-414 North; do NOT take steep, winding mountain shortcut roads (such as Leetonia Road or Cedar Run mountain grades) down from US-6 / Ansonia.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps coaches on the gentle, scenic PA-414 river-valley corridor and blocks steep single-lane state forest mountain descents into Cedar Run."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook in the wide gravel staging lane beside the camp store off Beach Road upon arrival; with direct Pine Creek Rail Trail access right on-site, you can bike straight into the canyon without moving your rig.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when backing onto creek-view pads bordered by Pine Creek embankments and shade trees."
+      }
+    },
+    "content": {
+      "overview": "Open April through November, featuring 30/50-amp full-hookup and water/electric RV sites, glamping tents, cabins, camp store, kayak and tube shuttles, bike rentals, and direct frontage on both Pine Creek and the 62-mile Pine Creek Rail Trail.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural valley voltage fluctuations across 30/50-amp pedestals."
+      },
+      "loopC": "Central and creek-view 50-amp full-hookup rows provide open sky for satellite/solar, level gravel pads, and easy backing angles for coaches and fifth wheels up to 45 feet.",
+      "loopsAB": "Wooded and rail-trail side 30-amp sites sit under shade trees along the Pine Creek Rail Trail corridor; ideal for Class B/C motorhomes and travel trailers under 30 feet."
+    }
+  },
+  {
+    "id": "hills-creek-state-park",
+    "name": "Hills Creek State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-20",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.80422,
+    "lng": -77.19086,
+    "image": "/images/hills-creek-state-park.jpg",
+    "mapImage": "/images/hills-creek-state-park-map.jpg",
+    "address": "111 Spillway Rd, Wellsboro, PA 16901",
+    "gps": "41.8042° N, 77.1909° W",
+    "phone": "+15707244246",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/HillsCreekStatePark/Pages/default.aspx",
+    "summary": "407-acre lakeside state park 8 miles northeast of Wellsboro just north of US-6, serving as the most big-rig-friendly state park basecamp in the PA Grand Canyon region with easy I-99 / US-15 and US-6 highway access.",
+    "scorecard": {
+      "maxRigLength": "Up to 45–50 ft on select electric pads (40 ft practical sweet spot)",
+      "toadFriendliness": "High — spacious campground contact station and day-use boat launch pull-offs along Spillway Road",
+      "treeClearance": "Moderate — open-to-partially-shaded lakeside and meadow electric loops with good slide-out clearance",
+      "bestBigRigLoops": "Electric Loop Sites (30/50-amp gravel pads near the lake)",
+      "bestSmallRigLoops": "Upper Wooded Non-Electric Sites (ideal for small trailers and Class B rigs)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From I-99 / US-15 at Mansfield, take US-6 West for 6.5 miles and turn north onto Hills Creek Lake Road / Spillway Road for 2.5 miles to the park entrance. From downtown Wellsboro, head east on US-6 for 5.5 miles and turn north onto Hills Creek Lake Road / Spillway Road. Avoid narrow secondary township roads between Tioga and Middlebury Center.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Routes heavy coaches via four-lane I-99/US-15 and wide US-6 rather than steep rural mountain roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the spacious campground contact station pull-off on Spillway Road upon check-in to unhook your towed vehicle, making day trips west on US-6 and PA-660 to the PA Grand Canyon effortless.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps watch lakeside tree trunks, utility posts, and pad edges when backing larger coaches into electric sites."
+      }
+    },
+    "content": {
+      "overview": "Open mid-April through mid-October, offering 85+ campsites including 30/50-amp electric sites, modern shower houses, sanitary dump station, a 137-acre lake with kayak and pontoon rentals, and easy 20-minute access to Wellsboro and Pine Creek Gorge.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against voltage drops on busy summer and fall-foliage state park pedestals."
+      },
+      "loopC": "Lakeside and meadow 30/50-amp electric gravel pads provide the longest pad depths, clearest slide-out room, and easiest backing angles for 35–45 ft coaches and fifth wheels.",
+      "loopsAB": "Upper wooded non-electric sites offer quiet shade and privacy best suited for Class B campervans, truck campers, and travel trailers under 28 feet."
+    }
+  },
+  {
+    "id": "leonard-harrison-state-park",
+    "name": "Leonard Harrison State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-20",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.698,
+    "lng": -77.45156,
+    "image": "/images/leonard-harrison-state-park.jpg",
+    "mapImage": "/images/leonard-harrison-state-park-map.jpg",
+    "address": "4797 Route 660, Wellsboro, PA 16901",
+    "gps": "41.6980° N, 77.4516° W",
+    "phone": "+15707243061",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/LeonardHarrisonStatePark/Pages/default.aspx",
+    "summary": "Iconic 585-acre state park perched directly on the eastern rim of Pine Creek Gorge (PA Grand Canyon), featuring a compact 30-site woodland campground (electric and non-electric) best suited for Class B/C motorhomes and travel trailers under 30 feet.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft on select pads (28–30 ft practical sweet spot due to tight woodland loop geometry; not recommended for 40+ ft Class A coaches)",
+      "toadFriendliness": "Low — limited overflow staging at the canyon rim visitor lot; unhook before entering the campground loop",
+      "treeClearance": "Low-Moderate — dense mature hemlock and hardwood canopy with tight overhead branches",
+      "bestBigRigLoops": "Outer Electric Loop Sites (for rigs up to 32–35 ft)",
+      "bestSmallRigLoops": "Interior Woodland Non-Electric Loop (Class B campervans, truck campers, and sub-25 ft teardrops)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From downtown Wellsboro (US-6 & PA-660), take PA-660 West 10 miles directly to the park entrance at the end of the state route. Watch closely about 3 miles outside of Wellsboro where PA-660 takes a sharp left turn while traffic continuing straight joins PA-362; if missed, take a left onto Airport Road from PA-362 to reconnect back to PA-660 West. Big-Rig Warning: PA-660 dead-ends at the canyon rim with tight woodland campground turns—drivers of 35–45 ft Class A coaches or fifth wheels should camp at Stony Fork Creek Campground or Hills Creek State Park and tour Leonard Harrison in a towed vehicle.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts ahead of the sharp PA-660/PA-362 split west of Wellsboro and prevents routing onto unpaved Tioga State Forest roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "If towing behind a mid-size Class C motorhome, stage temporarily in the paved visitor center bus/RV pull-off lane off PA-660 to unhook before entering the tight woodland campground loop.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Essential for watching mature hemlock trunks, boulders, and tight curve angles inside the 30-site woodland loop."
+      }
+    },
+    "content": {
+      "overview": "Seasonal DCNR state park (open April through late fall) perched directly on the east rim of Pine Creek Gorge, offering 30 campsites (select 30/50-amp electric sites and rustic non-electric sites), modern bathhouse, sanitary dump station, visitor center, and direct trailhead access to the Turkey Path and Overlook Trail.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics against voltage drops on wooded state park electric pedestals."
+      },
+      "loopC": "Outer electric loop pads accommodate mid-size Class C motorhomes and travel trailers up to 32–35 feet with 30/50-amp hookups.",
+      "loopsAB": "Interior woodland non-electric loop offers shaded, compact pads ideal for Class B campervans, truck campers, and small teardrops under 25 feet."
+    }
+  },
+  {
+    "id": "pa-grand-canyon-resort",
+    "name": "PA Grand Canyon Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-20",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.692685,
+    "lng": -77.434492,
+    "image": "/images/pa-grand-canyon-resort.jpg",
+    "mapImage": "/images/pa-grand-canyon-resort-map.jpg",
+    "address": "863 Sullivan Rd, Wellsboro, PA 16901",
+    "gps": "41.6927° N, 77.4345° W",
+    "phone": "+15707244774",
+    "website": "https://pagrandcanyonresort.com/",
+    "summary": "Closest private full-hookup campground and lodge to Leonard Harrison State Park (1 mile east of the canyon rim), offering 30/50-amp full-hookup back-in sites, horse-friendly boarding, and an on-site tavern/restaurant.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (back-in full-hookup pads; 34–38 ft sweet spot)",
+      "toadFriendliness": "High — wide gravel motel/restaurant front parking apron allows easy toad unhooking immediately off Sullivan Road",
+      "treeClearance": "Moderate-High — open gravel RV row with select wooded tent/perimeter sites",
+      "bestBigRigLoops": "Main Gravel 50-Amp Full-Hookup Row (Sites 1–10)",
+      "bestSmallRigLoops": "Perimeter Wooded Sites (ideal for Class B/C vans and short trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From downtown Wellsboro (US-6 & PA-660), take PA-660 West toward Leonard Harrison State Park. Watch closely about 3 miles outside of Wellsboro where PA-660 takes a sharp left turn while traffic continuing straight joins PA-362; if missed, take a left onto Airport Road from PA-362 to reconnect back to PA-660 West. Continue on PA-660 West to mile 8.5, turn left onto Sullivan Road (1 mile east of Leonard Harrison State Park), and pull directly into the wide main gravel lot.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts ahead of the sharp PA-660/PA-362 junction west of Wellsboro and keeps coaches off steep Pine Creek valley grades."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the wide gravel parking lot in front of the lodge and tavern off Sullivan Road to drop your towed vehicle before backing onto your 50-amp pad, giving you an easy 2-minute run to the canyon rim.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when backing onto the gravel full-hookup row alongside neighboring coaches."
+      }
+    },
+    "content": {
+      "overview": "Open mid-April through October 30, offering 10 full-hookup 30/50-amp RV sites, horse stalls with pet-friendly policies, free Wi-Fi, modern shower house, dump station, and an on-site restaurant and tavern just 1 mile east of Leonard Harrison State Park.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural voltage drops across 30/50-amp pedestals."
+      },
+      "loopC": "Main gravel 50-amp full-hookup row (Sites 1–10) offers open overhead sky, level gravel pads, and wide backing room off the main lot.",
+      "loopsAB": "Perimeter wooded and primitive sites best suited for Class B campervans, small travel trailers, and tent setups."
+    }
+  },
+  {
+    "id": "canyon-country-campground",
+    "name": "Canyon Country Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.693243,
+    "lng": -77.438319,
+    "image": "/images/canyon-country-campground.jpg",
+    "mapImage": "/images/canyon-country-campground-map.jpg",
+    "address": "130 Wilson Rd, Wellsboro, PA 16901",
+    "gps": "41.6932° N, 77.4383° W",
+    "phone": "+15707243818",
+    "website": "https://www.canyoncountrycampground.com/",
+    "summary": "Quiet, wooded 200+ site family campground 9 miles west of Wellsboro along PA-660, positioned 1.5 miles from the eastern rim of the PA Grand Canyon with 50/30-amp hookups, private barrel saunas, and critical PA-660/PA-362 junction guidance outside Wellsboro.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (select pull-through and wider wooded pads; 35 ft practical sweet spot under hardwood canopy)",
+      "toadFriendliness": "Moderate — staging pull-off near camp store/office off Wilson Road; unhook before entering wooded loops",
+      "treeClearance": "Moderate-Low — mature hemlock and oak canopy throughout; watch low limbs on interior loops",
+      "bestBigRigLoops": "Main Meadow / Lower Hookup Pull-Throughs (30/50-amp)",
+      "bestSmallRigLoops": "Upper Wooded Back-In Loops (ideal for Class B/C motorhomes and travel trailers under 30 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From downtown Wellsboro (US-6 & PA-660), take PA-660 West toward Leonard Harrison State Park. Watch closely about 3 miles outside of Wellsboro: PA-660 makes a sharp left turn while traffic continuing straight joins PA-362. If you miss that sharp left onto PA-660, stay on PA-362 briefly and make a left onto Airport Road to reconnect cleanly back to PA-660 West. Continue on PA-660 West to mile 9, then turn left (southwest) onto Wilson Road for 0.25 miles to the campground entrance. Do not take narrow township shortcuts off US-6 at Ansonia.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts drivers ahead of the sharp PA-660/PA-362 split west of Wellsboro and prevents GPS shortcuts onto narrow Tioga State Forest roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging pull-off near the camp store/office off Wilson Road to unhook before entering shaded wooded loops, then use your toad for the 3-minute drive to Leonard Harrison State Park overlooks and downtown Wellsboro.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor low hemlock branches and tree trunks when backing into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "Seasonal wooded family campground (open April 15 – October 31) with 200+ sites 1.5 miles from the east rim of Pine Creek Gorge (PA Grand Canyon), offering 30/50-amp full-hookup and water/electric RV sites, rental cabins, a camp store, dump station, and private barrel saunas.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural voltage fluctuations across 30/50-amp pedestals."
+      },
+      "loopC": "Main meadow and lower 30/50-amp pull-through and wider hookup pads provide the clearest overhead clearance and easiest turn geometry for coaches and fifth wheels up to 40 feet.",
+      "loopsAB": "Upper wooded back-in loops sit under dense mature hemlock and oak canopy; best suited for Class B/C motorhomes and travel trailers under 30 feet."
+    }
+  },
+  {
+    "id": "stony-fork-creek-campground",
+    "name": "Stony Fork Creek Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Wellsboro",
+    "featured": true,
+    "lat": 41.640317,
+    "lng": -77.370658,
+    "image": "/images/stony-fork-creek-campground.jpg",
+    "mapImage": "/images/stony-fork-creek-campground-map.jpg",
+    "address": "658 Stony Fork Creek Rd, Wellsboro, PA 16901",
+    "gps": "41.6403° N, 77.3707° W",
+    "phone": "+15707243096",
+    "website": "https://stonyforkcamp.com/",
+    "summary": "Scenic 200+ site family campground nestled in a Tioga County valley 9 miles southwest of Wellsboro near the PA Grand Canyon (Pine Creek Gorge), featuring open and wooded full-hookup RV sites alongside crucial multi-highway approach guidance to avoid steep canyon grades and narrow township mountain roads.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open valley full-hookup sites; 35–40 ft practical sweet spot due to rural valley road approach and interior loop turns)",
+      "toadFriendliness": "Moderate — check-in staging pull-off near the camp office off Stony Fork Creek Road; unhooking at check-in is strongly recommended before navigating tighter wooded loops or heading out to PA Grand Canyon overlooks",
+      "treeClearance": "Moderate — open meadow rows offer clear sky, while creek-side and upper wooded loops sit under mature northern hardwood canopy",
+      "bestBigRigLoops": "Open Meadow Full-Hookup Sites (level gravel/grass pads with clear satellite and slide-out clearance)",
+      "bestSmallRigLoops": "Wooded & Creek-Side Back-In Sites (ideal for Class B/C motorhomes and travel trailers under 32 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From Wellsboro (US-6 & PA-287): Take PA-287 South to PA-660 West (West Avenue), turn left onto Kelsey Street, and follow it south to the village of Stony Fork. Continue 1.1 miles past the Stony Fork store, cross the bridge, bear left at the fork onto Stony Fork Creek Road, and continue 1.3 miles straight ahead to the campground. From the South/Southeast (US-15 & PA-287 North via Morris): Exit US-15 at Liberty onto PA-414 West (12 miles to Morris), take PA-287 North for 5.4 miles, turn left onto Broughton Hollow Road for 3 miles, and turn left onto Stony Fork Road to the campground. Avoid consumer GPS shortcuts through Colton Point / Leonard Harrison State Park canyon roads or unmaintained state forest gravel tracks.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps big rigs locked onto the official Kelsey Street or Broughton Hollow Road approaches and prevents GPS detours onto steep, narrow Tioga State Forest roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging area near the camp store/office immediately upon entering off Stony Fork Creek Road. Unhooking your towed vehicle at check-in is strongly recommended both for easier maneuvering into wooded sites and for visiting Leonard Harrison and Colton Point State Parks along the PA Grand Canyon rim.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor creek-side embankments, mature tree trunks, and utility pedestals when maneuvering into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "Family-run 90+ acre seasonal campground with 200+ sites in the scenic hills southwest of Wellsboro, offering 50/30-amp full-hookup RV sites, water/electric sites, primitive tent sites, cabins, glamping pods, a heated swimming pool, stocked fishing pond, dump station, and pet/horse-friendly accommodations minutes from Pine Creek Gorge (PA Grand Canyon).",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics and air conditioners against rural valley voltage fluctuations across 30/50-amp pedestals."
+      },
+      "loopC": "Open meadow 50/30-amp full-hookup sites provide the widest turn radii, level pads, and overhead clearance for Class A coaches and fifth wheels.",
+      "loopsAB": "Wooded and creek-side back-in sites under mature shade trees; best suited for travel trailers under 32 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "caledonia-state-park",
+    "name": "Caledonia State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-11-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Fayetteville",
+    "featured": true,
+    "lat": 39.9087,
+    "lng": -77.4781,
+    "image": "/images/caledonia-state-park.jpg",
+    "mapImage": null,
+    "address": "101 Pine Grove Rd, Fayetteville, PA 17222",
+    "gps": "39.9087° N, 77.4781° W",
+    "phone": "+17173522161",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/CaledoniaStatePark/Pages/default.aspx",
+    "summary": "Historic 1,125-acre South Mountain state park along US-30 (Lincoln Highway) midway between Gettysburg and Chambersburg, featuring two distinct campgrounds (Hosack Run and Chinquapin Hill) with select full-hookup and electric sites, forested Appalachian foothills loops, and important steep-grade approach considerations over South Mountain.",
+    "scorecard": {
+      "maxRigLength": "Up to 45–60 ft on select full-hookup/electric pads (35 ft practical sweet spot due to mature South Mountain tree canopy and loop turn radii)",
+      "toadFriendliness": "Moderate — check-in pull-off near park office/campground contact stations; unhooking recommended before entering tighter woodland loops",
+      "treeClearance": "Moderate-Low — mature hardwood and hemlock canopy throughout both campgrounds; watch low limbs on non-electric/back-in loops",
+      "bestBigRigLoops": "Hosack Run Full-Hookup & Electric Sites (pet-friendly, wider pad geometry)",
+      "bestSmallRigLoops": "Chinquapin Hill Electric & Non-Electric Loops (note: pets are not permitted in Chinquapin Hill; ideal for Class B/C motorhomes and sub-30 ft trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Located directly at the intersection of US-30 (Lincoln Highway) and PA-233—15 miles west of Gettysburg or 7.3 miles east of I-81 (Exit 16) in Chambersburg. Heavy-Rig Grade Note: Approaching from Gettysburg via US-30 West requires climbing and descending South Mountain (sustained 6–7% grades with sweeping mountain curves). Approaching from I-81 Exit 16 (Chambersburg) via US-30 East offers a much gentler valley approach into the park entrance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Alerts drivers to South Mountain grade percentages along US-30 and prevents GPS shortcuts onto narrow PA-233 mountain forestry roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the contact station / day-use parking pull-off near the US-30 / Pine Grove Road entrance to register and unhook your towed vehicle before climbing into the forested campground loops, where tight turns and mature oaks limit turnaround space.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Essential for spotting low tree limbs, boulder borders, and narrow gravel pad edges in heavily wooded state park loops."
+      }
+    },
+    "content": {
+      "overview": "1,125-acre Pennsylvania DCNR state park nestled in South Mountain between Gettysburg and Chambersburg. Operates seasonally from late March through December across two campgrounds totaling over 160 sites (33 full-hookup sites, 26 electric-only sites, and modern non-electric sites), plus a swimming pool, Appalachian Trail access, trout fishing on Conococheague Creek, and dump stations.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics against voltage drops on older state park electric pedestals."
+      },
+      "loopC": "Hosack Run Campground (50 sites total, including 16 full-hookup and 20 electric sites) is pet-friendly and offers the most accessible pads for larger motorhomes and fifth wheels.",
+      "loopsAB": "Chinquapin Hill Campground (111 sites total, including 17 full-hookup and 6 electric sites) winds through denser South Mountain forest with tighter back-in pads and a strict no-pets policy; best suited for Class B/C rigs and travel trailers under 32 feet."
+    }
+  },
+  {
+    "id": "granite-hill-camping-resort",
+    "name": "Granite Hill Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.807027,
+    "lng": -77.333777,
+    "image": "/images/granite-hill-camping-resort.jpg",
+    "mapImage": "/images/granite-hill-camping-resort-map.jpg",
+    "address": "3340 Fairfield Rd, Gettysburg, PA 17325",
+    "gps": "39.8070° N, 77.3338° W",
+    "phone": "+17176428749",
+    "website": "https://www.granitehillcampingresort.com/",
+    "summary": "Scenic 150-acre family campground and Adventure Golf resort located 6 miles west of Gettysburg along PA-116 (Fairfield Road), offering open 50-amp pull-throughs, lakeside and wooded back-in loops, and a rural western approach via US-30 and Knoxlyn Road that bypasses downtown Gettysburg.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open full-hookup 50-amp pull-throughs with level gravel pads)",
+      "toadFriendliness": "High — wide check-in apron and staging pull-off right off PA-116 (Fairfield Road) before entering interior campground roads",
+      "treeClearance": "Moderate-High — open field pull-through sections; mature shade canopy along upper wooded and lakeside back-in loops",
+      "bestBigRigLoops": "Open Field 50-Amp Full-Hookup Pull-Throughs",
+      "bestSmallRigLoops": "Wooded Hillside & Pondside Back-In Loops (ideal for travel trailers under 34 ft and Class B/C motorhomes)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "From US-30 (Lincoln Highway) west of Gettysburg, turn south onto Knoxlyn Road for 2.7 miles to PA-116 (Fairfield Road), turn right (west) onto PA-116 for 1.6 miles, and turn into the main resort entrance on the right. Routing via US-30 West and Knoxlyn Road keeps big rigs completely clear of downtown Gettysburg's Lincoln Square traffic circle and narrow battlefield avenues.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Guides big rigs cleanly onto US-30 West and PA-116 while avoiding narrow Adams County backroads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging lane just inside the Fairfield Road entrance upon arrival. Longer 45-ft pull-through sites can accommodate both coach and towed vehicle, while unhooking at check-in is recommended for wooded back-in sites or when exploring Gettysburg National Military Park.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps check rear tree branches and utility hookups when backing into shaded lakeside or wooded sites."
+      }
+    },
+    "content": {
+      "overview": "150-acre seasonal family resort (open mid-April through late October) set amid rolling Adams County countryside 6 miles west of downtown Gettysburg. Features over 300 sites (50/30-amp full-hookup pull-throughs, water/electric wooded sites, and rental cabins), swimming pool, private fishing lake, 18-hole Adventure Golf course, camp store, and weekend bluegrass/family events.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Safeguards onboard air conditioners and electronics from peak summer voltage drops across 30/50-amp pedestals."
+      },
+      "loopC": "Open meadow 50-amp full-hookup pull-throughs offer level gravel pads, clear overhead clearance, and wide turning geometry for Class A coaches and fifth wheels up to 45 feet.",
+      "loopsAB": "Wooded hillside and pondside 30/50-amp back-in sites under mature trees; best suited for travel trailers under 34 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "drummer-boy-camping-resort",
+    "name": "Drummer Boy Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.83155,
+    "lng": -77.194033,
+    "image": "/images/drummer-boy-camping-resort.jpg",
+    "mapImage": null,
+    "address": "1300 Hanover Rd, Gettysburg, PA 17325",
+    "gps": "39.8316° N, 77.1940° W",
+    "phone": "+18773626736",
+    "website": "https://thousandtrails.com/pennsylvania/drummer-boy-camping-resort",
+    "summary": "Expansive 95-acre RV resort set directly off PA-116 (Hanover Road) just east of US-15, featuring over 450 short-term and seasonal sites with 50-amp full-hookup pull-throughs, mature woodland loops, and direct highway access that keeps big rigs completely out of downtown Gettysburg.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (wide 50-amp full-hookup pull-throughs and long back-in pads)",
+      "toadFriendliness": "High — multi-lane registration pull-off right inside the PA-116 entrance with space to unhook before navigating wooded interior loops",
+      "treeClearance": "Moderate-High — clear entry boulevard and open front pull-through rows; mature oak and pine canopy on wooded back loops",
+      "bestBigRigLoops": "Front & Meadow 50-Amp Full-Hookup Pull-Throughs",
+      "bestSmallRigLoops": "Wooded Back-In Loops & Pondside Rows (ideal for travel trailers under 34 ft and Class B/C motorhomes)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take US-15 to the PA-116 (Hanover Road) exit on the east side of Gettysburg. Head east on PA-116 (away from downtown Gettysburg) for approximately 0.7 miles directly to the main resort entrance on the left. Exiting US-15 directly onto PA-116 East eliminates any need to traverse downtown Gettysburg's Lincoln Square traffic circle or narrow battlefield roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Locks routing onto US-15 and PA-116 East while avoiding residential borough cut-throughs."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the wide check-in lanes off Hanover Road upon arrival. Select 45-ft pull-through sites can hold a coach and towed vehicle, but unhooking at check-in is recommended for wooded back-in sites or when heading out to tour downtown Gettysburg and the National Military Park.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with tight tree clearance and pedestal alignment when backing into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "95-acre seasonal destination RV resort (open early April through late October) operated by Thousand Trails / Trails Collection (open to the general public as well as members). Features 459 sites (50/30-amp full-hookup pull-throughs, water/electric sites, cabins, cottages, and lofts), two swimming pools, catch-and-release fishing pond, camp store, golf cart rentals, and seasonal shuttle service to Gettysburg tours.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach air conditioners and electronics from peak summer voltage fluctuations across 30/50-amp loops."
+      },
+      "loopC": "Open and semi-wooded 50-amp full-hookup pull-through sites accommodate Class A motorhomes and fifth wheels up to 45 feet with generous slide-out room.",
+      "loopsAB": "Shaded woodland back-in sites under mature trees; best suited for travel trailers under 34 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "round-top-campground",
+    "name": "Round Top Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.778088,
+    "lng": -77.236344,
+    "image": "/images/round-top-campground.jpg",
+    "mapImage": null,
+    "address": "180 Knight Rd, Gettysburg, PA 17325",
+    "gps": "39.7781° N, 77.2363° W",
+    "phone": "+17173349565",
+    "website": "https://thousandtrails.com/pennsylvania/round-top-campground",
+    "summary": "Spacious 52-acre family RV resort tucked off Knight Road immediately west of the US-15 / PA-134 interchange south of Gettysburg, featuring paved 50-amp pull-through pads, shaded grass back-in loops, and effortless highway ingress/egress that avoids town traffic.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (paved 50-amp pull-through pads with wide interior turn radii)",
+      "toadFriendliness": "High — dedicated front check-in staging lane off Knight Road with ample room to unhook before entering interior loops",
+      "treeClearance": "Moderate-High — open paved pull-through sections; mature shade trees along interior grass back-in rows",
+      "bestBigRigLoops": "Paved 50-Amp Pull-Through Sites (front/central resort rows)",
+      "bestSmallRigLoops": "Wooded & Grass Back-In Loops (ideal for travel trailers under 35 ft and Class B/C motorhomes)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take US-15 to the PA-134 (Taneytown Road) exit south of Gettysburg. Turn south/west onto PA-134 (away from downtown Gettysburg) for 0.3 miles, then turn right onto Knight Road and follow it 0.8 miles directly to the campground entrance on the right. Using the US-15 / PA-134 southern interchange gives big rigs immediate highway access without navigating downtown Gettysburg circles or narrow battlefield roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto US-15 and PA-134 South to Knight Road rather than diverting onto narrow rural township lanes."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration staging lane just past the Knight Road entrance. Paved pull-through sites can accommodate a coach and toad, though unhooking at check-in is recommended if you are assigned a grass back-in site or heading out to tour the narrow battlefield avenues.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor mature shade trees, picnic tables, and adjacent rigs when backing into grass sites."
+      }
+    },
+    "content": {
+      "overview": "52-acre seasonal family RV resort (open early April through late October) operated under Thousand Trails / Trails Collection (open to non-members as well). Features 384 sites (paved 50/30-amp pull-throughs, grass water/electric back-ins, and vacation cottages), swimming pool, mini-golf, tennis/basketball courts, camp store, laundry, and quick 5-minute access to Gettysburg National Military Park.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard air conditioners and electronics against peak summer load sags across 30/50-amp pedestals."
+      },
+      "loopC": "Paved 50-amp pull-through sites offer level asphalt pads, clear overhead clearance, and easy pull-out geometry for Class A coaches and fifth wheels up to 45 feet.",
+      "loopsAB": "Grass 30/50-amp back-in sites bordered by mature trees; best suited for travel trailers under 35 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "artillery-ridge-campground",
+    "name": "Artillery Ridge Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.802185,
+    "lng": -77.229229,
+    "image": "/images/artillery-ridge-campground.jpg",
+    "mapImage": "/images/artillery-ridge-campground-map.jpg",
+    "address": "610 Taneytown Rd, Gettysburg, PA 17325",
+    "gps": "39.8022° N, 77.2292° W",
+    "phone": "+17173341288",
+    "website": "https://www.artilleryridge.com/",
+    "summary": "Closest full-hookup RV campground to Gettysburg National Military Park, located 1 mile south of the Visitor Center on PA-134 (Taneytown Road) with 45-foot 50-amp pull-throughs, shaded woodland loops, and direct US-15 access that bypasses downtown traffic circles.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (open and semi-shaded 50-amp full-hookup pull-through sites)",
+      "toadFriendliness": "Good — wide entry apron off PA-134 (Taneytown Rd) with front check-in staging lanes before entering interior loops",
+      "treeClearance": "Moderate-High — clear entry and main spine roads; mature hardwood canopy along upper wooded loops",
+      "bestBigRigLoops": "Front / Lower Open 50-Amp Full-Hookup Pull-Throughs",
+      "bestSmallRigLoops": "Upper Wooded Back-In Loops & Pondside Sites (ideal for Class B/C motorhomes and sub-32 ft travel trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take US-15 to the PA-134 (Taneytown Road) exit south of Gettysburg. Turn north onto PA-134 and follow it for approximately 2.3 miles directly to the campground entrance on the right. Using the US-15 southern exit keeps big rigs completely clear of downtown Gettysburg's Lincoln Square traffic circle and narrow Gettysburg National Military Park tour roads (which feature tight stone wall clearances and commercial/oversize vehicle restrictions).",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto US-15 and PA-134 North while preventing GPS shortcuts through restricted Gettysburg National Military Park avenues."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the registration staging lanes off Taneytown Road upon arrival. While 45-ft pull-through sites can accommodate a coach and towed vehicle, unhooking at check-in is strongly recommended if you are booked into a wooded back-in site or plan to drive the narrow, one-way battlefield auto tour loops in your toad.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps spot mature oaks, split-rail fencing, and utility pedestals when maneuvering into shaded back-in sites."
+      }
+    },
+    "content": {
+      "overview": "Historic Gettysburg basecamp (open April through November) bordered by battlefield farmland just south of the National Military Park Visitor Center. Features approximately 165 sites (50/30-amp full-hookup pull-throughs and back-ins, water/electric sites, cabins, and equestrian corrals), swimming pool, fishing pond, camp store, and seasonal shuttle access to battlefield tours.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard appliances against peak summer air-conditioning voltage drops across 50/30-amp loops."
+      },
+      "loopC": "Level gravel 50-amp full-hookup pull-throughs near the front and lower meadow accommodate Class A coaches and fifth wheels up to 45 feet with generous slide-out spacing.",
+      "loopsAB": "Shaded hillside and woodland back-in sites beneath mature oaks; best suited for travel trailers under 32 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "the-woods-campground",
+    "name": "The Woods Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-11",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Lehighton",
+    "featured": true,
+    "lat": 40.897715,
+    "lng": -75.604059,
+    "image": "/images/the-woods-campground.jpg",
+    "mapImage": "/images/the-woods-campground-map.jpg",
+    "address": "3500 Forest St, Lehighton, PA 18235",
+    "gps": "40.8977° N, 75.6041° W",
+    "phone": "+16103779577",
+    "website": "https://www.thewoods.camp/",
+    "summary": "Wooded private resort nestled in the Lehighton hills, offering peaceful shaded campsites, resort amenities, and relaxed Poconos seclusion.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select full-hookup pull-through and back-in sites)",
+      "toadFriendliness": "Good; paved primary resort roads with adequate check-in staging",
+      "treeClearance": "Heavy canopy along mature wooded loops; watch out for low-hanging branches on back-in sites",
+      "bestBigRigLoops": "Main Resort Pull-Through Section",
+      "bestSmallRigLoops": "Shaded Woodland Back-In Loops"
+    },
+    "approach": {
+      "title": "Rural Forest Road Approach Guidance",
+      "text": "Access via regional routes connecting to Forest Street in Lehighton. Maintain steady speeds and watch for narrow shoulder transitions along forested secondary roads.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for routing heavy rigs safely along rural Carbon County roads while avoiding low-clearance branches."
+      }
+    },
+    "toadStrategy": {
+      "text": "Towed vehicles should be unhooked on Woods Way or at the check-in pad prior to entering the tree-lined resort loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential blind-spot visibility when maneuvering in shaded check-in lanes."
+      }
+    },
+    "content": {
+      "overview": "The Woods Campground is a membership-only, LGBTQIA+, clothing-optional camping resort exclusively for 18+ adults, providing a tranquil forest retreat featuring shaded campsites, modern bathhouses, and a relaxing outdoor atmosphere within easy driving distance of Jim Thorpe's historic downtown.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Guards sensitive onboard RV electrical systems against voltage sags during peak summer operating weekends."
+      },
+      "loopC": "Main pull-through sites provide 30/50 amp electrical service, full water/sewer hookups, and comfortable clearance for mid-to-large rigs.",
+      "loopsAB": "Shaded woodland back-in loops offer natural privacy and quiet surroundings for travel trailers and camper vans."
+    }
+  },
+  {
+    "id": "100-mile-view-camping",
+    "name": "100 Mile View Camping",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-11",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Jim Thorpe",
+    "featured": true,
+    "lat": 40.85556,
+    "lng": -75.746376,
+    "image": "/images/100-mile-view-camping.jpg",
+    "mapImage": null,
+    "address": "58 Flagstaff Rd, Jim Thorpe, PA 18229",
+    "gps": "40.8556° N, 75.7464° W",
+    "phone": "+16105544951",
+    "website": "https://www.100mileviewcamping.com/",
+    "summary": "Scenic ridge-top campground overlooking the Lehigh Valley, offering panoramic vistas, rustic hookups, and direct access to Flagstaff Mountain viewpoints.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (Compact mountain ridge pads; tight turning radius)",
+      "toadFriendliness": "Moderate; unhook prior to climbing Flagstaff Mountain grade",
+      "treeClearance": "Moderate ridge canopy; watch low branches on approach curves",
+      "bestBigRigLoops": "Ridge-View Electric Pull-In Rows",
+      "bestSmallRigLoops": "Overlook Tent & Camper Van Sites"
+    },
+    "approach": {
+      "title": "Flagstaff Mountain Ridge Ascent Warning",
+      "text": "Approach via Flagstaff Road from Jim Thorpe heights. The route features steep mountain grades and sharp elevation switchbacks; heavy motorhomes and long fifth wheels should maintain low gear and check brake temperatures.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for routing heavy rigs safely up Carbon County mountain ridges without encountering sharp hairpin restrictions."
+      }
+    },
+    "toadStrategy": {
+      "text": "Disconnect your towed vehicle at the lower staging pull-off before making the final steep ridge climb to the campground check-in area.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides critical blind-spot and rear visibility when maneuvering on tight ridge-top pads."
+      }
+    },
+    "content": {
+      "overview": "Perched high above historic Jim Thorpe, 100 Mile View Camping delivers breathtaking valley vistas, crisp mountain air, and peaceful seclusion just minutes from downtown trails and rafting outfitters.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics against voltage fluctuations from high-altitude power line exposure."
+      },
+      "loopC": "Ridge-facing electric sites equipped with 30-amp service, ideal for small-to-mid motorhomes and travel trailers.",
+      "loopsAB": "Wooded overlook sites tailored for tent campers, overlanders, and camper vans seeking maximum scenery."
+    }
+  },
+  {
+    "id": "lizard-creek-campground",
+    "name": "Lizard Creek Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-11",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Lehighton",
+    "featured": true,
+    "lat": 40.766375,
+    "lng": -75.753459,
+    "image": "/images/lizard-creek-campground.jpg",
+    "mapImage": "/images/lizard-creek-campground-map.jpg",
+    "address": "2489 W Lizard Creek Rd, Lehighton, PA 18235",
+    "gps": "40.7664° N, 75.7535° W",
+    "phone": "+15703862911",
+    "website": "http://www.lizardcreekpa.com/",
+    "summary": "Scenic family-owned campground situated along Lizard Creek in Lehighton, offering shaded valley sites, full hookups, and relaxed Poconos outdoor access.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select full-hookup back-in and pull-through sites)",
+      "toadFriendliness": "Good; smooth rural valley approach with dedicated check-in apron space",
+      "treeClearance": "Moderate canopy along shaded creek loops; clear overhead clearance on main entry lanes",
+      "bestBigRigLoops": "Lower Valley Full-Hookup Sites",
+      "bestSmallRigLoops": "Creekside Wooded Back-in Sites"
+    },
+    "approach": {
+      "title": "Winding Valley Approach via West Lizard Creek Road",
+      "text": "Access via regional connectors leading to West Lizard Creek Road. The valley road features gentle rolling hills and rural curves; maintain awareness of agricultural traffic and narrow bridge clearances along secondary Carbon County routes.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for routing heavy rigs safely along Poconos valley corridors while avoiding low-clearance constraints."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the registration parking area directly off West Lizard Creek Road to unhook your towed vehicle before proceeding into the campground loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Ensures wide-angle visibility when unhooking in busy registration lanes."
+      }
+    },
+    "content": {
+      "overview": "Lizard Creek Campground provides a peaceful, family-oriented retreat nestled in the valley, featuring spacious shaded campsites, fishing access, and convenient proximity to Jim Thorpe outdoor recreation.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Guards sensitive onboard RV electrical systems against voltage sags during peak summer operating weekends."
+      },
+      "loopC": "Full-hookup sites accommodate larger travel trailers and motorhomes with ample slide-out clearance.",
+      "loopsAB": "Creekside and wooded back-in loops offer natural shade and privacy for pop-ups, camper vans, and smaller rigs."
+    }
+  },
+  {
+    "id": "stonybrook-rv-resort",
+    "name": "StonyBrook RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-11",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Lehighton",
+    "featured": true,
+    "lat": 40.752666,
+    "lng": -75.751388,
+    "image": "/images/stonybrook-rv-resort.jpg",
+    "mapImage": "/images/stonybrook-rv-resort-map.jpg",
+    "address": "1435 Germans Rd, Lehighton, PA 18235",
+    "gps": "40.752666, -75.751388",
+    "phone": "+15703864088",
+    "website": "https://www.stonybrookrvresort.com",
+    "websiteLabel": "StonyBrook RV Resort Official Website",
+    "summary": "Verified big-rig navigation, PA-895 approach routing, and site insights for StonyBrook RV Resort located off Germans Road in Lehighton, Pennsylvania.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Spacious pull-through full-hookup sites available)",
+      "toadFriendliness": "Good; smooth internal resort roads with convenient check-in apron space",
+      "treeClearance": "Moderate canopy along older shaded back-in rows; clear overhead clearance on main pull-through loops",
+      "bestBigRigLoops": "Main Pull-Through Full Hookup Section",
+      "bestSmallRigLoops": "Streamside & Wooded Back-in Sites"
+    },
+    "approach": {
+      "title": "PA-895 to Germans Road Approach Warning",
+      "text": "Approach via PA Route 895 turning directly onto Germans Road. This path maintains wide lanes and manageable turns, avoiding narrow local residential cut-throughs in Carbon County.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable routing customized for large rigs traveling through Maryland's Eastern Shore."
+      }
+    },
+    "toadStrategy": {
+      "text": "The main registration entrance off Germans Road offers wide pull-over space to easily unhook towed vehicles prior to navigating internal campground loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Nestled near the foothills of the Poconos, StonyBrook RV Resort features spacious full-hookup sites, seasonal recreational amenities, and convenient access to Lehighton and Jim Thorpe attractions.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Safeguards electrical systems against fluctuations on 30/50 amp pedestals."
+      },
+      "loopC": "Main pull-through sites provide 30/50 amp electrical service, full water/sewer hookups, and ample clearance for big-rig slide-outs.",
+      "loopsAB": "Shaded back-in sites offer natural privacy and quiet surrounding woods for smaller travel trailers and camper vans."
+    }
+  },
+  {
+    "id": "pocono-vacation-park",
+    "name": "Pocono Vacation Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-05",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Stroudsburg",
+    "featured": true,
+    "lat": 40.979124,
+    "lng": -75.250632,
+    "image": "/images/pocono_vacation_park.jpg",
+    "mapImage": "/images/pocono_vacation_park_map.jpg",
+    "address": "110 Arnie Way, Stroudsburg, PA 18360",
+    "gps": "40.9791° N, 75.2506° W",
+    "phone": "+1 (570) 424-2587",
+    "website": "https://poconovacationpark.com/",
+    "summary": "A year-round Pocono mountain resort located just off the US-209/I-80 corridor, featuring full 30/50-amp hookup sites, outdoor pool, rec hall, and convenient proximity to regional shopping and attractions.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (spacious office staging area off Arnie Way for unhooking)",
+      "treeClearance": "Main roadways clear; exercise standard caution on secondary loops",
+      "bestBigRigLoops": "Central Pull-Through Avenue Sites",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US-209 / I-80 Corridor Access",
+      "text": "Accessed via I-80 taking Exit 302 to US-209 South / PA-33 South, connecting directly to Arnie Way. Arterial routing via US-209 avoids low-clearance municipal underpasses.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable highway routing and warns of sharp roadway grade transitions in the Poconos."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the wide registration staging area off Arnie Way to unhook your towed vehicle before proceeding into the campsite loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Ensures precise visibility when backing into perimeter back-in campsites."
+      }
+    },
+    "content": {
+      "overview": "Pocono Vacation Park provides a convenient mountain camping base with full 30/50-amp utility hookups, swimming pool, recreation hall, and easy highway access to Delaware Water Gap recreation areas.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects against seasonal power fluctuations during peak vacation periods."
+      },
+      "loopC": "Central pull-through avenues accommodate large Class A motorhomes and fifth wheels with level gravel pads.",
+      "loopsAB": "Perimeter back-in sites offer natural shade and quiet mountain surroundings."
+    }
+  },
+  {
+    "id": "kittatinny-river-beach",
+    "name": "Kittatinny Canoes & Campground / River Beach",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-05",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Milford",
+    "featured": true,
+    "lat": 41.343073,
+    "lng": -74.761408,
+    "image": "/images/kittatinny_river_beach.jpg",
+    "mapImage": "/images/kittatinny_river_beach_map.jpg",
+    "address": "378 US-209, Milford, PA 18337",
+    "gps": "41.3431° N, 74.7614° W",
+    "phone": "+1 (845) 682-3539",
+    "website": "https://kittatinny.com/camping/river-beach-campground",
+    "summary": "A premier waterfront outpost situated on the Delaware River near Milford, featuring electric and water sites, direct river access for rafting and kayaking, and scenic cliffside views.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Riverfront Electric/Water Sites)",
+      "toadFriendliness": "Moderate (unhook at main registration lot off US-209 before descending lower river loops)",
+      "treeClearance": "Moderate overhead clearance; maintain center lane positioning on access slopes",
+      "bestBigRigLoops": "Upper Level Electric Pull-Through Sites",
+      "bestSmallRigLoops": "Lower Riverbank Water & Electric Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US-209 Delaware River Corridor Access",
+      "text": "Accessed via I-84 taking Exit 46 onto US-6 East/US-209 South directly into Milford, proceeding south along US-209. US-209 is a federal parkway with clear overhead clearances, though non-commercial RVs must maintain controlled speeds around tight river bends.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides direct arterial highway routing and warns of sharp river corridor grade transitions."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main upper office parking lot off US-209 to register and unhook your towed vehicle before maneuvering down into the lower riverfront campsite loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with tight line-of-sight backing into shaded riverbank campsites."
+      }
+    },
+    "content": {
+      "overview": "Kittatinny River Beach offers an outdoor recreation resort setting along the Upper Delaware River. Provides electric/water hookups, direct river launching for canoes, rafts, and kayaks, dual-level camping loops, and immediate access to regional hiking.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics from rural power grid fluctuations during peak weekend occupancy."
+      },
+      "loopC": "Upper level campsite loops feature wider turning radii suitable for mid-to-large motorhomes and travel trailers.",
+      "loopsAB": "Lower riverfront back-in loops sit directly on the riverbank under a mature hardwood canopy."
+    }
+  },
+  {
+    "id": "delaware-water-gap-koa",
+    "name": "Delaware Water Gap KOA Holiday",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-05",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "East Stroudsburg",
+    "featured": true,
+    "lat": 41.049384,
+    "lng": -75.079351,
+    "image": "/images/delaware_water_gap_koa.jpg",
+    "mapImage": "/images/delaware_water_gap_koa_map.jpg",
+    "address": "227 Hollow Rd, East Stroudsburg, PA 18302",
+    "gps": "41.0494° N, 75.0794° W",
+    "phone": "+1 (570) 223-8000",
+    "website": "https://koa.com/campgrounds/delaware-water-gap/",
+    "summary": "A premier family resort located minutes from the Delaware Water Gap National Recreation Area, offering full 30/50-amp hookups, pull-through sites, swimming pool, and easy Appalachian Trail access.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Deluxe Pull-Through Sites)",
+      "toadFriendliness": "High (dedicated staging lanes off Hollow Road near main registration office)",
+      "treeClearance": "Main avenues well-trimmed for high-profile fifth wheels and motorhomes",
+      "bestBigRigLoops": "Main Patio Pull-Through Avenue Sites",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Hollow Road Access",
+      "text": "Accessed via I-80 taking Exit 309 onto PA-447 North to US-209 North, turning onto Hollow Road directly to the resort entrance. Staying on US-209 bypasses tight borough lanes near the river.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures direct arterial routing along state connectors and avoids rural bridge restrictions."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the wide staging lane at the main lodge/office off Hollow Road to unhook your toad before entering interior campsite loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential visibility when backing into terraced back-in loops."
+      }
+    },
+    "content": {
+      "overview": "Delaware Water Gap KOA Holiday provides a full-featured resort experience near the Delaware River. Features 30/50-amp full hookups, swimming pool, mini-golf, dog park, and rapid arterial access to regional hiking.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard RV electronics from regional power fluctuations during peak summer occupancy."
+      },
+      "loopC": "Main pull-through avenues accommodate large Class A motorhomes and fifth wheels with level concrete/gravel pads.",
+      "loopsAB": "Perimeter back-in sites offer natural shade and serene forest views."
+    }
+  },
+  {
+    "id": "hershey-park-camping-resort",
+    "name": "Hershey Park Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-03",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Hummelstown",
+    "featured": true,
+    "lat": 40.271774,
+    "lng": -76.6933,
+    "image": "/images/hershey_park_camping_resort.jpg",
+    "mapImage": "/images/hershey_park_camping_resort_map.jpg",
+    "address": "1200 Sweet St, Hummelstown, PA 17036",
+    "gps": "40.2718° N, 76.6933° W",
+    "phone": "+1 (888) 710-0917",
+    "website": "https://www.hersheyparkcampingresort.com/",
+    "summary": "The official 55-acre resort campground of Hersheypark situated along Swatara Creek, featuring full 30/50-amp hookups, preferred park entry pricing, shuttle services, and family amenities.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Full Hookup Pull-Through Sites)",
+      "toadFriendliness": "High (multi-lane check-in staging area adjacent to main lodge off Sweet St)",
+      "treeClearance": "Main avenues trimmed for high-profile rigs; mature shade canopy in creek loops",
+      "bestBigRigLoops": "Main Avenue Full-Hookup Pull-Through Sites",
+      "bestSmallRigLoops": "Swatara Creek Water & Electric Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Sweet Street & US-322 Corridor Access",
+      "text": "Accessed via US-322 taking the Hockersville Road exit, proceeding onto Sweet Street directly to the main resort entrance. Sweet Street offers clean overhead clearances and easy arterial access.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures direct arterial routing and avoids regional secondary road height hazards."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated multi-lane check-in staging area adjacent to the main registration lodge off Sweet Street to safely unhook your toad before maneuvering into interior loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential blind-spot visibility when maneuvering into multi-row campground loops."
+      }
+    },
+    "content": {
+      "overview": "Hershey Park Camping Resort spans 55 acres along Swatara Creek, offering full 30/50-amp hookups, two swimming pools, country store, creek fishing, and direct shuttle transportation to Hersheypark.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard RV electronics from regional power grid fluctuations during peak resort season."
+      },
+      "loopC": "Main pull-through avenues accommodate large Class A motorhomes and multi-axle fifth wheels with clear utility alignments.",
+      "loopsAB": "Creekfront and shaded back-in loops provide relaxed surroundings under mature tree canopy."
+    }
+  },
+  {
+    "id": "pinch-pond-campground",
+    "name": "Pinch Pond Family Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-03",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Manheim",
+    "featured": true,
+    "lat": 40.229668,
+    "lng": -76.452358,
+    "image": "/images/pinch_pond_campground.jpg",
+    "mapImage": "/images/pinch_pond_campground_map.jpg",
+    "address": "3075 Pinch Rd, Manheim, PA 17545",
+    "gps": "40.2297° N, 76.4524° W",
+    "phone": "+1 (717) 665-7640",
+    "website": "https://pinchpond.com/",
+    "summary": "A heavily shaded, quiet family campground at the foot of South Mountain featuring full hookup pull-through sites, outdoor pool, fishing pond, and peaceful forest surroundings near Hershey.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (office registration lane off Pinch Road)",
+      "treeClearance": "Dense natural shade canopy; main avenues trimmed for standard high-profile rigs",
+      "bestBigRigLoops": "Lower Pull-Through Avenue Sites",
+      "bestSmallRigLoops": "Upper Wooded Terraced Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Pinch Road Access",
+      "text": "Accessed via PA-72 taking Pinch Road directly to the main entrance. Staying on PA-72 connectors avoids unverified township cuts and low-hanging branches near Mt. Gretna.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures direct arterial routing along state connectors and avoids rural bridge restrictions."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated check-in registration lane near the main office off Pinch Road to safely unhook your toad before negotiating interior campsite turns.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential visibility when backing into heavily wooded sites."
+      }
+    },
+    "content": {
+      "overview": "Pinch Pond Family Campground provides a shaded retreat situated between Lancaster and Hershey. Features 30/50-amp utility hookups, swimming pool, fishing pond, camp store, and peaceful natural surroundings.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard RV electronics from regional power spikes during peak summer demand."
+      },
+      "loopC": "Main pull-through avenues accommodate standard motorhomes and travel trailers with easy utility hookup access.",
+      "loopsAB": "Wooded perimeter back-in sites offer maximum shade and privacy."
+    }
+  },
+  {
+    "id": "elizabethtown-hershey-koa",
+    "name": "Elizabethtown / Hershey KOA Holiday",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-03",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Elizabethtown",
+    "featured": true,
+    "lat": 40.142067,
+    "lng": -76.656579,
+    "image": "/images/elizabethtown_hershey_koa.jpg",
+    "mapImage": null,
+    "address": "1980 Turnpike Rd, Elizabethtown, PA 17022",
+    "gps": "40.1421° N, 76.6566° W",
+    "phone": "+1 (717) 367-7718",
+    "website": "https://koa.com/campgrounds/elizabethtown/",
+    "summary": "A full-featured KOA Holiday in rural Lancaster/Lebanon farm country featuring full 50-amp pull-through sites, swimming pool, mini-golf, and convenient access to Hershey attractions.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Deluxe Patio & Pull-Through Sites)",
+      "toadFriendliness": "High (multi-lane check-in apron off Turnpike Road)",
+      "treeClearance": "Open agricultural corridor; interior trees maintained for big-rig turns",
+      "bestBigRigLoops": "Main Pull-Through Avenue Sites",
+      "bestSmallRigLoops": "Back-In Perimeter Tent & RV Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Turnpike Road Corridor Access",
+      "text": "Accessed via PA-283 onto Turnpike Road directly to the resort entrance. Turnpike Road is wide and well-maintained for commercial and agricultural transport, avoiding narrow township turns.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable guidance along state connectors while avoiding minor township restrictions."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the wide registration driveway and staging apron right in front of the main KOA store off Turnpike Road to unhook your towed vehicle before proceeding into the gravel loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Ensures clear blind-spot visibility when maneuvering into multi-row campground loops."
+      }
+    },
+    "content": {
+      "overview": "Elizabethtown / Hershey KOA Holiday offers a family-friendly camping experience surrounded by Lancaster and Lebanon County farmlands. Featuring full 30/50-amp hookups, paved and gravel patios, swimming pool, pedal carts, KampK9 dog park, and seasonal shuttle options.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Guards sensitive onboard electronics against summer grid power fluctuations."
+      },
+      "loopC": "Main pull-through sites offer generous lengths and easy hookup alignments for large Class A motorhomes and multi-axle fifth wheels.",
+      "loopsAB": "Perimeter and shaded back-in sites provide a relaxing atmosphere under mature shade trees."
+    }
+  },
+  {
+    "id": "harrisburg-east-campground",
+    "name": "Harrisburg East Campground and Storage",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-03",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Harrisburg",
+    "featured": true,
+    "lat": 40.232258,
+    "lng": -76.799007,
+    "image": "/images/harrisburg_east_campground.jpg",
+    "mapImage": "/images/harrisburg_east_campground_map.jpg",
+    "address": "1134 Highspire Rd, Harrisburg, PA 17111",
+    "gps": "40.2323° N, 76.7990° W",
+    "phone": "+1 (717) 939-4331",
+    "website": "http://www.hbgeastcampground.com/",
+    "summary": "A convenient urban-adjacent RV park off PA-283 and I-83 featuring shaded pull-through sites, full hookups, swimming pool, and quick access to Harrisburg and Hershey.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (spacious office staging area off Highspire Rd)",
+      "treeClearance": "Mature shade canopy; main avenues trimmed for standard high-profile rigs",
+      "bestBigRigLoops": "Main Pull-Through Avenue Sites",
+      "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: PA-283 Corridor Access",
+      "text": "Accessed via PA-283 taking the Highspire exit onto Highspire Road directly to the resort entrance. Staying on state connectors avoids narrow township turns and low residential clearances.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures direct arterial routing and avoids regional secondary road height hazards."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated office registration staging area right off Highspire Road to safely unhook your toad before heading into interior campsite loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides vital visibility when backing into shaded tree-lined sites."
+      }
+    },
+    "content": {
+      "overview": "Harrisburg East Campground and Storage offers a shaded, quiet haven situated conveniently between downtown Harrisburg and Hersheypark. Featuring full 30/50-amp utility hookups, swimming pool, laundry facilities, and secure outdoor storage options.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard RV electronics from regional power grid fluctuations."
+      },
+      "loopC": "Main pull-through avenues accommodate larger motorhomes and travel trailers with easy utility hookup alignment.",
+      "loopsAB": "Perimeter back-in sites provide shaded surroundings and excellent privacy."
+    }
+  },
+  {
+    "id": "hershey-rv-resort",
+    "name": "Thousand Trails Hershey",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-03",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Lebanon",
+    "featured": true,
+    "lat": 40.267895,
+    "lng": -76.520276,
+    "image": "/images/hershey_rv_resort.jpg",
+    "mapImage": "/images/hershey_rv_resort_map.jpg",
+    "address": "493 S Mt Pleasant Rd, Lebanon, PA 17042",
+    "gps": "40.2679° N, 76.5203° W",
+    "phone": "+1 (717) 867-3967",
+    "website": "https://thousandtrails.com/pennsylvania/hershey-rv-camping-resort",
+    "summary": "A heavily shaded Thousand Trails preserve near Hersheypark featuring terraced big-rig sites, full hookups, swimming pools, mini-golf, and convenient access to regional attractions.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Terraced Pull-Through Sites)",
+      "toadFriendliness": "High (dedicated staging lanes at gatehouse check-in)",
+      "treeClearance": "Mature oak/pine canopy; main loops well-maintained for high-profile rigs",
+      "bestBigRigLoops": "Lower Lakeview Pull-Through Section",
+      "bestSmallRigLoops": "Upper Wooded Terraced Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: PA Turnpike Exit 266 Corridor",
+      "text": "From the PA Turnpike (I-76), take Exit 266 onto PA-72 North toward Lebanon, transition onto US-322 West, then follow PA-117 North onto South Mt. Pleasant Road directly to the resort gate. Avoid unverified rural township shortcuts around Mt. Gretna.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for navigating rural PA state routes and avoiding low historical bridges."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated multi-lane staging area near the main entrance gatehouse off South Mt. Pleasant Road to disconnect your toad before ascending into the terraced site loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with blind-spot monitoring on winding, terraced campground roads."
+      }
+    },
+    "content": {
+      "overview": "Thousand Trails Hershey spans over 200 wooded acres in Lebanon County, just a short drive from Hersheypark and PA Dutch country. The resort provides full 30/50-amp utility hookups, clean gravel pads, outdoor pools, fishing pond access, and family activities.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Essential for shielding electronics from summer park utility sags."
+      },
+      "loopC": "Lower section pull-through sites offer easy maneuverability and wide turning radii for Class A motorhomes and long fifth wheels.",
+      "loopsAB": "Upper terraced sites offer private, wooded surroundings with natural shade."
+    }
+  },
+  {
+    "id": "beacon-hill-camping",
+    "name": "Beacon Hill Camping",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Intercourse",
+    "featured": true,
+    "lat": 40.046155,
+    "lng": -76.114183,
+    "image": "/images/beacon_hill_camping.jpg",
+    "mapImage": "/images/beacon_hill_camping_map.jpg",
+    "address": "128 Beacon Hill Rd, Intercourse, PA 17534",
+    "gps": "40.0462° N, 76.1142° W",
+    "phone": "+1 (717) 768-8775",
+    "website": "https://www.beaconhillcamping.com/",
+    "summary": "A small, quiet, rural campground with under 50 total sites located in the heart of Intercourse, offering peaceful farm views, local shopping, and a tranquil atmosphere without a pool.",
+    "scorecard": {
+      "maxRigLength": "Up to 38 ft (Compact Rural Layout)",
+      "toadFriendliness": "Moderate (compact entrance apron; unhook prior to interior sites)",
+      "treeClearance": "Rural farm lane approach with moderate shade canopy",
+      "bestBigRigLoops": "Main Entrance Utility Sites",
+      "bestSmallRigLoops": "Quiet Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: PA-340 & PA-772 to Beacon Hill Rd",
+      "text": "Accessed via state corridors (PA-340 / PA-772) transitioning to Beacon Hill Road in Intercourse. Navigate carefully through the farming village, watching for horse-drawn buggies and agricultural traffic.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for routing larger rigs past agricultural lanes and village intersections in Amish country."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated check-in staging area near the entrance off Beacon Hill Road to unhook your towed vehicle before maneuvering into the compact <50-site layout.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential rear visibility in tight rural campground turnarounds."
+      }
+    },
+    "content": {
+      "overview": "Beacon Hill Camping is a small, quiet, rural campground where guests find recreation in shopping, sightseeing, or just watching the cows come home. Situated in the friendly farming village of Intercourse, it offers a peaceful place to put your feet up and enjoy the views without resort pools or crowds.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive onboard electronics against rural power fluctuations."
+      },
+      "loopC": "Main utility sites accommodate moderate-length RVs seeking a peaceful rural basecamp.",
+      "loopsAB": "Quiet perimeter sites offer immersive views of surrounding Lancaster farmlands."
+    }
+  },
+  {
+    "id": "white-oak-campground",
+    "name": "White Oak Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Quarryville",
+    "featured": true,
+    "lat": 39.944091,
+    "lng": -76.138632,
+    "image": "/images/white_oak_campground.jpg",
+    "mapImage": "/images/white_oak_campground_map.jpg",
+    "address": "3156 White Oak Rd, Quarryville, PA 17566",
+    "gps": "39.9441° N, 76.1386° W",
+    "phone": "+1 (717) 687-6207",
+    "website": "https://whiteoakcampground.com/",
+    "summary": "Family-oriented campground set in the rolling hills of southern Lancaster County featuring shaded sites, full hookups, swimming pools, and a fishing pond.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "Good (registration apron off White Oak Rd for staging)",
+      "treeClearance": "Moderate tree canopy along rural approach and shaded loops",
+      "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Southern Lancaster Rural Corridors",
+      "text": "Accessed via regional southern Lancaster routes connecting to White Oak Road in Quarryville. Rural secondary roads feature rolling topography; big rigs should maintain state-numbered corridors until the final approach.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for navigating rural township roads and confirming weight/clearance limits in southern Lancaster."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main check-in staging area off White Oak Road to unhook your towed vehicle before proceeding into the wooded campground loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when maneuvering and disconnecting your toad."
+      }
+    },
+    "content": {
+      "overview": "White Oak Campground offers a peaceful, family-friendly camping atmosphere tucked into the rolling hills of southern Lancaster County. Features full utility hookups, swimming pools, and recreational ponds.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electrical systems against voltage sags during peak summer usage."
+      },
+      "loopC": "Primary pull-through sites provide easier access for larger travel trailers and motorhomes.",
+      "loopsAB": "Shaded back-in sites offer excellent privacy and a rustic woodland feel."
+    }
+  },
+  {
+    "id": "spring-gulch-campground",
+    "name": "Spring Gulch Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "New Holland",
+    "featured": true,
+    "lat": 40.06537,
+    "lng": -76.017271,
+    "image": "/images/spring_gulch_campground.jpg",
+    "mapImage": "/images/spring_gulch_campground_map.jpg",
+    "address": "475 Lynch Rd, New Holland, PA 17557",
+    "gps": "40.0654° N, 76.0173° W",
+    "phone": "+1 (717) 354-3100",
+    "website": "https://www.thousandtrails.com/pennsylvania/spring-gulch-rv-campground/",
+    "summary": "Premier RV resort nestled in the Lancaster County countryside featuring full hookups, large pull-through sites, swimming pools, and a private lake.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Long Pull-Through Utility Sites)",
+      "toadFriendliness": "Excellent (spacious registration check-in apron off Lynch Rd)",
+      "treeClearance": "Well-maintained canopy on primary resort roads",
+      "bestBigRigLoops": "Main Resort Pull-Through Rows",
+      "bestSmallRigLoops": "Lakefront & Wooded Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: State Corridors to Lynch Rd",
+      "text": "Accessed via major state connectors (US-322 / PA-897) transitioning directly onto Lynch Rd in eastern Lancaster County. Stick to state-numbered routes until the final approach to avoid narrow farm lane restrictions.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for confirming commercial vehicle routing on rolling Lancaster county roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main check-in and registration staging area off Lynch Road to unhook your towed vehicle before proceeding into the resort camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides full rear visibility when staging and disconnecting your toad."
+      }
+    },
+    "content": {
+      "overview": "Spring Gulch Campground provides an upscale outdoor getaway surrounded by Pennsylvania Dutch farmlands. Features full 30/50-amp utility hookups, swimming pools, mini-golf, and a private recreational lake.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Safeguards onboard electrical systems against voltage drops during peak summer resort capacity."
+      },
+      "loopC": "Main pull-through sites offer wide gravel pads designed for effortless entry and exit for big motorhomes and fifth wheels.",
+      "loopsAB": "Wooded back-in sites offer excellent privacy and natural shade for travel trailers."
+    }
+  },
+  {
+    "id": "circle-m-thousand-trails",
+    "name": "Circle M Thousand Trails",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Lancaster",
+    "featured": true,
+    "lat": 40.001275,
+    "lng": -76.32592,
+    "image": "/images/circle_m_thousand_trails.jpg",
+    "mapImage": "/images/circle_m_thousand_trails_map.jpg",
+    "address": "2111 Millersville Rd, Lancaster, PA 17603",
+    "gps": "40.0013° N, 76.3259° W",
+    "phone": "+1 (717) 872-4651",
+    "website": "https://www.thousandtrails.com/pennsylvania/circle-m-camping-resort/",
+    "summary": "Sprawling RV resort located along the Conestoga River in Lancaster, featuring extensive resort amenities, full hookups, and large pull-through sites built for big rigs.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Dedicated Big-Rig Pull-Through Loops)",
+      "toadFriendliness": "Excellent (wide resort entrance aprons and check-in staging)",
+      "treeClearance": "Well-maintained canopy along primary resort boulevards",
+      "bestBigRigLoops": "Main Resort Utility Rows",
+      "bestSmallRigLoops": "Riverfront Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: PA-999 South to PA-741 West",
+      "text": "Accessed via PA-999 South, turning left onto PA-741 West. The campground entrance will be clearly marked on the left. This route utilizes well-paved state secondary corridors designed for commercial and resort traffic.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures precise turn-by-turn guidance through suburban Lancaster intersections."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the expansive main entrance check-in lanes off PA-741 to safely unhook your towed vehicle prior to navigating the resort loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides full visibility when disconnecting your toad in the staging area."
+      }
+    },
+    "content": {
+      "overview": "Circle M Thousand Trails delivers an active resort experience right in the heart of Lancaster County. Amenities include indoor and outdoor pools, mini-golf, sports courts, and riverfront access.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive onboard RV electronics against power fluctuations during peak summer resort usage."
+      },
+      "loopC": "Main pull-through sites provide effortless setup for Class A motorhomes and long fifth wheels with multiple slide-outs.",
+      "loopsAB": "Riverfront back-in sites offer scenic views and a more traditional wooded camping atmosphere."
+    }
+  },
+  {
+    "id": "starlite-camping-resort",
+    "name": "Starlite Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Stevens",
+    "featured": true,
+    "lat": 40.2533,
+    "lng": -76.2384,
+    "image": "/images/starlite_camping_resort.jpg",
+    "mapImage": "/images/starlite_camping_resort_map.jpg",
+    "address": "1500 Furnace Hill Rd, Stevens, PA 17578",
+    "gps": "40.2533° N, 76.2384° W",
+    "phone": "+1 (717) 733-9655",
+    "website": "https://starlitecampingresort.com/",
+    "summary": "Popular family campground in northern Lancaster County offering full hookups, large pull-through sites, swimming pools, and scenic Pennsylvania Dutch country views.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Select Long Pull-Through Utility Sites)",
+      "toadFriendliness": "Excellent (generous registration apron and check-in staging lanes)",
+      "treeClearance": "Well-maintained canopy along main campground arteries",
+      "bestBigRigLoops": "Upper Plateau Pull-Through Rows",
+      "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US-322 to Hopeland Rd & Furnace Hill Rd",
+      "text": "Accessed via US-322, taking Hopeland Rd north to Kleinfeltersville Rd, transitioning onto Forest Hill Rd, and final approach via Furnace Hill Rd in northern Lancaster County. This state-highway and rural connector route maintains comfortable widths for big rigs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for navigating rural PA township turns and confirming overhead clearance."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the wide main check-in and registration area off Furnace Hill Road to unhook your towed vehicle before entering the internal camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides wide-angle rear visibility when staging and unhooking your toad."
+      }
+    },
+    "content": {
+      "overview": "Starlite Camping Resort provides a relaxing family getaway in northern Lancaster County. Featuring spacious gravel pads, full 30/50-amp utility connections, and active resort amenities.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Safeguards onboard electrical systems against voltage fluctuations during high-demand summer weekends."
+      },
+      "loopC": "Upper plateau pull-through sites provide effortless entry and exit for multi-axle motorhomes and long fifth wheels.",
+      "loopsAB": "Lower shaded back-in sites offer excellent privacy for smaller travel trailers and camper vans."
+    }
+  },
+  {
+    "id": "dingmans-campground",
+    "name": "Dingmans Campground",
+    "ownertype": "National Park Service",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Dingmans Ferry",
+    "featured": true,
+    "lat": 41.2108,
+    "lng": -74.8717,
+    "image": "/images/dingmans_campground.jpg",
+    "mapImage": null,
+    "address": "1006 Route 209, Dingmans Ferry, PA 18328",
+    "gps": "41.2108° N, 74.8717° W",
+    "phone": "(570) 828-1551",
+    "website": "https://www.dingmanscampground.com",
+    "summary": "Forested National Park Service riverside campground located within the Delaware Water Gap National Recreation Area, featuring 35 RV-ready sites with 20/30/50-amp hookups and a pure digital-detox vibe.",
+    "scorecard": {
+      "maxRigLength": "Up to 50 ft (Select Forest RV Sites)",
+      "toadFriendliness": "Good (entrance off Route 209 leads to spacious registration pull-offs)",
+      "treeClearance": "Moderate; mature old-growth forest canopy overhead",
+      "bestBigRigLoops": "20/30/50-Amp Forest RV Rows",
+      "bestSmallRigLoops": "River Forest Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-80 to PA Route 209 North (⚠️ Bridge Warning)",
+      "text": "Accessed via I-80 Exit 309 for PA-209 North, following north for 23 miles to the entrance on the right. WARNING: Avoid crossing the Dingmans Toll Bridge from NJ on Route 206, as it features a strict 11-foot height limit impassable for large RVs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for routing around low-clearance bridges and navigating PA-209 corridors."
+      }
+    },
+    "toadStrategy": {
+      "text": "Use the entrance check-in apron directly off Route 209 to safely unhook your towed vehicle before proceeding into the wooded campground loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Dingmans Campground spans 65 acres of rustic old-growth forest along the Delaware River inside the Delaware Water Gap National Recreation Area, offering peaceful riverside camping and an authentic digital detox (noted cell service dead zone).",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Indispensable for balancing your rig on natural earth and gravel forest pads."
+      },
+      "loopC": "Forest RV sites offer 20/30/50-amp electrical service, water hookups, and pad lengths accommodating coaches up to 50 ft.",
+      "loopsAB": "Forested boondock and tent sites provide secluded natural shade within a short walk of the Delaware River banks."
+    }
+  },
+  {
+    "id": "jim-thorpe-camping-resort",
+    "name": "Jim Thorpe Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Jim Thorpe",
+    "featured": true,
+    "lat": 40.8536,
+    "lng": -75.776,
+    "image": "/images/jim_thorpe_resort.jpg",
+    "mapImage": null,
+    "address": "129 Lentz Trail, Jim Thorpe, PA 18229",
+    "gps": "40.8536° N, 75.7760° W",
+    "phone": "(570) 325-2644",
+    "website": "https://www.jimthorpecamping.com",
+    "summary": "Popular Pocono Mountains campground near Jim Thorpe, PA. Ground-truth routing alert warning big rigs and trailers away from the steep climb and impossible turn on Flagstaff Road.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Moderate Maneuvering Required)",
+      "toadFriendliness": "Good (staging areas available near registration)",
+      "treeClearance": "Moderate; watch lower canopy branches along mountain approach roads and inner loops",
+      "bestBigRigLoops": "Main Hillside Pull-Through Sites",
+      "bestSmallRigLoops": "Lower Creek-Bordered Back-In Sites"
+    },
+    "approach": {
+      "title": "Critical Routing Warning: Avoid Flagstaff Road Climb",
+      "text": "CRITICAL NAVIGATIONAL HAZARD: Standard GPS units and poor website directions frequently route RVers over Flagstaff Road. This route features an extreme, grueling mountain climb followed by a severe, nearly impossible hairpin turn at the bottom that is completely unsuitable for motorhomes, fifth wheels, and trailers. Consult a dedicated RV GPS and plan an alternate approach avoiding Flagstaff Road.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for overriding hazardous mountain shortcut routes like Flagstaff Road and guiding large rigs safely."
+      }
+    },
+    "toadStrategy": {
+      "text": "Use the arrival staging area near the office to unhook your towed vehicle before maneuvering into tight hillside loop turns.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Jim Thorpe Camping Resort offers wooded mountain campsites, a camp pool, and a border stream near the historic borough of Jim Thorpe, though internal road grades require careful navigation.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Crucial for leveling on sloping hillside gravel sites."
+      },
+      "loopC": "Main hillside rows provide electrical and water hookups with moderate pull-through access for mid-sized rigs.",
+      "loopsAB": "Lower creek-adjacent back-in sites offer shaded tent and small-trailer camping right along the mountain stream."
+    }
+  },
+  {
+    "id": "trailhead-campground",
+    "name": "Trailhead Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Coal Township",
+    "featured": true,
+    "lat": 40.7812,
+    "lng": -76.5415,
+    "image": "/images/trailhead.jpg",
+    "mapImage": null,
+    "address": "100 AOAA Trailhead Rd, Coal Township, PA 17866",
+    "gps": "40.7654° N, 76.5410° W",
+    "phone": "(570) 648-2622",
+    "website": "https://www.trailheadcampground.com/",
+    "summary": "Dedicated off-road park campground near AOAA in Coal Township, PA. Ground-truth approach warnings for steep mountain hairpin climbs vs. tight city street maneuvers through historic Shamokin.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Toy Hauler & Heavy Trailer Friendly)",
+      "toadFriendliness": "Excellent (dedicated off-road staging areas and wide rig parking)",
+      "treeClearance": "Excellent open-sky clearance in main loops; watch low urban tree branches through Shamokin",
+      "bestBigRigLoops": "Main RV Staging & Campsite Row",
+      "bestSmallRigLoops": "Perimeter Back-In Section"
+    },
+    "approach": {
+      "title": "Dual Approach Route Warning: Steep Hairpin vs. Shamokin City Streets",
+      "text": "CRITICAL ROUTING WARNING: Approaching from the south involves a steep mountain climb featuring a sharp hairpin turn—maintain momentum and check trailer brake bias before climbing. Approaching from the north/west forces big rigs through historic Shamokin, PA, which features narrow, densely packed city streets, tight 90-degree intersections, and low street trees. Heavy toy haulers and long rigs should exercise extreme caution.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for setting custom rig dimensions and weight limits when navigating tight mountain grades and historic Coal Region town roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Use the main off-road vehicle staging lot near the office to unhook tow rigs, trailers, or off-road vehicles before parking in designated sites.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Trailhead Campground in Coal Township, PA, serves as the premier basecamp for off-road enthusiasts visiting the Anthracite Outdoor Adventure Area (AOAA). Designed specifically for toy haulers, heavy trailers, and big rigs, our guide outlines critical mountain route warnings...",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive onboard appliances against voltage fluctuations during high-draw cooling periods."
+      },
+      "loopC": "The main RV rows feature expansive, deep pull-through and back-in gravel pads with wide turn radiuses built specifically for long truck-and-trailer combinations.",
+      "loopsAB": "Perimeter sites offer open-sky views with plenty of space to park side-by-sides, ATVs, and tow vehicles alongside your rig."
+    }
+  },
+  {
+    "id": "western-village-rv-park",
+    "name": "Western Village RV Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Carlisle",
+    "featured": true,
+    "lat": 40.2075,
+    "lng": -77.1601,
+    "image": "/images/western_village_rv_park.jpg",
+    "mapImage": "/images/western_village_rv_park_map.jpg",
+    "address": "200 Lincoln Way, Carlisle, PA 17015",
+    "gps": "40.2075° N, 77.1601° W",
+    "phone": "(717) 243-1124",
+    "website": "https://www.westernvillagervpark.com",
+    "summary": "Convenient I-81/I-76 transit hub park in Carlisle, PA. Essential ground-truth routing warning regarding the residential neighborhood approach and turn-in logistics.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Good (unhooking staging lane near front registration office)",
+      "treeClearance": "Excellent along main internal avenues; watch residential street tree overhangs on approach",
+      "bestBigRigLoops": "Pull-Through Row (50 Amp Full Hookup)",
+      "bestSmallRigLoops": "Perimeter Back-In Section"
+    },
+    "approach": {
+      "title": "Residential Neighborhood Approach Warning",
+      "text": "CRITICAL ROUTING NOTE: Access to the park entrance requires navigating through a quiet, narrow residential neighborhood (Lincoln Way / Sunset Dr). Keep speeds low, watch for parked cars along the curb, and take wide turns at residential street intersections. Approach directly from I-81 Exit 47 or Exit 45 via PA-34 to avoids tight town square maneuvers.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides custom truck and RV navigation around tight residential corner radiuses in Carlisle."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook your towed vehicle in the registration office arrival lane before turning into assigned campsite rows, especially during busy check-in hours.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Western Village RV Park offers level gravel pads, full 50-amp hookups, and extremely convenient highway access near the junction of I-81 and the PA Turnpike.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for fine-tuning side-to-side alignment on long gravel pull-through pads."
+      },
+      "loopC": "The main pull-through rows feature long, flat gravel pads with open sky clearance, making satellite setup easy for big rigs.",
+      "loopsAB": "Perimeter back-in sites offer shaded grassy lawns suitable for travel trailers and smaller motorhomes."
+    }
+  },
+  {
+    "id": "gettysburg-campground",
+    "name": "Gettysburg Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Gettysburg",
+    "featured": true,
+    "lat": 39.8188,
+    "lng": -77.2842,
+    "image": "/images/gettysburg.jpg",
+    "mapImage": "/images/gettysburg_map.jpg",
+    "address": "2030 Fairfield Rd, Gettysburg, PA 17325",
+    "gps": "39.8188° N, 77.2842° W",
+    "phone": "(717) 334-3304",
+    "website": "https://www.gettysburgcampground.com",
+    "summary": "Premier family campground along Marsh Creek west of historic Gettysburg. Ground-truth breakdown of PA-116 approach navigation, downtown roundabout warnings, and pull-thru pad fit.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (wide registration lane and staging area prior to loop entry)",
+      "treeClearance": "Good along main avenues; watch lower branches on creekfront shaded lanes",
+      "bestBigRigLoops": "Center Pull-Through Rows (50 Amp Full Hookup)",
+      "bestSmallRigLoops": "Marsh Creek Back-In Section"
+    },
+    "approach": {
+      "title": "PA-116 Approach & Historic Gettysburg Roundabout Warning",
+      "text": "Approach via PA-116 (Fairfield Rd) directly from the west. If approaching from the east, use US-30 bypass to avoid tight historic turns and low-hanging tree branches around Lincoln Square in downtown Gettysburg. PA-116 provides wide shoulders and smooth access.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures clean routing around historic downtown Gettysburg roundabouts and low-clearance side streets."
+      }
+    },
+    "toadStrategy": {
+      "text": "Use the wide arrival lane in front of the main registration office to unhook your towed vehicle before proceeding to internal loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Gettysburg Campground provides excellent proximity to the Gettysburg National Military Park with wide gravel roads, full hookups, and mature shade trees along Marsh Creek.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Great for fine-tuning side-to-side level on long gravel pull-through pads."
+      },
+      "loopC": "Center pull-through rows feature long, flat gravel pads designed to easily handle 40ft+ Class A coaches and heavy fifth wheels.",
+      "loopsAB": "Marsh Creek back-in loops provide shaded perimeter sites ideal for travel trailers and smaller Class C units."
+    }
+  },
+  {
+    "id": "driftstone-campground",
+    "name": "Driftstone Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-16",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Mt Bethel",
+    "featured": true,
+    "lat": 40.8711,
+    "lng": -75.1215,
+    "image": "/images/driftstone.jpg",
+    "mapImage": "/images/driftstone_map.jpg",
+    "address": "275 River Rd, Mt Bethel, PA 18343",
+    "gps": "40.8711° N, 75.1215° W",
+    "phone": "(570) 897-6859",
+    "website": "https://www.driftstone.com",
+    "summary": "Premier riverfront campground on the Delaware River in Mt. Bethel, PA. Essential ground-truth routing warnings avoiding the 8-ton Belvidere bridge and River Road hairpin turns.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft",
+      "toadFriendliness": "Good (unhooking staging lane near main office and gatehouse)",
+      "treeClearance": "Good along main avenues; watch lower branches on inner riverside lanes",
+      "bestBigRigLoops": "Upper Field Pull-Through Section",
+      "bestSmallRigLoops": "Lower Delaware Riverfront Back-In Section"
+    },
+    "approach": {
+      "title": "Official Route Advisory: Belvidere Bridge & River Road Warnings",
+      "text": "CRITICAL TRAVEL WARNING: Standard GPS directions may route motorhomes and trailers incorrectly. You MUST avoid the bridge across the Delaware River between Belvidere, NJ and Riverton, PA (5 miles south of Driftstone)—it has a strict 8-ton weight limit, is extremely narrow, and is completely unsuitable for RVs or trailers. Additionally, watch for a sharp hairpin turn on River Road 4 miles south of Driftstone. Follow official directions via driftstone.com/directions.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides custom commercial RV routing to bypass low-weight bridges and hazardous local hairpin turns."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office entrance staging lane before crossing the inner gate to unhook your towed vehicle safely.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Driftstone Campground offers broad Delaware River frontage with well-maintained gravel pads, mature shade trees, and 50-amp electrical hookups in the scenic Delaware Water Gap region.",
+      "recommendedGear": {
+        "gearKey": "camco-curved-leveler",
+        "reason": "Helps quickly level rigs on gentle riverbank gravel slopes."
+      },
+      "loopC": "Upper pull-through loops feature long gravel pads with an easy swing radius for motorhomes and fifth wheels.",
+      "loopsAB": "Riverfront back-in sites offer scenic views across the Delaware River into New Jersey, requiring standard 90-degree backing maneuvers."
+    }
+  },
+  {
+    "id": "lake-in-wood-camping-resort",
+    "name": "Lake in Wood Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Narvon",
+    "featured": true,
+    "lat": 40.1292,
+    "lng": -75.9868,
+    "image": "/images/lake-in-wood.jpg",
+    "mapImage": "/images/lake-in-wood_map.jpg",
+    "address": "576 Yellow Hill Rd, Narvon, PA 17555",
+    "gps": "40.1292° N, 75.9868° W",
+    "phone": "(717) 445-5525",
+    "website": "https://www.sunoutdoors.com/pennsylvania/lake-in-wood-camping-resort",
+    "summary": "Independent gnome-themed resort in Lancaster County featuring massive pull-thru sites, full hookups, and smooth big-rig access off PA-23.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (unhook near front check-in office parking lot prior to hill loops)",
+      "treeClearance": "Good along main thoroughfares; watch lower branches on shaded tent lanes",
+      "bestBigRigLoops": "Gnome Knoll & Upper Pull-Through Sections",
+      "bestSmallRigLoops": "Lower Lake View & Primitive Wooded Section"
+    },
+    "approach": {
+      "title": "Lancaster County Covered Bridge & Weight Warning",
+      "text": "Approach via PA-23 to Yellow Hill Rd. Avoid secondary rural dirt cut-throughs in Lancaster County as tight covered bridges and low-tonnage bridges are present nearby. Follow state truck routes directly to Yellow Hill Rd.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental routing into historic low-clearance Lancaster County covered bridges and weight-restricted rural spans."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main entrance overflow lane before the check-in gate. There is ample room to unhook your toad before entering the upper tiered pull-thru loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Lake in Wood offers a resort-style experience in PA Dutch Country with full 50-amp hookups, gravel pads, and wide main roads suited for Class A motorhomes and heavy fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "camco-curved-leveler",
+        "reason": "Terraced gravel pads on hillside sites may require 2-3 inches of side-to-side leveling base support."
+      },
+      "loopC": "Gnome Knoll features wide, open pull-thru pads with clear sky access for satellite reception and zero tight turn radiuses.",
+      "loopsAB": "Lower loops along the lake feature tighter turns and single-lane bridges best suited for units under 30 feet."
+    }
+  },
+  {
+    "id": "buttonwood-campground",
+    "name": "Buttonwood Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Mifflintown",
+    "featured": true,
+    "lat": 40.5701,
+    "lng": -77.3958,
+    "image": "/images/buttonwood_photo.jpg",
+    "mapImage": "/images/buttonwood_map.jpg",
+    "address": "1515 E River Rd, Mifflintown, PA 17059",
+    "gps": "40.5701° N, 77.3958° W",
+    "phone": "(717) 436-8334",
+    "website": "https://www.buttonwoodcampground.com",
+    "summary": "Premier riverfront campground along the Juniata River offering heavy-duty pull-thru pads, full hookups, and spacious river bank access.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (dedicated staging lot by main office pad)",
+      "treeClearance": "High canopy along main drive; watch riverbank branches when backing",
+      "bestBigRigLoops": "Riverfront Pull-Throughs & Center Island Loops",
+      "bestSmallRigLoops": "Shaded Riverbank Back-In Section"
+    },
+    "approach": {
+      "title": "US-322 River Valley Approach Guidance",
+      "text": "Access via US-22/US-322 East or West to the Mifflintown exit. The approach via Butterfield Lane is wide and flat, avoiding steep mountain passes and narrow rural overhangs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Verifies safe exit clearances and truck routes along US-322 rural valley exits."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook at the designated staging pad directly adjacent to the main office before heading into the main riverfront loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Situated on the scenic Juniata River, Buttonwood offers long, level pull-thru sites capable of accommodating the largest diesel pushers and toy haulers.",
+      "recommendedGear": {
+        "gearKey": "x-chock-wheel-stabilizers",
+        "reason": "Gravel riverbank pads benefit from dual-axle locking chocks to eliminate sway from soft bank settling."
+      },
+      "loopC": "The central pull-thru rows offer 50-amp full hookups with open turning radii and zero overhead branch obstructions.",
+      "loopsAB": "Perimeter back-in sites along the river bank offer great water views but require tight 90-degree backing maneuvers between trees."
+    }
+  },
+  {
+    "id": "tohickon-family-campground",
+    "name": "Tohickon Family Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Quakertown",
+    "featured": true,
+    "lat": 40.4078,
+    "lng": -75.3115,
+    "image": "/images/tohickon_photo.jpg",
+    "mapImage": "/images/tohickon_map.jpg",
+    "address": "8308 Covered Bridge Rd, Quakertown, PA 18951",
+    "gps": "40.4078° N, 75.3115° W",
+    "phone": "(215) 536-7951",
+    "website": "https://tohickoncampground.com",
+    "summary": "Bucks County creekfront camping in Quakertown, PA. Ground-truth breakdown of narrow backroad access, interior bridge weight/width limits, creekfront back-in angles, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 38 ft (strict length caps on creekfront loops)",
+      "toadFriendliness": "Moderate (unhook near office parking lot prior to interior bridge crossing)",
+      "treeClearance": "Dense mature tree canopy along creek lanes; watch low-hanging limbs",
+      "bestBigRigLoops": "Upper Field Pull-Through Sites",
+      "bestSmallRigLoops": "Creekfront Back-In Section"
+    },
+    "approach": {
+      "title": "Bucks County Backroad & Bridge Warning",
+      "text": "Covered Bridge Road and surrounding rural Bucks County routes are narrow with zero shoulder room. Watch for sudden sharp turns and stone bridge abutments. Follow official park approach signs rather than standard phone GPS. Rigs over 12 feet tall must bypass Thatcher Rd and take Rt. 563 to Sterner Mill Rd to avoid a low bridge clearance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides custom truck routing around narrow Bucks County backroads while recording dashcam footage on tight rural lanes."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhooking at the front office staging area is strongly advised before crossing the interior wood-deck bridge into assigned camp loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Tohickon Family Campground is nestled along Tohickon Creek, offering shaded sites under giant hardwoods. Sites vary from open upper field pads to secluded creekfront back-ins.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Creekfront dirt and gravel sites feature natural soil slumping near the bank edge. Interlocking blocks build a broad, non-slip base."
+      },
+      "loopC": "Upper field sites feature long, level pull-through configurations with open sky access, making them ideal for large Class A units and 5th wheels.",
+      "loopsAB": "Creekfront back-in loops feature 90-degree backing angles framed by mature tree trunks. Take your time when swinging your tow vehicle's front bumper."
+    }
+  },
+  {
+    "id": "appalachian-rv-resort",
+    "name": "Appalachian RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Shartlesville",
+    "featured": true,
+    "lat": 40.4812,
+    "lng": -76.0823,
+    "image": "/images/appalachian_photo.jpg",
+    "mapImage": "/images/appalachian_map.jpg",
+    "address": "60 Motel Drive, Shartlesville, PA 19554",
+    "gps": "40.4812° N, 76.0823° W",
+    "phone": "(610) 488-6319",
+    "website": "https://www.sunoutdoors.com/pennsylvania/appalachian-rv-resort",
+    "summary": "Blue Mountain foothill camping in Shartlesville, PA. Guidance on I-78 exit access, steep interior hill grade climbs, terraced ridge pads, and toad staging lots.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft",
+      "toadFriendliness": "High (dedicated lower staging lot near registration office)",
+      "treeClearance": "Open upper ridge loops; moderate canopy on lower access roads",
+      "bestBigRigLoops": "Upper Ridge Pull-Throughs",
+      "bestSmallRigLoops": "Lower Wooded Back-In Section"
+    },
+    "approach": {
+      "title": "Blue Mountain Incline & Highway Access Warning",
+      "text": "Direct access off I-78 Exit 29 is quick, but the interior resort road ascends Blue Mountain via a steep, sustained hill grade. Ensure engine and transmission temps are monitored when pulling heavy setups up to upper ridge sites.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Helps you anticipate mountain grade ascents off I-78 and plans safe gearing approaches for heavy rigs."
+      }
+    },
+    "toadStrategy": {
+      "text": "Always unhook your towed vehicle at the lower office lot before attempting the steep hill climb to the upper loops. Disconnecting under tension on the upper hill incline is hazardous.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Set along the Blue Mountain ridge, Appalachian RV Resort features terraced sites offering scenic valley views. Ridge sites receive full sun while lower sites are tucked into forest shade.",
+      "recommendedGear": {
+        "gearKey": "andersen-levelers",
+        "reason": "Terraced mountain ridge pads have front-to-back slope. Curved drive-on levelers make leveling fast on mountain gravel."
+      },
+      "loopC": "Upper Ridge pull-throughs feature 50-amp full hookups with open sky, long pad lengths, and easy big-rig maneuverability.",
+      "loopsAB": "Lower wooded loops require navigating tight 90-degree turns along the hillside ascent."
+    }
+  },
+  {
+    "id": "hickory-run-state-park",
+    "name": "Hickory Run State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "White Haven",
+    "featured": true,
+    "lat": 41.0238,
+    "lng": -75.6865,
+    "image": "/images/hickory_run_photo.jpg",
+    "mapImage": "/images/hickory_run_map.jpg",
+    "address": "3613 State Route 534, White Haven, PA 18661",
+    "gps": "41.0238° N, 75.6865° W",
+    "phone": "(570) 443-0400",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/HickoryRunStatePark",
+    "summary": "Pocono mountain camping in White Haven, PA. Ground-truth breakdown of narrow SR 534 approach lanes, glacial boulder-lined pad entrances, inner loop tree canopy clearance, and dump station toad unhooking.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strict site limitations; select electric loops accommodate larger setups)",
+      "toadFriendliness": "Moderate (unhook at main registration lot or dump station before entering inner loops)",
+      "treeClearance": "Dense Pocono canopy; watch low-hanging hemlock/pine branches on loop turnarounds",
+      "bestBigRigLoops": "Sites 118–168 (Wider pads & electric hookups)",
+      "bestSmallRigLoops": "Non-Electric Rustic Loops (Narrower lanes & prominent boulder obstacles)"
+    },
+    "approach": {
+      "title": "Pocono Highway & Route Clearance Warning",
+      "text": "Approaching via Interstate 80 to State Route 534 is straightforward, but PA-534 narrows significantly as you enter park boundaries. Watch for soft shoulders, tight curves, and low-hanging tree branches along the approach road leading up to the main contact station.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides custom RV routing based on rig height, length, and weight to avoid narrow rural backroads and low clearances."
+      }
+    },
+    "toadStrategy": {
+      "text": "Large glacial boulders line many of the inner loop road edges and campsite entrances. Unhook your towed vehicle at the main contact station or dump station parking lot before maneuvering into assigned loops to avoid binding tow bars on tight turns.",
+      "recommendedGear": {
+        "gearKey": "blue-ox-tow-bar",
+        "reason": "Features freedom-latch release levers that allow you to easily unhook your toad even when bound at an awkward angle in tight boulder-framed staging areas."
+      }
+    },
+    "content": {
+      "overview": "Planning an RV trip to Hickory Run State Park in White Haven, Pennsylvania? Our verified guide covers big-rig suitability, electric loop selections (Sites 118–168), and low-canopy approach warnings along Route 534. Hickory Run State Park lies in the western Poconos, known for its glacial boulder field and dense hemlock forests. Camping here offers classic wilderness seclusion, but navigating rigs among the natural rock outcroppings requires careful line selection.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Wooded Pocono mountain sites often feature unpaved gravel or soil pads with natural root protrusions. Modular interlocking blocks provide a stable pyramid base that won't slip or sink on soft forest ground."
+      },
+      "loopC": "The modernized electric loop section (Sites 118–168) provides wider pad openings, cleaner backup angles, and fewer boulder obstructions near site entrances.",
+      "loopsAB": "Rustic, non-electric loops feature narrow one-way lanes flanked by mature hardwoods and prominent glacial boulders. Tail swing clearance must be monitored continuously when backing in."
+    }
+  },
+  {
+    "id": "ricketts-glen-state-park",
+    "name": "Ricketts Glen State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Benton",
+    "featured": true,
+    "lat": 41.3323,
+    "lng": -76.2991,
+    "image": "/images/rick_park_photo.jpg",
+    "mapImage": "/images/rick_park_map.jpg",
+    "address": "695 State Route 487, Benton, PA 17814",
+    "gps": "41.3323° N, 76.2991° W",
+    "phone": "(570) 477-5637",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/RickettsGlenStatePark",
+    "summary": "Glacial plateau camping in Benton, PA. Ground-truth guidance on the steep PA-487 Red Rock Mountain climb, non-electric main loops, pull-through electric loop specs, and dump station toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strictly enforced; smaller loops capped at 30 ft)",
+      "toadFriendliness": "Moderate (unhook at main contact station / dump station lot)",
+      "treeClearance": "Dense mountain canopy; watch low-hanging oak/hemlock branches on loop curves",
+      "bestBigRigLoops": "Small Electric Loop (featuring longer pull-through pads)",
+      "bestSmallRigLoops": "Main Big Loop (Rustic / Non-Electric Sites)"
+    },
+    "approach": {
+      "title": "Mountain Grade & Route Clearance Warning",
+      "text": "Entering directly off PA State Route 487 requires tackling Red Rock Mountain—a severe 9% to 10% mountain grade coming from the south. Transmissions and brakes will be heavily tested. Heavy gas coaches and diesel pushers should gear down early and monitor engine temps on the climb.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures you are aware of steep mountain grades like PA-487 and calculates safe engine braking routes based on your total rig weight."
+      }
+    },
+    "toadStrategy": {
+      "text": "Do not drag a towed vehicle directly into the dense inner non-electric loop. Drop your toad at the main park contact station or the nearby dump station staging area before proceeding to your site.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Perched on the Allegheny Plateau, Ricketts Glen offers dense mountain woods and lake access. However, site types and hookups are split distinctly between loops, requiring careful site selection depending on your rig class.",
+      "recommendedGear": {
+        "gearKey": "andersen-levelers",
+        "reason": "Mountain state park gravel pads frequently feature front-to-back slope. Curved levelers make dialing in level on uneven glacial soil quick and precise."
+      },
+      "loopC": "The smaller electric loop features generous pull-through sites designed for larger units, providing much easier backing angles and clearance from mature trees.",
+      "loopsAB": "The larger main loop consists predominantly of non-electric, rustic sites tucked deep under a thick tree canopy. Turning radiuses on the inner curves are tight and best suited for smaller travel trailers, pop-ups, and Class C units."
+    }
+  },
+  {
+    "id": "pequea-creek-campground",
+    "name": "Pequea Creek Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-13",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Pequea",
+    "featured": true,
+    "lat": 39.8986,
+    "lng": -76.3426,
+    "image": "/images/pequea_creek_camp.jpeg",
+    "mapImage": "/images/pequea_creek_camp_map.jpeg",
+    "address": "86 Fox Hollow Rd, Pequea, PA 17565",
+    "gps": "39.9142° N, 76.3685° W",
+    "phone": "(717) 284-4587",
+    "website": "https://pequeacreekcampground.com",
+    "summary": "Lancaster County camping along Pequea Creek in Pequea, PA. Critical big-rig routing warnings to bypass the low covered bridge, tight access road realities, and office turn-around intelligence.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (select sites accommodate larger configurations)",
+      "toadFriendliness": "High (plenty of room to turn around past office with toad attached)",
+      "treeClearance": "Tight approach lanes; watch for low hanging branches on access roads",
+      "bestBigRigLoops": "Sites near the main office and wider hookup sections",
+      "bestSmallRigLoops": "Creekfront back-in sites"
+    },
+    "approach": {
+      "title": "Critical Approach & Low Clearance Warning",
+      "text": "There is a historic low covered bridge near the standard park entrance that must be avoided by most large RVs and motorhomes. Standard GPS apps will route you straight into this height restriction. Instead, enter via Bridge Valley Rd to Fox Hollow Rd and utilize the jughandle to safely enter the campground.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents low-bridge routing mistakes in Lancaster County by programming your exact rig height, length, and weight before calculating local approach roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "The main office is located past a large section of campsites, but there is ample room to maneuver and turn around even with a toad vehicle attached.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "Pequea Creek Campground offers a scenic Lancaster County retreat right along the water. However, navigating your motorhome or towing a vehicle here requires strict attention to your approach route to avoid infrastructure hazards.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive onboard RV electronics and appliances against pedestal voltage fluctuations."
+      },
+      "loopC": "The access road in is tight and bumpy, but it does allow adequate physical width for large RVs as long as you take your time and watch your tail swing.",
+      "loopsAB": "Creekfront and hillside back-in sites vary in width and depth; take care when positioning slides around mature trees."
+    }
+  },
+  {
+    "id": "french-creek-state-park",
+    "name": "French Creek State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-12",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "PA",
+    "city": "Elverson",
+    "featured": true,
+    "lat": 40.2106,
+    "lng": -75.7824,
+    "image": "/images/french-creek-sp-july-2020.jpg",
+    "mapImage": "/images/FRCR_CampgroundMap-640w.webp",
+    "address": "843 Park Rd, Elverson, PA 19520",
+    "gps": "40.2106° N, 75.7824° W",
+    "phone": "(610) 582-9680",
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/FrenchCreekStatePark",
+    "summary": "Hopewell Big Woods camping in Elverson, PA. Verified breakdown of Loop C big-rig friendliness, inner-loop tree canopy clearance, and toad unhooking areas.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (strict site limitations apply)",
+      "toadFriendliness": "Moderate (unhooking recommended before inner loop entry)",
+      "treeClearance": "Moderate overhead canopy on inner loops (watch roof AC/solar)",
+      "bestBigRigLoops": "Loop C",
+      "bestSmallRigLoops": "Loops A & B"
+    },
+    "approach": {
+      "title": "Park Access & Road Conditions",
+      "text": "Main arterial state park roads are well-paved and wide enough for two large units to pass safely. Watch for tight interior loop turns once inside the park boundary.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides custom RV routing based on rig height, length, and weight to avoid narrow rural backroads and low clearances."
+      }
+    },
+    "toadStrategy": {
+      "text": "If you are towing a vehicle, do not drag your toad into the inner loops. Utilize the main registration/dump station parking area to drop your towed vehicle before proceeding back to your loop.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear and blind-spot visibility when maneuvering in staging areas and backing into campsites."
+      }
+    },
+    "content": {
+      "overview": "French Creek’s campground is heavily wooded, offering a classic Pennsylvania state park ambiance with plenty of shade. While this canopy is wonderful during hot summer afternoons, it creates narrow lanes and tight turning radiuses. Inner loop pads can be uneven, making precise side-to-side leveling essential.",
+      "recommendedGear": {
+        "gearKey": "andersen-levelers",
+        "reason": "State park sites often have sloping gravel and dirt pads. Curved levelers make independent, fine-tuned height adjustments fast and effortless without stacking blocks."
+      },
+      "loopC": "If you are driving a longer Class C or pulling a car behind you, Loop C is your safest bet. Loop C features wider pad openings and more generous backup angles.",
+      "loopsAB": "Loops A and B skew toward smaller travel trailers, pop-ups, and camper vans. The turnarounds at the loops' edges are tighter."
+    }
+  }
+]

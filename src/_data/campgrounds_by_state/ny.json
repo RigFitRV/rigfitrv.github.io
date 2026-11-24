@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "lake-george-escape-campground",
+    "name": "Lake George Escape Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-18",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Diamond Point",
+    "featured": true,
+    "lat": 43.501251,
+    "lng": -73.748118,
+    "image": "/images/lake-george-escape-campground.jpg",
+    "mapImage": null,
+    "address": "175 E Schroon River Rd, Diamond Point, NY 12824",
+    "gps": "43.5013° N, 73.7481° W",
+    "phone": "+1 (518) 623-3207",
+    "website": "https://thousandtrails.com/new-york/lake-george-escape-campground",
+    "summary": "Expansive 178-acre waterfront resort campground set along the Schroon River 5 miles north of Lake George Village, accessible directly from I-87 Exit 23 via Diamond Point Road and East Schroon River Road with 45-foot full-hookup sites, wooded river loops, and resort recreation.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (spacious pull-through and back-in full-hookup sites)",
+      "toadFriendliness": "Good — dedicated check-in staging lanes off E Schroon River Rd; plenty of room to unhook before entering wooded river loops",
+      "treeClearance": "Moderate-High — wide main paved/gravel spine roads with mature Adirondack white pines along riverfront loops",
+      "bestBigRigLoops": "Front Meadow / Main Spine Full-Hookup Pull-Throughs & 50-Amp Sites",
+      "bestSmallRigLoops": "Schroon River Waterfront Loops & Wooded Interior Loops (ideal for Class B/C rigs and sub-32 ft trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take I-87 (Adirondack Northway) to Exit 23 (Diamond Point / Warrensburg). Turn east onto Diamond Point Road (County Route 35) for 0.6 miles, then turn left onto East Schroon River Road and follow it north for approximately 2.2 miles to the main resort entrance on the left. Using Exit 23 keeps big rigs completely clear of Lake George Village traffic and steep mountain grades on NY-9N.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto I-87 Exit 23 and East Schroon River Rd without diverting onto narrow Adirondack backroads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the multi-lane registration staging area off East Schroon River Road. While select 45-ft pull-throughs can hold both coach and toad, unhooking at check-in is recommended if you are assigned a wooded or riverfront back-in site near the Schroon River bend.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps monitor mature pine trunks, picnic tables, and river-loop turns when backing into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "Major 178-acre seasonal destination resort (open mid-May through mid-October) bordered by the Schroon River and Adirondack forest, featuring 575+ sites (50/30-amp full-hookup, water/electric, and cabins), heated pools, tubing and kayak river launches, miniature golf, wagon rides, camp store, and scheduled trolley service to Lake George Village.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects coach electronics against peak summer air-conditioning load sags across 50/30-amp loops."
+      },
+      "loopC": "Open and semi-wooded 50-amp full-hookup pull-through and long back-in pads accommodate Class A motorhomes and fifth wheels up to 45 feet with strong slide-out clearance.",
+      "loopsAB": "Scenic riverfront and deep-pine back-in sites along the Schroon River; best suited for travel trailers under 35 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "king-phillips-campground-resort",
+    "name": "King Phillips Campground & Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-18",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Lake George",
+    "featured": true,
+    "lat": 43.395243,
+    "lng": -73.702135,
+    "image": "/images/king-phillips-campground-resort.jpg",
+    "mapImage": "/images/king-phillips-campground-resort-map.jpg",
+    "address": "14 Bloody Pond Rd, Lake George, NY 12845",
+    "gps": "43.3952° N, 73.7021° W",
+    "phone": "+1 (518) 668-3535",
+    "website": "https://modernamericacampgrounds.com/new-york/king-phillips-campground",
+    "summary": "Classic wooded Adirondack family campground located just off US-9 on Bloody Pond Road, 1 mile south of Lake George Village and 1.3 miles north of I-87 Exit 21, offering shaded 30/50-amp full-hookup sites and quick Northway access without village traffic bottlenecks.",
+    "scorecard": {
+      "maxRigLength": "Up to 40–42 ft (select perimeter/main-road full-hookup pull-through and back-in sites)",
+      "toadFriendliness": "Moderate — pull into office registration lane off Bloody Pond Rd; unhook towed vehicles before entering wooded interior loops",
+      "treeClearance": "Moderate — mature Adirondack pines and hemlocks line interior gravel lanes; watch low branches on back-in pads",
+      "bestBigRigLoops": "Front / Perimeter 50-Amp Full-Hookup Sites near Entry & Main Loop",
+      "bestSmallRigLoops": "Interior Wooded Loops (ideal for Class B/C motorhomes, pop-ups, and travel trailers under 30 ft)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take I-87 (Adirondack Northway) to Exit 21 (NY-9N / US-9, Lake George). Follow NY-9N / US-9 North for approximately 1.2 miles, then turn right onto Bloody Pond Road (14 Bloody Pond Rd) just south of the Lake George Village line. Approaching from Exit 21 puts you directly at the southern gateway of Lake George without forcing a big rig through narrow downtown Canada Street traffic.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto I-87 Exit 21, US-9, and Bloody Pond Rd while avoiding tight residential streets in Lake George Village."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull straight into the registration staging area off Bloody Pond Road upon arrival and unhook towed vehicles before entering the wooded interior loops. Interior roads are compact gravel lanes winding through tall pines, making sharp turns or backing maneuvers with an attached toad challenging.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps spot pine trunks, rock borders, and utility pedestals when backing into shaded sites."
+      }
+    },
+    "content": {
+      "overview": "Seasonal family campground (open mid-May through mid-October) minutes from Lake George Village, Million Dollar Beach, and Fort William Henry, with local trolley stops nearby on US-9. Features wooded sites with 20/30/50-amp electric, water, sewer, cable TV, heated pool, playground, camp store, and laundry facilities.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard appliances against peak summer voltage sags across wooded 30/50-amp loops."
+      },
+      "loopC": "Select full-hookup 50-amp pull-through and deep back-in sites near the main entry corridor accommodate rigs up to 40–42 feet. Specify rig length and slide-outs when booking to secure wider turning geometry.",
+      "loopsAB": "Heavily shaded interior woodland sites beneath mature pines with fire rings and picnic tables; best suited for travel trailers under 32 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "lake-george-camping-village",
+    "name": "Lake George Camping Village",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-18",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Lake George",
+    "featured": true,
+    "lat": 43.454364,
+    "lng": -73.732682,
+    "image": "/images/lake-george-camping-village.jpg",
+    "mapImage": "/images/lake-george-camping-village-map.jpg",
+    "address": "43 Finkle Farm Rd, Lake George, NY 12845",
+    "gps": "43.4544° N, 73.7327° W",
+    "phone": "+1 (518) 668-5226",
+    "website": "https://www.lakegeorgecampingvillage.com/",
+    "summary": "Wooded 175-site mountain campground tucked just north of Lake George Village off US-9 and 2.5 miles from I-87 Exit 22, accommodating rigs up to 42 feet with select 50-amp full-hookup sites and shaded forest nooks.",
+    "scorecard": {
+      "maxRigLength": "Up to 42 ft (select full-service 50-amp sites; interior wooded sites suit 25–36 ft rigs)",
+      "toadFriendliness": "Moderate — check-in staging off Finkle Farm Rd; unhook before entering hilly wooded loops",
+      "treeClearance": "Moderate — heavy Adirondack pine/hardwood canopy and rolling hillside terrain",
+      "bestBigRigLoops": "Lower Level 50-Amp Full-Hookup Sites near Entry / Main Corridor",
+      "bestSmallRigLoops": "Upper Wooded Nook Loops (ideal for Class B/C motorhomes and sub-30 ft trailers)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take I-87 (Adirondack Northway) to Exit 22 (US-9 / NY-9N, Lake George). Follow US-9 North for approximately 1.7 miles past the northern edge of Lake George Village, then turn left onto Finkle Farm Road (43 Finkle Farm Rd). Approaching from Exit 22 completely bypasses the tight, pedestrian-heavy downtown Lake George Village strip on Canada Street (US-9). Avoid approaching via winding NY-9N along the western shoreline from Bolton Landing with large fifth wheels or Class A coaches.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Routes big rigs cleanly to I-87 Exit 22 and keeps trailers off narrow lakeside mountain spurs."
+      }
+    },
+    "toadStrategy": {
+      "text": "Check-in begins at 2:00 PM (pre-paying before arrival is recommended to speed up entry). Pull off Finkle Farm Road into the office staging area and unhook your towed vehicle before climbing into the wooded interior loops, where rolling grades and mature pine trunks make maneuvering a connected toad difficult.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helps spot tight pine trees, boulders, and grade drop-offs when backing into wooded hillside pads."
+      }
+    },
+    "content": {
+      "overview": "Seasonal family campground (open early May through mid-October) set in a quiet, heavily wooded Adirondack hillside 3 minutes north of Lake George Village. Features 175 campsites (mix of 50-amp full-hookup RV sites, 30-amp water/electric sites, tent sites, and camping cabins), heated swimming pools, rec hall, pickleball and basketball courts, laundry, and free Wi-Fi.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics against summer grid fluctuations across wooded 30/50-amp pedestals."
+      },
+      "loopC": "Accommodates rigs up to 42 feet on designated 50-amp full-hookup sites with easier turning geometry. Specify exact rig length and slide-out configuration when booking so staff assign a lower-grade, wider-access pad.",
+      "loopsAB": "Classic rustic woodland nooks with heavy tree separation, fire rings, and picnic tables; best suited for travel trailers under 32 feet, Class C motorhomes, and camper vans—bring leveling blocks for rolling terrain."
+    }
+  },
+  {
+    "id": "moose-hillock-camping-resort-ny",
+    "name": "Moose Hillock Camping Resort NY",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-18",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Fort Ann",
+    "featured": true,
+    "lat": 43.403478,
+    "lng": -73.580735,
+    "image": "/images/moose-hillock-camping-resort-ny.jpg",
+    "mapImage": "/images/moose-hillock-camping-resort-ny-map.jpg",
+    "address": "10366 State Route 149, Fort Ann, NY 12827",
+    "gps": "43.4035° N, 73.5807° W",
+    "phone": "+1 (518) 792-4500",
+    "website": "https://www.moosehillock.com/new-york/",
+    "summary": "Heavily wooded Adirondack family campground located 6.5 miles east of I-87 Exit 20 along wide, commercial-grade NY-149, featuring oversized private gravel sites, full 30/50-amp hookups, and resort pool amenities without downtown Lake George congestion.",
+    "scorecard": {
+      "maxRigLength": "Up to 45+ ft (oversized wooded gravel back-in and pull-through sites)",
+      "toadFriendliness": "Good — oversized sites hold towed vehicles within boundaries; overflow parking near laundry",
+      "treeClearance": "Moderate-High — wide main gravel roads, though dense white pines require low-branch vigilance when backing",
+      "bestBigRigLoops": "Main Entry Corridor & Level Lower-Grade Full-Hookup Sites",
+      "bestSmallRigLoops": "Upper Rolling Wooded Loops (select outer/ridge sites have noticeable slope)"
+    },
+    "approach": {
+      "title": "Highway Approach & Routing Guidance",
+      "text": "Take I-87 (Adirondack Northway) to Exit 20 (US-9 / NY-149). Turn east onto NY-149 (Fort Ann Road) and follow it straight for approximately 6.5 miles; the main entrance is on the right with a paved check-in apron. NY-149 is a flat, wide, commercial-grade two-lane state highway with generous shoulders and zero low-clearance bridges between I-87 and the campground. Avoid routing north via local town roads off NY-9L or NY-40 through Fort Ann village.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps routing locked onto commercial-grade NY-149 from I-87 Exit 20 and avoids narrow Washington County backroads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull onto the paved entrance staging lane at check-in; while most sites are deep enough to hold both a 40+ ft coach and a towed vehicle within the site boundary, unhooking at check-in or near the laundry overflow lot makes backing into tall-pine sites much cleaner. Parking on road shoulders or banks is strictly prohibited.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Essential for spotting pine trunks and stone fireplaces when backing into deep wooded sites."
+      }
+    },
+    "content": {
+      "overview": "Seasonal Adirondack destination campground (open mid-May through mid-October) centered around its heated tropical lagoon pool ('Aloha Beach'), featuring oversized wooded buffer zones between sites, 20/30/50-amp electric, water, sewer, cable TV, and hard-packed gravel roads and pads. Interior roads are unpaved gravel and generate dust during dry summer stretches, and cellular signal (Verizon/AT&T) is weak (~1–2 bars) under the heavy tree canopy.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects against high-demand summer voltage sags across wooded 50-amp loops."
+      },
+      "loopC": "Deep, wide gravel pads with thick tree-line separation accommodate 40–45+ ft Class A motorhomes and fifth wheels. Request flatter, lower-grade sites when booking (or use the Site Lock option) because several sites in the upper wooded sections (such as the 700-series) have significant slope that can max out hydraulic leveling jacks.",
+      "loopsAB": "Secluded, heavily shaded gravel sites with natural stone fireplaces and 8-foot picnic tables; ideal for travel trailers, Class C motorhomes, and rigs carrying extra leveling blocks."
+    }
+  },
+  {
+    "id": "flint-creek-campground",
+    "name": "Flint Creek Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-17",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Middlesex",
+    "featured": true,
+    "lat": 42.6956,
+    "lng": -77.2275,
+    "image": "/images/flint_creek_campground.jpg",
+    "mapImage": "/images/flint_creek_campground_map.jpg",
+    "address": "1455 Phelps Rd, Middlesex, NY 14507",
+    "gps": "42.6956° N, 77.2275° W",
+    "phone": "+1 (585) 554-3567",
+    "website": "https://flintcreekcampground.com/",
+    "summary": "Quiet Finger Lakes creekside campground in Middlesex, NY with back-in sites up to 44–53 ft in open loops, 30/50-amp hookups, and direct access between Canandaigua and Keuka Lakes.",
+    "scorecard": {
+      "maxRigLength": "Up to 44–53 ft (Deluxe Open Back-In Loops; 26–36 ft on shaded creekside sites)",
+      "toadFriendliness": "Fair; narrow gravel interior roads (5 mph limit) and strict 1-vehicle-per-site rule require parking toads in the main lot",
+      "treeClearance": "Open sky in Deluxe Open loops; mature tree canopy and tighter turning radii along interior wooded and creekside sites",
+      "bestBigRigLoops": "Deluxe Open Back-In Loops",
+      "bestSmallRigLoops": "Shaded Creekside & Interior Wooded Loops"
+    },
+    "approach": {
+      "title": "NY-364 & NY-245 Valley Approach Guidance",
+      "text": "Approach via NY-364 or NY-245 (connecting NY-21 on the west and NY-54 / NY-14 to the east) onto Phelps Road. Avoid GPS shortcuts across steep, narrow Finger Lakes ridge roads when towing heavy trailers.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps heavy rigs on state-numbered valley corridors (NY-364 and NY-245) instead of steep Finger Lakes ridge shortcuts."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook towed vehicles at the main office parking lot upon check-in; only one vehicle per campsite is permitted on interior gravel roads.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when backing into gravel valley sites along narrow internal lanes."
+      }
+    },
+    "content": {
+      "overview": "Nestled along Flint Creek in the western Finger Lakes between Canandaigua Lake and Keuka Lake, Flint Creek Campground offers roughly 115 shaded and open grassy/gravel sites open May 1 through October 31, featuring a swimming pool, creek fishing, camp store, and easy access to Naples and Penn Yan wine trails.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics against rural valley voltage fluctuations and provides peace of mind on predominantly 30-amp pedestals."
+      },
+      "loopC": "Deluxe Open back-in sites provide 30/50-amp electrical service, full water/sewer hookups, and generous length clearance up to 44–53 feet.",
+      "loopsAB": "Shaded creekside and interior wooded back-in loops offer quiet valley scenery and 30-amp water/electric hookups ideal for travel trailers and Class C motorhomes."
+    }
+  },
+  {
+    "id": "mongaup-pond-campground",
+    "name": "Mongaup Pond Campground",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Livingston Manor",
+    "featured": true,
+    "lat": 41.957185,
+    "lng": -74.691229,
+    "image": "/images/mongaup_pond_campground.jpg",
+    "mapImage": "/images/mongaup_pond_campground_map.jpg",
+    "address": "231 Mongaup Pond Rd, Livingston Manor, NY 12758",
+    "gps": "41.9572° N, 74.6912° W",
+    "phone": "+1 (845) 439-4233",
+    "website": "https://dec.ny.gov/places/mongaup-pond-campground-and-day-use-area",
+    "summary": "Largest public campground in Catskill Park surrounding a 120-acre pristine lake, offering dry wilderness camping, dense forest canopy, and direct access to major hiking trails.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (Tight Tree Canopy & Tight Loop Turnarounds)",
+      "toadFriendliness": "Moderate (unhook at day-use registration area before loop entrance)",
+      "treeClearance": "Low/Tight (dense Catskill hardwoods; check overhead clearances carefully)",
+      "bestBigRigLoops": "Outer Perimeter Loop Sites near Main Entrance Road",
+      "bestSmallRigLoops": "Lakefront & Shaded Interior Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NY-17 Exit 96 to DeBruce Road & Mongaup Road",
+      "text": "Accessed via NY-17 (I-86) Exit 96 at Livingston Manor, following Old Route 17 to DeBruce Road (CR-81 / CR-82) heading east, then turning north onto Mongaup Road / Mongaup Pond Road directly to the park gate. Roads become narrow and winding as you enter forest preserve land.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for warning of tight mountain road turns and avoiding non-truck routes in Sullivan County."
+      }
+    },
+    "toadStrategy": {
+      "text": "Disconnect your toad at the contact station or day-use parking area near the entrance booth prior to navigating the narrow, heavily wooded internal loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential visibility when maneuvering tight tree-lined turns in dry camping loops."
+      }
+    },
+    "content": {
+      "overview": "Mongaup Pond Campground offers an authentic Catskill forest preserve setting centered around a 120-acre lake. Facilities include dry camping sites, a swimming beach, canoe rentals, and hiking trails.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for establishing level stability on natural dirt and gravel forest pads at NYS DEC wilderness sites."
+      },
+      "loopC": "Select outer loop sites feature wider gravel pads capable of accommodating mid-sized Class A and Class C motorhomes up to 35 feet.",
+      "loopsAB": "Denser interior and waterfront loops are best suited for camper vans, popup trailers, and smaller travel trailers due to low branches and sharp turns."
+    }
+  },
+  {
+    "id": "blue-mountain-campground",
+    "name": "Blue Mountain Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Saugerties",
+    "featured": true,
+    "lat": 42.142111,
+    "lng": -74.002222,
+    "image": "/images/blue_mountain_campground.jpg",
+    "mapImage": "/images/blue_mountain_campground_map.jpg",
+    "address": "3783 NY-32, Saugerties, NY 12477",
+    "gps": "42.1421° N, 74.0022° W",
+    "phone": "+1 (845) 246-7564",
+    "website": "https://www.bluemountaincampground.com/",
+    "summary": "Heavily wooded Catskill foothills campground offering peaceful sites, electric/water hookups, and convenient access to Saugerties and Woodstock attractions via NY-32.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Through & Back-In Sites)",
+      "toadFriendliness": "Good (spacious front entrance apron off NY-32)",
+      "treeClearance": "Moderate (wooded canopy; navigate primary interior roads carefully)",
+      "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Direct NY-32 Corridor Access",
+      "text": "Accessed directly off NY-32 via I-87 (NY State Thruway) Exit 20 in Saugerties. Taking NY-32 provides a wide, state-maintained corridor that keeps rigs clear of tight rural town bypasses.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures accurate lane positioning when transitioning from I-87 Exit 20 onto NY-32 North."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the wide registration apron directly off NY-32 to unhook your towed vehicle before pulling into the wooded campsite loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential rear visibility while unhooking on the gravel entry apron."
+      }
+    },
+    "content": {
+      "overview": "Blue Mountain Campground delivers a classic Catskills camping experience surrounded by mature trees, level gravel pads, and full hookups within minutes of Hudson Valley town centers.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Monitors electrical line stability across shaded, wooded power pedestals."
+      },
+      "loopC": "Main entrance pull-through sites handle mid-to-large travel trailers and Class A motorhomes with easy turning radii.",
+      "loopsAB": "Quiet back-in sites offer excellent shade and privacy for smaller rigs and camper vans."
+    }
+  },
+  {
+    "id": "jellystone-park-gardiner",
+    "name": "Jellystone Park Gardiner",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Gardiner",
+    "featured": true,
+    "lat": 41.682582,
+    "lng": -74.165398,
+    "image": "/images/jellystone_park_gardiner.jpg",
+    "mapImage": "/images/jellystone_park_gardiner_map.jpg",
+    "address": "50 Bevier Rd, Gardiner, NY 12525",
+    "gps": "41.6826° N, 74.1654° W",
+    "phone": "+1 (845) 255-5193",
+    "website": "https://www.sunoutdoors.com/new-york/jellystone-park-gardiner",
+    "summary": "Top-tier big-rig friendly resort situated along the Wallkill River in the Hudson Valley, featuring full 50-amp hookups, water park amenities, and easy access to the Shawangunk Mountains.",
+    "scorecard": {
+      "maxRigLength": "Up to 60 ft (Red Carpet Pull-Through RV Sites)",
+      "toadFriendliness": "Excellent (spacious check-in apron and registration parking)",
+      "treeClearance": "Well-maintained canopy along primary resort boulevards",
+      "bestBigRigLoops": "Red Carpet Utility Pull-Through Rows",
+      "bestSmallRigLoops": "River-Adjacent Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-87 Exit 18 to Route 32 South & Bevier Road",
+      "text": "Accessed via I-87 (NY State Thruway) Exit 18, heading south on Route 32 (S. Manheim Blvd) to Route 44/55 West (right turn), then turning left onto Albany Post Road South, and left onto Bevier Road. This route provides wide, state-maintained turning paths suitable for large Class A motorhomes and heavy fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for managing state highway transitions and avoiding low local connector constraints in Ulster County."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull directly into the spacious registration apron off Bevier Road to unhook your towed vehicle before proceeding into the resort loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides wide-angle rear visibility when unhooking in busy resort check-in lanes."
+      }
+    },
+    "content": {
+      "overview": "Jellystone Park Gardiner serves as an elite Hudson Valley basecamp offering full 50-amp hookups, level gravel pads, water park attractions, and stunning views of the Shawangunk Ridge.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electrical systems against voltage sags during peak summer resort occupancy."
+      },
+      "loopC": "Red Carpet pull-through rows accommodate large motorhomes up to 60 ft with multiple slide-outs while leaving ample room for towed vehicles.",
+      "loopsAB": "Shaded back-in loops provide natural privacy closer to the Wallkill River corridor."
+    }
+  },
+  {
+    "id": "clute-memorial-park",
+    "name": "Clute Memorial Park & Recreation",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Watkins Glen",
+    "featured": true,
+    "lat": 42.384303,
+    "lng": -76.86011,
+    "image": "/images/clute_memorial_park.jpg",
+    "mapImage": "/images/clute_memorial_park_map.jpg",
+    "address": "155 S. Clute Park Dr, Watkins Glen, NY 14891",
+    "gps": "42.3843° N, 76.8601° W",
+    "phone": "+1 (607) 535-4438",
+    "website": "https://www.cluteparkcampground.org/",
+    "summary": "Waterfront RV campground located on the southern tip of Seneca Lake in Watkins Glen, offering full hookups, beach access, marina, and walking distance to town.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Waterfront & Back-In RV Sites)",
+      "toadFriendliness": "Good (spacious municipal park entry lanes off S. Clute Park Dr)",
+      "treeClearance": "Open park layout with minimal low canopy obstructions",
+      "bestBigRigLoops": "Lakefront Full-Hookup RV Rows",
+      "bestSmallRigLoops": "Perimeter Grass Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: S. Clute Park Drive Corridor",
+      "text": "Accessed via S. Clute Park Drive directly off NY-414 / Route 14 near the southern tip of Seneca Lake. Wide municipal approach roads provide smooth transitions for large motorhomes and tow-behinds.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for managing local turning radii and routing around downtown Watkins Glen event traffic."
+      }
+    },
+    "toadStrategy": {
+      "text": "Use the wide parking aprons near the park office and boat launch to unhook your towed vehicle before maneuvering into your campsite.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear sightlines when unhooking in municipal park staging zones."
+      }
+    },
+    "content": {
+      "overview": "Clute Memorial Park & Recreation places campers right on the southern shore of Seneca Lake, featuring full 30/50-amp hookups, a splash pad, walking trails, and effortless access to Watkins Glen attractions.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electrical systems against power fluctuations during peak summer waterfront occupancy."
+      },
+      "loopC": "Lakefront full-hookup rows feature level gravel pads designed for easy back-in parking and direct lake views.",
+      "loopsAB": "Grassy inner loops accommodate mid-sized travel trailers and motorhomes close to park amenities."
+    }
+  },
+  {
+    "id": "finger-lakes-rv-resort",
+    "name": "Finger Lakes RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-30",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Hector",
+    "featured": true,
+    "lat": 42.500876,
+    "lng": -76.869438,
+    "image": "/images/finger_lakes_rv_resort.jpg",
+    "mapImage": "/images/finger_lakes_rv_resort_map.jpg",
+    "address": "3645 Tichenor Rd, Hector, NY 14841",
+    "gps": "42.5009° N, 76.8694° W",
+    "phone": "+1 (607) 375-7587",
+    "website": "https://www.fingerlakesrvresort.com/",
+    "summary": "Premier private RV resort located on the eastern ridge of Seneca Lake along the wine trail, offering full hookups and extensive big-rig pull-throughs.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Pull-Through Sites)",
+      "toadFriendliness": "Excellent (spacious entrance staging and check-in apron)",
+      "treeClearance": "Well-maintained canopy along primary resort boulevards",
+      "bestBigRigLoops": "Executive Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Tichenor Road Corridor",
+      "text": "Accessed via regional connectors leading to Tichenor Road on the eastern ridge of Seneca Lake. Drivers of large motorhomes and heavy fifth wheels should maintain awareness on rolling rural grade transitions.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for routing heavy rigs safely along rural Finger Lakes ridge roads while avoiding low-clearance constraints."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the wide registration apron directly off Tichenor Road to unhook your towed vehicle before proceeding into the resort loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Ensures wide-angle visibility when unhooking in busy resort check-in lanes."
+      }
+    },
+    "content": {
+      "overview": "Finger Lakes RV Resort serves as an ideal luxury basecamp right in the heart of the Seneca Lake Wine Trail, featuring full 50-amp utility pedestals, level gravel pads, and premium resort amenities.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Guards sensitive onboard RV electrical systems against voltage sags during peak resort operating weekends."
+      },
+      "loopC": "Executive pull-through rows accommodate large motorhomes with multiple slide-outs while leaving ample room for towed vehicles.",
+      "loopsAB": "Wooded back-in loops provide shaded privacy for travel trailers and smaller rigs."
+    }
+  },
+  {
+    "id": "taughannock-falls-state-park",
+    "name": "Taughannock Falls State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-29",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Trumansburg",
+    "featured": true,
+    "lat": 42.545702,
+    "lng": -76.606939,
+    "image": "/images/taughannock_falls_state_park.jpg",
+    "mapImage": "/images/taughannock_falls_state_park_map.jpg",
+    "address": "16 Taughannock State Park Access Rd, Trumansburg, NY 14886",
+    "gps": "42.5457° N, 76.6069° W",
+    "phone": "+1 (607) 387-6739",
+    "website": "https://parks.ny.gov/parks/taughannockfalls",
+    "summary": "Stunning Cayuga Lake park featuring campsites near the iconic 215-foot waterfall, boat launch, and scenic gorge trails just north of Ithaca.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (Wooded State Park Pads)",
+      "toadFriendliness": "Moderate (unhooking recommended at main park entrance)",
+      "treeClearance": "Heavily wooded gorge corridor canopy requiring careful line-of-sight awareness",
+      "bestBigRigLoops": "Upper Campgrounds Across NY-89 (Electric Sites)",
+      "bestSmallRigLoops": "Lower Lakefront Loop"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NY-89 Scenic Corridor",
+      "text": "Accessed via NY-89 along the scenic western shore of Cayuga Lake. NY-89 features smooth two-lane pavement with magnificent lake views, but watch for tourist traffic turning into gorge viewpoints.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for tracking grade and curve warnings along the scenic NY-89 corridor."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the wide parking lot areas near the park office or boat launch to disconnect towed vehicles before entering the campground loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists when unhooking in state park parking lots during busy tourist hours."
+      }
+    },
+    "content": {
+      "overview": "Taughannock Falls State Park surrounds visitors with breathtaking natural beauty, anchored by a waterfall 33 feet taller than Niagara, paired with shaded campsites and lake access.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Crucial for leveling on natural earth and gravel pads set into the sloping gorge terrain."
+      },
+      "loopC": "Upper campground sites across NY-89 offer electric hookups and more forgiving pad angles for mid-size trailers and motorhomes.",
+      "loopsAB": "Lower loops provide wooded tent and pop-up camping close to the stream and lake shore."
+    }
+  },
+  {
+    "id": "cayuga-lake-state-park",
+    "name": "Cayuga Lake State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-29",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Seneca Falls",
+    "featured": true,
+    "lat": 42.896084,
+    "lng": -76.75333,
+    "image": "/images/cayuga_lake_state_park.jpg",
+    "mapImage": "/images/cayuga_lake_state_park_map.jpg",
+    "address": "2678 Lower Lake Rd, Seneca Falls, NY 13148",
+    "gps": "42.8961° N, 76.7533° W",
+    "phone": "+1 (315) 568-5163",
+    "website": "https://parks.ny.gov/parks/cayugalake",
+    "summary": "Picturesque northern Cayuga Lake state park offering shaded campsites, electric hookups, swimming beach, and prime access to Seneca Falls and local wine trails.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (Wooded Back-In & Electric Pads)",
+      "toadFriendliness": "Moderate (unhooking at main entrance contact station)",
+      "treeClearance": "Mature shade trees; moderate canopy clearance required on inner loops",
+      "bestBigRigLoops": "East Camp Electric Loop",
+      "bestSmallRigLoops": "Waterfront-Adjacent Back-In Rows"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US-20 / NY-89 to Lower Lake Road",
+      "text": "Accessed via US-20 or NY-89 in Seneca Falls, turning onto Lower Lake Road. Flat lake-level roads provide straightforward access for mid-sized RVs and trailers.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Navigates local connector roads safely while avoiding low railway bridges in Seneca Falls."
+      }
+    },
+    "toadStrategy": {
+      "text": "Use the wide contact station apron near the park entrance to unhook towed vehicles prior to entering the camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with rear visibility when unhooking in state park entrance staging areas."
+      }
+    },
+    "content": {
+      "overview": "Cayuga Lake State Park offers classic Finger Lakes water-recreation camping, featuring shaded electric sites, swimming areas, and a central location near historical Seneca Falls.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard electronics when utilizing state park electric pedestals during peak summer demand."
+      },
+      "loopC": "East Camp electric loop provides level gravel pads well-suited for travel trailers and motorhomes up to 35 feet.",
+      "loopsAB": "Shaded back-in rows offer natural privacy and quick access to lake swimming beaches."
+    }
+  },
+  {
+    "id": "sampson-state-park",
+    "name": "Sampson State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-29",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Romulus",
+    "featured": true,
+    "lat": 42.729201,
+    "lng": -76.891461,
+    "image": "/images/sampson_state_park.jpg",
+    "mapImage": null,
+    "address": "6040-6144 NY-96A, Romulus, NY 14541",
+    "gps": "42.7292° N, 76.8915° W",
+    "phone": "+1 (315) 585-6392",
+    "website": "https://parks.ny.gov/parks/sampson",
+    "summary": "Expansive former military training base state park on Seneca Lake featuring the only full-hookup RV sites among Finger Lakes state parks, plus boat launch and lake views.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Full-Hookup Loops)",
+      "toadFriendliness": "Good (wide park entrance and office staging area)",
+      "treeClearance": "Open former military grid layout with moderate shade trees",
+      "bestBigRigLoops": "Full-Hookup Loops with Wide Concrete/Gravel Pads",
+      "bestSmallRigLoops": "Lake-Adjacent Back-In Loops"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NY-96A Corridor",
+      "text": "Accessed via NY-96A between Geneva and Interlaken. State Route 96A offers smooth pavement and gentle rolling grades, but drivers should be mindful of crosswinds sweeping across Seneca Lake.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for tracking grade and wind warnings along the Seneca Lake wine trail corridor."
+      }
+    },
+    "toadStrategy": {
+      "text": "Wide paved parking lot near the park entrance office and boat launch area allows easy unhooking before heading into the camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with rear visibility when unhooking in state park entrance staging areas."
+      }
+    },
+    "content": {
+      "overview": "Sampson State Park delivers rare full-hookup state park camping directly on Seneca Lake, offering sweeping water views, a massive marina, and rich military history grounds.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for stabilizing leveling jacks across flat former-tarmac and gravel pad loops."
+      },
+      "loopC": "Full-hookup loops feature spacious, open pads designed to accommodate large motorhomes and travel trailers comfortably.",
+      "loopsAB": "Perimeter back-in sites offer quick walking access to the Seneca Lake shoreline."
+    }
+  },
+  {
+    "id": "watkins-glen-corning-koa",
+    "name": "Watkins Glen / Corning KOA Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-29",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Watkins Glen",
+    "featured": true,
+    "lat": 42.316324,
+    "lng": -76.907662,
+    "image": "/images/watkins_glen_corning_koa.jpg",
+    "mapImage": "/images/watkins_glen_corning_koa_map.jpg",
+    "address": "1710 State Route 414, Watkins Glen, NY 14891",
+    "gps": "42.3163° N, 76.9077° W",
+    "phone": "+1 (607) 535-7404",
+    "website": "https://koa.com/campgrounds/watkins-glen/",
+    "summary": "Premier Finger Lakes destination offering full 50/30-amp hookups, executive pull-throughs, indoor/outdoor pools, and close proximity to Watkins Glen State Park.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Pull-Through Sites)",
+      "toadFriendliness": "Excellent (wide registration apron and entrance staging loop)",
+      "treeClearance": "Well-maintained canopy along main big-rig avenues",
+      "bestBigRigLoops": "Executive 50-Amp Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Back-In Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: State Route 414 Corridor",
+      "text": "Directly accessed via State Route 414 just north of Watkins Glen, providing wide multi-lane state highway access suitable for large motorhomes and heavy fifth wheels. Recommended to watch for local route elevation shifts and use an RV GPS to manage corridor transitions.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for steering clear of low-clearance rural bridges when navigating around the southern Seneca Lake basin."
+      }
+    },
+    "toadStrategy": {
+      "text": "Broad registration check-in apron and wide entrance loops directly off the route/KOA Dr allow ample space to unhook towed vehicles prior to entering the interior campsite rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides wide-angle visibility when unhooking in busy resort check-in lanes."
+      }
+    },
+    "content": {
+      "overview": "Watkins Glen / Corning KOA Resort provides an exceptional Finger Lakes basecamp equipped with full 50/30-amp utility pedestals, level gravel pads, a heated indoor/outdoor pool complex, and top-tier family resort amenities near the Seneca Lake Wine Trail.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects high-draw Class A and fifth-wheel electrical systems against summer grid voltage drops during peak resort usage."
+      },
+      "loopC": "Executive pull-through rows accommodate large coaches with multiple slides while leaving plenty of room for parked tow vehicles.",
+      "loopsAB": "Shaded back-in loops offer quiet wooded surrounds ideal for travel trailers."
+    }
+  },
+  {
+    "id": "spacious-skies-woodland-hills",
+    "name": "Spacious Skies Woodland Hills",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-27",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Austerlitz",
+    "featured": true,
+    "lat": 42.3162,
+    "lng": -73.4735,
+    "image": "/images/spacious_skies_woodland_hills.jpg",
+    "mapImage": "/images/spacious_skies_woodland_hills_map.jpg",
+    "address": "386 Fog Hill Rd, Austerlitz, NY 12017",
+    "gps": "42.3162° N, 73.4735° W",
+    "phone": "+1 (518) 392-3557",
+    "website": "https://spaciousskiescampgrounds.com/woodland-hills/",
+    "summary": "Tranquil Taconic Foothills park offering spacious big rig camping NY pull-throughs, 50-amp full hookups, and smooth access roads near the Berkshires border.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Pull-Through & Executive Sites)",
+      "toadFriendliness": "Excellent (wide entrance staging area off main access road)",
+      "treeClearance": "Well-maintained high canopy along main loops with selective branch trimming",
+      "bestBigRigLoops": "Executive 50-Amp Full-Hookup Pull-Through Section",
+      "bestSmallRigLoops": "Shaded Hillside Back-In Rows"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-90 Berkshires Spur to NY-22",
+      "text": "Accessed via I-90 (NYS Thruway Berkshire Spur) Exit B2 onto NY-22 South toward Austerlitz, turning onto Fog Hill Road. Wide arterial state routes provide clear sightlines and easy turns for 40+ ft rigs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for tracking grade warnings and selecting wide toll lanes on the I-90 Berkshires approach."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the open gravel staging area near the park entrance office to safely unhook dinghy vehicles before entering the upper campsite rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides wide-angle visibility when unhooking or maneuvering dinghy vehicles in sloped staging areas."
+      }
+    },
+    "content": {
+      "overview": "Spacious Skies Woodland Hills delivers an exceptionally scenic big rig camping NY getaway nestled in the Hudson Valley / Berkshire foothills, featuring level full-hookup pull-throughs, reliable 50-amp power, and clean resort facilities.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Necessary for fine-tuning lateral levelling on sloped Taconic hillside campsite pads."
+      },
+      "loopC": "Upper pull-through loops accommodate multi-slide motorhomes and large fifth wheels with ample room for tow vehicles.",
+      "loopsAB": "Lower wooded back-in loops provide quiet private settings suited for mid-sized travel trailers and smaller Class C units."
+    }
+  },
+  {
+    "id": "saratoga-rv-park",
+    "name": "Saratoga RV Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-27",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Gansevoort",
+    "featured": true,
+    "lat": 43.1965,
+    "lng": -73.6582,
+    "image": "/images/saratoga_rv_park.jpg",
+    "mapImage": "/images/saratoga_rv_park_map.jpg",
+    "address": "4894 NY-50, Gansevoort, NY 12831",
+    "gps": "43.1965° N, 73.6582° W",
+    "phone": "+1 (518) 798-1913",
+    "website": "https://www.saratogarvpark.com",
+    "summary": "Premier Saratoga County destination featuring paved pull-through sites, 50-amp hookups, and top-tier big rig camping NY access near Saratoga Springs and I-87.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Paved & Level Pull-Through Sites)",
+      "toadFriendliness": "Excellent (dedicated wide staging area near office & clear interior loops)",
+      "treeClearance": "Well-maintained high-canopy pine/hardwood branches along main loops",
+      "bestBigRigLoops": "Full-Hookup Pull-Through Section (50-Amp)",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-87 Exit 15 to Route 50 North",
+      "text": "Accessed directly off I-87 (Adirondack Northway) Exit 15, proceeding north on NY-50 for 6 miles. Route 50 provides a wide, multi-lane roadway with gentle turns suitable for 40+ ft motorhomes and fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for steering clear of low bridge clearances on historic Saratoga County backroads when exiting I-87."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated unhook area alongside the main office registration loop to disconnect your dinghy vehicle before making turns into campsite rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Helpful for keeping eyes on towed vehicle alignment when maneuvering into tight registration staging rows during busy weekend check-ins."
+      }
+    },
+    "content": {
+      "overview": "Saratoga RV Park offers an outstanding big rig camping NY location equipped with 301 total sites, full 50-amp utility pedestals, level pull-throughs, and quick access to Saratoga Race Course and Lake George.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protect high-draw Class A and fifth-wheel electrical systems against summer grid surges during peak Saratoga race season capacity."
+      },
+      "loopC": "Pull-through rows are built specifically for big rigs, featuring paved pads and wide turning radiuses that make parking stress-free.",
+      "loopsAB": "Perimeter back-in sites offer shaded grassy lawns surrounded by tall pine trees, perfect for travel trailers and smaller motorhomes."
+    }
+  },
+  {
+    "id": "tall-pines-campground",
+    "name": "Tall Pines Campground & River Adventures",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-27",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Bainbridge",
+    "featured": true,
+    "lat": 42.3168,
+    "lng": -75.3942,
+    "image": "/images/tall_pines_campground.jpg",
+    "mapImage": "/images/tall_pines_campground_map.jpg",
+    "address": "100 Tall Pines Ln, Bainbridge, NY 13733",
+    "gps": "42.3168° N, 75.3942° W",
+    "phone": "+1 (607) 563-8271",
+    "website": "https://tallpinescampgroundny.com/",
+    "summary": "Scenic Unadilla Riverfront resort offering premium big rig camping NY supersites, 50-amp full hookups, canoeing, and spacious pull-throughs in the Central Catskills region.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Riverfront Pull-Through Supersites)",
+      "toadFriendliness": "Excellent (wide open riverfront staging area and clear turning loops)",
+      "treeClearance": "Trimmed high-canopy pine stands throughout main big-rig loops",
+      "bestBigRigLoops": "Unadilla Riverfront Supersites (50-Amp Full Hookup)",
+      "bestSmallRigLoops": "Upper Meadow & Wooded Tent/Pop-Up Rows"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-88 Exit 8 to Route 8 / County Road 35",
+      "text": "Accessed via I-88 Exit 8 (Bainbridge), taking NY-8 North toward Sidney/Masonville and turning onto County Road 35 to Tall Pines Lane. Navigating the Interstate corridor provides wide turning lanes for Class A motorhomes and heavy fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for steering clear of rural weight-restricted bridges and low-clearance agricultural overpasses throughout the I-88 / Susquehanna Valley corridor."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the wide gravel staging lane across from the main lodge to unhook your towed vehicle before proceeding down to the riverfront pull-through loops.",
+      "recommendedGear": null
+    },
+    "content": {
+      "overview": "Tall Pines Campground & River Adventures provides a tranquil big rig camping NY destination along the Unadilla River, featuring spacious full-hookup sites, clean level pads, direct river access, and family recreation near Bainbridge.",
+      "recommendedGear": {
+        "gearKey": "brass-water-pressure-regulator",
+        "reason": "Crucial for protecting PEX plumbing lines against seasonal municipal and well-water pressure spikes at riverfront utility pedestals."
+      },
+      "loopC": "Riverfront supersites feature wide 50-amp pull-throughs easily accommodating 40+ ft motorhomes with triple slides while keeping tow vehicles parked on-site.",
+      "loopsAB": "Upper meadow and shaded back-in sites offer comfortable grassy surroundings ideal for mid-sized travel trailers and pop-up campers."
+    }
+  },
+  {
+    "id": "skyline-rv-resort",
+    "name": "Skyline RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-27",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Darien Center",
+    "featured": true,
+    "lat": 42.885,
+    "lng": -78.3074,
+    "image": "/images/skyline_rv_resort.jpg",
+    "mapImage": "/images/skyline_rv_resort_map.jpg",
+    "address": "10933 Townline Rd, Darien Center, NY 14040",
+    "gps": "42.8850° N, 78.3074° W",
+    "phone": "+1 (585) 591-2021",
+    "website": "https://www.skylinervresort.com",
+    "summary": "Top-rated Western New York destination offering premier big rig camping NY sites with wide pull-throughs, 50-amp full hookups, and spacious paved access roads near Darien Lake.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Wide Pull-Through Sites)",
+      "toadFriendliness": "Excellent (wide entry staging lanes and open interior loops)",
+      "treeClearance": "High, well-trimmed canopy along all main big rig access roads",
+      "bestBigRigLoops": "Pull-Through Executive Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NYS Thruway (I-90) to Route 77 / Route 20",
+      "text": "Accessed via I-90 (NYS Thruway) Exit 48A (Pembroke) onto NY-77 South, proceeding 10 miles south through Darien Center to Alexander Road (NY-98). Multi-lane state routes provide wide turning radiuses for Class A motorhomes and heavy fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides wide-angle rear visibility when maneuvering large setups into deep pull-through sites during peak arrival hours."
+      }
+    },
+    "toadStrategy": {
+      "text": "The wide entry driveway past the main office offers ample room to pull off and disconnect towed vehicles before heading into the interior campsite loops.",
+      "recommendedGear": null
+    },
+    "content": {
+      "overview": "Skyline RV Resort delivers an exceptional big rig camping NY experience in Western New York, featuring large, level gravel-and-paved pads, full 50-amp utility pedestals, and excellent resort amenities near Six Flags Darien Lake.",
+      "recommendedGear": {
+        "gearKey": "x-chock-wheel-stabilizers",
+        "reason": "Crucial for eliminating tandem axle rocking and frame bounce on wide gravel pull-through pads."
+      },
+      "loopC": "Executive pull-through rows accommodate rigs up to 45 ft with multiple slides extended while leaving plenty of room for parked tow vehicles.",
+      "loopsAB": "Shaded back-in loops provide private wooded surroundings suitable for mid-sized travel trailers and smaller Class C units."
+    }
+  },
+  {
+    "id": "lake-george-rv-park",
+    "name": "Lake George RV Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-27",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Lake George",
+    "featured": true,
+    "lat": 43.3707,
+    "lng": -73.6912,
+    "image": "/images/lake_george_rv_park.jpg",
+    "mapImage": "/images/lake_george_rv_park_map.jpg",
+    "address": "74 State Route 149, Lake George, NY 12845",
+    "gps": "43.3707° N, 73.6912° W",
+    "phone": "+1 (518) 792-3775",
+    "website": "https://www.lakegeorgervpark.com",
+    "summary": "Premier Adirondack luxury resort offering big rig camping NY enthusiasts spacious finished full-hookup pull-through sites built to handle large Class A motorhomes and fifth wheels.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Finished Pull-Through Sites)",
+      "toadFriendliness": "Excellent (wide resort access lanes and dedicated check-in staging)",
+      "treeClearance": "Well-maintained canopy pruned high for large motorhome clearance",
+      "bestBigRigLoops": "Full Hookup Finished Pull-Through Sections",
+      "bestSmallRigLoops": "Adirondack Back-In Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Adirondack Northway (I-87 Exit 20 to Route 149)",
+      "text": "Accessed directly off I-87 (Adirondack Northway) at Exit 20, heading north 0.5 miles on US-9, then east 0.5 miles on NY-149 to the entrance on the right. Multi-lane approaches make this highly accessible for big rigs avoiding tight village streets.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for tracking smooth highway exits off I-87 and steering clear of local low-clearance Adirondack scenic byway restrictions."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the spacious resort arrival and registration staging lanes right past the main gate to safely unhook your towed vehicle before proceeding to your assigned pull-through site.",
+      "recommendedGear": null
+    },
+    "content": {
+      "overview": "Lake George RV Park sets the standard for big rig camping NY options in Upstate New York, offering immaculate finished pads, full 50-amp hookups, and resort amenities surrounded by the southern Adirondacks.",
+      "recommendedGear": {
+        "gearKey": "rv-tpms-system",
+        "reason": "Crucial for tracking tire pressure and temperature across multi-axle motorhomes and towed vehicles during long climbs up the I-87 corridor."
+      },
+      "loopC": "Paved pull-through loops feature wide turning radiuses, easily accommodating 40+ ft motorhomes with slides extended and tow vehicles parked right on site.",
+      "loopsAB": "Perimeter back-in sites offer deeper wooded buffers while maintaining solid packed stone bases for heavy rigs."
+    }
+  },
+  {
+    "id": "camp-gateway-floyd-bennett-field",
+    "name": "Camp Gateway (Floyd Bennett Field)",
+    "ownertype": "National Park Service",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Brooklyn",
+    "featured": true,
+    "lat": 40.5948,
+    "lng": -73.8842,
+    "image": "/images/camp_gateway_floyd_bennett_field.jpg",
+    "mapImage": null,
+    "address": "50 Aviation Rd, Brooklyn, NY 11234",
+    "gps": "40.5948° N, 73.8842° W",
+    "phone": "+1 (718) 338-3799",
+    "website": "https://www.recreation.gov/camping/campgrounds/233309",
+    "summary": "National Park Service urban campground located at Floyd Bennett Field in Brooklyn (Gateway National Recreation Area), offering dry RV camping, dump station, and direct access to NYC public transit.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Non-Electric RV Sites)",
+      "toadFriendliness": "Good (spacious park entry lanes past Ryan Visitor Center)",
+      "treeClearance": "Open grassland and historic aviation tarmac setting with minimal low branches",
+      "bestBigRigLoops": "Floyd Bennett RV Non-Electric Rows",
+      "bestSmallRigLoops": "Compact Tarmac Pull-In Pads"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Expressway Routes to Flatbush Avenue (⚠️ Parkway Ban)",
+      "text": "Accessed via expressway routes (such as I-278 / BQE) to Flatbush Avenue South, proceeding 10 miles south to Floyd Bennett Field just before the Gil Hodges Bridge. WARNING: Commercial vehicles and RVs are strictly prohibited on the Belt Parkway due to low overpasses.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Vital for bypassing prohibited parkways and low-clearance bridges throughout New York City."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the wide interior roadways past the Ryan Visitor Center within Floyd Bennett Field to safely unhook your towed vehicle before entering the campground loop.",
+      "recommendedGear": null
+    },
+    "content": {
+      "overview": "Camp Gateway at Floyd Bennett Field provides a unique urban camping experience within Gateway National Recreation Area, combining historic aviation grounds on Jamaica Bay with easy public transit access into Manhattan.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for establishing pad stability on historic concrete and gravel airfield surfaces."
+      },
+      "loopC": "RV non-electric sites accommodate travel trailers and motorhomes up to 40 ft with generator hours permitted and an on-site dump station.",
+      "loopsAB": "Open layout loops provide spacious staging areas surrounded by coastal grasslands and historic hangars."
+    }
+  },
+  {
+    "id": "phoenicia-black-bear-campground",
+    "name": "Phoenicia Black Bear Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Phoenicia",
+    "featured": true,
+    "lat": 42.0829,
+    "lng": -74.3108,
+    "image": "/images/phoenicia_black_bear_campground.jpg",
+    "mapImage": null,
+    "address": "17 Bridge St, Phoenicia, NY 12464",
+    "gps": "42.0829° N, 74.3108° W",
+    "phone": "+1 (845) 688-7405",
+    "website": "http://phoeniciablackbearcampground.com",
+    "summary": "Independent creekside park along Esopus Creek in the heart of the high-peaks Catskills, offering water/electric sites, trout fishing, and easy access via Route 28.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Sites)",
+      "toadFriendliness": "Good (office entry apron provides space for unhooking)",
+      "treeClearance": "Moderate; watch lower canopy branches along mature creek-side trees",
+      "bestBigRigLoops": "Main Entrance Level Rows",
+      "bestSmallRigLoops": "Esopus Creek Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Route 28 West to Bridge Street",
+      "text": "Access via NY-28 West from I-87 Exit 19 (Kingston). Take the Phoenicia exit ramp onto Bridge Street and cross the bridge. Take a wide right turn off the bridge into the campground entrance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental routing down narrow mountain town side roads in Ulster County."
+      }
+    },
+    "toadStrategy": {
+      "text": "Stop at the registration office area right after crossing Bridge Street to unhook your towed vehicle before pulling into your creekside site.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering in tight campground staging areas."
+      }
+    },
+    "content": {
+      "overview": "Phoenicia Black Bear Campground is a scenic, independent park situated directly along Esopus Creek, offering prime access to mountain hiking, tubing, and trout fishing.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for establishing level stability on natural gravel and grass creek-bank pads."
+      },
+      "loopC": "Main level sites near the entrance accommodate mid-to-large trailers and motorhomes with water and electric hookups.",
+      "loopsAB": "Creek-side back-in sites offer outstanding mountain views and direct stream access."
+    }
+  },
+  {
+    "id": "roscoe-campsite-park",
+    "name": "Roscoe Campsite Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Roscoe",
+    "featured": true,
+    "lat": 41.9354,
+    "lng": -74.9152,
+    "image": "/images/roscoe_campsite_park.jpg",
+    "mapImage": null,
+    "address": "2179 Old Route 17, Roscoe, NY 12776",
+    "gps": "41.9354° N, 74.9152° W",
+    "phone": "+1 (607) 498-5264",
+    "website": "https://roscoecampsite.com",
+    "summary": "Independent riverfront park set along the Beaverkill River in Roscoe, NY, featuring big-rig pull-through sites, 50-amp full hookups, and direct access to world-class trout fishing.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (wide registration loop and office staging)",
+      "treeClearance": "Good overall; well-trimmed along main entry drives",
+      "bestBigRigLoops": "Central Riverfront Pull-Through Rows",
+      "bestSmallRigLoops": "Perimeter Beaverkill River Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Easy Access off Route 17 / I-86",
+      "text": "Access via Route 17 (Future I-86) taking the Roscoe exit onto Old Route 17. The approach road runs parallel to the river and provides a smooth, flat route free of low bridges or tight mountain switchbacks.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures accurate highway exit routing when approaching the Catskills corridor."
+      }
+    },
+    "toadStrategy": {
+      "text": "Stage in the wide registration area near the entrance office to unhook your towed vehicle before maneuvering into the waterfront loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering in tight campground staging areas."
+      }
+    },
+    "content": {
+      "overview": "Roscoe Campsite Park is a premier independent campground nestled along the banks of the Beaverkill River in Sullivan County, offering top-notch fly fishing and peaceful mountain scenery.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for fine-tuning pad stability near natural riverfront campsites."
+      },
+      "loopC": "Central pull-through rows feature 50-amp full hookups with plenty of room for long motorhomes and fifth wheels.",
+      "loopsAB": "Riverfront back-in sites offer unmatched views and direct stream access for anglers."
+    }
+  },
+  {
+    "id": "whip-o-will-campground",
+    "name": "Whip-O-Will Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Purling",
+    "featured": true,
+    "lat": 42.2789,
+    "lng": -74.0531,
+    "image": "/images/whip_o_will_campground.jpg",
+    "mapImage": "/images/whip_o_will_campground_map.jpg",
+    "address": "644 County Road 31, Purling, NY 12470",
+    "gps": "42.2789° N, 74.0531° W",
+    "phone": "+1 (518) 622-3023",
+    "website": "https://www.whip-o-will.com",
+    "summary": "Classic family-owned Catskills resort in Purling, NY, featuring a private 7-acre lake, trout stream access, and wooded RV sites.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Sites)",
+      "toadFriendliness": "Good (office entry parking area provides unhooking space)",
+      "treeClearance": "Moderate; watch lower canopy branches along mature wooded interior mountain loops",
+      "bestBigRigLoops": "Main Lake-Adjacent Pull-Through Sites",
+      "bestSmallRigLoops": "Upper Wooded Hillside Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: County Road 31 Access",
+      "text": "Access via County Road 31 (Hearts Content Road) in Purling, NY. Local foothill connectors feature gentle rolling grades and narrower rural shoulders. Big rigs navigate successfully, but watch for overhanging tree branches along the immediate approach.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for guiding motorhomes safely past winding local Greene County roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office parking area upon arrival to unhook your towed vehicle before maneuvering into the wooded interior loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering in tight campground staging areas."
+      }
+    },
+    "content": {
+      "overview": "Whip-O-Will Campground is a traditional independent family resort nestled in the northern Catskills, featuring a 7-acre private fishing lake and shaded mountain campsites.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Necessary for achieving a stable setup on sloped gravel and dirt pads."
+      },
+      "loopC": "Main pull-through rows offer convenient access and electrical/water hookups for mid-sized rigs.",
+      "loopsAB": "Shaded back-in sites closer to the private lake offer quiet, natural camping environments."
+    }
+  },
+  {
+    "id": "brookside-campgrounds",
+    "name": "Brookside Campgrounds",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-19",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Catskill",
+    "featured": true,
+    "lat": 42.2215,
+    "lng": -73.9124,
+    "image": "/images/brookside_campgrounds.jpg",
+    "mapImage": "/images/brookside_campgrounds_map.jpg",
+    "address": "4952 NY-32, Catskill, NY 12414",
+    "gps": "42.2215° N, 73.9124° W",
+    "phone": "+1 (518) 678-9729",
+    "website": "http://www.brooksidecampgrounds.com",
+    "summary": "Family-owned Catskills park situated directly along NY-32, offering full hookup pull-through sites, trout stream access, and convenient proximity to Kaaterskill Falls.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Good (wide entry apron near office for unhooking)",
+      "treeClearance": "Good; well-maintained along main entrance roads, watch lower branches on perimeter creek-side sites",
+      "bestBigRigLoops": "Main Level Pull-Through Rows",
+      "bestSmallRigLoops": "Creek-Bordered Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Direct NY-32 Access",
+      "text": "Accessible directly via NY Route 32 in Catskill, NY. NY-32 provides a wide, smooth approach avoiding extreme mountain passes or severe hairpins, making it suitable for big rigs and towed setups.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for tracking regional highway bridge clearances and avoiding narrow Catskill side-street turns."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office staging apron upon entry to unhook your towed vehicle before proceeding into the internal camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering in tight campground staging areas."
+      }
+    },
+    "content": {
+      "overview": "Brookside Campgrounds is an established, independent family-owned resort providing full hookups, stream fishing along Kiskatom Brook, and easy basecamp access to the northern Catskills.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for fine-tuning stability on natural gravel and grass site pads."
+      },
+      "loopC": "Main level pull-through rows accommodate multi-axle trailers and big rigs with easy 50-amp full hookup connections.",
+      "loopsAB": "Shaded back-in sites along the brook offer peaceful, natural settings for mid-sized rigs and pop-ups."
+    }
+  },
+  {
+    "id": "rip-van-winkle-campgrounds",
+    "name": "Rip Van Winkle Campgrounds",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Saugerties",
+    "featured": true,
+    "lat": 42.0837,
+    "lng": -74.0152,
+    "image": "/images/rip_van_winkle_photo.jpg",
+    "mapImage": "/images/rip_van_winkle_map.jpg",
+    "address": "149 Blue Mountain Rd, Saugerties, NY 12477",
+    "gps": "42.0837° N, 74.0152° W",
+    "phone": "+1 (845) 246-8334",
+    "website": "https://ripvanwinklecampgrounds.com",
+    "summary": "Catskill foothill camping in Saugerties, NY. Critical guidance on Blue Mountain Road approach, terraced mountain incline navigation, tight S-curve loops, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strict site allocation; select upper pull-throughs accommodate larger units)",
+      "toadFriendliness": "Moderate (unhook at main office entry lot before climbing upper hill loops)",
+      "treeClearance": "Dense mature hardwoods; watch low-hanging oak canopy on inner S-curves",
+      "bestBigRigLoops": "Lovers Lane Pull-Throughs & Upper Plateau Sites",
+      "bestSmallRigLoops": "Lower Creekfront Back-In Loops"
+    },
+    "approach": {
+      "title": "Catskill Mountain Route & Grade Warning",
+      "text": "Approaching via NYS Thruway (I-87) Exit 20 to Route 212 leads to Blue Mountain Road. The road narrows as you approach camp with rolling elevation changes. Gear down early when pulling heavy trailers up the main entrance hill.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Calculates safe elevation approaches and avoids low-clearance secondary roads throughout the Catskill Mountain region."
+      }
+    },
+    "toadStrategy": {
+      "text": "Disconnect your towed vehicle at the front registration area before heading up the interior hill. Turning radiuses on the upper S-curve loops are tight and can bind tow bars if attempted while attached.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering in tight campground staging areas."
+      }
+    },
+    "content": {
+      "overview": "Set across 160 heavily wooded acres in the Catskills, Rip Van Winkle blends natural mountain terrain with private resort amenities. Terraced gravel pads require side-to-side leveling adjustments.",
+      "recommendedGear": {
+        "gearKey": "andersen-levelers",
+        "reason": "Mountain slope pads require precise drive-on height adjustments. Curved levelers make leveling fast on uneven gravel terraces."
+      },
+      "loopC": "Upper plateau pull-through sites offer generous length and straight-line pull-outs, making them the safest bet for big rigs.",
+      "loopsAB": "Lower wooded back-in loops feature tight turns framed by mature hardwoods and rock outcroppings. Tail-swing clearance must be monitored."
+    }
+  },
+  {
+    "id": "kittatinny-campsites",
+    "name": "Kittatinny Campsites",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Barryville",
+    "featured": true,
+    "lat": 41.4782,
+    "lng": -74.9102,
+    "image": "/images/kittatinny_photo.jpg",
+    "mapImage": "/images/kittatinny_map.jpg",
+    "address": "3854 Route 97, Barryville, NY 12719",
+    "gps": "41.4782° N, 74.9102° W",
+    "phone": "+1 (845) 682-3539",
+    "website": "https://kittatinny.com",
+    "summary": "Delaware River Valley camping in Barryville, NY. Ground-truth breakdown of Scenic Route 97 Hawks Nest corridor, riverbank loop clearance, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 35 ft (strict length restrictions due to riverbank loop turns)",
+      "toadFriendliness": "Moderate (unhook at main river office parking lot)",
+      "treeClearance": "Dense riverbank forest canopy; watch low-hanging sycamore and hemlock branches",
+      "bestBigRigLoops": "Upper River Plateau Back-In Sites",
+      "bestSmallRigLoops": "Lower Riverbank Primitive Loops"
+    },
+    "approach": {
+      "title": "Route 97 River Corridor & Winding Grade Warning",
+      "text": "Approaching along NY State Route 97 (Upper Delaware Scenic Byway) involves winding river curves, narrow rock face cutouts, and sudden grade shifts near the Hawks Nest section. Drive cautiously and monitor lane positioning when towing wide trailers.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Tracks sharp river valley curves and narrow canyon clearances along NY-97 to prevent unexpected lane pinch points."
+      }
+    },
+    "toadStrategy": {
+      "text": "Drop your towed vehicle at the main office parking area near the zip-line staging building before driving down the narrow gravel lanes to riverfront sites.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering in tight campground staging areas."
+      }
+    },
+    "content": {
+      "overview": "Stretching along the Upper Delaware River, Kittatinny Campsites is an outdoor adventure hub featuring riverfront and wooded plateau sites framed by steep river valley ridge lines.",
+      "recommendedGear": {
+        "gearKey": "camco-curved-leveler",
+        "reason": "Riverbank gravel pads slope toward the water edge. Curved drive-on levelers and heavy wheel chocks dial in height and lock tires securely into place on loose river soil."
+      },
+      "loopC": "Upper plateau sites feature wider back-in clearance and firmer gravel bases for medium-sized motorhomes and travel trailers.",
+      "loopsAB": "Lower riverfront loops feature narrow single-lane gravel tracks with mature trees lining campsite entryways."
+    }
+  },
+  {
+    "id": "watkins-glen-state-park",
+    "name": "Watkins Glen State Park",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NY",
+    "city": "Watkins Glen",
+    "featured": true,
+    "lat": 42.3629,
+    "lng": -76.8881,
+    "image": "/images/watkins_glen_photo.jpg",
+    "mapImage": "/images/watkins_glen_map.jpg",
+    "address": "3530 Route 419, Watkins Glen, NY 14891",
+    "gps": "42.3629° N, 76.8881° W",
+    "phone": "+1 (607) 535-4511",
+    "website": "https://parks.ny.gov/parks/watkinsglen",
+    "summary": "Finger Lakes gorge camping in Watkins Glen, NY. Guidance on the steep village incline, tight outer loop turns, strict campsite length limits, and main registration lot unhooking.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (strictly enforced on specific loops)",
+      "toadFriendliness": "Moderate (unhook at the upper main registration lot near Route 419)",
+      "treeClearance": "Dense mature oak/hemlock canopy on inner loops; watch low roof clearance",
+      "bestBigRigLoops": "Six Nations Loop (Loop C - wider pads & electric hookups)",
+      "bestSmallRigLoops": "Mohawk & Seneca Loops (Rustic / Tighter Turning Radiuses)"
+    },
+    "approach": {
+      "title": "Finger Lakes Grade & Route Clearance Warning",
+      "text": "Approaching from downtown Watkins Glen via NY-14 or Route 419 involves a steady, steep climb out of the gorge valley. Drivers towing heavy rigs should gear down early. Be mindful of sudden weekend tourist traffic congesting the village approach lanes near the lower gorge entrance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Calculates safe hill approaches and avoids tight secondary road detours around Seneca Lake based on your rig dimensions."
+      }
+    },
+    "toadStrategy": {
+      "text": "Do not pull towed vehicles through the narrow inner loop turnarounds. Unhook your toad at the upper main park office / registration parking lot before heading down into your designated loop.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when unhooking and maneuvering in tight campground staging areas."
+      }
+    },
+    "content": {
+      "overview": "Situated directly above the famous Seneca Lake gorge, Watkins Glen State Park offers heavily shaded, hardwood-covered sites. The terrain is undulating, and gravel pads frequently slope away from the loop roads.",
+      "recommendedGear": {
+        "gearKey": "andersen-levelers",
+        "reason": "Uneven glacial soils and sloped state park gravel pads make curved drive-on levelers essential for dialing in side-to-side height quickly."
+      },
+      "loopC": "Six Nations Loop is the primary choice for larger RVs, featuring electric hookups, longer back-in depths, and slightly wider turning radiuses along the main loop lane.",
+      "loopsAB": "Mohawk, Seneca, and Cayuga loops skew toward small travel trailers, pop-ups, and camper vans. Inner loop corners feature tight tree alignments and sharp backing angles."
+    }
+  }
+]

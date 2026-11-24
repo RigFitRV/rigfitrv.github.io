@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "holly-shores-camping-resort",
+    "name": "Sun Outdoors Cape May",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-02",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Cape May",
+    "featured": true,
+    "lat": 39.001626,
+    "lng": -74.890105,
+    "image": "/images/holly_shores_camping_resort.jpg",
+    "mapImage": "/images/holly_shores_camping_resort_map.jpg",
+    "address": "491 US-9, Cape May, NJ 08204",
+    "gps": "39.0016° N, 74.8901° W",
+    "phone": "+1 (609) 886-1234",
+    "website": "https://www.sunoutdoors.com/new-jersey/sun-outdoors-cape-may",
+    "summary": "A high-amenity Sun Outdoors resort located between Cape May and Wildwood featuring shaded full-hookup sites, heated pools, splash pad, and dog park facilities.",
+    "scorecard": {
+      "maxRigLength": "Up to 42 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (spacious main entrance registration lane off US-9)",
+      "treeClearance": "Mature shade canopy; main interior avenues trimmed for high-profile rigs",
+      "bestBigRigLoops": "Main Pull-Through Avenue Sites",
+      "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US-9 Corridor Access",
+      "text": "Accessed via Garden State Parkway Exit 4 West onto Route 47, turning onto US-9 South directly to the resort. Stay on US-9 to guarantee clean height clearances and avoid narrow municipal turns.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures direct state route navigation without residential low-clearance shortcuts."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated check-in lanes right off US-9 South to unhook your towed vehicle before proceeding into interior site loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides vital rear coverage when maneuvering into shaded resort sites."
+      }
+    },
+    "content": {
+      "overview": "Sun Outdoors Cape May (formerly Holly Shores Camping Resort) is a premier coastal destination situated between Cape May and Wildwood beaches. Offering full 30/50-amp utility hookups, paved and gravel pads, heated swimming pool, splash pad, and kayak rentals, it provides an outstanding basecamp for exploring the shore.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive onboard electronics against coastal power fluctuations."
+      },
+      "loopC": "Main pull-through sites feature generous length and convenient hookup layouts for large motorhomes and fifth wheels.",
+      "loopsAB": "Wooded back-in sites offer excellent shade and a relaxed atmosphere under mature trees."
+    }
+  },
+  {
+    "id": "belhaven-lake-rv-resort",
+    "name": "Belhaven Lake RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-02",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Egg Harbor City",
+    "featured": true,
+    "lat": 39.617889,
+    "lng": -74.593979,
+    "image": "/images/belhaven_lake_rv_resort.jpg",
+    "mapImage": "/images/belhaven_lake_rv_resort_map.jpg",
+    "address": "1227 County Rd 542, Egg Harbor City, NJ 08215",
+    "gps": "39.6179° N, 74.5940° W",
+    "phone": "+1 (609) 965-2827",
+    "website": "https://www.belhavencampground.com/",
+    "summary": "A peaceful Pinelands lakefront resort near Batsto State Park offering 300 wooded sites, full 30/50-amp hookups, kayak rentals, and direct lake access.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (spacious front entrance check-in apron off CR-542)",
+      "treeClearance": "Pine Barrens canopy; maintain center positioning on rural county approach",
+      "bestBigRigLoops": "Main Entrance & Lakefront Pull-Through Sites",
+      "bestSmallRigLoops": "Shaded Wooded Back-In Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: County Route 542 Corridor",
+      "text": "Accessed via County Route 542 (CR-542) from GSP Exit 50/52 or Route 30/206 via Hammonton. Stay centered on county lanes to maintain optimal clearance under rural pine branches.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for navigating rural Pinelands routes and low canopy corridors."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main registration check-in apron off County Road 542 to safely unhook your towed vehicle before proceeding into interior wooded loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential rear visibility in shaded Pine Barrens campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Belhaven Lake RV Resort is a scenic 30-acre lakefront retreat nestled in the South Jersey Pine Barrens near Batsto Village. Offering full-hookup campsites, swimming pool amenities, canoeing, and quiet nature trails, it provides a secluded wilderness atmosphere close to regional shore corridors.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard RV electrical systems from rural utility sags."
+      },
+      "loopC": "Main lakefront pull-through sites accommodate larger rigs with convenient access to resort amenities.",
+      "loopsAB": "Deep wooded sites offer pine shade and exceptional privacy."
+    }
+  },
+  {
+    "id": "big-timber-lake-rv-camping-resort",
+    "name": "Sun Retreats Avalon",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-02",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Cape May Court House",
+    "featured": true,
+    "lat": 39.125852,
+    "lng": -74.811015,
+    "image": "/images/big_timber_lake_rv_camping_resort.jpg",
+    "mapImage": "/images/big_timber_lake_rv_camping_resort_map.jpg",
+    "address": "116 Swainton Goshen Rd, Cape May Court House, NJ 08210",
+    "gps": "39.1259° N, 74.8110° W",
+    "phone": "+1 (609) 465-4456",
+    "website": "https://www.sunoutdoors.com/new-jersey/sun-retreats-avalon",
+    "summary": "A premier Sun Outdoors resort in Cape May Court House featuring spacious RV sites, catch-and-release fishing lakes, and quick access to Avalon and Sea Isle City beaches.",
+    "scorecard": {
+      "maxRigLength": "Up to 42 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (spacious main entrance staging area)",
+      "treeClearance": "Pine canopy with good clearance on primary thoroughfares",
+      "bestBigRigLoops": "Main Lakeview Pull-Through Loops",
+      "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: GSP Exit 13 Corridor",
+      "text": "From the Garden State Parkway, take Exit 13 onto Route 9 South, then turn onto Swainton Goshen Road directly toward the main resort entrance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable navigation off GSP exits onto county connectors."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated registration staging area near the main office off Swainton Goshen Road to safely unhook your towed vehicle before heading into site loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Assists with clear rear monitoring during wooded site positioning."
+      }
+    },
+    "content": {
+      "overview": "Sun Retreats Avalon (formerly Big Timber Lake) is a high-amenity RV resort set along New Jersey's coastal pine belt. Featuring full 30/50-amp utility hookups, clean gravel pads, a resort swimming pool, and lake activities, it offers an outstanding coastal getaway near South Jersey shore points.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive onboard RV electronics from coastal electrical fluctuations."
+      },
+      "loopC": "Primary pull-through sites provide generous length and simple hookup access for larger fifth wheels and motorhomes.",
+      "loopsAB": "Wooded back-in sites offer natural shade and a relaxed atmosphere among coastal pines."
+    }
+  },
+  {
+    "id": "pine-haven-camping-resort",
+    "name": "Pine Haven Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-02",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Cape May Court House",
+    "featured": true,
+    "lat": 39.168431,
+    "lng": -74.742618,
+    "image": "/images/pine_haven_camping_resort.jpg",
+    "mapImage": "/images/pine_haven_camping_resort_map.jpg",
+    "address": "2339 US-9 North, Cape May Court House, NJ 08210",
+    "gps": "39.1684° N, 74.7426° W",
+    "phone": "+1 (609) 624-3437",
+    "website": "https://thousandtrails.com/new-jersey/pine-haven-camping-resort/",
+    "summary": "A family-friendly Thousand Trails coastal resort nestled in southern New Jersey's pine forests, offering full-hookup RV sites and easy access to Ocean City and Stone Harbor.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (spacious entrance check-in apron off US-9)",
+      "treeClearance": "Mature pine canopy; watch for low overhead branches on interior loops",
+      "bestBigRigLoops": "Main Entrance & Utility Pull-Through Sites",
+      "bestSmallRigLoops": "Shaded Pine Back-In Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US-9 Corridor Access",
+      "text": "Directly accessible via US Route 9 North in Cape May Court House. Maintain position on major state corridors to avoid narrow coastal shortcuts and low residential tree lines.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Crucial for navigating coastal NJ corridors and major highway turnoffs."
+      }
+    },
+    "toadStrategy": {
+      "text": "Utilize the spacious check-in staging area off US-9 North to safely unhook your towed vehicle before maneuvering into the shaded pine resort loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides essential rear visibility in wooded campground back-in sites."
+      }
+    },
+    "content": {
+      "overview": "Pine Haven Camping Resort is a premier Thousand Trails property nestled among southern New Jersey's pine forests. Providing full 30/50-amp utility hookups, family recreational amenities, and a quiet wooded atmosphere, it serves as an ideal basecamp just minutes from the Jersey Shore beaches.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive RV onboard electronics against coastal power fluctuations."
+      },
+      "loopC": "Main utility sites accommodate larger motorhomes and fifth wheels seeking easy navigation and stable hookups.",
+      "loopsAB": "Deep wooded sites offer serene natural shade and privacy nestled among the pine canopy."
+    }
+  },
+  {
+    "id": "beachcomber-camping-resort",
+    "name": "Beachcomber Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-11-02",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Cape May",
+    "featured": true,
+    "lat": 39.003517,
+    "lng": -74.890985,
+    "image": "/images/beachcomber_camping_resort.jpg",
+    "mapImage": "/images/beachcomber_camping_resort_map.jpg",
+    "address": "462 Seashore Rd, Cape May, NJ 08204",
+    "gps": "39.0035° N, 74.8910° W",
+    "phone": "+1 (609) 886-6035",
+    "website": "https://beachcombercamp.com/",
+    "summary": "A premier coastal RV resort in Cape May featuring heavily wooded sites, freshwater lakes, and top-tier family amenities just minutes from the Atlantic beaches.",
+    "scorecard": {
+      "maxRigLength": "Up to 42 ft (Select Pull-Through Sites)",
+      "toadFriendliness": "High (spacious entrance check-in apron)",
+      "treeClearance": "Coastal pine canopy; watch for overhead branches on interior turns",
+      "bestBigRigLoops": "Main Entrance & Lakeview Pull-Through Loops",
+      "bestSmallRigLoops": "Wooded Back-In Perimeter Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway Exit 4 West",
+      "text": "From the Garden State Parkway, take Exit 4 West, turn left onto Cape May County Route 626 South (Railroad Ave), which seamlessly becomes Seashore Road straight to the resort entrance.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures precise routing off GSP exits avoiding tight coastal shortcuts."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated registration apron off Seashore Road to safely unhook your towed vehicle before proceeding into the resort's wooded loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear visibility when navigating shaded coastal resort turns."
+      }
+    },
+    "content": {
+      "overview": "Beachcomber Camping Resort is a premier vacation destination set amidst southern New Jersey's coastal pines. Offering freshwater lakes, sandy beaches, and full-hookup RV sites, it provides an ideal basecamp for exploring historic Cape May and the Wildwood shore points.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects sensitive RV electronics against coastal power fluctuations."
+      },
+      "loopC": "Main pull-through sites offer easy hookups and quick access to resort amenities for larger motorhomes and fifth wheels.",
+      "loopsAB": "Wooded back-in sites offer natural shade and privacy nestled among coastal pines."
+    }
+  },
+  {
+    "id": "seashore-campsites-rv-resort",
+    "name": "Sun Retreats Seashore",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Cape May",
+    "featured": true,
+    "lat": 38.9837,
+    "lng": -74.9076,
+    "image": "/images/seashore_campsites_rv_resort.jpg",
+    "mapImage": "/images/seashore_campsites_rv_resort_map.jpg",
+    "address": "720 Seashore Rd, Cape May, NJ 08204",
+    "gps": "38.9837° N, 74.9076° W",
+    "phone": "(609) 884-4010",
+    "website": "https://www.sunoutdoors.com/new-jersey/sun-retreats-seashore",
+    "summary": "Expansive 685-site resort minutes from Cape May beaches, featuring a filtered lake with sandy swimming beach, big-rig 50-amp full hookup sites, heated pool, mini-golf, and extensive family activities.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (multi-lane check-in staging area off Seashore Road)",
+      "treeClearance": "Good; wide main arterial loops and high canopy clearance",
+      "bestBigRigLoops": "Central Lakeview Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway to Route 109 to Seashore Road",
+      "text": "Accessed via Garden State Parkway South to NJ Route 109 South, connecting via Sandman Boulevard (CR-552) to Seashore Road (CR-626). Broad, flat coastal approach roads offer seamless clearance for large motorhomes and fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental detours into historic downtown Cape May streets with low-hanging tree branches."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated multi-lane registration apron off Seashore Road to unhook your towed vehicle before following the main loops to your site.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Sun Retreats Seashore offers a full-scale resort experience 5 minutes from Cape May Point and Victorian Cape May, pairing a private swimming lake and sandy beach with big-rig pull-through convenience.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Great for fine-tuning pad stability across sandy and gravel lakeside terrain."
+      },
+      "loopC": "Central pull-through rows accommodate full-size Class A motorhomes and fifth wheels with 50-amp power and full hookups.",
+      "loopsAB": "Shaded back-in sites along the wooded perimeter offer quiet coastal seclusion under mature tree cover."
+    }
+  },
+  {
+    "id": "sea-pirate-campground",
+    "name": "Sea Pirate Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "West Creek",
+    "featured": true,
+    "lat": 39.6301,
+    "lng": -74.3096,
+    "image": "/images/sea_pirate_campground.jpg",
+    "mapImage": "/images/sea_pirate_campground_map.jpg",
+    "address": "148 US-9, West Creek, NJ 08092",
+    "gps": "39.6301° N, 74.3096° W",
+    "phone": "(609) 296-7400",
+    "website": "https://sea-pirate.com/",
+    "summary": "Family-owned coastal campground serving as the premier Long Beach Island (LBI) gateway, located just 8 miles from LBI beaches and offering 30/50-amp full hookups, pool, crabbing, and kayak access.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (broad check-in staging apron off US-9)",
+      "treeClearance": "Good; wide main entrance and well-trimmed pine canopy",
+      "bestBigRigLoops": "Central Open Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway to US Route 9",
+      "text": "Accessed via Garden State Parkway Exit 63 to NJ Route 72 East, connecting to US Route 9 South, or via GSP Exit 50 onto US Route 9 North. Flat, open Ocean County arterial route with clear overhead canopy.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures smooth routing around Parkway interchanges and coastal bridge approaches."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated check-in staging area off US Route 9 at the main office to unhook your towed vehicle before proceeding into the camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Sea Pirate Campground offers an ideal basecamp for exploring Long Beach Island and Little Egg Harbor, combining classic family camping amenities with easy access to saltwater crabbing, fishing, and ocean beaches.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Crucial for securing level pad balance on natural gravel and sand pads."
+      },
+      "loopC": "Central pull-through rows accommodate mid-to-large motorhomes and towables with 30/50 amp full hookups.",
+      "loopsAB": "Shaded back-in sites along the wooded perimeter offer privacy under mature pine tree cover."
+    }
+  },
+  {
+    "id": "river-beach-rv-resort",
+    "name": "River Beach RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Mays Landing",
+    "featured": true,
+    "lat": 39.4136,
+    "lng": -74.7152,
+    "image": "/images/river_beach_rv_resort.jpg",
+    "mapImage": null,
+    "address": "4678 Somers Point Rd, Mays Landing, NJ 08330",
+    "gps": "39.4136° N, 74.7152° W",
+    "phone": "(609) 625-8611",
+    "website": "https://www.zemanrv.com/resorts/river-beach-rv-resort",
+    "summary": "Waterfront RV resort situated along the banks of the Great Egg Harbor River near Atlantic City and Ocean City, featuring private sandy beach access, 80-slip marina, boat ramp, kayak launches, and full hookups.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (spacious front office entrance apron off Somers Point Road)",
+      "treeClearance": "Good; wide, flat coastal arterial access with well-maintained driveway canopy",
+      "bestBigRigLoops": "Central Main Entrance Rows",
+      "bestSmallRigLoops": "Riverfront Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Atlantic City Expressway to NJ Route 50 to CR-559",
+      "text": "Accessed via Atlantic City Expressway Exit 12 taking NJ Route 50 South through Mays Landing, turning onto Somers Point Road (CR-559). Smooth, flat Atlantic County highways provide wide turning clearance for towables and motorhomes.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures accurate arterial routing across South Jersey bay connector routes."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office entrance staging loop off Somers Point Road to unhook your towed vehicle before maneuvering into the riverfront loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "River Beach RV Resort combines a waterfront boating and fishing lifestyle with close proximity to Jersey Shore beaches, offering a private marina, wave runner ports, swimming pool, and direct river access.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for securing solid pad balance on sandy riverbank soil."
+      },
+      "loopC": "Central rows feature 30/50 amp full hookups with open sky access and easy pull-through capability for mid-size motorhomes.",
+      "loopsAB": "Riverfront back-in sites sit directly along the Great Egg Harbor River, offering dock access and scenic water views."
+    }
+  },
+  {
+    "id": "ocean-city-campground",
+    "name": "Ocean City Campground & Beach Cabins",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Ocean View",
+    "featured": true,
+    "lat": 39.2281,
+    "lng": -74.6934,
+    "image": "/images/ocean_city_campground.jpg",
+    "mapImage": "/images/ocean_city_campground_map.jpg",
+    "address": "245 NJ-50, Ocean View, NJ 08230",
+    "gps": "39.2281° N, 74.6934° W",
+    "phone": "(609) 390-3649",
+    "website": "https://www.oceancitycampground.com",
+    "summary": "Premier family-owned coastal resort in Cape May County located just minutes from Ocean City beaches and boardwalk, featuring full hookups, heated pool, splash pad, free mini-golf, and dog park.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (wide check-in driveway loop off NJ-50)",
+      "treeClearance": "Moderate; mature coastal canopy, watch inner loop turnarounds",
+      "bestBigRigLoops": "Front Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway to NJ Route 50",
+      "text": "Accessed via Garden State Parkway Exit 20 or Exit 25 onto NJ Route 50. NJ-50 is a wide, flat state corridor providing seamless clearance for motorhomes and travel trailers heading into Upper Township.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures accurate Parkway exit routing and avoids tight local beach-town causeways."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main registration driveway loop directly off NJ Route 50 to unhook your towed vehicle before pulling into the interior site rows.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Ocean City Campground offers a clean, activity-filled basecamp just 5 miles from Ocean City's 8-mile beach and 2.5-mile boardwalk, combining top family amenities with shore convenience.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Ideal for fine-tuning pad levelness on gravel and sandy soil pads."
+      },
+      "loopC": "Main entrance sites feature 30/50 amp power and full hookups, offering easy pull-through access for mid-to-large motorhomes.",
+      "loopsAB": "Shaded back-in sites offer natural pine shade and quiet family surroundings near the pool and amenities."
+    }
+  },
+  {
+    "id": "triple-brook-camping-resort",
+    "name": "TripleBrook RV & Camping Resort",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Blairstown",
+    "featured": true,
+    "lat": 40.9121,
+    "lng": -75.0191,
+    "image": "/images/triple_brook_camping_resort.jpg",
+    "mapImage": "/images/triple_brook_camping_resort_map.jpg",
+    "address": "58 Honey Run Rd, Blairstown, NJ 07825",
+    "gps": "40.9121° N, 75.0191° W",
+    "phone": "(908) 459-4079",
+    "website": "https://triplebrook.com",
+    "summary": "Premier 80-acre family resort set on rolling hills in Warren County near the Delaware Water Gap, featuring over 200 sites, big-rig 50-amp pull-throughs, two pools, a hot tub, and a working farm.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (broad entrance registration loop off Honey Run Road)",
+      "treeClearance": "Good; wide interior roads with well-trimmed canopy",
+      "bestBigRigLoops": "Central Open Hillside Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Brookside Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Route 80 to Route 46 to Honey Run Road",
+      "text": "Accessed via Route 80 taking Route 46 South, making a left turn onto Knowlton Road, then a right turn onto Nightingale Road (use caution here when maneuvering large rigs), followed by a left turn onto Honey Run Road. Stay alert on Nightingale Road due to narrower lane widths.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental detours onto historic narrow weight-restricted bridges near downtown Hope."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the broad registration staging loop at the main office off Honey Run Road to unhook your towed vehicle before maneuvering into the camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "TripleBrook RV & Camping Resort combines modern resort-style amenities with quiet Skylands mountain countryside, offering swimming pools, adult whirlpool spa, sports courts, and quick access to the Delaware Water Gap.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for securing optimal stability on rolling hillside grass and gravel pads."
+      },
+      "loopC": "Central hillside pull-through sites feature 50-amp power, full hookups, and ample clearance for big-rig motorhomes and large fifth wheels.",
+      "loopsAB": "Shaded perimeter back-in sites along the wooded brook offer natural privacy and relaxing water sounds."
+    }
+  },
+  {
+    "id": "panther-lake-camping-resort",
+    "name": "Panther Lake Camping Resort",
+    "ownertype": "Private Resort",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Andover",
+    "featured": true,
+    "lat": 40.9634,
+    "lng": -74.7387,
+    "image": "/images/panther_lake_camping_resort.jpg",
+    "mapImage": "/images/panther_lake_camping_resort_map.jpg",
+    "address": "6 Panther Lake Rd, Andover, NJ 0821",
+    "gps": "40.9634° N, 74.7387° W",
+    "phone": "(973) 347-4440",
+    "website": "https://pantherlakecampingresort.com",
+    "summary": "Full-service 160-acre RV resort in Sussex County surrounding a private 45-acre lake, offering big-rig pull-through sites with 50-amp full hookups, swimming pool, boat rentals, and family amenities.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Friendly)",
+      "toadFriendliness": "Excellent (wide main office registration lanes off Route 206)",
+      "treeClearance": "Good; wide, paved main loops with clear overhead canopy",
+      "bestBigRigLoops": "Central Lakeview Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Lakefront Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 206 to Panther Lake Road",
+      "text": "Accessed directly off US Route 206 in Andover Township via Panther Lake Road. US Route 206 is a broad commercial corridor providing seamless clearance for motorhomes and large towed rigs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable highway navigation around North Jersey mountain traffic bottlenecks."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the designated check-in staging lanes right off Panther Lake Road to unhook your towed vehicle before pulling into the resort loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Panther Lake Camping Resort is a classic North Jersey lakeside destination offering extensive water recreation, sandy beach areas, fishing, and full-service RV amenities just 50 miles from NYC.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Great for establishing rock-solid pad balance on gravel and paved lakeside sites."
+      },
+      "loopC": "Central pull-through rows accommodate full-sized fifth wheels and Class A rigs with 50-amp power, full hookups, and wide turns.",
+      "loopsAB": "Perimeter back-in sites under mature woodland canopy offer direct access and views of Panther Lake."
+    }
+  },
+  {
+    "id": "paradise-valley-homestead",
+    "name": "Paradise Valley Homestead",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Oak Ridge",
+    "featured": true,
+    "lat": 41.080295,
+    "lng": -74.474657,
+    "image": "/images/paradise_valley_homestead.jpg",
+    "mapImage": null,
+    "address": "Oak Ridge, NJ 07438",
+    "gps": "41.0803° N, 74.4747° W",
+    "phone": "(973) 697-3800",
+    "website": "https://www.hipcamp.com/en-US/land/new-jersey-paradise-valley-homestead-lz9h9kpj",
+    "summary": "Independent 33-acre woodland property surrounded by protected state land in Northwest NJ, offering quiet field sites for camper vans and rigs under 30 ft, hiking trails, and a natural waterfall.",
+    "scorecard": {
+      "maxRigLength": "Strictly 30 ft Max (Sites 1-4 Field Sites)",
+      "toadFriendliness": "Moderate (mowed field entrance area provides pull-in space)",
+      "treeClearance": "Fair; last 2 miles are dirt road, keep speed low and watch overhead branches",
+      "bestBigRigLoops": "Not Big-Rig Capable (Rigs under 30 ft only)",
+      "bestSmallRigLoops": "Sites 1-4 (Mowed Level Fields)"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NJ Route 23 to Dirt Access Road",
+      "text": "Accessed off NJ Route 23 in Oak Ridge. Route 23 is a paved state highway, but the final 2 miles transition onto a dirt forest road. Maintain steady 10-15 mph speeds and watch for minor gravel rutting.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps you on major state highways until the exact dirt turn-off point in Passaic/Sussex County."
+      }
+    },
+    "toadStrategy": {
+      "text": "Small camper vans and trailers under 30 ft can pull straight into Sites 1-4 in the lower mowed field; unhook towed vehicles at the field entrance if maneuvering into shaded tree spots.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides extra visibility when maneuvering camper vans or small rigs down narrow gravel access stretches."
+      }
+    },
+    "content": {
+      "overview": "Paradise Valley Homestead offers a rustic, off-grid woodland camping experience set on 33 acres surrounded by watershed land, featuring walking trails, a waterfall ravine, and complete solitude.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for establishing level stability on mowed grass and natural earth field pads."
+      },
+      "loopC": "Sites 1 through 4 are located in the mowed, fairly level front fields, designed specifically for small travel trailers, camper vans, and small Class C motorhomes under 30 ft.",
+      "loopsAB": "Sites 5 through 10 are situated deeper into the woods and mountain slope, reserved exclusively for tent camping and 4WD high-clearance vehicles."
+    }
+  },
+  {
+    "id": "mountainview-campground",
+    "name": "Mountainview Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Milford",
+    "featured": true,
+    "lat": 40.5735,
+    "lng": -75.1278,
+    "image": "/images/mountainview_campground.jpg",
+    "mapImage": "/images/mountainview_campground_map.jpg",
+    "address": "135 Goritz Rd, Milford, NJ 08848",
+    "gps": "40.5735° N, 75.1278° W",
+    "phone": "(908) 996-2953",
+    "website": "https://mtviewcamp.com",
+    "summary": "Family-owned since 1953 on 150 acres of Hunterdon County farmland along the Musconetcong Mountains, offering spacious 50/30 amp sites, pull-thrus, and tranquil rustic camping 5 miles from the Delaware River.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Pull-Thru Sites)",
+      "toadFriendliness": "Good (paved office driveway off Goritz Road provides unhooking space)",
+      "treeClearance": "Good; open farmland terrain mixed with shaded wooded perimeter sites",
+      "bestBigRigLoops": "Central Farmland Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: I-78 Exit 12 to Route 614 to Sweet Hollow Road",
+      "text": "Accessed via Interstate 78 Exit 12 taking Route 614 (Little York-Pattenburg Road) south, turning onto Sweet Hollow Road, and proceeding directly onto Goritz Road. Flat, open Hunterdon County farmland roads with clear overhead clearance for fifth wheels and motorhomes.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental detours onto narrow Delaware River canal bridges or weight-restricted township roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Stay slightly right on the paved office approach off Goritz Road to unhook your towed vehicle before following the farm lanes to your site.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Mountainview Campground offers a peaceful, rustic getaway set on 150 acres of rolling Hunterdon County hills, featuring open skies, a swimming pond, and quick access to Delaware River kayaking.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Ideal for stabilizing rigs on natural grass and gravel farmland terrain."
+      },
+      "loopC": "Central farmland pull-through sites accommodate fifth wheels and motorhomes with 30/50 amp electric and pump-out availability.",
+      "loopsAB": "Shaded woodland back-in sites offer natural seclusion and scenic views of the Musconetcong Mountain ridge."
+    }
+  },
+  {
+    "id": "harmony-ridge-campground",
+    "name": "Harmony Ridge Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-22",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Branchville",
+    "featured": true,
+    "lat": 41.1925,
+    "lng": -74.7479,
+    "image": "/images/harmony_ridge_campground.jpg",
+    "mapImage": "/images/harmony_ridge_campground_map.jpg",
+    "address": "23 Risdon Drive, Branchville, NJ 07826",
+    "gps": "41.1925° N, 74.7479° W",
+    "phone": "(973) 948-4941",
+    "website": "http://www.harmonyridgecampground.com",
+    "summary": "Family-owned and operated for decades, nestled in the peaceful mountains of Sussex County near Culvers Lake, offering 30/50 amp sites, wooded back-ins, and classic outdoor family recreation.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (office check-in area on Risdon Drive offers unhooking space)",
+      "treeClearance": "Moderate; mature mountain canopy, watch overhead branches along interior valley turns",
+      "bestBigRigLoops": "Main Level Entrance Rows",
+      "bestSmallRigLoops": "Upper Wooded Ridge Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 206 North to Mattison Reservoir Avenue",
+      "text": "Accessed via US Route 206 North to mile marker 118 in Frankford/Branchville. Turn right onto Ridge Road, turn left onto Mattison Road, right onto Mattison Reservoir Avenue for 1 mile, then left onto Risdon Drive. Roads are paved, but require steady speeds and cautious turns in big rigs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental routing down narrow or unpaved mountain back roads in Sussex County."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office staging driveway along Risdon Drive to unhook your towed vehicle before maneuvering into the upper or lower camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Harmony Ridge Campground is a traditional family campground set in the Kittatinny Mountain region of Northern New Jersey, offering deep forest privacy, a swimming pool, and easy access to Appalachian Trail hiking.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Crucial for compensating for subtle mountain grade elevation changes across gravel and dirt pads."
+      },
+      "loopC": "Lower entrance sites provide full hookups with 30/50 amp power and wider turning radiuses for mid-to-large travel trailers.",
+      "loopsAB": "Upper ridge back-in sites are nestled under dense hardwood tree cover, offering scenic wilderness views."
+    }
+  },
+  {
+    "id": "old-cedar-campground",
+    "name": "Old Cedar Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Monroeville",
+    "featured": true,
+    "lat": 39.6413,
+    "lng": -75.1647,
+    "image": "/images/old_cedar_campground.jpg",
+    "mapImage": "/images/old_cedar_campground_map.jpg",
+    "address": "274 Richwood Rd, Monroeville, NJ 08343",
+    "gps": "39.6413° N, 75.1647° W",
+    "phone": "(856) 358-4881",
+    "website": "https://oldcedarcampground.com",
+    "summary": "Unique family-owned working farm and campground in rural South Jersey, featuring 168 spacious sites, 30/50 amp pull-throughs, fishing lakes, swimming pool, and farm animals.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Friendly)",
+      "toadFriendliness": "Good (broad entrance apron and farm lane check-in staging)",
+      "treeClearance": "Good overall; open country roads and well-maintained farm canopy",
+      "bestBigRigLoops": "Central Pull-Through Rows",
+      "bestSmallRigLoops": "Lakeside Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Route 55 / Route 40 to Richwood Road",
+      "text": "Accessed via Route 55 (Exit 48) taking Ellis Mill Rd to Richwood Rd, or from US Route 40 via Woodstown. Rural Salem County arteries are broad, flat, and offer excellent overhead clearance for all RV classes.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures accurate regional routing along wide county highways without accidental detours onto narrow rural farm lanes."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office staging driveway near the entrance farm store to unhook your towed vehicle before maneuvering into your assigned site.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Old Cedar Campground combines a peaceful country atmosphere with a working farm experience, offering catch-and-release fishing lakes, hayrides, and convenient proximity to Cowtown Rodeo and regional wineries.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for establishing level stability across grass and gravel farm pads."
+      },
+      "loopC": "Central pull-through sites feature 30/50 amp full hookups with generous spacing and easy access for long motorhomes.",
+      "loopsAB": "Scenic back-in sites along the lakes feature natural shade and quiet countryside views."
+    }
+  },
+  {
+    "id": "pomona-rv-park",
+    "name": "Pomona RV Park & Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Pomona",
+    "featured": true,
+    "lat": 39.4678,
+    "lng": -74.5684,
+    "image": "/images/pomona_rv_park.jpg",
+    "mapImage": "/images/pomona_rv_park_map.jpg",
+    "address": "536 S Pomona Rd, Pomona, NJ 08240",
+    "gps": "39.4678° N, 74.5684° W",
+    "phone": "(609) 965-2123",
+    "website": "https://pomonarvpark.com",
+    "summary": "Independent family campground located at 536 S Pomona Rd in Pomona, NJ, featuring 5-way hookups (water, electric, sewer, cable, and Wi-Fi), cement pads, and a heated pool just minutes from Atlantic City.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable with pull-thru sites)",
+      "toadFriendliness": "Good (spacious entrance apron and check-in office staging)",
+      "treeClearance": "Good; well-maintained canopy along South Pomona Road and interior lanes",
+      "bestBigRigLoops": "Central Pull-Through Rows with Cement Pads",
+      "bestSmallRigLoops": "Shaded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: US Route 30 to South Pomona Road",
+      "text": "Accessed directly via US Route 30 (White Horse Pike) turning onto South Pomona Road, or from the Garden State Parkway / Atlantic City Expressway corridor via local arterial connectors. South Pomona Road provides a wide, smooth approach with clear overhead clearance for large motorhomes and fifth wheels.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures precise routing to the correct South Pomona Road entrance and avoids tight local residential shortcuts."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office check-in area right off South Pomona Road to unhook your towed vehicle before maneuvering into your assigned site.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Pomona RV Park & Campground is a clean, well-maintained independent park situated in the heart of Atlantic County, offering full hookups, cement pads, and a heated swimming pool.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Great for fine-tuning pad stability across natural and cement pad site configurations."
+      },
+      "loopC": "Central pull-through rows feature 50-amp service, full hookups, and wide turn radiuses designed specifically for big rigs.",
+      "loopsAB": "Shaded back-in sites offer a peaceful camping atmosphere with picnic tables and fire rings."
+    }
+  },
+  {
+    "id": "bakers-acres-campground",
+    "name": "Baker's Acres Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Barnegat",
+    "featured": true,
+    "lat": 39.7523,
+    "lng": -74.2612,
+    "image": "/images/bakers_acres_campground.jpg",
+    "mapImage": "/images/bakers_acres_campground_map.jpg",
+    "address": "230 Willets Ave, Barnegat, NJ 08005",
+    "gps": "39.7523° N, 74.2612° W",
+    "phone": "(609) 698-8511",
+    "website": "https://www.bakersacres.com",
+    "summary": "Classic family-owned Pinelands campground in Ocean County featuring over 300 shaded RV sites, full hookups, swimming pools, and convenient proximity to Long Beach Island.",
+    "scorecard": {
+      "maxRigLength": "Up to 40 ft (Select Big-Rig Sites)",
+      "toadFriendliness": "Good (broad check-in driveway and office registration area)",
+      "treeClearance": "Moderate; mature Pinelands canopy, take wide turns through interior wooded loops",
+      "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Perimeter Pine-Shaded Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway Exit 67 to Willets Ave",
+      "text": "Accessed via Garden State Parkway Exit 67 (Barnegat), taking West Bay Ave (County Route 554) west to Willets Ave. Paved regional roads with clear overhead clearance, suitable for class A, C, and towable rigs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Ensures accurate parkway exit navigation and avoids weight-restricted municipal back roads."
+      }
+    },
+    "toadStrategy": {
+      "text": "Park in the broad check-in area near the main store and office upon arrival to unhook your towed vehicle before proceeding into the interior camping loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Baker's Acres Campground offers a relaxing Pinelands escape nestled in Ocean County, providing a quiet woodland atmosphere within a short drive of Barnegat Bay and LBI beaches.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Essential for securing pad stability on natural gravel and dirt Pinelands sites."
+      },
+      "loopC": "Main pull-through sites feature 30/50 amp electric and full hookups, offering straightforward access for mid-to-large rigs.",
+      "loopsAB": "Deeply shaded back-in sites under tall pitch pines provide natural privacy for smaller travel trailers and camper vans."
+    }
+  },
+  {
+    "id": "pleasant-valley-family-campground",
+    "name": "Pleasant Valley Family Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Estell Manor",
+    "featured": true,
+    "lat": 39.3879,
+    "lng": -74.7471,
+    "image": "/images/pleasant_valley_family_campground.jpg",
+    "mapImage": "/images/pleasant_valley_family_campground_map.jpg",
+    "address": "60 S River Rd, Estell Manor, NJ 08319",
+    "gps": "39.3879° N, 74.7471° W",
+    "phone": "(609) 625-1238",
+    "website": "https://pleasantvalleycamping.com",
+    "summary": "Family-owned and operated for over 50 years in Atlantic County, offering 250 spacious, shaded Pinelands RV sites with full hookups, cable TV, Wi-Fi, and convenient access to Jersey Shore beaches.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Good (spacious entry office loop and registration driveway)",
+      "treeClearance": "Moderate; mature pine canopy, maintain visual checks along upper woodland branch clearance",
+      "bestBigRigLoops": "Main Entrance Pull-Through Rows",
+      "bestSmallRigLoops": "Inner Shaded Woodland Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: NJ Route 50 to South River Road",
+      "text": "Accessed directly via NJ Route 50 onto South River Road (County Route 637). Flat Pinelands two-lane highways offer gentle turns and clear overhead clearance suitable for motorhomes and towed rigs.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Prevents accidental detours onto narrow Pinelands dirt roads and back routes."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the main office registration driveway upon arrival to unhook your towed vehicle before proceeding into the wooded interior loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Pleasant Valley Family Campground is an established, independent family resort set in the South Jersey Pinelands, located just 20 minutes from Ocean City and Atlantic City beaches.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for establishing level stability on natural gravel and sand Pinelands pads."
+      },
+      "loopC": "Main pull-through sites feature 30/50 amp full hookups with easy entry/exit turning radiuses for big rigs.",
+      "loopsAB": "Quiet back-in sites under the pine canopy offer natural shade and peaceful surroundings."
+    }
+  },
+  {
+    "id": "ocean-view-resort-campground",
+    "name": "Ocean View Resort Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-21",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Ocean View",
+    "featured": true,
+    "lat": 39.1787,
+    "lng": -74.7305,
+    "image": "/images/ocean_view_resort_campground.jpg",
+    "mapImage": "/images/ocean_view_resort_campground_map.jpg",
+    "address": "2555 Route 9, Ocean View, NJ 08230",
+    "gps": "39.1787° N, 74.7305° W",
+    "phone": "(609) 624-1675",
+    "website": "https://www.ovresort.com",
+    "summary": "New Jersey's largest privately-owned campground, spanning 180 wooded acres near the Jersey Shore with big-rig pull-through sites, paved internal roads, and full hookups.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft+ (Big-Rig Capable)",
+      "toadFriendliness": "Excellent (wide registration apron and check-in staging lanes off Route 9)",
+      "treeClearance": "Good; fully paved roads and well-maintained canopy clearance",
+      "bestBigRigLoops": "Central Pull-Through Rows",
+      "bestSmallRigLoops": "Wooded Perimeter Back-In Sites"
+    },
+    "approach": {
+      "title": "Approach & Routing Guidance: Garden State Parkway Exit 17 to Route 9",
+      "text": "Easily accessed from Garden State Parkway Exit 17 via Sea Isle Blvd (County Rd 625) West to US Route 9 North, or directly off Route 9. Wide, major regional arteries designed for heavy summer shore traffic and large motorhomes.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides reliable routing around coastal bridge clearances and summer shore traffic bottlenecks."
+      }
+    },
+    "toadStrategy": {
+      "text": "Use the wide registration apron and check-in staging lanes right off Route 9 to unhook your towed vehicle before proceeding into the resort loops.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Ocean View Resort Campground is a premier independent, family-operated park set on 180 shaded acres in Cape May County, offering top-tier amenities and smooth, paved internal roads.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Useful for fine-tuning pad stability on natural and paved site variations."
+      },
+      "loopC": "Central pull-through rows accommodate multi-axle trailers and large motorhomes with 50-amp full hookups and easy turn radiuses.",
+      "loopsAB": "Shaded perimeter woodland back-in sites offer a more secluded camping experience while remaining close to resort facilities."
+    }
+  },
+  {
+    "id": "liberty-harbor-rv-park",
+    "name": "Liberty Harbor RV Park",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Jersey City",
+    "featured": true,
+    "lat": 40.7126,
+    "lng": -74.0401,
+    "image": "/images/liberty-harbor_photo.jpg",
+    "mapImage": "/images/liberty_harbor_rv_park_map.jpg",
+    "address": "11 Marin Blvd, Jersey City, NJ 07302",
+    "gps": "40.7126° N, 74.0401° W",
+    "phone": "(201) 516-7700",
+    "website": "https://www.libertyharborrv.com",
+    "summary": "Urban RV gateway to NYC featuring paved pads, water/electric hookups, and direct access to Manhattan ferries.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (Big-Rig Capable)",
+      "toadFriendliness": "Moderate (unhooking required at security gate prior to row entry)",
+      "treeClearance": "Excellent (open asphalt lot format with zero tree canopy)",
+      "bestBigRigLoops": "Outer Perimeter Paved Sites",
+      "bestSmallRigLoops": "Inner Row Compact Sites"
+    },
+    "approach": {
+      "title": "NYC Metro Tunnel & Overpass Hazard Warning",
+      "text": "CRITICAL: Do NOT use the Holland Tunnel, Lincoln Tunnel, or lower Manhattan bridges due to strict propane prohibitions and low clearances. Approach via NJ Turnpike (I-78 East) to Exit 14C. Follow Grand St to Marin Blvd.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Essential for routing around low urban overpasses and propane-restricted tunnels in the NYC metropolitan area."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhook immediately upon passing through the security entrance gate. Compact urban parking layout makes turning with a towed vehicle inside rows difficult.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Liberty Harbor is a secure, paved urban RV park located across the Hudson River from NYC, offering 30/50 amp electric and water hookups.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Reliable quick-disconnect tow bar system for rapid unhooking in high-traffic urban staging lanes."
+      },
+      "loopC": "Perimeter sites offer the most straightforward backing angles and easiest swing-out clearance for long Class A rigs.",
+      "loopsAB": "Interior rows are tightly spaced; drivers with long rigs should exercise caution when extending full-depth slide-outs."
+    }
+  },
+  {
+    "id": "indian-rock-rv-resort",
+    "name": "Indian Rock RV Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Cream Ridge",
+    "featured": true,
+    "lat": 40.1082,
+    "lng": -74.5021,
+    "image": "/images/indian_rock_photo.jpg",
+    "mapImage": "/images/indian_rock_map.jpg",
+    "address": "920 Province Line Rd, Cream Ridge, NJ 08514",
+    "gps": "40.1082° N, 74.5021° W",
+    "phone": "(609) 259-2900",
+    "website": "https://indianrockrvresort.com",
+    "summary": "Pine Barrens border camping in Cream Ridge, NJ. Guidance on Province Line Road approach, soft sand interior shoulders, low pine branch clearance, and toad staging.",
+    "scorecard": {
+      "maxRigLength": "Up to 42 ft",
+      "toadFriendliness": "High (spacious main office unhooking lot)",
+      "treeClearance": "Pine and oak canopy over interior sandy lanes; watch roof AC clearance",
+      "bestBigRigLoops": "Pine Grove Pull-Through Section",
+      "bestSmallRigLoops": "Shaded Back-In Perimeter Sites"
+    },
+    "approach": {
+      "title": "Rural Highway & Entrance Clearance",
+      "text": "Province Line Road off Route 539 provides flat, clear access. The main gate entrance is wide, but watch for low pine branches hanging over the registration lane during summer growth.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps big rigs on wide state and county connectors while avoiding narrow Pinelands backroads and low canopy shortcuts."
+      }
+    },
+    "toadStrategy": {
+      "text": "Spacious unhooking area directly adjacent to the main office. Drop your toad here before proceeding down interior sandy lanes to avoid binding on sharp loop turns.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Includes quick-release levers that make unhooking effortless even on uneven sandy staging surfaces."
+      }
+    },
+    "content": {
+      "overview": "Located near Six Flags Great Adventure, Indian Rock features heavily shaded pine forest sites. Soil is sandy with gravel overlay, requiring stable footing for jacks and levelers.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Sandy soil can shift under heavy rig jack pressure. Interlocking block stacks distribute weight evenly to prevent sinkage."
+      },
+      "loopC": "Pine Grove pull-through sites provide 50-amp full hookups with wide clearances suitable for large motorhomes and fifth wheels.",
+      "loopsAB": "Back wooded loops feature soft sand shoulders along inner turning radiuses; keep trailer wheels on the firm gravel path."
+    }
+  },
+  {
+    "id": "worthington-state-forest",
+    "name": "Worthington State Forest",
+    "ownertype": "State Park",
+    "addedDate": "2026-10-15",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Columbia",
+    "featured": true,
+    "lat": 40.9712,
+    "lng": -75.1218,
+    "image": "/images/worthington_photo.jpg",
+    "mapImage": "/images/worthington_map.jpg",
+    "address": "Old Mine Rd, Columbia, NJ 07832",
+    "gps": "40.9712° N, 75.1218° W",
+    "phone": "(908) 841-9575",
+    "website": "https://dep.nj.gov/njksnk/worthington-state-forest",
+    "summary": "Delaware Water Gap riverfront camping in Columbia, NJ. Ground-truth guidance on navigating narrow Old Mine Road, low-hanging overhead limbs, riverbank sloped gravel pads, and toad staging areas.",
+    "scorecard": {
+      "maxRigLength": "Up to 30 ft (strict physical length limits due to tight approach lanes)",
+      "toadFriendliness": "Low to Moderate (unhook at main office lot before entering Old Mine Rd loops)",
+      "treeClearance": "Low overhead canopy; frequent low-hanging riverbank branches along loop lanes",
+      "bestBigRigLoops": "Main Riverfront Loop (select back-in sites near entrance)",
+      "bestSmallRigLoops": "Upper Wooded Loops (best suited for camper vans, pop-ups, and small Class Cs)"
+    },
+    "approach": {
+      "title": "Old Mine Road & River Clearance Warning",
+      "text": "Access via Old Mine Road off I-80 is narrow, winding, and features rough pavement patches with soft shoulders. Overhead tree limbs hang low over the road in multiple sections, and single-lane pass points require extra vigilance for oncoming traffic when towing.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Provides custom routing and terrain awareness for narrow, unpaved, or low-canopy secondary state routes like Old Mine Road."
+      }
+    },
+    "toadStrategy": {
+      "text": "Old Mine Road has minimal shoulder width to pull off if you encounter a tight pinch point. Disconnect your towed vehicle at the main park office lot near the entrance gate before driving into assigned loop lanes.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Tucked along the Delaware River in the shadow of Mount Tammany, Worthington State Forest offers a rustic water-gap setting. Sites are primitive (no electric hookups) with sloped gravel and dirt pads right along the riverbank.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Riverfront gravel pads slope downward toward the water. Solid rubber chocks combined with heavy-duty stackers prevent wheel creep on loose river gravel."
+      },
+      "loopC": "Riverfront back-in sites offer the easiest straight-line backing, but watch rear overhangs when positioning tires near the grassy bank edge.",
+      "loopsAB": "Upper wooded loops are narrow with tight turning radiuses framed by mature trees, making them strictly suited for smaller travel trailers, camper vans, and truck campers."
+    }
+  },
+  {
+    "id": "the-great-divide-campground",
+    "name": "The Great Divide Campground",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-13",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Newton",
+    "featured": true,
+    "lat": 41.0825,
+    "lng": -74.7708,
+    "image": "/images/great_divide.jpg",
+    "mapImage": "/images/gdmap.png",
+    "address": "68 Route 519, Newton, NJ 07860",
+    "gps": "41.0825° N, 74.7708° W",
+    "phone": "+19733837462",
+    "website": "https://campthegreatdivide.com",
+    "summary": "Sussex County family campground in Newton, NJ featuring open 50-amp G-Section pull-throughs (G20–G25) for 45-foot rigs, shaded woodland loops, a dedicated front-office toad staging lot, and direct County Route 519 access.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (G20–G25 open full-hookup pull-throughs)",
+      "toadFriendliness": "High — dedicated staging lot near front office before climbing interior hill grade",
+      "treeClearance": "Clear on County Route 519 & G-Section; moderate canopy on upper wooded back loops",
+      "bestBigRigLoops": "G-Section Pull-Throughs (Sites G20–G25, 50-Amp Full Hookup)",
+      "bestSmallRigLoops": "Upper Wooded Back-In Loops (ideal for Class B/C motorhomes & sub-32 ft trailers)"
+    },
+    "approach": {
+      "title": "Highway & Interior Access Grade",
+      "text": "Direct approach off County Route 519 (from I-80 Exit 25 via US-206 North and CR-519, or from Newton via NJ-94/CR-519) is wide and smooth for all rig classes. Once inside the gate, climbing the main interior hill grade toward assigned upper loops requires steady momentum and prior toad staging.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps big rigs routed cleanly onto US-206 and County Route 519 while avoiding narrow Sussex County backroads and low rural clearances."
+      }
+    },
+    "toadStrategy": {
+      "text": "Pull into the dedicated staging lot near the main office immediately upon arrival and disconnect your towed vehicle on level ground before climbing the interior hill grade into assigned loops. Unhooking on an incline under tension risks binding your tow bar.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear visibility when staging near the office lot or backing into shaded upper woodland sites."
+      }
+    },
+    "content": {
+      "overview": "Set across rolling Sussex County woodlands in Newton, NJ, The Great Divide Campground pairs wide, open big-rig pull-through sections with shaded forest perimeter sites, fishing lakes, pool, camp store, and family recreation minutes from Stokes State Forest and High Point.",
+      "recommendedGear": {
+        "gearKey": "heavy-duty-surge-protector",
+        "reason": "Protects onboard air conditioners and sensitive electronics against peak summer voltage sags on 30/50-amp pedestals."
+      },
+      "loopC": "G-Section (specifically pull-through sites G20–G25) features full hookups, 50-amp service, wide turning geometry, and long level pads suited for Class A motorhomes and fifth wheels up to 45 feet.",
+      "loopsAB": "Back wooded loops wind beneath mature hardwood canopy and require navigating a brief steep interior grade; best suited for travel trailers under 32 feet and Class B/C motorhomes."
+    }
+  },
+  {
+    "id": "wading-pines-campground",
+    "name": "Wading Pines Camping Resort",
+    "ownertype": "Private Campground",
+    "addedDate": "2026-10-11",
+    "updatedDate": null,
+    "ownerVerified": false,
+    "ownerTip": null,
+    "state": "NJ",
+    "city": "Chatsworth",
+    "featured": true,
+    "lat": 39.7118,
+    "lng": -74.5292,
+    "image": "/images/wading_pines.jpg",
+    "mapImage": "/images/2023wp-map.jpg",
+    "address": "85 Godfrey Bridge Rd, Chatsworth, NJ 08019",
+    "gps": "39.7118° N, 74.5292° W",
+    "phone": "(609) 726-9001",
+    "website": "https://wadingpines.com",
+    "summary": "Pine Barrens camping along the Wading River in Chatsworth, NJ. Ground-truth guidance on approach routes, overhead pitch pine clearance, 50-amp pull-through pads, and toad staging options.",
+    "scorecard": {
+      "maxRigLength": "Up to 45 ft (select oversized pull-throughs up to 60 ft)",
+      "toadFriendliness": "High (multiple unhooking options)",
+      "treeClearance": "Moderate overhead pine branches along interior sandy lanes",
+      "bestBigRigLoops": "50-amp Pull-Throughs near entrance",
+      "bestSmallRigLoops": "Riverfront Back-Ins"
+    },
+    "approach": {
+      "title": "Pine Barrens Route & Entrance Clearance",
+      "text": "Approaching via Route 563 to Godfrey Bridge Road is clear and flat. Watch for low-hanging pitch pine branches along the sandy entrance lane as you pull up to the gatehouse.",
+      "recommendedGear": {
+        "gearKey": "garmin-rv-890",
+        "reason": "Keeps big rigs on wide state and county connectors while avoiding narrow Pinelands backroads and low canopy shortcuts."
+      }
+    },
+    "toadStrategy": {
+      "text": "Unhooking up front can be tight during peak weekend check-ins. Either unhook directly on your pull-through pad or bypass the gate to the rear corner overflow lot.",
+      "recommendedGear": {
+        "gearKey": "rv-dash-cam-backup-camera",
+        "reason": "Provides clear rear coverage when staging, unhooking, and backing into shaded campsite loops."
+      }
+    },
+    "content": {
+      "overview": "Located deep in the New Jersey Pine Barrens along the Wading River.",
+      "recommendedGear": {
+        "gearKey": "tri-lynx-blocks",
+        "reason": "Pine Barrens back-in sites feature soft sandy shoulders and subtle slopes. Having reliable chocks and interlocking blocks prevents shifting when parked on loose ground."
+      },
+      "loopC": "50-amp pull-through sites offer straight pull-in convenience.",
+      "loopsAB": "Inner wooded back-in loops feature soft sandy shoulders requiring leveling blocks."
+    }
+  }
+]
