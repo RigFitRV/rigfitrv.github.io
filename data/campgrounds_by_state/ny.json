@@ -1,5 +1,57 @@
 [
   {
+  "id": "lake-george-riverview-campground",
+  "name": "Lake George Riverview Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-24",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "NY",
+  "city": "Lake George",
+  "featured": true,
+  "lat": 43.4883,
+  "lng": -73.7601,
+  "image": "/images/lake-george-riverview-campground.jpg",
+  "mapImage": "/images/lake-george-riverview-campground-map.jpg",
+  "address": "3652 State Route 9, Lake George, NY 12845",
+  "gps": "43.4883° N, 73.7601° W",
+  "phone": "+1 (518) 623-9444",
+  "website": "https://modernamericacampgrounds.com/new-york/lake-george-riverview-campground",
+  "summary": "Situated on a peninsula along the Schroon River 4.5 miles north of Lake George Village, Lake George Riverview Campground offers 170 campsites with straightforward I-87 Exit 23 access via US-9 and dedicated 50-amp big-rig pull-through sites alongside shaded riverside loops.",
+  "scorecard": {
+    "maxRigLength": "Up to 45+ ft (Big Rig Deluxe Pull-Through Sites; riverside back-ins vary by loop)",
+    "toadFriendliness": "High — wide entry off US-9 and no-hitch deluxe pull-throughs eliminate unhooking on arrival",
+    "treeClearance": "Open overhead clearance in Big Rig Pull-Through & Beachfront rows; mature Adirondack pines along riverside back-in loops require roof/slide checks",
+    "bestBigRigLoops": "FHU 50-Amp Deluxe Pull-Through & Tiered Beach View Sites",
+    "bestSmallRigLoops": "Schroon River Bank Travel Trailer / Pop-Up & Riverside Sites (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Take I-87 (Adirondack Northway) Exit 23 onto Diamond Point Road toward US-9. Turn right (north) onto US-9 (State Route 9) at the traffic light, pass through the next traffic light, and turn right into the campground entrance approximately 1/4 mile past the McDonald's. Direct commercial highway access off I-87 and US-9 avoids low bridges, tight village streets, and steep mountain grades—avoid cutting through local backroads from Lake George Village (Exit 21/22) when towing large rigs.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Routes big rigs cleanly via I-87 Exit 23 and US-9 while avoiding narrow Adirondack parkways."
+    }
+  },
+  "toadStrategy": {
+    "text": "Guests booking the FHU Deluxe Pull-Through sites can pull straight in without unhooking. For riverside back-in sites, unhook in the wide front check-in and staging lane just off the US-9 entrance before backing into the wooded river loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps watch tree trunks and riverbank drop-offs when backing into shaded Schroon River sites."
+    }
+  },
+  "content": {
+    "overview": "Family-oriented Modern America Campgrounds resort on a scenic Schroon River peninsula featuring a natural sand beach, outdoor pool, canoe/kayak/tube rentals, camp store, laundry, and full hookup options (20/30/50-amp water, electric, and sewer).",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects sensitive RV electronics against summer peak voltage fluctuations on 30A/50A shore power pedestals."
+    },
+    "loopC": "Extra-large, level 50-amp full-hookup pull-through sites and sunny beachfront or tiered beach-view pads designed for Class A motorhomes, Super Cs, and fifth-wheels with wide turn radii and open sky for satellite and solar.",
+    "loopsAB": "Wooded riverbank back-in sites under tall pines with direct Schroon River views and water access; best suited for travel trailers, Class Cs under 30 ft, and pop-ups due to tighter tree spacing."
+  }
+},
+  {
     "id": "lake-george-escape-campground",
     "name": "Lake George Escape Campground",
     "ownertype": "Private Campground",
