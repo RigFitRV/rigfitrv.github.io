@@ -1,5 +1,57 @@
 [
   {
+  "id": "lone-oak-campsites",
+  "name": "Lone Oak Campsites",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-24",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "CT",
+  "city": "East Canaan",
+  "featured": true,
+  "lat": 42.009809,
+  "lng": -73.262135,
+  "image": "/images/lone-oak-campsites.jpg",
+  "mapImage": "/images/lone-oak-campsites-map.jpg",
+  "address": "360 Norfolk Rd, East Canaan, CT 06024",
+  "gps": "42.009809° N, 73.262135° W",
+  "phone": "+1 (860) 824-7051",
+  "website": "https://modernamericacampgrounds.com/connecticut/lone-oak-campsites",
+  "summary": "Set on 250 acres in the Berkshire foothills at the base of Canaan Mountain, Lone Oak Campsites features over 400 campsites with direct US-44 (Norfolk Road) access 3.5 miles east of Route 7 and full-hookup 30/50-amp pull-throughs alongside wooded mountain loops.",
+  "scorecard": {
+    "maxRigLength": "Up to 45+ ft (50-Amp Full-Hookup Pull-Throughs; wooded back-in loops vary by terrain)",
+    "toadFriendliness": "High — wide highway frontage directly on US-44 (Norfolk Rd) with spacious registration pull-off lanes",
+    "treeClearance": "Open sky in lower meadow/pull-through sections; mature deciduous and pine canopy in upper Canaan Mountain loops requires roof/slide checks",
+    "bestBigRigLoops": "Lower Meadow & 50-Amp Full-Hookup Pull-Through Loops",
+    "bestSmallRigLoops": "Wooded Hillside & Rustic Back-In Loops (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Approach directly via US-44 (Norfolk Road). If traveling east from the US-44 / Route 7 intersection in Canaan, the campground entrance is 3.5 miles ahead on your right. From the south or east (Hartford/I-84/CT-8), take CT-8 North to Winsted and head west on US-44 through Norfolk into East Canaan, where the entrance will be on your left. US-44 is a primary highway with standard commercial clearances, though the stretch west of Norfolk features rolling Berkshire grades—avoid narrow local backroads when towing large fifth-wheels or Class A motorhomes.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps big rigs routed strictly on US-44 and Route 7 rather than steep Berkshire hill cut-throughs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Guests on 50-amp pull-through sites can pull straight in without unhooking. For hillside back-in sites, unhook in the wide paved and gravel registration staging area immediately inside the US-44 entrance before navigating the wooded interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps watch tree trunks and terraced hillside rock walls when backing into wooded sites."
+    }
+  },
+  "content": {
+    "overview": "Sprawling 250-acre Modern America Campgrounds resort at the base of Canaan Mountain offering 400+ sites (30/50-amp full hookups, water/electric, and rustic sites), two swimming pools, a hot tub, sports courts, Hayloft Lounge live entertainment, and weekend car shows and events.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Helpful for fine-tuning side-to-side leveling on terraced Berkshire foothill pads."
+    },
+    "loopC": "Level 50-amp full-hookup pull-through and open-field sites near the main recreation hub, built for Class A motorhomes, Super Cs, and large fifth-wheels with wide turn radii and clear sky exposure.",
+    "loopsAB": "Shaded, terraced forest sites tucked against the foothills of Canaan Mountain; ideal for travel trailers, Class Cs under 30 ft, and pop-ups seeking privacy and tree cover."
+  }
+},
+  {
     "id": "salt-rock-state-campground",
     "name": "Salt Rock State Campground",
     "ownertype": "State Park",
