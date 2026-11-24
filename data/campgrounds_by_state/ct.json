@@ -1,5 +1,57 @@
 [
   {
+  "id": "river-bend-campground",
+  "name": "River Bend Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-24",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "CT",
+  "city": "Oneco",
+  "featured": true,
+  "lat": 41.693086,
+  "lng": -71.810771,
+  "image": "/images/river-bend-campground.jpg",
+  "mapImage": "/images/river-bend-campground-map.jpg",
+  "address": "41 Pond St, Oneco, CT 06373",
+  "gps": "41.693086° N, 71.810771° W",
+  "phone": "+1 (860) 564-3440",
+  "website": "https://modernamericacampgrounds.com/connecticut/river-bend-campground",
+  "summary": "Nestled along the Moosup River in eastern Connecticut just off CT-14A near the Rhode Island border, River Bend Campground offers 30- and 50-amp full-hookup RV sites with straightforward I-395 Exit 32 access and nearby Moosup Valley State Park Trail connectivity.",
+  "scorecard": {
+    "maxRigLength": "Up to 40+ ft (select 50-amp full-hookup sites; wooded/riverside back-ins vary by loop)",
+    "toadFriendliness": "Moderate — paved state highway approach via CT-14A, transitioning onto local Pond Street into the main check-in lane",
+    "treeClearance": "Open clearing around the central recreation/pool field; mature hardwood canopy along Moosup River loops requires roof/slide clearance checks",
+    "bestBigRigLoops": "50-Amp Full-Hookup Open & Field-Edge Sites",
+    "bestSmallRigLoops": "Wooded Moosup River Bank & 30-Amp Back-In Sites (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Take I-395 Exit 32 (Plainfield / Sterling) onto CT-14A East (Plainfield Pike) and travel approximately 5 miles east into Oneco. Turn onto Main Street / Pond Street following campground signage to 41 Pond St. CT-14A is a paved two-lane state route with standard highway clearances—watch the local turn onto Pond Street in Oneco village and avoid consumer GPS shortcuts via narrow rural Sterling or Foster backroads when towing long rigs.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Routes big rigs cleanly via I-395 Exit 32 and CT-14A without sending you down narrow Windham County backroads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the front check-in and staging area off Pond Street before proceeding into the wooded river loops, as internal camp roads narrow near the riverbank.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Helps watch low branches, trees, and river-edge boundaries when backing into wooded sites."
+    }
+  },
+  "content": {
+    "overview": "Family-oriented Modern America Campgrounds park set in a wooded bend along the Moosup River, offering 30- and 50-amp full-hookup RV sites, an outdoor swimming pool, on-site food trailer, basketball and volleyball courts, weekend bingo and family entertainment, and access to the Moosup Valley Rail Trail just one mile away.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics on 30A/50A hookups in wooded New England river valleys."
+    },
+    "loopC": "Level 50-amp full-hookup sites positioned in the wider, sunnier central section near the pool and activity fields, offering easier swing angles and cleaner sky access for larger Class As, Class Cs, and fifth-wheels.",
+    "loopsAB": "Shaded woodland and riverside sites tucked along the Moosup River; best suited for travel trailers, Class Cs under 30 ft, and pop-ups due to mature tree cover and tighter back-in angles."
+  }
+},
+  {
   "id": "lone-oak-campsites",
   "name": "Lone Oak Campsites",
   "ownertype": "Private Campground",
