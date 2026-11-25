@@ -1,5 +1,57 @@
 [
   {
+  "id": "circle-cg-campground",
+  "name": "Circle CG Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Bellingham",
+  "featured": true,
+  "lat": 42.101102,
+  "lng": -71.472970,
+  "image": "/images/circle-cg-campground.jpg",
+  "mapImage": "/images/circle-cg-campground-map.jpg",
+  "address": "131 N Main St (Rt 126), Bellingham, MA 02019",
+  "gps": "42.1011° N, 71.4730° W",
+  "phone": "+1 (508) 966-1136",
+  "website": "https://camphappygrounds.com/circle-cg/",
+  "summary": "Positioned right off I-495 on MA-126 in Bellingham, Circle CG Campground is a 30-acre, 150-site year-round RV park offering easy highway access and hookup sites for big rigs up to 45 feet.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (30- and 50-amp RV sites; open year-round)",
+    "toadFriendliness": "High — direct frontage on MA-126 (North Main Street) just south of I-495 with a wide entrance apron",
+    "treeClearance": "Open meadow and mixed pine canopy; generous overhead clearance along main entrance spine and big-rig lanes",
+    "bestBigRigLoops": "Main Meadow & Front 50-Amp Full-Hookup Sites (up to 45 ft)",
+    "bestSmallRigLoops": "Back Wooded & Tent-Adjacent Loops (under 32 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Exit I-495 onto MA-126 South (Hartford Avenue / North Main Street) and watch carefully just off the highway—MA-126 makes a left turn at the traffic light to continue south as North Main Street directly to 131 N Main St on the right. Stay on MA-126 through the signal rather than going straight onto local residential roads.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides clear lane guidance for the immediate MA-126 left turn at the traffic signal just off I-495."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the wide front check-in parking lot directly off MA-126 before proceeding past the office into the interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging in the front check-in lot and backing into interior meadow or wooded sites."
+    }
+  },
+  "content": {
+    "overview": "30-acre, 150-site year-round family RV park in Bellingham (45 minutes southwest of Boston and 45 minutes from Providence and Cape Cod) featuring 30- and 50-amp hookups, Winter 2026–27 extended-stay availability, swimming pool, gem mining, and horseshoes.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electrical systems on 30- and 50-amp pedestals during summer air-conditioning loads and winter extended stays."
+    },
+    "loopC": "Open, wide-radius 50-amp sites near the main meadow and front section accommodating Class As, fifth-wheels, and toy haulers up to 45 ft.",
+    "loopsAB": "Shaded rear wooded sites suited for travel trailers, Class Cs, and pop-ups under 32 ft."
+  }
+},
+  {
   "id": "berrys-grove-campground",
   "name": "Berry's Grove Campground",
   "ownertype": "Private Campground",
