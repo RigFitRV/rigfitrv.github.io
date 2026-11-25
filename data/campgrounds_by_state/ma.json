@@ -1,5 +1,57 @@
 [
   {
+  "id": "peaceful-pines-campground",
+  "name": "Peaceful Pines Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Templeton",
+  "featured": true,
+  "lat": 42.572732,
+  "lng": -72.109003,
+  "image": "/images/peaceful-pines-campground.jpg",
+  "mapImage": "/images/peaceful-pines-campground-map.jpg",
+  "address": "2 Peaceful Pines, Templeton, MA 01468",
+  "gps": "42.5727° N, 72.1090° W",
+  "phone": "+1 (351) 213-7773",
+  "website": "https://camphappygrounds.com/peaceful-pines/",
+  "summary": "Set in North Central Massachusetts off MA-2 in Templeton, Peaceful Pines Campground is a year-round, 120-site RV park offering full-hookup and pump-out sites for seasonal and transient rigs up to 45 feet.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (120 full-hookup and pump-out RV sites; no tents)",
+    "toadFriendliness": "High — straightforward highway access off MA-2 via US-202 / Baldwinville Road with wide interior pine-grove lanes",
+    "treeClearance": "Tall white pine canopy throughout; main avenues are well-trimmed for Class As and fifth-wheels, with tighter overhead limbs on perimeter pads",
+    "bestBigRigLoops": "Main Avenue Full-Hookup 50-Amp Pull-Through & Long Back-In Sites (up to 45 ft)",
+    "bestSmallRigLoops": "Interior Pine Grove & Pond-Adjacent Pads (under 32 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From MA-2 (Route 2) East or West, take Exit 83 (US-202 / Baldwinville Road / Templeton) and follow Baldwinville Road directly to the Peaceful Pines entrance at 2 Peaceful Pines. Avoid unpaved town roads or narrow cut-throughs off Patriots Road.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps large rigs routed cleanly off MA-2 Exit 83 onto Baldwinville Road rather than narrow town cut-throughs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the wide front check-in parking area off Baldwinville Road before entering the pine-lined interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging near the front office and backing into pine-lined RV pads."
+    }
+  },
+  "content": {
+    "overview": "120-site year-round RV community in Templeton (roughly 1 hour west of Boston, open for Winter 2026–27 extended stays) featuring full-hookup and pump-out RV sites, saltwater swimming pool, game room and pool hall, fishing pond, and active weekend events.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electrical systems during peak summer air-conditioning loads and winter extended stays."
+    },
+    "loopC": "Wide full-hookup 50-amp sites along the primary avenues accommodating Class As, fifth-wheels, and toy haulers up to 45 ft.",
+    "loopsAB": "Shaded pine-grove and pond-edge sites suited for travel trailers and Class Cs under 32 ft."
+  }
+},
+  {
   "id": "highview-campground",
   "name": "Highview Campground",
   "ownertype": "Private Campground",
