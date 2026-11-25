@@ -1,5 +1,57 @@
 [
   {
+  "id": "savoy-mountain-state-forest-campground",
+  "name": "Savoy Mountain State Forest Campground",
+  "ownertype": "State Park",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Florida",
+  "featured": true,
+  "lat": 42.648612,
+  "lng": -73.046984,
+  "image": "/images/savoy-mountain-state-forest-campground.jpg",
+  "mapImage": null,
+  "address": "319 Central Shaft Rd, Florida, MA 01247",
+  "gps": "42.6486° N, 73.0470° W",
+  "phone": "+1 (413) 663-8469",
+  "website": "https://www.mass.gov/locations/savoy-mountain-state-forest",
+  "summary": "Tucked into a former apple orchard high on the Hoosac Range off MA-2 (Mohawk Trail) in Florida, MA, Savoy Mountain State Forest Campground offers 45 dry-camping sites and a central dump station via South County Road and Central Shaft Road.",
+  "scorecard": {
+    "maxRigLength": "Up to 30–35 ft (select orchard loop pads; dry camping only, no hookups)",
+    "toadFriendliness": "Challenging — steep 8–10% grades and hairpin turns on MA-2 (Mohawk Trail) require careful gear and brake management plus unhooking at check-in",
+    "treeClearance": "Open orchard canopy in the main camping meadow with dense forest around perimeter pads",
+    "bestBigRigLoops": "Sites 6–31 & 36–45 (wider former apple orchard sites with easier swing clearance)",
+    "bestSmallRigLoops": "Sites 1–5 & 32–35 (shorter wooded perimeter pads best for vans, truck campers, and small trailers under 25 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From MA-2 (Mohawk Trail) in Florida, MA, take Church Road to South County Road, then turn onto Central Shaft Road to the campground entrance (South County Road can also be accessed directly from MA-2 a few miles south of Florida). Do not follow consumer GPS shortcuts onto River Road, Tilda Hill Road, or steep unpaved Savoy backroads, and prepare for the steep grades and hairpin switchbacks on MA-2's Western Summit when climbing eastbound from North Adams.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides grade and hairpin warnings along MA-2 (Mohawk Trail) and keeps RVs on Church Road and South County Road instead of unpaved forest shortcuts."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the wide day-use and check-in parking area on Central Shaft Road just before the campground entrance gate.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when unhooking in the Central Shaft Road staging lot and backing into orchard or perimeter pads."
+    }
+  },
+  "content": {
+    "overview": "High-elevation northern Berkshire state forest campground set in a historic apple orchard near North Pond, South Pond, Bog Pond, and Tannery Falls, offering 45 primitive sites (no electric, water, or sewer hookups), 4 log cabins, flush-toilet and shower comfort stations, bear boxes, and an RV dump station.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Helps stabilize travel trailers and motorhomes on sloped former orchard pads."
+    },
+    "loopC": "Former apple orchard meadow sites (Sites 6–31 & 36–45) providing wider turn radii and open sky for self-contained rigs up to 30–35 ft.",
+    "loopsAB": "Wooded edge sites (Sites 1–5 & 32–35) suited for smaller travel trailers, camper vans, and pop-ups under 25 ft."
+  }
+},
+  {
   "id": "summit-hill-campground",
   "name": "Summit Hill Campground",
   "ownertype": "Private Campground",
