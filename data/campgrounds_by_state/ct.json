@@ -1,5 +1,57 @@
 [
   {
+  "id": "white-pines-campsites",
+  "name": "White Pines Campsites",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "CT",
+  "city": "Barkhamsted",
+  "featured": true,
+  "lat": 41.938044,
+  "lng": -73.039276,
+  "image": "/images/white-pines-campsites.jpg",
+  "mapImage": "/images/white-pines-campsites-map.jpg",
+  "address": "232 Old North Rd, Barkhamsted, CT 06063",
+  "gps": "41.9380° N, 73.0393° W",
+  "phone": "+1 (959) 251-1251",
+  "website": "https://camphappygrounds.com/white-pines/",
+  "summary": "Set in the Litchfield Hills near Riverton and the West Branch Farmington River in Northern Connecticut, White Pines Campsites offers 30- and 50-amp RV sites alongside cabins and yurts for rigs up to 40–45 feet.",
+  "scorecard": {
+    "maxRigLength": "Up to 40–45 ft (30- and 50-amp RV sites)",
+    "toadFriendliness": "Moderate — paved Litchfield Hills approach via US-44 and CT-8 North to CT-183 / Sandy Brook Road and Old North Road, with rolling hills and wooded turns",
+    "treeClearance": "Tall white pine and hardwood forest; main entrance avenues are trimmed for Class As and fifth-wheels while interior wooded loops have tighter overhead branches",
+    "bestBigRigLoops": "Main Avenue & Open Recreation-Adjacent 50-Amp Sites (up to 40–45 ft)",
+    "bestSmallRigLoops": "Wooded Pine Loops & Pond-Side Sites (under 32 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From US-44 in Winsted, take CT-8 North into Colebrook, turn right onto CT-183 (Sandy Brook Road) toward Riverton, and follow Old North Road to 232 Old North Rd. If approaching from the east via CT-20 West through Riverton, cross the West Branch Farmington River onto CT-183 and connect to Old North Road—avoiding steep, narrow forest roads through Peoples State Forest and around Barkhamsted Reservoir.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps large RVs on the primary CT-8 and CT-183 corridors via Winsted and Riverton rather than steep Peoples State Forest backroads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the front check-in parking area off Old North Road before entering the pine-lined interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging near the Old North Road check-in lot and backing into pine-lined pads."
+    }
+  },
+  "content": {
+    "overview": "Large family campground in Barkhamsted, CT (minutes from Riverton, the West Branch Farmington River, and 35 minutes northwest of Hartford) featuring 30- and 50-amp RV sites, safari tents, yurts, cabins, large swimming pool, arcade room, pond recreation area, and hiking trails.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics from rural Litchfield Hills voltage fluctuations on 30- and 50-amp hookup pedestals."
+    },
+    "loopC": "Wider 50-amp sites along the primary entrance avenues with easier swing angles for Class As, fifth-wheels, and travel trailers up to 40–45 ft.",
+    "loopsAB": "Shaded pine-forest pads suited for travel trailers, Class Cs, and pop-ups under 32 ft."
+  }
+},
+  {
   "id": "gibson-hill-campground",
   "name": "Gibson Hill Campground",
   "ownertype": "Private Campground",
