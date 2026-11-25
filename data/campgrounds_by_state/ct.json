@@ -1,5 +1,57 @@
 [
   {
+  "id": "gibson-hill-campground",
+  "name": "Gibson Hill Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "CT",
+  "city": "Sterling",
+  "featured": true,
+  "lat": 41.709383,
+  "lng": -71.796355,
+  "image": "/images/gibson-hill-campground.jpg",
+  "mapImage": "/images/gibson-hill-campground-map.jpg",
+  "address": "177 Gibson Hill Rd, Sterling, CT 06377",
+  "gps": "41.7094° N, 71.7964° W",
+  "phone": "+1 (860) 546-3312",
+  "website": "https://camphappygrounds.com/gibson-hill/",
+  "summary": "Tucked on 60 wooded acres in Connecticut's Quiet Corner along the Rhode Island border in Sterling, Gibson Hill Campground offers full-hookup RV sites within 20 minutes of Foxwoods and Mohegan Sun.",
+  "scorecard": {
+    "maxRigLength": "Up to 40–45 ft (full-hookup 30/50-amp RV sites)",
+    "toadFriendliness": "Moderate — paved state highway approach via I-395 Exit 28 or US-6 onto CT-14 / CT-14A and Gibson Hill Road, with rolling rural town roads",
+    "treeClearance": "Mature New England oak and pine forest with historic stone walls; main RV avenues are cleared while back wooded pads have lower limbs",
+    "bestBigRigLoops": "Main Avenue & Open Field Full-Hookup Sites (up to 40–45 ft)",
+    "bestSmallRigLoops": "Wooded Perimeter & Pond-Adjacent Sites (under 32 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-395 North or South, take Exit 28 (CT-14 / Plainfield-Sterling) east on CT-14 through Sterling center, or approach from Rhode Island via US-6 West to CT-14A West and Gibson Hill Road to 177 Gibson Hill Rd. Avoid narrow rural cut-throughs off Bailey Road or unpaved town lanes.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps large RVs on primary CT-14 and CT-14A state corridors rather than narrow Quiet Corner cut-throughs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the front check-in parking area off Gibson Hill Road before entering the wooded interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging near the Gibson Hill Road check-in area and backing into wooded pads."
+    }
+  },
+  "content": {
+    "overview": "60-acre family-oriented campground in Sterling, CT (minutes from the RI border, Foxwoods and Mohegan Sun, and Mystic) offering full-hookup RV sites, seasonal and monthly stays, fishing pond, bonfire circle, live weekend entertainment, and historic stone-wall hiking trails.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics from rural Quiet Corner voltage drops on 30- and 50-amp hookup pedestals."
+    },
+    "loopC": "Open, wider-radius full-hookup RV sites near the central activity area suited for Class As, fifth-wheels, and travel trailers up to 40–45 ft.",
+    "loopsAB": "Quieter wooded pads bordered by historic stone walls suited for travel trailers, Class Cs, and pop-ups under 32 ft."
+  }
+},
+  {
   "id": "river-bend-campground",
   "name": "River Bend Campground",
   "ownertype": "Private Campground",
