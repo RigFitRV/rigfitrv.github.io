@@ -1,5 +1,57 @@
 [
   {
+  "id": "october-mountain-state-forest-campground",
+  "name": "October Mountain State Forest Campground",
+  "ownertype": "State Park",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Lee",
+  "featured": true,
+  "lat": 42.33626,
+  "lng": -73.23382,
+  "image": "/images/october-mountain-state-forest-campground.jpg",
+  "mapImage": null,
+  "address": "256 Woodland Rd, Lee, MA 01238",
+  "gps": "42.3363° N, 73.2338° W",
+  "phone": "+1 (413) 243-1778",
+  "website": "https://www.mass.gov/locations/october-mountain-state-forest",
+  "summary": "Set inside Massachusetts' largest state forest just 3 miles north of I-90 Exit 10 in Lee, October Mountain State Forest Campground offers 44 dry-camping sites across a three-tiered woodland layout with a central dump station.",
+  "scorecard": {
+    "maxRigLength": "Up to 35 ft (select lower-tier sites; dry camping only, no hookups)",
+    "toadFriendliness": "Moderate — paved approach via US-20, Center Street, and Woodland Road, though tight three-tiered forest loops make unhooking advisable",
+    "treeClearance": "Dense northern hardwood canopy across all three tiers; inspect overhead branches carefully before raising roof vents or awnings",
+    "bestBigRigLoops": "Lower Tier Sites 1–23 (longer gravel pads near the main access road and dump station)",
+    "bestSmallRigLoops": "Upper Tier Sites 24–28 & 34–50 (tighter turn radii best for vans, truck campers, and trailers under 25 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (Mass Pike) Exit 10 (Lee), follow US-20 West 1.1 miles into downtown Lee, turn north onto Center Street, and continue onto Woodland Road to 256 Woodland Rd. Do not follow GPS shortcuts over unpaved Washington Mountain Road or steep gravel forest service roads from Becket or Washington—use the paved Lee approach exclusively.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Prevents routing RVs onto steep, unpaved Washington Mountain Road forest shortcuts."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle at the campground entrance and visitor contact parking area off Woodland Road before climbing the three-tiered loop road.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when unhooking at the Woodland Road entrance and backing into wooded gravel pads."
+    }
+  },
+  "content": {
+    "overview": "17,000-acre Massachusetts DCR state forest campground featuring 44 primitive campsites (no water, electric, or sewer hookups), 3 yurts, hot-shower comfort stations, bear-proof food lockers, an RV dump station, and direct access to Schermerhorn Gorge and the Appalachian Trail.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Essential for leveling RVs and travel trailers on sloped, terraced woodland gravel pads."
+    },
+    "loopC": "Lower-tier sites (Sites 1–23) offering the widest approach angles and straightest back-in pads for self-contained RVs up to 35 ft.",
+    "loopsAB": "Higher-elevation terraced sites (Sites 24–50) with tighter switchbacks and shorter gravel pads suited for camper vans, pop-ups, and small trailers under 25 ft."
+  }
+},
+  {
   "id": "camp-overflow",
   "name": "Camp Overflow",
   "ownertype": "Private Campground",
