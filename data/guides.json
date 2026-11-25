@@ -1,5 +1,39 @@
 [
   {
+  "id": "berkshires-camping",
+  "slug": "berkshires",
+  "eyebrow": "Regional RV Travel Guide • The Berkshires, MA",
+  "title": "The Berkshires RV Navigation & Camping Guide",
+  "subtitle": "Complete Big Rig Routing, Mountain Grade Warnings & Verified Campgrounds",
+  "lead": "Navigate Western Massachusetts' Taconic and Hoosac mountain corridors with confidence—featuring verified arterial highway approaches, hairpin grade warnings, and 8 audited campgrounds from Otis Reservoir to the Mohawk Trail.",
+  "region": "The Berkshires",
+  "state": "MA",
+  "lat": 42.4501,
+  "lng": -73.2454,
+  "image": "/images/berkshires-camping-guide.jpg",
+  "summary": "Expert RV camping guide for The Berkshires in Western Massachusetts. Verified highway routing along I-90, US-7, US-20, and MA-2 plus 8 audited state forest and private campgrounds.",
+  "featuredCampgroundIds": [
+    "bonnie-brae-campground",
+    "mt-greylock-campsite-park",
+    "fernwood-forest-campground",
+    "camp-overflow",
+    "october-mountain-state-forest-campground",
+    "walker-island-family-camping",
+    "summit-hill-campground",
+    "savoy-mountain-state-forest-campground"
+  ],
+  "introHtml": "<h2>🌲 Why The Berkshires is an Elite RV Destination</h2><p>Stretching across Western Massachusetts from the Connecticut border north to Vermont, The Berkshires pair classic New England mountain scenery with cultural landmarks like Tanglewood, Hancock Shaker Village, and the Appalachian Trail. For RVers, the region offers everything from full-hookup lake-adjacent parks in Pittsfield and East Otis to high-elevation state forest orchards atop the Hoosac Range.</p><hr><h2>🚚 Rig Clearance &amp; Heavy Highway Routing Guidance</h2><p>While the central valley floor along US-7 is straightforward for Class A motorhomes and fifth-wheels, east-west crossings and hilltown climbs feature steep sustained grades, tight hairpins, and unpaved forest roads that catch consumer GPS apps off guard.</p><h3>Key Highway Approaches</h3><ul><li><strong>I-90 (Mass Pike) Exit 10 (Lee) &amp; US-7 Spine:</strong> The cleanest primary corridor for big rigs entering Lee, Pittsfield (Bonnie Brae), and Lanesborough (Mt. Greylock Campsite Park). Stick to US-7 rather than downtown Pittsfield residential cut-throughs.</li><li><strong>MA-2 (Mohawk Trail) &amp; Western Summit Hairpins:</strong> Climbing eastbound out of North Adams toward Florida and Savoy Mountain State Forest involves steep 8–10% grades and tight switchbacks. Use lower gears on descent and approach Savoy Mountain via Church Road or South County Road to Central Shaft Road.</li><li><strong>US-20 (Jacob's Ladder Scenic Byway):</strong> Winds along the Westfield River valley between Lee, Becket, and Chester (Walker Island Family Camping) with 6% mountain grades—ideal from I-90 Exit 41 (Westfield) for an easier river-level approach.</li><li><strong>MA-8 &amp; Hilltown Connectors:</strong> Use paved MA-8 connectors—such as Michaels Road to Longview Avenue for Fernwood Forest, or Reservoir Road / West Shore Road to Tolland Road for Camp Overflow—and avoid unpaved roads in Washington, Becket, and Savoy.</li></ul><blockquote><strong>Pro Clearance Tip:</strong> Never attempt to tow an RV or drive a large motorhome up Notch Road or Rockwell Road onto the Mt. Greylock Summit auto road—those narrow mountain grades carry strict length limits and hairpin turns with zero turnaround space.</blockquote>",
+  "utilityHtml": "<h2>⚡ Local Infrastructure &amp; Utility Insights</h2><ul><li><strong>Power Grid Loads:</strong> Private parks in Pittsfield, Hinsdale, and East Otis offer 30- and 50-amp hookups, while Massachusetts DCR campgrounds (October Mountain and Savoy Mountain) are strictly dry-camping only with central dump stations.</li><li><strong>Water Pressure &amp; Filtration:</strong> Mountain well and spring-fed systems across Berkshire hilltowns can fluctuate in pressure; carry a brass pressure regulator and inline sediment filter.</li><li><strong>Cellular Coverage:</strong> Strong 5G/LTE coverage along the US-7 corridor (Lee, Pittsfield, Lanesborough), dropping to weak or intermittent signals inside deep state forest hollows at October Mountain, Savoy Mountain, and along the Westfield River gorge on US-20.</li></ul>",
+  "recommendedGearKeys": [
+    "garmin-rv-890",
+    "heavy-duty-surge-protector",
+    "tri-lynx-blocks"
+  ],
+  "gearNote": "Essential RV-specific mountain routing, surge protection, and leveling gear for Berkshire grades.",
+  "updatePrompt": "Encountered a new low-hanging branch, road construction detour, or updated site layout in The Berkshires?",
+  "publishedDate": "2026-11-25"
+},
+  {
   "id": "erie-lake-erie-shoreline-camping",
   "slug": "erie-lake-erie-shoreline",
   "eyebrow": "Regional RV Travel Guide • Erie & Lake Erie Shoreline",
