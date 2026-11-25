@@ -1,5 +1,57 @@
 [
   {
+  "id": "fernwood-forest-campground",
+  "name": "Fernwood Forest Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Hinsdale",
+  "featured": true,
+  "lat": 42.428994,
+  "lng": -73.130932,
+  "image": "/images/fernwood-forest-campground.jpg",
+  "mapImage": "/images/fernwood-forest-campground-map.jpg",
+  "address": "350 Longview Ave, Hinsdale, MA 01235",
+  "gps": "42.4290° N, 73.1309° W",
+  "phone": "+1 (413) 655-2292",
+  "website": "https://fernwoodforest.com/",
+  "summary": "Spanning 115 acres of Berkshire woodland adjacent to the Appalachian Trail in Hinsdale, Fernwood Forest Campground offers 20/30/50-amp sites for RVs up to 40 feet with clean access via Michaels Road to Longview Avenue.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (20/30/50-amp sites)",
+    "toadFriendliness": "Moderate — paved approach via MA-8 South of Hinsdale onto Michaels Rd and Longview Ave",
+    "treeClearance": "Dense 115-acre forest setting; open rec-hall field sites have clean sky while interior forest pads require branch checks",
+    "bestBigRigLoops": "50-Amp Open Field & Main Entrance Loop Sites (up to 40 ft)",
+    "bestSmallRigLoops": "Appalachian Trail-Border Wooded 30-Amp Sites (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Do not route through Hinsdale center when towing. Instead, approach from south of Hinsdale off MA-8 onto Michaels Road, then turn onto Longview Avenue where the campground entrance is right there at 350 Longview Ave. Stick to paved state routes (MA-8 / US-20) and avoid unpaved hilltown roads between Washington and Hinsdale.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Helps keep large RVs off narrow Hinsdale center streets and unpaved hilltown cut-throughs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the open staging area near the main office and recreation hall right off the Longview Avenue entrance before backing into wooded sites.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging near the recreation hall and backing into tree-lined pads."
+    }
+  },
+  "content": {
+    "overview": "Quiet, family-operated 51-site campground on 115 wooded acres bordering the Appalachian Trail, offering 20/30/50-amp hookups, recreation hall, two pavilions, volleyball and basketball courts, and central access to Pittsfield, Tanglewood, and Mt. Greylock.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics against voltage fluctuations on rural 30- and 50-amp pedestals."
+    },
+    "loopC": "Level 50-amp sites near the central recreation hall and open field area accommodating rigs up to 40 ft.",
+    "loopsAB": "Deeply shaded woodland sites tucked along the forest ridge near the Appalachian Trail corridor; best for travel trailers and Class Cs under 30 ft."
+  }
+},
+  {
   "id": "mt-greylock-campsite-park",
   "name": "Mt. Greylock Campsite Park",
   "ownertype": "Private Campground",
