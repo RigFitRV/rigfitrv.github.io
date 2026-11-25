@@ -1,5 +1,57 @@
 [
   {
+  "id": "summit-hill-campground",
+  "name": "Summit Hill Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Washington",
+  "featured": true,
+  "lat": 42.383312,
+  "lng": -73.087338,
+  "image": "/images/summit-hill-campground.jpg",
+  "mapImage": "/images/summit-hill-campground-map.jpg",
+  "address": "34 Old Middlefield Rd, Washington, MA 01223",
+  "gps": "42.3833° N, 73.0873° W",
+  "phone": "+1 (413) 623-5761",
+  "website": "https://www.summithillcamp.com/",
+  "summary": "Perched on the Berkshire plateau in Washington near October Mountain and Pittsfield, Summit Hill Campground offers wooded water/electric RV sites with direct access to on-site hiking trails and high-elevation summer breezes.",
+  "scorecard": {
+    "maxRigLength": "Up to 35–40 ft (select open/field-edge RV pads; wooded sites vary)",
+    "toadFriendliness": "Moderate — hilltown approach via MA-8 and Washington Mountain Road / Old Middlefield Road features sustained 5–7% climbs",
+    "treeClearance": "Mixed plateau hardwoods and pines; open clearing near the main activity field provides good clearance while wooded interior sites have low branches",
+    "bestBigRigLoops": "Open Plateau & Main Field-Edge RV Sites",
+    "bestSmallRigLoops": "Secluded Wooded Back-In Sites (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Approach via MA-8 (from Hinsdale/Dalton to the north or Becket/US-20 to the south) onto Washington Mountain Road / Summit Hill Road to 34 Old Middlefield Rd in Washington. Avoid narrow gravel hilltown roads (such as Frost Road or unpaved Middlefield town roads) when towing; verify your exact route via paved MA-8 connectors.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps RVs routed along paved MA-8 plateau connectors rather than steep, narrow hilltown dirt roads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the front check-in parking area off Old Middlefield Road before entering the wooded interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging near the Old Middlefield Road check-in lot and backing into wooded pads."
+    }
+  },
+  "content": {
+    "overview": "High-elevation Berkshire plateau campground in Washington offering water/electric RV sites, secluded tent sites, on-site hiking trails, playground, and family weekend events midway between Lee and Pittsfield.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Helps stabilize travel trailers and motorhomes on sloped Berkshire plateau terrain."
+    },
+    "loopC": "Wider, flatter plateau sites near the main entrance and central recreation lawn suited for Class Cs, fifth-wheels, and travel trailers up to 35–40 ft.",
+    "loopsAB": "Quiet, heavily wooded perimeter pads tailored to smaller travel trailers, camper vans, and pop-ups under 30 ft."
+  }
+},
+  {
   "id": "walker-island-family-camping",
   "name": "Walker Island Family Camping",
   "ownertype": "Private Campground",
