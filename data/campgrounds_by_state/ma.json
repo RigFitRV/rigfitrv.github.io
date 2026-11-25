@@ -1,5 +1,57 @@
 [
   {
+  "id": "bonnie-brae-campground",
+  "name": "Bonnie Brae Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Pittsfield",
+  "featured": true,
+  "lat": 42.489704,
+  "lng": -73.237990,
+  "image": "/images/bonnie-brae-campground.jpg",
+  "mapImage": "/images/bonnie-brae-campground-map.jpg",
+  "address": "108 Broadway St, Pittsfield, MA 01201",
+  "gps": "42.4897° N, 73.2380° W",
+  "phone": "+1 (413) 344-2674",
+  "website": "https://camphappygrounds.com/bonnie-brae/",
+  "summary": "Located in northern Pittsfield just off US-7 near Lake Pontoosuc, Bonnie Brae Campground offers 30- and 50-amp full-hookup RV sites accommodating rigs up to 45 feet with straightforward arterial highway access.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (30/50-amp full-hookup sites)",
+    "toadFriendliness": "Good — direct turn off US-7 onto Broadway Street with level staging near check-in",
+    "treeClearance": "Moderate canopy on perimeter sites; open sky around the central pool and open RV section",
+    "bestBigRigLoops": "Main Full-Hookup Open & 50-Amp Sites",
+    "bestSmallRigLoops": "Wooded Perimeter 30-Amp Sites & Cabin/Tent Edge"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (Mass Pike) Exit 10 (Lee), take US-7 / US-20 North through Pittsfield, continuing north on US-7 (North Street / Wahconah Street corridor) to Broadway Street on the west side near Lake Pontoosuc. Avoid residential cut-through streets in downtown Pittsfield when towing long fifth-wheels or Class As.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps Class A motorhomes and fifth-wheels routed strictly along US-7 through Pittsfield instead of narrow residential side streets."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the front check-in parking area at the end of Broadway Street before maneuvering onto your RV pad.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging at the end of Broadway Street and backing onto full-hookup pads."
+    }
+  },
+  "content": {
+    "overview": "Quaint ~50-site northern Pittsfield park near Lake Pontoosuc featuring 30/50-amp full-hookup RV sites, heated pool, rec room, laundry, bathhouse, cabins, and easy access to Tanglewood, Hancock Shaker Village, and Pittsfield cultural venues.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics against summer peak voltage fluctuations on 30- and 50-amp full-hookup pedestals."
+    },
+    "loopC": "Level 30/50-amp full-hookup RV pads in the main open section capable of handling rigs up to 45 ft.",
+    "loopsAB": "Cozy shaded sites and tent/cabin edges best suited for smaller travel trailers, camper vans, and Class Cs under 30 ft."
+  }
+},
+  {
     "id": "sandy-pond-campground",
     "name": "Sandy Pond Campground",
     "ownertype": "Private Campground",
