@@ -1,5 +1,57 @@
 [
   {
+  "id": "mt-greylock-campsite-park",
+  "name": "Mt. Greylock Campsite Park",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Lanesborough",
+  "featured": true,
+  "lat": 42.551250,
+  "lng": -73.229392,
+  "image": "/images/mt-greylock-campsite-park.jpg",
+  "mapImage": "/images/mt-greylock-campsite-park-map.jpg",
+  "address": "15 Scott Rd, Lanesborough, MA 01237",
+  "gps": "42.5513° N, 73.2294° W",
+  "phone": "+1 (413) 447-9419",
+  "website": "https://www.mtgreylockcampsitepark.com/",
+  "summary": "Set on 40 wooded acres at the base of Massachusetts' highest peak in Lanesborough, Mt. Greylock Campsite Park welcomes RVs up to 38 feet with water/electric hookups and direct US-7 approach routing.",
+  "scorecard": {
+    "maxRigLength": "Up to 38 ft (water/electric hookup sites)",
+    "toadFriendliness": "Moderate — paved US-7 approach to North Main Street / Scott Road, transitioning to wooded foothill park lanes",
+    "treeClearance": "Mature northern Berkshire hardwood and hemlock canopy; check roof/AC clearance on inner wooded sites",
+    "bestBigRigLoops": "Front Open Field & Outer Perimeter Water/Electric Sites (up to 38 ft)",
+    "bestSmallRigLoops": "Wooded Foothill Back-In Sites (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Follow US-7 North or South into Lanesborough, turn east onto North Main Street / Old State Road following campground signage onto Scott Road to 15 Scott Rd. Never tow an RV up Notch Road or Rockwell Road onto the Mt. Greylock Summit auto road—those mountain grades have sharp hairpins, steep 10%+ grades, and strict length and brake restrictions.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Prevents routing large RVs onto steep Mt. Greylock summit auto roads or narrow mountain cut-throughs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle near the front office and dump-station staging lane off Scott Road before heading into the sloped, tree-lined interior loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when unhooking at the Scott Road entrance lane and backing into wooded foothill pads."
+    }
+  },
+  "content": {
+    "overview": "Family-run 115-site campground on 40 acres at the foot of Mt. Greylock featuring water/electric hookup sites, dump station, camp store, playground, and immediate trail access to Mt. Greylock State Reservation.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Helps stabilize travel trailers and motorhomes on sloped lower-mountain foothill pads."
+    },
+    "loopC": "Wider, flatter perimeter and field-adjacent RV sites equipped for rigs up to 38 ft.",
+    "loopsAB": "Secluded, shaded woodland sites nestled along the lower slope of Mt. Greylock; ideal for travel trailers and Class Cs under 30 ft."
+  }
+},
+  {
   "id": "bonnie-brae-campground",
   "name": "Bonnie Brae Campground",
   "ownertype": "Private Campground",
