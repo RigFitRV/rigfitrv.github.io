@@ -1,5 +1,57 @@
 [
   {
+  "id": "highview-campground",
+  "name": "Highview Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "West Brookfield",
+  "featured": true,
+  "lat": 42.263566,
+  "lng": -72.170894,
+  "image": "/images/highview-campground.jpg",
+  "mapImage": null,
+  "address": "58 John Gilbert Rd, West Brookfield, MA 01585",
+  "gps": "42.2636° N, 72.1709° W",
+  "phone": "+1 (508) 519-3200",
+  "website": "https://camphappygrounds.com/highview/",
+  "summary": "Perched 950 feet above sea level in Central Massachusetts near Lake Wickaboag, Highview Campground is a year-round, RV-only park offering 30-amp open and wooded sites for rigs up to 40 feet.",
+  "scorecard": {
+    "maxRigLength": "Up to 40 ft (30-amp RV-only sites; no tents)",
+    "toadFriendliness": "Moderate — paved approach via MA-32 North, Lyon Road, Ragged Hill Road, and John Gilbert Road with a steady ridge climb",
+    "treeClearance": "Open panoramic ridge sites with generous sky clearance alongside wooded perimeter pads with mature hardwoods",
+    "bestBigRigLoops": "Open Ridge & Panoramic View 30-Amp Sites (up to 40 ft)",
+    "bestSmallRigLoops": "Shaded Wooded Perimeter Pads (under 32 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From I-90 (Mass Pike) Exit 63 (Palmer), take MA-32 North to Lyon Road, continue onto Ragged Hill Road, and turn right onto John Gilbert Road to 58 John Gilbert Rd. Avoid narrow hilltown cut-throughs off Wickaboag Valley Road or unpaved town lanes.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps RVs on the primary MA-32 North, Lyon Road, and Ragged Hill Road approach rather than narrow Central Mass hilltown cut-throughs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle near the front check-in and entrance pull-off on John Gilbert Road before navigating the ridge loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging near the John Gilbert Road entrance and backing into ridge or wooded sites."
+    }
+  },
+  "content": {
+    "overview": "Year-round, RV-only hilltop campground sitting at approximately 950 feet elevation in West Brookfield (open for Winter 2026–27 extended stays) featuring 30-amp hookups, panoramic Central Mass views, bonfire area, and proximity to Lake Wickaboag town beach.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV appliances and electronics on 30-amp hookup pedestals during peak summer and winter extended stays."
+    },
+    "loopC": "Open ridge-top 30-amp sites with wider approach angles and clear overhead clearance for Class As, Class Cs, and travel trailers up to 40 ft.",
+    "loopsAB": "Quieter wooded sites tucked along the tree line suited for travel trailers and Class Cs under 32 ft."
+  }
+},
+  {
   "id": "circle-cg-campground",
   "name": "Circle CG Campground",
   "ownertype": "Private Campground",
