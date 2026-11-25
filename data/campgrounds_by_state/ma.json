@@ -1,5 +1,57 @@
 [
   {
+  "id": "walker-island-family-camping",
+  "name": "Walker Island Family Camping",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Chester",
+  "featured": true,
+  "lat": 42.273292,
+  "lng": -72.999912,
+  "image": "/images/walker-island-family-camping.jpg",
+  "mapImage": "/images/walker-island-family-camping-map.jpg",
+  "address": "27 US-20, Chester, MA 01011",
+  "gps": "42.2733° N, 72.9999° W",
+  "phone": "+1 (413) 354-2295",
+  "website": "http://www.walkerislandcamping.com/",
+  "summary": "Situated right along scenic US-20 (Jacob's Ladder Trail) beside Walker Brook in Chester, Walker Island Family Camping offers 90 wooded 20/30-amp sites tailored to RVs up to 30–38 feet.",
+  "scorecard": {
+    "maxRigLength": "Up to 30–38 ft (select outer/field sites up to 38 ft; brookside/island sites capped at 30 ft)",
+    "toadFriendliness": "Moderate — direct frontage on US-20, though crossing the internal brook bridge and navigating wooded island turns requires unhooking",
+    "treeClearance": "Heavy hemlock and hardwood shade along Walker Brook; check low branches on brookside sites",
+    "bestBigRigLoops": "Main Entrance & Upper Open 30-Amp Sites (up to 38 ft)",
+    "bestSmallRigLoops": "Wooded Walker Brook & Island Sites (under 30 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "Take I-90 (Mass Pike) Exit 41 (Westfield) onto US-20 West for approximately 19 miles along the Westfield River valley straight into Chester (27 US-20 on the left), or take I-90 Exit 10 (Lee) east on US-20 over Jacob's Ladder (6% mountain grades—use lower gears on descent) for ~15 miles into Chester.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Provides grade and curve alerts along US-20 (Jacob's Ladder Scenic Byway) and prevents routing onto steep hilltown cut-throughs."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the front check-in lot directly off US-20 before crossing the internal bridge onto the wooded island section.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when unhooking in the US-20 entrance lot and backing onto brookside or island pads."
+    }
+  },
+  "content": {
+    "overview": "Family-friendly 90-site campground along Walker Brook on historic Jacob's Ladder Scenic Byway (US-20), featuring 20/30-amp water/electric sites, swimming pool, rec hall, laundry, propane, and proximity to Keystone Arch Bridges and Chester-Blandford State Forest.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics from voltage dips and surges on 20- and 30-amp hookup pedestals."
+    },
+    "loopC": "Level 30-amp sites near the main entrance and pool field accommodating Class Cs and travel trailers up to 38 ft.",
+    "loopsAB": "Shaded brookside and island sites tucked under tall hemlocks; strictly suited for rigs 30 ft and under."
+  }
+},
+  {
   "id": "october-mountain-state-forest-campground",
   "name": "October Mountain State Forest Campground",
   "ownertype": "State Park",
