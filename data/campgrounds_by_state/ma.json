@@ -1,5 +1,57 @@
 [
   {
+  "id": "camp-overflow",
+  "name": "Camp Overflow",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "East Otis",
+  "featured": true,
+  "lat": 42.153653,
+  "lng": -73.058173,
+  "image": "/images/camp-overflow.jpg",
+  "mapImage": "/images/camp-overflow-map.jpg",
+  "address": "700 Tolland Rd, East Otis, MA 01029",
+  "gps": "42.1537° N, 73.0582° W",
+  "phone": "+1 (413) 269-4036",
+  "website": "https://www.campoverflow.com/",
+  "summary": "Positioned along the 3-mile Otis Reservoir in East Otis, Camp Overflow offers 150 wooded and lakeside RV sites with water/electric hookups for rigs up to 45 feet via Reservoir Road or West Shore Road onto Tolland Road.",
+  "scorecard": {
+    "maxRigLength": "Up to 45 ft (water/electric hookups)",
+    "toadFriendliness": "Moderate — paved local connectors via Reservoir Rd (from MA-8) or W Shore Rd (from MA-23) to Tolland Rd, with rolling grades and lakeside loop turns",
+    "treeClearance": "Tall white pine and hemlock canopy around Otis Reservoir; watch low limbs on waterfront back-in pads",
+    "bestBigRigLoops": "Upper Ridge & Open 30/50-Amp Pull-Through/Long Back-In Sites (up to 45 ft)",
+    "bestSmallRigLoops": "Shoreline Cove & Pine Grove Sites (under 32 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From MA-8, take Reservoir Road west to Tolland Road south directly to 700 Tolland Rd. If approaching from MA-23, take West Shore Road east to Tolland Road south. Watch rolling southern Berkshire grades along the reservoir connectors and avoid narrow seasonal cottage lanes.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps large rigs on the primary Reservoir Road and West Shore Road connectors rather than tight Otis Reservoir cottage roads."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle in the front check-in and marina/store parking area off Tolland Road before descending toward the lakeside loops.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when unhooking at the Tolland Road entrance and backing into pine-lined pads."
+    }
+  },
+  "content": {
+    "overview": "Classic southern Berkshire lakefront campground on Otis Reservoir featuring 150 sites, on-site marina, boat rentals, sandy beach, dishwashing station, laundry room, and camp store.",
+    "recommendedGear": {
+      "gearKey": "tri-lynx-blocks",
+      "reason": "Helps level motorhomes and travel trailers on sloped lakeside and terraced reservoir pads."
+    },
+    "loopC": "Wider upper-terrace sites with easier turn radii and level pads supporting RVs up to 45 ft.",
+    "loopsAB": "Scenic pine-shaded lakeside and cove sites suited for travel trailers, Class Cs, and pop-ups under 32 ft."
+  }
+},
+  {
   "id": "fernwood-forest-campground",
   "name": "Fernwood Forest Campground",
   "ownertype": "Private Campground",
