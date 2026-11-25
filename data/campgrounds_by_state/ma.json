@@ -1,5 +1,57 @@
 [
   {
+  "id": "berrys-grove-campground",
+  "name": "Berry's Grove Campground",
+  "ownertype": "Private Campground",
+  "addedDate": "2026-11-25",
+  "updatedDate": null,
+  "ownerVerified": false,
+  "ownerTip": null,
+  "state": "MA",
+  "city": "Tyngsborough",
+  "featured": true,
+  "lat": 42.677667,
+  "lng": -71.395190,
+  "image": "/images/berrys-grove-campground.jpg",
+  "mapImage": "/images/berrys-grove-campground-map.jpg",
+  "address": "35 Davis St, Tyngsborough, MA 01879",
+  "gps": "42.6777° N, 71.3952° W",
+  "phone": "+1 (978) 890-6216",
+  "website": "https://camphappygrounds.com/berrys-grove/",
+  "summary": "Open year-round on the shores of Lake Mascuppic in Tyngsborough just south of the NH border, Berry's Grove Campground offers 24 full-hookup 50-amp RV sites (town water and sewer) with private lake dock access.",
+  "scorecard": {
+    "maxRigLength": "Up to 40–45 ft (24 RV-only full-hookup 50-amp sites; no tent camping)",
+    "toadFriendliness": "Moderate — easy highway approach via US-3 Exit 87 onto Westford Road, Kendall Road, and Lakeview Avenue, though residential lakeside streets near Davis Street require careful turning",
+    "treeClearance": "Mature lakeside oaks and maples; watch overhead branches along Davis Street and shoreline pads",
+    "bestBigRigLoops": "Main Avenue Full-Hookup 50-Amp Pull-In/Back-In Sites",
+    "bestSmallRigLoops": "Lakefront & Dock-Adjacent Sites (under 32 ft)"
+  },
+  "approach": {
+    "title": "Highway Approach & Routing Guidance",
+    "text": "From US-3 North or South, take Exit 87 (Westford Road / Tyngsborough) east across the Merrimack River bridge onto Middlesex Road / Kendall Road, continue onto Lakeview Avenue (MA-113 East) along Lake Mascuppic, and turn onto Davis Street to 35 Davis St. Avoid narrow residential lake-cottage cut-throughs off Willowdale Avenue.",
+    "recommendedGear": {
+      "gearKey": "garmin-rv-890",
+      "reason": "Keeps large rigs on primary MA-113 and Lakeview Avenue connectors rather than narrow Lake Mascuppic cottage lanes."
+    }
+  },
+  "toadStrategy": {
+    "text": "Unhook your towed vehicle near the front check-in and lakeside parking pull-off along Davis Street before backing into your 50-amp pad.",
+    "recommendedGear": {
+      "gearKey": "rv-dash-cam-backup-camera",
+      "reason": "Provides clear rear visibility when staging along Davis Street and backing into lakeside full-hookup pads."
+    }
+  },
+  "content": {
+    "overview": "Intimate 24-site lakeside RV community on Lake Mascuppic (15 minutes from Nashua, NH and 45 minutes north of Boston) operating year-round—including Winter 2026–27 extended stays—with 50-amp electric, municipal water and sewer hookups, private dock, and swimming area.",
+    "recommendedGear": {
+      "gearKey": "heavy-duty-surge-protector",
+      "reason": "Protects RV electronics on 50-amp pedestals during summer peak loads and winter extended stays."
+    },
+    "loopC": "Longer interior 50-amp full-hookup pads offering cleaner backing angles for Class As, Class Cs, and fifth-wheels up to 40–45 ft.",
+    "loopsAB": "Tighter lakeside and dock-adjacent pads best suited for travel trailers and Class Cs under 32 ft."
+  }
+},
+  {
   "id": "savoy-mountain-state-forest-campground",
   "name": "Savoy Mountain State Forest Campground",
   "ownertype": "State Park",
